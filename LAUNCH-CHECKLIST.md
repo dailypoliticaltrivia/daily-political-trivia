@@ -17,7 +17,7 @@ You need one answer: the **domain** you will buy (section B tells you which). **
 - [ ] Open the site folder, then the `tools` folder. Copy `launch-answers.example.json` and rename the copy to **`launch-answers.json`** (same folder).
 - [ ] Open it in Notepad. Replace the example values between the quote marks:
   - `ownerName` and `county`: **leave both empty** to stay unnamed (recommended if you do not want to be identifiable).
-  - `domain`: the domain, without `https://` and without `www`, for example `dailypoliticaltrivia.com`.
+  - `domain`: the domain, without `https://` and without `www`, for example `dailypoiticaltrivia.com`.
   - `emails`: leave the empty quote marks as they are. The script uses `legal@yourdomain`, `privacy@yourdomain` and so on. Put an address in a line only if you want a different one (for example `"dmca": "copyright@yourdomain.com"`).
   - Leave `date`, `operatorText` and `baseUrl` empty.
 - [ ] Save. This file stays on your PC only (it is excluded from the repository).
@@ -37,7 +37,7 @@ You need one answer: the **domain** you will buy (section B tells you which). **
 
 ## B. Buy the domain, in your own name (about 30 minutes, about $11 to $12 a year)
 
-The suggestions and what was checked are in `legal\domain\DOMAIN-SHORTLIST.md`. Top pick: **`dailypoliticaltrivia.com`**. If it is taken or priced above about $20 a year, check with whoever is helping you before choosing another name (the brand and its legal text assume `dailypoliticaltrivia.com`; `.net` and `.org` of the same name are the closest alternatives, see that file). Check it is still free by typing it into the registrar's search box. **Searching does not buy anything.**
+The suggestions and what was checked are in `legal\domain\DOMAIN-SHORTLIST.md`. Top pick: **`dailypoiticaltrivia.com`**. If it is taken or priced above about $20 a year, check with whoever is helping you before choosing another name (the brand and its legal text assume `dailypoiticaltrivia.com`; `.net` and `.org` of the same name are the closest alternatives, see that file). Check it is still free by typing it into the registrar's search box. **Searching does not buy anything.**
 
 - [ ] Go to **https://www.cloudflare.com/products/registrar/** (Cloudflare Registrar sells at cost). Alternative: **https://porkbun.com**.
 - [ ] Create the account with the **dedicated mailbox** from section C (do C step 1 first). Use a long unique password from a password manager.
@@ -89,7 +89,7 @@ Full detail is in `DEPLOY.md` sections 3 to 7. The short version:
 ## E. Point the domain at GitHub (about 20 minutes, then waiting up to a day)
 
 - [ ] **Verify the domain with GitHub first** (stops anyone else claiming it): on github.com click your picture, **Settings**, **Pages**, **Add a domain**, type the domain, then add the **TXT record** it shows in Cloudflare (DNS, Records, Add record, Type TXT) and click Verify.
-- [ ] Repository **Settings**, **Pages**, **Custom domain**: type your **bare domain** (for example `dailypoliticaltrivia.com`, no `www`) and **Save**.
+- [ ] Repository **Settings**, **Pages**, **Custom domain**: type your **bare domain** (for example `dailypoiticaltrivia.com`, no `www`) and **Save**.
 - [ ] In Cloudflare, domain, **DNS**, **Records**, **Add record**. Add these, each with the **grey cloud ("DNS only")**:
 
   | Type | Name | Content |
