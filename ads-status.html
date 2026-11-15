@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Ad setup status · Daily Political Trivia</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.st h2{font:600 15px var(--sans);border-top:2px solid var(--ink);padding-top:var(--s3);margin:var(--s7) 0 var(--s3)}
+.st p{max-width:64ch;color:var(--ink-2)}
+.st table{border-collapse:collapse;width:100%;max-width:820px;font-size:15px}
+.st th,.st td{text-align:left;vertical-align:top;padding:10px 12px 10px 0;border-bottom:1px solid var(--line)}
+.st th{font-weight:600;width:34%}
+.ok{color:var(--good);font-weight:600}.no{color:var(--bad);font-weight:600}.na{color:var(--muted)}
+.st code{font:13px ui-monospace,Consolas,monospace;overflow-wrap:anywhere}
+.st ol{max-width:64ch;padding-left:1.3em}.st li{margin:0 0 var(--s2);color:var(--ink-2)}
+.row{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s3);margin:var(--s4) 0}
+.st a.btn{text-decoration:none}
+</style>
+</head>
+<body data-section="" data-ads="off">
+<main id="main" class="page">
+  <div class="wrap st">
+    <h1 class="ptitle">Ad setup status</h1>
+    <p class="lede">A read-only checklist of what is configured in <code>ads-config.js</code> and what is still missing. It shows no ads and draws no ad-like boxes.</p>
+
+    <h2>Configuration</h2>
+    <table id="cfgTable"><tbody></tbody></table>
+
+    <h2>Site checks</h2>
+    <table id="siteTable"><tbody><tr><td>Running checks...</td></tr></tbody></table>
+
+    <h2>See what the site would request</h2>
+    <p>Open the browser console (F12), then open any page with <code>?adsdebug=1</code> on the end of the address. It prints every slot with its ad unit path, sizes, bidders, consent state and library state, and draws nothing.</p>
+    <div class="row">
+      <a class="btn ghost" href="index.html?adsdebug=1">Home page, debug report</a>
+      <a class="btn ghost" href="games/index.html?adsdebug=1">Games page, debug report</a>
+      <a class="btn ghost" href="?adsdebug=1">This page, debug report</a>
+    </div>
+
+    <h2>Before launch checklist</h2>
+    <ol>
+      <li>Site is live on your own domain over https (not only github.io).</li>
+      <li>Enough original content: Opinions, original game content, About, Privacy, a real contact address.</li>
+      <li>Privacy policy finished with real details and reviewed by a lawyer.</li>
+      <li>Ad account approved (AdSense and/or Ad Manager, or a managed partner). Ids pasted into <code>ads-config.js</code>.</li>
+      <li>Consent tool set up (Google Funding Choices or another certified CMP) and tested from an EU location.</li>
+      <li><code>ads.txt</code> contains the real lines and opens at <code>https://your-domain/ads.txt</code>.</li>
+      <li>Test mode run once after deployment (then turned off again), and <code>?adsdebug=1</code> output looks right.</li>
+      <li><code>enabled</code> set to <code>true</code>.</li>
+    </ol>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/ads/ads-config.js"></script>
+<script src="assets/ads/ads-loader.js"></script>
+<script>
+(function(){
+  var cfg = window.SIN_ADS_CFG || {}, plan = window.SIN_ADS_PLAN || { slots: {}, video: {}, problems: [], notes: [] };
+  function mark(ok, yes, no){ return ok ? '<span class="ok">' + yes + '</span>' : '<span class="no">' + no + '</span>'; }
+  function row(k, v){ return '<tr><th scope="row">' + k + '</th><td>' + v + '</td></tr>'; }
+  var labels = { topBanner: 'Top banner', sideRail: 'Side rail 300x250', sideRailTall: 'Side rail 300x600', inContent: 'In-content' };
+  var h = '';
+  h += row('Master switch (enabled)', mark(plan.enabled, 'ON', 'OFF: no ads anywhere'));
+  h += row('Stack', '<code>' + (plan.stack || '') + '</code>' + (plan.testMode ? ' <span class="no">TEST MODE ON (test traffic only)</span>' : ''));
+  Object.keys(labels).forEach(function(k){ h += row(labels[k], mark(plan.slots[k], 'configured', 'not configured')); });
+  h += row('Video pre-roll / post-roll / rail', ['preroll', 'postroll', 'outstream'].map(function(k){ return k + ': ' + mark(plan.video[k], 'tag set', 'no tag'); }).join('<br>'));
+  h += row('Prebid header bidding', cfg.prebid && cfg.prebid.enabled ? mark(!!(cfg.prebid.localBuild || cfg.prebid.scriptUrl), 'on, build set', 'on but no build file or URL') : '<span class="na">off</span>');
+  h += row('Consent', '<code>' + (cfg.consent ? cfg.consent.provider : '') + '</code>' + (cfg.consent && cfg.consent.provider === 'cmp' ? ' ' + mark(!!(cfg.consent.fundingChoicesPubId), 'Funding Choices id set', 'no Funding Choices id (fine if your CMP is added another way)') : cfg.consent && cfg.consent.provider === 'builtin' ? ' <span class="no">built-in banner is not valid for ads in Europe</span>' : ''));
+  if (plan.problems.length) h += row('Why nothing loads', plan.problems.map(function(p){ return '&bull; ' + p; }).join('<br>'));
+  if (plan.notes.length) h += row('Notes', plan.notes.map(function(p){ return '&bull; ' + p; }).join('<br>'));
+  document.querySelector('#cfgTable tbody').innerHTML = h;
+
+  var s = '';
+  s += row('Served over https', mark(location.protocol === 'https:', 'yes', location.protocol === 'http:' && /^(localhost|127\.)/.test(location.hostname) ? 'no (normal on your own PC)' : 'no: ads need https'));
+  s += row('Ad blocker in this browser', '<span class="na" id="blk">checking...</span>');
+  s += row('Consent tool on this page (__tcfapi)', typeof window.__tcfapi === 'function' ? '<span class="ok">found</span>' : '<span class="na">not found (normal until Funding Choices or another CMP is set up)</span>');
+  s += row('ads.txt', '<span id="adstxt" class="na">checking...</span>');
+  s += row('Privacy page', '<span id="priv" class="na">checking...</span>');
+  document.querySelector('#siteTable tbody').innerHTML = s;
+
+  function put(id, html){ var e = document.getElementById(id); if (e) e.innerHTML = html; }
+  var bait = document.createElement('div');
+  bait.className = 'adsbox ad-banner pub_300x250 textAd text-ad'; bait.style.cssText = 'position:absolute;left:-9999px;width:10px;height:10px'; bait.innerHTML = '&nbsp;'; document.body.appendChild(bait);
+  setTimeout(function(){ var b = bait.offsetHeight === 0; bait.remove(); put('blk', b ? '<span class="no">detected (ads would collapse; the site works normally)</span>' : '<span class="ok">none detected</span>'); }, 150);
+
+  var site = (window.SIN && SIN.base) || location.href;
+  var root = new URL('/ads.txt', location.origin).href, rel = new URL('ads.txt', site).href;
+  fetch(root, { cache: 'no-store' }).then(function(r){
+    if (!r.ok) throw new Error(r.status);
+    return r.text().then(function(t){
+      var lines = t.split(/\r?\n/).map(function(l){ return l.trim(); }).filter(function(l){ return l && l.charAt(0) !== '#' && l.indexOf('=') < 0; });
+      var bad = lines.filter(function(l){ return /YOUR-/i.test(l); });
+      var good = lines.filter(function(l){ return !/YOUR-/i.test(l); });
+      var where = '<code>' + root + '</code><br>';
+      if (bad.length) put('adstxt', where + '<span class="no">contains ' + bad.length + ' line(s) with a YOUR-... placeholder: replace them</span>');
+      else if (!good.length) put('adstxt', where + '<span class="no">reachable but still only the template (no active lines)</span>');
+      else put('adstxt', where + '<span class="ok">reachable, ' + good.length + ' active line(s)</span>');
+    });
+  }).catch(function(){
+    fetch(rel, { cache: 'no-store' }).then(function(r){
+      put('adstxt', r.ok ? '<span class="no">found at <code>' + rel + '</code> but NOT at the domain root <code>' + root + '</code>. It must be at the root.</span>' : '<span class="no">not found</span>');
+    }).catch(function(){ put('adstxt', '<span class="no">not found</span>'); });
+  });
+  fetch(new URL('privacy.html', site).href, { method: 'HEAD' }).then(function(r){ put('priv', r.ok ? '<span class="ok">present</span> (check it is finished and reviewed)' : '<span class="no">missing</span>'); }).catch(function(){ put('priv', '<span class="no">missing</span>'); });
+})();
+</script>
+</body>
+</html>

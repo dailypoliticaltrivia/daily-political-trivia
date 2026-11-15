@@ -1,0 +1,3641 @@
+{
+ "bank": "r11-1",
+ "questions": [
+  {
+   "id": "r11-0001",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Through which colonial port, with its quarantine station on Sullivan's Island, did more enslaved Africans enter British North America than through any other?",
+   "options": [
+    "Charleston",
+    "Boston",
+    "Philadelphia",
+    "Annapolis"
+   ],
+   "answer": 0,
+   "explain": "The National Park Service estimates that nearly half of the enslaved Africans brought to British North America passed through Charleston."
+  },
+  {
+   "id": "r11-0002",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Where did the largest group of Loyalists who left the United States after the Revolution resettle?",
+   "options": [
+    "The British West Indies",
+    "Spanish Florida and Louisiana",
+    "British North America, especially Nova Scotia",
+    "Ireland and Scotland"
+   ],
+   "answer": 2,
+   "explain": "Of perhaps 60,000 or more Loyalist exiles, the largest share went to Nova Scotia and the new colony of New Brunswick, created for them in 1784."
+  },
+  {
+   "id": "r11-0003",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1792, about 1,200 Black Loyalists sailed from Nova Scotia to West Africa, where they founded which settlement?",
+   "options": [
+    "Monrovia",
+    "Freetown",
+    "Accra",
+    "Lagos"
+   ],
+   "answer": 1,
+   "explain": "Led by Thomas Peters and British abolitionist John Clarkson, the Nova Scotian settlers founded Freetown, now the capital of Sierra Leone."
+  },
+  {
+   "id": "r11-0004",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Franklin and Armfield, the largest domestic slave-trading firm of the 1830s, shipped enslaved people to New Orleans from its headquarters in which town near Washington?",
+   "options": [
+    "Georgetown, District of Columbia",
+    "Annapolis, Maryland",
+    "Frederick, Maryland",
+    "Alexandria, Virginia"
+   ],
+   "answer": 3,
+   "explain": "The firm's Duke Street building in Alexandria, now the Freedom House Museum, held people before they were sent south by ship or overland in coffles."
+  },
+  {
+   "id": "r11-0005",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the domestic slave trade, traders often marched enslaved people hundreds of miles south chained together in groups. What were these groups called?",
+   "options": [
+    "Gangs of hire",
+    "Musters",
+    "Coffles",
+    "Droves of indenture"
+   ],
+   "answer": 2,
+   "explain": "Coffles walked from the Chesapeake to markets in Natchez, New Orleans and elsewhere; the forced journey could take weeks."
+  },
+  {
+   "id": "r11-0006",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Which Cherokee faction, led by Major Ridge, John Ridge and Elias Boudinot, signed the 1835 treaty that the U.S. used to justify Cherokee removal?",
+   "options": [
+    "The Treaty Party",
+    "The National Party",
+    "The Keetoowah Society",
+    "The Old Settlers"
+   ],
+   "answer": 0,
+   "explain": "Most Cherokees regarded the signers as traitors for ceding the nation's land; Major Ridge, John Ridge and Boudinot were killed in 1839."
+  },
+  {
+   "id": "r11-0007",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Cohens v. Virginia (1821), a case about selling lottery tickets, what power did the Marshall Court claim for itself?",
+   "options": [
+    "Declaring acts of Congress unconstitutional",
+    "Settling boundary disputes between states",
+    "Hearing appeals from territorial governors",
+    "Reviewing state court criminal cases that raise federal questions"
+   ],
+   "answer": 3,
+   "explain": "The Court upheld the Cohens brothers' conviction but insisted that state courts were subject to its review when federal law was at stake."
+  },
+  {
+   "id": "r11-0008",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Which action by the Second Bank of the United States helped bring on the Panic of 1819?",
+   "options": [
+    "Printing large amounts of new paper money",
+    "Calling in loans and tightening credit after a land boom",
+    "Lending heavily to the Mexican government",
+    "Refusing to accept federal deposits"
+   ],
+   "answer": 1,
+   "explain": "Western land speculation had been fueled by easy credit; when the Bank contracted, prices for cotton and land collapsed."
+  },
+  {
+   "id": "r11-0009",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Land Act of 1820 lowered the minimum price of federal land to $1.25 an acre. What did it also end?",
+   "options": [
+    "Buying public land on credit",
+    "Free land grants to veterans",
+    "Sales to anyone born abroad",
+    "Surveying land into square townships"
+   ],
+   "answer": 0,
+   "explain": "After many buyers defaulted during the Panic of 1819, Congress required cash but cut the minimum purchase to 80 acres."
+  },
+  {
+   "id": "r11-0010",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "washington-monument",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Construction of the National Road, the first major federally funded highway, began in 1811 at which town?",
+   "options": [
+    "Wheeling, Virginia",
+    "Pittsburgh, Pennsylvania",
+    "Cumberland, Maryland",
+    "Baltimore, Maryland"
+   ],
+   "answer": 2,
+   "explain": "The road reached Wheeling on the Ohio River in 1818 and was later extended across Ohio and Indiana toward Illinois."
+  },
+  {
+   "id": "r11-0011",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Theodore Weld's 1839 abolitionist book American Slavery As It Is built its case mainly from what?",
+   "options": [
+    "Interviews with escaped people in Canada",
+    "Southern newspaper notices and eyewitness testimony",
+    "Debates recorded in Congress",
+    "Sermons by Northern ministers"
+   ],
+   "answer": 1,
+   "explain": "Weld, Angelina Grimke and Sarah Grimke combed thousands of Southern papers; Harriet Beecher Stowe drew on the book for Uncle Tom's Cabin."
+  },
+  {
+   "id": "r11-0012",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Black Hawk War of 1832 ended when soldiers killed many of Black Hawk's followers as they tried to cross the Mississippi at the mouth of which river?",
+   "options": [
+    "The Rock River",
+    "The Des Moines River",
+    "The Wisconsin River",
+    "The Bad Axe River"
+   ],
+   "answer": 3,
+   "explain": "Troops and a gunboat attacked Black Hawk's band as it tried to cross the Mississippi in August 1832; Black Hawk surrendered soon after."
+  },
+  {
+   "id": "r11-0013",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "The Tariff of 1816, backed by both Henry Clay and a young John C. Calhoun, is usually described as the first U.S. tariff meant mainly to do what?",
+   "options": [
+    "Pay off the Revolutionary War debt",
+    "Punish Britain for impressment",
+    "Protect American manufacturers from foreign competition",
+    "Fund the building of the Erie Canal"
+   ],
+   "answer": 2,
+   "explain": "British goods flooded U.S. markets after the War of 1812; Calhoun later turned against protection and led nullification."
+  },
+  {
+   "id": "r11-0014",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1829 and 1830, Catharine Beecher organized a large campaign in which women did what?",
+   "options": [
+    "Petitioned Congress against Indian removal",
+    "Raised money for the Erie Canal",
+    "Demanded the vote in Massachusetts",
+    "Boycotted goods made by enslaved labor"
+   ],
+   "answer": 0,
+   "explain": "Beecher's circular urged women to sign petitions defending the Cherokee; it was one of the first national political campaigns by American women."
+  },
+  {
+   "id": "r11-0015",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "In 1832 the Senate rejected Andrew Jackson's nomination of Martin Van Buren for which post, with Vice President Calhoun casting the deciding vote?",
+   "options": [
+    "Secretary of state",
+    "Chief justice",
+    "Secretary of the treasury",
+    "Minister to Great Britain"
+   ],
+   "answer": 3,
+   "explain": "The rebuff made Van Buren look like a martyr; Jackson chose him as his running mate that year, and he succeeded Calhoun as vice president."
+  },
+  {
+   "id": "r11-0016",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "Which circle of New England Federalists, linked to Senator Timothy Pickering, talked in 1804 of forming a Northern confederacy apart from the Union?",
+   "options": [
+    "The Albany Regency",
+    "The Essex Junto",
+    "The Hartford Wits",
+    "The Quids"
+   ],
+   "answer": 1,
+   "explain": "The plotters hoped Aaron Burr would win New York's governorship and bring the state along; his defeat that spring ended the scheme."
+  },
+  {
+   "id": "r11-0017",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "The 1844 Treaty of Wanghia, negotiated by Caleb Cushing, was the first formal treaty between the United States and which country?",
+   "options": [
+    "China",
+    "Japan",
+    "Korea",
+    "Siam"
+   ],
+   "answer": 0,
+   "explain": "It opened five ports to American trade and gave Americans in China extraterritoriality, the right to be tried by U.S. officials."
+  },
+  {
+   "id": "r11-0018",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1826, John Quincy Adams's plan to send delegates to a congress of Latin American republics called by Simon Bolivar met fierce opposition in Congress. Where was the meeting held?",
+   "options": [
+    "Caracas",
+    "Lima",
+    "Panama",
+    "Bogota"
+   ],
+   "answer": 2,
+   "explain": "Southern members objected partly because Haiti might attend; one U.S. delegate died on the way and the other arrived after the congress ended."
+  },
+  {
+   "id": "r11-0019",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Andrew Jackson delayed recognizing the Republic of Texas for fear of war with Mexico and a fight over slavery. When did he finally do it?",
+   "options": [
+    "Right after the Battle of San Jacinto in 1836",
+    "On his last full day in office in March 1837",
+    "In his first annual message in 1829",
+    "Never; Van Buren recognized it in 1838"
+   ],
+   "answer": 1,
+   "explain": "Jackson named a charge d'affaires to Texas on March 3, 1837; annexation itself waited until 1845."
+  },
+  {
+   "id": "r11-0020",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In 1804, John Pickering of New Hampshire became the first federal official removed from office through impeachment. What post did he hold?",
+   "options": [
+    "Collector of the port of Portsmouth",
+    "U.S. senator",
+    "Postmaster general",
+    "Federal district judge"
+   ],
+   "answer": 3,
+   "explain": "Pickering was charged with drunkenness and erratic conduct on the bench; the Senate convicted him in March 1804."
+  },
+  {
+   "id": "r11-0021",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who delivered the longest inaugural address in U.S. history, speaking for well over an hour and a half on a cold March day in 1841?",
+   "options": [
+    "Martin Van Buren",
+    "John Tyler",
+    "William Henry Harrison",
+    "James K. Polk"
+   ],
+   "answer": 2,
+   "explain": "Harrison's speech ran about 8,400 words; he fell ill weeks later and died on April 4, 1841, after one month in office."
+  },
+  {
+   "id": "r11-0022",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Which physicist, known for work on electromagnetism, became the first secretary of the Smithsonian Institution in 1846?",
+   "options": [
+    "Joseph Henry",
+    "Samuel F. B. Morse",
+    "Benjamin Silliman",
+    "Louis Agassiz"
+   ],
+   "answer": 0,
+   "explain": "Henry led the Smithsonian for 32 years and stressed original research; he also set up a network of volunteer weather observers."
+  },
+  {
+   "id": "r11-0023",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In 1834 the Senate rejected Roger B. Taney for which post, the first time it turned down a president's cabinet nominee?",
+   "options": [
+    "Secretary of state",
+    "Attorney general",
+    "Secretary of war",
+    "Treasury secretary"
+   ],
+   "answer": 3,
+   "explain": "Taney had moved federal deposits out of the Bank of the United States under a recess appointment; Jackson later made him chief justice in 1836."
+  },
+  {
+   "id": "r11-0024",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "When the federal charter of the Second Bank of the United States ran out in 1836, what did its managers do with the bank?",
+   "options": [
+    "Merged it into the Bank of England",
+    "Kept it running under a Pennsylvania state charter",
+    "Turned it over to the Treasury",
+    "Closed it and paid off every depositor"
+   ],
+   "answer": 1,
+   "explain": "As the Bank of the United States of Pennsylvania it struggled through the Panic of 1837 and failed in 1841."
+  },
+  {
+   "id": "r11-0025",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In January 1835, under Andrew Jackson, the federal government reached what financial milestone for the only time in its history?",
+   "options": [
+    "It paid off the entire national debt",
+    "It printed its first paper dollars",
+    "It ended all tariffs on imports",
+    "It balanced the budget for the first time"
+   ],
+   "answer": 0,
+   "explain": "Land sales and tariff revenue erased the debt; it returned within two years as the Panic of 1837 cut revenue."
+  },
+  {
+   "id": "r11-0026",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which future president was elected captain of a militia company in the 1832 Black Hawk War, an honor he later recalled fondly?",
+   "options": [
+    "James K. Polk",
+    "Millard Fillmore",
+    "Abraham Lincoln",
+    "Franklin Pierce"
+   ],
+   "answer": 2,
+   "explain": "Lincoln saw no combat; he said the captaincy gave him more pleasure than any later success."
+  },
+  {
+   "id": "r11-0027",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which educator opened the Troy Female Seminary in New York in 1821, offering young women subjects such as mathematics and science?",
+   "options": [
+    "Mary Lyon",
+    "Emma Willard",
+    "Catharine Beecher",
+    "Elizabeth Blackwell"
+   ],
+   "answer": 1,
+   "explain": "Willard's school was among the first to give women an education comparable to men's colleges; it is now the Emma Willard School."
+  },
+  {
+   "id": "r11-0028",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Mortally wounded aboard his frigate off Boston in 1813, Captain James Lawrence gave which order that became a Navy motto?",
+   "options": [
+    "\"I have not yet begun to fight\"",
+    "\"Damn the torpedoes, full speed ahead\"",
+    "\"We have met the enemy and they are ours\"",
+    "\"Don't give up the ship\""
+   ],
+   "answer": 3,
+   "explain": "Oliver Hazard Perry flew a flag with Lawrence's words at the Battle of Lake Erie months later."
+  },
+  {
+   "id": "r11-0029",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1826, fur trapper Jedediah Smith led the first American party known to reach California by crossing the continent overland. Which desert did he cross?",
+   "options": [
+    "The Great Salt Lake Desert",
+    "The Chihuahuan Desert",
+    "The Mojave Desert",
+    "The Painted Desert"
+   ],
+   "answer": 2,
+   "explain": "Smith reached Mission San Gabriel near Los Angeles; the next year he became the first American known to cross the Sierra Nevada from west to east."
+  },
+  {
+   "id": "r11-0030",
+   "period": 4,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "The Confessions of Nat Turner, published in 1831 just after his execution, was based on jailhouse interviews conducted by whom?",
+   "options": [
+    "Thomas R. Gray, a white Virginia lawyer",
+    "William Lloyd Garrison, the Boston editor",
+    "Frederick Douglass, then a young abolitionist",
+    "John Floyd, the governor of Virginia"
+   ],
+   "answer": 0,
+   "explain": "Gray's pamphlet is the main source for Turner's own account of his visions and the August 1831 revolt, though historians read it with care."
+  },
+  {
+   "id": "r11-0031",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "In December 1832, Andrew Jackson answered South Carolina's nullification ordinance with a formal statement declaring disunion by armed force to be treason. What was it called?",
+   "options": [
+    "The Maysville Road Message",
+    "The Protest to the Senate",
+    "The Farewell Address of 1837",
+    "The Proclamation to the People of South Carolina"
+   ],
+   "answer": 3,
+   "explain": "Drafted largely by Secretary of State Edward Livingston, it rejected the idea that a state could annul federal law or leave the Union."
+  },
+  {
+   "id": "r11-0032",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "James K. Polk won the 1844 Democratic nomination although he had not been a leading contender before the convention. What term describes such a nominee?",
+   "options": [
+    "A favorite son",
+    "A dark horse",
+    "A lame duck",
+    "A stalking horse"
+   ],
+   "answer": 1,
+   "explain": "Polk was nominated on the ninth ballot after Martin Van Buren failed to win the two-thirds vote the party's rules then required."
+  },
+  {
+   "id": "r11-0033",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In October 1812, an American invasion of Upper Canada failed at which battle on the Niagara River, partly because New York militiamen refused to cross the border?",
+   "options": [
+    "Queenston Heights",
+    "Lundy's Lane",
+    "Chippawa",
+    "Stoney Creek"
+   ],
+   "answer": 0,
+   "explain": "British general Isaac Brock was killed in the battle, but nearly 1,000 Americans were captured."
+  },
+  {
+   "id": "r11-0034",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1856, two Mormon handcart companies led by James Willie and Edward Martin lost about 200 people on the way to Utah. What went wrong?",
+   "options": [
+    "They were attacked by U.S. Army troops",
+    "Cholera broke out as they crossed Iowa",
+    "They left too late and were caught by early snowstorms in Wyoming",
+    "Their guides led them into the Mojave Desert"
+   ],
+   "answer": 2,
+   "explain": "Rescue parties sent from Salt Lake City by Brigham Young reached the stranded companies in October and November 1856."
+  },
+  {
+   "id": "r11-0035",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "The California Land Act of 1851 cost many Californio families their ranches. What did it require of them?",
+   "options": [
+    "Paying a yearly tax on every acre of grazing land",
+    "Proving their Spanish or Mexican land grants before a federal commission",
+    "Becoming naturalized citizens within one year",
+    "Selling half their land to the state for schools"
+   ],
+   "answer": 1,
+   "explain": "Lawsuits over titles often took years; many owners sold land to pay lawyers or lost it to squatters while their claims were pending."
+  },
+  {
+   "id": "r11-0036",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "What change made the 1850 census far more useful to later historians and genealogists than earlier counts?",
+   "options": [
+    "It recorded each person's religion",
+    "It counted Native Americans on reservations",
+    "It asked every adult which political party he or she favored",
+    "It listed every free person in a household by name"
+   ],
+   "answer": 3,
+   "explain": "Earlier censuses named only heads of household; 1850 also used separate schedules that listed enslaved people, but not by name."
+  },
+  {
+   "id": "r11-0037",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "The schooner Wanderer, which landed hundreds of enslaved Africans in 1858 decades after the trade was banned, came ashore at which Georgia island?",
+   "options": [
+    "St. Simons Island",
+    "Tybee Island",
+    "Jekyll Island",
+    "Cumberland Island"
+   ],
+   "answer": 2,
+   "explain": "The Wanderer landed about 409 captives on Jekyll Island in November 1858, out of roughly 487 taken aboard; its owners were tried but never convicted."
+  },
+  {
+   "id": "r11-0038",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Clotilda, the last known ship to bring enslaved Africans to the United States, arrived in 1860 near which city, where its survivors later founded Africatown?",
+   "options": [
+    "Mobile, Alabama",
+    "Savannah, Georgia",
+    "New Orleans, Louisiana",
+    "Pensacola, Florida"
+   ],
+   "answer": 0,
+   "explain": "The ship's owner burned and sank it to hide the crime; researchers confirmed its wreck in the Mobile River in 2019."
+  },
+  {
+   "id": "r11-0039",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Massachusetts organization, founded in 1854, sent antislavery settlers to Kansas and founded the town of Lawrence?",
+   "options": [
+    "The American Colonization Society",
+    "The Massachusetts Anti-Slavery Society",
+    "The Free Soil Homestead League",
+    "The New England Emigrant Aid Company"
+   ],
+   "answer": 3,
+   "explain": "Eli Thayer organized the company to win Kansas for freedom under popular sovereignty; Lawrence became the free-state stronghold."
+  },
+  {
+   "id": "r11-0040",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "The San Patricio Battalion, which fought for Mexico against the United States in 1846-1847, was made up largely of whom?",
+   "options": [
+    "Texas Unionists who opposed annexation",
+    "Irish Catholic immigrants who deserted the U.S. Army",
+    "Free Black sailors from New Orleans",
+    "Mormon volunteers from Iowa"
+   ],
+   "answer": 1,
+   "explain": "Led by John Riley, many San Patricios were captured at Churubusco in 1847; about 50 were hanged as deserters."
+  },
+  {
+   "id": "r11-0041",
+   "period": 5,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In late 1845, President Polk sent John Slidell to Mexico City with what offer, which the Mexican government refused even to hear?",
+   "options": [
+    "To buy California and New Mexico and fix the Texas border at the Rio Grande",
+    "To return Texas to Mexico in exchange for Cuba",
+    "To pay Mexico for damages from the Texas Revolution only",
+    "To build a canal across the Isthmus of Tehuantepec"
+   ],
+   "answer": 0,
+   "explain": "After Mexico would not receive Slidell, Polk ordered Zachary Taylor's army to the Rio Grande, setting the stage for war in 1846."
+  },
+  {
+   "id": "r11-0042",
+   "period": 5,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which battle, fought on May 8, 1846, north of the Rio Grande, was the first major battle of the Mexican-American War?",
+   "options": [
+    "Buena Vista",
+    "Chapultepec",
+    "Palo Alto",
+    "Cerro Gordo"
+   ],
+   "answer": 2,
+   "explain": "Zachary Taylor's artillery decided Palo Alto; his army won again the next day at Resaca de la Palma."
+  },
+  {
+   "id": "r11-0043",
+   "period": 5,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1847 and 1848, some Democrats called for annexing the whole of Mexico after U.S. victories. What was this push called?",
+   "options": [
+    "The Young America movement",
+    "The All of Mexico movement",
+    "The Fifty-four Forty movement",
+    "The Ostend movement"
+   ],
+   "answer": 1,
+   "explain": "Critics such as John C. Calhoun objected to absorbing millions of Mexicans; the Treaty of Guadalupe Hidalgo ended the debate in 1848."
+  },
+  {
+   "id": "r11-0044",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Which 1848 Democratic presidential nominee, a Michigan senator, popularized the idea that settlers of each territory should decide about slavery?",
+   "options": [
+    "James Buchanan",
+    "Stephen A. Douglas",
+    "Franklin Pierce",
+    "Lewis Cass"
+   ],
+   "answer": 3,
+   "explain": "Cass laid out \"popular sovereignty\" in his 1847 Nicholson letter; he lost the 1848 election to Zachary Taylor."
+  },
+  {
+   "id": "r11-0045",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "In June 1850, delegates from nine slaveholding states met to weigh their response to the crisis over slavery in the territories. What was the gathering called?",
+   "options": [
+    "The Charleston Convention",
+    "The Montgomery Convention",
+    "The Nashville Convention",
+    "The Hartford Convention"
+   ],
+   "answer": 2,
+   "explain": "Moderates prevailed at Nashville; a second session after the Compromise of 1850 drew fewer delegates and accomplished little."
+  },
+  {
+   "id": "r11-0046",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "In Ableman v. Booth (1859), the Supreme Court ruled that which state's courts could not free a man convicted under the federal Fugitive Slave Act?",
+   "options": [
+    "Wisconsin",
+    "Massachusetts",
+    "Vermont",
+    "Ohio"
+   ],
+   "answer": 0,
+   "explain": "Wisconsin's supreme court had declared the 1850 law unconstitutional to free abolitionist editor Sherman Booth; Chief Justice Taney's Court reversed it."
+  },
+  {
+   "id": "r11-0047",
+   "period": 5,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "The Ostend Manifesto of 1854, written by three American diplomats in Europe, urged the United States to buy, or if necessary seize, which island?",
+   "options": [
+    "Puerto Rico",
+    "Hispaniola",
+    "Jamaica",
+    "Cuba"
+   ],
+   "answer": 3,
+   "explain": "James Buchanan, John Mason and Pierre Soule drafted it; Northern outrage at a plan to add a slave territory forced the Pierce administration to disown it."
+  },
+  {
+   "id": "r11-0048",
+   "period": 5,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "American adventurer William Walker made himself president of which Central American country in 1856?",
+   "options": [
+    "Honduras",
+    "Nicaragua",
+    "Guatemala",
+    "Costa Rica"
+   ],
+   "answer": 1,
+   "explain": "Walker legalized slavery there to win Southern support; a coalition of Central American armies drove him out in 1857, and he was executed in Honduras in 1860."
+  },
+  {
+   "id": "r11-0049",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Sharps rifles shipped to antislavery settlers in Kansas in the 1850s were nicknamed what, after a famous Brooklyn preacher who backed the effort?",
+   "options": [
+    "Beecher's Bibles",
+    "Garrison's Guns",
+    "Brown's Hymnals",
+    "Sumner's Sermons"
+   ],
+   "answer": 0,
+   "explain": "Henry Ward Beecher said a rifle might do more good in Kansas than a Bible; some crates of guns were reportedly labeled as books."
+  },
+  {
+   "id": "r11-0050",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Kansas finally entered the Union as a free state in January 1861 under which constitution?",
+   "options": [
+    "The Lecompton Constitution",
+    "The Topeka Constitution",
+    "The Wyandotte Constitution",
+    "The Leavenworth Constitution"
+   ],
+   "answer": 2,
+   "explain": "Voters approved the Wyandotte Constitution in 1859; Kansas was admitted on January 29, 1861, after several Southern senators had left Congress."
+  },
+  {
+   "id": "r11-0051",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "The Panic of 1857 began with the August failure of which firm's New York office?",
+   "options": [
+    "Jay Cooke and Company",
+    "The Ohio Life Insurance and Trust Company",
+    "The Second Bank of the United States",
+    "The Erie Railroad Company"
+   ],
+   "answer": 1,
+   "explain": "The collapse set off bank runs and railroad failures; the largely agrarian South suffered relatively little, which many Southerners took as proof of their economy’s strength."
+  },
+  {
+   "id": "r11-0052",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Hinton Rowan Helper's 1857 book The Impending Crisis of the South argued that slavery harmed whom above all?",
+   "options": [
+    "Northern factory workers",
+    "Free Black sailors",
+    "European immigrants in the West",
+    "White Southerners who owned no slaves"
+   ],
+   "answer": 3,
+   "explain": "Helper, a North Carolinian, used census data to show the South lagging; Republicans circulated an abridged edition and Southern states banned it."
+  },
+  {
+   "id": "r11-0053",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "Who was the front-runner for the 1860 Republican presidential nomination before Abraham Lincoln won on the third ballot in Chicago?",
+   "options": [
+    "Salmon P. Chase",
+    "Edward Bates",
+    "William H. Seward",
+    "Simon Cameron"
+   ],
+   "answer": 2,
+   "explain": "Seward, a New York senator, was seen as too radical after his \"irrepressible conflict\" speech; Lincoln later made him secretary of state."
+  },
+  {
+   "id": "r11-0054",
+   "period": 5,
+   "themes": [
+    "identity",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In April 1863, hundreds of women in the Confederate capital broke into shops and warehouses to seize food. What is this event called?",
+   "options": [
+    "The Richmond Bread Riot",
+    "The Tredegar Iron Strike",
+    "The Petersburg Flour Raid",
+    "The Southern Homespun Revolt"
+   ],
+   "answer": 0,
+   "explain": "Jefferson Davis reportedly faced the crowd himself; soaring prices and shortages drove similar protests in other Southern towns."
+  },
+  {
+   "id": "r11-0055",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The Confederacy's 1862 \"Twenty Negro Law\" angered poorer white Southerners because it did what?",
+   "options": [
+    "Required every county to send twenty enslaved laborers to the army",
+    "Freed enslaved men who served twenty months in the army",
+    "Taxed each slaveholder twenty dollars per enslaved worker",
+    "Exempted one white man from the draft on plantations with 20 or more enslaved people"
+   ],
+   "answer": 3,
+   "explain": "The exemption fed the complaint that it was \"a rich man's war and a poor man's fight.\""
+  },
+  {
+   "id": "r11-0056",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "The Confederate tax-in-kind of 1863 required farmers to hand over what?",
+   "options": [
+    "Half of all cotton for export",
+    "One-tenth of many crops and livestock",
+    "Every horse and mule not used for plowing",
+    "All gold and silver coins"
+   ],
+   "answer": 1,
+   "explain": "Government agents collected the \"tithe\" along with impressing supplies, which made the Confederate government deeply unpopular among farmers."
+  },
+  {
+   "id": "r11-0057",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "lincoln-memorial"
+   ],
+   "difficulty": 3,
+   "q": "West Virginia became a state in 1863 after which body gave the consent to split Virginia that the Constitution requires?",
+   "options": [
+    "The Unionist Restored Government of Virginia at Wheeling",
+    "The Confederate legislature in Richmond",
+    "A national convention of border states",
+    "The U.S. Supreme Court"
+   ],
+   "answer": 0,
+   "explain": "Unionists in the northwest formed the Restored Government in 1861; Congress accepted its consent, and West Virginia joined on June 20, 1863."
+  },
+  {
+   "id": "r11-0058",
+   "period": 5,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "The U.S. Sanitary Commission raised millions of dollars during the Civil War largely through huge public events organized mostly by women. What were they called?",
+   "options": [
+    "Liberty bazaars",
+    "Union jubilees",
+    "Sanitary fairs",
+    "Soldiers' harvests"
+   ],
+   "answer": 2,
+   "explain": "Chicago's 1863 fair was followed by larger ones in New York and Philadelphia; proceeds paid for medical supplies, nurses and soldiers' relief."
+  },
+  {
+   "id": "r11-0059",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In 1865 Congress drove notes issued by state-chartered banks out of circulation by doing what?",
+   "options": [
+    "Making them illegal to print",
+    "Taxing them at 10 percent",
+    "Requiring gold backing for each note",
+    "Buying them all with greenbacks"
+   ],
+   "answer": 1,
+   "explain": "The tax pushed banks to take national charters under the National Banking Acts, creating a more uniform paper currency."
+  },
+  {
+   "id": "r11-0060",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "lincoln-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which Philadelphia banker sold Union war bonds directly to ordinary Northerners through a network of agents and newspaper advertising?",
+   "options": [
+    "J. P. Morgan",
+    "Nicholas Biddle",
+    "Cornelius Vanderbilt",
+    "Jay Cooke"
+   ],
+   "answer": 3,
+   "explain": "Cooke’s campaigns sold hundreds of millions of dollars in bonds, a pioneering mass sale of government debt to ordinary Americans."
+  },
+  {
+   "id": "r11-0061",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "After Ohio Copperhead Clement Vallandigham was arrested and convicted by a military commission in 1863, how did Lincoln change his punishment?",
+   "options": [
+    "He pardoned him and let him run for Congress",
+    "He had him hanged for treason",
+    "He had him sent through the lines to the Confederacy",
+    "He deported him to Britain"
+   ],
+   "answer": 2,
+   "explain": "Vallandigham then went to Canada and ran for Ohio governor in absentia in 1863, losing badly."
+  },
+  {
+   "id": "r11-0062",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1868, which state's legislature became the first in the nation where Black members held a majority in a chamber?",
+   "options": [
+    "South Carolina",
+    "Mississippi",
+    "Louisiana",
+    "North Carolina"
+   ],
+   "answer": 0,
+   "explain": "Black legislators made up a majority of South Carolina's House of Representatives for most of Reconstruction."
+  },
+  {
+   "id": "r11-0063",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which lasting institution did most Reconstruction-era Southern state constitutions create for the first time in the region?",
+   "options": [
+    "State police forces",
+    "Elected state supreme courts",
+    "State universities for engineering",
+    "Statewide public school systems"
+   ],
+   "answer": 3,
+   "explain": "Black delegates pressed for public education; most systems were segregated in practice, but they survived the end of Reconstruction."
+  },
+  {
+   "id": "r11-0064",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Jonathan Jasper Wright, elected in 1870, became the first African American to sit on which kind of court?",
+   "options": [
+    "A federal circuit court",
+    "A state supreme court",
+    "The U.S. Court of Claims",
+    "A territorial supreme court"
+   ],
+   "answer": 1,
+   "explain": "Wright served on the South Carolina Supreme Court until 1877; he had been the first Black lawyer admitted to the bar in Pennsylvania."
+  },
+  {
+   "id": "r11-0065",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Francis L. Cardozo, a freeborn Charleston minister educated at the University of Glasgow, held which South Carolina office from 1868 to 1872?",
+   "options": [
+    "Secretary of state",
+    "Governor",
+    "Chief justice",
+    "Speaker of the House"
+   ],
+   "answer": 0,
+   "explain": "Cardozo then served as state treasurer from 1872 to 1877."
+  },
+  {
+   "id": "r11-0066",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which formerly enslaved plasterer was elected lieutenant governor of Louisiana in 1868, the first African American to hold that office in any state?",
+   "options": [
+    "Robert Smalls",
+    "Blanche K. Bruce",
+    "Oscar J. Dunn",
+    "John W. Menard"
+   ],
+   "answer": 2,
+   "explain": "Dunn died in office in 1871; P. B. S. Pinchback succeeded him as lieutenant governor."
+  },
+  {
+   "id": "r11-0067",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which Mississippi politician, Speaker of the state House at 24 and later a congressman, wrote The Facts of Reconstruction in 1913?",
+   "options": [
+    "Hiram Revels",
+    "John R. Lynch",
+    "James K. Green",
+    "Joseph Rainey"
+   ],
+   "answer": 1,
+   "explain": "Lynch's book challenged the white Southern view of Reconstruction that dominated history writing at the time."
+  },
+  {
+   "id": "r11-0068",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "white-house",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Using the Ku Klux Klan Act of 1871, President Grant suspended habeas corpus in nine counties of which state?",
+   "options": [
+    "Mississippi",
+    "Georgia",
+    "North Carolina",
+    "South Carolina"
+   ],
+   "answer": 3,
+   "explain": "Federal troops and marshals made hundreds of arrests in the upcountry, and the Klan there was largely broken by 1872."
+  },
+  {
+   "id": "r11-0069",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "Which attorney general, a Georgia Republican born in New Hampshire, directed aggressive federal prosecutions of the Ku Klux Klan in 1871?",
+   "options": [
+    "Ebenezer Hoar",
+    "Edwards Pierrepont",
+    "Amos T. Akerman",
+    "George H. Williams"
+   ],
+   "answer": 2,
+   "explain": "Akerman was the first attorney general to lead the new Department of Justice; Grant replaced him at the end of 1871."
+  },
+  {
+   "id": "r11-0070",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "Which Protestant society, which grew out of the committee that defended the Amistad captives, founded schools for freedpeople such as Fisk and Tougaloo?",
+   "options": [
+    "The American Missionary Association",
+    "The American Bible Society",
+    "The American Tract Society",
+    "The Society of Friends' Freedmen's Board"
+   ],
+   "answer": 0,
+   "explain": "Formed in 1846, the AMA worked with the Freedmen's Bureau after the war and helped found Hampton, Fisk, Tougaloo, Talladega and other colleges."
+  },
+  {
+   "id": "r11-0071",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Charlotte Forten, a Black teacher from Philadelphia, taught newly freed children during the Civil War on which Union-held islands?",
+   "options": [
+    "The Florida Keys",
+    "The Outer Banks",
+    "The barrier islands of the Georgia coast",
+    "The South Carolina Sea Islands"
+   ],
+   "answer": 3,
+   "explain": "Forten taught on St. Helena Island as part of the Port Royal Experiment and described it in \"Life on the Sea Islands\" in 1864."
+  },
+  {
+   "id": "r11-0072",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "What did the \"Mississippi Plan\" of 1875 involve?",
+   "options": [
+    "Buying land for freedpeople with state bonds",
+    "Using open intimidation and violence to keep Black Republicans from voting",
+    "Dividing the state into separate Black and white counties",
+    "Paying former slaveholders for emancipated workers"
+   ],
+   "answer": 1,
+   "explain": "Democrats won control of Mississippi in the 1875 election; similar tactics spread to South Carolina and Louisiana in 1876."
+  },
+  {
+   "id": "r11-0073",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Which Republican governor of Mississippi asked in vain for federal troops to stop Democratic violence before the 1875 election?",
+   "options": [
+    "Adelbert Ames",
+    "James L. Alcorn",
+    "Rutherford B. Hayes",
+    "William W. Holden"
+   ],
+   "answer": 0,
+   "explain": "The Grant administration declined to send troops; after Democrats won, Ames resigned in 1876 under threat of impeachment."
+  },
+  {
+   "id": "r11-0074",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which former Confederate general, backed by paramilitary Red Shirts, claimed South Carolina's governorship after the disputed 1876 election?",
+   "options": [
+    "John B. Gordon",
+    "James Longstreet",
+    "Wade Hampton III",
+    "Matthew C. Butler"
+   ],
+   "answer": 2,
+   "explain": "Rival governments sat in Columbia until President Hayes withdrew federal troops in April 1877, leaving Hampton in control."
+  },
+  {
+   "id": "r11-0075",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In September 1874, the White League fought police and militia in New Orleans and briefly ousted Louisiana's Republican governor. What is this clash called?",
+   "options": [
+    "The Battle of Canal Street",
+    "The Battle of Liberty Place",
+    "The Mechanics' Institute Riot",
+    "The Battle of Jackson Square"
+   ],
+   "answer": 1,
+   "explain": "Federal troops restored Governor William Kellogg after three days; the 1866 Mechanics' Institute massacre was a different event."
+  },
+  {
+   "id": "r11-0076",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "Which Washington hotel, owned by Black businessman James Wormley, hosted talks in February 1877 that helped settle the disputed Hayes-Tilden election?",
+   "options": [
+    "Willard's Hotel",
+    "The National Hotel",
+    "The Ebbitt House",
+    "The Wormley House"
+   ],
+   "answer": 3,
+   "explain": "Hayes's allies assured Southern Democrats there that federal troops would be withdrawn from the remaining Republican statehouses."
+  },
+  {
+   "id": "r11-0077",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "Which Supreme Court justice became the swing member of the 1877 Electoral Commission, voting to award every disputed electoral vote to Hayes?",
+   "options": [
+    "David Davis",
+    "Samuel F. Miller",
+    "Joseph P. Bradley",
+    "Stephen J. Field"
+   ],
+   "answer": 2,
+   "explain": "Bradley was named after independent David Davis left for the Senate; the commission split 8 to 7 along party lines on each dispute."
+  },
+  {
+   "id": "r11-0078",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "The Amnesty Act of 1872 restored which right to most former Confederates?",
+   "options": [
+    "Holding public office",
+    "Voting in federal elections",
+    "Owning land confiscated in the war",
+    "Serving in the U.S. Army"
+   ],
+   "answer": 0,
+   "explain": "It lifted the Fourteenth Amendment's Section 3 bar for all but about 500 top Confederate leaders."
+  },
+  {
+   "id": "r11-0079",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "fords-theatre",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which future president, a Tennessee senator who stayed loyal to the Union, was Lincoln's military governor of Tennessee from 1862?",
+   "options": [
+    "Hannibal Hamlin",
+    "Andrew Jackson Donelson",
+    "John Bell",
+    "Andrew Johnson"
+   ],
+   "answer": 3,
+   "explain": "Johnson's Unionism made him Lincoln's running mate on the 1864 National Union ticket; he became president after the assassination."
+  },
+  {
+   "id": "r11-0080",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Rival Republican factions in the 1874 Brooks-Baxter War fought over the governorship of which state, until President Grant intervened?",
+   "options": [
+    "Texas",
+    "Arkansas",
+    "Florida",
+    "Tennessee"
+   ],
+   "answer": 1,
+   "explain": "Grant recognized Elisha Baxter, ending a month of armed conflict between rival Republican factions."
+  },
+  {
+   "id": "r11-0081",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In the 1876 Hamburg massacre, white paramilitaries killed Black militiamen in a town in which state, helping set off the violent campaign that ended Reconstruction there?",
+   "options": [
+    "South Carolina",
+    "Georgia",
+    "Mississippi",
+    "North Carolina"
+   ],
+   "answer": 0,
+   "explain": "The July 1876 killings in Hamburg, across the river from Augusta, Georgia, alarmed Northerners and preceded the Red Shirt campaign of that fall."
+  },
+  {
+   "id": "r11-0082",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "For the 1890 census, the Census Office first used an electric machine that tallied data from punched cards. Who invented it?",
+   "options": [
+    "Thomas Edison",
+    "Charles Babbage",
+    "Herman Hollerith",
+    "Alexander Graham Bell"
+   ],
+   "answer": 2,
+   "explain": "Hollerith's tabulator cut processing time sharply; his company later merged into what became IBM."
+  },
+  {
+   "id": "r11-0083",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Many Italian men around 1900 came to the United States to work for a few seasons and then returned home. What nickname described these migrants?",
+   "options": [
+    "Forty-Eighters",
+    "Birds of passage",
+    "Greenhorns of the steerage",
+    "Paper sons"
+   ],
+   "answer": 1,
+   "explain": "Return migration was common among Italians; a large share of those who arrived in the early 1900s eventually went back."
+  },
+  {
+   "id": "r11-0084",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Many immigrants from the Basque region of Spain and France came to the American West in the late 1800s to work in what job?",
+   "options": [
+    "Silver smelting",
+    "Salmon fishing",
+    "Railroad surveying",
+    "Sheepherding"
+   ],
+   "answer": 3,
+   "explain": "Basque herders settled in Nevada, Idaho and eastern Oregon; Boise, Idaho, became the center of one of the largest Basque American communities."
+  },
+  {
+   "id": "r11-0085",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Immigrants from the Azores and Cape Verde Islands settled in large numbers in which Massachusetts port, first as whalers and later as textile workers?",
+   "options": [
+    "Salem",
+    "Newburyport",
+    "New Bedford",
+    "Worcester"
+   ],
+   "answer": 2,
+   "explain": "Whaling ships hired crews in the Atlantic islands, and by 1900 New Bedford and nearby Fall River had large Portuguese-speaking communities."
+  },
+  {
+   "id": "r11-0086",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Jewish aid society, founded in New York in the early 1880s, helped Jewish immigrants arriving from Eastern Europe?",
+   "options": [
+    "The Hebrew Immigrant Aid Society",
+    "The Anti-Defamation League",
+    "B'nai B'rith Youth Organization",
+    "The American Jewish Joint Distribution Committee"
+   ],
+   "answer": 0,
+   "explain": "HIAS met newcomers at Ellis Island, gave shelter and legal help, and later aided refugees of many backgrounds."
+  },
+  {
+   "id": "r11-0087",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "The Naturalization Act of 1870 extended the right to become a citizen to which immigrants, for the first time?",
+   "options": [
+    "People born in China",
+    "People born in Mexico",
+    "People born anywhere in Asia or the Pacific",
+    "People of African birth or descent"
+   ],
+   "answer": 3,
+   "explain": "Naturalization had been limited to \"free white persons\" since 1790; Asian immigrants remained barred from naturalizing until the 1940s and 1952."
+  },
+  {
+   "id": "r11-0088",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Skilled hard-rock miners from southwestern England who worked in Michigan's copper mines and Western silver camps were nicknamed what?",
+   "options": [
+    "Forty-Niners",
+    "Cousin Jacks",
+    "Sourdoughs",
+    "Sooners"
+   ],
+   "answer": 1,
+   "explain": "Cornish miners brought pumping and deep-mining skills; the name came from their habit of recommending a \"cousin Jack\" back home for jobs."
+  },
+  {
+   "id": "r11-0089",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Who conducted the federal census door to door from 1790 through 1870, before the government hired trained enumerators?",
+   "options": [
+    "U.S. marshals and their assistants",
+    "Local postmasters",
+    "Army officers",
+    "County tax assessors"
+   ],
+   "answer": 0,
+   "explain": "Marshals hired assistants to count each district; the 1880 census was the first taken by specially appointed enumerators under supervisors."
+  },
+  {
+   "id": "r11-0090",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "A 1921 law that set the first numerical limits on European immigration capped each nationality at 3 percent of its U.S. population counted in which census?",
+   "options": [
+    "The 1890 census",
+    "The 1900 census",
+    "The 1910 census",
+    "The 1920 census"
+   ],
+   "answer": 2,
+   "explain": "The emergency quota law of 1921 used the 1910 census; the 1924 act shifted the base back to 1890 to cut arrivals from Southern and Eastern Europe further."
+  },
+  {
+   "id": "r11-0091",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Kaiser shipyard jobs during World War II made which San Francisco Bay city a magnet for Black migrants from Texas and Louisiana, its Black population rising from a few hundred to thousands?",
+   "options": [
+    "Sacramento",
+    "Richmond",
+    "San Jose",
+    "Fresno"
+   ],
+   "answer": 1,
+   "explain": "Richmond’s Black population grew from a few hundred in 1940 to well over 10,000 by 1945; the Rosie the Riveter/World War II Home Front park tells this story."
+  },
+  {
+   "id": "r11-0092",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The first large group of Korean immigrants to the United States arrived in Honolulu in January 1903 aboard the SS Gaelic. What work had most of them come to do?",
+   "options": [
+    "Build California's railroads",
+    "Work in Alaska's salmon canneries",
+    "Fell timber in the forests of Oregon and Washington",
+    "Labor on Hawaii's sugar plantations"
+   ],
+   "answer": 3,
+   "explain": "About 100 Koreans arrived on January 13, 1903; some 7,000 more followed by 1905, when Korea halted emigration under Japanese pressure."
+  },
+  {
+   "id": "r11-0093",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "At which Wyoming incarceration camp did the Fair Play Committee urge Japanese American men to refuse the draft until their families' rights were restored?",
+   "options": [
+    "Tule Lake",
+    "Topaz",
+    "Heart Mountain",
+    "Minidoka"
+   ],
+   "answer": 2,
+   "explain": "Sixty-three Heart Mountain resisters were convicted in 1944, the largest mass trial in Wyoming history; President Truman pardoned them in 1947."
+  },
+  {
+   "id": "r11-0094",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "After the 1943 loyalty questionnaire, which California camp became a segregation center for Japanese Americans the government labeled disloyal?",
+   "options": [
+    "Tule Lake",
+    "Manzanar",
+    "Gila River",
+    "Amache"
+   ],
+   "answer": 0,
+   "explain": "Tule Lake held people who answered \"no\" to key loyalty questions or sought to go to Japan; it was the last camp to close, in 1946."
+  },
+  {
+   "id": "r11-0095",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "After which census did Congress fail to reapportion House seats at all, the only time this has happened?",
+   "options": [
+    "The 1860 census",
+    "The 1900 census",
+    "The 1940 census",
+    "The 1920 census"
+   ],
+   "answer": 3,
+   "explain": "Rural members resisted a shift of seats to growing cities; the Reapportionment Act of 1929 then made apportionment automatic after the 1930 census."
+  },
+  {
+   "id": "r11-0096",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "From 1907 to 1914, the Galveston Movement, funded by banker Jacob Schiff, steered about 10,000 Jewish immigrants away from New York to which port?",
+   "options": [
+    "New Orleans, Louisiana",
+    "Galveston, Texas",
+    "Charleston, South Carolina",
+    "Baltimore, Maryland"
+   ],
+   "answer": 1,
+   "explain": "Organizers hoped to spread Jewish newcomers across the West and Midwest instead of crowding them into the Lower East Side."
+  },
+  {
+   "id": "r11-0097",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "California's Alien Land Law of 1913 was aimed mainly at which group of immigrant farmers?",
+   "options": [
+    "Japanese immigrants",
+    "Mexican immigrants",
+    "Italian immigrants",
+    "Armenian immigrants"
+   ],
+   "answer": 0,
+   "explain": "The law barred \"aliens ineligible to citizenship\" from owning farmland; because Asian immigrants could not naturalize, it hit Japanese farmers hardest."
+  },
+  {
+   "id": "r11-0098",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "After San Francisco's 1906 earthquake and fire destroyed birth records, many Chinese immigrants entered the country claiming to be children of U.S. citizens. What were they called?",
+   "options": [
+    "Picture brides",
+    "Birds of passage",
+    "Paper sons",
+    "Sojourners of record"
+   ],
+   "answer": 2,
+   "explain": "Because records were lost, Chinese residents could claim U.S. birth and then sponsor \"sons\" abroad, a way around the Chinese Exclusion Act."
+  },
+  {
+   "id": "r11-0099",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In July 1917, white mobs killed dozens of Black residents in which Illinois city, where Black migrants had been hired at factories during the war?",
+   "options": [
+    "Springfield",
+    "East St. Louis",
+    "Peoria",
+    "Chicago Heights"
+   ],
+   "answer": 1,
+   "explain": "The East St. Louis riot led the NAACP to organize the Silent Parade in New York, in which about 10,000 people marched."
+  },
+  {
+   "id": "r11-0100",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Mexican American civil rights organization was founded in Corpus Christi, Texas, in 1929?",
+   "options": [
+    "The United Farm Workers",
+    "The Mexican American Legal Defense and Educational Fund",
+    "La Raza Unida Party",
+    "The League of United Latin American Citizens"
+   ],
+   "answer": 3,
+   "explain": "LULAC stressed citizenship and education and backed lawsuits against school segregation, such as Mendez v. Westminster."
+  },
+  {
+   "id": "r11-0101",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Many Armenians fleeing persecution in the Ottoman Empire in the late 1800s and early 1900s settled in which California farming city?",
+   "options": [
+    "Sacramento",
+    "Santa Barbara",
+    "Fresno",
+    "Bakersfield"
+   ],
+   "answer": 2,
+   "explain": "Armenian farmers became leaders in the San Joaquin Valley raisin industry; writer William Saroyan was born in Fresno to Armenian immigrants."
+  },
+  {
+   "id": "r11-0102",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Hamtramck, a small city surrounded by Detroit, grew in the 1910s around the Dodge Main auto plant into a center of which immigrant community?",
+   "options": [
+    "Polish Americans",
+    "Irish Americans",
+    "Greek Americans",
+    "Swedish Americans"
+   ],
+   "answer": 0,
+   "explain": "Hamtramck’s population soared from about 3,500 in 1910 to about 46,600 by 1920, largely Polish immigrants working in the auto factories."
+  },
+  {
+   "id": "r11-0103",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "During World War II the United States held more than 2,000 people of Japanese descent who had been deported from Latin America. Most came from which country?",
+   "options": [
+    "Brazil",
+    "Mexico",
+    "Argentina",
+    "Peru"
+   ],
+   "answer": 3,
+   "explain": "Many were held at the Crystal City camp in Texas, and some were used in prisoner exchanges with Japan."
+  },
+  {
+   "id": "r11-0104",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Before the War Relocation Authority camps were ready in 1942, thousands of Japanese Americans were held in horse stables at which California racetrack?",
+   "options": [
+    "Churchill Downs",
+    "Santa Anita",
+    "Pimlico",
+    "Belmont Park"
+   ],
+   "answer": 1,
+   "explain": "Santa Anita, near Los Angeles, was the largest of the temporary \"assembly centers\"; Tanforan near San Francisco also housed families in stalls."
+  },
+  {
+   "id": "r11-0105",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In Japanese American communities, what term describes the U.S.-born children of immigrants from Japan?",
+   "options": [
+    "Nisei",
+    "Issei",
+    "Sansei",
+    "Yonsei"
+   ],
+   "answer": 0,
+   "explain": "Issei were the immigrant generation, Nisei their children and Sansei their grandchildren; as citizens by birth, many Nisei served in the 442nd and the Military Intelligence Service."
+  },
+  {
+   "id": "r11-0106",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In which year did Congress make the Census Office a permanent agency rather than one rebuilt for each count?",
+   "options": [
+    "1850",
+    "1880",
+    "1902",
+    "1920"
+   ],
+   "answer": 2,
+   "explain": "Before 1902 a temporary office was assembled every ten years; the Census Bureau moved to the new Department of Commerce and Labor in 1903."
+  },
+  {
+   "id": "r11-0107",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "During the Great Migration, Black migrants from Virginia and the Carolinas most often moved where?",
+   "options": [
+    "To farms in Kansas and Nebraska",
+    "To Northeastern cities such as Philadelphia and New York",
+    "To Chicago and Milwaukee by the Illinois Central",
+    "To Los Angeles and Oakland by Route 66"
+   ],
+   "answer": 1,
+   "explain": "Migration tended to follow rail lines north: from the Atlantic coast to the Northeast, from the Deep South to the Midwest, and from Texas and Louisiana to the West."
+  },
+  {
+   "id": "r11-0108",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Sikh immigrants from Punjab founded the first gurdwara, or Sikh temple, in the United States in 1912 in which California city?",
+   "options": [
+    "Fresno",
+    "Sacramento",
+    "Bakersfield",
+    "Stockton"
+   ],
+   "answer": 3,
+   "explain": "Many early Sikh immigrants worked on farms and railroads in the Central Valley; the Stockton gurdwara became a center of community life."
+  },
+  {
+   "id": "r11-0109",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The Immigration Act of 1924 set no numerical quotas for immigrants from which region, partly because Southwestern farmers wanted Mexican labor?",
+   "options": [
+    "Northern and Western Europe",
+    "The British Empire",
+    "The Western Hemisphere",
+    "East Asia"
+   ],
+   "answer": 2,
+   "explain": "Immigrants from Mexico, Canada and Latin America faced other hurdles such as visa fees and literacy tests, but no quotas until 1965."
+  },
+  {
+   "id": "r11-0110",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "The Undesirable Aliens Act of 1929 was the first federal law to do what?",
+   "options": [
+    "Make crossing the border without authorization a crime",
+    "Create the Border Patrol",
+    "Require photographs on visas",
+    "Bar all immigration from Asia"
+   ],
+   "answer": 0,
+   "explain": "Championed by Senator Coleman Blease, it made unlawful entry a misdemeanor and reentry after deportation a felony; prosecutions fell mostly on Mexicans."
+  },
+  {
+   "id": "r11-0111",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "A mechanical cotton picker was publicly demonstrated near Clarksdale, Mississippi, in 1944. What demographic change did machines like it speed up?",
+   "options": [
+    "European immigration to Southern farms",
+    "A return of freedpeople's families to cotton work",
+    "The movement of Northern factories into the Delta",
+    "Black migration out of the rural South"
+   ],
+   "answer": 3,
+   "explain": "International Harvester's 1944 demonstration on the Hopson Plantation foreshadowed the end of sharecropping labor and fed the Second Great Migration."
+  },
+  {
+   "id": "r11-0112",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Cuban exiles of the 1960s settled so heavily in one Miami neighborhood around Southwest Eighth Street that it took what name?",
+   "options": [
+    "Little Santiago",
+    "Little Havana",
+    "Coral Gables",
+    "Overtown"
+   ],
+   "answer": 1,
+   "explain": "Calle Ocho, Southwest Eighth Street, became the heart of Little Havana as Cubans fled Castro's revolution."
+  },
+  {
+   "id": "r11-0113",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "From the 1960s on, immigrants from the Dominican Republic concentrated most heavily in which New York City neighborhood?",
+   "options": [
+    "Washington Heights",
+    "Astoria",
+    "Bensonhurst",
+    "Bedford-Stuyvesant"
+   ],
+   "answer": 0,
+   "explain": "Dominican migration grew after the fall of dictator Rafael Trujillo in 1961 and the 1965 immigration law; Washington Heights became its center."
+  },
+  {
+   "id": "r11-0114",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "After the Korean War, many Korean women came to the United States through marriage to which group?",
+   "options": [
+    "Korean American plantation workers in Hawaii",
+    "Diplomats at the United Nations",
+    "American servicemen stationed in Korea",
+    "Missionaries returning from Asia"
+   ],
+   "answer": 2,
+   "explain": "Between 1950 and the 1980s, tens of thousands of Korean women immigrated as wives of U.S. soldiers, then often sponsored relatives after 1965."
+  },
+  {
+   "id": "r11-0115",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Under the 1953 armistice terms, prisoners of war who refused to go home were handled how?",
+   "options": [
+    "They were all returned home by force",
+    "They were placed with a neutral commission and allowed to choose",
+    "They were held by the United Nations until 1960",
+    "They were sent to Japan for resettlement"
+   ],
+   "answer": 1,
+   "explain": "About 22,000 Chinese and North Korean prisoners refused repatriation, as did 21 Americans and one Briton held by the communists."
+  },
+  {
+   "id": "r11-0116",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Under federal law, individual census records are opened to the public how many years after a count?",
+   "options": [
+    "25 years",
+    "50 years",
+    "100 years",
+    "72 years"
+   ],
+   "answer": 3,
+   "explain": "The 72-year rule, set by agreement in 1952 and written into law in 1978, is why the 1950 census records were released in April 2022."
+  },
+  {
+   "id": "r11-0117",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The Young Lords, active in Chicago and New York from the late 1960s, organized mainly which community?",
+   "options": [
+    "Mexican Americans",
+    "Chinese Americans",
+    "Puerto Ricans",
+    "Dominican Americans"
+   ],
+   "answer": 2,
+   "explain": "In New York's East Harlem, the Young Lords' 1969 \"garbage offensive\" piled uncollected trash in the streets to demand city services."
+  },
+  {
+   "id": "r11-0118",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Dalip Singh Saund, elected from California in 1956, was the first person of which background to serve in Congress?",
+   "options": [
+    "Asian American, born in India",
+    "Mexican American, born in Sonora",
+    "Arab American, born in Lebanon",
+    "Filipino American, born in Manila"
+   ],
+   "answer": 0,
+   "explain": "Saund came to study at Berkeley and became a citizen after the Luce-Celler Act of 1946 opened naturalization to Indian immigrants."
+  },
+  {
+   "id": "r11-0119",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "The Orderly Departure Program, begun in 1979 under United Nations auspices, let Vietnamese emigrate to the U.S. how?",
+   "options": [
+    "Only after first serving in the U.S. military",
+    "Through refugee camps in Mexico",
+    "By trading places with American prisoners",
+    "Directly from Vietnam, instead of by dangerous boat escapes"
+   ],
+   "answer": 3,
+   "explain": "Hundreds of thousands left Vietnam legally under the program, including former reeducation camp prisoners and Amerasian children."
+  },
+  {
+   "id": "r11-0120",
+   "period": 8,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In which year did Ellis Island close as an immigration station, after more than 12 million people had passed through it?",
+   "options": [
+    "1924",
+    "1954",
+    "1941",
+    "1965"
+   ],
+   "answer": 1,
+   "explain": "After the 1924 quota law, most screening moved to consulates abroad; Ellis Island was used for detention until 1954 and reopened as a museum in 1990."
+  },
+  {
+   "id": "r11-0121",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Immigration and Nationality Act of 1965 imposed what new limit for the first time, one that made legal entry harder for many Mexicans?",
+   "options": [
+    "A numerical cap on immigration from the Western Hemisphere",
+    "A ban on refugees from communist countries",
+    "A literacy test for all immigrants",
+    "A cap on the number of foreign students"
+   ],
+   "answer": 0,
+   "explain": "The act set a ceiling of 120,000 a year for the Western Hemisphere, effective in 1968, alongside the new preference system for the Eastern Hemisphere."
+  },
+  {
+   "id": "r11-0122",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The American Indian Movement was founded in 1968 in which city, home to a large urban Native population?",
+   "options": [
+    "Denver",
+    "Phoenix",
+    "Minneapolis",
+    "Oklahoma City"
+   ],
+   "answer": 2,
+   "explain": "AIM began by monitoring police treatment of Native residents; it later joined the 1972 Trail of Broken Treaties and the 1973 Wounded Knee occupation."
+  },
+  {
+   "id": "r11-0123",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "When the first Levittown on Long Island opened in the late 1940s, what did its standard sales and lease terms bar?",
+   "options": [
+    "Ownership by veterans using the GI Bill",
+    "Occupancy by people who were not white",
+    "Families with more than two children",
+    "Buyers born outside the United States"
+   ],
+   "answer": 1,
+   "explain": "Levitt kept excluding Black buyers and renters even after the Supreme Court ruled in 1948 that courts could not enforce racial covenants, although the written lease clause was dropped in 1949."
+  },
+  {
+   "id": "r11-0124",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "The Immigration Act of 1990 created a program that awards green cards by random drawing to applicants from countries with low recent immigration to the United States. What is it commonly called?",
+   "options": [
+    "The family preference system",
+    "The refugee admissions ceiling",
+    "The Bracero lottery",
+    "The diversity visa lottery"
+   ],
+   "answer": 3,
+   "explain": "The Diversity Immigrant Visa program was first fully run in fiscal 1995 to admit people from countries with few recent immigrants to the United States."
+  },
+  {
+   "id": "r11-0125",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The Amerasian Homecoming Act, passed in December 1987, helped which group immigrate to the United States?",
+   "options": [
+    "Korean children orphaned by the war",
+    "Filipino veterans of World War II",
+    "Vietnamese-born children of American fathers",
+    "Laotian Hmong soldiers and families"
+   ],
+   "answer": 2,
+   "explain": "Under the act, about 25,000 Amerasians and tens of thousands of their relatives came to the United States, mostly in the late 1980s and early 1990s."
+  },
+  {
+   "id": "r11-0126",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During the 1992 Los Angeles riots, which immigrant community suffered especially heavy property losses, with more than 2,000 of its businesses damaged or destroyed?",
+   "options": [
+    "Korean Americans",
+    "Armenian Americans",
+    "Vietnamese Americans",
+    "Cuban Americans"
+   ],
+   "answer": 0,
+   "explain": "Korean Americans call the riots Sa-I-Gu, \"April 29\"; losses in Koreatown and South Los Angeles reshaped the community's politics."
+  },
+  {
+   "id": "r11-0127",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "After the 1980 census, which state gained four House seats, the largest gain of any state in that reapportionment?",
+   "options": [
+    "Texas",
+    "California",
+    "Arizona",
+    "Florida"
+   ],
+   "answer": 3,
+   "explain": "Florida went from 15 to 19 seats, Texas gained three and California two, while New York lost five as population shifted to the Sun Belt."
+  },
+  {
+   "id": "r11-0128",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "After the 1990 census, which state gained seven House seats, the biggest gain by any state in that reapportionment?",
+   "options": [
+    "Texas",
+    "California",
+    "Florida",
+    "Washington"
+   ],
+   "answer": 1,
+   "explain": "California rose from 45 to 52 seats; Florida gained four and Texas three, continuing the shift of political power to the Sun Belt."
+  },
+  {
+   "id": "r11-0129",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Illegal Immigration Reform and Immigrant Responsibility Act of 1996 barred people who left the country after living in the U.S. unlawfully from returning for three or ten years. What decided which bar applied?",
+   "options": [
+    "How long they had been unlawfully present",
+    "Which country they had come from",
+    "Whether they had held a job when they left the country",
+    "Whether a U.S. citizen sponsored them"
+   ],
+   "answer": 0,
+   "explain": "More than 180 days of unlawful presence brought a three-year bar; a year or more brought a ten-year bar."
+  },
+  {
+   "id": "r11-0130",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "vietnam-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Refugees from the Khmer Rouge period made which California city home to the largest Cambodian community in the United States?",
+   "options": [
+    "San Diego",
+    "Sacramento",
+    "Long Beach",
+    "San Jose"
+   ],
+   "answer": 2,
+   "explain": "Cambodian refugees arrived mainly after 1979; Long Beach's Cambodia Town was officially designated in 2007."
+  },
+  {
+   "id": "r11-0131",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Which federal agency, created in 1989, closed or sold hundreds of failed savings and loan institutions?",
+   "options": [
+    "The Reconstruction Finance Corporation",
+    "The Resolution Trust Corporation",
+    "The Federal Home Loan Bank Board",
+    "The Office of Thrift Supervision"
+   ],
+   "answer": 1,
+   "explain": "Created by the 1989 FIRREA law, the RTC disposed of about 750 insolvent thrifts before closing in 1995."
+  },
+  {
+   "id": "r11-0132",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Which 1994 law, championed in the Senate by Joseph Biden, funded efforts against domestic violence and sexual assault as part of that year's crime bill?",
+   "options": [
+    "The Family and Medical Leave Act",
+    "The Brady Handgun Violence Prevention Act",
+    "The Equal Rights Amendment",
+    "The Violence Against Women Act"
+   ],
+   "answer": 3,
+   "explain": "VAWA was Title IV of the Violent Crime Control and Law Enforcement Act, signed by President Clinton in September 1994."
+  },
+  {
+   "id": "r11-0134",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "After Arizona voters rejected a state Martin Luther King Jr. holiday in 1990, what did the National Football League do?",
+   "options": [
+    "Moved the 1993 Super Bowl out of the state",
+    "Canceled the Arizona Cardinals' entire season",
+    "Moved its league offices to Atlanta",
+    "Banned Arizona teams from the playoffs"
+   ],
+   "answer": 0,
+   "explain": "The game went to Pasadena; Arizona voters approved the holiday in 1992, and the state later hosted the 1996 Super Bowl."
+  },
+  {
+   "id": "r11-0135",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Jesse Jackson, a former aide to Martin Luther King Jr., ran for president in 1984 and 1988 with a multiracial alliance he called what?",
+   "options": [
+    "The Poor People's Campaign",
+    "Operation Breadbasket",
+    "The Freedom Democrats",
+    "The Rainbow Coalition"
+   ],
+   "answer": 3,
+   "explain": "Jackson won about 7 million primary votes in 1988; Operation Breadbasket was the earlier SCLC economic program he had led in Chicago."
+  },
+  {
+   "id": "r11-0136",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Who became Chicago's first Black mayor after winning the 1983 election?",
+   "options": [
+    "Coleman Young",
+    "Harold Washington",
+    "Richard G. Hatcher",
+    "David Dinkins"
+   ],
+   "answer": 1,
+   "explain": "Washington faced years of \"Council Wars\" with a white aldermanic majority; he won reelection in 1987 and died in office that November."
+  },
+  {
+   "id": "r11-0137",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In 1989 Douglas Wilder became the first African American elected governor of a U.S. state. Which state?",
+   "options": [
+    "Virginia",
+    "Georgia",
+    "Maryland",
+    "North Carolina"
+   ],
+   "answer": 0,
+   "explain": "Wilder, a grandson of enslaved people, won narrowly and served from 1990 to 1994 in the former capital of the Confederacy."
+  },
+  {
+   "id": "r11-0138",
+   "period": 9,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 2005, Condoleezza Rice became the first Black woman to hold which office?",
+   "options": [
+    "Attorney general",
+    "Secretary of defense",
+    "Secretary of state",
+    "Chief of staff"
+   ],
+   "answer": 2,
+   "explain": "Rice had been national security adviser in George W. Bush's first term; she succeeded Colin Powell, the first Black secretary of state."
+  },
+  {
+   "id": "r11-0139",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Civil Rights Act of 1991 was passed largely to reverse Supreme Court decisions such as which 1989 case that made job discrimination suits harder to win?",
+   "options": [
+    "Griggs v. Duke Power Co.",
+    "Wards Cove Packing Co. v. Atonio",
+    "Meritor Savings Bank v. Vinson",
+    "Regents of the University of California v. Bakke"
+   ],
+   "answer": 1,
+   "explain": "The 1991 act also allowed jury trials and damages for intentional discrimination; President George H. W. Bush signed it after vetoing a 1990 version."
+  },
+  {
+   "id": "r11-0140",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The 1982 extension of the Voting Rights Act let plaintiffs challenge an election rule under Section 2 by showing what?",
+   "options": [
+    "That a state had once used a poll tax",
+    "That turnout had fallen below half of eligible voters",
+    "That federal examiners had visited the county",
+    "Its discriminatory results, without proving intent"
+   ],
+   "answer": 3,
+   "explain": "Congress responded to Mobile v. Bolden (1980), which had required proof of discriminatory purpose."
+  },
+  {
+   "id": "r11-0141",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The dot-com bubble burst after which stock index, crowded with technology companies, peaked in March 2000?",
+   "options": [
+    "The Dow Jones Transportation Average",
+    "The Russell 2000",
+    "The Nasdaq Composite",
+    "The S&P MidCap 400"
+   ],
+   "answer": 2,
+   "explain": "The Nasdaq lost nearly four-fifths of its value by October 2002 as many internet startups failed."
+  },
+  {
+   "id": "r11-0142",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "The Nunn-Lugar program, created by Congress in 1991, paid for what?",
+   "options": [
+    "Securing and dismantling nuclear weapons in former Soviet states",
+    "Rebuilding Kuwait after the Gulf War",
+    "Training police in Central America",
+    "Buying oil for the Strategic Petroleum Reserve"
+   ],
+   "answer": 0,
+   "explain": "Sponsored by Senators Sam Nunn and Richard Lugar, the Cooperative Threat Reduction program helped deactivate thousands of warheads."
+  },
+  {
+   "id": "r11-0143",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Under the 1994 Agreed Framework, North Korea agreed to freeze its plutonium program in return for what?",
+   "options": [
+    "Withdrawal of all U.S. troops from South Korea",
+    "A formal peace treaty ending the Korean War",
+    "Admission to the United Nations Security Council",
+    "Two light-water power reactors and shipments of fuel oil"
+   ],
+   "answer": 3,
+   "explain": "The deal broke down in 2002 after the U.S. accused North Korea of a secret uranium enrichment program."
+  },
+  {
+   "id": "r11-0144",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "After the June 2018 Singapore summit, North Korea handed over how many boxes said to hold remains of Americans killed in the Korean War?",
+   "options": [
+    "5",
+    "55",
+    "19",
+    "550"
+   ],
+   "answer": 1,
+   "explain": "The boxes arrived on July 27, 2018, the armistice anniversary; forensic scientists at the Defense POW/MIA Accounting Agency then began identifying the soldiers."
+  },
+  {
+   "id": "r11-0145",
+   "period": 9,
+   "themes": [
+    "identity",
+    "environment-geography"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 1,
+   "q": "A new arch bridge named for Frederick Douglass, opened in 2021, carries South Capitol Street over which river near his last home in Washington?",
+   "options": [
+    "The Anacostia River",
+    "The Potomac River",
+    "The Patuxent River",
+    "The Shenandoah River"
+   ],
+   "answer": 0,
+   "explain": "The Frederick Douglass Memorial Bridge replaced a 1950 swing bridge with the same name; Douglass's Cedar Hill estate overlooks the same river."
+  },
+  {
+   "id": "r11-0146",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "In Bob Jones University v. United States (1983), the Supreme Court ruled that the IRS could do what?",
+   "options": [
+    "Tax church property used for worship",
+    "Audit any college receiving federal grants",
+    "Deny tax-exempt status to private schools that practiced racial discrimination",
+    "Collect taxes on scholarships for athletes"
+   ],
+   "answer": 2,
+   "explain": "The 8 to 1 decision held that racial discrimination in education violated a fundamental public policy."
+  },
+  {
+   "id": "r11-0147",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "A 1988 television ad attacking Michael Dukakis centered on a furlough program in which state, which he governed?",
+   "options": [
+    "New York",
+    "Massachusetts",
+    "Connecticut",
+    "New Hampshire"
+   ],
+   "answer": 1,
+   "explain": "The ads about Willie Horton, who committed violent crimes while on a weekend furlough, became a lasting example of racially charged campaign tactics."
+  },
+  {
+   "id": "r11-0148",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "In 1993, a 51-day standoff between federal agents and the Branch Davidians ended in a deadly fire near which Texas city?",
+   "options": [
+    "Abilene",
+    "Lubbock",
+    "Amarillo",
+    "Waco"
+   ],
+   "answer": 3,
+   "explain": "About 76 people died when the compound burned on April 19, 1993; the siege fed antigovernment anger in the 1990s."
+  },
+  {
+   "id": "r11-0149",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Before joining the Supreme Court in 2010, Elena Kagan had held which post, as the first woman to do so?",
+   "options": [
+    "Attorney general",
+    "Chief judge of the D.C. Circuit",
+    "Solicitor general",
+    "White House counsel"
+   ],
+   "answer": 2,
+   "explain": "Kagan had also been the first woman dean of Harvard Law School; she was the fourth woman to serve on the Court."
+  },
+  {
+   "id": "r11-0150",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "The New START treaty, approved by the Senate in December 2010, did what?",
+   "options": [
+    "Limited the United States and Russia to 1,550 deployed strategic warheads each",
+    "Banned all nuclear tests by both countries",
+    "Removed U.S. missiles from Europe",
+    "Created a joint missile defense system"
+   ],
+   "answer": 0,
+   "explain": "Signed by Presidents Obama and Medvedev in Prague in April 2010, it also capped deployed launchers and set up inspections."
+  },
+  {
+   "id": "r11-0151",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In 2013, a statue of Rosa Parks was unveiled in the Capitol. What distinction did it hold?",
+   "options": [
+    "It was the first statue paid for by schoolchildren",
+    "It replaced a statue of a Confederate general",
+    "It was the first statue placed in the Rotunda",
+    "It was the first full-length statue of a Black American there"
+   ],
+   "answer": 3,
+   "explain": "Congress commissioned it in 2005, the year Parks became the first woman to lie in honor in the Rotunda."
+  },
+  {
+   "id": "r11-0152",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In May 1991, unrest broke out in which Washington, D.C., neighborhood after a police officer shot a Salvadoran man?",
+   "options": [
+    "Chevy Chase, D.C.",
+    "Mount Pleasant",
+    "Georgetown",
+    "Capitol Hill"
+   ],
+   "answer": 1,
+   "explain": "The disturbances highlighted tensions between police and the city's fast-growing Central American community."
+  },
+  {
+   "id": "r11-0153",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "Congress created Special Immigrant Visas, beginning in 2006, mainly for which people?",
+   "options": [
+    "Iraqis and Afghans who worked for the U.S. military or government",
+    "Doctors willing to serve in rural areas",
+    "Foreign students in science programs",
+    "Relatives of U.S. troops killed in action"
+   ],
+   "answer": 0,
+   "explain": "The visas recognized the danger facing interpreters and other local employees who had worked alongside U.S. forces and officials."
+  },
+  {
+   "id": "r11-0154",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Nicaraguan Adjustment and Central American Relief Act of 1997 helped which immigrants?",
+   "options": [
+    "Mexican farmworkers in the Bracero Program",
+    "Haitians stopped at sea by the Coast Guard",
+    "Central Americans and Cubans who fled to the U.S. during the 1980s and early 1990s",
+    "Hondurans hit by a hurricane in 2005"
+   ],
+   "answer": 2,
+   "explain": "NACARA let many Nicaraguans and Cubans become permanent residents and eased deportation relief for many Salvadorans and Guatemalans."
+  },
+  {
+   "id": "r11-0155",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The National Memorial for Peace and Justice, opened in 2018 in Montgomery, Alabama, honors whom?",
+   "options": [
+    "Freedom Riders attacked in Alabama in 1961",
+    "Victims of racial terror lynching",
+    "Black soldiers of the Civil War",
+    "Leaders of the bus boycott"
+   ],
+   "answer": 1,
+   "explain": "Created by the Equal Justice Initiative, it holds more than 800 steel columns, one for each county where lynchings were documented."
+  },
+  {
+   "id": "r11-0156",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In July 2008, the House of Representatives passed a resolution apologizing for what?",
+   "options": [
+    "The internment of Japanese Americans",
+    "The overthrow of the Hawaiian monarchy",
+    "The Tuskegee syphilis study",
+    "Slavery and Jim Crow segregation"
+   ],
+   "answer": 3,
+   "explain": "The Senate passed its own apology for slavery and segregation in 2009; Japanese American internment had drawn a formal apology in 1988."
+  },
+  {
+   "id": "r11-0157",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "In 2006 Congress renewed key parts of the Voting Rights Act for how long?",
+   "options": [
+    "Five years",
+    "Until the next census",
+    "Twenty-five years",
+    "Permanently"
+   ],
+   "answer": 2,
+   "explain": "The renewal passed the Senate 98 to 0; in 2013 the Supreme Court's Shelby County decision struck down the coverage formula it kept."
+  },
+  {
+   "id": "r11-0158",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which shuttle, NASA's most-flown orbiter, went on display at the Smithsonian's Udvar-Hazy Center in 2012?",
+   "options": [
+    "Discovery",
+    "Atlantis",
+    "Endeavour",
+    "Enterprise"
+   ],
+   "answer": 0,
+   "explain": "Discovery flew 39 missions; Atlantis went to Kennedy Space Center, Endeavour to Los Angeles, and the test vehicle Enterprise to New York."
+  },
+  {
+   "id": "r11-0159",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "The first long-term crew arrived at the International Space Station in November 2000. Who made up that crew?",
+   "options": [
+    "Three American astronauts",
+    "Two Americans and one Canadian",
+    "One astronaut each from three NASA partner nations",
+    "One American astronaut and two Russian cosmonauts"
+   ],
+   "answer": 3,
+   "explain": "Expedition 1, commanded by William Shepherd with Yuri Gidzenko and Sergei Krikalev, began continuous human presence on the station."
+  },
+  {
+   "id": "r11-0160",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor",
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "The Budget Control Act of 2011, which ended a debt-ceiling standoff, set up automatic across-the-board spending cuts known as what?",
+   "options": [
+    "Impoundment",
+    "Sequestration",
+    "Rescission",
+    "Reconciliation"
+   ],
+   "answer": 1,
+   "explain": "The cuts took effect in 2013 after a special congressional \"supercommittee\" failed to agree on a deficit plan."
+  },
+  {
+   "id": "r11-0161",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Clinton v. City of New York (1998), the Supreme Court struck down which power Congress had given the president two years earlier?",
+   "options": [
+    "A line-item veto over parts of spending bills",
+    "A pocket veto during short recesses",
+    "Authority to impound appropriated funds",
+    "Power to fire independent counsels"
+   ],
+   "answer": 0,
+   "explain": "The Court held that letting the president cancel parts of signed laws violated the Constitution's Presentment Clause."
+  },
+  {
+   "id": "r11-0162",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "The 2009 stimulus law set aside lump-sum payments for which veterans, whose promised benefits a 1946 law had taken away?",
+   "options": [
+    "Navajo code talkers of World War II",
+    "Puerto Rican soldiers of the Korean War",
+    "Filipinos who fought for the U.S. in World War II",
+    "Hmong fighters of the war in Laos"
+   ],
+   "answer": 2,
+   "explain": "The Rescission Act of 1946 denied most Filipino soldiers U.S. veterans' benefits; the 2009 fund paid $15,000 to citizens and $9,000 to noncitizens."
+  },
+  {
+   "id": "r11-0163",
+   "period": 9,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "In 1993, Congress passed and President Clinton signed a resolution apologizing for which event of 1893?",
+   "options": [
+    "The Wounded Knee massacre",
+    "The overthrow of the Kingdom of Hawaii",
+    "The renewal of the Chinese Exclusion Act in 1892",
+    "The annexation of Puerto Rico"
+   ],
+   "answer": 1,
+   "explain": "The Apology Resolution marked the 100th anniversary of the overthrow of Queen Liliuokalani, backed by U.S. Marines and American businessmen."
+  },
+  {
+   "id": "r11-0164",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Refugees from the 1992-1995 war in Bosnia made which Midwestern city home to one of the largest Bosnian communities outside Europe?",
+   "options": [
+    "Indianapolis",
+    "Kansas City",
+    "Columbus",
+    "St. Louis"
+   ],
+   "answer": 3,
+   "explain": "Bosnians helped revive the city's Bevo Mill neighborhood in south St. Louis from the late 1990s on."
+  },
+  {
+   "id": "r11-0165",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "In 1999, thousands of refugees from Kosovo were flown to the United States and first housed at which New Jersey Army post?",
+   "options": [
+    "Fort Monmouth",
+    "Camp Kilmer",
+    "Fort Dix",
+    "Picatinny Arsenal"
+   ],
+   "answer": 2,
+   "explain": "Operation Provide Refuge brought more than 4,000 Kosovar Albanians to Fort Dix in the spring of 1999."
+  },
+  {
+   "id": "r11-0166",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Census Bureau estimates for 2004, released in 2005, showed that which state had joined California, Hawaii and New Mexico as \"majority-minority\"?",
+   "options": [
+    "Texas",
+    "Florida",
+    "Arizona",
+    "New York"
+   ],
+   "answer": 0,
+   "explain": "Non-Hispanic white residents made up less than half of Texas's population, mostly because of growth in its Hispanic population."
+  },
+  {
+   "id": "r11-0167",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "First Lady Nancy Reagan led an antidrug campaign in the 1980s aimed at young people. What was its slogan?",
+   "options": [
+    "\"Stay in School\"",
+    "\"Drugs Are for Losers\"",
+    "\"Choose Life\"",
+    "\"Just Say No\""
+   ],
+   "answer": 3,
+   "explain": "The campaign began in the early 1980s and was part of a broader \"war on drugs,\" including the Anti-Drug Abuse Act of 1986."
+  },
+  {
+   "id": "r11-0168",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Operation Uphold Democracy in 1994 sent U.S. troops to restore which country's elected president, Jean-Bertrand Aristide?",
+   "options": [
+    "Panama",
+    "Haiti",
+    "Honduras",
+    "Grenada"
+   ],
+   "answer": 1,
+   "explain": "The military rulers stepped down after a delegation led by Jimmy Carter negotiated their departure as U.S. forces were on their way."
+  },
+  {
+   "id": "r11-0169",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "In October 2001, a letter containing anthrax was opened in the office of which Senate leader, forcing Senate office buildings to close?",
+   "options": [
+    "Majority Leader Tom Daschle",
+    "Minority Leader Trent Lott",
+    "President pro tempore Robert Byrd",
+    "Senator Edward Kennedy"
+   ],
+   "answer": 0,
+   "explain": "Five people died nationwide from the 2001 anthrax letters; the Hart Senate Office Building was closed for months for decontamination."
+  },
+  {
+   "id": "r11-0170",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In July 2015, the United States and Cuba took what step for the first time since 1961?",
+   "options": [
+    "Signed a mutual defense treaty for the Caribbean",
+    "Ended the U.S. lease at Guantanamo Bay",
+    "Reopened embassies in each other's capitals",
+    "Held a joint session of their legislatures"
+   ],
+   "answer": 2,
+   "explain": "President Obama visited Havana in March 2016, the first sitting president to go there since Calvin Coolidge in 1928."
+  },
+  {
+   "id": "r11-0171",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Starting with the 2010 census, the detailed \"long form\" questionnaire was dropped and replaced by what?",
+   "options": [
+    "A count of tax returns by the IRS",
+    "The yearly American Community Survey",
+    "Separate state censuses every five years",
+    "Online polls by private firms"
+   ],
+   "answer": 1,
+   "explain": "The American Community Survey samples households every year for data on income, education, commuting and other topics once gathered every ten years."
+  }
+ ]
+}

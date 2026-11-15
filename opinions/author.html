@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Writer · Opinions · Stay Informed News</title>
+<meta name="description" content="A writer's profile and opinion pieces on Stay Informed News.">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="robots" content="noindex">
+</head>
+<body data-section="opinions">
+<main id="main" class="page">
+  <div class="wrap">
+    <div id="prof" aria-live="polite"><div class="op-skel" style="width:40%;height:40px"></div><div class="op-skel" style="width:60%"></div></div>
+    <form id="editForm" class="card" hidden style="max-width:620px;margin-top:18px">
+      <h2 style="font-family:var(--serif);margin:0;font-size:20px">Edit your profile</h2>
+      <div class="field"><label for="dn">Display name</label><input type="text" id="dn" maxlength="60" required></div>
+      <div class="field"><label for="bio">Bio</label><textarea id="bio" maxlength="500" placeholder="A sentence or two about you and what you write about."></textarea><div class="op-count" id="bioCount"></div></div>
+      <p class="op-err" role="alert" id="editErr"></p>
+      <div style="display:flex;gap:8px"><button class="btn" type="submit">Save profile</button><button class="btn ghost" type="button" id="editCancel">Cancel</button></div>
+    </form>
+    <div class="sechead"><h2 id="postsHead">Pieces</h2></div>
+    <ol class="op-feed" id="posts"></ol>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  const $ = s => document.querySelector(s), esc = OP.esc;
+  let uname = (OP.param('u') || '').toLowerCase(), me = null, prof = null;
+  OP.demoBanner();
+
+  function renderProfile(){
+    const p = prof, own = me && me.id === p.id;
+    document.title = p.display_name + ' · Opinions · Stay Informed News';
+    $('#prof').innerHTML =
+      '<div class="kicker">Writer</div>' +
+      '<div class="op-prof" style="margin-top:10px">' + OP.avatar(p, 'lg') +
+        '<div style="flex:1;min-width:200px"><h1 class="ptitle" style="margin:0">' + esc(p.display_name) + '</h1>' +
+        '<div class="h">@' + esc(p.username) + ' · Joined ' + esc(new Date(p.created_at).toLocaleDateString(undefined, { month: 'long', year: 'numeric' })) + ' · ' + OP.plural(p.post_count, 'piece') +
+        (p.is_admin ? ' · <span class="op-badge">Moderator</span>' : '') + (p.is_banned ? ' · <span class="op-badge red">Suspended</span>' : '') + '</div></div>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+          (own ? '<button class="btn ghost" id="editBtn">Edit profile</button><a class="btn" href="write.html">Write</a>' : '') +
+          (me && me.is_admin && !own ? '<button class="btn ghost" id="banBtn">' + (p.is_banned ? 'Lift suspension' : 'Suspend user') + '</button>' : '') +
+        '</div></div>' +
+      (p.bio ? '<p class="op-bio">' + esc(p.bio) + '</p>' : (own ? '<p class="meta">You have not written a bio yet.</p>' : ''));
+    const eb = $('#editBtn');
+    if (eb) eb.addEventListener('click', () => { $('#dn').value = p.display_name; $('#bio').value = p.bio || ''; $('#bio').dispatchEvent(new Event('input')); $('#editForm').hidden = false; $('#dn').focus(); });
+    const bb = $('#banBtn');
+    if (bb) bb.addEventListener('click', async () => {
+      const ban = !p.is_banned;
+      if (!confirm(ban ? 'Suspend @' + p.username + '? They will not be able to publish, comment or like.' : 'Lift the suspension for @' + p.username + '?')) return;
+      try { await SINDb.banUser(p.id, ban); SIN.toast(ban ? 'User suspended' : 'Suspension lifted'); prof = await SINDb.getProfile(p.username); renderProfile(); }
+      catch(e){ SIN.toast(e.message); }
+    });
+  }
+  OP.counter($('#bio'), $('#bioCount'), SINDb.limits.bio);
+  $('#editCancel').addEventListener('click', () => { $('#editForm').hidden = true; });
+  $('#editForm').addEventListener('submit', async e => {
+    e.preventDefault(); $('#editErr').textContent = '';
+    try { await SINDb.updateProfile({ display_name: $('#dn').value, bio: $('#bio').value }); SIN.toast('Profile saved'); $('#editForm').hidden = true; prof = await SINDb.getProfile(prof.username); renderProfile(); loadPosts(); }
+    catch(x){ $('#editErr').textContent = x.message; }
+  });
+
+  async function loadPosts(){
+    const rows = await SINDb.listPosts({ author: prof.id, limit: 100 });
+    $('#postsHead').textContent = 'Pieces by ' + prof.display_name;
+    $('#posts').innerHTML = rows.length ? rows.map(OP.feedItem).join('') : '<li class="empty">No pieces yet.' + (me && me.id === prof.id ? ' <a href="write.html">Write your first</a>.' : '') + '</li>';
+  }
+  async function start(){
+    me = await SINDb.getUser();
+    if (!uname){
+      if (me && me.username){ location.replace(OP.authorUrl(me)); return; }
+      $('#prof').innerHTML = '<div class="empty">No writer selected. <a href="index.html">Browse Opinions</a></div>'; $('.sechead').hidden = true; return;
+    }
+    prof = await SINDb.getProfile(uname);
+    if (!prof){ $('#prof').innerHTML = '<div class="empty">We could not find that writer. <a href="index.html">Browse Opinions</a></div>'; $('.sechead').hidden = true; return; }
+    renderProfile(); loadPosts();
+  }
+  start().catch(e => { $('#prof').innerHTML = '<div class="empty">Could not load this profile. ' + esc(e.message) + '</div>'; });
+  SINDb.onAuthChange(u => { if ((u && u.id) !== (me && me.id)){ me = u; if (prof) renderProfile(); } });
+})();
+</script>
+</body>
+</html>

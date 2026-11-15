@@ -1,0 +1,203 @@
+{
+  "_comment": "Hand-added extra accepted spellings (common acronyms and nicknames), by question key and exact answer name. build-dh-curated-2.js adds an alias only when it does not collide with another answer.",
+  "intel": {
+    "Central Intelligence Agency": [
+      "CIA"
+    ],
+    "Federal Bureau of Investigation": [
+      "FBI"
+    ],
+    "National Security Agency": [
+      "NSA"
+    ],
+    "Federal Security Service": [
+      "FSB"
+    ],
+    "MI6": [
+      "Secret Intelligence Service",
+      "SIS"
+    ],
+    "MI5": [
+      "Security Service"
+    ],
+    "Foreign Intelligence Service": [
+      "SVR"
+    ],
+    "Inter-Services Intelligence": [
+      "ISI"
+    ],
+    "Federal Intelligence Service": [
+      "BND"
+    ],
+    "Directorate General for External Security": [
+      "DGSE"
+    ],
+    "Federal Office for the Protection of the Constitution": [
+      "BfV"
+    ],
+    "Defense Intelligence Agency": [
+      "DIA"
+    ],
+    "National Reconnaissance Office": [
+      "NRO"
+    ],
+    "Office of Strategic Services": [
+      "OSS"
+    ],
+    "Special Operations Executive": [
+      "SOE"
+    ],
+    "Research & Analysis Wing": [
+      "RAW",
+      "R&AW"
+    ],
+    "Ministry of State Security": [
+      "MSS"
+    ],
+    "Australian Security Intelligence Organisation": [
+      "ASIO"
+    ],
+    "Australian Secret Intelligence Service": [
+      "ASIS"
+    ],
+    "Canadian Security Intelligence Service": [
+      "CSIS"
+    ],
+    "Reich Security Main Office": [
+      "RSHA"
+    ],
+    "People's Commissariat for State Security": [
+      "NKGB"
+    ],
+    "National Geospatial-Intelligence Agency": [
+      "NGA"
+    ],
+    "Communications Security Establishment": [
+      "CSE"
+    ],
+    "Military Intelligence Directorate": [
+      "Aman"
+    ],
+    "Shin Bet": [
+      "Shabak"
+    ],
+    "National Intelligence Service": [
+      "NIS"
+    ],
+    "Security Service of Ukraine": [
+      "SBU"
+    ],
+    "Cheka": [
+      "VChK"
+    ],
+    "Ministry of Intelligence": [
+      "VAJA",
+      "MOIS"
+    ],
+    "GRU": [
+      "Main Intelligence Directorate"
+    ],
+    "Government Communications Headquarters": [
+      "GCHQ"
+    ],
+    "GCHQ": [
+      "Government Communications Headquarters"
+    ],
+    "Federal Counterintelligence Service": [
+      "FSK"
+    ],
+    "Bureau of Intelligence and Research": [
+      "INR"
+    ]
+  },
+  "scandals": {
+    "Clinton–Lewinsky scandal": [
+      "Lewinsky scandal",
+      "Monica Lewinsky scandal"
+    ],
+    "Abu Ghraib torture and prisoner abuse": [
+      "Abu Ghraib",
+      "Abu Ghraib scandal"
+    ],
+    "Watergate scandal": [
+      "Watergate"
+    ]
+  },
+  "acts-2001-on": {
+    "Affordable Care Act": [
+      "Obamacare",
+      "Patient Protection and Affordable Care Act"
+    ],
+    "Dodd–Frank Act": [
+      "Dodd-Frank",
+      "Dodd Frank Act"
+    ],
+    "Tax Cuts and Jobs Act": [
+      "Trump tax cuts"
+    ],
+    "Magnitsky Act": []
+  },
+  "acts-1901-1945": {
+    "G.I. Bill": [
+      "GI Bill",
+      "Servicemen's Readjustment Act"
+    ]
+  },
+  "leaders-americas": {
+    "Luiz Inácio Lula da Silva": [
+      "Lula"
+    ],
+    "Fidel Castro": [],
+    "Juan Perón": [
+      "Peron"
+    ]
+  },
+  "leaders-asia": {
+    "Mustafa Kemal Atatürk": [
+      "Kemal Ataturk",
+      "Ataturk"
+    ],
+    "Mahatma Gandhi": []
+  },
+  "leaders-europe": {
+    "Charles de Gaulle": [
+      "De Gaulle"
+    ]
+  },
+  "sc-1986-2004": {
+    "Reno v. American Civil Liberties Union": [
+      "Reno v. ACLU"
+    ],
+    "County of Allegheny v. American Civil Liberties Union": [
+      "Allegheny County v. ACLU"
+    ]
+  },
+  "sc-1969-1985": {
+    "Immigration and Naturalization Service v. Chadha": [
+      "INS v. Chadha"
+    ],
+    "Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc.": [
+      "Chevron v. NRDC",
+      "Chevron"
+    ]
+  },
+  "sc-2005-on": {
+    "National Federation of Independent Business v. Sebelius": [
+      "NFIB v. Sebelius"
+    ],
+    "New York State Rifle & Pistol Ass'n v. Bruen": [
+      "Bruen",
+      "NYSRPA v. Bruen"
+    ]
+  },
+  "sc-1933-1968": {
+    "Joseph Burstyn, Inc. v. Wilson": [
+      "Burstyn v. Wilson"
+    ],
+    "Brown v. Board of Education": [
+      "Brown v. Board",
+      "Brown"
+    ],
+    "Katzenbach v. McClung": []
+  }
+}

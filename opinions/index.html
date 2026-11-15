@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Opinions · Stay Informed News</title>
+<meta name="description" content="Opinion pieces and conversation from the Stay Informed News community.">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<link rel="canonical" href="https://dailypoliticaltrivia.com/opinions/" data-sin-head>
+<meta property="og:url" content="https://dailypoliticaltrivia.com/opinions/" data-sin-head>
+<meta property="og:image" content="https://dailypoliticaltrivia.com/assets/icons/og-image.png" data-sin-head>
+<meta property="og:image:alt" content="Daily Political Trivia: four daily political games, a new puzzle every day" data-sin-head>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:site_name" content="Stay Informed News">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Opinions · Stay Informed News">
+<meta property="og:description" content="Opinion pieces and conversation from the Stay Informed News community.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-section="opinions">
+<main id="main" class="page">
+  <div class="wrap">
+    <div class="op-head">
+      <div>
+        <h1 class="ptitle">Community voices</h1>
+        <p class="lede">Arguments, essays and first-hand perspectives from our readers. Every piece is the view of its author, and every reader is welcome to respond.</p>
+      </div>
+      <a class="btn red" href="write.html">Write a piece</a>
+    </div>
+
+    <div class="op-layout">
+      <section aria-label="Opinion pieces">
+        <div class="op-tabs" role="tablist" aria-label="Sort pieces">
+          <button role="tab" id="tabNew" aria-selected="true" data-sort="new">New</button>
+          <button role="tab" id="tabTop" aria-selected="false" data-sort="top">Top</button>
+        </div>
+        <div id="tagNote" class="meta" hidden></div>
+        <ol class="op-feed" id="feed" aria-live="polite"><li><div class="op-skel" style="width:70%"></div><div class="op-skel"></div><div class="op-skel" style="width:40%"></div></li></ol>
+        <div class="op-more"><button class="btn ghost" id="more" hidden>Load more</button></div>
+      </section>
+      <aside class="op-aside">
+        <div class="card">
+
+          <h3>Write for Stay Informed</h3>
+          <p>Anyone with a free account can publish. Make an argument, share what you have seen first-hand, or respond to another writer.</p>
+          <a class="btn" href="write.html" style="align-self:flex-start">Start writing</a>
+        </div>
+        <div class="card">
+          <h3><a href="guidelines.html">Opinion Guidelines</a></h3>
+          <ul>
+            <li>Argue with ideas, not people.</li>
+            <li>No harassment, hate, threats or doxxing.</li>
+            <li>Be honest about facts and cite sources where you can.</li>
+            <li>No spam or self-promotion.</li>
+          </ul>
+          <p>Use <b>Report</b> on anything that breaks these rules. Moderators may remove content or suspend accounts.</p>
+        </div>
+        <div class="card" id="meCard" hidden></div>
+      </aside>
+    </div>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  OP.demoBanner();
+  const PAGE = 10;
+  const feed = document.getElementById('feed'), more = document.getElementById('more');
+  const tag = OP.param('tag');
+  let sort = OP.param('sort') === 'top' ? 'top' : 'new', offset = 0;
+
+  if (tag){
+    const n = document.getElementById('tagNote');
+    n.hidden = false;
+    n.innerHTML = 'Showing pieces tagged <span class="pill">' + OP.esc(tag) + '</span> · <a href="index.html">Show all</a>';
+  }
+  function setTabs(){ document.querySelectorAll('.op-tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.sort === sort))); }
+  async function load(reset){
+    if (reset){ offset = 0; feed.innerHTML = '<li><div class="op-skel" style="width:70%"></div><div class="op-skel"></div></li>'; }
+    more.disabled = true;
+    try{
+      const rows = await SINDb.listPosts({ limit: PAGE + 1, offset, sort, tag: tag || undefined });
+      const page = rows.slice(0, PAGE);
+      const html = page.map(OP.feedItem).join('');
+      if (reset) feed.innerHTML = html || '<li class="empty">No pieces yet. <a href="write.html">Write the first one</a>.</li>';
+      else feed.insertAdjacentHTML('beforeend', html);
+      offset += page.length;
+      more.hidden = rows.length <= PAGE;
+    } catch(e){
+      feed.innerHTML = '<li class="empty">Opinions could not be loaded. ' + OP.esc(e.message) + '</li>';
+    }
+    more.disabled = false;
+  }
+  document.querySelectorAll('.op-tabs button').forEach(b => b.addEventListener('click', () => {
+    if (sort === b.dataset.sort) return;
+    sort = b.dataset.sort; setTabs();
+    const u = new URL(location.href); if (sort === 'top') u.searchParams.set('sort', 'top'); else u.searchParams.delete('sort'); history.replaceState(null, '', u);
+    load(true);
+  }));
+  more.addEventListener('click', () => load(false));
+  setTabs(); load(true);
+
+  function paintMe(u){
+    const c = document.getElementById('meCard');
+    if (!u){ c.hidden = true; return; }
+    c.hidden = false;
+    c.innerHTML = '<div class="op-by">' + OP.avatar(u, 'md') + '<div><b style="color:var(--ink)">' + OP.esc(u.display_name) + '</b><br>@' + OP.esc(u.username || '') + '</div></div>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap"><a class="op-chip" href="' + OP.authorUrl(u) + '">Your profile</a>' +
+      (u.is_admin ? '<a class="op-chip" href="admin.html">Moderation</a>' : '') + '<a class="op-chip" href="account.html">Account</a></div>';
+  }
+  SINDb.getUser().then(paintMe);
+  SINDb.onAuthChange(paintMe);
+})();
+</script>
+</body>
+</html>

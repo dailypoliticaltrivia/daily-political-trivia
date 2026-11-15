@@ -1,0 +1,7 @@
+# Allow everything public. Private areas are kept out of search with a noindex tag on each page
+# (see deploy/HEAD-PATCH.md), because robots.txt itself is public and lists nothing sensitive.
+User-agent: *
+Allow: /
+
+# Replace with your real domain when you set it (tools/site-config.json + node tools/build-sitemap.js prints the line).
+Sitemap: https://dailypoliticaltrivia.com/sitemap.xml

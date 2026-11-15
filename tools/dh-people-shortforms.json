@@ -1,0 +1,898 @@
+{
+ "_about": "Well-known short forms, initials, nicknames and maiden/married names that players type for politicians. Each entry: the spellings to accept, and 'match' = names under which the person may already be an answer (first that matches wins). Applied by site/tools/fill-dh-people-shortforms.js to every Dark Horse question that has the person as an answer. Only well-attested forms (Wikipedia lead or infobox nickname). Answer agent 2026-11-13.",
+ "entries": [
+  {
+   "forms": [
+    "AOC"
+   ],
+   "match": [
+    "Alexandria Ocasio-Cortez"
+   ]
+  },
+  {
+   "forms": [
+    "MTG",
+    "Marjorie Greene"
+   ],
+   "match": [
+    "Marjorie Taylor Greene"
+   ]
+  },
+  {
+   "forms": [
+    "LBJ"
+   ],
+   "match": [
+    "Lyndon B. Johnson",
+    "Lyndon Johnson"
+   ]
+  },
+  {
+   "forms": [
+    "JFK",
+    "Jack Kennedy"
+   ],
+   "match": [
+    "John F. Kennedy",
+    "John Fitzgerald Kennedy"
+   ]
+  },
+  {
+   "forms": [
+    "RFK",
+    "Bobby Kennedy"
+   ],
+   "match": [
+    "Robert F. Kennedy",
+    "Robert Kennedy"
+   ]
+  },
+  {
+   "forms": [
+    "Ted Kennedy",
+    "Teddy Kennedy"
+   ],
+   "match": [
+    "Edward M. Kennedy",
+    "Ted Kennedy",
+    "Edward Kennedy"
+   ]
+  },
+  {
+   "forms": [
+    "FDR"
+   ],
+   "match": [
+    "Franklin D. Roosevelt",
+    "Franklin Roosevelt"
+   ]
+  },
+  {
+   "forms": [
+    "Tip O'Neill"
+   ],
+   "match": [
+    "Thomas P. O'Neill Jr.",
+    "Tip O'Neill",
+    "Thomas O'Neill"
+   ]
+  },
+  {
+   "forms": [
+    "Scoop Jackson"
+   ],
+   "match": [
+    "Henry M. Jackson",
+    "Henry Jackson"
+   ]
+  },
+  {
+   "forms": [
+    "Happy Chandler"
+   ],
+   "match": [
+    "A. B. Chandler",
+    "Albert B. Chandler",
+    "Happy Chandler",
+    "Albert Chandler"
+   ]
+  },
+  {
+   "forms": [
+    "Cotton Ed Smith"
+   ],
+   "match": [
+    "Ellison D. Smith",
+    "Ellison Smith"
+   ]
+  },
+  {
+   "forms": [
+    "Pappy O'Daniel"
+   ],
+   "match": [
+    "W. Lee O'Daniel",
+    "Wilbert Lee O'Daniel"
+   ]
+  },
+  {
+   "forms": [
+    "Fritz Hollings"
+   ],
+   "match": [
+    "Ernest F. Hollings",
+    "Ernest Hollings"
+   ]
+  },
+  {
+   "forms": [
+    "Kit Bond"
+   ],
+   "match": [
+    "Christopher S. Bond",
+    "Christopher Bond",
+    "Kit Bond"
+   ]
+  },
+  {
+   "forms": [
+    "Mo Udall"
+   ],
+   "match": [
+    "Morris K. Udall",
+    "Morris Udall"
+   ]
+  },
+  {
+   "forms": [
+    "Fighting Bob La Follette",
+    "Bob La Follette"
+   ],
+   "match": [
+    "Robert M. La Follette",
+    "Robert La Follette",
+    "Robert M. La Follette Sr."
+   ]
+  },
+  {
+   "forms": [
+    "Mr. Sam"
+   ],
+   "match": [
+    "Sam Rayburn",
+    "Samuel Rayburn"
+   ]
+  },
+  {
+   "forms": [
+    "Bernie Sanders",
+    "Bernie"
+   ],
+   "match": [
+    "Bernard Sanders",
+    "Bernie Sanders"
+   ]
+  },
+  {
+   "forms": [
+    "Chuck Schumer"
+   ],
+   "match": [
+    "Charles E. Schumer",
+    "Chuck Schumer",
+    "Charles Schumer"
+   ]
+  },
+  {
+   "forms": [
+    "Chuck Grassley"
+   ],
+   "match": [
+    "Charles E. Grassley",
+    "Chuck Grassley",
+    "Charles Grassley"
+   ]
+  },
+  {
+   "forms": [
+    "Gabby Giffords"
+   ],
+   "match": [
+    "Gabrielle Giffords"
+   ]
+  },
+  {
+   "forms": [
+    "Nancy Kassebaum",
+    "Nancy Landon Kassebaum"
+   ],
+   "match": [
+    "Nancy Landon Kassebaum Baker",
+    "Nancy Kassebaum Baker",
+    "Nancy Landon Kassebaum"
+   ]
+  },
+  {
+   "forms": [
+    "Blanche Lambert",
+    "Blanche Lincoln"
+   ],
+   "match": [
+    "Blanche Lincoln",
+    "Blanche Lambert Lincoln"
+   ]
+  },
+  {
+   "forms": [
+    "Hillary Clinton",
+    "Hillary Rodham"
+   ],
+   "match": [
+    "Hillary Rodham Clinton",
+    "Hillary Clinton"
+   ]
+  },
+  {
+   "forms": [
+    "Margaret Chase Smith",
+    "Margaret Smith"
+   ],
+   "match": [
+    "Margaret Chase Smith"
+   ]
+  },
+  {
+   "forms": [
+    "Debbie Wasserman Schultz",
+    "DWS"
+   ],
+   "match": [
+    "Debbie Wasserman Schultz"
+   ]
+  },
+  {
+   "forms": [
+    "Shelley Capito"
+   ],
+   "match": [
+    "Shelley Moore Capito"
+   ]
+  },
+  {
+   "forms": [
+    "Kirsten Rutnik"
+   ],
+   "match": [
+    "Kirsten E. Gillibrand",
+    "Kirsten Gillibrand"
+   ]
+  },
+  {
+   "forms": [
+    "Liz Cheney"
+   ],
+   "match": [
+    "Liz Cheney",
+    "Elizabeth Cheney"
+   ]
+  },
+  {
+   "forms": [
+    "Dick Cheney"
+   ],
+   "match": [
+    "Dick Cheney",
+    "Richard B. Cheney",
+    "Richard Cheney"
+   ]
+  },
+  {
+   "forms": [
+    "Bob Dole"
+   ],
+   "match": [
+    "Bob Dole",
+    "Robert J. Dole",
+    "Robert Dole"
+   ]
+  },
+  {
+   "forms": [
+    "Al Gore",
+    "Al Gore Jr."
+   ],
+   "match": [
+    "Al Gore",
+    "Albert Gore Jr."
+   ]
+  },
+  {
+   "forms": [
+    "Joe Biden"
+   ],
+   "match": [
+    "Joe Biden",
+    "Joseph R. Biden Jr.",
+    "Joseph Biden"
+   ]
+  },
+  {
+   "forms": [
+    "Mitch McConnell"
+   ],
+   "match": [
+    "Mitch McConnell",
+    "Addison Mitchell McConnell"
+   ]
+  },
+  {
+   "forms": [
+    "Newt Gingrich",
+    "Newt"
+   ],
+   "match": [
+    "Newt Gingrich",
+    "Newton Gingrich"
+   ]
+  },
+  {
+   "forms": [
+    "Dan Quayle"
+   ],
+   "match": [
+    "Dan Quayle",
+    "J. Danforth Quayle"
+   ]
+  },
+  {
+   "forms": [
+    "Jim Jeffords"
+   ],
+   "match": [
+    "Jim Jeffords",
+    "James M. Jeffords",
+    "James Jeffords"
+   ]
+  },
+  {
+   "forms": [
+    "Strom Thurmond"
+   ],
+   "match": [
+    "Strom Thurmond",
+    "J. Strom Thurmond"
+   ]
+  },
+  {
+   "forms": [
+    "Daniel Patrick Moynihan",
+    "Pat Moynihan"
+   ],
+   "match": [
+    "Daniel Patrick Moynihan"
+   ]
+  },
+  {
+   "forms": [
+    "Barry Goldwater"
+   ],
+   "match": [
+    "Barry Goldwater",
+    "Barry M. Goldwater"
+   ]
+  },
+  {
+   "forms": [
+    "Hubert Humphrey",
+    "HHH"
+   ],
+   "match": [
+    "Hubert Humphrey",
+    "Hubert H. Humphrey"
+   ]
+  },
+  {
+   "forms": [
+    "Gene McCarthy"
+   ],
+   "match": [
+    "Eugene McCarthy",
+    "Eugene J. McCarthy"
+   ]
+  },
+  {
+   "forms": [
+    "Tail Gunner Joe",
+    "Joe McCarthy"
+   ],
+   "match": [
+    "Joseph McCarthy",
+    "Joseph R. McCarthy",
+    "Joe McCarthy"
+   ]
+  },
+  {
+   "forms": [
+    "Huey Long"
+   ],
+   "match": [
+    "Huey Long",
+    "Huey P. Long"
+   ]
+  },
+  {
+   "forms": [
+    "Old Hickory"
+   ],
+   "match": [
+    "Andrew Jackson"
+   ]
+  },
+  {
+   "forms": [
+    "Honest Abe",
+    "Abe Lincoln"
+   ],
+   "match": [
+    "Abraham Lincoln"
+   ]
+  },
+  {
+   "forms": [
+    "Davy Crockett"
+   ],
+   "match": [
+    "David Crockett",
+    "Davy Crockett"
+   ]
+  },
+  {
+   "forms": [
+    "Jeff Davis"
+   ],
+   "match": [
+    "Jefferson Davis"
+   ]
+  },
+  {
+   "forms": [
+    "Thad Stevens"
+   ],
+   "match": [
+    "Thaddeus Stevens"
+   ]
+  },
+  {
+   "forms": [
+    "Bill Bradley"
+   ],
+   "match": [
+    "Bill Bradley",
+    "William W. Bradley"
+   ]
+  },
+  {
+   "forms": [
+    "Jack Kemp"
+   ],
+   "match": [
+    "Jack Kemp",
+    "Jack F. Kemp"
+   ]
+  },
+  {
+   "forms": [
+    "Sonny Bono"
+   ],
+   "match": [
+    "Sonny Bono",
+    "Salvatore Bono"
+   ]
+  },
+  {
+   "forms": [
+    "Fred Thompson"
+   ],
+   "match": [
+    "Fred Thompson",
+    "Fred Dalton Thompson"
+   ]
+  },
+  {
+   "forms": [
+    "Pete Domenici"
+   ],
+   "match": [
+    "Pete Domenici",
+    "Pete V. Domenici"
+   ]
+  },
+  {
+   "forms": [
+    "Bob Menendez"
+   ],
+   "match": [
+    "Robert Menendez",
+    "Bob Menendez"
+   ]
+  },
+  {
+   "forms": [
+    "Dick Durbin"
+   ],
+   "match": [
+    "Richard J. Durbin",
+    "Dick Durbin",
+    "Richard Durbin"
+   ]
+  },
+  {
+   "forms": [
+    "Chuck Hagel"
+   ],
+   "match": [
+    "Chuck Hagel",
+    "Charles Hagel"
+   ]
+  },
+  {
+   "forms": [
+    "Kamala Harris"
+   ],
+   "match": [
+    "Kamala D. Harris",
+    "Kamala Harris"
+   ]
+  },
+  {
+   "forms": [
+    "JD Vance",
+    "J.D. Vance",
+    "James David Vance"
+   ],
+   "match": [
+    "J.D. Vance",
+    "JD Vance",
+    "James Vance"
+   ]
+  },
+  {
+   "forms": [
+    "Barack Obama",
+    "Obama"
+   ],
+   "match": [
+    "Barack Obama"
+   ]
+  },
+  {
+   "forms": [
+    "Ron Wyden"
+   ],
+   "match": [
+    "Ron Wyden",
+    "Ronald Wyden"
+   ]
+  },
+  {
+   "forms": [
+    "Bob Casey"
+   ],
+   "match": [
+    "Bob Casey Jr.",
+    "Robert P. Casey Jr.",
+    "Bob Casey"
+   ]
+  },
+  {
+   "forms": [
+    "Mike Pence"
+   ],
+   "match": [
+    "Mike Pence",
+    "Michael Pence"
+   ]
+  },
+  {
+   "forms": [
+    "Ted Cruz"
+   ],
+   "match": [
+    "Ted Cruz",
+    "Rafael Edward Cruz"
+   ]
+  },
+  {
+   "forms": [
+    "Rand Paul"
+   ],
+   "match": [
+    "Rand Paul",
+    "Randal Paul"
+   ]
+  },
+  {
+   "forms": [
+    "Jim Clyburn"
+   ],
+   "match": [
+    "James E. Clyburn",
+    "Jim Clyburn",
+    "James Clyburn"
+   ]
+  },
+  {
+   "forms": [
+    "Steny Hoyer"
+   ],
+   "match": [
+    "Steny H. Hoyer",
+    "Steny Hoyer"
+   ]
+  },
+  {
+   "forms": [
+    "Hakeem Jeffries"
+   ],
+   "match": [
+    "Hakeem S. Jeffries",
+    "Hakeem Jeffries"
+   ]
+  },
+  {
+   "forms": [
+    "Jim Jordan"
+   ],
+   "match": [
+    "Jim Jordan",
+    "James Jordan"
+   ]
+  },
+  {
+   "forms": [
+    "Jerry Nadler"
+   ],
+   "match": [
+    "Jerrold Nadler",
+    "Jerry Nadler"
+   ]
+  },
+  {
+   "forms": [
+    "Maxine Waters"
+   ],
+   "match": [
+    "Maxine Waters"
+   ]
+  },
+  {
+   "forms": [
+    "Ilhan Omar"
+   ],
+   "match": [
+    "Ilhan Omar"
+   ]
+  },
+  {
+   "forms": [
+    "Lindsey Graham"
+   ],
+   "match": [
+    "Lindsey Graham",
+    "Lindsey O. Graham"
+   ]
+  },
+  {
+   "forms": [
+    "Mitt Romney"
+   ],
+   "match": [
+    "Mitt Romney",
+    "Willard Mitt Romney"
+   ]
+  },
+  {
+   "forms": [
+    "John McCain"
+   ],
+   "match": [
+    "John McCain",
+    "John S. McCain III"
+   ]
+  },
+  {
+   "forms": [
+    "Joe Lieberman"
+   ],
+   "match": [
+    "Joe Lieberman",
+    "Joseph I. Lieberman"
+   ]
+  },
+  {
+   "forms": [
+    "Fighting Joe Wheeler"
+   ],
+   "match": [
+    "Joseph Wheeler"
+   ]
+  },
+  {
+   "forms": [
+    "Sam Houston"
+   ],
+   "match": [
+    "Sam Houston",
+    "Samuel Houston"
+   ]
+  },
+  {
+   "forms": [
+    "Tom DeLay"
+   ],
+   "match": [
+    "Tom DeLay",
+    "Thomas DeLay"
+   ]
+  },
+  {
+   "forms": [
+    "Denny Hastert"
+   ],
+   "match": [
+    "Dennis Hastert",
+    "J. Dennis Hastert"
+   ]
+  },
+  {
+   "forms": [
+    "Tom Daschle"
+   ],
+   "match": [
+    "Tom Daschle",
+    "Thomas Daschle"
+   ]
+  },
+  {
+   "forms": [
+    "Trent Lott"
+   ],
+   "match": [
+    "Trent Lott",
+    "Chester Trent Lott"
+   ]
+  },
+  {
+   "forms": [
+    "Harry Reid"
+   ],
+   "match": [
+    "Harry Reid",
+    "Harry M. Reid"
+   ]
+  },
+  {
+   "forms": [
+    "Bill Frist"
+   ],
+   "match": [
+    "Bill Frist",
+    "William H. Frist"
+   ]
+  },
+  {
+   "forms": [
+    "Pat Leahy"
+   ],
+   "match": [
+    "Patrick J. Leahy",
+    "Patrick Leahy"
+   ]
+  },
+  {
+   "forms": [
+    "Fred Upton"
+   ],
+   "match": [
+    "Fred Upton",
+    "Frederick Upton"
+   ]
+  },
+  {
+   "forms": [
+    "Barney Frank"
+   ],
+   "match": [
+    "Barney Frank"
+   ]
+  },
+  {
+   "forms": [
+    "Charlie Rangel"
+   ],
+   "match": [
+    "Charles B. Rangel",
+    "Charles Rangel"
+   ]
+  },
+  {
+   "forms": [
+    "Shirley Chisholm"
+   ],
+   "match": [
+    "Shirley Chisholm",
+    "Shirley A. Chisholm"
+   ]
+  },
+  {
+   "forms": [
+    "Bella Abzug",
+    "Battling Bella"
+   ],
+   "match": [
+    "Bella Abzug",
+    "Bella S. Abzug"
+   ]
+  },
+  {
+   "forms": [
+    "Pat Schroeder"
+   ],
+   "match": [
+    "Patricia Schroeder",
+    "Pat Schroeder"
+   ]
+  },
+  {
+   "forms": [
+    "Jeannette Rankin"
+   ],
+   "match": [
+    "Jeannette Rankin"
+   ]
+  },
+  {
+   "forms": [
+    "Olympia Snowe"
+   ],
+   "match": [
+    "Olympia J. Snowe",
+    "Olympia Snowe"
+   ]
+  },
+  {
+   "forms": [
+    "Elizabeth Warren"
+   ],
+   "match": [
+    "Elizabeth Warren"
+   ]
+  },
+  {
+   "forms": [
+    "Dianne Feinstein",
+    "DiFi"
+   ],
+   "match": [
+    "Dianne Feinstein"
+   ]
+  },
+  {
+   "forms": [
+    "Barbara Boxer"
+   ],
+   "match": [
+    "Barbara Boxer"
+   ]
+  },
+  {
+   "forms": [
+    "Teddy Roosevelt",
+    "TR"
+   ],
+   "match": [
+    "Theodore Roosevelt"
+   ]
+  }
+ ]
+}

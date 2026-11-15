@@ -1,0 +1,138 @@
+/* Caucus Sort: game-only styles. Site colours/spacing come from the shared tokens in site.css. */
+.cx{--y:#f2a03d;--g:#ec8a9c;--b:#46b3a6;--p:#4a5bb8;--on:#111214;--on4:#ffffff;margin-top:var(--s6);max-width:640px}
+.cx-bar{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;justify-content:space-between;border-top:2px solid var(--ink);padding-top:var(--s3);margin-bottom:var(--s4)}
+.cx-seg{display:inline-flex;border:1px solid var(--ink);border-radius:var(--r);overflow:hidden}
+.cx-seg button{min-height:44px;min-width:44px;padding:0 var(--s4);font:600 14px var(--sans);background:transparent;color:var(--ink);border:0;cursor:pointer}
+.cx-seg button+button{border-left:1px solid var(--ink)}
+.cx-seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.cx-check{display:inline-flex;align-items:center;gap:var(--s2);min-height:44px;font:600 14px var(--sans);cursor:pointer}
+.cx-check input{width:22px;height:22px;accent-color:var(--ink);margin:0}
+.cx-meta{display:flex;justify-content:space-between;align-items:center;gap:var(--s3);font-size:14px;color:var(--muted);margin-bottom:var(--s3)}
+.cx-meta b{color:var(--ink)}
+.cx-lives{display:inline-flex;gap:6px;align-items:center}
+.cx-lives i{width:14px;height:14px;border-radius:50%;background:var(--ink);transition:transform .2s,background .2s}
+.cx-lives i.lost{background:transparent;border:2px solid var(--line-strong,var(--muted));transform:scale(.8)}
+
+.cx-solved{display:grid;gap:var(--s2);margin-bottom:var(--s2)}
+.cx-group{border-radius:var(--r);padding:var(--s3) var(--s4);color:var(--on);text-align:center;min-height:76px;display:flex;flex-direction:column;justify-content:center;animation:cxin .35s var(--ease)}
+.cx-group .t{font:700 15px/1.25 var(--sans);text-transform:uppercase;letter-spacing:.03em}
+.cx-group .t .sym{display:inline-block;margin-right:6px;font-size:16px}
+.cx-group .n{font:500 13px/1.35 var(--sans);margin-top:2px}
+.cx-group .lvl{font:600 11px var(--sans);text-transform:uppercase;letter-spacing:.08em;opacity:.8;margin-top:2px}
+.cx-group.d1{background:var(--y)}.cx-group.d2{background:var(--g)}.cx-group.d3{background:var(--b)}.cx-group.d4{background:var(--p);color:var(--on4)}
+/* palette (amber, rose, teal, indigo) is deliberately not the common yellow/green/blue/purple set; text contrast on each: 8.8, 7.8, 7.4, 6.0 (AA), same in light and dark because the tile carries its own fill; groups also carry a shape symbol and the colour name */
+.cx-group.missed{outline:2px dashed currentColor;outline-offset:-5px}
+@keyframes cxin{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+
+.cx-board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+@media (min-width:480px){.cx-board{gap:8px}}
+.cx-tile{position:relative;display:flex;flex-direction:column;align-items:stretch;min-width:44px;min-height:44px;padding:0;margin:0;background:var(--panel);border:2px solid var(--line);border-radius:var(--r);color:var(--ink);font:inherit;cursor:pointer;overflow:hidden;text-align:center;transition:border-color .12s,transform .12s,background .12s}
+@media (hover:hover){.cx-tile:hover{border-color:var(--muted)}}
+.cx-tile img,.cx-tile .ph{display:block;width:100%;height:auto;aspect-ratio:225/275;object-fit:cover;background:var(--panel-2)}
+.cx-tile .ph{display:grid;place-items:center;font:700 20px var(--sans);color:var(--muted)}
+.cx-tile .nm{display:flex;align-items:center;justify-content:center;padding:4px 3px;font:600 11px/1.15 var(--sans);min-height:2.7em;overflow-wrap:anywhere}
+@media (min-width:480px){.cx-tile .nm{font-size:13px;padding:5px 4px}}
+.cx-faces .cx-tile .nm{display:none}
+.cx-tile[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--paper);transform:translateY(-2px)}
+.cx-tile[aria-pressed="true"]::after{content:"\2713";position:absolute;top:4px;right:4px;width:22px;height:22px;border-radius:50%;background:var(--paper);color:var(--ink);font:700 14px/22px var(--sans)}
+.cx-tile[aria-pressed="true"] img{opacity:.88}
+.cx-tile.shake{animation:cxshake .45s}
+.cx-tile.hint{outline:3px solid var(--accent);outline-offset:-3px}
+@keyframes cxshake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+
+.cx-msg{min-height:28px;margin:var(--s3) 0 var(--s2);text-align:center;font:600 15px var(--sans)}
+.cx-msg.warn{color:var(--accent)}
+.cx-actions{display:flex;flex-wrap:wrap;gap:var(--s2);justify-content:center}
+.cx-actions .btn{min-width:44px;padding:0 var(--s4)}
+.cx .btn.ghost{background:transparent;color:var(--ink)}
+@media (hover:hover){.cx .btn.ghost:hover{background:var(--panel-2)}}
+.cx .btn[disabled]{opacity:.45;cursor:not-allowed}
+
+.cx-result{margin-top:var(--s5);border-top:2px solid var(--ink);padding-top:var(--s4)}
+.cx-result h2{font-family:var(--serif);font-weight:500;letter-spacing:-.02em;margin:0 0 var(--s2);font-size:clamp(26px,5vw,34px)}
+.cx-result .sum{color:var(--muted);margin:0 0 var(--s3)}
+.cx-share{font:16px/1.3 var(--sans);background:var(--panel-2);border:1px solid var(--line);border-radius:var(--r);padding:var(--s3) var(--s4);white-space:pre-wrap;margin:var(--s3) 0;user-select:all}
+.cx-note{font-size:13px;color:var(--muted);margin-top:var(--s4)}
+@media (prefers-reduced-motion:reduce){.cx-tile.shake,.cx-group{animation:none!important}.cx-tile[aria-pressed="true"]{transform:none}}
+
+/* ---- family layer: one centred play column, same header rhythm as the other games ---- */
+main>.wrap{max-width:calc(640px + var(--gut) * 2)}
+.glock{margin-top:var(--s3)}
+.cx-group .t{text-transform:none;letter-spacing:0;font-size:16px}
+.cx-group .lvl{text-transform:none;letter-spacing:0;font-size:12px}
+.cx-tile[aria-pressed="true"]{transform:none;box-shadow:0 0 0 2px var(--ink)}
+.cx-bar,.cx-result{border-top-width:2px}
+
+/* start screen (shown before today's puzzle; same pattern as Dark Horse's intro) */
+.cx-intro{border-top:2px solid var(--ink);padding-top:var(--s3)}
+.cx-intro-date{margin:0;font-size:14px;color:var(--muted)}
+.cx-intro-date b{color:var(--ink)}
+.cx-intro-rules{font-family:var(--serif);font-size:clamp(19px,2vw,22px);line-height:1.45;color:var(--ink-2);max-width:46ch;margin:var(--s3) 0 var(--s5);text-wrap:pretty}
+.cx-intro .row{display:flex;flex-wrap:wrap;gap:var(--s3)}
+
+/* ===== phone (<=759px). Game pages have no site bar: back link, title, board. See design-notes/PHONE.md ===== */
+.cx-check input{width:24px;height:24px;flex:none}
+.cx-board,.cx-tile{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+@media (hover:hover){.cx-tile:hover{border-color:var(--muted)}}
+@media (max-width:759px){
+  .page{padding-top:max(8px,env(safe-area-inset-top));padding-bottom:0}
+  .kicker{margin-left:-8px}
+  .kicker a{display:inline-flex;align-items:center;min-height:44px;padding:0 8px;font-size:16px}
+  .glock{margin-top:0;display:flex;align-items:center;gap:var(--s3)}
+  .glock .logo-mark{width:36px;height:36px;flex:none}
+  .glock .ptitle{font-size:clamp(26px,7.4vw,32px);margin:0}
+  main>.wrap>.lede{font-size:18px;margin:var(--s2) 0 0}
+  .cx{margin-top:var(--s1);min-height:calc(100svh - 150px)}
+  .cx-intro .row{flex-direction:column}
+  .cx-intro .row .btn{width:100%;min-height:52px}
+  .cx-intro-rules{font-size:19px}
+  .cx-intro-date{font-size:15px}
+  /* while a puzzle is on screen the title and the rules sentence step aside */
+  main:has(.cx-board) .glock,main:has(.cx-board) > .wrap > .lede{display:none}
+  .cx-bar{flex-wrap:nowrap;gap:0 var(--s3);padding-top:var(--s2);margin-bottom:var(--s2);border-top-width:1px}
+  .cx-check{flex:1 1 0;min-width:0;line-height:1.2;font-size:14px}
+  .cx-meta{flex-wrap:nowrap}
+  .cx-meta>span:first-child{flex:1 1 auto;min-width:0}
+  .cx-lives{flex:none;font-size:14px}
+  .cx-seg button{font-size:15px;min-height:44px}
+  .cx-check{font-size:15px}
+  .cx-meta{font-size:14px;margin-bottom:var(--s2)}
+  .cx-lives i{width:16px;height:16px}
+  .cx-board{gap:6px}
+  .cx-tile{border-radius:6px;min-height:0}
+  .cx-tile img,.cx-tile .ph{aspect-ratio:1/1.08;object-position:50% 14%}
+  .cx-tile .nm{font-size:12px;line-height:1.15;padding:5px 2px;min-height:2.6em}
+  .cx-tile:active{transform:scale(.96)}
+  .cx-tile[aria-pressed="true"]::after{width:20px;height:20px;font-size:13px;line-height:20px;top:3px;right:3px}
+  .cx-group{min-height:68px;padding:var(--s2) var(--s3)}
+  .cx-group .t{font-size:16px}
+  .cx-group .n{font-size:14px}
+  .cx-group .lvl{font-size:13px}
+  .cx-msg{font-size:16px;margin:var(--s2) 0;min-height:24px}
+  /* Shuffle / Clear / Submit stay in thumb reach at the bottom while the board scrolls under them */
+  .cx-actions{position:sticky;bottom:0;z-index:5;flex-wrap:nowrap;gap:var(--s2);background:var(--paper);padding:var(--s2) 0 calc(var(--s2) + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+  .cx-actions .btn{flex:1 1 0;min-width:0;min-height:52px;padding:0 var(--s2)}
+  .cx-actions #cx-submit{flex:1.5 1 0}
+  .cx-result{margin-top:var(--s4)}
+  .cx-result .sum{font-size:17px}
+  .cx-share{font-size:18px}
+  .cx-note{font-size:14px}
+  .cx-result .cx-actions{position:static;flex-wrap:wrap;border:0;padding:0}
+  .cx-result .cx-actions .btn{flex:1 1 100%}
+  main:has(.cx-result) .cx-actions:not(.cx-result .cx-actions){position:static}
+}
+@media (max-width:759px) and (max-height:760px){
+  .cx-tile img,.cx-tile .ph{aspect-ratio:1/.9}
+  .cx-tile .nm{font-size:12px;padding:3px 1px;min-height:2.4em}
+  .cx-meta{margin-bottom:var(--s1)}
+  .cx-msg{min-height:20px;margin:var(--s1) 0}
+}
+@media (max-width:759px) and (max-height:700px){
+  .cx-meta>span:first-child{display:none}
+  .cx-meta{justify-content:flex-end;margin-bottom:var(--s1)}
+  .cx-bar{border-top:0;padding-top:0}
+  .cx-tile img,.cx-tile .ph{aspect-ratio:1/.8}
+  .cx-actions .btn{min-height:48px}
+}
+.cx-group .n a.cx-who{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.cx-group .n a.cx-who:hover{text-decoration-thickness:2px}

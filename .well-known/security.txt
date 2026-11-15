@@ -1,0 +1,4 @@
+Contact: mailto:security@dailypoliticaltrivia.com
+Expires: 2027-11-10T21:55:03.000Z
+Preferred-Languages: en
+Canonical: https://dailypoliticaltrivia.com/.well-known/security.txt

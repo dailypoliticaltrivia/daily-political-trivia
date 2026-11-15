@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Capitol Climb · Daily Political Trivia</title>
+<meta name="description" content="Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day. Not affiliated with any other game.">
+<link rel="icon" type="image/svg+xml" href="../../assets/logos/favicon-dc-journey.svg">
+<!-- load-speed: script and data preloads so the browser fetches them in parallel (the data list must match data/manifest.json) -->
+<link rel="preload" as="script" href="../../assets/site.js">
+<link rel="preload" as="script" href="../../assets/ads/ads-config.js">
+<link rel="preload" as="script" href="../../assets/ads/ads-loader.js">
+<link rel="preload" as="script" href="dcj-core.js">
+<link rel="preload" as="script" href="map.js">
+<link rel="preload" as="script" href="scenes.js">
+<link rel="preload" as="script" href="fx.js">
+<link rel="preload" as="script" href="dcj.js">
+<link rel="preload" as="script" href="../../assets/fx.js">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/stops.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/manifest.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-fill-civic.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-fill-small.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-fill-war.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-p1-2.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-p3.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-p4-5.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-p6-7.json">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/bank-p8-9.json">
+<link rel="stylesheet" href="../../assets/site.css">
+<link rel="stylesheet" href="../../assets/logos/logos.css">
+<link rel="stylesheet" href="dcj.css">
+<link rel="stylesheet" href="fx.css">
+<link rel="stylesheet" href="../../assets/fx.css">
+<!-- head-patch -->
+<link rel="canonical" href="https://dailypoliticaltrivia.com/games/capitol-climb/" data-sin-head>
+<meta property="og:url" content="https://dailypoliticaltrivia.com/games/capitol-climb/" data-sin-head>
+<meta property="og:image" content="https://dailypoliticaltrivia.com/assets/icons/og-capitol-climb.png" data-sin-head>
+<meta property="og:image:alt" content="Capitol Climb: a daily political game" data-sin-head>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:site_name" content="Daily Political Trivia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Capitol Climb · Daily Political Trivia">
+<meta property="og:description" content="Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day. Not affiliated with any other game.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-section="games" data-game="dc-journey">
+<main id="main" class="page dj-page">
+  <div class="wrap">
+    <div class="kicker"><a href="../">Games</a><span class="sinfx-slot" data-sinfx-controls></span></div>
+    <div class="glock">
+      <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M5 60H13V55H21V50H27" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="25" y="46" width="34" height="4" rx="1" fill="currentColor"/><rect x="31" y="40" width="22" height="6" fill="currentColor"/><rect x="29" y="37" width="26" height="3" fill="currentColor"/><path d="M31 37C31 26 36 22 42 22S53 26 53 37z" fill="var(--logo-accent,var(--accent,#a3141f))"/><path d="M39 22L40.2 14h3.6L45 22z" fill="currentColor"/><rect x="41" y="8" width="2" height="6" fill="currentColor"/></svg>
+      <h1 class="ptitle">Capitol Climb</h1>
+    </div>
+    <div id="game" class="dj" aria-busy="true"><p class="lede">Loading the map...</p></div>
+    <div id="dj-live" class="sr-only" role="status" aria-live="polite"></div>
+  </div>
+</main>
+<dialog id="dj-sheet" class="dj-sheet" aria-labelledby="dj-sheet-title"></dialog>
+<script src="../../assets/site.js"></script>
+<script src="dcj-core.js"></script>
+<script src="map.js"></script>
+<script src="scenes.js"></script>
+<script src="fx.js"></script>
+<script src="dcj.js"></script>
+<script src="../../assets/fx.js"></script>
+</body>
+</html>

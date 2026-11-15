@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Congress Map · Daily Political Trivia</title>
+<meta name="description" content="Pick any year since 1789, click a state and a congressional district, and see who represented it: House member, senators and governor. Watch district lines change over time.">
+<link rel="preload" as="script" href="../assets/site.js">
+<link rel="preload" as="script" href="map-data.js">
+<link rel="preload" as="script" href="map.js">
+<link rel="preload" as="fetch" href="data/index.json" crossorigin="anonymous">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="map.css">
+<link rel="stylesheet" href="../assets/fx.css">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<meta property="og:site_name" content="Daily Political Trivia">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Congress Map · Daily Political Trivia">
+<meta property="og:description" content="Every congressional district since 1789: who held it, and how the lines moved.">
+<!-- head-patch -->
+<link rel="canonical" href="https://dailypoliticaltrivia.com/map/" data-sin-head>
+<meta property="og:url" content="https://dailypoliticaltrivia.com/map/" data-sin-head>
+<meta property="og:image" content="https://dailypoliticaltrivia.com/map/og-map.png" data-sin-head>
+<meta property="og:image:alt" content="The Congress Map: every congressional district since 1789" data-sin-head>
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-section="map">
+<main id="main" class="page mp-page">
+  <div class="wrap">
+    <header class="mp-head">
+      <div class="mp-headtext">
+        <div class="kicker">Explore</div>
+        <h1 class="ptitle mp-title">The Congress Map</h1>
+        <p class="mp-lede">Learn who has represented every state and district since 1789, then put it to the test in the daily games.</p>
+      </div>
+      <div class="mp-search" role="search">
+        <label for="mp-q" class="sr-only">Find a person or a state</label>
+        <svg class="mp-search-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="mp-q" type="search" autocomplete="off" spellcheck="false" placeholder="Find a person or a state" role="combobox" aria-expanded="false" aria-controls="mp-results" aria-autocomplete="list">
+        <ul id="mp-results" class="mp-results" role="listbox" aria-label="Search results" hidden></ul>
+      </div>
+    </header>
+
+    <p class="mp-sample" id="mp-sample" hidden>Preview data: only Maryland and Wyoming, 2021 to 2024. District lines in this preview are illustrative.</p>
+
+    <section class="mp-stage" aria-label="Map and details">
+      <div class="mp-mapcol">
+        <div class="mp-balance" id="mp-balance" aria-label="Party balance in Congress" role="group" hidden></div>
+        <div class="mp-mapwrap" id="mp-mapwrap">
+          <div class="mp-crumbs" id="mp-crumbs"></div>
+          <div class="mp-tools" role="toolbar" aria-label="Map tools">
+            <button type="button" class="mp-tool" id="mp-ghost" aria-pressed="false" aria-label="Redistricting"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7l5-3 6 3 5-3v13l-5 3-6-3-5 3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 4v13M15 7v13" stroke="currentColor" stroke-width="1.8" stroke-dasharray="2 2.4"/></svg><span>Redistricting</span></button>
+            <button type="button" class="mp-tool" id="mp-cmp" aria-pressed="false" aria-label="Compare with another year" hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="7.5" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="5" width="7.5" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="2.2 2"/></svg><span>Compare</span></button>
+            <button type="button" class="mp-tool mp-tool-ic" id="mp-share" aria-label="Share this view"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15V4M7.5 8.5L12 4l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 12v6.5A1.5 1.5 0 0 0 7.5 20h9a1.5 1.5 0 0 0 1.5-1.5V12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></button>
+            <span class="mp-zoom"><button type="button" class="mp-tool mp-tool-ic" id="mp-zin" aria-label="Zoom in"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button><button type="button" class="mp-tool mp-tool-ic" id="mp-zout" aria-label="Zoom out"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></span>
+          </div>
+          <a class="mp-skip" href="#mp-time-box">Skip the map</a>
+          <svg id="mp-svg" tabindex="-1" class="mp-svg" viewBox="0 0 975 610" preserveAspectRatio="xMidYMid meet" role="group" aria-label="Map of the United States" aria-describedby="mp-maphelp">
+            <defs>
+              <pattern id="mp-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="mp-hatch-bg"/><rect width="2" height="6" class="mp-hatch-fg"/></pattern>
+              <pattern id="mp-chg" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="1.3" height="5" class="mp-chg-fg"/></pattern>
+              <pattern id="mp-tie" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="2.5" height="5" class="mp-tie-a"/><rect x="2.5" width="2.5" height="5" class="mp-tie-b"/></pattern>
+              <filter id="mp-lift" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.2" stdDeviation="1.6" flood-color="#000" flood-opacity=".28"/></filter>
+              <filter id="mp-soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3"/></filter>
+            </defs>
+            <g class="mp-g-states" id="mp-g-states"></g>
+            <g class="mp-g-shadow" id="mp-g-shadow" aria-hidden="true"></g>
+            <g class="mp-g-dist" id="mp-g-dist"></g>
+            <g class="mp-g-chg" id="mp-g-chg" aria-hidden="true"></g>
+            <g class="mp-g-ghost" id="mp-g-ghost" aria-hidden="true"></g>
+            <g class="mp-g-sel" id="mp-g-sel" aria-hidden="true"></g>
+            <g class="mp-g-lift" id="mp-g-lift" aria-hidden="true"></g>
+            <g class="mp-g-labels" id="mp-g-labels" aria-hidden="true"></g>
+            <g class="mp-g-focus" id="mp-g-focus" aria-hidden="true"></g>
+          </svg>
+          <svg id="mp-svg2" class="mp-svg mp-svg2" viewBox="0 0 975 610" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" hidden></svg>
+          <div class="mp-cmp-tags" aria-hidden="true"><span id="mp-cmp-a"></span><span id="mp-cmp-b"></span></div>
+          <div class="mp-cmp-div" id="mp-cmp-div" role="slider" tabindex="0" aria-label="Compare divider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" hidden><span></span></div>
+          <div class="mp-cmpbar" id="mp-cmpbar" hidden><label for="mp-cmp-year">Compare with</label><select id="mp-cmp-year"></select><button type="button" id="mp-cmp-x" aria-label="Close compare"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
+          <p id="mp-maphelp" class="sr-only">Each state and district is a button. Press Tab to move between them, Enter to open, Escape to go back. A table version is below the map.</p>
+          <div class="mp-co-layer" id="mp-co"></div>
+          <div class="mp-tip" id="mp-tip" aria-hidden="true"></div>
+          <div class="mp-note-map" id="mp-note-map" aria-hidden="true" hidden></div>
+          <div class="mp-empty" id="mp-empty" hidden></div>
+          <div class="mp-loading" id="mp-loading" aria-hidden="true"></div>
+          <div class="mp-tour" id="mp-tour" role="dialog" aria-label="Guided tour" aria-live="polite" hidden></div>
+        </div>
+        <div class="mp-key"><div class="mp-mode" id="mp-mode" role="group" aria-label="Color states by"><button type="button" data-m="h" aria-pressed="true">House</button><button type="button" data-m="s" aria-pressed="false">Senate</button><button type="button" data-m="g" aria-pressed="false">Governor</button></div><ul class="mp-legend" id="mp-legend" aria-label="Legend"></ul><p class="mp-key-cap" id="mp-key-cap"></p>
+<div class="mp-onboard" id="mp-onboard" hidden><span><span class="mp-ob-l">Drag the timeline to pick a year, then click a state.</span><span class="mp-ob-s">Pick a year, then tap a state.</span></span><button type="button" id="mp-onboard-x" aria-label="Dismiss hint"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div></div>
+
+        <section class="mp-time" id="mp-time-box" tabindex="-1" aria-label="Year">
+          <div class="mp-time-top">
+            <div class="mp-playgrp">
+              <button type="button" class="mp-play" id="mp-play" aria-label="Play through the years" aria-pressed="false">
+                <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>
+                <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z" fill="currentColor"/></svg>
+              </button>
+              <button type="button" class="mp-speed" id="mp-speed" aria-label="Playback speed: 1 times" hidden>1×</button>
+            </div>
+            <div class="mp-steps"><button type="button" class="mp-step" id="mp-prev" aria-label="Previous Congress"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></button><button type="button" class="mp-step" id="mp-next" aria-label="Next Congress"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+            <div class="mp-readout">
+              <div class="mp-year" id="mp-year" aria-hidden="true">2024</div>
+              <div class="mp-readmeta"><div class="mp-era" id="mp-era"></div><div class="mp-cong" id="mp-cong"></div></div>
+            </div>
+            <div class="mp-chips" id="mp-chips" role="group" aria-label="Jump to a year"></div>
+          </div>
+          <div class="mp-track" id="mp-track">
+            <div class="mp-eras" id="mp-eras" aria-hidden="true"></div>
+            <div class="mp-rail" aria-hidden="true"><div class="mp-fill" id="mp-fill"></div></div>
+            <div class="mp-avail" id="mp-avail" aria-hidden="true"></div>
+            <div class="mp-ticks" id="mp-ticks" aria-hidden="true"></div>
+            <div class="mp-thumb" id="mp-thumb" role="slider" tabindex="0" aria-label="Year" aria-valuemin="1789" aria-valuemax="2026" aria-valuenow="2024"><span class="mp-thumb-flag" id="mp-thumb-flag" aria-hidden="true"></span></div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="mp-panel" id="mp-panel" aria-labelledby="mp-panel-title">
+        <button type="button" class="mp-grip" id="mp-grip" aria-expanded="false" aria-controls="mp-panel-body"><span class="mp-grip-bar" aria-hidden="true"></span><span class="sr-only">Expand details</span></button>
+        <div class="mp-panel-body" id="mp-panel-body">
+          <nav class="mp-pcrumbs" id="mp-pcrumbs" aria-label="Where you are"></nav>
+          <h2 class="mp-panel-title" id="mp-panel-title">United States</h2>
+          <p class="mp-panel-sum" id="mp-panel-sum"></p>
+          <div id="mp-panel-content"></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mp-moments-box" aria-labelledby="mp-moments-title">
+      <h2 class="mp-moments-h" id="mp-moments-title">Famous moments</h2>
+      <ul class="mp-tours" id="mp-tours" aria-label="Guided tours"></ul>
+      <ul class="mp-moments" id="mp-moments"></ul>
+    </section>
+
+    <section class="mp-games" aria-labelledby="mp-games-title">
+      <h2 class="mp-games-h" id="mp-games-title">Test yourself</h2>
+      <p class="mp-games-sub">Everything on this map turns up in the daily games. Learn it here, then see how you do.</p>
+      <ul class="mp-games-list">
+        <li><a href="../games/congressional-grid/"><b>Congressional Grid</b><span>Members of Congress by state, party and era: browse a state's delegation in any year.</span></a></li>
+        <li><a href="../games/dark-horse/"><b>Dark Horse</b><span>Rare right answers score more: the map lists every member, senator and governor to dig into.</span></a></li>
+        <li><a href="../games/caucus-sort/"><b>Caucus Sort</b><span>Sort politicians by what they share: party, state, chamber or era, all side by side here.</span></a></li>
+        <li><a href="../games/capitol-climb/"><b>Capitol Climb</b><span>U.S. history, stop by stop: the timeline, tours and famous moments cover the big turns.</span></a></li>
+      </ul>
+    </section>
+
+    <section class="mp-tablebox" aria-labelledby="mp-table-title">
+      <h2 id="mp-table-title" class="sr-only">Table view</h2>
+      <details id="mp-details">
+        <summary><span class="mp-sum-t">Table view</span><span class="mp-sum-note" id="mp-table-note"></span></summary>
+        <div class="mp-tablewrap" id="mp-table"></div>
+      </details>
+    </section>
+
+    <section class="mp-about">
+      <h2>About this map</h2>
+      <p>The year shows the Congress in session on July 1 of that year. Seats that changed hands during the year list every holder, with dates. Before 1913, state legislatures chose senators, and some Senate seats sat empty for months.</p>
+      <p>District lines are redrawn after each census and sometimes in between, when courts strike a map down or a legislature redraws mid-decade. Turn on <em>Redistricting</em> to see the previous Congress's lines as dashed outlines. Districts whose shape changed are hatched.</p>
+      <p>Keyboard: arrow keys on the timeline move one year (Shift moves ten). Every state and district is a button, and Escape goes back. Sources and photo credits are on the <a href="../credits.html">Credits</a> page.</p>
+    </section>
+    <div id="mp-live" class="sr-only" role="status" aria-live="polite"></div>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="map-data.js"></script>
+<script src="map.js"></script>
+<script src="../assets/fx.js"></script>
+</body>
+</html>

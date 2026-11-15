@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Page not found · Daily Political Trivia</title>
+<meta name="description" content="That page could not be found. Head back to the daily games.">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<!-- This page is shown for ANY wrong address, at any depth (/a/b/c), so relative links would break.
+     The script below finds the site root first: "/" on a domain, "/repo-name/" on a github.io project address.
+     Without JavaScript, the noscript block loads the files from the root. -->
+<script>
+(function(){
+  var p = location.pathname.split('/').filter(Boolean), root = '/';
+  if (/\.github\.io$/i.test(location.hostname) && p.length) root = '/' + p[0] + '/';
+  window.__SIN_ROOT = root;
+  var b = document.createElement('base'); b.href = root; document.head.appendChild(b);
+  var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = root + 'assets/site.css'; document.head.appendChild(l);
+})();
+</script>
+<noscript><link rel="stylesheet" href="/assets/site.css"></noscript>
+<style>
+.nf .ptitle{max-width:14ch}
+.nf .code{font:600 13px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:var(--s8) 0 var(--s2)}
+.nf p{font-family:var(--serif);font-size:clamp(19px,1.7vw,21px);line-height:1.62;color:var(--ink-2);margin:var(--s3) 0 var(--s5);max-width:56ch}
+.nf ul{list-style:none;margin:0;padding:0;display:grid;gap:0;max-width:30rem;border-top:2px solid var(--ink)}
+.nf li{border-bottom:1px solid var(--line-strong)}
+.nf li a{display:flex;justify-content:space-between;align-items:center;min-height:48px;padding:12px 2px;font:600 16px var(--sans);color:var(--ink);text-decoration:none}
+.nf li a:hover{color:var(--accent)}
+.nf li span{font:400 14px var(--sans);color:var(--ink-2)}
+@media (max-width:759px){ .nf .code{margin-top:var(--s5);font-size:14px} .nf li a{min-height:56px;font-size:17px} .nf li a:active{background:var(--panel-2)} .nf li span{font-size:14px} .nf ul{max-width:none} }
+</style>
+<!-- head-patch -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+</head>
+<body data-section="" data-ads="off">
+<main id="main" class="page">
+  <div class="wrap nf">
+    <div class="code">Error 404</div>
+    <h1 class="ptitle">We could not find that page.</h1>
+    <p>The link may be old, or the address may have a typo. Here is where most people want to go.</p>
+    <ul>
+      <li><a href="index.html">Home <span>Today's daily games</span></a></li>
+      <li><a href="games/congressional-grid/">Congressional Grid <span>Daily grid</span></a></li>
+      <li><a href="games/dark-horse/">Dark Horse <span>Seven questions</span></a></li>
+      <li><a href="games/caucus-sort/">Caucus Sort <span>Faces puzzle</span></a></li>
+      <li><a href="games/capitol-climb/">Capitol Climb <span>History trivia</span></a></li>
+      <li data-op><a href="opinions/">Opinions <span>Community writing</span></a></li>
+    </ul>
+  </div>
+</main>
+<noscript><p class="wrap"><a href="/">Go to the home page</a></p></noscript>
+<script>(function(){ var s = document.createElement('script'); s.src = (window.__SIN_ROOT || '/') + 'assets/site.js'; document.body.appendChild(s); })();</script>
+</body>
+</html>

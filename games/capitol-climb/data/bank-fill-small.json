@@ -1,0 +1,2311 @@
+{
+ "bank": "fill-small",
+ "questions": [
+  {
+   "id": "fs-0001",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Because of how electors voted in 1800, Thomas Jefferson ended up tied in the Electoral College, with 73 votes each, with his own running mate. Who was that running mate?",
+   "options": [
+    "Charles Cotesworth Pinckney",
+    "Alexander Hamilton",
+    "Aaron Burr",
+    "George Clinton"
+   ],
+   "answer": 2,
+   "explain": "Electors then cast two undifferentiated votes, so Jefferson and Aaron Burr each received 73 and the House of Representatives had to decide the presidency. Burr went on to serve as vice president."
+  },
+  {
+   "id": "fs-0002",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "After the electoral tie of 1800, the House of Representatives finally elected Jefferson president on February 17, 1801. On which ballot did the House reach its decision?",
+   "options": [
+    "The 36th ballot",
+    "The 7th ballot",
+    "The 14th ballot",
+    "The 52nd ballot"
+   ],
+   "answer": 0,
+   "explain": "The House deadlocked through days of voting before enough state delegations backed Jefferson on the 36th ballot. He was inaugurated on March 4, 1801."
+  },
+  {
+   "id": "fs-0003",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "The Twelfth Amendment, ratified in 1804 after the Jefferson-Burr tie, changed presidential elections in what way?",
+   "options": [
+    "It moved the choosing of electors from state legislatures to a national popular vote",
+    "It required the House to hold a runoff between two candidates whenever nobody won a majority",
+    "It limited presidents to two four-year terms in office",
+    "It required electors to cast separate ballots for president and for vice president"
+   ],
+   "answer": 3,
+   "explain": "Before 1804 each elector cast two votes without saying which was for president. The tie of 1800 exposed that flaw, and the amendment created distinct ballots for the two offices."
+  },
+  {
+   "id": "fs-0004",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "At Jefferson's urging, Congress banned the importation of enslaved people from abroad as soon as the Constitution allowed it. On January 1 of which year did the ban take effect?",
+   "options": [
+    "1800",
+    "1808",
+    "1815",
+    "1820"
+   ],
+   "answer": 1,
+   "explain": "Article I, Section 9 barred Congress from acting before 1808. Jefferson asked for the ban in his December 1806 message to Congress and signed the act on March 2, 1807."
+  },
+  {
+   "id": "fs-0005",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1815 Congress bought Thomas Jefferson's personal library of 6,487 volumes to replace the collection burned by the British. How much did Congress pay for it?",
+   "options": [
+    "$23,950",
+    "$9,500",
+    "$58,000",
+    "$112,000"
+   ],
+   "answer": 0,
+   "explain": "Congress paid $23,950. Jefferson had offered the books after the British burned the Capitol in 1814, arguing that Congress might need to consult works on almost any subject."
+  },
+  {
+   "id": "fs-0006",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Jefferson arranged his library by subject, using a modified version of Francis Bacon's scheme of knowledge. Which three main divisions did he use?",
+   "options": [
+    "Law, Medicine, and Theology",
+    "Religion, Politics, and Natural Science",
+    "Geography, Mathematics, and Literature",
+    "History, Philosophy, and Fine Arts"
+   ],
+   "answer": 3,
+   "explain": "Jefferson renamed Bacon's Memory, Reason, and Imagination as History, Philosophy, and Fine Arts, then split them into 44 chapters."
+  },
+  {
+   "id": "fs-0007",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1851 a fire at the Library of Congress destroyed a large share of the books Jefferson had sold to Congress in 1815. About how much of his library was lost?",
+   "options": [
+    "About one-tenth",
+    "About two-thirds",
+    "About one-quarter",
+    "Nearly all of it"
+   ],
+   "answer": 1,
+   "explain": "The Christmas Eve fire of 1851 destroyed about two-thirds of the 6,487 volumes, leaving roughly 2,000 of Jefferson's original books."
+  },
+  {
+   "id": "fs-0008",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "Who administered the oath of office to Jefferson in the Senate chamber of the unfinished Capitol on March 4, 1801?",
+   "options": [
+    "Chief Justice John Marshall",
+    "Former Chief Justice John Jay",
+    "Vice President Aaron Burr",
+    "Justice Samuel Chase"
+   ],
+   "answer": 0,
+   "explain": "Marshall, who had become chief justice only weeks earlier, agreed in writing to give the oath. The Library of Congress reads his role as a sign of Federalist acceptance of Jefferson's election."
+  },
+  {
+   "id": "fs-0009",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "In his 1801 first inaugural address, how did Jefferson try to soothe the bitterness left by the election of 1800?",
+   "options": [
+    "He announced that Federalist officeholders would be removed to make room for loyal Republicans",
+    "He said differences of opinion were not differences of principle: 'We are all Republicans, we are all Federalists'",
+    "He called for a constitutional convention that would bar political parties from national politics",
+    "He proposed a coalition cabinet giving Federalists half of the executive departments"
+   ],
+   "answer": 1,
+   "explain": "Jefferson urged unity by arguing that Americans with different party names shared the same basic principles. He delivered the speech in the Senate chamber of the Capitol."
+  },
+  {
+   "id": "fs-0010",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Under the Constitution's original rules, how did Thomas Jefferson become vice president in 1797?",
+   "options": [
+    "Congress elected him in a separate vote after the presidential result",
+    "The new president appointed him with the Senate's approval",
+    "Electors cast a separate ballot for vice president, which he won",
+    "He received the second-highest number of electoral votes for president"
+   ],
+   "answer": 3,
+   "explain": "Each elector cast two votes, and the runner-up became vice president. Jefferson finished second to John Adams and served under his political rival from 1797 to 1801."
+  },
+  {
+   "id": "fs-0011",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "The Residence Act, signed by President Washington on July 16, 1790, placed the permanent national capital on which river?",
+   "options": [
+    "Delaware River",
+    "Hudson River",
+    "Potomac River",
+    "Susquehanna River"
+   ],
+   "answer": 2,
+   "explain": "The act chose a Potomac site, and Philadelphia served as the temporary capital for ten years. It grew out of a compromise among Jefferson, Hamilton, and Madison."
+  },
+  {
+   "id": "fs-0012",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Who revived Jefferson's Bill for Establishing Religious Freedom and guided it through the Virginia legislature while Jefferson was serving as minister to France?",
+   "options": [
+    "James Madison",
+    "Patrick Henry",
+    "George Mason",
+    "Richard Henry Lee"
+   ],
+   "answer": 0,
+   "explain": "Madison and his allies revived Jefferson's 1777 bill in place of Patrick Henry's tax-supported plan for teachers of the Christian religion, and it passed while Jefferson was abroad."
+  },
+  {
+   "id": "fs-0013",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The University of Virginia, chartered in 1819 on Jefferson's plan, opened for classes in which year, shortly before his death?",
+   "options": [
+    "1821",
+    "1825",
+    "1829",
+    "1832"
+   ],
+   "answer": 1,
+   "explain": "The university opened on March 7, 1825. Jefferson designed its buildings and chose the site near Monticello, and his gravestone calls him its father."
+  },
+  {
+   "id": "fs-0014",
+   "period": 9,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In which year were Monticello and Jefferson's Academical Village at the University of Virginia named a UNESCO World Heritage Site?",
+   "options": [
+    "1966",
+    "1976",
+    "1987",
+    "1997"
+   ],
+   "answer": 2,
+   "explain": "The two places were inscribed together in 1987. The University of Virginia is the only American university with World Heritage status."
+  },
+  {
+   "id": "fs-0015",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "According to the National Park Service, architect John Russell Pope's design for the Jefferson Memorial echoed the style of which two Virginia landmarks tied to Jefferson?",
+   "options": [
+    "Mount Vernon and the Custis-Lee Mansion",
+    "Gunston Hall and the Governor's Palace in Williamsburg",
+    "Montpelier and Westover Plantation",
+    "Monticello and the University of Virginia Rotunda"
+   ],
+   "answer": 3,
+   "explain": "Pope drew on Jefferson's own taste in classical architecture, echoing Monticello and the Rotunda at the University of Virginia, both of which Jefferson designed."
+  },
+  {
+   "id": "fs-0016",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "After architect John Russell Pope died in 1937, which two associates of his completed the design of the Jefferson Memorial?",
+   "options": [
+    "Paul P. Cret and Henry Hornbostel",
+    "Horace Trumbauer and Waddy Wood",
+    "Otto R. Eggers and Daniel P. Higgins",
+    "Ralph Adams Cram and Cass Gilbert"
+   ],
+   "answer": 2,
+   "explain": "Pope's associates Otto Eggers and Daniel Higgins finished the memorial design after his death in August 1937. The memorial was completed in 1943."
+  },
+  {
+   "id": "fs-0017",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In which year did Congress create the Thomas Jefferson Memorial Commission to plan a national memorial to Jefferson in Washington?",
+   "options": [
+    "1926",
+    "1934",
+    "1938",
+    "1943"
+   ],
+   "answer": 1,
+   "explain": "Congress approved the commission on June 26, 1934. Construction began in 1938, and the memorial was dedicated on April 13, 1943."
+  },
+  {
+   "id": "fs-0018",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Construction of the Jefferson Memorial on the Tidal Basin began in which year?",
+   "options": [
+    "1934",
+    "1936",
+    "1938",
+    "1941"
+   ],
+   "answer": 2,
+   "explain": "Work on the site started in late 1938, four years after Congress created the memorial commission. The memorial opened in 1943."
+  },
+  {
+   "id": "fs-0019",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The inner dome of the Jefferson Memorial is built of massive limestone from which state?",
+   "options": [
+    "Indiana",
+    "Kentucky",
+    "Alabama",
+    "Ohio"
+   ],
+   "answer": 0,
+   "explain": "The National Park Service says the dome is Indiana limestone. Its lower section is coffered and holds lights that illuminate the statue."
+  },
+  {
+   "id": "fs-0020",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which stone covers the interior walls of the Jefferson Memorial's central chamber?",
+   "options": [
+    "Pink marble from Tennessee",
+    "White Imperial Danby marble from Vermont",
+    "Black granite from Minnesota",
+    "White marble from Georgia"
+   ],
+   "answer": 3,
+   "explain": "The chamber's walls are white Georgia marble with an axed finish. Tennessee marble forms the floor, Minnesota granite the statue's pedestal, and Vermont marble the exterior."
+  },
+  {
+   "id": "fs-0021",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which writer and traveler, after returning from Japan in 1885, first proposed planting Japanese cherry trees in Washington, D.C., and pressed the idea for about 24 years?",
+   "options": [
+    "Helen Herron Taft",
+    "Eliza Scidmore",
+    "Jokichi Takamine",
+    "Lady Bird Johnson"
+   ],
+   "answer": 1,
+   "explain": "Eliza Scidmore kept urging successive park superintendents to plant the trees. Her idea finally took root after the 1912 gift from Tokyo."
+  },
+  {
+   "id": "fs-0022",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Why did the Department of Agriculture order the first shipment of Japanese cherry trees destroyed in 1910, with President Taft approving the burning?",
+   "options": [
+    "Inspectors found the trees infested with insects and disease",
+    "The trees had frozen and died during the voyage across the Pacific",
+    "Japan had accidentally shipped a different species than ordered",
+    "Congress had not appropriated money to plant the trees"
+   ],
+   "answer": 0,
+   "explain": "Inspectors found insects, nematodes, and disease on the trees, and Taft approved burning them on January 28, 1910. A healthy replacement shipment arrived in 1912."
+  },
+  {
+   "id": "fs-0023",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In March 1912, Tokyo's replacement gift of cherry trees reached Washington after the first shipment was destroyed. How many trees were in that shipment?",
+   "options": [
+    "1,800",
+    "2,000",
+    "3,020",
+    "3,800"
+   ],
+   "answer": 2,
+   "explain": "The shipment held 3,020 trees of twelve varieties and arrived on March 26, 1912. Somei-Yoshino was the largest share, at about 1,800 trees."
+  },
+  {
+   "id": "fs-0024",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In which year was the first Cherry Blossom Festival held in Washington, sponsored jointly by many civic groups?",
+   "options": [
+    "1912",
+    "1921",
+    "1948",
+    "1935"
+   ],
+   "answer": 3,
+   "explain": "Civic groups jointly sponsored the first festival in 1935, and it became an annual event. It paused during World War II and resumed in 1948."
+  },
+  {
+   "id": "fs-0025",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who served as Jefferson's secretary of state for both of his terms, from 1801 to 1809?",
+   "options": [
+    "James Monroe",
+    "James Madison",
+    "Albert Gallatin",
+    "Henry Dearborn"
+   ],
+   "answer": 1,
+   "explain": "Jefferson appointed James Madison, who took up the post in May 1801 and served until Jefferson left office in March 1809. Madison then succeeded him as president."
+  },
+  {
+   "id": "fs-0026",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Who was the only member of the Corps of Discovery to die during the expedition, in August 1804 near present-day Sioux City, Iowa?",
+   "options": [
+    "Sergeant Charles Floyd",
+    "Sergeant John Ordway",
+    "Sergeant Patrick Gass",
+    "Private John Colter"
+   ],
+   "answer": 0,
+   "explain": "Sergeant Charles Floyd died on August 20, 1804, and a large monument now marks his grave near Sioux City. No other member of the Corps died on the journey."
+  },
+  {
+   "id": "fs-0027",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Where did the Corps of Discovery spend the winter of 1804-05 on the upper Missouri River?",
+   "options": [
+    "Fort Clatsop, in present-day Oregon",
+    "Fort Belle Fontaine, in present-day Missouri",
+    "Fort Mandan, in present-day North Dakota",
+    "Fort Osage, in present-day Missouri"
+   ],
+   "answer": 2,
+   "explain": "The Corps arrived on November 2, 1804, and stayed until April 7, 1805. The winter was spent trading and talking with nearby tribes while preparing for the next stage of the journey."
+  },
+  {
+   "id": "fs-0028",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The Corps of Discovery built Fort Clatsop in December 1805 and wintered there near the Pacific. In which present-day state is the fort's site?",
+   "options": [
+    "Washington",
+    "Idaho",
+    "California",
+    "Oregon"
+   ],
+   "answer": 3,
+   "explain": "The fort was built on the south side of the Columbia River near present-day Astoria, Oregon. The Corps spent about three months there before heading home."
+  },
+  {
+   "id": "fs-0029",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In what month and year did the Corps of Discovery return to St. Louis, ending its journey?",
+   "options": [
+    "September 1806",
+    "March 1806",
+    "November 1805",
+    "June 1807"
+   ],
+   "answer": 0,
+   "explain": "The Corps reached St. Louis on September 23, 1806, and disbanded. The trip home from the Pacific had begun in late March 1806."
+  },
+  {
+   "id": "fs-0030",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Which disease ravaged the French army sent to Saint-Domingue (Haiti), helping lead Napoleon to offer all of Louisiana to the United States in 1803?",
+   "options": [
+    "Smallpox",
+    "Yellow fever",
+    "Cholera",
+    "Typhus"
+   ],
+   "answer": 1,
+   "explain": "Yellow fever devastated the French force, and its commander, General Leclerc, died of it in November 1802. Napoleon then abandoned his American plans and offered Louisiana for $15 million."
+  },
+  {
+   "id": "fs-0031",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Who sculpted the Columbus Fountain, dedicated in 1912 on the plaza in front of Union Station?",
+   "options": [
+    "Lorado Taft",
+    "Daniel Chester French",
+    "Augustus Saint-Gaudens",
+    "Gutzon Borglum"
+   ],
+   "answer": 0,
+   "explain": "Lorado Taft sculpted the fountain, which was dedicated on June 8, 1912. Daniel Burnham, who designed Union Station, is credited with the overall design of the setting."
+  },
+  {
+   "id": "fs-0032",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Two seated figures flank the Columbus statue on the fountain in front of Union Station. What do they represent?",
+   "options": [
+    "Spain and Portugal, the two leading sea powers of his day",
+    "Faith and Fortune, the forces said to have guided his voyage",
+    "The Old World and the New World, joined by his voyage",
+    "North America and South America, the two continents he reached"
+   ],
+   "answer": 2,
+   "explain": "The sculpture pairs a figure for the Old World with one for the New World, symbolizing the meeting of the hemispheres that followed Columbus's 1492 voyage."
+  },
+  {
+   "id": "fs-0033",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "A medallion on the Columbus Fountain portrays which pair of monarchs, honoring their backing of his 1492 expedition?",
+   "options": [
+    "Henry VII and Elizabeth of York",
+    "Manuel I and Maria of Portugal",
+    "Louis XII and Anne of Brittany",
+    "Ferdinand and Isabella of Spain"
+   ],
+   "answer": 3,
+   "explain": "The medallion shows King Ferdinand and Queen Isabella of Spain, who funded Columbus's voyage. It is one of several carved details on the monument outside Union Station."
+  },
+  {
+   "id": "fs-0034",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Six allegorical statues top the columns of Union Station's main facade, each tied to an element of railroading. Which figure from Greek myth stands for fire?",
+   "options": [
+    "Atlas",
+    "Prometheus",
+    "Hermes",
+    "Poseidon"
+   ],
+   "answer": 1,
+   "explain": "Prometheus, the Titan who brought fire to humans, represents fire. The six statues stand for fire, electricity, mechanics, agriculture, imagination and freedom."
+  },
+  {
+   "id": "fs-0035",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Which president dedicated Union Station's former Presidential Suite in 1951 as a lounge for members of the armed forces?",
+   "options": [
+    "Dwight D. Eisenhower",
+    "Herbert Hoover",
+    "Harry S. Truman",
+    "Franklin D. Roosevelt"
+   ],
+   "answer": 2,
+   "explain": "The suite, first used by Taft in 1909, had served as a USO lounge from December 1941 to 1946. In August 1951 Truman rededicated it as a permanent USO lounge for traveling service members."
+  },
+  {
+   "id": "fs-0036",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "During World War II, which organization operated a canteen inside Union Station for service members passing through?",
+   "options": [
+    "The United Service Organizations (USO)",
+    "The American Legion",
+    "The Selective Service System",
+    "The Office of War Information"
+   ],
+   "answer": 0,
+   "explain": "The USO ran a canteen and lounge in the station during the war, offering food and rest to troops traveling through Washington by rail."
+  },
+  {
+   "id": "fs-0037",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In June 1939 President Franklin Roosevelt greeted which British monarch at Union Station, on the first visit to the United States by a reigning British monarch?",
+   "options": [
+    "Edward VIII",
+    "George V",
+    "George VI",
+    "Edward VII"
+   ],
+   "answer": 2,
+   "explain": "King George VI and Queen Elizabeth arrived by royal train on June 8, 1939, and were welcomed by the Roosevelts in the station's presidential reception rooms."
+  },
+  {
+   "id": "fs-0038",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Union Station was the cornerstone of the McMillan Commission's 1901 effort to restore L'Enfant's design for Washington. What did the plan call for removing from the National Mall?",
+   "options": [
+    "Several nineteenth-century cemeteries",
+    "Existing railroad tracks and a depot",
+    "Civil War forts and army camps",
+    "Private shipyards and wharves along the river"
+   ],
+   "answer": 1,
+   "explain": "The commission concluded that railroad facilities cluttered the Mall. Moving the terminal to a new Union Station north of the Capitol helped open the Mall as a ceremonial space."
+  },
+  {
+   "id": "fs-0039",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Smithsonian museum has occupied the former Washington City Post Office building, a neighbor of Union Station, since 1993?",
+   "options": [
+    "National Museum of the American Indian",
+    "Hirshhorn Museum and Sculpture Garden",
+    "National Air and Space Museum",
+    "National Postal Museum"
+   ],
+   "answer": 3,
+   "explain": "The City Post Office served as Washington's main post office from 1914 to 1986. In 1993 it became the National Postal Museum under an agreement between the Postal Service and the Smithsonian."
+  },
+  {
+   "id": "fs-0040",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Washington's Union Station and the neighboring City Post Office, now the National Postal Museum, share which grand architectural style?",
+   "options": [
+    "Beaux-Arts",
+    "Gothic Revival",
+    "Art Deco",
+    "Federal style"
+   ],
+   "answer": 0,
+   "explain": "Both buildings use the monumental Beaux-Arts style associated with the City Beautiful movement and with Daniel Burnham's firm, and they were planned to complement the Capitol."
+  },
+  {
+   "id": "fs-0041",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "When the National Visitor Center opened in Union Station in 1976, visitors sarcastically gave what nickname to its sunken slide-show area in the Main Hall?",
+   "options": [
+    "The Hole",
+    "The Pit",
+    "The Well",
+    "The Vault"
+   ],
+   "answer": 1,
+   "explain": "The sunken Primary Audio-Visual Experience was nicknamed 'the Pit.' Crowds stayed away, and the center became a symbol of the failed Visitor Center plan."
+  },
+  {
+   "id": "fs-0042",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "In what year was Union Station designated a District of Columbia historic landmark, five years before its National Register listing?",
+   "options": [
+    "1958",
+    "1971",
+    "1952",
+    "1964"
+   ],
+   "answer": 3,
+   "explain": "Union Station was added to the D.C. Inventory of Historic Sites in 1964. National Register of Historic Places listing followed in 1969."
+  },
+  {
+   "id": "fs-0043",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Where was President James Garfield shot by Charles Guiteau on July 2, 1881?",
+   "options": [
+    "On the east steps of the Capitol after a speech",
+    "In the White House during a public reception",
+    "At the Baltimore and Potomac Railroad Station in Washington",
+    "At a seaside cottage in Elberon, New Jersey"
+   ],
+   "answer": 2,
+   "explain": "Guiteau shot Garfield as he walked through the Baltimore and Potomac Railroad Station, on his way to join his wife in New Jersey. The station stood near the Mall, before Union Station opened."
+  },
+  {
+   "id": "fs-0044",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Charles Guiteau, who shot President Garfield in 1881, called himself a member of which Republican faction?",
+   "options": [
+    "The Stalwarts",
+    "The Half-Breeds",
+    "The Mugwumps",
+    "The Radical Republicans"
+   ],
+   "answer": 0,
+   "explain": "Guiteau, a disappointed office seeker, claimed to be a Stalwart and said after the shooting that Vice President Arthur would now be president."
+  },
+  {
+   "id": "fs-0045",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Roughly how long did President Garfield live after being shot at the railroad station in July 1881?",
+   "options": [
+    "About eleven days",
+    "About eleven weeks",
+    "About eleven months",
+    "About eleven hours"
+   ],
+   "answer": 1,
+   "explain": "Garfield lingered for 80 days and died on September 19, 1881, about eleven weeks after the shooting, while the nation followed daily bulletins on his condition."
+  },
+  {
+   "id": "fs-0046",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "After Garfield was shot by a disappointed office seeker, Congress passed which 1883 law creating a merit-based federal civil service?",
+   "options": [
+    "The Tenure of Office Act of 1867",
+    "The Interstate Commerce Act of 1887",
+    "The Sherman Antitrust Act of 1890",
+    "The Pendleton Civil Service Reform Act"
+   ],
+   "answer": 3,
+   "explain": "The Pendleton Act required that many federal jobs go to applicants based on merit and created the Civil Service Commission, ending some patronage after Garfield's death."
+  },
+  {
+   "id": "fs-0047",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Which president, Garfield's former vice president, signed the Pendleton Act on January 16, 1883?",
+   "options": [
+    "Chester A. Arthur",
+    "Rutherford B. Hayes",
+    "Grover Cleveland",
+    "Benjamin Harrison"
+   ],
+   "answer": 0,
+   "explain": "Arthur, who succeeded Garfield, was once an ally of the patronage system but signed the civil service reform bill into law."
+  },
+  {
+   "id": "fs-0048",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "union-station",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Lincoln's funeral train left Washington on April 21, 1865, carrying his coffin to be buried in which city?",
+   "options": [
+    "Chicago",
+    "Cleveland",
+    "Springfield",
+    "Indianapolis"
+   ],
+   "answer": 2,
+   "explain": "The nine-car funeral train carried Lincoln home to Springfield, Illinois, stopping in several cities along the way. He was buried there at Oak Ridge Cemetery on May 4, 1865."
+  },
+  {
+   "id": "fs-0049",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Which editor of a railroad timetable guide devised the time-zone plan that U.S. railroads put into effect on November 18, 1883?",
+   "options": [
+    "Charles F. Dowd",
+    "William F. Allen",
+    "Sandford Fleming",
+    "Matthew Fontaine Maury"
+   ],
+   "answer": 1,
+   "explain": "William F. Allen presented the plan that railroad managers adopted, ending dozens of local railroad times. Charles Dowd had earlier proposed a different zone plan that the railroads did not adopt."
+  },
+  {
+   "id": "fs-0050",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "The Standard Time Act of 1918 gave which federal agency authority over the boundaries of the nation's time zones?",
+   "options": [
+    "The Weather Bureau",
+    "The U.S. Naval Observatory",
+    "The Post Office Department",
+    "The Interstate Commerce Commission"
+   ],
+   "answer": 3,
+   "explain": "Because the zones had grown out of railroad scheduling, Congress made the Interstate Commerce Commission responsible for setting the zone boundaries when it wrote standard time into law."
+  },
+  {
+   "id": "fs-0051",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "When Congress abolished the Interstate Commerce Commission in 1995, which agency took over its remaining rail regulatory functions?",
+   "options": [
+    "Federal Energy Regulatory Commission",
+    "Surface Transportation Board",
+    "Federal Trade Commission",
+    "National Transportation Safety Board"
+   ],
+   "answer": 1,
+   "explain": "The ICC Termination Act of 1995 ended the commission, which dated to 1887, and assigned its railroad regulatory role to the Surface Transportation Board."
+  },
+  {
+   "id": "fs-0052",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Which engineer lobbied Congress for the funding that led to the Pacific Railroad Act of 1862 and surveyed a route through the Sierra Nevada for the Central Pacific?",
+   "options": [
+    "Grenville M. Dodge",
+    "Thomas C. Durant",
+    "Theodore D. Judah",
+    "Collis P. Huntington"
+   ],
+   "answer": 2,
+   "explain": "Theodore Judah promoted a transcontinental line and found a workable Sierra route. Dodge and Durant worked for the Union Pacific, and Huntington was a Central Pacific investor."
+  },
+  {
+   "id": "fs-0053",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "peopling"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Which two locomotives met nose to nose at Promontory Summit during the transcontinental railroad ceremony of May 10, 1869?",
+   "options": [
+    "The General and the Texas",
+    "The Jupiter and No. 119",
+    "The Rocket and the Planet",
+    "The John Bull and Old Ironsides"
+   ],
+   "answer": 1,
+   "explain": "The Central Pacific's Jupiter and the Union Pacific's No. 119 faced each other at Promontory Summit, Utah, as the two rail lines were joined."
+  },
+  {
+   "id": "fs-0054",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Which photographer took 'East and West Shaking Hands at Laying of Last Rail,' often called the 'Champagne Photo,' at Promontory in 1869?",
+   "options": [
+    "Mathew Brady",
+    "Alexander Gardner",
+    "Carleton Watkins",
+    "Andrew J. Russell"
+   ],
+   "answer": 3,
+   "explain": "Andrew J. Russell photographed the celebration at Promontory Summit, where about 1,000 people gathered. Brady and Gardner are known for Civil War photography."
+  },
+  {
+   "id": "fs-0055",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "How many ceremonial spikes were presented at the Promontory ceremony in 1869, counting the famous gold spike?",
+   "options": [
+    "Four",
+    "One",
+    "Two",
+    "Six"
+   ],
+   "answer": 0,
+   "explain": "Four ceremonial spikes were presented: the gold Last Spike plus three more made of precious metals, including a silver spike from Nevada."
+  },
+  {
+   "id": "fs-0056",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The John Bull, an 1831 locomotive displayed at the National Museum of American History, was built in which country for New Jersey's Camden and Amboy Railroad?",
+   "options": [
+    "Germany",
+    "Canada",
+    "England",
+    "Belgium"
+   ],
+   "answer": 2,
+   "explain": "Robert Stephenson and Company of England built the John Bull. After it was assembled in New Jersey it ran for decades, and the Smithsonian later ran it again in 1981."
+  },
+  {
+   "id": "fs-0057",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "George Pullman built a company town to house workers at his sleeping-car factory near which major city?",
+   "options": [
+    "Pittsburgh",
+    "St. Louis",
+    "Cleveland",
+    "Chicago"
+   ],
+   "answer": 3,
+   "explain": "Pullman bought land south of Chicago and built a company town beside his factory. Resentment over life there fed the 1894 strike."
+  },
+  {
+   "id": "fs-0058",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Which Illinois governor objected when President Cleveland sent federal troops to Chicago during the 1894 Pullman strike?",
+   "options": [
+    "John Peter Altgeld",
+    "Richard J. Oglesby",
+    "Joseph W. Fifer",
+    "Richard Yates"
+   ],
+   "answer": 0,
+   "explain": "Governor John Peter Altgeld protested that federal troops had been sent without his request and said the state could keep order itself."
+  },
+  {
+   "id": "fs-0059",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "For what offense was Eugene V. Debs sent to jail after the 1894 Pullman boycott?",
+   "options": [
+    "Treason for levying war against the United States",
+    "Sedition for urging resistance to a wartime draft",
+    "Contempt of court for defying a federal injunction",
+    "Arson for burning railroad cars in Chicago"
+   ],
+   "answer": 2,
+   "explain": "Debs and other American Railway Union leaders were charged with contempt for ignoring a court injunction against the boycott, and Debs served a six-month sentence."
+  },
+  {
+   "id": "fs-0060",
+   "period": 9,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "A children's design contest in the 1980s led to the Darth Vader carving on Washington National Cathedral's northwest tower. Which magazine helped publicize the contest nationwide?",
+   "options": [
+    "Boys' Life magazine",
+    "National Geographic World",
+    "Highlights for Children",
+    "Weekly Reader magazine"
+   ],
+   "answer": 1,
+   "explain": "The design-a-carving contest was promoted through National Geographic World; Chris Rader's Vader drawing was one of the winning designs."
+  },
+  {
+   "id": "fs-0061",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "On a Gothic building such as Washington National Cathedral, what makes a carved figure a true gargoyle rather than a grotesque?",
+   "options": [
+    "It has a spout that carries rainwater away from the building",
+    "It is carved to look like a real historical figure from the nation's past",
+    "It stands only inside the nave and never on the exterior walls",
+    "It is cast in bronze and then bolted on rather than carved in limestone"
+   ],
+   "answer": 0,
+   "explain": "Gargoyles work as drain spouts for rain and melting snow. Carvings without spouts, such as the Darth Vader figure, are called grotesques."
+  },
+  {
+   "id": "fs-0062",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "national-cathedral",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Washington National Cathedral's Space Window, which holds a sliver of rock from the Moon, was designed by which artist?",
+   "options": [
+    "Rowan LeCompte",
+    "Kerry James Marshall",
+    "Rodney Winfield",
+    "Frederick Hart"
+   ],
+   "answer": 2,
+   "explain": "Artist Rodney Winfield designed the window celebrating space exploration. The lunar sample was brought back by Apollo 11 and given to the cathedral by NASA."
+  },
+  {
+   "id": "fs-0063",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "national-cathedral",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Washington National Cathedral dedicated its Space Window on July 21, 1974, when astronauts presented a piece of lunar rock to be set in it. That date marked the fifth anniversary of which NASA mission?",
+   "options": [
+    "Apollo 8",
+    "Apollo 13",
+    "Gemini 4",
+    "Apollo 11"
+   ],
+   "answer": 3,
+   "explain": "The July 21, 1974 dedication fell on the fifth anniversary of the Apollo 11 Moon landing mission, whose astronauts brought back the lunar rock."
+  },
+  {
+   "id": "fs-0064",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "A line along the bottom of the Space Window at Washington National Cathedral asks, 'Is not God in the height of heaven?' Which book of the Bible is that passage from?",
+   "options": [
+    "Psalms",
+    "Job",
+    "Genesis",
+    "Isaiah"
+   ],
+   "answer": 1,
+   "explain": "The passage is from the Book of Job (22:12). It runs along the base of the window that holds a piece of the Moon."
+  },
+  {
+   "id": "fs-0065",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In September 2023 Washington National Cathedral unveiled stained-glass windows called 'Now and Forever,' on the theme of racial justice. Which artist designed them?",
+   "options": [
+    "Kerry James Marshall",
+    "Jacob Lawrence, painter of the Migration Series",
+    "Romare Bearden, collage artist",
+    "Faith Ringgold, story quilt artist"
+   ],
+   "answer": 0,
+   "explain": "Painter Kerry James Marshall designed the windows, his first work in stained glass. They replaced windows that had honored Confederate generals."
+  },
+  {
+   "id": "fs-0066",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Poet Elizabeth Alexander wrote a poem for Washington National Cathedral's 2023 racial justice windows, to be carved in stone tablets beneath them. What is the poem's title?",
+   "options": [
+    "Praise Song for the Day",
+    "Now and Forever",
+    "American Song",
+    "A Song of Fairness"
+   ],
+   "answer": 2,
+   "explain": "Alexander's poem 'American Song' was written for the unveiling. Her earlier inaugural poem, 'Praise Song for the Day,' was a different work."
+  },
+  {
+   "id": "fs-0067",
+   "period": 8,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "The Washington National Cathedral windows honoring Robert E. Lee and Thomas 'Stonewall' Jackson were first installed in 1953. Which organization donated them?",
+   "options": [
+    "Sons of Confederate Veterans",
+    "United Daughters of the Confederacy",
+    "Daughters of the American Revolution",
+    "Grand Army of the Republic"
+   ],
+   "answer": 1,
+   "explain": "The United Daughters of the Confederacy gave the windows in 1953. The cathedral removed them in 2017, and Marshall's windows later took their place."
+  },
+  {
+   "id": "fs-0068",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Matthew Shepard, whose ashes were interred at Washington National Cathedral in October 2018, was attacked in 1998 near which Wyoming city?",
+   "options": [
+    "Laramie",
+    "Cheyenne",
+    "Casper",
+    "Jackson"
+   ],
+   "answer": 0,
+   "explain": "Shepard, a 21-year-old student, was found tied to a fence outside Laramie in October 1998. His ashes were interred at the cathedral 20 years later."
+  },
+  {
+   "id": "fs-0069",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Matthew Shepard's name is part of a federal hate crimes law signed in October 2009. Whose name is paired with his in the law's title?",
+   "options": [
+    "Emmett Till",
+    "Medgar Evers",
+    "Harvey Milk",
+    "James Byrd Jr."
+   ],
+   "answer": 3,
+   "explain": "The Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act of 2009 extended federal hate crime protections. President Obama signed it in October 2009."
+  },
+  {
+   "id": "fs-0070",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "On March 31, 1968, Martin Luther King Jr. preached his last Sunday sermon at the cathedral. What was its title?",
+   "options": [
+    "A Time to Break Silence",
+    "Remaining Awake Through a Great Revolution",
+    "I've Been to the Mountaintop",
+    "The Drum Major Instinct"
+   ],
+   "answer": 1,
+   "explain": "The sermon, 'Remaining Awake Through a Great Revolution,' came four days before King was killed. The other titles are other well-known King addresses."
+  },
+  {
+   "id": "fs-0071",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "mlk-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In his 1968 sermon at the cathedral, King said 'we shall overcome' because of which conviction?",
+   "options": [
+    "That the arc of the moral universe is long but bends toward justice",
+    "That Congress had already passed every civil rights law that was needed",
+    "That the Vietnam War would be over and troops home within the year",
+    "That steady economic growth alone would end poverty and racism soon"
+   ],
+   "answer": 0,
+   "explain": "King closed a section of the sermon with the line that the moral universe's arc is long but bends toward justice, a theme he used often."
+  },
+  {
+   "id": "fs-0072",
+   "period": 9,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Sculptor Frederick Hart designed the Ex Nihilo creation sculpture on the cathedral's west front. Which Washington memorial features his bronze Three Soldiers statue?",
+   "options": [
+    "Korean War Veterans Memorial",
+    "National World War II Memorial",
+    "Vietnam Veterans Memorial",
+    "Marine Corps War Memorial"
+   ],
+   "answer": 2,
+   "explain": "Hart's bronze statue of three servicemen was added to the Vietnam Veterans Memorial in 1984. He also spent years designing the cathedral's creation sculptures."
+  },
+  {
+   "id": "fs-0073",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "The five-acre Olmsted Woods on the grounds of Washington National Cathedral preserves a remnant of which kind of forest that once covered Mount Saint Alban?",
+   "options": [
+    "Pine and spruce forest",
+    "Cypress and tupelo swamp forest",
+    "Maple and birch forest",
+    "Oak and beech forest"
+   ],
+   "answer": 3,
+   "explain": "The Olmsted Woods are what remains of an oak and beech forest. Frederick Law Olmsted Jr.'s plan, carried out between 1907 and 1928, protected them."
+  },
+  {
+   "id": "fs-0074",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "At Ronald Reagan's state funeral at Washington National Cathedral in June 2004, a recorded tribute from a former British prime minister was played because of failing health. Who was it?",
+   "options": [
+    "Margaret Thatcher",
+    "John Major",
+    "James Callaghan",
+    "Edward Heath"
+   ],
+   "answer": 0,
+   "explain": "Margaret Thatcher attended, but strokes had ended her public speaking, so a eulogy she recorded months in advance was played. Reagan's funeral took place at the cathedral on June 11, 2004."
+  },
+  {
+   "id": "fs-0075",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Washington National Cathedral hosted George H. W. Bush's state funeral on December 5, 2018. How did the federal government mark the day?",
+   "options": [
+    "As a new permanent federal holiday each year",
+    "As a national day of mourning, with federal offices closed",
+    "With a joint session of Congress held in the nave",
+    "With federal offices open but flags at full staff"
+   ],
+   "answer": 1,
+   "explain": "President Trump declared December 5, 2018 a national day of mourning and closed federal agencies for the day of Bush's funeral."
+  },
+  {
+   "id": "fs-0076",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "After Gerald Ford's state funeral at Washington National Cathedral on January 2, 2007, where was he interred?",
+   "options": [
+    "At the Ford presidential library in Ann Arbor, Michigan",
+    "In Arlington National Cemetery in Virginia",
+    "On the grounds of his presidential museum in Grand Rapids, Michigan",
+    "Beneath the floor of the cathedral's nave"
+   ],
+   "answer": 2,
+   "explain": "Ford's family flew his casket to Michigan, where he was buried on the grounds of the museum in Grand Rapids after a service on January 3."
+  },
+  {
+   "id": "fs-0077",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which former Canadian prime minister delivered eulogies at Washington National Cathedral for both Ronald Reagan in 2004 and George H. W. Bush in 2018?",
+   "options": [
+    "Joe Clark",
+    "Jean Chretien",
+    "Stephen Harper",
+    "Brian Mulroney"
+   ],
+   "answer": 3,
+   "explain": "Brian Mulroney led Canada during George H. W. Bush's presidency and was a friend of both men. He spoke at their funerals at the cathedral."
+  },
+  {
+   "id": "fs-0078",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which evangelist preached at Washington National Cathedral's National Day of Prayer and Remembrance on September 14, 2001?",
+   "options": [
+    "Jerry Falwell",
+    "Billy Graham",
+    "Pat Robertson",
+    "Oral Roberts"
+   ],
+   "answer": 1,
+   "explain": "Billy Graham gave the sermon at the service held three days after the September 11 attacks. It was broadcast nationwide."
+  },
+  {
+   "id": "fs-0079",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Elie Wiesel's carved head, added in 2021, completes four heads on Washington National Cathedral's Human Rights Porch with Mother Teresa, Jonathan Daniels and which civil rights figure?",
+   "options": [
+    "Rosa Parks",
+    "Harriet Tubman",
+    "Fannie Lou Hamer",
+    "Ruby Bridges"
+   ],
+   "answer": 0,
+   "explain": "Carver Sean Callahan made all four heads on the Human Rights Porch: Mother Teresa, Rosa Parks, Jonathan Myrick Daniels and, in 2021, Elie Wiesel."
+  },
+  {
+   "id": "fs-0080",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which two former presidents delivered eulogies at Senator John McCain's funeral at Washington National Cathedral on September 1, 2018?",
+   "options": [
+    "Bill Clinton and George W. Bush",
+    "George W. Bush and Barack Obama",
+    "Jimmy Carter and Barack Obama",
+    "Bill Clinton and Barack Obama"
+   ],
+   "answer": 1,
+   "explain": "McCain, who had run against both men, chose George W. Bush and Barack Obama to speak. Meghan McCain and Joe Lieberman also gave tributes."
+  },
+  {
+   "id": "fs-0081",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Which artist designed the Creation rose window above Washington National Cathedral's main west entrance, dedicated in 1976?",
+   "options": [
+    "Rodney Winfield",
+    "Frederick Hart",
+    "Rowan LeCompte",
+    "Walker Hancock"
+   ],
+   "answer": 2,
+   "explain": "Rowan LeCompte designed the Creation rose window and more than 40 other cathedral windows. Dieter Goldkuhle fabricated and installed the Creation rose."
+  },
+  {
+   "id": "fs-0082",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "lincoln-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Which sculptor made the bronze statue of Abraham Lincoln in the cathedral's Lincoln bay, dedicated in 1984?",
+   "options": [
+    "Daniel Chester French",
+    "Augustus Saint-Gaudens",
+    "Gutzon Borglum",
+    "Walker Hancock"
+   ],
+   "answer": 3,
+   "explain": "Walker Hancock sculpted the bronze Lincoln statue, dedicated in 1984. Daniel Chester French made the famous seated Lincoln in the Lincoln Memorial."
+  },
+  {
+   "id": "fs-0083",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "A carving in the cathedral's Lincoln bay quotes the words 'With malice toward none.' From which Lincoln speech do they come?",
+   "options": [
+    "The Gettysburg Address, delivered in 1863",
+    "The Second Inaugural Address, delivered in 1865",
+    "The First Inaugural Address, delivered in 1861",
+    "The Cooper Union Address, delivered in 1860"
+   ],
+   "answer": 1,
+   "explain": "The phrase closes a famous passage of Lincoln's Second Inaugural Address, given March 4, 1865, weeks before the Civil War ended."
+  },
+  {
+   "id": "fs-0084",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Gothic churches such as Washington National Cathedral use flying buttresses to do what?",
+   "options": [
+    "Carry the outward push of the stone vaults down to supports outside the walls",
+    "Send rainwater from the roof out and away from the walls of the building",
+    "Hold up the full weight of the bell towers from below the cathedral floor",
+    "Keep the stained glass panels fixed in place inside the tall window frames"
+   ],
+   "answer": 0,
+   "explain": "A flying buttress is an arch that transfers the sideways thrust of the vaults to piers outside, so walls can be thinner with larger windows."
+  },
+  {
+   "id": "fs-0085",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Kerry James Marshall's 2023 windows at Washington National Cathedral show marchers carrying large signs. Which word appears on the signs?",
+   "options": [
+    "Equality",
+    "Liberty",
+    "Fairness",
+    "Freedom"
+   ],
+   "answer": 2,
+   "explain": "The signs read words such as 'Fairness' and 'No Foul Play.' The windows begin and end with the quest for fairness as the minimum owed to all."
+  },
+  {
+   "id": "fs-0086",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Founded in 1916, which group cares for the beautification of the Washington National Cathedral grounds, including the Olmsted Woods?",
+   "options": [
+    "The Cathedral Grounds Conservancy",
+    "The Friends of Mount Saint Alban",
+    "The Close Garden Society",
+    "The All Hallows Guild"
+   ],
+   "answer": 3,
+   "explain": "The All Hallows Guild, begun in 1916, tends the gardens and grounds. It also helped fund the Olmsted Woods restoration finished in 2008."
+  },
+  {
+   "id": "fs-0087",
+   "period": 9,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which stone carver cut the Darth Vader grotesque in limestone, working from Jay Hall Carpenter's clay model?",
+   "options": [
+    "Patrick J. Plunkett",
+    "Roger Morigi, the Italian master carver",
+    "Sean Callahan, a cathedral staff carver",
+    "Chas Fagan, a portrait artist"
+   ],
+   "answer": 0,
+   "explain": "Carpenter modeled the helmet in clay, and Patrick J. Plunkett carved it from limestone. Roger Morigi was a master carver, and Sean Callahan carved the Wiesel head."
+  },
+  {
+   "id": "fs-0088",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "After his funeral at Washington National Cathedral, Senator John McCain was laid to rest at which institution in Annapolis, Maryland?",
+   "options": [
+    "St. John's College",
+    "The U.S. Naval Academy",
+    "The U.S. Naval War College",
+    "The Annapolis National Cemetery"
+   ],
+   "answer": 1,
+   "explain": "McCain was buried at the U.S. Naval Academy, his alma mater, on September 2, 2018, beside his Class of 1958 friend Adm. Chuck Larson."
+  },
+  {
+   "id": "fs-0089",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "After Hurricane Irene forced a postponement, on what date in 2011 was the Martin Luther King Jr. Memorial formally dedicated?",
+   "options": [
+    "August 28, 2011",
+    "September 11, 2011",
+    "October 16, 2011",
+    "November 13, 2011"
+   ],
+   "answer": 2,
+   "explain": "Hurricane Irene forced organizers to postpone the ceremony planned for August 28, 2011. President Barack Obama spoke when it was finally held on October 16, 2011."
+  },
+  {
+   "id": "fs-0090",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The King Memorial's dedication was first scheduled for August 28, 2011, to mark the 48th anniversary of which event?",
+   "options": [
+    "The 1963 March on Washington",
+    "The 1955 start of the Montgomery bus boycott",
+    "The 1965 signing of the Voting Rights Act",
+    "The 1964 award of King's Nobel Peace Prize"
+   ],
+   "answer": 0,
+   "explain": "August 28 was the anniversary of the 1963 March on Washington, where King gave his speech nearby at the Lincoln Memorial. Hurricane Irene delayed the ceremony until October 16."
+  },
+  {
+   "id": "fs-0091",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which sitting president spoke at the November 13, 2006, ceremonial groundbreaking for the Martin Luther King Jr. Memorial in Washington?",
+   "options": [
+    "Bill Clinton",
+    "Barack Obama",
+    "George H. W. Bush",
+    "George W. Bush"
+   ],
+   "answer": 3,
+   "explain": "President George W. Bush spoke at the 2006 groundbreaking. The memorial was dedicated five years later, in 2011, with President Obama speaking."
+  },
+  {
+   "id": "fs-0092",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In what year did Congress authorize the Alpha Phi Alpha fraternity, to which King belonged, to build a memorial honoring him in Washington?",
+   "options": [
+    "1983",
+    "1996",
+    "2001",
+    "1968"
+   ],
+   "answer": 1,
+   "explain": "Congress authorized the fraternity to build the memorial in 1996. The ceremonial groundbreaking followed in 2006, and the memorial was dedicated in 2011."
+  },
+  {
+   "id": "fs-0093",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Lei Yixin sculpted the Stone of Hope. Which master letter carver designed and carved the inscriptions at the King Memorial?",
+   "options": [
+    "Nick Benson",
+    "Maya Lin",
+    "Ed Jackson Jr.",
+    "Harry Johnson"
+   ],
+   "answer": 0,
+   "explain": "Nicholas Benson and his team carved the text engravings, while master sculptor Lei Yixin carved the granite statue. Benson is a stone carver known for inscriptions on Washington monuments."
+  },
+  {
+   "id": "fs-0094",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The memorial's wall credits the line \"Injustice anywhere is a threat to justice everywhere\" to which of King's writings?",
+   "options": [
+    "His Nobel Peace Prize acceptance speech",
+    "His book Stride Toward Freedom",
+    "His Letter from Birmingham Jail",
+    "His speech against the Vietnam War"
+   ],
+   "answer": 2,
+   "explain": "The wall attributes this line to King's Letter from Birmingham Jail, dated April 16, 1963. Its quotations come from speeches, sermons and books across his career."
+  },
+  {
+   "id": "fs-0095",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The Stone of Hope at the King Memorial was moved forward out of the Mountain of Despair. Which memorial does it point toward?",
+   "options": [
+    "Lincoln Memorial",
+    "Washington Monument",
+    "World War II Memorial",
+    "Jefferson Memorial"
+   ],
+   "answer": 3,
+   "explain": "The National Park Service says the Stone of Hope points toward the Jefferson Memorial. The King Memorial sits on a line between the Lincoln and Jefferson memorials."
+  },
+  {
+   "id": "fs-0096",
+   "period": 8,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In what year was King initiated into Alpha Phi Alpha, the fraternity that later led the push for his memorial, while he studied in Boston?",
+   "options": [
+    "1946",
+    "1952",
+    "1958",
+    "1963"
+   ],
+   "answer": 1,
+   "explain": "King joined Alpha Phi Alpha's Sigma chapter in Boston in June 1952 while a student at Boston University. The fraternity later campaigned for his memorial in Washington."
+  },
+  {
+   "id": "fs-0097",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which sculptor created the bronze breadline figures and the listener to a fireside chat in the FDR Memorial's second-term room?",
+   "options": [
+    "Robert Graham",
+    "George Segal",
+    "Neil Estern",
+    "Tom Hardy"
+   ],
+   "answer": 1,
+   "explain": "George Segal made three works for the second-term room: The Breadline, Fireside Chat and an Appalachian couple. They show Depression hardship and the hope Roosevelt's leadership offered."
+  },
+  {
+   "id": "fs-0098",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Leonard Baskin's bronze relief in the FDR Memorial's fourth-term room depicts which scene?",
+   "options": [
+    "The crowd at Roosevelt's 1933 inauguration",
+    "Soldiers landing at Normandy in 1944",
+    "The Yalta conference table in 1945",
+    "The funeral procession for Roosevelt in 1945"
+   ],
+   "answer": 3,
+   "explain": "Baskin's Funeral Cortege shows a riderless horse leading the procession, with mourners walking behind the casket. It sits in the last room, which covers Roosevelt's final term and death in 1945."
+  },
+  {
+   "id": "fs-0099",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "In 1941 Roosevelt told Justice Felix Frankfurter what he wanted any memorial to him in Washington to look like?",
+   "options": [
+    "A plain block of stone about the size of his desk",
+    "A bronze statue no taller than he was in life",
+    "A marble column twelve feet high near the Capitol",
+    "A plaque set into a wall of the Treasury Building"
+   ],
+   "answer": 0,
+   "explain": "Roosevelt asked for a plain block about the size of his desk in front of the National Archives. A simple marble stone there was dedicated on April 12, 1965, twenty years after his death."
+  },
+  {
+   "id": "fs-0100",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Roosevelt first named the Four Freedoms on January 6, 1941, in what kind of address?",
+   "options": [
+    "His first inaugural address",
+    "A speech at the Democratic convention",
+    "His annual message to Congress",
+    "A radio fireside chat on defense"
+   ],
+   "answer": 2,
+   "explain": "Roosevelt named freedom of speech, worship, from want and from fear in his annual message to Congress. The speech argued for aid to Britain and is now called the Four Freedoms speech."
+  },
+  {
+   "id": "fs-0101",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "On what date in 1944 did Roosevelt sign the Servicemen's Readjustment Act, known as the GI Bill?",
+   "options": [
+    "May 8, 1944",
+    "June 22, 1944",
+    "August 15, 1944",
+    "December 7, 1944"
+   ],
+   "answer": 1,
+   "explain": "Roosevelt signed the act on June 22, 1944, days after D-Day. It gave World War II veterans funds for college education, unemployment insurance and housing."
+  },
+  {
+   "id": "fs-0102",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The FDR Memorial shows Eleanor Roosevelt beside a United Nations emblem. She chaired the commission that drafted which 1948 document?",
+   "options": [
+    "The Atlantic Charter",
+    "The Charter of the United Nations",
+    "The Four Freedoms address",
+    "The Universal Declaration of Human Rights"
+   ],
+   "answer": 3,
+   "explain": "Eleanor Roosevelt chaired the UN Commission on Human Rights, which drafted the Universal Declaration of Human Rights. The General Assembly adopted it on December 10, 1948."
+  },
+  {
+   "id": "fs-0103",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which sculptor created the life-size statue of Franklin D. Roosevelt seated in a wheelchair, dedicated in the Prologue Room of the FDR Memorial in Washington in January 2001?",
+   "options": [
+    "Robert Graham",
+    "Neil Estern",
+    "Leonard Baskin",
+    "Daniel Chester French"
+   ],
+   "answer": 0,
+   "explain": "Robert Graham made the wheelchair statue, dedicated on January 10, 2001, after a campaign by the National Organization on Disability. Neil Estern made the cloaked statue in the third-term room."
+  },
+  {
+   "id": "fs-0104",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In the 1944 campaign, critics claimed Roosevelt had left his dog Fala behind and sent a destroyer back. Where was Fala falsely said to be left?",
+   "options": [
+    "On a Pacific atoll",
+    "At a British airfield",
+    "On an Aleutian island",
+    "In a Cairo hotel"
+   ],
+   "answer": 2,
+   "explain": "Critics claimed Fala was left on the Aleutian Islands at taxpayer expense. The story was false, and Roosevelt mocked it in a September 1944 speech to the Teamsters."
+  },
+  {
+   "id": "fs-0105",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "Which actor was on stage as Asa Trenchard in Our American Cousin on April 14, 1865, when John Wilkes Booth fired his pistol?",
+   "options": [
+    "Edwin Booth",
+    "Joseph Jefferson",
+    "Edwin Forrest",
+    "Harry Hawk"
+   ],
+   "answer": 3,
+   "explain": "Booth fired during the audience laughter that followed a line spoken by Harry Hawk in Act 3, Scene 2, at about 10:15 p.m. Hawk played Asa Trenchard in Laura Keene's company."
+  },
+  {
+   "id": "fs-0106",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 1,
+   "q": "How many of the eight defendants in the Lincoln assassination conspiracy trial were sentenced to death by hanging?",
+   "options": [
+    "Four",
+    "Two",
+    "Six",
+    "Seven"
+   ],
+   "answer": 0,
+   "explain": "A military commission sentenced four to hang: Mary Surratt, Lewis Powell, David Herold and George Atzerodt. They were hanged on July 7, 1865."
+  },
+  {
+   "id": "fs-0107",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 1,
+   "q": "Where was Dr. Samuel Mudd imprisoned after his conviction for aiding John Wilkes Booth?",
+   "options": [
+    "Fort Delaware in the Delaware River",
+    "Fort Monroe in Virginia",
+    "Fort Jefferson in the Dry Tortugas",
+    "Old Capitol Prison in Washington"
+   ],
+   "answer": 2,
+   "explain": "Mudd received a life sentence of hard labor at Fort Jefferson in the Dry Tortugas, Florida. President Andrew Johnson pardoned him in 1869."
+  },
+  {
+   "id": "fs-0108",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "Who wrote Our American Cousin, the comedy Lincoln was watching when he was shot at Ford's Theatre?",
+   "options": [
+    "Dion Boucicault",
+    "Tom Taylor",
+    "Charles Dickens",
+    "Edward Bulwer-Lytton"
+   ],
+   "answer": 1,
+   "explain": "Tom Taylor, an English dramatist, wrote the three-act comedy, which opened in New York in 1858. Lincoln was shot during Act 3, Scene 2."
+  },
+  {
+   "id": "fs-0109",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "In which museum is the rocking chair Lincoln sat in at Ford's Theatre on the night of the shooting now displayed?",
+   "options": [
+    "Smithsonian National Museum of American History",
+    "Chicago History Museum",
+    "Library of Congress",
+    "Henry Ford Museum in Dearborn, Michigan"
+   ],
+   "answer": 3,
+   "explain": "A buyer acting for Henry Ford purchased the chair at a December 1929 auction. It is now shown at the Henry Ford Museum in Dearborn, Michigan."
+  },
+  {
+   "id": "fs-0110",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 3,
+   "q": "Ford's Theatre stagehand Edman Spangler was convicted of helping Booth escape. What sentence did he receive?",
+   "options": [
+    "Death by hanging",
+    "Life imprisonment at hard labor",
+    "Six years of hard labor",
+    "One year in the Old Capitol Prison"
+   ],
+   "answer": 2,
+   "explain": "Spangler, a carpenter and scene shifter at Ford's, received six years of hard labor at Fort Jefferson. President Andrew Johnson pardoned him in 1869."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+# Publishes the website to GitHub Pages.
+#   * runs on every change you push to main,
+#   * can be started by hand: Actions tab > "Deploy site" > Run workflow.
+# Nothing is fetched or refreshed on a timer: the games are static files and each daily puzzle is picked in the visitor's browser from the local date.
+# Needs: Settings > Pages > Source = "GitHub Actions". The repository must be PUBLIC (free runner minutes).
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# SECURITY: nothing by default. The build job can only read the code; only the small deploy job (which runs no code from
+# this repository) gets the right to publish. So no build or check script ever runs with publishing rights.
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Check out
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
+        with:
+          node-version: "22"
+
+      - name: Write sitemap.xml (address comes from tools/site-config.json)
+        run: node tools/build-sitemap.js
+
+      # Rebuilds the Dark Horse question index and per-question files from the banks, so the published copy can never be stale.
+      - name: Build the Dark Horse question files
+        run: node tools/build-dh-shards.js
+
+      - name: Build the clean copy that gets published
+        run: node tools/make-deploy-folder.js "$RUNNER_TEMP/deploy"
+
+      # SECURITY: writes a strict Content-Security-Policy tag (and the referrer policy) into every page of the built copy.
+      # Ads are OFF in this policy. When you switch ads on (assets/ads/ads-config.js enabled: true) you MUST change the line
+      # below to:  node tools/build-csp.js "$RUNNER_TEMP/deploy" --ads   (the policy is then looser: see ADS-SETUP.md section 13).
+      - name: Add the Content-Security-Policy tags
+        run: node tools/build-csp.js "$RUNNER_TEMP/deploy"
+
+      # Also the launch gate: once tools/fill-placeholders.js --launch has run, tools/site-config.json says "launched": true and this
+      # step fails the deploy if any [BRACKETED] placeholder, example.com address or Opinions leftover is in the built copy.
+      # (make-deploy-folder.js above already left Opinions out and wrote the CNAME file from baseUrl.)
+      - name: Safety check (stops the deploy on a real problem)
+        run: node tools/predeploy-check.js "$RUNNER_TEMP/deploy"
+
+      - name: Upload
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa  # v3.0.1
+        with:
+          path: ${{ runner.temp }}/deploy
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e  # v4.0.5

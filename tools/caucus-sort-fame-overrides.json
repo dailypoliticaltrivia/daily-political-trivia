@@ -1,0 +1,7 @@
+{
+ "_readme": "Names that must never appear on a Caucus Sort board even though their Wikipedia page views are high (news-spike artifacts or people a casual player will not recognise). Edit, then re-run build-caucus-sort.js.",
+ "exclude": [
+  "Katie Zacharia",
+  "Darline Graham"
+ ]
+}

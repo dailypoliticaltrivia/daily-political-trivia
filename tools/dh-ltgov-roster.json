@@ -1,0 +1,1797 @@
+{
+ "_about": "Members of Congress who were lieutenant governor of a U.S. state (bioguide -> [[state, from, to, list url]]), from audit/answers-govlt-roster.csv. Answer agent 2026-11-13.",
+ "lt": {
+  "L000306": [
+   [
+    "AL",
+    "1874",
+    "1876",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Alabama"
+   ]
+  ],
+  "A000127": [
+   [
+    "AL",
+    "1951",
+    "1967",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Alabama"
+   ]
+  ],
+  "T000400": [
+   [
+    "AR",
+    "1991",
+    "1992",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Arkansas"
+   ]
+  ],
+  "G000567": [
+   [
+    "AR",
+    "2015",
+    "2023",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Arkansas"
+   ]
+  ],
+  "P000003": [
+   [
+    "CA",
+    "1871",
+    "1875",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "J000145": [
+   [
+    "CA",
+    "1875",
+    "1880",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "S000861": [
+   [
+    "CA",
+    "1916",
+    "1917",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "P000113": [
+   [
+    "CA",
+    "1939",
+    "1943",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "A000189": [
+   [
+    "CA",
+    "1959",
+    "1967",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "R000159": [
+   [
+    "CA",
+    "1969",
+    "1974",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "D000592": [
+   [
+    "CA",
+    "1975",
+    "1979",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "G000559": [
+   [
+    "CA",
+    "2007",
+    "2009",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_California"
+   ]
+  ],
+  "T000004": [
+   [
+    "CO",
+    "1879",
+    "1883",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Colorado"
+   ]
+  ],
+  "H000017": [
+   [
+    "CO",
+    "1903",
+    "1905",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Colorado"
+   ]
+  ],
+  "R000369": [
+   [
+    "CO",
+    "1923",
+    "1925",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Colorado"
+   ]
+  ],
+  "J000127": [
+   [
+    "CO",
+    "1931",
+    "1933",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Colorado"
+   ]
+  ],
+  "A000161": [
+   [
+    "CO",
+    "1951",
+    "1955",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Colorado"
+   ]
+  ],
+  "T000389": [
+   [
+    "CT",
+    "1796",
+    "1797",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "G000488": [
+   [
+    "CT",
+    "1809",
+    "1811",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "S000570": [
+   [
+    "CT",
+    "1811",
+    "1812",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "G000293": [
+   [
+    "CT",
+    "1813",
+    "1815",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "P000375": [
+   [
+    "CT",
+    "1823",
+    "1827",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "B000428": [
+   [
+    "CT",
+    "1831",
+    "1835",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "S000943": [
+   [
+    "CT",
+    "1833",
+    "1838",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "B001123": [
+   [
+    "CT",
+    "1857",
+    "1858",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "H000809": [
+   [
+    "CT",
+    "1870",
+    "1871",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "B000470": [
+   [
+    "CT",
+    "1923",
+    "1925",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Connecticut"
+   ]
+  ],
+  "C000243": [
+   [
+    "DE",
+    "1981",
+    "1985",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Delaware"
+   ]
+  ],
+  "C001083": [
+   [
+    "DE",
+    "2001",
+    "2009",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Delaware"
+   ]
+  ],
+  "H000945": [
+   [
+    "FL",
+    "1877",
+    "1879",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Florida"
+   ]
+  ],
+  "M000023": [
+   [
+    "FL",
+    "1991",
+    "1998",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Florida"
+   ]
+  ],
+  "M001141": [
+   [
+    "GA",
+    "1975",
+    "1991",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Georgia"
+   ]
+  ],
+  "G000192": [
+   [
+    "HI",
+    "1966",
+    "1970",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Hawaii"
+   ]
+  ],
+  "H001042": [
+   [
+    "HI",
+    "1994",
+    "2002",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Hawaii"
+   ]
+  ],
+  "S001194": [
+   [
+    "HI",
+    "2010",
+    "2012",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Hawaii"
+   ]
+  ],
+  "G000337": [
+   [
+    "ID",
+    "1937",
+    "1943",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Idaho"
+   ]
+  ],
+  "O000166": [
+   [
+    "ID",
+    "1987",
+    "2001",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Idaho"
+   ]
+  ],
+  "R000584": [
+   [
+    "ID",
+    "2003",
+    "2009",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Idaho"
+   ]
+  ],
+  "C000230": [
+   [
+    "IL",
+    "1830",
+    "1833",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "E000283": [
+   [
+    "IL",
+    "1833",
+    "1834",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "B000430": [
+   [
+    "IL",
+    "1873",
+    "1873",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "S000348": [
+   [
+    "IL",
+    "1905",
+    "1909",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "O000053": [
+   [
+    "IL",
+    "1913",
+    "1917",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "S000423": [
+   [
+    "IL",
+    "1969",
+    "1973",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Illinois"
+   ]
+  ],
+  "B000628": [
+   [
+    "IN",
+    "1819",
+    "1824",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "W000076": [
+   [
+    "IN",
+    "1831",
+    "1837",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "B000835": [
+   [
+    "IN",
+    "1843",
+    "1845",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "L000061": [
+   [
+    "IN",
+    "1849",
+    "1853",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "M001020": [
+   [
+    "IN",
+    "1861",
+    "1861",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "C000980": [
+   [
+    "IN",
+    "1867",
+    "1871",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "S000263": [
+   [
+    "IN",
+    "1873",
+    "1877",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "M000114": [
+   [
+    "IN",
+    "1885",
+    "1886",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "G000176": [
+   [
+    "IN",
+    "1901",
+    "1905",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Indiana"
+   ]
+  ],
+  "W000034": [
+   [
+    "IA",
+    "1870",
+    "1871",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Iowa"
+   ]
+  ],
+  "H000942": [
+   [
+    "IA",
+    "1886",
+    "1890",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Iowa"
+   ]
+  ],
+  "H000559": [
+   [
+    "IA",
+    "1939",
+    "1943",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Iowa"
+   ]
+  ],
+  "J000101": [
+   [
+    "IA",
+    "1969",
+    "1973",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Iowa"
+   ]
+  ],
+  "F000438": [
+   [
+    "KS",
+    "1995",
+    "1996",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kansas"
+   ]
+  ],
+  "M000871": [
+   [
+    "KS",
+    "2018",
+    "2019",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kansas"
+   ]
+  ],
+  "P000450": [
+   [
+    "KY",
+    "1806",
+    "1808",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "B000192": [
+   [
+    "KY",
+    "1820",
+    "1824",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "M000938": [
+   [
+    "KY",
+    "1832",
+    "1834",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "W000442": [
+   [
+    "KY",
+    "1836",
+    "1839",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "D000367": [
+   [
+    "KY",
+    "1844",
+    "1848",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "T000208": [
+   [
+    "KY",
+    "1851",
+    "1853",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "B000719": [
+   [
+    "KY",
+    "1859",
+    "1859",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "S000894": [
+   [
+    "KY",
+    "1867",
+    "1867",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "C000152": [
+   [
+    "KY",
+    "1871",
+    "1875",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "B000293": [
+   [
+    "KY",
+    "1900",
+    "1900",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "C000290": [
+   [
+    "KY",
+    "1931",
+    "1935",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "F000268": [
+   [
+    "KY",
+    "1967",
+    "1971",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Kentucky"
+   ]
+  ],
+  "M000429": [
+   [
+    "LA",
+    "1880",
+    "1881",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Louisiana"
+   ]
+  ],
+  "E000224": [
+   [
+    "LA",
+    "1900",
+    "1904",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Louisiana"
+   ]
+  ],
+  "S000035": [
+   [
+    "LA",
+    "1904",
+    "1908",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Louisiana"
+   ]
+  ],
+  "B001304": [
+   [
+    "MD",
+    "2007",
+    "2015",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Maryland"
+   ]
+  ],
+  "L000316": [
+   [
+    "MA",
+    "1807",
+    "1809",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "C000545": [
+   [
+    "MA",
+    "1809",
+    "1810",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "L000315": [
+   [
+    "MA",
+    "1823",
+    "1824",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "M001019": [
+   [
+    "MA",
+    "1824",
+    "1825",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "R000121": [
+   [
+    "MA",
+    "1844",
+    "1851",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "G000295": [
+   [
+    "MA",
+    "1861",
+    "1861",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "C000398": [
+   [
+    "MA",
+    "1866",
+    "1869",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "L000423": [
+   [
+    "MA",
+    "1879",
+    "1880",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "C000875": [
+   [
+    "MA",
+    "1897",
+    "1900",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "F000395": [
+   [
+    "MA",
+    "1909",
+    "1912",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "L000498": [
+   [
+    "MA",
+    "1912",
+    "1913",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "W000097": [
+   [
+    "MA",
+    "1913",
+    "1914",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "F000405": [
+   [
+    "MA",
+    "1921",
+    "1925",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "K000148": [
+   [
+    "MA",
+    "1983",
+    "1985",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Massachusetts"
+   ]
+  ],
+  "M000783": [
+   [
+    "MI",
+    "1895",
+    "1895",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Michigan"
+   ]
+  ],
+  "K000061": [
+   [
+    "MI",
+    "1907",
+    "1910",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Michigan"
+   ]
+  ],
+  "H000291": [
+   [
+    "MI",
+    "1955",
+    "1958",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Michigan"
+   ]
+  ],
+  "G000471": [
+   [
+    "MI",
+    "1983",
+    "1990",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Michigan"
+   ]
+  ],
+  "D000417": [
+   [
+    "MN",
+    "1860",
+    "1863",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "W000026": [
+   [
+    "MN",
+    "1876",
+    "1880",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "N000128": [
+   [
+    "MN",
+    "1925",
+    "1929",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "A000276": [
+   [
+    "MN",
+    "1931",
+    "1933",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "T000259": [
+   [
+    "MN",
+    "1943",
+    "1943",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "N000028": [
+   [
+    "MN",
+    "1953",
+    "1953",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "O000084": [
+   [
+    "MN",
+    "1976",
+    "1979",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "S001203": [
+   [
+    "MN",
+    "2015",
+    "2018",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "F000470": [
+   [
+    "MN",
+    "2018",
+    "2019",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Minnesota"
+   ]
+  ],
+  "D000328": [
+   [
+    "MS",
+    "1822",
+    "1824",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Mississippi"
+   ]
+  ],
+  "B000460": [
+   [
+    "MS",
+    "1912",
+    "1916",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Mississippi"
+   ]
+  ],
+  "A000315": [
+   [
+    "MO",
+    "1824",
+    "1824",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "P000532": [
+   [
+    "MO",
+    "1848",
+    "1853",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "H000077": [
+   [
+    "MO",
+    "1861",
+    "1864",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "S000787": [
+   [
+    "MO",
+    "1869",
+    "1871",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "G000389": [
+   [
+    "MO",
+    "1871",
+    "1872",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "R000491": [
+   [
+    "MO",
+    "1903",
+    "1905",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "B000380": [
+   [
+    "MO",
+    "1925",
+    "1929",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "L000415": [
+   [
+    "MO",
+    "1957",
+    "1960",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "E000004": [
+   [
+    "MO",
+    "1965",
+    "1968",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Missouri"
+   ]
+  ],
+  "R000571": [
+   [
+    "MT",
+    "1991",
+    "1997",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Montana"
+   ]
+  ],
+  "W000818": [
+   [
+    "MT",
+    "2013",
+    "2014",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Montana"
+   ]
+  ],
+  "M000634": [
+   [
+    "NE",
+    "1888",
+    "1891",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nebraska"
+   ]
+  ],
+  "M000075": [
+   [
+    "NE",
+    "1890",
+    "1895",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nebraska"
+   ]
+  ],
+  "H000836": [
+   [
+    "NE",
+    "1916",
+    "1919",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nebraska"
+   ]
+  ],
+  "J000130": [
+   [
+    "NE",
+    "1922",
+    "1925",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nebraska"
+   ]
+  ],
+  "M000449": [
+   [
+    "NE",
+    "1982",
+    "1987",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nebraska"
+   ]
+  ],
+  "S001058": [
+   [
+    "NV",
+    "1915",
+    "1943",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nevada"
+   ]
+  ],
+  "L000148": [
+   [
+    "NV",
+    "1963",
+    "1967",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nevada"
+   ]
+  ],
+  "R000146": [
+   [
+    "NV",
+    "1971",
+    "1975",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Nevada"
+   ]
+  ],
+  "M000876": [
+   [
+    "NM",
+    "1947",
+    "1955",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_New_Mexico"
+   ]
+  ],
+  "V000056": [
+   [
+    "NY",
+    "1795",
+    "1801",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "V000053": [
+   [
+    "NY",
+    "1801",
+    "1804",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "C000525": [
+   [
+    "NY",
+    "1811",
+    "1813",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "R000431": [
+   [
+    "NY",
+    "1823",
+    "1823",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "T000031": [
+   [
+    "NY",
+    "1825",
+    "1826",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "P000367": [
+   [
+    "NY",
+    "1827",
+    "1828",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "D000162": [
+   [
+    "NY",
+    "1828",
+    "1828",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "T000247": [
+   [
+    "NY",
+    "1829",
+    "1829",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "O000078": [
+   [
+    "NY",
+    "1830",
+    "1830",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "D000317": [
+   [
+    "NY",
+    "1843",
+    "1844",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "F000140": [
+   [
+    "NY",
+    "1848",
+    "1848",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "P000116": [
+   [
+    "NY",
+    "1849",
+    "1850",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "R000084": [
+   [
+    "NY",
+    "1855",
+    "1856",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "W000713": [
+   [
+    "NY",
+    "1867",
+    "1868",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "D000442": [
+   [
+    "NY",
+    "1875",
+    "1879",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "H000801": [
+   [
+    "NY",
+    "1880",
+    "1882",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "H000590": [
+   [
+    "NY",
+    "1883",
+    "1885",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "M000310": [
+   [
+    "NY",
+    "1885",
+    "1885",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "R000013": [
+   [
+    "NY",
+    "1906",
+    "1906",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "G000247": [
+   [
+    "NY",
+    "1913",
+    "1913",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "W000021": [
+   [
+    "NY",
+    "1913",
+    "1914",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "L000518": [
+   [
+    "NY",
+    "1923",
+    "1924",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "L000224": [
+   [
+    "NY",
+    "1929",
+    "1932",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "L000516": [
+   [
+    "NY",
+    "1987",
+    "1994",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "H001062": [
+   [
+    "NY",
+    "2015",
+    "2021",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "D000630": [
+   [
+    "NY",
+    "2022",
+    "2022",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_New_York"
+   ]
+  ],
+  "B000863": [
+   [
+    "NC",
+    "1873",
+    "1874",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_North_Carolina"
+   ]
+  ],
+  "J000063": [
+   [
+    "NC",
+    "1877",
+    "1879",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_North_Carolina"
+   ]
+  ],
+  "S000827": [
+   [
+    "NC",
+    "1885",
+    "1889",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_North_Carolina"
+   ]
+  ],
+  "G000055": [
+   [
+    "NC",
+    "1989",
+    "1993",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_North_Carolina"
+   ]
+  ],
+  "B001079": [
+   [
+    "ND",
+    "1911",
+    "1913",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_North_Dakota"
+   ]
+  ],
+  "M000624": [
+   [
+    "OH",
+    "1852",
+    "1853",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "W000270": [
+   [
+    "OH",
+    "1858",
+    "1860",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "S000801": [
+   [
+    "OH",
+    "1862",
+    "1864",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "H000282": [
+   [
+    "OH",
+    "1874",
+    "1876",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "Y000054": [
+   [
+    "OH",
+    "1876",
+    "1877",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "W000169": [
+   [
+    "OH",
+    "1884",
+    "1886",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "K000115": [
+   [
+    "OH",
+    "1886",
+    "1887",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "C000034": [
+   [
+    "OH",
+    "1900",
+    "1902",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "H000192": [
+   [
+    "OH",
+    "1904",
+    "1906",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "P000420": [
+   [
+    "OH",
+    "1911",
+    "1911",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "B000909": [
+   [
+    "OH",
+    "1919",
+    "1923",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "M001032": [
+   [
+    "OH",
+    "1935",
+    "1937",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "V000126": [
+   [
+    "OH",
+    "1979",
+    "1979",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "D000294": [
+   [
+    "OH",
+    "1991",
+    "1994",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "H001104": [
+   [
+    "OH",
+    "2019",
+    "2025",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Ohio"
+   ]
+  ],
+  "F000453": [
+   [
+    "OK",
+    "1995",
+    "2007",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Oklahoma"
+   ]
+  ],
+  "S000953": [
+   [
+    "PA",
+    "1879",
+    "1883",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Pennsylvania"
+   ]
+  ],
+  "R000176": [
+   [
+    "PA",
+    "1911",
+    "1915",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Pennsylvania"
+   ]
+  ],
+  "F000479": [
+   [
+    "PA",
+    "2019",
+    "2023",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Pennsylvania"
+   ]
+  ],
+  "P000468": [
+   [
+    "RI",
+    "1790",
+    "1803",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "W000454": [
+   [
+    "RI",
+    "1806",
+    "1811",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "T000255": [
+   [
+    "RI",
+    "1837",
+    "1838",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "A000295": [
+   [
+    "RI",
+    "1852",
+    "1862",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "B001048": [
+   [
+    "RI",
+    "1892",
+    "1894",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "U000035": [
+   [
+    "RI",
+    "1904",
+    "1905",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "P000100": [
+   [
+    "RI",
+    "1945",
+    "1945",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "W000315": [
+   [
+    "RI",
+    "1993",
+    "1997",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Rhode_Island"
+   ]
+  ],
+  "G000211": [
+   [
+    "SC",
+    "1789",
+    "1791",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "W000637": [
+   [
+    "SC",
+    "1800",
+    "1802",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "F000036": [
+   [
+    "SC",
+    "1810",
+    "1812",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "S000414": [
+   [
+    "SC",
+    "1812",
+    "1814",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "C001024": [
+   [
+    "SC",
+    "1816",
+    "1818",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "C000534": [
+   [
+    "SC",
+    "1840",
+    "1842",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "R000060": [
+   [
+    "SC",
+    "1870",
+    "1872",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "S000107": [
+   [
+    "SC",
+    "1899",
+    "1901",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "H000725": [
+   [
+    "SC",
+    "1955",
+    "1959",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_South_Carolina"
+   ]
+  ],
+  "N000132": [
+   [
+    "SD",
+    "1915",
+    "1917",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_South_Dakota"
+   ]
+  ],
+  "M000563": [
+   [
+    "SD",
+    "1917",
+    "1921",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_South_Dakota"
+   ]
+  ],
+  "B000656": [
+   [
+    "SD",
+    "1961",
+    "1962",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_South_Dakota"
+   ]
+  ],
+  "A000009": [
+   [
+    "SD",
+    "1969",
+    "1971",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_South_Dakota"
+   ]
+  ],
+  "J000223": [
+   [
+    "TX",
+    "1866",
+    "1867",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Texas"
+   ]
+  ],
+  "F000186": [
+   [
+    "TX",
+    "1870",
+    "1870",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Texas"
+   ]
+  ],
+  "S000099": [
+   [
+    "TX",
+    "1879",
+    "1881",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Texas"
+   ]
+  ],
+  "P000202": [
+   [
+    "TX",
+    "1891",
+    "1893",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Texas"
+   ]
+  ],
+  "M000860": [
+   [
+    "UT",
+    "1977",
+    "1985",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Utah"
+   ]
+  ],
+  "C000280": [
+   [
+    "VT",
+    "1813",
+    "1815",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "C000020": [
+   [
+    "VT",
+    "1820",
+    "1822",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "O000068": [
+   [
+    "VT",
+    "1827",
+    "1830",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "R000217": [
+   [
+    "VT",
+    "1830",
+    "1831",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "K000164": [
+   [
+    "VT",
+    "1853",
+    "1854",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "D000346": [
+   [
+    "VT",
+    "1862",
+    "1865",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "H000474": [
+   [
+    "VT",
+    "1869",
+    "1870",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "P000547": [
+   [
+    "VT",
+    "1876",
+    "1878",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "A000062": [
+   [
+    "VT",
+    "1935",
+    "1937",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "S000776": [
+   [
+    "VT",
+    "1957",
+    "1959",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "S000601": [
+   [
+    "VT",
+    "1983",
+    "1987",
+    "https://en.wikipedia.org/wiki/List_of_lieutenant_governors_of_Vermont"
+   ]
+  ],
+  "L000176": [
+   [
+    "VA",
+    "1852",
+    "1856",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "P000418": [
+   [
+    "VA",
+    "1861",
+    "1863",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "P000530": [
+   [
+    "VA",
+    "1864",
+    "1865",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "L000285": [
+   [
+    "VA",
+    "1869",
+    "1886",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "W000659": [
+   [
+    "VA",
+    "1874",
+    "1875",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "W000056": [
+   [
+    "VA",
+    "1878",
+    "1882",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "T000395": [
+   [
+    "VA",
+    "1942",
+    "1946",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "R000295": [
+   [
+    "VA",
+    "1978",
+    "1982",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "B001292": [
+   [
+    "VA",
+    "1990",
+    "1998",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "K000384": [
+   [
+    "VA",
+    "2002",
+    "2006",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Virginia"
+   ]
+  ],
+  "P000546": [
+   [
+    "WA",
+    "1989",
+    "1997",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Washington"
+   ]
+  ],
+  "H001064": [
+   [
+    "WA",
+    "2021",
+    "2021",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Washington"
+   ]
+  ],
+  "P000476": [
+   [
+    "WI",
+    "1870",
+    "1872",
+    "https://en.wikipedia.org/wiki/Lieutenant_Governor_of_Wisconsin"
+   ]
+  ]
+ }
+}

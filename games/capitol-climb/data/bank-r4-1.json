@@ -1,0 +1,3567 @@
+{
+ "bank": "r4-1",
+ "questions": [
+  {
+   "id": "r4-0001",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "English and French colonies in North America were founded during a cool era of harsh winters lasting roughly from the 1300s to the mid-1800s. What do climate historians call it?",
+   "options": [
+    "The Medieval Warm Period",
+    "The Little Ice Age",
+    "The Younger Dryas",
+    "The Holocene Climatic Optimum"
+   ],
+   "answer": 1,
+   "explain": "The Little Ice Age brought colder winters to the North Atlantic world, and historians link it to hardships at early colonies such as Jamestown and Quebec."
+  },
+  {
+   "id": "r4-0002",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In colonial New Spain, the hierarchy that ranked people by their mix of Spanish, Native and African ancestry was known as what?",
+   "options": [
+    "The encomienda system",
+    "The hacienda system",
+    "The casta system",
+    "The mita system"
+   ],
+   "answer": 2,
+   "explain": "The casta system placed people of Spanish birth at the top and assigned mixed-ancestry groups such as mestizos and mulattos lower ranks; casta paintings illustrated it."
+  },
+  {
+   "id": "r4-0003",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Moundville, one of the largest Mississippian ceremonial centers, with more than two dozen earthen mounds around a great plaza, is in which present-day state?",
+   "options": [
+    "Ohio",
+    "Alabama",
+    "Illinois",
+    "Oklahoma"
+   ],
+   "answer": 1,
+   "explain": "Moundville, on the Black Warrior River in Alabama, flourished from about 1000 to 1450 and was among the largest Mississippian sites after Cahokia."
+  },
+  {
+   "id": "r4-0004",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Paiute and Shoshone peoples of the Great Basin depended heavily on which autumn harvest, gathered from native trees and stored for winter?",
+   "options": [
+    "Acorns from oak groves",
+    "Wild rice from lakes",
+    "Maple sap and sugar",
+    "Pinyon pine nuts"
+   ],
+   "answer": 3,
+   "explain": "Pine nuts from pinyon trees were a key winter food for Great Basin peoples, who moved seasonally among scattered resources in the dry region."
+  },
+  {
+   "id": "r4-0005",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Before they had horses, Plains hunters often killed many bison at once by what method?",
+   "options": [
+    "Stampeding herds over cliffs",
+    "Shooting them with muskets",
+    "Poisoning their watering holes",
+    "Setting steel traps along trails"
+   ],
+   "answer": 0,
+   "explain": "At buffalo jumps such as Head-Smashed-In in Alberta, hunters drove bison over cliffs and butchered them below."
+  },
+  {
+   "id": "r4-0006",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "On his second voyage in 1493, Columbus carried which crop to Hispaniola, beginning its spread into the Caribbean?",
+   "options": [
+    "Sugarcane",
+    "Tobacco",
+    "Cotton",
+    "Sweet potatoes"
+   ],
+   "answer": 0,
+   "explain": "Columbus brought sugarcane cuttings from the Canary Islands in 1493; sugar plantations later drove the use of enslaved African labor across the Caribbean."
+  },
+  {
+   "id": "r4-0007",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1542, which explorer sailing for Spain led the first European expedition along the coast of present-day California?",
+   "options": [
+    "Juan Rodriguez Cabrillo",
+    "Sebastian Vizcaino",
+    "Gaspar de Portola",
+    "Sebastian Rodriguez Cermeno"
+   ],
+   "answer": 0,
+   "explain": "Cabrillo entered San Diego Bay in 1542 and sailed north along the coast; Cabrillo National Monument in San Diego honors him."
+  },
+  {
+   "id": "r4-0008",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1570, Spanish Jesuits founded the short-lived Ajacan mission, whose missionaries were killed by local Native people within months. Where was it?",
+   "options": [
+    "On the coast of present-day Maine",
+    "On the Chesapeake Bay in present-day Virginia",
+    "On the Rio Grande in present-day New Mexico",
+    "On San Francisco Bay in present-day California"
+   ],
+   "answer": 1,
+   "explain": "Guided by Paquiquineo (Don Luis), a Native man who had lived in Spain, the Jesuits settled on the Virginia peninsula; the missionaries were killed in early 1571."
+  },
+  {
+   "id": "r4-0009",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Santa Elena, a capital of Spanish Florida in the late 1500s, stood in what is now which state?",
+   "options": [
+    "Georgia",
+    "Alabama",
+    "South Carolina",
+    "North Carolina"
+   ],
+   "answer": 2,
+   "explain": "Founded by Pedro Menendez de Aviles on present-day Parris Island, South Carolina, Santa Elena was abandoned in 1587 as Spain pulled back to St. Augustine."
+  },
+  {
+   "id": "r4-0010",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Ancient Hopewell traders of the Ohio Valley obtained copper from which distant region?",
+   "options": [
+    "The Rocky Mountains",
+    "The Lake Superior region",
+    "The Gulf of Mexico coast",
+    "The Florida peninsula"
+   ],
+   "answer": 1,
+   "explain": "The Hopewell exchange network moved Lake Superior copper, Gulf Coast shells and western obsidian across much of the continent."
+  },
+  {
+   "id": "r4-0011",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Chumash of the southern California coast were known for building what?",
+   "options": [
+    "Sewn-plank canoes for ocean voyages",
+    "Multistory adobe apartment pueblos",
+    "Large earthen platform mounds",
+    "Birchbark canoes for river travel"
+   ],
+   "answer": 0,
+   "explain": "Chumash tomols, made of planks sewn together and sealed with tar, carried traders and fishermen to the Channel Islands."
+  },
+  {
+   "id": "r4-0012",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Maize was domesticated thousands of years ago from teosinte, a wild grass native to which region?",
+   "options": [
+    "The Andes of Peru",
+    "The Mississippi Valley",
+    "The Amazon basin",
+    "Southern Mexico"
+   ],
+   "answer": 3,
+   "explain": "Genetic studies trace maize to teosinte in the Balsas River valley of southern Mexico about 9,000 years ago; it later spread across the Americas."
+  },
+  {
+   "id": "r4-0013",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Black Legend, spread by Spain's European rivals, portrayed Spanish colonization as what?",
+   "options": [
+    "Generous and peaceful",
+    "Uniquely cruel and greedy",
+    "Focused only on fur trading",
+    "Run mainly by Native allies"
+   ],
+   "answer": 1,
+   "explain": "Protestant rivals such as England and the Netherlands used accounts like Las Casas's to depict Spain as especially brutal, a view historians call the Black Legend."
+  },
+  {
+   "id": "r4-0014",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Fluted stone spear points used by some of the earliest widespread peoples of North America, roughly 13,000 years ago, are named after a site near which town?",
+   "options": [
+    "Natchez, Mississippi",
+    "Taos, New Mexico",
+    "Cahokia, Illinois",
+    "Clovis, New Mexico"
+   ],
+   "answer": 3,
+   "explain": "Clovis points were first identified near Clovis, New Mexico, in the 1930s and have been found across much of North America."
+  },
+  {
+   "id": "r4-0015",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Among Ancestral Puebloan and later Pueblo peoples, what is a kiva?",
+   "options": [
+    "A chamber used for ceremonies and meetings",
+    "A canal dug for irrigating fields of desert maize",
+    "A clay jar for storing maize",
+    "A trading post for buffalo hides"
+   ],
+   "answer": 0,
+   "explain": "Kivas, often round and partly underground, were used for religious rituals and community gatherings, and Pueblo communities still use them today."
+  },
+  {
+   "id": "r4-0016",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Which Native people lived in northeastern Florida when the Spanish founded St. Augustine in 1565?",
+   "options": [
+    "The Seminole",
+    "The Powhatan",
+    "The Wampanoag",
+    "The Timucua"
+   ],
+   "answer": 3,
+   "explain": "Timucua-speaking peoples held much of northern Florida; disease, mission labor and raids nearly destroyed them by the 1700s."
+  },
+  {
+   "id": "r4-0017",
+   "period": 1,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Many Native peoples of the eastern woodlands regularly set controlled fires in forests. What was one main purpose?",
+   "options": [
+    "To clear underbrush for hunting and travel",
+    "To drive rival villages away during wartime raids",
+    "To signal the arrival of European ships",
+    "To melt copper for tools"
+   ],
+   "answer": 0,
+   "explain": "Regular burning opened up forests, improved browse for deer and made travel easier, which early colonists described as park-like woods."
+  },
+  {
+   "id": "r4-0018",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Before exploring Florida in 1513, Juan Ponce de Leon had led the Spanish colonization of which Caribbean island?",
+   "options": [
+    "Puerto Rico",
+    "Cuba",
+    "Jamaica",
+    "The Bahamas"
+   ],
+   "answer": 0,
+   "explain": "Ponce de Leon founded the first Spanish settlement on Puerto Rico in 1508 and became its first governor."
+  },
+  {
+   "id": "r4-0019",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Mesoamerican cooks soaked maize in an alkaline solution of lime or wood ash before grinding it. What did this process do?",
+   "options": [
+    "Turned the maize into a fermented ceremonial drink",
+    "Preserved maize for ocean voyages",
+    "Removed a poison found in raw maize",
+    "Made maize more nutritious and easier to grind"
+   ],
+   "answer": 3,
+   "explain": "Nixtamalization releases niacin and softens the kernels, which helped prevent the disease pellagra in maize-based diets."
+  },
+  {
+   "id": "r4-0020",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Columbus sailed south to the Canary Islands before heading west in 1492 in order to use what?",
+   "options": [
+    "The Gulf Stream",
+    "The northeast trade winds",
+    "The westerly winds",
+    "The cold Labrador Current"
+   ],
+   "answer": 1,
+   "explain": "The trade winds blowing from the northeast at that latitude carried his ships west; he returned farther north on the westerlies."
+  },
+  {
+   "id": "r4-0021",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Acorns were a staple food for many Native peoples of California. What did cooks have to do before eating them?",
+   "options": [
+    "Ferment them in seawater",
+    "Leach out bitter tannins with water",
+    "Roast them for several weeks",
+    "Mix them with salt carried from the desert"
+   ],
+   "answer": 1,
+   "explain": "After grinding acorns into meal, cooks rinsed it repeatedly with water to remove tannins, then made mush or bread."
+  },
+  {
+   "id": "r4-0022",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Hernando de Soto's expedition passed through Coosa in 1540. What was Coosa?",
+   "options": [
+    "A powerful Mississippian chiefdom in the Southeast",
+    "A Spanish fort on the Gulf Coast",
+    "An Inca city in the Andes",
+    "A Pueblo town on the Rio Grande"
+   ],
+   "answer": 0,
+   "explain": "Coosa was a paramount chiefdom centered in northwest Georgia; later Spanish visitors found it much weakened, likely by disease."
+  },
+  {
+   "id": "r4-0023",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Calusa of southwest Florida, who resisted Spanish colonizers in the 1500s, built a powerful chiefdom based mainly on what?",
+   "options": [
+    "Large-scale maize farming",
+    "Raising turkeys and dogs",
+    "Trading furs with the French",
+    "Fishing and gathering shellfish in estuaries"
+   ],
+   "answer": 3,
+   "explain": "The Calusa built shell mounds and canals and supported a complex society on the rich fisheries of the coast without major farming."
+  },
+  {
+   "id": "r4-0024",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Native peoples of the Pacific Northwest coast built large multifamily houses from what material?",
+   "options": [
+    "Planks split from cedar trees",
+    "Sun-dried adobe bricks",
+    "Buffalo hides stretched over poles",
+    "Blocks of packed snow"
+   ],
+   "answer": 0,
+   "explain": "Red cedar from the coastal rainforest supplied planks for houses as well as dugout canoes and carved poles."
+  },
+  {
+   "id": "r4-0025",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Mandan and Hidatsa, farming peoples of the upper Missouri River, lived in villages of what kind of dwellings?",
+   "options": [
+    "Cliff dwellings of stone",
+    "Birchbark wigwams",
+    "Dome-shaped earth lodges",
+    "Plank longhouses on stilts"
+   ],
+   "answer": 2,
+   "explain": "Their fortified earth-lodge villages were major trading centers for Plains peoples; Lewis and Clark wintered near them in 1804-1805."
+  },
+  {
+   "id": "r4-0026",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1729, the Natchez attacked which French post on the lower Mississippi, starting a war in which the French destroyed the Natchez as an independent nation?",
+   "options": [
+    "Fort Rosalie",
+    "Fort Duquesne",
+    "Fort Michilimackinac",
+    "Fort Caroline"
+   ],
+   "answer": 0,
+   "explain": "The attack at Fort Rosalie, at present-day Natchez, Mississippi, led to French campaigns that killed or enslaved many Natchez and scattered survivors among other nations."
+  },
+  {
+   "id": "r4-0027",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "The Flushing Remonstrance of 1657 protested New Netherland governor Peter Stuyvesant's persecution of which religious group?",
+   "options": [
+    "Quakers",
+    "Catholics",
+    "Anglicans",
+    "Puritans"
+   ],
+   "answer": 0,
+   "explain": "Residents of Flushing on Long Island defended Quakers' freedom of worship, an early American statement of religious liberty."
+  },
+  {
+   "id": "r4-0028",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Parliament's Woolen Act of 1699 restricted colonists from doing what?",
+   "options": [
+    "Raising sheep on common land",
+    "Buying wool cloth from England",
+    "Wearing imported silk",
+    "Exporting wool and woolen cloth to other colonies or abroad"
+   ],
+   "answer": 3,
+   "explain": "The act protected English cloth makers by barring colonial wool and woolen goods from export, an example of mercantilist trade rules."
+  },
+  {
+   "id": "r4-0029",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "In colonial Virginia and Maryland, what commodity commonly served as money for taxes, debts and ministers' salaries?",
+   "options": [
+    "Rice",
+    "Molasses",
+    "Tobacco",
+    "Indigo"
+   ],
+   "answer": 2,
+   "explain": "Tobacco, and later warehouse receipts for it called tobacco notes, served as currency in the Chesapeake through much of the colonial era."
+  },
+  {
+   "id": "r4-0030",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Founded in 1670 with a royal charter, which English company competed with the French for furs across much of northern North America?",
+   "options": [
+    "The Virginia Company",
+    "The Hudson's Bay Company",
+    "The Royal African Company",
+    "The Massachusetts Bay Company"
+   ],
+   "answer": 1,
+   "explain": "The Hudson's Bay Company was given trading rights over the lands draining into Hudson Bay, beginning a long fur rivalry with New France."
+  },
+  {
+   "id": "r4-0031",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1701, Antoine de la Mothe Cadillac founded a French fort and settlement on a strait linking the Great Lakes. Which city grew from it?",
+   "options": [
+    "Detroit",
+    "Chicago",
+    "Pittsburgh",
+    "Milwaukee"
+   ],
+   "answer": 0,
+   "explain": "Fort Pontchartrain du Detroit controlled the passage between Lake St. Clair and Lake Erie and anchored the French fur trade in the region."
+  },
+  {
+   "id": "r4-0032",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "In the 1700s, the Comanche built a powerful empire on the southern Plains largely by mastering what?",
+   "options": [
+    "Horses for hunting, raiding and trade",
+    "Large-scale maize farming",
+    "Iron smelting and making their own guns",
+    "Ocean fishing from canoes"
+   ],
+   "answer": 0,
+   "explain": "Mounted Comanche dominated the bison-hunting and horse trade of the southern Plains and held Spanish Texas and New Mexico at bay for decades."
+  },
+  {
+   "id": "r4-0033",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "By the late 1600s, why did the fur trade in the Hudson and St. Lawrence valleys keep pushing farther west?",
+   "options": [
+    "Farmers had banned trapping",
+    "Beaver fur had gone out of fashion",
+    "Spanish forts blocked the eastern rivers",
+    "Overhunting had depleted nearby beaver"
+   ],
+   "answer": 3,
+   "explain": "Intense trapping exhausted beaver near the coast, pushing traders and their Native partners west and fueling conflicts such as the Beaver Wars."
+  },
+  {
+   "id": "r4-0034",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1656, Elizabeth Key won her freedom in a Virginia court partly by arguing what?",
+   "options": [
+    "She had been born in Spain",
+    "Her English father was free and she was a baptized Christian",
+    "She had served in the militia",
+    "She had purchased herself with tobacco"
+   ],
+   "answer": 1,
+   "explain": "Key's case is thought to have prompted Virginia's 1662 law making a child's status follow the mother's, which made slavery hereditary through the mother."
+  },
+  {
+   "id": "r4-0035",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1636, minister Thomas Hooker led settlers from Massachusetts Bay to found Hartford in which river valley?",
+   "options": [
+    "The Hudson River",
+    "The Susquehanna River",
+    "The Connecticut River",
+    "The Delaware River"
+   ],
+   "answer": 2,
+   "explain": "Drawn by fertile land and differences with Massachusetts leaders, Hooker's group settled on the Connecticut River, and the colony adopted the Fundamental Orders in 1639."
+  },
+  {
+   "id": "r4-0036",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "To boost New France's small population, Louis XIV sponsored the migration of about 800 young women between 1663 and 1673. What were they called?",
+   "options": [
+    "The coureuses de bois",
+    "The filles du roi (King's Daughters)",
+    "The Ursuline Sisters",
+    "The habitantes"
+   ],
+   "answer": 1,
+   "explain": "The filles du roi received royal support to settle and marry in New France, and many French Canadians descend from them."
+  },
+  {
+   "id": "r4-0037",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In the Great Peace of Montreal of 1701, the Haudenosaunee agreed to do what?",
+   "options": [
+    "Join England in conquering Quebec",
+    "Make peace with New France and its Native allies",
+    "Move west of the Mississippi",
+    "Sell their lands to Pennsylvania"
+   ],
+   "answer": 1,
+   "explain": "The 1701 treaties, signed with about 40 Native nations and France, ended decades of war, while the Haudenosaunee also renewed ties with England and stayed neutral."
+  },
+  {
+   "id": "r4-0038",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "From 1729 until the early 1770s, the capital of Spanish Texas was Los Adaes, located in what is now which state?",
+   "options": [
+    "Oklahoma",
+    "New Mexico",
+    "Louisiana",
+    "Arkansas"
+   ],
+   "answer": 2,
+   "explain": "Spain placed its capital at Los Adaes, near present-day Robeline, Louisiana, to guard against the French at nearby Natchitoches."
+  },
+  {
+   "id": "r4-0039",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Wall Street in Manhattan takes its name from what?",
+   "options": [
+    "A stone wall around an English fort",
+    "A seawall built after a hurricane",
+    "A wall the Dutch built at the edge of New Amsterdam",
+    "The wall of the first stock exchange"
+   ],
+   "answer": 2,
+   "explain": "In the 1650s the Dutch built a wooden wall across lower Manhattan for defense; the British tore it down in 1699, and the street along it kept the name."
+  },
+  {
+   "id": "r4-0040",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Charles Town, moved to its present site in 1680, grew into a major port at the meeting of which two rivers?",
+   "options": [
+    "The James and York rivers",
+    "The Savannah and Altamaha rivers",
+    "The Cape Fear and Neuse rivers",
+    "The Ashley and Cooper rivers"
+   ],
+   "answer": 3,
+   "explain": "Charleston's peninsula between the Ashley and Cooper rivers offered a protected harbor that made it the leading port of the colonial South."
+  },
+  {
+   "id": "r4-0041",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Virginia's Tobacco Inspection Act of 1730 required what?",
+   "options": [
+    "Planters to grow food crops instead of tobacco",
+    "All exported tobacco to be inspected at public warehouses",
+    "Tobacco to be sold only to Scottish merchants",
+    "A tax on tobacco smoked in taverns"
+   ],
+   "answer": 1,
+   "explain": "Inspectors burned trash tobacco and issued notes for good leaf, which improved quality and circulated as money."
+  },
+  {
+   "id": "r4-0042",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Georgia's trustees in the 1730s hoped colonists would produce what luxury good, requiring settlers to plant mulberry trees?",
+   "options": [
+    "Wine",
+    "Silk",
+    "Indigo",
+    "Coffee"
+   ],
+   "answer": 1,
+   "explain": "Silkworms feed on mulberry leaves; Georgia's silk industry never became profitable, and rice and later cotton dominated instead."
+  },
+  {
+   "id": "r4-0043",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Anthony Johnson, who arrived in Virginia in 1621 as an African servant, is notable for what?",
+   "options": [
+    "Leading a revolt against Governor Berkeley",
+    "Becoming a free landowner on the Eastern Shore",
+    "Founding the first Black church in America",
+    "Serving in the House of Burgesses"
+   ],
+   "answer": 1,
+   "explain": "Johnson gained his freedom and farmed land on Virginia's Eastern Shore, showing that racial lines in early Virginia were less rigid than they later became."
+  },
+  {
+   "id": "r4-0044",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Built in the 1640s, the Saugus Iron Works was the first integrated ironworks in English North America. In which colony was it?",
+   "options": [
+    "Virginia",
+    "Pennsylvania",
+    "Connecticut Colony",
+    "Massachusetts Bay"
+   ],
+   "answer": 3,
+   "explain": "Near Lynn, Massachusetts, it smelted bog iron from 1646 until about 1670 and is now a national historic site."
+  },
+  {
+   "id": "r4-0045",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "For generations, communities of people who had escaped slavery, called maroons, lived hidden in which swamp on the Virginia-North Carolina border?",
+   "options": [
+    "The Okefenokee Swamp",
+    "The Atchafalaya River Basin",
+    "The Everglades",
+    "The Great Dismal Swamp"
+   ],
+   "answer": 3,
+   "explain": "Archaeologists have found traces of maroon settlements on islands of higher ground deep in the Great Dismal Swamp, occupied from the 1600s to the Civil War."
+  },
+  {
+   "id": "r4-0046",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "After the Pequot War, the 1638 Treaty of Hartford did what to the Pequot?",
+   "options": [
+    "Declared their nation dissolved and divided survivors among English allies",
+    "Gave them a large reservation in Massachusetts",
+    "Made them citizens of Connecticut",
+    "Moved them west of the Hudson River"
+   ],
+   "answer": 0,
+   "explain": "Survivors were handed over to the Mohegan and Narragansett or enslaved, and the treaty even banned use of the Pequot name."
+  },
+  {
+   "id": "r4-0047",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1663, John Eliot published the first complete Bible printed in British North America. In what language was it?",
+   "options": [
+    "Latin, for use by Harvard scholars",
+    "Dutch, for settlers in New Netherland colony",
+    "Massachusett, an Algonquian language",
+    "Mohawk, an Iroquoian language"
+   ],
+   "answer": 2,
+   "explain": "Eliot worked with Native translators such as John Sassamon and Cockenoe to produce the Algonquian Bible for missionary work."
+  },
+  {
+   "id": "r4-0048",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "English philosopher John Locke helped draft the Fundamental Constitutions of 1669 for which colony?",
+   "options": [
+    "Carolina",
+    "Pennsylvania",
+    "Georgia",
+    "Maryland"
+   ],
+   "answer": 0,
+   "explain": "Locke served as secretary to Lord Ashley, one of Carolina's proprietors; the document planned a hereditary nobility and protected slavery."
+  },
+  {
+   "id": "r4-0049",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The heavy, boat-shaped Conestoga wagon, used to haul freight in the 1700s and early 1800s, was first built in which colony?",
+   "options": [
+    "Virginia",
+    "Pennsylvania",
+    "Massachusetts",
+    "New York"
+   ],
+   "answer": 1,
+   "explain": "Named for the Conestoga River area of Lancaster County, the wagons carried farm goods to Philadelphia and later freight over the Appalachians."
+  },
+  {
+   "id": "r4-0050",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "In 1792, two dozen brokers signed an agreement on Wall Street that is considered the origin of what institution?",
+   "options": [
+    "The Bank of New York",
+    "The U.S. Mint",
+    "The New York Stock Exchange",
+    "The First Bank of the United States"
+   ],
+   "answer": 2,
+   "explain": "The Buttonwood Agreement set common commission rates for trading securities, including the new federal bonds created by Hamilton's debt plan."
+  },
+  {
+   "id": "r4-0051",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "The first U.S. patent, signed by George Washington in 1790, went to Samuel Hopkins for a process of making what?",
+   "options": [
+    "Steam engines for river ships and mills",
+    "Cotton thread",
+    "Potash, used in fertilizer and soap",
+    "Iron nails"
+   ],
+   "answer": 2,
+   "explain": "Under the Patent Act of 1790, Hopkins received the first patent for an improved method of making potash and pearl ash from wood ashes."
+  },
+  {
+   "id": "r4-0052",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Hamilton backed the Society for Establishing Useful Manufactures, chartered in 1791 to build an industrial town at the Great Falls of the Passaic River. Which city grew there?",
+   "options": [
+    "Paterson, New Jersey",
+    "Lowell, Massachusetts",
+    "Pawtucket, Rhode Island",
+    "Wilmington, Delaware"
+   ],
+   "answer": 0,
+   "explain": "The society used the falls' water power for mills, and Paterson became a major manufacturing center, later known as the Silk City."
+  },
+  {
+   "id": "r4-0053",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1763, the Paxton Boys of western Pennsylvania killed which group of Native people, then marched on Philadelphia?",
+   "options": [
+    "Peaceful Conestoga people living near Lancaster",
+    "Shawnee warriors at Fort Pitt",
+    "Cherokee envoys visiting the capital",
+    "Mohawk traders on the Susquehanna"
+   ],
+   "answer": 0,
+   "explain": "The Paxton Boys murdered about 20 Susquehannock (Conestoga) people; Benjamin Franklin helped persuade the marchers to turn back."
+  },
+  {
+   "id": "r4-0054",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The 1785-1786 talks between John Jay and Spain's Diego de Gardoqui angered Westerners because Jay was willing to give up what?",
+   "options": [
+    "American fishing rights off Newfoundland",
+    "Claims to the Ohio Valley",
+    "Trade with the British West Indies",
+    "U.S. navigation of the Mississippi River for years"
+   ],
+   "answer": 3,
+   "explain": "Jay offered to forgo Mississippi navigation for 25 to 30 years in exchange for trade concessions; Southern states blocked the treaty."
+  },
+  {
+   "id": "r4-0055",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which state, formed from Virginia's western lands, joined the Union in 1792 as the 15th state?",
+   "options": [
+    "Tennessee",
+    "Ohio",
+    "West Virginia",
+    "Kentucky"
+   ],
+   "answer": 3,
+   "explain": "Settlers pouring through the Cumberland Gap made Kentucky the first state west of the Appalachians; Tennessee followed in 1796."
+  },
+  {
+   "id": "r4-0056",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1784, Grigory Shelikhov founded the first permanent Russian settlement in Alaska on which island?",
+   "options": [
+    "Sitka Island",
+    "Attu Island",
+    "Kodiak Island",
+    "Wrangel Island"
+   ],
+   "answer": 2,
+   "explain": "Shelikhov's post at Three Saints Bay used Alutiiq labor to hunt sea otters for the China fur trade."
+  },
+  {
+   "id": "r4-0057",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The 1785 Treaty of Hopewell, signed at a South Carolina plantation, set boundaries between the United States and which Native nation?",
+   "options": [
+    "The Shawnee",
+    "The Cherokee",
+    "The Miami",
+    "The Muscogee (Creek)"
+   ],
+   "answer": 1,
+   "explain": "The treaty recognized Cherokee lands under U.S. protection, but settlers soon ignored its boundaries."
+  },
+  {
+   "id": "r4-0058",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In the 1770s and 1780s, settlers from which colony fought Pennsylvanians for control of the Wyoming Valley along the Susquehanna River?",
+   "options": [
+    "Virginia",
+    "Connecticut",
+    "New York",
+    "Massachusetts"
+   ],
+   "answer": 1,
+   "explain": "The Pennamite-Yankee Wars arose from Connecticut's sea-to-sea charter claim; a 1782 court ruling gave the land to Pennsylvania."
+  },
+  {
+   "id": "r4-0059",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "After Lord Dunmore's War of 1774, the Shawnee agreed to do what?",
+   "options": [
+    "Give up hunting claims south of the Ohio River",
+    "Move west of the Mississippi",
+    "Join Britain against the colonists",
+    "Sell the Ohio Country to Virginia"
+   ],
+   "answer": 0,
+   "explain": "After the Battle of Point Pleasant, the Treaty of Camp Charlotte made the Ohio River the boundary, opening Kentucky to Virginians."
+  },
+  {
+   "id": "r4-0060",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The New Madrid earthquakes of 1811-1812, among the strongest ever recorded in the eastern U.S., shook which region?",
+   "options": [
+    "The New England coast",
+    "The central Mississippi River valley",
+    "The Great Lakes",
+    "The Gulf Coast of Texas and Louisiana"
+   ],
+   "answer": 1,
+   "explain": "Centered near New Madrid, Missouri, the quakes briefly made parts of the Mississippi run backward and helped form Reelfoot Lake in Tennessee."
+  },
+  {
+   "id": "r4-0061",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The cold Year Without a Summer of 1816, which ruined New England crops and pushed some farmers west, followed the eruption of which volcano?",
+   "options": [
+    "Mount Tambora in Indonesia",
+    "Mount Vesuvius in Italy",
+    "Krakatoa in Indonesia",
+    "Mount St. Helens in Washington"
+   ],
+   "answer": 0,
+   "explain": "Ash from Tambora's 1815 eruption cooled the Northern Hemisphere, bringing June snow to New England and encouraging migration to Ohio and beyond."
+  },
+  {
+   "id": "r4-0062",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Walker Tariff of 1846, passed under President Polk, did what?",
+   "options": [
+    "Raised rates to record highs",
+    "Sharply lowered tariff rates",
+    "Taxed only British goods",
+    "Banned imports of cotton cloth"
+   ],
+   "answer": 1,
+   "explain": "Treasury Secretary Robert J. Walker's tariff cut duties toward revenue levels, a Democratic victory that pleased Southern planters."
+  },
+  {
+   "id": "r4-0063",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1830, Peter Cooper's small steam locomotive Tom Thumb famously raced what on the Baltimore and Ohio line?",
+   "options": [
+    "A canal boat",
+    "A steamboat",
+    "A stagecoach on the turnpike",
+    "A horse-drawn railcar"
+   ],
+   "answer": 3,
+   "explain": "The horse won after Tom Thumb's belt slipped, but the trial convinced B&O directors to adopt steam power."
+  },
+  {
+   "id": "r4-0064",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Before the factory system, what did merchants do under the putting-out system?",
+   "options": [
+    "Sold western land to settlers on credit",
+    "Supplied raw materials to families who made goods at home",
+    "Rented enslaved workers to factories",
+    "Shipped finished goods by canal to Europe"
+   ],
+   "answer": 1,
+   "explain": "Merchants paid by the piece for spinning, weaving or shoemaking done in homes, a system factories replaced in the early 1800s."
+  },
+  {
+   "id": "r4-0065",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "John C. Fremont, whose maps and reports of the 1840s guided emigrants to Oregon and California, earned what nickname?",
+   "options": [
+    "Old Hickory",
+    "The Little Magician",
+    "Old Rough and Ready",
+    "The Pathfinder"
+   ],
+   "answer": 3,
+   "explain": "Fremont's expeditions, guided by Kit Carson, were widely read; in 1856 he became the first Republican presidential nominee."
+  },
+  {
+   "id": "r4-0066",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1824, trapper Jedediah Smith's party crossed the Continental Divide through which broad, gentle gap in present-day Wyoming, later the main wagon route over the Rockies?",
+   "options": [
+    "Cumberland Gap",
+    "Donner Pass",
+    "South Pass",
+    "Raton Pass"
+   ],
+   "answer": 2,
+   "explain": "Smith's crossing made South Pass widely known; Oregon, California and Mormon Trail emigrants later used it to cross the divide."
+  },
+  {
+   "id": "r4-0067",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Lowell Offering, published in the 1840s, was notable as a magazine written by whom?",
+   "options": [
+    "Enslaved people who had escaped to the North",
+    "Irish laborers on the canals",
+    "Shakers in upstate New York",
+    "Young women who worked in the textile mills"
+   ],
+   "answer": 3,
+   "explain": "Mill workers contributed poems, stories and essays; critics such as Sarah Bagley argued it ignored harsh working conditions."
+  },
+  {
+   "id": "r4-0068",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1835, workers in which city won a ten-hour day through what is often called the first general strike in North America?",
+   "options": [
+    "New York City",
+    "Baltimore",
+    "Pittsburgh",
+    "Philadelphia"
+   ],
+   "answer": 3,
+   "explain": "Coal heavers, artisans and laborers joined the walkout, and the city government and many employers agreed to the ten-hour day."
+  },
+  {
+   "id": "r4-0069",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In the 1820s to 1840s, New England ships traded manufactured goods to California's ranchos chiefly for what?",
+   "options": [
+    "Wheat, barley and wine",
+    "Silver bars from the mines",
+    "Cattle hides and tallow",
+    "Raw cotton"
+   ],
+   "answer": 2,
+   "explain": "Hides became shoe leather in New England mills, a trade described in Richard Henry Dana's Two Years Before the Mast."
+  },
+  {
+   "id": "r4-0070",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "From 1795 to 1822, the federal government ran trading posts that sold goods to Native peoples at cost. What was this network called?",
+   "options": [
+    "The agency system",
+    "The annuity system",
+    "The factory system",
+    "The allotment system"
+   ],
+   "answer": 2,
+   "explain": "Government factories aimed to win Native goodwill and undercut private traders, but fur companies lobbied Congress to abolish them in 1822."
+  },
+  {
+   "id": "r4-0071",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The Anti-Rent War of 1839-1845 was a tenant revolt against landlords in which region?",
+   "options": [
+    "Western Pennsylvania",
+    "Rhode Island",
+    "The Bluegrass region of Kentucky",
+    "The Hudson Valley of New York"
+   ],
+   "answer": 3,
+   "explain": "Tenants on the Van Rensselaer manor and other estates refused to pay rent, and New York's 1846 constitution restricted long-term farm leases."
+  },
+  {
+   "id": "r4-0072",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Mexico's Law of April 6, 1830 tried to do what in Texas?",
+   "options": [
+    "Grant Texas independence",
+    "Abolish the Catholic Church there",
+    "Stop further immigration from the United States",
+    "Sell Texas to the United States"
+   ],
+   "answer": 2,
+   "explain": "Alarmed by the growing Anglo-American population, Mexico banned new U.S. immigration to Texas, which angered settlers until Mexico repealed the ban in late 1833 (effective 1834)."
+  },
+  {
+   "id": "r4-0073",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "To cross the Allegheny Mountains, Pennsylvania's Main Line of Public Works, opened in 1834, moved canal boats and cargo over the ridge by what means?",
+   "options": [
+    "A portage railroad with inclined planes",
+    "A tunnel through the mountains",
+    "A system of locks over the summit",
+    "Mule trains on a turnpike"
+   ],
+   "answer": 0,
+   "explain": "The Allegheny Portage Railroad used stationary engines to haul cars up and down a series of inclined planes between canal sections."
+  },
+  {
+   "id": "r4-0074",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In the 1830s, which artist traveled up the Missouri River painting Plains Indian life and proposed a vast nation's park to protect it?",
+   "options": [
+    "Thomas Cole",
+    "John James Audubon",
+    "Albert Bierstadt",
+    "George Catlin"
+   ],
+   "answer": 3,
+   "explain": "Catlin painted hundreds of portraits and scenes and in 1832 wrote of preserving the Plains and its peoples in a nation's park."
+  },
+  {
+   "id": "r4-0075",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1847, Cayuse men killed missionaries Marcus and Narcissa Whitman in Oregon Country, partly blaming them for what?",
+   "options": [
+    "A drought that ruined Cayuse crops",
+    "Selling Cayuse land to the British fur traders",
+    "A measles epidemic that killed many Cayuse",
+    "The murder of a Cayuse chief"
+   ],
+   "answer": 2,
+   "explain": "Measles carried by emigrants killed about half the Cayuse while white patients often recovered, fueling suspicion of the Whitmans."
+  },
+  {
+   "id": "r4-0076",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "In 1811-1812, the New Orleans, built by Robert Fulton and Nicholas Roosevelt, became the first steamboat to travel which route?",
+   "options": [
+    "Down the Ohio and Mississippi rivers",
+    "Up the Hudson River to Albany",
+    "Across Lake Erie",
+    "Along the Atlantic coast to Charleston"
+   ],
+   "answer": 0,
+   "explain": "The boat left Pittsburgh in 1811 and reached New Orleans in January 1812, opening the era of western river steamboats."
+  },
+  {
+   "id": "r4-0077",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1811, John Jacob Astor's Pacific Fur Company founded which trading post at the mouth of the Columbia River?",
+   "options": [
+    "Fort Vancouver",
+    "Fort Laramie",
+    "Bent's Fort",
+    "Fort Astoria"
+   ],
+   "answer": 3,
+   "explain": "Astoria was sold to the British North West Company during the War of 1812 but was later the basis of U.S. claims to Oregon."
+  },
+  {
+   "id": "r4-0078",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1840, President Martin Van Buren issued an order setting what for laborers on federal public works?",
+   "options": [
+    "A minimum wage of a dollar a day",
+    "A ban on child labor",
+    "A ten-hour workday",
+    "A right to join unions"
+   ],
+   "answer": 2,
+   "explain": "Van Buren's executive order set a ten-hour day for laborers and mechanics on federal public works."
+  },
+  {
+   "id": "r4-0079",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1825, Creek leader William McIntosh was executed by order of the Creek National Council for doing what?",
+   "options": [
+    "Signing the Treaty of Indian Springs ceding Creek land",
+    "Siding with Britain in the War of 1812",
+    "Converting to Christianity",
+    "Selling Creek cattle to Spain"
+   ],
+   "answer": 0,
+   "explain": "Creek law made selling land without council approval punishable by death; the treaty was later replaced by the 1826 Treaty of Washington."
+  },
+  {
+   "id": "r4-0080",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Connecticut clockmaker Eli Terry became known in the early 1800s for what?",
+   "options": [
+    "Inventing the telegraph",
+    "Building the first American steam locomotive",
+    "Mass-producing affordable clocks with interchangeable parts",
+    "Patenting the cotton gin"
+   ],
+   "answer": 2,
+   "explain": "Terry's water-powered shop turned out thousands of wooden-movement clocks, making clocks common in ordinary homes."
+  },
+  {
+   "id": "r4-0081",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "John McLoughlin, who aided American settlers arriving in Oregon in the 1840s, ran which Hudson's Bay Company post?",
+   "options": [
+    "Fort Astoria",
+    "Fort Hall",
+    "Fort Leavenworth",
+    "Fort Vancouver"
+   ],
+   "answer": 3,
+   "explain": "McLoughlin, chief factor at Fort Vancouver on the Columbia, gave supplies and credit to emigrants and is called the Father of Oregon."
+  },
+  {
+   "id": "r4-0082",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The 1829 discovery of gold near Dahlonega in north Georgia increased Georgia's pressure to seize land from which Native nation?",
+   "options": [
+    "The Seminole",
+    "The Chickasaw",
+    "The Shawnee",
+    "The Cherokee"
+   ],
+   "answer": 3,
+   "explain": "The Georgia Gold Rush drew thousands of miners onto Cherokee land, and Georgia distributed the land by lottery before removal."
+  },
+  {
+   "id": "r4-0083",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Completed in 1848, the Illinois and Michigan Canal helped make Chicago a hub by linking Lake Michigan with which river system?",
+   "options": [
+    "The Ohio River",
+    "The Illinois and Mississippi rivers",
+    "The Wabash River",
+    "The Missouri River"
+   ],
+   "answer": 1,
+   "explain": "The canal ran from the Chicago River to the Illinois River at LaSalle, giving boats a route from the Great Lakes to the Mississippi and the Gulf."
+  },
+  {
+   "id": "r4-0084",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In San Francisco, the Chinese Six Companies, a federation of district associations, served Chinese immigrants mainly as what?",
+   "options": [
+    "A railroad company that hired them",
+    "A city agency that taxed them",
+    "A labor union of white miners",
+    "A benevolent group that aided and spoke for them"
+   ],
+   "answer": 3,
+   "explain": "The Six Companies helped newcomers find work and housing, settled disputes and fought discriminatory laws in court."
+  },
+  {
+   "id": "r4-0085",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "The Pony Express, which carried mail by relay riders between Missouri and California in 1860 and 1861, was put out of business by what?",
+   "options": [
+    "The transcontinental railroad",
+    "The Civil War draft",
+    "A federal ban on private mail carriers",
+    "The transcontinental telegraph"
+   ],
+   "answer": 3,
+   "explain": "The telegraph line linking the coasts was completed in October 1861, and the Pony Express shut down days later."
+  },
+  {
+   "id": "r4-0086",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "The Department of the Interior, created in 1849, took over the Office of Indian Affairs from which department?",
+   "options": [
+    "The State Department",
+    "The Treasury Department",
+    "The Navy Department",
+    "The War Department"
+   ],
+   "answer": 3,
+   "explain": "The 1849 act moved Indian affairs from the War Department and the General Land Office from the Treasury into the new department."
+  },
+  {
+   "id": "r4-0087",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "During the Civil War, British textile mills replaced lost Southern cotton largely with cotton from where?",
+   "options": [
+    "Canada and Mexico",
+    "India and Egypt",
+    "Russia and Poland",
+    "China and Japan"
+   ],
+   "answer": 1,
+   "explain": "The cotton famine pushed Britain to buy from India and Egypt, weakening the South's hope that King Cotton would force British recognition."
+  },
+  {
+   "id": "r4-0088",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "At New York's Crystal Palace exhibition in 1854, Elisha Otis demonstrated a device that later made tall buildings practical. What was it?",
+   "options": [
+    "A steel-frame girder",
+    "A steam-powered water pump",
+    "An early electric light bulb",
+    "A safety brake for elevators"
+   ],
+   "answer": 3,
+   "explain": "Otis had the rope holding his platform cut while he stood on it; his safety catch stopped the fall."
+  },
+  {
+   "id": "r4-0089",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Cyrus Field's company laid the first lasting telegraph cable across which body of water in 1866?",
+   "options": [
+    "The Atlantic Ocean",
+    "The Pacific Ocean",
+    "The Gulf of Mexico",
+    "Lake Michigan"
+   ],
+   "answer": 0,
+   "explain": "An 1858 cable failed within weeks, but the 1866 cable laid by the Great Eastern linked North America and Europe for good."
+  },
+  {
+   "id": "r4-0090",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The 1867 Medicine Lodge Treaty assigned the Kiowa, Comanche and other southern Plains nations to reservations in which region?",
+   "options": [
+    "Indian Territory, in present-day Oklahoma",
+    "The Black Hills of Dakota",
+    "Southern Arizona",
+    "The Texas Panhandle"
+   ],
+   "answer": 0,
+   "explain": "Signed in Kansas, the treaties promised reservations and supplies; later violations led to the Red River War of 1874-1875."
+  },
+  {
+   "id": "r4-0091",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives",
+    "lincoln-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Which 1864 law, signed by Lincoln, let employers pay immigrants' passage in exchange for a pledge of future wages, to ease wartime labor shortages?",
+   "options": [
+    "The Homestead Act",
+    "The Pacific Railway Act",
+    "The Act to Encourage Immigration",
+    "The Morrill Land-Grant Act"
+   ],
+   "answer": 2,
+   "explain": "The act made such labor contracts enforceable and created a federal Commissioner of Immigration; Congress repealed it in 1868."
+  },
+  {
+   "id": "r4-0092",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Henry David Thoreau's Walden, published in 1854, describes about two years he spent doing what?",
+   "options": [
+    "Sailing on a whaling ship",
+    "Living simply in a cabin by a Massachusetts pond",
+    "Exploring the Rocky Mountains",
+    "Traveling through the slave states as a reporter"
+   ],
+   "answer": 1,
+   "explain": "Thoreau's account of living near Walden Pond outside Concord became a classic of nature writing and simple living."
+  },
+  {
+   "id": "r4-0093",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1859, Juan Cortina led an armed uprising in the Rio Grande Valley of Texas largely to protest what?",
+   "options": [
+    "Mistreatment of Tejanos and loss of their lands",
+    "Mexico's sale of the Gadsden strip",
+    "A federal ban on cattle drives",
+    "The arrival of the Pony Express"
+   ],
+   "answer": 0,
+   "explain": "Cortina's forces briefly occupied Brownsville before Texas Rangers and U.S. troops drove them into Mexico."
+  },
+  {
+   "id": "r4-0094",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "The Page Act of 1875, the first restrictive federal immigration law, was enforced mainly to bar whom?",
+   "options": [
+    "Irish laborers",
+    "Chinese women",
+    "Mexican farmworkers",
+    "Italian anarchists"
+   ],
+   "answer": 1,
+   "explain": "Aimed at Asian contract laborers and women presumed to be prostitutes, the law sharply cut the arrival of Chinese women years before Chinese exclusion."
+  },
+  {
+   "id": "r4-0095",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Scott Act of 1888 tightened Chinese exclusion by doing what?",
+   "options": [
+    "Requiring a literacy test for all immigrants",
+    "Opening Angel Island as a detention station",
+    "Ending immigration from southern Europe",
+    "Barring Chinese laborers who left the U.S. from returning"
+   ],
+   "answer": 3,
+   "explain": "The act voided return certificates and stranded thousands of Chinese laborers abroad; the Supreme Court upheld it in 1889."
+  },
+  {
+   "id": "r4-0096",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "The Geary Act of 1892 extended Chinese exclusion and required Chinese residents of the U.S. to do what?",
+   "options": [
+    "Register with a church",
+    "Pass an English test",
+    "Pay a monthly tax to work in the mines",
+    "Carry a certificate of residence"
+   ],
+   "answer": 3,
+   "explain": "Those without certificates faced deportation; the Supreme Court upheld the law in Fong Yue Ting v. United States (1893)."
+  },
+  {
+   "id": "r4-0097",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Yick Wo v. Hopkins (1886), the Supreme Court overturned convictions under a San Francisco laundry ordinance because officials had done what?",
+   "options": [
+    "Passed it without a public vote",
+    "Enforced it in a way that discriminated against Chinese owners",
+    "Applied it to federal property",
+    "Used it to tax interstate trade"
+   ],
+   "answer": 1,
+   "explain": "The Court held that a law fair on its face but applied unequally violated the Fourteenth Amendment's equal protection clause, even for noncitizens."
+  },
+  {
+   "id": "r4-0098",
+   "period": 6,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Before Ellis Island opened, most immigrants arriving in New York from 1855 to 1890 were processed at which station run by New York State?",
+   "options": [
+    "Castle Garden",
+    "Angel Island",
+    "Fort McHenry",
+    "Governors Island"
+   ],
+   "answer": 0,
+   "explain": "Castle Garden, in an old fort at the Battery in Manhattan, received more than 8 million immigrants before federal control and Ellis Island."
+  },
+  {
+   "id": "r4-0099",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Immigration Act of 1891 changed who controlled immigration by doing what?",
+   "options": [
+    "Giving the states full control",
+    "Creating a federal immigration office in the Treasury Department",
+    "Placing it under the War Department",
+    "Leaving it to city governments"
+   ],
+   "answer": 1,
+   "explain": "The act created the Office of the Superintendent of Immigration, and the federal Ellis Island station opened in 1892."
+  },
+  {
+   "id": "r4-0100",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Elk v. Wilkins (1884), the Supreme Court ruled what about John Elk, a Native American who had left his tribe and lived in Omaha?",
+   "options": [
+    "The Fourteenth Amendment did not make him a citizen",
+    "He had a right to vote under the Fifteenth Amendment",
+    "He had to return to his reservation",
+    "He could not own property in Nebraska"
+   ],
+   "answer": 0,
+   "explain": "The Court held that Native Americans born under tribal authority were not citizens by birth; Congress made all Native Americans citizens in 1924."
+  },
+  {
+   "id": "r4-0101",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "supreme-court",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "After Ex parte Crow Dog (1883) held that federal courts could not try a killing of one Lakota by another on a reservation, Congress responded with which law?",
+   "options": [
+    "The Major Crimes Act",
+    "The Dawes Act",
+    "The Indian Removal Act",
+    "The Indian Citizenship Act"
+   ],
+   "answer": 0,
+   "explain": "The Major Crimes Act of 1885 gave federal courts jurisdiction over murder and other serious crimes among Native people on reservations."
+  },
+  {
+   "id": "r4-0102",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1887, Theodore Roosevelt and George Bird Grinnell founded which club of hunters that pushed for wildlife and park protection?",
+   "options": [
+    "The Sierra Club",
+    "The Boone and Crockett Club",
+    "The Wilderness Society",
+    "The National Wildlife Federation"
+   ],
+   "answer": 1,
+   "explain": "The club lobbied for protecting Yellowstone and for the Forest Reserve Act of 1891."
+  },
+  {
+   "id": "r4-0103",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1894, which state amended its constitution to require that its forest preserve lands be kept forever wild?",
+   "options": [
+    "New York",
+    "California",
+    "Maine",
+    "Michigan"
+   ],
+   "answer": 0,
+   "explain": "The forever wild clause protects state lands in the Adirondack and Catskill parks from logging and sale."
+  },
+  {
+   "id": "r4-0104",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Carey Act of 1894 encouraged irrigation of western desert land by doing what?",
+   "options": [
+    "Giving federal land to states that arranged for its irrigation",
+    "Building federal dams on the Colorado River",
+    "Paying farmers to leave land unplowed",
+    "Selling water rights to railroads"
+   ],
+   "answer": 0,
+   "explain": "Each western state could receive up to a million acres if it saw to irrigation and settlement; few projects succeeded before the 1902 Reclamation Act."
+  },
+  {
+   "id": "r4-0105",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "After decades of commercial hide hunting, how many American bison were left by about 1889, from herds once numbering in the tens of millions?",
+   "options": [
+    "About 500,000",
+    "About 1,000",
+    "About 5 million",
+    "About 15 million"
+   ],
+   "answer": 1,
+   "explain": "Naturalist William Hornaday counted roughly a thousand bison in 1889, and he later helped found the American Bison Society to save them."
+  },
+  {
+   "id": "r4-0106",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "Created by Congress in 1879, the Mississippi River Commission was charged with what?",
+   "options": [
+    "Regulating railroad rates in the valley",
+    "Managing reservations along the river",
+    "Surveying the border with Mexico",
+    "Improving navigation and flood control on the river"
+   ],
+   "answer": 3,
+   "explain": "Led by Army engineers and civilians, the commission built levees under a levees-only policy until the 1927 flood forced changes."
+  },
+  {
+   "id": "r4-0107",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "The Specie Resumption Act of 1875 promised that, starting in 1879, the government would do what?",
+   "options": [
+    "Coin unlimited amounts of silver",
+    "Create a central bank",
+    "Redeem greenbacks in gold",
+    "Abolish the income tax"
+   ],
+   "answer": 2,
+   "explain": "Resumption put the U.S. back on a gold basis, angering debtors who wanted more money in circulation."
+  },
+  {
+   "id": "r4-0108",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Because the Southern Farmers' Alliance excluded Black members, Black farmers formed which organization in 1886?",
+   "options": [
+    "The National Grange",
+    "The Niagara Movement",
+    "The Colored Farmers' National Alliance",
+    "The Afro-American League"
+   ],
+   "answer": 2,
+   "explain": "Founded in Texas, the Colored Farmers' Alliance grew to many thousands of members and cooperated uneasily with white Populists."
+  },
+  {
+   "id": "r4-0109",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the post-Reconstruction South, what did the convict-lease system do?",
+   "options": [
+    "Let prisoners buy their freedom with wages",
+    "Sent convicts to settle western land",
+    "Rented prisoners, mostly Black, to private companies as laborers",
+    "Paid states to build new prisons"
+   ],
+   "answer": 2,
+   "explain": "States leased convicts to railroads, mines and plantations under brutal conditions; Alabama was the last to end the practice, in 1928."
+  },
+  {
+   "id": "r4-0110",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Founded in 1866 under leaders such as William Sylvis, which was the first national federation of American labor unions?",
+   "options": [
+    "The Knights of Labor",
+    "The American Federation of Labor",
+    "The National Labor Union",
+    "The Industrial Workers of the World"
+   ],
+   "answer": 2,
+   "explain": "The National Labor Union pushed for an eight-hour day and helped win one for federal workers in 1868 before fading in the early 1870s."
+  },
+  {
+   "id": "r4-0111",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Rural Free Delivery, begun on a trial basis in 1896, changed farm life by doing what?",
+   "options": [
+    "Bringing electricity to farms",
+    "Giving farmers free railroad passes",
+    "Building free paved roads to every farm",
+    "Bringing mail directly to farm homes"
+   ],
+   "answer": 3,
+   "explain": "Before RFD, farm families had to fetch mail in town; home delivery boosted newspapers and mail-order catalogs."
+  },
+  {
+   "id": "r4-0112",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1886, the strongest earthquake recorded in the southeastern U.S. heavily damaged which city?",
+   "options": [
+    "Savannah, Georgia",
+    "Atlanta, Georgia",
+    "Charleston, South Carolina",
+    "Wilmington, North Carolina"
+   ],
+   "answer": 2,
+   "explain": "The August 1886 quake killed dozens of people and damaged many of Charleston’s buildings."
+  },
+  {
+   "id": "r4-0113",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "After the Great Blizzard of March 1888 paralyzed New York City, which changes did the disaster help spur?",
+   "options": [
+    "Building the Brooklyn Bridge",
+    "Burying utility wires and moving transit underground",
+    "Creating Central Park",
+    "Moving the state capital to Albany"
+   ],
+   "answer": 1,
+   "explain": "Snapped overhead wires and stalled elevated trains pushed officials to bury lines and strengthened the case for underground transit; New York’s first subway opened in 1904."
+  },
+  {
+   "id": "r4-0114",
+   "period": 6,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Who was the first immigrant processed at Ellis Island when it opened on January 1, 1892?",
+   "options": [
+    "Emma Lazarus, a poet from New York",
+    "Annie Moore, a teenager from Ireland",
+    "Jacob Riis, a reporter from Denmark",
+    "Andrew Carnegie, a boy from Scotland"
+   ],
+   "answer": 1,
+   "explain": "Annie Moore of County Cork, arriving with her two brothers, received a ten-dollar gold coin as the first person processed."
+  },
+  {
+   "id": "r4-0115",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The McKinley Tariff of 1890 hurt Hawaii's planters by doing what?",
+   "options": [
+    "Erasing the duty-free advantage of Hawaiian sugar",
+    "Banning all imports from Hawaii",
+    "Taxing Hawaiian pineapples at 90 percent",
+    "Closing Pearl Harbor to trade"
+   ],
+   "answer": 0,
+   "explain": "By letting all raw sugar in duty-free and paying U.S. growers a bounty, the tariff wiped out Hawaii's treaty edge and pushed planters toward annexation."
+  },
+  {
+   "id": "r4-0116",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "George Westinghouse's 1869 invention, which let engineers stop a whole train at once, was what?",
+   "options": [
+    "The automatic coupler",
+    "The sleeping car",
+    "The steel rail",
+    "The air brake"
+   ],
+   "answer": 3,
+   "explain": "Air brakes made longer, faster trains safer, and the Railroad Safety Appliance Act of 1893 made them standard."
+  },
+  {
+   "id": "r4-0117",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Built in 1885, which Chicago building is often called the first skyscraper because it used a load-bearing metal frame?",
+   "options": [
+    "The Woolworth Building",
+    "The Flatiron Building",
+    "The Home Insurance Building",
+    "The Singer Building in Manhattan"
+   ],
+   "answer": 2,
+   "explain": "Designed by William Le Baron Jenney, the ten-story Home Insurance Building used iron and steel framing to carry its weight."
+  },
+  {
+   "id": "r4-0118",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Las Gorras Blancas, night riders in northern New Mexico around 1889-1890, cut fences to protest what?",
+   "options": [
+    "High railroad freight rates",
+    "The closing of Catholic schools",
+    "Anglo ranchers and speculators fencing off Hispano common lands",
+    "Mining companies polluting rivers"
+   ],
+   "answer": 2,
+   "explain": "The White Caps defended village grazing lands granted under Spain and Mexico against enclosure by newcomers."
+  },
+  {
+   "id": "r4-0119",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Timber and Stone Act of 1878 let individuals buy up to 160 acres of what kind of western land at $2.50 an acre?",
+   "options": [
+    "Land along new railroad lines",
+    "Land unfit for farming but valuable for timber or stone",
+    "Former Confederate plantations",
+    "Irrigated desert farmland"
+   ],
+   "answer": 1,
+   "explain": "Timber companies often hired people to file claims and then took over the land, gaining vast forests cheaply."
+  },
+  {
+   "id": "r4-0120",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The General Mining Act of 1872 allowed prospectors to do what on federal public land?",
+   "options": [
+    "Mine only after paying high royalties",
+    "Stake claims and buy mineral land at low fixed prices",
+    "Mine only on Native reservations",
+    "Lease mines for no more than five years"
+   ],
+   "answer": 1,
+   "explain": "The law let citizens claim land containing valuable minerals and buy it for $2.50 or $5 an acre, without royalties to the government."
+  },
+  {
+   "id": "r4-0121",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1891, a mob in New Orleans lynched 11 men of which immigrant group after a jury acquitted some of them in the killing of the police chief?",
+   "options": [
+    "Irish",
+    "Chinese",
+    "Italian",
+    "German"
+   ],
+   "answer": 2,
+   "explain": "The killings caused a diplomatic crisis with Italy, and the U.S. paid an indemnity to the victims' families."
+  },
+  {
+   "id": "r4-0122",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Lone Wolf v. Hitchcock (1903), the Supreme Court ruled that Congress could do what?",
+   "options": [
+    "Not reduce reservations without unanimous tribal consent",
+    "Override treaties with Native nations without their consent",
+    "Hand reservations over to state control",
+    "Never tax land held by Native people"
+   ],
+   "answer": 1,
+   "explain": "The Kiowa leader Lone Wolf challenged the sale of reservation land; the Court held Congress had plenary power over Indian affairs."
+  },
+  {
+   "id": "r4-0123",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Burke Act of 1906 changed the Dawes Act by doing what?",
+   "options": [
+    "Ending allotment and restoring tribal lands",
+    "Giving all Native Americans the vote",
+    "Delaying citizenship until allottees received full title to land",
+    "Banning the sale of allotted land"
+   ],
+   "answer": 2,
+   "explain": "Citizenship waited until the trust period ended, but officials could grant early title to Native people judged competent, which sped land loss."
+  },
+  {
+   "id": "r4-0124",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Along with a literacy test, the Immigration Act of 1917 created what?",
+   "options": [
+    "The U.S. Border Patrol",
+    "An Asiatic Barred Zone excluding most immigrants from Asia",
+    "National origins quotas",
+    "The Bracero Program"
+   ],
+   "answer": 1,
+   "explain": "Congress passed the act over Woodrow Wilson's veto; the barred zone covered much of Asia and the Pacific islands."
+  },
+  {
+   "id": "r4-0125",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Takao Ozawa v. United States (1922), the Supreme Court ruled that Ozawa, a Japanese immigrant, could not become a citizen for what reason?",
+   "options": [
+    "He had lived in the U.S. less than five years",
+    "He had joined a labor union",
+    "He was not white under the naturalization law",
+    "He had served in Japan's army"
+   ],
+   "answer": 2,
+   "explain": "Though Ozawa had lived in the U.S. for about 20 years, the Court held that only free white persons and people of African descent could naturalize."
+  },
+  {
+   "id": "r4-0126",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Keating-Owen Act of 1916 tried to limit child labor by doing what?",
+   "options": [
+    "Banning interstate sale of goods made by young children",
+    "Requiring all children to attend school until age sixteen",
+    "Setting a federal minimum wage for teenagers",
+    "Giving states money to inspect factories"
+   ],
+   "answer": 0,
+   "explain": "The Supreme Court struck the law down in Hammer v. Dagenhart (1918), ruling that Congress had overstepped its commerce power."
+  },
+  {
+   "id": "r4-0127",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In the 1914 Ludlow Massacre, National Guard troops attacked a tent colony of striking coal miners and their families in which state?",
+   "options": [
+    "West Virginia",
+    "Colorado",
+    "Pennsylvania",
+    "Montana"
+   ],
+   "answer": 1,
+   "explain": "About two dozen people, including women and children, died at the camp of strikers against the Rockefeller-owned Colorado Fuel and Iron Company."
+  },
+  {
+   "id": "r4-0128",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "What did the Norris-La Guardia Act of 1932 do for organized labor?",
+   "options": [
+    "Barred yellow-dog contracts and most federal court injunctions against strikes",
+    "Created the National Labor Relations Board",
+    "Set a national minimum wage",
+    "Allowed states to ban the closed shop"
+   ],
+   "answer": 0,
+   "explain": "Yellow-dog contracts had made workers promise not to join unions; the act ended their enforcement in federal courts."
+  },
+  {
+   "id": "r4-0129",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "fdr-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In the 1937 Memorial Day Massacre, Chicago police killed ten people during a strike against which steel company?",
+   "options": [
+    "Republic Steel",
+    "U.S. Steel",
+    "Carnegie Steel",
+    "Bethlehem Steel"
+   ],
+   "answer": 0,
+   "explain": "Police fired on marchers supporting the Little Steel strike; U.S. Steel had already recognized the steelworkers' union that year."
+  },
+  {
+   "id": "r4-0130",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "environment-geography",
+    "identity"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Created in 1933, which New Deal agency drew residential security maps that shaded many Black and immigrant neighborhoods red as risky?",
+   "options": [
+    "The Works Progress Administration",
+    "The Civilian Conservation Corps",
+    "The Home Owners' Loan Corporation",
+    "The Rural Electrification Administration"
+   ],
+   "answer": 2,
+   "explain": "The HOLC refinanced home mortgages, and its color-coded maps helped spread the practice later called redlining."
+  },
+  {
+   "id": "r4-0131",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Buchanan v. Warley (1917), the Supreme Court struck down what?",
+   "options": [
+    "A state poll tax",
+    "A city law zoning neighborhoods by race",
+    "A grandfather clause for voting",
+    "Private racial covenants written into home deeds"
+   ],
+   "answer": 1,
+   "explain": "The Court ruled that Louisville's residential segregation ordinance violated property rights under the Fourteenth Amendment."
+  },
+  {
+   "id": "r4-0132",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Transportation Act of 1920 (Esch-Cummins Act) did what?",
+   "options": [
+    "Nationalized the railroads permanently",
+    "Created Amtrak",
+    "Returned the railroads to private owners after wartime federal control",
+    "Abolished the Interstate Commerce Commission"
+   ],
+   "answer": 2,
+   "explain": "The government had run the railroads during World War I; the act returned them and gave the ICC power over rates and mergers."
+  },
+  {
+   "id": "r4-0133",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "When Congress repealed Chinese exclusion with the Magnuson Act of 1943, what annual quota did it set for Chinese immigrants?",
+   "options": [
+    "1,050",
+    "10,500",
+    "105",
+    "50,000"
+   ],
+   "answer": 2,
+   "explain": "The tiny quota showed the repeal was mainly a wartime gesture to China, though Chinese immigrants could now naturalize."
+  },
+  {
+   "id": "r4-0134",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "The War Brides Act of 1945 allowed whom to enter the U.S. outside normal immigration quotas?",
+   "options": [
+    "Foreign spouses and children of U.S. servicemen",
+    "Refugees from the Soviet Union",
+    "Scientists from Nazi Germany",
+    "Mexican farmworkers"
+   ],
+   "answer": 0,
+   "explain": "Tens of thousands of spouses, mostly from Europe, came under the act; a 1947 amendment eased entry for Asian spouses."
+  },
+  {
+   "id": "r4-0135",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Which 1948 law admitted Europeans uprooted by World War II, such as Holocaust survivors and refugees from Soviet-controlled lands?",
+   "options": [
+    "The Refugee Act",
+    "The Displaced Persons Act",
+    "The Immigration and Nationality Act",
+    "The War Brides Act"
+   ],
+   "answer": 1,
+   "explain": "Truman criticized the original act as discriminatory, but with later amendments it admitted about 400,000 people."
+  },
+  {
+   "id": "r4-0136",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "The McCarran-Walter Act of 1952, passed over Truman's veto, did what?",
+   "options": [
+    "Abolished the national origins quotas",
+    "Granted legal status to undocumented workers",
+    "Created the diversity visa lottery",
+    "Ended racial bars to naturalization but kept national origins quotas"
+   ],
+   "answer": 3,
+   "explain": "The act removed all remaining racial bars, letting Japanese and other Asian immigrants naturalize, while adding grounds to exclude suspected subversives."
+  },
+  {
+   "id": "r4-0137",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "After the Soviet Union crushed a 1956 uprising, tens of thousands of refugees from which country were received at Camp Kilmer, New Jersey?",
+   "options": [
+    "Poland",
+    "Czechoslovakia",
+    "East Germany",
+    "Hungary"
+   ],
+   "answer": 3,
+   "explain": "Eisenhower used the parole power to admit many of the refugees quickly, a precedent for later refugee crises."
+  },
+  {
+   "id": "r4-0138",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Public Law 280 of 1953, part of the termination era, did what?",
+   "options": [
+    "Ended the reservation system everywhere",
+    "Granted Native Americans citizenship",
+    "Created tribal colleges",
+    "Gave certain states criminal jurisdiction over reservations"
+   ],
+   "answer": 3,
+   "explain": "The law transferred jurisdiction to states such as California and Minnesota without tribal consent, which tribes long opposed."
+  },
+  {
+   "id": "r4-0139",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Menominee of Wisconsin, whose federal recognition was terminated in the 1950s, regained it in 1973. Which activist led the restoration campaign?",
+   "options": [
+    "Ada Deer",
+    "Wilma Mankiller",
+    "Russell Means",
+    "LaDonna Harris"
+   ],
+   "answer": 0,
+   "explain": "Deer's group DRUMS fought termination, and she later became the first woman to head the Bureau of Indian Affairs."
+  },
+  {
+   "id": "r4-0140",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Indian Child Welfare Act of 1978 responded to what problem?",
+   "options": [
+    "Native children being barred from public schools",
+    "Large numbers of Native children being placed with non-Native families",
+    "Child labor on reservation farms",
+    "A lack of hospitals on reservations"
+   ],
+   "answer": 1,
+   "explain": "Studies found a quarter to a third of Native children had been removed from their homes, and the act gave tribes a say in placements."
+  },
+  {
+   "id": "r4-0141",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Critics of urban renewal under the Housing Act of 1949 charged that it did what?",
+   "options": [
+    "Built the interstate highway system",
+    "Banned racial covenants in housing",
+    "Paid farmers to move to cities",
+    "Bulldozed poor and minority neighborhoods and displaced residents"
+   ],
+   "answer": 3,
+   "explain": "Title I funded slum clearance, but many cleared areas got offices or highways instead of enough new housing for those displaced."
+  },
+  {
+   "id": "r4-0142",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Pruitt-Igoe, a huge public housing complex whose demolition began in 1972, became a symbol of the failure of high-rise public housing in which city?",
+   "options": [
+    "Chicago",
+    "Detroit",
+    "St. Louis",
+    "Kansas City"
+   ],
+   "answer": 2,
+   "explain": "Completed in the mid-1950s, the 33 towers declined quickly from poor upkeep and segregation, and all were torn down by 1976."
+  },
+  {
+   "id": "r4-0143",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Landrum-Griffin Act of 1959, passed after Senate hearings into union corruption, required what?",
+   "options": [
+    "A federal minimum wage",
+    "Collective bargaining for federal workers",
+    "Union financial reports and secret-ballot officer elections",
+    "The breakup of the Teamsters"
+   ],
+   "answer": 2,
+   "explain": "Hearings by the McClellan Committee, with Robert Kennedy as counsel, exposed racketeering in unions such as the Teamsters."
+  },
+  {
+   "id": "r4-0144",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In TVA v. Hill (1978), the Supreme Court halted completion of the Tellico Dam to protect which endangered species?",
+   "options": [
+    "The snail darter",
+    "The spotted owl",
+    "The whooping crane",
+    "The California condor"
+   ],
+   "answer": 0,
+   "explain": "The Court read the Endangered Species Act strictly; Congress later exempted the dam, which was completed in 1979."
+  },
+  {
+   "id": "r4-0145",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Illegal Immigration Reform and Immigrant Responsibility Act of 1996 did what?",
+   "options": [
+    "Gave legal status to about 2.7 million people",
+    "Created the diversity visa lottery",
+    "Ended the national origins quota system",
+    "Expanded grounds for deportation and set multiyear reentry bars"
+   ],
+   "answer": 3,
+   "explain": "The law also expedited removal at the border and barred people unlawfully present for over a year from returning for ten years."
+  },
+  {
+   "id": "r4-0146",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "supreme-court",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "After California v. Cabazon Band of Mission Indians (1987) limited state power over tribal gaming, Congress passed which law in 1988?",
+   "options": [
+    "The Native American Graves Protection and Repatriation Act",
+    "The Indian Gaming Regulatory Act",
+    "The Indian Child Welfare Act",
+    "The Indian Self-Determination Act"
+   ],
+   "answer": 1,
+   "explain": "The act set up the National Indian Gaming Commission and required tribal-state compacts for casino gaming."
+  },
+  {
+   "id": "r4-0147",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In McGirt v. Oklahoma (2020), the Supreme Court ruled that, for federal criminal law, a large area of eastern Oklahoma including much of Tulsa remains what?",
+   "options": [
+    "A national forest",
+    "Unorganized federal territory",
+    "Reservation land of the Muscogee (Creek) Nation",
+    "Land owned outright by Oklahoma"
+   ],
+   "answer": 2,
+   "explain": "Justice Gorsuch wrote that Congress had never disestablished the Creek reservation, so major crimes there by Native people fall under federal or tribal courts."
+  },
+  {
+   "id": "r4-0148",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Kelo v. City of New London (2005), the Supreme Court upheld a city's use of eminent domain to do what?",
+   "options": [
+    "Build a new interstate highway",
+    "Clear land for a military base",
+    "Create a public wildlife refuge",
+    "Take private homes for a private economic development plan"
+   ],
+   "answer": 3,
+   "explain": "The 5-4 ruling caused a backlash, and many states then passed laws limiting such takings."
+  },
+  {
+   "id": "r4-0149",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In Massachusetts v. EPA (2007), the Supreme Court ruled that the EPA had authority under the Clean Air Act to regulate what?",
+   "options": [
+    "Pesticides used on farms",
+    "Greenhouse gas emissions from new motor vehicles",
+    "Noise from airports",
+    "Radon gas in homes"
+   ],
+   "answer": 1,
+   "explain": "The 5-4 decision held that carbon dioxide and other greenhouse gases count as air pollutants under the act."
+  },
+  {
+   "id": "r4-0150",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Sackett v. EPA (2023), the Supreme Court narrowed which wetlands are covered by which federal law?",
+   "options": [
+    "The Clean Water Act",
+    "The Clean Air Act",
+    "The Endangered Species Act",
+    "The National Environmental Policy Act"
+   ],
+   "answer": 0,
+   "explain": "The Court held that the act covers only wetlands with a continuous surface connection to larger regulated waters."
+  },
+  {
+   "id": "r4-0151",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 1994 Northridge earthquake, which killed dozens of people and collapsed freeway bridges, struck which metropolitan area?",
+   "options": [
+    "San Francisco",
+    "Seattle",
+    "Los Angeles",
+    "San Diego"
+   ],
+   "answer": 2,
+   "explain": "The magnitude 6.7 quake hit the San Fernando Valley and caused billions of dollars in damage across the region."
+  },
+  {
+   "id": "r4-0152",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Hurricane Andrew in 1992 devastated which area, leading to much stricter building codes there?",
+   "options": [
+    "New Orleans",
+    "Houston",
+    "Galveston, Texas",
+    "South Florida"
+   ],
+   "answer": 3,
+   "explain": "Andrew destroyed tens of thousands of homes in Miami-Dade County, including much of Homestead."
+  },
+  {
+   "id": "r4-0153",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 2018 Camp Fire, the deadliest wildfire in California history, largely destroyed which town?",
+   "options": [
+    "Malibu",
+    "Santa Rosa",
+    "Paradise",
+    "Lahaina"
+   ],
+   "answer": 2,
+   "explain": "The fire killed 85 people and destroyed nearly 19,000 buildings in Butte County."
+  },
+  {
+   "id": "r4-0154",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1995 and 1996, federal biologists reintroduced which predator to Yellowstone National Park?",
+   "options": [
+    "Gray wolves",
+    "Grizzly bears",
+    "Mountain lions",
+    "Wolverines"
+   ],
+   "answer": 0,
+   "explain": "Wolves had been wiped out in the park by the 1920s; 31 wolves captured in Canada were released there in 1995 and 1996."
+  },
+  {
+   "id": "r4-0155",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1987, the last wild members of which endangered bird were captured for a breeding program, before captive-bred birds were released starting in 1992?",
+   "options": [
+    "The whooping crane",
+    "The bald eagle",
+    "The California condor",
+    "The ivory-billed woodpecker"
+   ],
+   "answer": 2,
+   "explain": "Only 27 condors remained when the last wild one was captured; breeding programs have since restored hundreds."
+  },
+  {
+   "id": "r4-0156",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "The bald eagle was removed from the endangered species list in 2007. A main cause of its earlier decline was which pesticide, banned in the U.S. in 1972?",
+   "options": [
+    "Malathion",
+    "Glyphosate",
+    "Atrazine",
+    "DDT"
+   ],
+   "answer": 3,
+   "explain": "DDT thinned eagle eggshells so they broke; after the ban and protection, eagle numbers recovered."
+  },
+  {
+   "id": "r4-0157",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "Which 2022 law, signed by Joe Biden, contained the largest federal investment in climate and clean energy up to that time?",
+   "options": [
+    "The Inflation Reduction Act",
+    "The CHIPS and Science Act",
+    "The American Rescue Plan Act",
+    "The Infrastructure Investment and Jobs Act"
+   ],
+   "answer": 0,
+   "explain": "It offered tax credits for renewable power, electric vehicles and home efficiency, and passed the Senate with a tie-breaking vote by Vice President Harris."
+  },
+  {
+   "id": "r4-0158",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Which 2002 law, passed after the Enron and WorldCom scandals, tightened accounting and auditing rules for public companies?",
+   "options": [
+    "The Dodd-Frank Act",
+    "The Gramm-Leach-Bliley Act",
+    "The Sarbanes-Oxley Act",
+    "The Glass-Steagall Act"
+   ],
+   "answer": 2,
+   "explain": "The act made top executives certify financial reports and created a board to oversee auditors."
+  },
+  {
+   "id": "r4-0159",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "On Black Monday, October 19, 1987, the Dow Jones Industrial Average fell by about what share in a single day?",
+   "options": [
+    "About 5 percent",
+    "About 50 percent",
+    "About 75 percent",
+    "About 22 percent"
+   ],
+   "answer": 3,
+   "explain": "It remains the largest one-day percentage drop in the Dow's history; computerized program trading worsened the selling."
+  },
+  {
+   "id": "r4-0160",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In the 1985 Plaza Accord, the U.S. and four other leading economies agreed to do what?",
+   "options": [
+    "Push down the value of the U.S. dollar",
+    "Return to the gold standard",
+    "Create the World Trade Organization",
+    "Cancel Latin American debts"
+   ],
+   "answer": 0,
+   "explain": "Signed at New York's Plaza Hotel, the accord aimed to shrink U.S. trade deficits by making American exports cheaper."
+  },
+  {
+   "id": "r4-0161",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In 1984, an antitrust settlement broke up which company's nationwide telephone monopoly into regional Baby Bells?",
+   "options": [
+    "IBM",
+    "General Electric",
+    "Western Union",
+    "AT&T"
+   ],
+   "answer": 3,
+   "explain": "The settlement of the government's antitrust suit split off seven regional companies, while AT&T kept long distance."
+  },
+  {
+   "id": "r4-0162",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Janus v. AFSCME (2018), the Supreme Court ruled that public-sector unions could not do what?",
+   "options": [
+    "Bargain over wages",
+    "Endorse political candidates",
+    "Collect fees from workers who chose not to join",
+    "Go on strike in any state"
+   ],
+   "answer": 2,
+   "explain": "The Court overturned a 1977 precedent, holding that mandatory agency fees violated nonmembers' free speech rights."
+  },
+  {
+   "id": "r4-0163",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Arizona v. United States (2012), the Supreme Court struck down three of four challenged parts of Arizona's 2010 immigration law, SB 1070, on what grounds?",
+   "options": [
+    "They violated freedom of speech",
+    "Federal immigration law preempted them",
+    "They were ex post facto laws",
+    "They violated the Tenth Amendment"
+   ],
+   "answer": 1,
+   "explain": "The Court let stand the provision requiring officers to check immigration status during lawful stops."
+  },
+  {
+   "id": "r4-0164",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In Trump v. Hawaii (2018), the Supreme Court upheld what?",
+   "options": [
+    "A ban on refugees from Central America",
+    "An end to birthright citizenship",
+    "A proclamation restricting entry from several mostly Muslim-majority countries",
+    "A wall along the Mexican border"
+   ],
+   "answer": 2,
+   "explain": "The 5-4 ruling held that the president had broad statutory power to suspend entry of foreign nationals."
+  },
+  {
+   "id": "r4-0165",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1983, the federal government bought out and evacuated the entire town of Times Beach, Missouri, because its roads had been sprayed with oil contaminated by what?",
+   "options": [
+    "Lead",
+    "Radium",
+    "Dioxin",
+    "Asbestos"
+   ],
+   "answer": 2,
+   "explain": "The town was disincorporated, and the site was cleaned up under the Superfund program and later became a state park."
+  },
+  {
+   "id": "r4-0166",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Hurricane Maria in 2017 caused an island-wide power outage lasting months and spurred migration to the mainland from where?",
+   "options": [
+    "Cuba",
+    "Guam",
+    "American Samoa",
+    "Puerto Rico"
+   ],
+   "answer": 3,
+   "explain": "Maria struck as a powerful Category 4 storm, and thousands of deaths were later linked to it."
+  },
+  {
+   "id": "r4-0167",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 2017, which hurricane stalled over the Houston area and set a U.S. record for rainfall from a single tropical storm?",
+   "options": [
+    "Harvey",
+    "Katrina",
+    "Irma",
+    "Ike"
+   ],
+   "answer": 0,
+   "explain": "Harvey dropped about 60 inches of rain in places, flooding much of Houston."
+  },
+  {
+   "id": "r4-0168",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Energy Policy Act of 2005 created the Renewable Fuel Standard, requiring gasoline to be blended with fuels such as which one?",
+   "options": [
+    "Coal-derived kerosene",
+    "Ethanol made largely from corn",
+    "Whale oil",
+    "Liquefied natural gas"
+   ],
+   "answer": 1,
+   "explain": "The mandate, expanded in 2007, made ethanol a major use of the U.S. corn crop."
+  },
+  {
+   "id": "r4-0169",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In United States v. Microsoft (decided 2000-2001), courts found the company had illegally kept a monopoly in which market?",
+   "options": [
+    "Personal computer operating systems",
+    "Video game consoles",
+    "Internet search engines and online advertising",
+    "Mobile phones"
+   ],
+   "answer": 0,
+   "explain": "An appeals court upheld the monopoly finding but overturned a breakup order, and the case was settled in 2001."
+  }
+ ]
+}

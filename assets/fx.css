@@ -1,0 +1,38 @@
+/* SINFX styles (fx.js). Only what JavaScript cannot set through the CSSOM: the click-through layer, the decorative nodes and the two toggle buttons.
+   Every moving part is animated from fx.js with transform/opacity; nothing here changes layout. See design-notes/FX.md. */
+.sinfx-layer{position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:transparent;overflow:visible;pointer-events:none;z-index:2147483000;contain:layout style;color:inherit}
+.sinfx-layer canvas{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}
+.sinfx-layer *{pointer-events:none;box-sizing:border-box}
+.sinfx-ring,.sinfx-ripple,.sinfx-fill,.sinfx-ghost{position:absolute;left:0;top:0;will-change:transform,opacity}
+.sinfx-ring{border:3px solid currentColor;border-radius:50%}
+.sinfx-ripple{border-radius:50%;background:rgba(120,124,134,.45)}
+.sinfx-num{position:absolute;left:0;top:0;margin:0;padding:0;overflow:visible;will-change:transform}
+.sinfx-glow{position:absolute;inset:0;box-shadow:inset 0 0 64px 10px var(--sinfx-c,#f2b705);opacity:0;will-change:opacity}
+.sinfx-ghost{margin:0;transition:none!important;animation:none!important}
+
+/* a pressed button also keeps the site's own :active look; the scale comes from fx.js so the two do not stack */
+html:not(.sinfx-off) .btn:active{transform:none}
+
+/* the two toggles (header icons, or labelled switches inside a sheet) */
+.sinfx-ctl{display:inline-flex;align-items:center;gap:2px;vertical-align:middle}
+.sinfx-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;padding:0 8px;margin:0;border:0;background:transparent;color:var(--ink,currentColor);font:600 14px var(--sans,system-ui,sans-serif);cursor:pointer;border-radius:var(--r,4px);-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.sinfx-btn svg{width:22px;height:22px;flex:none;display:block}
+.sinfx-btn[aria-pressed="true"] .p-off,.sinfx-btn[aria-pressed="false"] .p-on{display:none}
+.sinfx-btn[aria-pressed="false"]{color:var(--muted,#4b4e55)}
+.sinfx-btn:focus-visible{outline:3px solid var(--accent,#a3141f);outline-offset:1px}
+@media (hover:hover){.sinfx-btn:hover{background:var(--panel-2,rgba(128,128,128,.14))}}
+.sinfx-labels{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.sinfx-labels .sinfx-btn{border:1px solid var(--field,#80838a);padding:0 14px}
+.sinfx-labels .sinfx-btn[aria-pressed="true"]{border-color:var(--ink,currentColor)}
+.sinfx-labels .sinfx-lbl{white-space:nowrap}
+.sinfx-slot{display:inline-flex;margin-left:auto}
+.kicker:has(.sinfx-slot){display:flex;align-items:center;justify-content:space-between}
+/* header slot in the games' title row: keep the 44px targets out of the way of the back link */
+.kicker .sinfx-btn:last-child{margin-right:-8px}
+.mast .sinfx-slot{position:absolute;right:40px;top:4px;margin:0}
+@media (min-width:760px){.mast .sinfx-slot{top:26px;right:48px}}
+@media (max-width:359px){.mast .sinfx-slot{display:none}}   /* very narrow: the toggles stay in the How to play sheet */
+
+
+@media (prefers-reduced-motion:reduce){.sinfx-ripple,.sinfx-ring{display:none}}
+.dlg .sinfx-slot{display:block;margin:0}

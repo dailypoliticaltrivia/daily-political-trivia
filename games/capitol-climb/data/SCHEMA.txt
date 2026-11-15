@@ -1,0 +1,50 @@
+CAPITOL CLIMB QUESTION BANKS: WHAT EVERY BANK FILE MUST FOLLOW
+=========================================================
+
+File:   site/games/capitol-climb/data/bank-p<N>-<name>.json      (UTF-8, plain JSON, no comments, no trailing commas)
+Check:  from the site folder:   node tools/validate-history.js data/bank-p4-5-xyz.json      (path relative to games/capitol-climb/ also works)
+        It must end with PASS (no ERROR). Fix every WARN you can: skewed answer positions and "correct answer is the longest" are the usual ones.
+        node tools/validate-history.js --rules      prints the rules.
+
+Shape (exact):
+{"bank":"p4-5","questions":[
+  {"id":"p4-0001","period":4,"themes":["politics-power"],"stops":["capitol-rotunda","supreme-court"],"difficulty":1,
+   "q":"question text","options":["A","B","C","D"],"answer":2,"explain":"one or two sentences"}
+]}
+
+Fields
+  bank        short name of the file's bank, e.g. "p4-5". Free text, shown only by the validator.
+  id          UNIQUE across ALL bank files. Letters, digits, dot, dash, underscore. Use your bank's prefix and a 4-digit counter: p4-0001, p4-0002 ...
+              Never reuse or renumber an id after the bank has shipped (players' "seen" lists use them).
+  period      integer 1-9 (AP US History periods):
+              1 = 1491-1607   2 = 1607-1754   3 = 1754-1800   4 = 1800-1848   5 = 1844-1877
+              6 = 1865-1898   7 = 1890-1945   8 = 1945-1980   9 = 1980-present
+  themes      1 to 3 of: identity, work-exchange-technology, peopling, politics-power, america-world, environment-geography, culture-ideas
+  stops       1 to 3 of the fixed list below. WHERE the question is asked decides the question, so pick stops that really fit it
+              (a Senate question at senate-floor, a document at library-of-congress or national-archives, Lincoln and the Civil War era at lincoln-memorial ...).
+              Every stop needs 150+ questions across the whole set, so give questions that fit several stops all the fitting stops (up to three).
+  difficulty  1 = easy (first 7 stops of the daily route and common knowledge), 2 = medium (stops 8-14), 3 = hard (stops 15-20). Use all three in every bank, roughly 30/40/30.
+  q           the question, at most 300 characters, a complete sentence ending in ? (or a clear stem), no "which of the following" filler, no A/B/C/D references.
+  options     EXACTLY 4 distinct, non-empty strings, each at most 120 characters. No letter or number labels ("A.", "1)"), no "all of the above",
+              "none of the above", "both A and B". An option's text must not appear inside the question stem. Keep the four options the same kind of thing and similar in length.
+  answer      0-based index (0, 1, 2 or 3) of the correct option. Spread the correct answer evenly over positions 0-3 (each at most 35% of a bank, aim for 25%).
+              Do not make the correct option the longest one every time (it may be the strictly longest in at most 40% of the questions).
+  explain     20 to 300 characters, one or two sentences: why the answer is right (and a useful fact). It is shown after every answer.
+
+Rules of thumb
+  - One correct answer that a historian would accept without argument. Facts you cannot source: leave them out.
+  - Distractors must be plausible but clearly wrong (same period or same kind of thing). Never a joke option.
+  - No question depends on the options being in a certain order, because the game shows them exactly as written.
+  - Write dates and names plainly; American spelling; no emoji; no HTML.
+  - Do not duplicate or lightly reword another question (the validator flags near-duplicates against every other bank file too).
+
+Fixed stop ids (data/stops.json has names, blurbs and map positions)
+  white-house, capitol-rotunda, senate-floor, house-floor, supreme-court, library-of-congress, national-archives, lincoln-memorial,
+  washington-monument, jefferson-memorial, mlk-memorial, fdr-memorial, wwii-memorial, vietnam-memorial, korean-war-memorial,
+  smithsonian-american-history, smithsonian-african-american-history, smithsonian-american-indian, air-and-space, fords-theatre,
+  arlington-cemetery, pentagon, treasury, frederick-douglass-house, national-cathedral, union-station
+
+What the game does with your file
+  - data/manifest.json lists the banks the page loads. Do NOT edit it: the integrator runs  node tools/validate-history.js --write-manifest  which lists every bank that passes.
+  - A file that fails to load, or a question that is invalid, is skipped by the page (never a crash), but the validator treats it as an error: ship clean files.
+  - data/bank-sample.json is a 40-question stand-in used only until real banks pass.

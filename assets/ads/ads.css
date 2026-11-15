@@ -1,0 +1,80 @@
+/* Daily Political Trivia - ad slots and video ad dialog. Plain look: hairlines, small "Advertisement" label.
+   Tokens (--ink, --line, --panel-2 ...) come from site.css, so light and dark both work. */
+
+/* ---- slot basics ---- */
+.sin-ad{display:block;margin:0 auto;text-align:center;min-width:0}
+.sin-ad[hidden]{display:none!important}
+.sin-ad__unit{display:flex;flex-direction:column;align-items:center;gap:4px;max-width:100%;margin:0 auto}
+.sin-ad__unit[data-state="collapsed"]{display:none}
+/* while waiting for consent or the first request the space is reserved but nothing is drawn: no label, no border */
+.sin-ad__unit[data-state="idle"] .sin-ad__label{visibility:hidden}
+.sin-ad__unit[data-state="idle"] .sin-ad__box,.sin-ad__unit[data-state="loading"] .sin-ad__box{background:transparent;border-color:transparent}
+.sin-ad__label{font:500 10px/14px var(--sans,system-ui,sans-serif);letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#5a5d64);height:14px}
+.sin-ad__box{width:var(--w);max-width:100%;height:var(--h);position:relative;overflow:hidden;background:var(--panel-2,#f0f0ee);border:1px solid var(--line,#e2e3e5);display:flex;align-items:center;justify-content:center}
+.sin-ad__box ins,.sin-ad__box iframe{max-width:100%}
+
+/* the box shows its hairline border only once an ad has arrived */
+.sin-ad__unit[data-state="filled"] .sin-ad__box{background:var(--panel-2,#f0f0ee);border-color:var(--line,#e2e3e5)}
+
+/* ---- top banner: centered under the header, size reserved up front (no layout shift) ---- */
+.sin-ad--top-banner{width:100%;height:84px;padding:8px 0;border-bottom:1px solid var(--line,#e2e3e5);background:var(--paper,#fafafa);overflow:hidden}
+@media (min-width:760px){ .sin-ad--top-banner{height:124px} }
+
+/* ---- in-content: between list items ---- */
+.sin-ad--in-content{margin:var(--s6,32px) auto;padding:var(--s3,12px) 0;border-top:1px solid var(--line,#e2e3e5);border-bottom:1px solid var(--line,#e2e3e5)}
+.sin-ad--span{grid-column:1/-1}
+
+/* ---- side rail: right column at >=1200px, sticky; below that it hides (or sits in the flow when set to "inline") ---- */
+.sin-rail{display:none}
+.sin-rail[data-narrow="inline"]{display:block;margin:var(--s6,32px) auto 0;padding-top:var(--s4,16px);border-top:1px solid var(--line,#e2e3e5)}
+.sin-rail[data-narrow="inline"] [data-tall]{display:none}
+@media (min-width:1200px){
+  main.sin-has-rail>.wrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:var(--s6,32px);align-items:start}
+  main.sin-has-rail>.wrap>*{grid-column:1;min-width:0}
+  main.sin-has-rail>.wrap>.sin-rail{grid-column:2;grid-row:1/span 60;display:flex;flex-direction:column;gap:var(--s5,24px);align-items:center;margin:var(--s7,48px) 0 0;padding:0;border:0;min-width:0}
+  .sin-rail[data-narrow="inline"] [data-tall]{display:flex}
+  .sin-rail .sin-ad__unit{width:300px}
+}
+@media (min-width:1200px) and (min-height:960px){
+  /* both units fit on screen: keep them in view while reading */
+  .sin-rail{position:sticky;top:var(--s4,16px);align-self:start}
+}
+@media (min-width:1600px){
+  main.sin-has-rail>.wrap{max-width:calc(var(--max,1200px) + 332px)}
+}
+
+/* ---- rail outstream video ---- */
+.sin-os{position:absolute;inset:0;background:#000}
+.sin-os__ad,.sin-os__v{position:absolute;inset:0;width:100%;height:100%}
+.sin-os__v{object-fit:contain}
+.sin-os__x{position:absolute;top:4px;right:4px;z-index:2;width:32px;height:32px;border:0;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;font:600 18px/1 var(--sans,sans-serif);cursor:pointer}
+.sin-os__x::after{content:"";position:absolute;inset:-6px}
+.sin-os__x:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+/* ---- video ad dialog (pre-roll and post-roll) ---- */
+.sin-vad{border:0;padding:0;background:transparent;color:var(--ink,#111);max-width:none;max-height:none;width:100vw;height:100dvh;margin:0;overflow:hidden;font-family:var(--sans,system-ui,sans-serif)}
+.sin-vad:not([open]){display:none}
+.sin-vad[open]{display:grid;place-items:center}
+.sin-vad::backdrop{background:rgba(10,10,12,.82)}
+.sin-vad--prep{display:block!important;position:fixed!important;left:-10000px;top:0;width:720px;height:auto;visibility:hidden;pointer-events:none}
+.sin-vad--fallback{position:fixed;inset:0;z-index:300;background:rgba(10,10,12,.82)}
+.sin-vad__panel{width:min(720px,calc(100vw - 24px));background:var(--panel,#fff);border:1px solid var(--ink,#111);border-radius:var(--r,4px);outline:none;display:flex;flex-direction:column}
+.sin-vad__bar{display:flex;align-items:baseline;gap:var(--s3,12px);padding:var(--s3,12px) var(--s4,16px);border-bottom:1px solid var(--line,#e2e3e5);font-size:13px}
+.sin-vad__label{font:700 11px var(--sans,sans-serif);letter-spacing:.1em;text-transform:uppercase;color:var(--ink,#111)}
+.sin-vad__ctx{color:var(--muted,#5a5d64);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sin-vad__count{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--ink-2,#33353a);white-space:nowrap}
+.sin-vad__stage{position:relative;aspect-ratio:16/9;background:#000;color:#fff;overflow:hidden}
+.sin-vad__ima,.sin-vad__video{position:absolute;inset:0;width:100%;height:100%}
+.sin-vad__video{object-fit:contain}
+.sin-vad__ctl{display:flex;flex-wrap:wrap;gap:var(--s2,8px);padding:var(--s3,12px) var(--s4,16px)}
+.sin-vad__btn{font:600 14px var(--sans,sans-serif);min-height:44px;min-width:88px;padding:0 var(--s4,16px);border-radius:var(--r,4px);border:1px solid var(--line-strong,#c3c5c9);background:transparent;color:var(--ink,#111);cursor:pointer;transition:background .15s,border-color .15s}
+.sin-vad__btn:hover:not(:disabled){border-color:var(--ink,#111)}
+.sin-vad__skip{margin-left:auto;background:var(--ink,#111);color:var(--paper,#fafafa);border-color:var(--ink,#111);min-width:112px}
+.sin-vad__skip:disabled{background:transparent;color:var(--muted,#5a5d64);border-color:var(--line,#e2e3e5);cursor:not-allowed}
+.sin-vad__panel :focus-visible{outline:2px solid var(--focus,#141413);outline-offset:3px}
+@media (max-width:480px){ .sin-vad__ctx{display:none} .sin-vad__btn{flex:1;min-width:0} .sin-vad__skip{flex:2 1 100%;margin-left:0} }
+@media (prefers-reduced-motion:reduce){ .sin-vad__btn{transition:none} }
+
+/* hairlines around the banner and in-content slots appear only when an ad has actually arrived */
+.sin-ad--top-banner:not(:has([data-state="filled"])){border-bottom-color:transparent}
+.sin-ad--in-content:not(:has([data-state="filled"])){border-color:transparent}

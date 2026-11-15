@@ -1,0 +1,36 @@
+<!-- ============================================================================================
+  Daily Political Trivia - security tags for the <head> of EVERY page. NOT applied yet (see APPLY.md next to this file).
+  Put them as the FIRST things inside <head>, directly after <meta charset>, before any <script> or <link>.
+  ============================================================================================ -->
+
+<!-- 1) REFERRER POLICY. Send only the site name (never the full address) to other sites. Safe to add by hand today. -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<!-- 2) CONTENT SECURITY POLICY, base policy (no ads, demo mode). The hash after 'sha256-' is different on every page
+        (it fingerprints that page's inline <script>): do NOT type it by hand. tools/build-csp.js writes this tag, with the right
+        hashes, into the BUILT copy of the site on every deploy. The text below is what the tool produces for a page with one inline script.
+        What it means: only this site's own scripts (plus the one pinned Supabase file, once Supabase is on) can run; nothing can be
+        framed, embedded as a plug-in or sent to a form on another site; images only from this site (and inline data: images);
+        the page can only talk to itself and to the Supabase project. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-REPLACED-BY-build-csp.js'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://YOUR-PROJECT.supabase.co; frame-src 'none'; media-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; worker-src 'none'; upgrade-insecure-requests">
+
+<!-- 3) ADS: AD-VENDOR SECTION. Used only when ads are switched on (node tools/build-csp.js <folder> --ads adds these automatically).
+        It is deliberately separate: every domain below is a third party that can run code on your pages. Google documents that
+        GPT supports only a nonce-based policy and that an allow-list "may break without notice", and a static site cannot make nonces, so
+        this is the best a static site can do. Test every ad slot with the browser console open after switching ads on.
+        Added to script-src : https://securepubads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.googletagservices.com
+                              https://partner.googleadservices.com https://tpc.googlesyndication.com https://imasdk.googleapis.com
+                              https://fundingchoicesmessages.google.com https://www.google.com https://ep2.adtrafficquality.google
+        Added to connect-src: https://securepubads.g.doubleclick.net https://pubads.g.doubleclick.net https://pagead2.googlesyndication.com
+                              https://fundingchoicesmessages.google.com https://*.google.com https://*.adtrafficquality.google https://imasdk.googleapis.com
+        frame-src becomes   : 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://*.safeframe.googlesyndication.com
+                              https://www.google.com https://fundingchoicesmessages.google.com https://imasdk.googleapis.com
+        media-src adds      : https: blob:       worker-src adds: blob:
+        If Prebid (header bidding) is turned on, every bidder you enable needs its own endpoint in connect-src (the vendor lists it).
+        Self-host the Prebid build (assets/ads/vendor/) instead of loading it from a CDN. -->
+
+<!-- 4) NOT POSSIBLE IN A META TAG (the browser ignores them there): frame-ancestors, report-uri / report-to, sandbox,
+        X-Frame-Options, Strict-Transport-Security, Permissions-Policy, Cross-Origin-Opener-Policy.
+        Defence in depth that IS possible: the frame-busting code that is part of assets/site.js (see audit patch SEC-06), and
+        GitHub Pages' own "Enforce HTTPS" switch. For the real headers put Cloudflare (free plan) in front of the site and add the
+        "Transform Rules > Modify Response Header" list in APPLY.md. -->

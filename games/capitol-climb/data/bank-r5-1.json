@@ -1,0 +1,3659 @@
+{
+ "bank": "r5-1",
+ "questions": [
+  {
+   "id": "r5-0001",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "In his 1845 Narrative, Douglass said he learned to read partly by trading what with poor white boys on Baltimore's streets?",
+   "options": [
+    "Marbles",
+    "Pennies",
+    "Bread",
+    "Oysters"
+   ],
+   "answer": 2,
+   "explain": "Douglass wrote that he gave hungry white boys bread in exchange for reading lessons after Hugh Auld forbade his wife to keep teaching him."
+  },
+  {
+   "id": "r5-0002",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1851 Douglass merged The North Star with Gerrit Smith's Liberty Party Paper. What did he name the combined newspaper?",
+   "options": [
+    "Frederick Douglass' Paper",
+    "The Emancipator",
+    "The Colored American",
+    "The Genius of Universal Emancipation"
+   ],
+   "answer": 0,
+   "explain": "Frederick Douglass' Paper ran from 1851 until about 1860, after the merger with the Liberty Party Paper backed by abolitionist Gerrit Smith."
+  },
+  {
+   "id": "r5-0003",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1870 Douglass became editor and then owner of which Washington, D.C., weekly aimed at Black readers?",
+   "options": [
+    "The Washington Bee",
+    "The New National Era",
+    "The Weekly Anglo-African",
+    "The Freeman's Journal"
+   ],
+   "answer": 1,
+   "explain": "Douglass took over the New National Era in 1870 and kept it going until 1874, using it to press for civil rights during Reconstruction."
+  },
+  {
+   "id": "r5-0004",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "Douglass's most often repeated lecture, first given in 1859 and delivered for decades, praised people who rose by their own effort. What was its title?",
+   "options": [
+    "Acres of Diamonds",
+    "The Gospel of Wealth",
+    "Self-Made Men",
+    "The Strenuous Life"
+   ],
+   "answer": 2,
+   "explain": "Douglass gave 'Self-Made Men' dozens of times; Acres of Diamonds was Russell Conwell's lecture and The Strenuous Life was Theodore Roosevelt's."
+  },
+  {
+   "id": "r5-0005",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "Douglass's novella The Heroic Slave (1853) fictionalized Madison Washington, who led an 1841 revolt aboard which ship?",
+   "options": [
+    "The Amistad",
+    "The Clotilda",
+    "The Creole",
+    "The Pearl"
+   ],
+   "answer": 2,
+   "explain": "In 1841 enslaved people aboard the Creole seized the ship and sailed to the Bahamas, where most went free; it was Douglass's only work of fiction."
+  },
+  {
+   "id": "r5-0006",
+   "period": 5,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "Cedar Hill overlooks a neighborhood first laid out in 1854 as one of Washington's early suburbs. What was it originally called?",
+   "options": [
+    "Uniontown",
+    "Tenleytown",
+    "Brightwood",
+    "LeDroit Park"
+   ],
+   "answer": 0,
+   "explain": "Uniontown was planned in 1854 across the Anacostia River for workers at the Navy Yard; the area later took the name Anacostia."
+  },
+  {
+   "id": "r5-0007",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1867 the Freedmen's Bureau bought land near Cedar Hill and sold lots to freedpeople, who built homes there. What was the settlement called?",
+   "options": [
+    "Freedman's Village",
+    "Barry Farm",
+    "Uniontown",
+    "Brightwood"
+   ],
+   "answer": 1,
+   "explain": "Barry Farm in Anacostia was bought by the Freedmen’s Bureau; families paid for lots and built their own houses."
+  },
+  {
+   "id": "r5-0008",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "The name Anacostia comes from the Algonquian-speaking people living along the river when John Smith explored the Potomac in 1608. Who were they?",
+   "options": [
+    "The Powhatan",
+    "The Lenape",
+    "The Nacotchtank",
+    "The Susquehannock"
+   ],
+   "answer": 2,
+   "explain": "John Smith recorded the Nacotchtank town near the river; the name, later Latinized as Anacostia, stayed on the river and the neighborhood."
+  },
+  {
+   "id": "r5-0009",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "When Douglass escaped from Baltimore in September 1838, he rode north on a train of which line?",
+   "options": [
+    "The Baltimore and Ohio Railroad",
+    "The Camden and Amboy Railroad",
+    "The Pennsylvania Railroad",
+    "The Philadelphia, Wilmington and Baltimore Railroad"
+   ],
+   "answer": 3,
+   "explain": "Carrying a free Black sailor's papers, Douglass boarded a northbound train of the Philadelphia, Wilmington and Baltimore line, then went on by ferry, steamboat and train."
+  },
+  {
+   "id": "r5-0010",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "On his 1845 tour of Ireland, Douglass heard which Irish leader, an outspoken critic of American slavery, speak at a Dublin meeting?",
+   "options": [
+    "Charles Stewart Parnell",
+    "Daniel O'Connell",
+    "Wolfe Tone",
+    "Michael Davitt"
+   ],
+   "answer": 1,
+   "explain": "Daniel O'Connell, the 'Liberator' who won Catholic emancipation, denounced American slavery; Douglass heard him speak in Dublin in 1845."
+  },
+  {
+   "id": "r5-0011",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "What skilled trade did Douglass learn in Baltimore's shipyards before his escape?",
+   "options": [
+    "Making sails",
+    "Forging anchors",
+    "Caulking ships",
+    "Carving figureheads"
+   ],
+   "answer": 2,
+   "explain": "Douglass worked as a caulker, sealing ship seams; his owner kept his wages, and in New Bedford white caulkers' prejudice kept him out of the trade."
+  },
+  {
+   "id": "r5-0012",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1879 Douglass surprised many by taking what stand on the Exoduster migration of Black Southerners to Kansas?",
+   "options": [
+    "He raised money to charter trains to carry them to Kansas",
+    "He urged them to settle in Liberia instead of Kansas",
+    "He urged them to stay in the South and claim their rights there",
+    "He asked Congress to give them free western homesteads"
+   ],
+   "answer": 2,
+   "explain": "Douglass argued that leaving the South gave up Black political power there; Richard Greener and others defended the Exodus."
+  },
+  {
+   "id": "r5-0013",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "Which African American lieutenant governor served as acting governor of Louisiana in 1872-73 after Governor Henry Warmoth was impeached?",
+   "options": [
+    "Hiram Revels",
+    "Blanche K. Bruce",
+    "Robert Smalls",
+    "P. B. S. Pinchback"
+   ],
+   "answer": 3,
+   "explain": "Pinckney B. S. Pinchback, Louisiana's lieutenant governor, served as governor for about five weeks after Governor Henry Warmoth was impeached."
+  },
+  {
+   "id": "r5-0014",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "Secretary of State Seward survived a knife attack on April 14, 1865, partly because of what he was wearing?",
+   "options": [
+    "A metal splint holding his broken jaw",
+    "A steel vest under his nightclothes",
+    "A thick quilted dressing gown",
+    "A heavy bandage over his chest"
+   ],
+   "answer": 0,
+   "explain": "Seward had broken his jaw and arm in a carriage accident on April 5; the jaw splint helped deflect the attacker's blade."
+  },
+  {
+   "id": "r5-0015",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 3,
+   "q": "Booth's horse was held in the alley behind Ford's Theatre by which young employee, known as 'Peanuts'?",
+   "options": [
+    "Harry Hawk",
+    "Joseph Burroughs",
+    "John Buckingham",
+    "William Withers"
+   ],
+   "answer": 1,
+   "explain": "Stagehand Edman Spangler passed the horse to Joseph 'Peanuts' Burroughs; Hawk was on stage, Buckingham was the doorkeeper and Withers led the orchestra."
+  },
+  {
+   "id": "r5-0016",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "fords-theatre",
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Months before the assassination, who pulled Robert Todd Lincoln to safety when he slipped between a moving train and a platform in Jersey City?",
+   "options": [
+    "Edwin Stanton",
+    "Allan Pinkerton",
+    "Edwin Booth",
+    "Ward Hill Lamon"
+   ],
+   "answer": 2,
+   "explain": "The famous actor Edwin Booth, brother of John Wilkes Booth, rescued Robert Lincoln on a train platform, probably in 1864 or early 1865."
+  },
+  {
+   "id": "r5-0017",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "John Wilkes Booth's father, an English-born actor famous for Shakespearean tragedy in the early 1800s, was who?",
+   "options": [
+    "Edmund Kean",
+    "Junius Brutus Booth",
+    "Edwin Forrest",
+    "William Macready"
+   ],
+   "answer": 1,
+   "explain": "Junius Brutus Booth came to America in 1821 and became a leading tragedian; three of his sons, Junius Jr., Edwin and John Wilkes, became actors."
+  },
+  {
+   "id": "r5-0018",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "In November 1864 the three Booth brothers acted together in New York to raise money for a Shakespeare statue in Central Park. Which play did they perform?",
+   "options": [
+    "Julius Caesar",
+    "Hamlet",
+    "Macbeth",
+    "Richard III"
+   ],
+   "answer": 0,
+   "explain": "Edwin played Brutus, Junius Jr. played Cassius and John Wilkes played Mark Antony at the Winter Garden Theatre on November 25, 1864."
+  },
+  {
+   "id": "r5-0019",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 3,
+   "q": "While his parents were at Ford's Theatre on April 14, 1865, where was 12-year-old Tad Lincoln?",
+   "options": [
+    "At a play at Grover's Theatre",
+    "At the Soldiers' Home cottage",
+    "At a church supper with his tutor",
+    "At the War Department telegraph office"
+   ],
+   "answer": 0,
+   "explain": "Tad was watching Aladdin at Grover's Theatre a few blocks away when the manager announced that the president had been shot."
+  },
+  {
+   "id": "r5-0020",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "The Lincoln conspirators were tried, and four were hanged, at the Washington Arsenal. What is that Army post called now?",
+   "options": [
+    "Fort Myer",
+    "Fort Lesley J. McNair",
+    "Joint Base Anacostia-Bolling",
+    "Walter Reed Army Medical Center"
+   ],
+   "answer": 1,
+   "explain": "The arsenal at Greenleaf Point, where the Anacostia meets the Potomac, was renamed for General Lesley McNair, killed in Normandy in 1944."
+  },
+  {
+   "id": "r5-0021",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Lincoln's 1865 funeral train to Springfield largely retraced the route of what earlier journey?",
+   "options": [
+    "His 1861 trip to Washington as president-elect",
+    "His 1863 trip to dedicate the Gettysburg cemetery",
+    "His 1860 speaking tour after Cooper Union",
+    "His 1847 trip to take his seat in Congress"
+   ],
+   "answer": 0,
+   "explain": "The funeral train ran about 1,600 miles through cities such as Philadelphia, New York, Cleveland and Chicago, much as his inaugural journey had."
+  },
+  {
+   "id": "r5-0022",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "In February 1861, which detective arranged for President-elect Lincoln to pass secretly through Baltimore at night to foil a feared assassination plot?",
+   "options": [
+    "Lafayette Baker",
+    "Thomas Eckert",
+    "William Wood",
+    "Allan Pinkerton"
+   ],
+   "answer": 3,
+   "explain": "Pinkerton, hired by a railroad president, uncovered the reported Baltimore Plot and moved Lincoln through the city ahead of schedule."
+  },
+  {
+   "id": "r5-0023",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Days after Lee's surrender in April 1865, Lincoln asked a band at the White House to play which song, joking that it was now a captured prize?",
+   "options": [
+    "Yankee Doodle",
+    "Battle Cry of Freedom",
+    "Maryland, My Maryland",
+    "Dixie"
+   ],
+   "answer": 3,
+   "explain": "On April 10, 1865, Lincoln told a crowd that 'Dixie' was one of the best tunes he had ever heard and that the Union had fairly captured it."
+  },
+  {
+   "id": "r5-0024",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Julia Ward Howe wrote the words of 'The Battle Hymn of the Republic' in November 1861 while staying at which Washington hotel?",
+   "options": [
+    "The National Hotel",
+    "Kirkwood House",
+    "The Ebbitt House",
+    "Willard's Hotel"
+   ],
+   "answer": 3,
+   "explain": "Howe wrote the poem at Willard's after seeing Union troops near Washington; the Atlantic Monthly printed it in February 1862."
+  },
+  {
+   "id": "r5-0025",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "Which Union veteran, who had lost both legs in battle, took shorthand notes of witness statements in the Petersen House the night Lincoln was shot?",
+   "options": [
+    "Albert Daggett",
+    "Lafayette Baker",
+    "Thomas Eckert",
+    "James Tanner"
+   ],
+   "answer": 3,
+   "explain": "Corporal James Tanner, a War Department clerk, recorded testimony for Stanton; he later led the Pension Bureau and is buried at Arlington."
+  },
+  {
+   "id": "r5-0026",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "As Booth leaped from the presidential box, his spur reportedly caught on a flag hung as decoration. What flag was it?",
+   "options": [
+    "A Marine Corps battalion flag",
+    "A Navy Yard commissioning pennant",
+    "A Treasury Guard regimental flag",
+    "A Massachusetts state flag"
+   ],
+   "answer": 2,
+   "explain": "A flag of the Treasury Guard regiment hung on the box; Booth's spur snagged it and he landed hard on the stage, breaking his leg."
+  },
+  {
+   "id": "r5-0027",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Confederate spy Rose O'Neal Greenhow was held during the Civil War at which Washington prison, on the site of today's Supreme Court?",
+   "options": [
+    "The Old Capitol Prison",
+    "Fort Monroe",
+    "Libby Prison",
+    "Camp Douglas"
+   ],
+   "answer": 0,
+   "explain": "The Old Capitol, Congress's temporary home after 1814, became a Union prison for spies and political prisoners; the Supreme Court building rose there in the 1930s."
+  },
+  {
+   "id": "r5-0028",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Costly 1953 fighting for which hill, later the subject of a 1959 Gregory Peck film, came to symbolize battles fought while armistice talks dragged on?",
+   "options": [
+    "Pork Chop Hill",
+    "Heartbreak Ridge",
+    "Hamburger Hill",
+    "Hill 875"
+   ],
+   "answer": 0,
+   "explain": "U.S. troops fought for Pork Chop Hill in April and July 1953; Hamburger Hill and Hill 875 were Vietnam battles."
+  },
+  {
+   "id": "r5-0030",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The 65th Infantry Regiment, which fought in Korea and received the Congressional Gold Medal in 2014, was made up mostly of soldiers from where?",
+   "options": [
+    "Hawaii",
+    "Guam",
+    "Puerto Rico",
+    "The Philippines"
+   ],
+   "answer": 2,
+   "explain": "The 65th, nicknamed the Borinqueneers, was a largely Puerto Rican unit that fought in major Korean campaigns."
+  },
+  {
+   "id": "r5-0031",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Korea was the first war in which the U.S. military widely used what to carry wounded soldiers from the front to mobile surgical hospitals?",
+   "options": [
+    "Ambulance trains",
+    "Hospital barges",
+    "Motorcycle sidecars",
+    "Helicopters"
+   ],
+   "answer": 3,
+   "explain": "Helicopters such as the Bell H-13 flew wounded troops to MASH units, cutting the time before surgery and saving many lives."
+  },
+  {
+   "id": "r5-0032",
+   "period": 8,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Which Boston Red Sox slugger flew 39 combat missions in Korea as a Marine pilot, sometimes as John Glenn's wingman?",
+   "options": [
+    "Joe DiMaggio",
+    "Stan Musial",
+    "Ted Williams",
+    "Bob Feller"
+   ],
+   "answer": 2,
+   "explain": "Williams, recalled to the Marines in 1952, flew F9F Panther jets in Korea, then returned to baseball in 1953."
+  },
+  {
+   "id": "r5-0033",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Which country chaired the Neutral Nations Repatriation Commission and supplied troops to guard prisoners who refused to go home after the armistice?",
+   "options": [
+    "Sweden",
+    "India",
+    "Switzerland",
+    "Poland"
+   ],
+   "answer": 1,
+   "explain": "Indian troops guarded the non-repatriated prisoners in the demilitarized zone in 1953-54 while each side tried to persuade them to return."
+  },
+  {
+   "id": "r5-0034",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Much of the western edge of the Pusan Perimeter in the summer of 1950 followed which river?",
+   "options": [
+    "The Han River",
+    "The Yalu River",
+    "The Imjin River",
+    "The Naktong River"
+   ],
+   "answer": 3,
+   "explain": "UN forces used the Naktong River as a natural barrier while holding the southeastern corner of Korea until the Inchon landing."
+  },
+  {
+   "id": "r5-0035",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Beginning in 1955, which Oregon couple's adoption of eight Korean children helped launch large-scale international adoption to the United States?",
+   "options": [
+    "Harry and Bertha Holt",
+    "Pearl Buck and Richard Walsh",
+    "Sargent and Eunice Shriver",
+    "Robert and Lorraine Pierce"
+   ],
+   "answer": 0,
+   "explain": "Congress passed a special bill so the Holts could adopt eight children; they then founded what became Holt International."
+  },
+  {
+   "id": "r5-0036",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 1,
+   "q": "U.S. 'special procurement' orders for trucks, uniforms and repairs during the Korean War boosted the recovery of which nearby former enemy nation?",
+   "options": [
+    "Taiwan",
+    "Japan",
+    "The Philippines",
+    "Thailand"
+   ],
+   "answer": 1,
+   "explain": "Korean War orders gave Japanese industry a major boost and helped launch the country's rapid postwar growth."
+  },
+  {
+   "id": "r5-0037",
+   "period": 8,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Which all-Black Army regiment, credited with retaking the town of Yechon in July 1950, was inactivated in 1951 as the Army integrated its units?",
+   "options": [
+    "The 369th Infantry Regiment",
+    "The 92nd Infantry Division",
+    "The 24th Infantry Regiment",
+    "The 10th Cavalry Regiment"
+   ],
+   "answer": 2,
+   "explain": "The 24th Infantry, a Black regiment since 1869, won an early victory at Yechon; it was inactivated in October 1951."
+  },
+  {
+   "id": "r5-0038",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which 1950 law, passed after the North Korean invasion, let the president prioritize defense contracts and set controls on wages and prices?",
+   "options": [
+    "The National Security Act",
+    "The Selective Service Act",
+    "The Internal Security Act",
+    "The Defense Production Act"
+   ],
+   "answer": 3,
+   "explain": "The Defense Production Act of 1950 mobilized industry for Korea; the Internal Security Act of 1950 dealt with communist organizations instead."
+  },
+  {
+   "id": "r5-0039",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "What was Operation Moolah during the Korean War?",
+   "options": [
+    "A cash reward for any communist pilot who defected with a MiG-15",
+    "A program selling war bonds to Korean civilians",
+    "A secret fund to pay guerrillas behind North Korean lines",
+    "A plan to flood North Korea with counterfeit money"
+   ],
+   "answer": 0,
+   "explain": "The U.S. offered $100,000 for a MiG-15; North Korean pilot No Kum-sok flew one to South Korea in September 1953, after the armistice."
+  },
+  {
+   "id": "r5-0040",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 2,
+   "q": "After Chinese forces entered the war, what did President Truman proclaim in December 1950?",
+   "options": [
+    "Martial law across the country",
+    "A national emergency",
+    "A declaration of war on China",
+    "A ban on all strikes"
+   ],
+   "answer": 1,
+   "explain": "Proclamation 2914 declared a national emergency on December 16, 1950; the same day Truman created the Office of Defense Mobilization to speed rearmament."
+  },
+  {
+   "id": "r5-0041",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Which 1944 Supreme Court decision struck down the Texas Democratic Party's all-white primary election?",
+   "options": [
+    "Smith v. Allwright",
+    "Guinn v. United States",
+    "Grovey v. Townsend",
+    "Breedlove v. Suttles"
+   ],
+   "answer": 0,
+   "explain": "Smith v. Allwright held that the white primary violated the Fifteenth Amendment; Grovey v. Townsend (1935) had upheld it."
+  },
+  {
+   "id": "r5-0042",
+   "period": 8,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Nine months before Rosa Parks's arrest, which 15-year-old was arrested for refusing to give up her seat on a Montgomery bus?",
+   "options": [
+    "Aurelia Browder",
+    "Mary Louise Smith",
+    "Claudette Colvin",
+    "Jo Ann Robinson"
+   ],
+   "answer": 2,
+   "explain": "Colvin was arrested in March 1955 and later became a plaintiff in Browder v. Gayle, the case that ended Montgomery's bus segregation."
+  },
+  {
+   "id": "r5-0043",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 3,
+   "q": "During the Albany Movement of 1961-62 in Georgia, Police Chief Laurie Pritchett blunted the protests mainly by doing what?",
+   "options": [
+    "Turning police dogs on the marchers",
+    "Calling in the Georgia National Guard",
+    "Granting the protesters' demands at once",
+    "Making mass arrests while avoiding public violence"
+   ],
+   "answer": 3,
+   "explain": "Pritchett studied nonviolent tactics, jailed protesters in nearby counties and avoided brutal scenes, denying the movement national sympathy."
+  },
+  {
+   "id": "r5-0044",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which Howard University law dean, Thurgood Marshall's mentor, designed the NAACP's legal campaign against segregated education?",
+   "options": [
+    "Constance Baker Motley",
+    "Charles Hamilton Houston",
+    "Robert L. Carter",
+    "Spottswood Robinson"
+   ],
+   "answer": 1,
+   "explain": "Houston, called 'the man who killed Jim Crow,' trained a generation of Black lawyers and led NAACP cases in the 1930s."
+  },
+  {
+   "id": "r5-0045",
+   "period": 8,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which Arkansas NAACP president and newspaper publisher advised and supported the Little Rock Nine in 1957?",
+   "options": [
+    "Septima Clark",
+    "Ella Baker",
+    "Dorothy Height",
+    "Daisy Bates"
+   ],
+   "answer": 3,
+   "explain": "Daisy Bates and her husband published the Arkansas State Press; her home served as a base for the nine students."
+  },
+  {
+   "id": "r5-0046",
+   "period": 8,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Norman Rockwell's painting The Problem We All Live With shows which six-year-old being escorted by U.S. marshals to a New Orleans school in 1960?",
+   "options": [
+    "Elizabeth Eckford",
+    "Ruby Bridges",
+    "Linda Brown",
+    "Autherine Lucy"
+   ],
+   "answer": 1,
+   "explain": "Ruby Bridges integrated William Frantz Elementary School in November 1960; Rockwell's painting appeared in Look magazine in 1964."
+  },
+  {
+   "id": "r5-0047",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which 1947 federal appeals court decision ended the segregation of Mexican American children in Orange County, California, schools?",
+   "options": [
+    "Hernandez v. Texas",
+    "Mendez v. Westminster",
+    "Sweatt v. Painter",
+    "Lau v. Nichols"
+   ],
+   "answer": 1,
+   "explain": "The Mendez ruling led California to repeal school segregation laws in 1947; Thurgood Marshall filed a brief in the case."
+  },
+  {
+   "id": "r5-0048",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Hernandez v. Texas (1954), the Supreme Court ruled that the Fourteenth Amendment protected Mexican Americans against what?",
+   "options": [
+    "Segregation in public schools",
+    "Poll taxes in state elections",
+    "Systematic exclusion from juries",
+    "Deportation without a hearing"
+   ],
+   "answer": 2,
+   "explain": "The Court found that no Mexican American had served on a jury in Jackson County, Texas, in 25 years and overturned Pete Hernandez's conviction."
+  },
+  {
+   "id": "r5-0049",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "King's first book, published in 1958, told the story of the Montgomery bus boycott. What was its title?",
+   "options": [
+    "Stride Toward Freedom",
+    "Strength to Love",
+    "The Trumpet of Conscience",
+    "Where Do We Go from Here"
+   ],
+   "answer": 0,
+   "explain": "Stride Toward Freedom: The Montgomery Story described the boycott and King's ideas on nonviolence."
+  },
+  {
+   "id": "r5-0050",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "King was born in 1929 on Atlanta's Auburn Avenue, a thriving Black business and church district known by what nickname?",
+   "options": [
+    "Bronzeville",
+    "Jackson Ward",
+    "Sweet Auburn",
+    "Greenwood"
+   ],
+   "answer": 2,
+   "explain": "Sweet Auburn held Black-owned banks, insurance firms and Ebenezer Baptist Church; Bronzeville, Jackson Ward and Greenwood were in other cities."
+  },
+  {
+   "id": "r5-0051",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Gilbert Tennent's 1740 sermon The Danger of an Unconverted Ministry attacked whom?",
+   "options": [
+    "Catholic priests serving in French Canada",
+    "Ministers who had never had a personal conversion experience",
+    "Quaker meetings that had no paid clergy",
+    "Deists who denied the Bible's miracles"
+   ],
+   "answer": 1,
+   "explain": "Tennent, a New Light Presbyterian, said ministers without a felt conversion were unfit to preach, deepening Great Awakening splits."
+  },
+  {
+   "id": "r5-0052",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Revivalist Charles Grandison Finney seated people wrestling with conversion on a front pew called what?",
+   "options": [
+    "The penitent's stool",
+    "The amen corner",
+    "The anxious bench",
+    "The sawdust trail"
+   ],
+   "answer": 2,
+   "explain": "The anxious bench was one of Finney's 'new measures,' along with protracted meetings and letting women pray aloud in mixed groups."
+  },
+  {
+   "id": "r5-0053",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Why did western New York earn the nickname 'burned-over district' in the early 1800s?",
+   "options": [
+    "Forest fires had cleared much of its land for farms",
+    "Settlers had burned the towns of Seneca villages there",
+    "Canal boats brought frequent fires to its towns",
+    "Revivals swept it so often that few were left to convert"
+   ],
+   "answer": 3,
+   "explain": "Waves of Second Great Awakening revivals, plus new movements such as Mormonism and Millerism, gave the region its name."
+  },
+  {
+   "id": "r5-0054",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "The 1801 Cane Ridge camp meeting, which drew thousands to days of emotional preaching, took place in which state?",
+   "options": [
+    "Kentucky",
+    "Tennessee",
+    "Ohio",
+    "Virginia"
+   ],
+   "answer": 0,
+   "explain": "Cane Ridge, in Bourbon County, Kentucky, became a landmark of the Second Great Awakening on the frontier."
+  },
+  {
+   "id": "r5-0055",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which religious community, led in America by Mother Ann Lee, practiced celibacy, shared property and worshiped with dancing?",
+   "options": [
+    "The Amish",
+    "The Shakers",
+    "The Oneida Community",
+    "The Moravians"
+   ],
+   "answer": 1,
+   "explain": "The United Society of Believers in Christ's Second Appearing, called Shakers, grew to about 20 villages by the mid-1800s."
+  },
+  {
+   "id": "r5-0056",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Mormon founder Joseph Smith was killed by a mob in 1844 while held in a jail in which state?",
+   "options": [
+    "Missouri",
+    "Illinois",
+    "Ohio",
+    "Iowa"
+   ],
+   "answer": 1,
+   "explain": "Smith was killed at the jail in Carthage, Illinois; Brigham Young then led many Latter-day Saints west to the Great Salt Lake."
+  },
+  {
+   "id": "r5-0057",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Charles Sheldon's 1896 Social Gospel novel In His Steps popularized which question as a guide for daily life?",
+   "options": [
+    "Am I my brother's keeper?",
+    "What would Jesus do?",
+    "What must I do to be saved?",
+    "Who is my neighbor?"
+   ],
+   "answer": 1,
+   "explain": "In His Steps, one of the best-selling novels of its era, urged Christians to apply Jesus's example to social problems."
+  },
+  {
+   "id": "r5-0058",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Which Chicago evangelist drew huge crowds to urban revivals in the 1870s with gospel singer Ira Sankey?",
+   "options": [
+    "Dwight L. Moody",
+    "Billy Sunday",
+    "Henry Ward Beecher",
+    "Charles Finney"
+   ],
+   "answer": 0,
+   "explain": "Moody and Sankey held revivals in Britain and American cities; Moody also founded what became the Moody Bible Institute."
+  },
+  {
+   "id": "r5-0059",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which religious movement did Mary Baker Eddy found in 1879, teaching that prayer could heal illness?",
+   "options": [
+    "Seventh-day Adventism",
+    "Jehovah's Witnesses",
+    "Christian Science",
+    "Pentecostalism"
+   ],
+   "answer": 2,
+   "explain": "Eddy set out her ideas in Science and Health (1875) and founded the Church of Christ, Scientist, in Boston in 1879."
+  },
+  {
+   "id": "r5-0060",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "Congress passed the Religious Freedom Restoration Act of 1993 mainly in response to which Supreme Court ruling involving Native American peyote use?",
+   "options": [
+    "Wisconsin v. Yoder",
+    "Lemon v. Kurtzman",
+    "Employment Division v. Smith",
+    "Reynolds v. United States"
+   ],
+   "answer": 2,
+   "explain": "Smith (1990) held that general laws need not exempt religious practice; RFRA required a compelling interest test instead."
+  },
+  {
+   "id": "r5-0061",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In Lee v. Weisman (1992), the Supreme Court ruled that public schools could not do what?",
+   "options": [
+    "Let student religious clubs meet after school",
+    "Teach about world religions in history classes",
+    "Have clergy lead prayers at graduation ceremonies",
+    "Close for holidays such as Christmas"
+   ],
+   "answer": 2,
+   "explain": "The Court held 5-4 that a rabbi's prayer at a Providence middle school graduation violated the Establishment Clause."
+  },
+  {
+   "id": "r5-0062",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which anti-Catholic organization, founded in Iowa in 1887, tried to keep Catholics out of jobs and public office?",
+   "options": [
+    "The American Protective Association",
+    "The Know-Nothing Party",
+    "The Immigration Restriction League",
+    "The Order of the Star-Spangled Banner"
+   ],
+   "answer": 0,
+   "explain": "The APA peaked in the mid-1890s; the Know-Nothings and the Order of the Star-Spangled Banner were 1850s groups."
+  },
+  {
+   "id": "r5-0063",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which short-lived agency of 1933-34 put about 4 million people to work during a single winter on roads, schools and parks?",
+   "options": [
+    "The Civil Works Administration",
+    "The Public Works Administration",
+    "The National Youth Administration",
+    "The Works Progress Administration"
+   ],
+   "answer": 0,
+   "explain": "The CWA, run by Harry Hopkins, hired workers quickly for the winter of 1933-34 and was shut down in the spring of 1934."
+  },
+  {
+   "id": "r5-0064",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which 1933 New Deal agency gave federal grants to the states to fund relief for the unemployed?",
+   "options": [
+    "The Federal Emergency Relief Administration",
+    "The Home Owners' Loan Corporation",
+    "The Farm Credit Administration",
+    "The Tennessee Valley Authority"
+   ],
+   "answer": 0,
+   "explain": "FERA gave about $3 billion in grants for relief and work projects before the WPA took over much of its role in 1935."
+  },
+  {
+   "id": "r5-0065",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Indian Reorganization Act of 1934, promoted by Commissioner John Collier, ended which earlier policy?",
+   "options": [
+    "Removing eastern tribes west of the Mississippi",
+    "Dividing reservations into individual allotments",
+    "Paying tribes for lands taken by treaty",
+    "Granting citizenship to Native Americans"
+   ],
+   "answer": 1,
+   "explain": "The 'Indian New Deal' halted allotment under the Dawes Act and encouraged tribes to adopt constitutions and self-government."
+  },
+  {
+   "id": "r5-0066",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The Fair Labor Standards Act of 1938 set the first federal minimum wage at what rate?",
+   "options": [
+    "25 cents an hour",
+    "10 cents an hour",
+    "50 cents an hour",
+    "75 cents an hour"
+   ],
+   "answer": 0,
+   "explain": "The act also limited the workweek, moving to 40 hours by 1940, and restricted child labor."
+  },
+  {
+   "id": "r5-0067",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In 1941 the Bonneville Power Administration hired which folk singer to write songs promoting dams on the Columbia River?",
+   "options": [
+    "Pete Seeger",
+    "Lead Belly",
+    "Burl Ives",
+    "Woody Guthrie"
+   ],
+   "answer": 3,
+   "explain": "Guthrie wrote 26 songs in a month, including 'Roll On, Columbia' and 'Grand Coulee Dam.'"
+  },
+  {
+   "id": "r5-0068",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Columbia professors Raymond Moley, Rexford Tugwell and Adolf Berle were part of FDR's circle of advisers known by what nickname?",
+   "options": [
+    "The Kitchen Cabinet",
+    "The Ohio Gang",
+    "The Brain Trust",
+    "The Wise Men"
+   ],
+   "answer": 2,
+   "explain": "The Brain Trust helped shape Roosevelt's 1932 campaign and early New Deal; the Kitchen Cabinet was Andrew Jackson's."
+  },
+  {
+   "id": "r5-0069",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The Civilian Conservation Corps, nicknamed 'Roosevelt's Tree Army,' enrolled mainly which group?",
+   "options": [
+    "Young unmarried men from families on relief",
+    "Older farmers who had lost their land",
+    "Women whose husbands were out of work",
+    "Skilled craftsmen in the building trades"
+   ],
+   "answer": 0,
+   "explain": "CCC enrollees lived in camps, sent most of their $30 monthly pay home and planted billions of trees."
+  },
+  {
+   "id": "r5-0070",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Who was the first chairman of the Securities and Exchange Commission, created in 1934?",
+   "options": [
+    "Bernard Baruch",
+    "Henry Morgenthau Jr.",
+    "James Landis",
+    "Joseph P. Kennedy"
+   ],
+   "answer": 3,
+   "explain": "Roosevelt picked Wall Street insider Joseph Kennedy, father of John F. Kennedy, to set up the new stock market regulator."
+  },
+  {
+   "id": "r5-0071",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which song became Franklin Roosevelt's campaign theme in 1932 and a lasting Democratic anthem?",
+   "options": [
+    "Brother, Can You Spare a Dime?",
+    "Happy Days Are Here Again",
+    "God Bless America",
+    "We're in the Money"
+   ],
+   "answer": 1,
+   "explain": "Played at the 1932 Democratic convention, 'Happy Days Are Here Again' became linked to Roosevelt and his party."
+  },
+  {
+   "id": "r5-0072",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 3,
+   "q": "As governor of New York in 1931, Roosevelt set up the Temporary Emergency Relief Administration, the first state agency of its kind. What did it do?",
+   "options": [
+    "Insured savings deposits in state banks",
+    "Gave aid and work to unemployed New Yorkers",
+    "Bought surplus crops from upstate farmers",
+    "Built public power plants on state rivers"
+   ],
+   "answer": 1,
+   "explain": "TERA, led by Harry Hopkins, was the first state relief agency of the Depression and a model for the New Deal."
+  },
+  {
+   "id": "r5-0073",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "What was the main job of the Federal Housing Administration, created in 1934?",
+   "options": [
+    "Building public housing for poor families",
+    "Insuring long-term mortgages made by private lenders",
+    "Setting rent limits in big cities",
+    "Lending money to build rural electric lines"
+   ],
+   "answer": 1,
+   "explain": "FHA insurance made 20- to 30-year mortgages with small down payments common, though its rules also promoted redlining."
+  },
+  {
+   "id": "r5-0074",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Roosevelt's lifelong home in Hyde Park, New York, where he is buried in the rose garden, is called what?",
+   "options": [
+    "Sagamore Hill",
+    "Warm Springs",
+    "Springwood",
+    "Campobello"
+   ],
+   "answer": 2,
+   "explain": "Springwood overlooks the Hudson; Sagamore Hill was Theodore Roosevelt's home and Campobello was FDR's summer retreat."
+  },
+  {
+   "id": "r5-0075",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "Which New Deal arts program, directed by Hallie Flanagan, was ended by Congress in 1939 amid charges of communist influence?",
+   "options": [
+    "The Federal Theatre Project",
+    "The Federal Writers' Project",
+    "The Federal Art Project",
+    "The Federal Music Project"
+   ],
+   "answer": 0,
+   "explain": "The Federal Theatre Project staged plays for millions; it was the only Federal One arts project Congress abolished outright, while the others continued under state sponsorship."
+  },
+  {
+   "id": "r5-0076",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Washington's only voyage outside mainland North America, in 1751, took him to which Caribbean island, where he survived smallpox?",
+   "options": [
+    "Jamaica",
+    "Antigua",
+    "Barbados",
+    "Bermuda"
+   ],
+   "answer": 2,
+   "explain": "Washington went with his ill half brother Lawrence; surviving smallpox there left him immune during the Revolution."
+  },
+  {
+   "id": "r5-0077",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "identity"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 2,
+   "q": "Mount Vernon was named by Washington's half brother Lawrence in honor of whom?",
+   "options": [
+    "A Virginia governor who granted the land",
+    "The family's ancestral village in England",
+    "A British admiral he had served under",
+    "A minister who had baptized the brothers"
+   ],
+   "answer": 2,
+   "explain": "Lawrence Washington served under Admiral Edward Vernon in the 1741 attack on Cartagena and renamed the estate for him."
+  },
+  {
+   "id": "r5-0078",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Contrary to a popular legend, George Washington's false teeth were never made of what material?",
+   "options": [
+    "Wood",
+    "Ivory",
+    "Human teeth",
+    "Lead"
+   ],
+   "answer": 0,
+   "explain": "His dentures used ivory, human and animal teeth, and metals such as lead; wood was not used."
+  },
+  {
+   "id": "r5-0079",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "In 1797 Washington started what business at Mount Vernon, which soon became one of the largest of its kind in America?",
+   "options": [
+    "A tobacco warehouse",
+    "A whiskey distillery",
+    "An iron foundry",
+    "A glass factory"
+   ],
+   "answer": 1,
+   "explain": "By 1799 the distillery made about 11,000 gallons, run largely by enslaved workers."
+  },
+  {
+   "id": "r5-0080",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "In the 1760s Washington shifted Mount Vernon's main cash crop from tobacco to what?",
+   "options": [
+    "Rice",
+    "Wheat",
+    "Indigo",
+    "Cotton"
+   ],
+   "answer": 1,
+   "explain": "Tobacco wore out the soil and kept him in debt to British merchants; wheat could be milled into flour and sold locally."
+  },
+  {
+   "id": "r5-0081",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Why was the Washington Monument built a bit east and south of the spot where the White House and Capitol axes cross?",
+   "options": [
+    "The ground at the planned site was too soft and marshy",
+    "A railroad depot already stood on the planned site",
+    "Congress wanted a clearer view from the Potomac",
+    "Robert Mills's design needed a natural hilltop"
+   ],
+   "answer": 0,
+   "explain": "Builders moved the site to firmer ground; this is why the monument sits slightly off the Mall's main axes."
+  },
+  {
+   "id": "r5-0082",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "A small granite marker near the Washington Monument shows the original crossing point of the White House and Capitol axes. What is it called?",
+   "options": [
+    "The Zero Milestone",
+    "The Ellicott Stone",
+    "The Jefferson Pier",
+    "The Federal Boundary Stone"
+   ],
+   "answer": 2,
+   "explain": "The Jefferson Pier stone, replaced in 1889, marks where L'Enfant's axes cross; the Zero Milestone is a separate marker at the north edge of the Ellipse."
+  },
+  {
+   "id": "r5-0083",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "Who served as the first president of the Washington National Monument Society, founded in 1833?",
+   "options": [
+    "Senator Daniel Webster",
+    "Chief Justice John Marshall",
+    "Senator Henry Clay",
+    "Former President John Quincy Adams"
+   ],
+   "answer": 1,
+   "explain": "Marshall headed the society until his death in 1835; James Madison then took over the post."
+  },
+  {
+   "id": "r5-0084",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 2,
+   "q": "What Latin phrase, meaning 'Praise be to God,' is inscribed on the aluminum cap of the Washington Monument?",
+   "options": [
+    "E Pluribus Unum",
+    "Annuit Coeptis",
+    "Novus Ordo Seclorum",
+    "Laus Deo"
+   ],
+   "answer": 3,
+   "explain": "The phrase is on the east face of the cap set in December 1884; the other mottoes appear on the Great Seal."
+  },
+  {
+   "id": "r5-0085",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument",
+    "smithsonian-american-history",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "Horatio Greenough's 1840 statue of Washington, mocked for showing him bare-chested in a toga like Zeus, was moved out of which building?",
+   "options": [
+    "The Capitol Rotunda",
+    "The White House",
+    "The Patent Office",
+    "The Treasury Building"
+   ],
+   "answer": 0,
+   "explain": "The heavy statue was moved to the Capitol grounds in 1843 and to the Smithsonian in 1908; it is now at the National Museum of American History."
+  },
+  {
+   "id": "r5-0086",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Jefferson won a gold medal from a French agricultural society for designing an improved version of what farm tool?",
+   "options": [
+    "The moldboard of a plow",
+    "A wheat threshing machine",
+    "A seed drill",
+    "A grain cradle"
+   ],
+   "answer": 0,
+   "explain": "Jefferson worked out a 'moldboard of least resistance' using mathematics so the plow turned soil with less effort."
+  },
+  {
+   "id": "r5-0087",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In Notes on the State of Virginia, Jefferson rebutted which French naturalist's claim that American animals were smaller and weaker than Europe's?",
+   "options": [
+    "The Comte de Buffon",
+    "Jean-Jacques Rousseau",
+    "Antoine Lavoisier",
+    "Georges Cuvier"
+   ],
+   "answer": 0,
+   "explain": "Jefferson listed the weights of American animals and later had a moose skeleton sent to Buffon in Paris."
+  },
+  {
+   "id": "r5-0088",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which Army officer led an 1806-07 expedition into the Southwest during Jefferson's presidency and was arrested by Spanish authorities?",
+   "options": [
+    "Stephen Long",
+    "John C. Fremont",
+    "Zebulon Pike",
+    "William Clark"
+   ],
+   "answer": 2,
+   "explain": "Pike explored the Arkansas River and Colorado, where Pikes Peak bears his name, before Spanish troops took him to Chihuahua."
+  },
+  {
+   "id": "r5-0089",
+   "period": 4,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "A 1998 DNA study, supported by later historical research, linked Thomas Jefferson to the children of which enslaved woman at Monticello?",
+   "options": [
+    "Elizabeth Hemings",
+    "Ursula Granger",
+    "Ona Judge",
+    "Sally Hemings"
+   ],
+   "answer": 3,
+   "explain": "Most historians, and Monticello, now accept that Jefferson fathered Sally Hemings's six children, four of whom survived."
+  },
+  {
+   "id": "r5-0090",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "What did enslaved boys at Monticello produce in a workshop Jefferson set up in 1794 to bring in cash income?",
+   "options": [
+    "Barrels",
+    "Bricks",
+    "Candles",
+    "Nails"
+   ],
+   "answer": 3,
+   "explain": "Boys aged about 10 to 16 worked in the Monticello nailery, which sold nails to neighbors and builders."
+  },
+  {
+   "id": "r5-0091",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Jefferson described the growing United States, enlarged by the Louisiana Purchase, with what phrase?",
+   "options": [
+    "A city upon a hill",
+    "An arsenal of democracy",
+    "A new Jerusalem",
+    "An empire of liberty"
+   ],
+   "answer": 3,
+   "explain": "Jefferson used 'empire of liberty' to describe a republic of farmers spreading across the continent."
+  },
+  {
+   "id": "r5-0092",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Jefferson called which three thinkers 'the three greatest men that have ever lived, without any exception'?",
+   "options": [
+    "Francis Bacon, Isaac Newton and John Locke",
+    "Plato, Cicero and Montesquieu",
+    "John Locke, David Hume and Adam Smith",
+    "Isaac Newton, Voltaire and Rousseau"
+   ],
+   "answer": 0,
+   "explain": "Jefferson kept portraits of Bacon, Newton and Locke at Monticello as his trinity of Enlightenment heroes."
+  },
+  {
+   "id": "r5-0093",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "From 1797 to 1814 Jefferson was president of which Philadelphia learned society founded by Benjamin Franklin?",
+   "options": [
+    "The Library Company of Philadelphia",
+    "The American Philosophical Society",
+    "The American Academy of Arts and Sciences",
+    "The Royal Society of Arts"
+   ],
+   "answer": 1,
+   "explain": "Jefferson led the society while he was vice president and president, and used its members to plan the Lewis and Clark expedition."
+  },
+  {
+   "id": "r5-0094",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "The Tidal Basin beside the Jefferson Memorial was created in the 1880s mainly for what purpose?",
+   "options": [
+    "To store drinking water for the city",
+    "To hold ships waiting for the Navy Yard",
+    "To water the gardens on the Mall",
+    "To flush the Washington Channel with each tide"
+   ],
+   "answer": 3,
+   "explain": "Gates let tidewater fill the basin and then released it to scour silt from the Washington Channel."
+  },
+  {
+   "id": "r5-0095",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Around 1801 Jefferson promoted which new medical practice by testing it on members of his household?",
+   "options": [
+    "Bloodletting to cure yellow fever",
+    "Quinine treatment for malaria",
+    "Vaccination against smallpox with cowpox",
+    "Ether anesthesia for surgery"
+   ],
+   "answer": 2,
+   "explain": "Jefferson oversaw vaccination of about 200 enslaved people, relatives and neighbors and later praised Edward Jenner in an 1806 letter."
+  },
+  {
+   "id": "r5-0096",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Jefferson wrote that which 1820 crisis 'like a fire bell in the night, awakened and filled me with terror'?",
+   "options": [
+    "The panic and bank failures of 1819",
+    "The tariff dispute with South Carolina",
+    "The contested election of John Quincy Adams",
+    "The fight over admitting Missouri as a slave state"
+   ],
+   "answer": 3,
+   "explain": "Jefferson feared that drawing a geographic line on slavery would one day split the Union."
+  },
+  {
+   "id": "r5-0097",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In early 1942 German U-boats sank many ships off the U.S. East Coast, helped at first by what?",
+   "options": [
+    "Radar stations captured from the British",
+    "Spies signaling from lighthouses",
+    "Ice fields that slowed escort ships",
+    "Coastal city lights that outlined ships at night"
+   ],
+   "answer": 3,
+   "explain": "Until blackouts were enforced, glow from towns such as Miami and Atlantic City silhouetted tankers for U-boat crews."
+  },
+  {
+   "id": "r5-0098",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "After U.S. and Filipino troops on the Bataan Peninsula surrendered in April 1942, thousands died during what?",
+   "options": [
+    "A Japanese bombing of Manila",
+    "The sinking of their rescue ships",
+    "A cholera outbreak in Corregidor",
+    "A forced march to prison camps"
+   ],
+   "answer": 3,
+   "explain": "On the Bataan Death March, tens of thousands of prisoners were forced to walk about 65 miles under brutal conditions."
+  },
+  {
+   "id": "r5-0099",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "The Battle of the Coral Sea in May 1942 was the first naval battle in which what happened?",
+   "options": [
+    "The opposing ships never sighted each other",
+    "A submarine sank an enemy battleship",
+    "Radar was used to find enemy ships",
+    "Jet aircraft fought one another"
+   ],
+   "answer": 0,
+   "explain": "Carrier planes did all the fighting at Coral Sea, which halted Japan's move toward Port Moresby."
+  },
+  {
+   "id": "r5-0100",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "The October 1944 Battle of Leyte Gulf, often called the largest naval battle in history, saw the first organized use of what Japanese tactic?",
+   "options": [
+    "Midget submarine raids",
+    "Balloon bombs on the U.S.",
+    "Kamikaze suicide air attacks",
+    "Night torpedo boat strikes"
+   ],
+   "answer": 2,
+   "explain": "Japanese pilots deliberately crashed planes into U.S. ships at Leyte Gulf, a tactic used heavily at Okinawa."
+  },
+  {
+   "id": "r5-0101",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which 1945 battle, the last major campaign of the Pacific war, was fought on an island in Japan's Ryukyu chain?",
+   "options": [
+    "Iwo Jima",
+    "Saipan",
+    "Peleliu",
+    "Okinawa"
+   ],
+   "answer": 3,
+   "explain": "The Okinawa campaign lasted from April to June 1945 and cost more than 12,000 American lives and many more Japanese and Okinawan ones."
+  },
+  {
+   "id": "r5-0103",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which federal agency, created in 1942, coordinated government news, posters and radio messages to build support for the war?",
+   "options": [
+    "The Committee on Public Information",
+    "The Office of War Information",
+    "The Office of Strategic Services",
+    "The Office of Censorship"
+   ],
+   "answer": 1,
+   "explain": "The OWI ran domestic and overseas propaganda; the Committee on Public Information had done similar work in World War I."
+  },
+  {
+   "id": "r5-0104",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In January 1944 the Allies landed at which Italian town, hoping to outflank German lines and speed the advance on Rome?",
+   "options": [
+    "Salerno",
+    "Taranto",
+    "Messina",
+    "Anzio"
+   ],
+   "answer": 3,
+   "explain": "The Anzio beachhead was hemmed in for months; Allied troops finally entered Rome on June 4, 1944."
+  },
+  {
+   "id": "r5-0105",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "U.S. troops suffered their first major defeat by German forces in February 1943 at which mountain pass in Tunisia?",
+   "options": [
+    "El Alamein",
+    "Tobruk",
+    "Bastogne",
+    "Kasserine Pass"
+   ],
+   "answer": 3,
+   "explain": "Rommel's attack at Kasserine Pass exposed U.S. inexperience; George Patton took over II Corps soon afterward."
+  },
+  {
+   "id": "r5-0106",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In March 1945 U.S. troops seized an intact bridge across the Rhine River at which German town?",
+   "options": [
+    "Arnhem",
+    "Remagen",
+    "Nijmegen",
+    "Cologne"
+   ],
+   "answer": 1,
+   "explain": "The capture of the Ludendorff Bridge at Remagen let Allied troops cross the Rhine before it collapsed ten days later."
+  },
+  {
+   "id": "r5-0107",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Most Japanese civilians first heard their emperor's voice on August 15, 1945, when he announced what by radio?",
+   "options": [
+    "That Japan had declared war on the Soviet Union",
+    "That Japan would accept the Allied surrender terms",
+    "That Tokyo would be evacuated at once",
+    "That he would give up the throne"
+   ],
+   "answer": 1,
+   "explain": "Hirohito's recorded broadcast told Japanese to 'endure the unendurable'; the formal surrender came September 2."
+  },
+  {
+   "id": "r5-0108",
+   "period": 7,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which Texas-born soldier, among the most decorated Americans of World War II and later a Hollywood actor, is buried at Arlington?",
+   "options": [
+    "Alvin York",
+    "Jimmy Stewart",
+    "Clark Gable",
+    "Audie Murphy"
+   ],
+   "answer": 3,
+   "explain": "Murphy won the Medal of Honor in France in 1945 and starred in films such as To Hell and Back; his Arlington grave is among its most visited."
+  },
+  {
+   "id": "r5-0109",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 2,
+   "q": "At Tarawa in November 1943, many Marines were killed wading ashore because of what?",
+   "options": [
+    "Typhoon winds capsized their transports",
+    "Minefields closed the only good beach",
+    "Low tides left landing craft stuck on coral reefs",
+    "Fog hid the beach from naval gunners"
+   ],
+   "answer": 2,
+   "explain": "Higgins boats grounded on the reef, so Marines waded hundreds of yards under fire; amphibious tractors proved their worth."
+  },
+  {
+   "id": "r5-0110",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Capturing Saipan, Tinian and Guam in 1944 mattered to U.S. strategy mainly because these islands provided what?",
+   "options": [
+    "Oil fields to fuel the Pacific Fleet",
+    "Bases for B-29 bombers within range of Japan",
+    "Harbors for an invasion of China",
+    "Rubber plantations for war industry"
+   ],
+   "answer": 1,
+   "explain": "From the Marianas, B-29s bombed Japanese cities; the Enola Gay flew from Tinian in August 1945."
+  },
+  {
+   "id": "r5-0111",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "In February 1943 four Army chaplains of different faiths gave their life jackets to others and went down with which torpedoed troop ship?",
+   "options": [
+    "The USAT Dorchester",
+    "The USS Indianapolis",
+    "The USS Reuben James",
+    "The USS Arizona"
+   ],
+   "answer": 0,
+   "explain": "The Four Chaplains, two Protestants, a Catholic and a Jew, linked arms and prayed as the Dorchester sank off Greenland."
+  },
+  {
+   "id": "r5-0112",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "The first campus antiwar 'teach-in,' an all-night session of lectures and debates in March 1965, took place at which university?",
+   "options": [
+    "The University of Michigan",
+    "Columbia University",
+    "The University of California, Berkeley",
+    "Kent State University"
+   ],
+   "answer": 0,
+   "explain": "About 3,000 people attended the Ann Arbor teach-in, and the format spread to campuses across the country."
+  },
+  {
+   "id": "r5-0113",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In 1971 Vietnam Veterans Against the War held hearings in Detroit where veterans testified about atrocities. What were they called?",
+   "options": [
+    "The Winter Soldier Investigation",
+    "The Fulbright Hearings",
+    "The Peers Inquiry",
+    "The Church Committee"
+   ],
+   "answer": 0,
+   "explain": "The name echoed Thomas Paine's 'summer soldier'; John Kerry later drew on the testimony before the Senate."
+  },
+  {
+   "id": "r5-0114",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "On October 15, 1969, millions of Americans took part in which nationwide antiwar protest?",
+   "options": [
+    "The March on the Pentagon",
+    "Operation Dewey Canyon III",
+    "The Moratorium to End the War in Vietnam",
+    "The Spring Mobilization"
+   ],
+   "answer": 2,
+   "explain": "Moratorium Day brought school walkouts, vigils and rallies; a larger march in Washington followed in November."
+  },
+  {
+   "id": "r5-0115",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "The Case-Church Amendment of 1973 did what?",
+   "options": [
+    "Repealed the Gulf of Tonkin Resolution",
+    "Barred further U.S. military action in Indochina without Congress's approval",
+    "Ended the military draft",
+    "Granted amnesty to draft resisters"
+   ],
+   "answer": 1,
+   "explain": "The amendment, passed in June 1973, cut off funds for combat in Vietnam, Laos and Cambodia after August 15."
+  },
+  {
+   "id": "r5-0116",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Operation Babylift in April 1975 flew whom out of South Vietnam to the United States and other countries?",
+   "options": [
+    "Thousands of orphaned and displaced children",
+    "South Vietnamese government officials",
+    "American prisoners of war",
+    "Wounded South Vietnamese soldiers"
+   ],
+   "answer": 0,
+   "explain": "About 3,000 children were airlifted; the first flight, a C-5A, crashed after takeoff, killing more than 130 people."
+  },
+  {
+   "id": "r5-0117",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The costly May 1969 assault on Ap Bia Mountain near the Laotian border became known by what nickname?",
+   "options": [
+    "Pork Chop Hill",
+    "Heartbreak Ridge",
+    "Hamburger Hill",
+    "Hill 881"
+   ],
+   "answer": 2,
+   "explain": "U.S. troops took the hill after ten days and then abandoned it, fueling criticism in Congress and the press."
+  },
+  {
+   "id": "r5-0118",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "North Vietnam's large conventional invasion of South Vietnam in spring 1972 is known as what?",
+   "options": [
+    "The Tet Offensive",
+    "Operation Linebacker",
+    "The Ho Chi Minh Campaign",
+    "The Easter Offensive"
+   ],
+   "answer": 3,
+   "explain": "South Vietnamese forces, backed by U.S. air power in Operation Linebacker, stopped the offensive by the fall of 1972."
+  },
+  {
+   "id": "r5-0119",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "The Agent Orange Act of 1991 helped Vietnam veterans by doing what?",
+   "options": [
+    "Presuming that certain diseases were linked to herbicide exposure",
+    "Paying every veteran a one-time cash bonus",
+    "Banning herbicide spraying on U.S. farms",
+    "Paying for the Vietnam Veterans Memorial"
+   ],
+   "answer": 0,
+   "explain": "The law let the VA treat listed illnesses as service-connected without each veteran proving exposure caused them."
+  },
+  {
+   "id": "r5-0120",
+   "period": 8,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The black-and-white POW/MIA flag was designed in 1971 for which group?",
+   "options": [
+    "The Veterans of Foreign Wars",
+    "The American Legion",
+    "The National League of POW/MIA Families",
+    "Vietnam Veterans of America"
+   ],
+   "answer": 2,
+   "explain": "League member Mary Hoff, whose husband was missing, pushed for the flag; Congress recognized it in 1990."
+  },
+  {
+   "id": "r5-0121",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Journalist Ruben Salazar was killed during which August 1970 Los Angeles antiwar protest?",
+   "options": [
+    "The National Chicano Moratorium",
+    "The Delano grape strike",
+    "The East Los Angeles walkouts",
+    "The Poor People's March"
+   ],
+   "answer": 0,
+   "explain": "Chicano activists protested high Mexican American casualties in Vietnam; a sheriff's deputy's tear gas projectile killed Salazar."
+  },
+  {
+   "id": "r5-0122",
+   "period": 6,
+   "themes": [
+    "identity",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "What role did James Parks, born enslaved on the Arlington estate, later have at the national cemetery?",
+   "options": [
+    "He designed the Memorial Amphitheater",
+    "He served as the first superintendent",
+    "He guarded the Tomb of the Unknown Soldier",
+    "He dug graves and worked there for decades"
+   ],
+   "answer": 3,
+   "explain": "Parks worked at the cemetery for about 60 years and, when he died in 1929, was buried there by special permission."
+  },
+  {
+   "id": "r5-0123",
+   "period": 5,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "When Union troops occupied Arlington House in 1861, which enslaved housekeeper protected heirlooms that had belonged to George Washington?",
+   "options": [
+    "Ona Judge",
+    "Selina Gray",
+    "Elizabeth Keckley",
+    "Sally Hemings"
+   ],
+   "answer": 1,
+   "explain": "Mary Custis Lee left the keys with Selina Gray, who reported soldiers' looting to General Irvin McDowell."
+  },
+  {
+   "id": "r5-0124",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which heavyweight boxing champion, who served in the Army during World War II, was buried at Arlington in 1981?",
+   "options": [
+    "Jack Johnson",
+    "Joe Louis",
+    "Muhammad Ali",
+    "Jack Dempsey"
+   ],
+   "answer": 1,
+   "explain": "President Reagan waived eligibility rules so Louis, champion from 1937 to 1949, could be buried at Arlington."
+  },
+  {
+   "id": "r5-0126",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "fords-theatre"
+   ],
+   "difficulty": 1,
+   "q": "Which son of Abraham Lincoln, a former secretary of war, is buried at Arlington rather than in the family tomb in Springfield?",
+   "options": [
+    "Robert Todd Lincoln",
+    "Tad Lincoln",
+    "Willie Lincoln",
+    "Eddie Lincoln"
+   ],
+   "answer": 0,
+   "explain": "Robert Todd Lincoln, war secretary under Garfield and Arthur, died in 1926; his widow chose Arlington."
+  },
+  {
+   "id": "r5-0127",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "A memorial cairn at Arlington honors the 270 people killed in 1988 when a terrorist bomb destroyed which airliner over Lockerbie, Scotland?",
+   "options": [
+    "Pan Am Flight 103",
+    "TWA Flight 800",
+    "Korean Air Lines Flight 007",
+    "Air India Flight 182"
+   ],
+   "answer": 0,
+   "explain": "The cairn is built of 270 Scottish stones, one for each victim; 189 of those killed were Americans."
+  },
+  {
+   "id": "r5-0128",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The Women in Military Service for America Memorial, dedicated in 1997, stands where?",
+   "options": [
+    "Beside the Vietnam Veterans Memorial",
+    "In the courtyard of the Pentagon",
+    "At the U.S. Naval Academy",
+    "At the ceremonial entrance to Arlington National Cemetery"
+   ],
+   "answer": 3,
+   "explain": "The memorial was built into the semicircular Hemicycle wall at the cemetery's gateway, dating from the 1930s."
+  },
+  {
+   "id": "r5-0129",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Private Jacob Parrott became the first recipient of the Medal of Honor in 1863 for his part in which Civil War mission?",
+   "options": [
+    "The sinking of the ironclad CSS Albemarle",
+    "The Andrews Raid to steal a Confederate locomotive",
+    "The assault on Fort Wagner",
+    "The capture of Fort Donelson"
+   ],
+   "answer": 1,
+   "explain": "Union raiders seized the locomotive General in Georgia in 1862 to wreck a rail line; Parrott was later captured and beaten."
+  },
+  {
+   "id": "r5-0130",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 2,
+   "q": "Which Union veterans' organization, whose leader John A. Logan called for a national Decoration Day in 1868, became a force in Republican politics?",
+   "options": [
+    "The Union League",
+    "The Society of the Cincinnati",
+    "The Sons of Liberty",
+    "The Grand Army of the Republic"
+   ],
+   "answer": 3,
+   "explain": "The GAR peaked at over 400,000 members around 1890 and lobbied hard for veterans' pensions."
+  },
+  {
+   "id": "r5-0131",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "Arlington House, with its massive Greek Revival portico, was designed by which architect?",
+   "options": [
+    "Benjamin Latrobe",
+    "George Hadfield",
+    "Charles Bulfinch",
+    "William Thornton"
+   ],
+   "answer": 1,
+   "explain": "Hadfield, who also worked on the Capitol, designed the house for George Washington Parke Custis; it was finished in 1818."
+  },
+  {
+   "id": "r5-0132",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "What role did Black Jack, a horse buried at Fort Myer beside Arlington, play in the funerals of Presidents Hoover, Kennedy and Johnson?",
+   "options": [
+    "He pulled the caisson carrying the casket",
+    "He carried the officer leading the honor guard",
+    "He was the riderless horse in the procession",
+    "He led the mounted cavalry escort"
+   ],
+   "answer": 2,
+   "explain": "The riderless horse, with boots reversed in the stirrups, symbolizes a fallen leader; Black Jack served in more than 1,000 funerals."
+  },
+  {
+   "id": "r5-0133",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "Who selected the World War I Unknown Soldier in 1921 by placing white roses on one of four identical caskets?",
+   "options": [
+    "Corporal Alvin York",
+    "Sergeant Edward F. Younger",
+    "General John J. Pershing",
+    "Private William Christman"
+   ],
+   "answer": 1,
+   "explain": "Younger, a decorated soldier, made the choice at Chalons-sur-Marne; he is himself buried at Arlington."
+  },
+  {
+   "id": "r5-0134",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Which railroad, built by James J. Hill from Minnesota to Puget Sound, was finished in 1893 without federal land grants?",
+   "options": [
+    "The Northern Pacific",
+    "The Great Northern",
+    "The Union Pacific",
+    "The Canadian Pacific"
+   ],
+   "answer": 1,
+   "explain": "Hill's Great Northern reached Seattle in 1893 and survived that year's panic, when many land-grant lines went bankrupt."
+  },
+  {
+   "id": "r5-0135",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "The Railroad Safety Appliance Act of 1893 required trains to have air brakes and what other device, to protect railroad workers?",
+   "options": [
+    "Electric headlights",
+    "Steel passenger cars",
+    "Telegraph signal boxes",
+    "Automatic couplers"
+   ],
+   "answer": 3,
+   "explain": "Coupling cars by hand with links and pins had killed and maimed thousands of brakemen before the law took effect."
+  },
+  {
+   "id": "r5-0136",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Which city opened the first subway in the United States, in 1897?",
+   "options": [
+    "New York",
+    "Boston",
+    "Philadelphia",
+    "Chicago"
+   ],
+   "answer": 1,
+   "explain": "Boston's Tremont Street Subway opened in 1897 to get streetcars off crowded streets; New York's first subway line opened in 1904."
+  },
+  {
+   "id": "r5-0137",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Outrage over the 1963 demolition of which New York landmark helped launch the modern historic preservation movement?",
+   "options": [
+    "Pennsylvania Station",
+    "Grand Central Terminal",
+    "The Flatiron Building",
+    "The Ellis Island main hall"
+   ],
+   "answer": 0,
+   "explain": "The loss of McKim, Mead and White's station led to New York's Landmarks Preservation Commission in 1965."
+  },
+  {
+   "id": "r5-0138",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "wwii-memorial"
+   ],
+   "difficulty": 3,
+   "q": "During World War II, which slogan urged civilians to avoid crowding trains needed for troops and war freight?",
+   "options": [
+    "Loose lips sink ships",
+    "Use it up, wear it out",
+    "Is your trip necessary?",
+    "Do with less so they'll have more"
+   ],
+   "answer": 2,
+   "explain": "Railroads carried most wartime troop movements; government and railroad ads asked travelers to stay home."
+  },
+  {
+   "id": "r5-0139",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Which American-built locomotive began regular steam-powered passenger service in South Carolina on December 25, 1830?",
+   "options": [
+    "The Best Friend of Charleston",
+    "The Tom Thumb",
+    "The John Bull",
+    "The Stourbridge Lion"
+   ],
+   "answer": 0,
+   "explain": "The South Carolina Canal and Rail Road Company began service on December 25, 1830; the locomotive's boiler exploded the next year."
+  },
+  {
+   "id": "r5-0140",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Amtrak's Acela high-speed service, launched in 2000, runs on which route?",
+   "options": [
+    "The Pacific Surfliner route in California",
+    "The Northeast Corridor between Boston and Washington",
+    "The line from Chicago to St. Louis",
+    "The route from Los Angeles to Las Vegas"
+   ],
+   "answer": 1,
+   "explain": "Acela trains serve cities such as New York, Philadelphia and Baltimore, ending at Union Station in Washington."
+  },
+  {
+   "id": "r5-0141",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "When the first segment of Washington's Metrorail opened in 1976, which line did it serve, with a stop at Union Station?",
+   "options": [
+    "The Blue Line",
+    "The Orange Line",
+    "The Red Line",
+    "The Green Line"
+   ],
+   "answer": 2,
+   "explain": "Service began on March 27, 1976, on a short Red Line stretch from Farragut North to Rhode Island Avenue."
+  },
+  {
+   "id": "r5-0142",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Smithsonian Secretary Samuel Langley's Aerodrome plunged into which river in two failed launches in late 1903?",
+   "options": [
+    "The Hudson River",
+    "The Anacostia River",
+    "The Potomac River",
+    "The Delaware River"
+   ],
+   "answer": 2,
+   "explain": "Launched from a houseboat in October and December 1903, the Aerodrome crashed days before the Wrights flew at Kitty Hawk."
+  },
+  {
+   "id": "r5-0143",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 3,
+   "q": "Because of a dispute with the Smithsonian, where was the 1903 Wright Flyer exhibited from 1928 to 1948?",
+   "options": [
+    "The Franklin Institute in Philadelphia",
+    "The Henry Ford Museum in Michigan",
+    "The Musee de l'Air in Paris",
+    "The Science Museum in London"
+   ],
+   "answer": 3,
+   "explain": "Orville Wright objected to the Smithsonian crediting Langley's Aerodrome; the Flyer came to Washington after the Smithsonian corrected its claims."
+  },
+  {
+   "id": "r5-0144",
+   "period": 7,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Bessie Coleman, the first African American woman to earn a pilot's license, received it in 1921 in which country?",
+   "options": [
+    "France",
+    "Canada",
+    "England",
+    "Germany"
+   ],
+   "answer": 0,
+   "explain": "American flight schools turned her away, so Coleman learned French and trained in France; she became a stunt flier."
+  },
+  {
+   "id": "r5-0145",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "The Wright brothers fought a long patent battle over aircraft control with which rival aviator and engine builder?",
+   "options": [
+    "Octave Chanute",
+    "Glenn Curtiss",
+    "Samuel Langley",
+    "Alberto Santos-Dumont"
+   ],
+   "answer": 1,
+   "explain": "The suits over the Wrights' control system dragged on until World War I, when the government pushed a patent pool."
+  },
+  {
+   "id": "r5-0146",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Wernher von Braun, who later led design of the Saturn V rocket, came to the United States after World War II through which secret program?",
+   "options": [
+    "Operation Mongoose",
+    "Operation Ivy",
+    "Operation Paperclip",
+    "Operation Crossroads"
+   ],
+   "answer": 2,
+   "explain": "Paperclip brought more than 1,600 German scientists and engineers to the U.S., despite many members' Nazi pasts."
+  },
+  {
+   "id": "r5-0147",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "In June 1965, during Gemini 4, who became the first American to walk in space?",
+   "options": [
+    "John Young",
+    "Gus Grissom",
+    "Scott Carpenter",
+    "Ed White"
+   ],
+   "answer": 3,
+   "explain": "White spent about 20 minutes outside the capsule; he died in the Apollo 1 fire in 1967."
+  },
+  {
+   "id": "r5-0148",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "identity"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "In 1963, who became the first woman to travel into space?",
+   "options": [
+    "Sally Ride",
+    "Valentina Tereshkova",
+    "Svetlana Savitskaya",
+    "Jerrie Cobb"
+   ],
+   "answer": 1,
+   "explain": "The Soviet cosmonaut orbited Earth 48 times in Vostok 6; Sally Ride became the first American woman in space in 1983."
+  },
+  {
+   "id": "r5-0149",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "In 1992, aboard the space shuttle Endeavour, who became the first African American woman in space?",
+   "options": [
+    "Sally Ride",
+    "Eileen Collins",
+    "Mae Jemison",
+    "Christa McAuliffe"
+   ],
+   "answer": 2,
+   "explain": "Jemison, a physician and engineer, flew as a mission specialist on STS-47 in September 1992."
+  },
+  {
+   "id": "r5-0150",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "In 1983, which Air Force pilot became the first African American to fly in space?",
+   "options": [
+    "Guion Bluford",
+    "Ronald McNair",
+    "Frederick Gregory",
+    "Charles Bolden"
+   ],
+   "answer": 0,
+   "explain": "Bluford flew on Challenger's STS-8 mission in August 1983; McNair flew in 1984."
+  },
+  {
+   "id": "r5-0151",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "The twin Voyager probes launched in 1977 each carry what, in case they are ever found by other beings?",
+   "options": [
+    "A plaque listing every NASA astronaut by name",
+    "A sealed capsule of seeds from Earth's crops",
+    "A small sample of rock collected on the Moon",
+    "A gold-plated record of sounds and images from Earth"
+   ],
+   "answer": 3,
+   "explain": "The Golden Record, assembled by a team led by Carl Sagan, holds greetings in 55 languages, music and natural sounds."
+  },
+  {
+   "id": "r5-0152",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Mars Pathfinder, which landed in 1997, carried the first wheeled rover to operate on Mars. What was it named?",
+   "options": [
+    "Spirit",
+    "Curiosity",
+    "Sojourner",
+    "Opportunity"
+   ],
+   "answer": 2,
+   "explain": "Sojourner, named for Sojourner Truth, explored rocks near the landing site for about three months."
+  },
+  {
+   "id": "r5-0153",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Which wide-body airliner, nicknamed the 'jumbo jet,' entered passenger service with Pan Am in 1970?",
+   "options": [
+    "The Boeing 747",
+    "The Douglas DC-8",
+    "The Lockheed L-1011",
+    "The Boeing 727"
+   ],
+   "answer": 0,
+   "explain": "The 747 carried far more passengers than earlier jets, lowering fares and opening long-distance travel to many more people."
+  },
+  {
+   "id": "r5-0154",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 3,
+   "q": "In 1933, who became the first pilot to fly solo around the world, in the Lockheed Vega Winnie Mae?",
+   "options": [
+    "Howard Hughes",
+    "Charles Lindbergh",
+    "Jimmy Doolittle",
+    "Wiley Post"
+   ],
+   "answer": 3,
+   "explain": "Post flew about 15,600 miles in under eight days; the Winnie Mae is in the National Air and Space Museum."
+  },
+  {
+   "id": "r5-0155",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 3,
+   "q": "A 1956 midair collision over the Grand Canyon that killed 128 people helped lead Congress to create which agency in 1958?",
+   "options": [
+    "The Civil Aeronautics Board",
+    "The National Transportation Safety Board",
+    "The Transportation Security Administration",
+    "The Federal Aviation Agency"
+   ],
+   "answer": 3,
+   "explain": "The Federal Aviation Act of 1958 gave one agency control of air traffic and safety; it became the Federal Aviation Administration in 1967."
+  },
+  {
+   "id": "r5-0156",
+   "period": 8,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In 1962, federal marshals and troops enforced the enrollment of which Air Force veteran as the first Black student at the University of Mississippi?",
+   "options": [
+    "Medgar Evers",
+    "James Meredith",
+    "Vivian Malone",
+    "Harvey Gantt"
+   ],
+   "answer": 1,
+   "explain": "Riots on the Oxford campus left two people dead before Meredith enrolled; he graduated in 1963."
+  },
+  {
+   "id": "r5-0157",
+   "period": 8,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In February 1968, state highway patrolmen killed three Black students during a protest at South Carolina State College. What is the event called?",
+   "options": [
+    "The Jackson State killings",
+    "The Kent State shootings",
+    "The Orangeburg Massacre",
+    "The Glenville shootout"
+   ],
+   "answer": 2,
+   "explain": "The students had protested a segregated bowling alley; the shooting drew far less national attention than Kent State two years later."
+  },
+  {
+   "id": "r5-0158",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "identity"
+   ],
+   "stops": [
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In 1950, which diplomat became the first African American to win the Nobel Peace Prize, for mediating the 1949 Arab-Israeli armistice agreements?",
+   "options": [
+    "W. E. B. Du Bois",
+    "Walter White",
+    "Ralph Bunche",
+    "Thurgood Marshall"
+   ],
+   "answer": 2,
+   "explain": "Bunche, a UN official, also supported the civil rights movement and marched at Selma in 1965."
+  },
+  {
+   "id": "r5-0159",
+   "period": 8,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Alexander v. Holmes County Board of Education (1969), the Supreme Court ordered what?",
+   "options": [
+    "Busing within a single city to balance schools",
+    "An immediate end to segregated school systems",
+    "Equal funding for Black and white schools",
+    "A ban on private segregated academies"
+   ],
+   "answer": 1,
+   "explain": "The Court said 'all deliberate speed' was no longer acceptable and that districts must end dual systems at once."
+  },
+  {
+   "id": "r5-0160",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Which group, founded in 1853 by Ann Pamela Cunningham, bought Mount Vernon from the Washington family to preserve it?",
+   "options": [
+    "The Daughters of the American Revolution",
+    "The Society of the Cincinnati",
+    "The Washington National Monument Society",
+    "The Mount Vernon Ladies' Association"
+   ],
+   "answer": 3,
+   "explain": "The association raised $200,000 and took over the estate in 1860; it still owns and runs Mount Vernon."
+  },
+  {
+   "id": "r5-0161",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "Emanuel Leutze's famous 1851 painting Washington Crossing the Delaware was painted in which country?",
+   "options": [
+    "France",
+    "Germany",
+    "England",
+    "Italy"
+   ],
+   "answer": 1,
+   "explain": "Leutze, a German American artist, painted it in Dusseldorf; the large version hangs in the Metropolitan Museum of Art."
+  },
+  {
+   "id": "r5-0162",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 2,
+   "q": "As a teenager, Washington copied out a list of 110 maxims on manners and conduct. What are they called?",
+   "options": [
+    "The Whole Duty of Man",
+    "Maxims of Poor Richard",
+    "Precepts of the Spectator",
+    "Rules of Civility and Decent Behaviour"
+   ],
+   "answer": 3,
+   "explain": "The rules came from a French Jesuit guide of the 1590s; Washington copied them by about age 16."
+  },
+  {
+   "id": "r5-0163",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "How many American flags fly in the circle around the base of the Washington Monument?",
+   "options": [
+    "13",
+    "48",
+    "50",
+    "56"
+   ],
+   "answer": 2,
+   "explain": "The ring of flags, one for each state, has numbered 50 since July 4, 1960, after Hawaii’s 1959 admission."
+  },
+  {
+   "id": "r5-0164",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "The so-called Conway Cabal of 1777-78 was a reputed effort to do what?",
+   "options": [
+    "Assassinate Washington at Valley Forge",
+    "Crown Washington king of the new nation",
+    "Replace Washington as commander with Horatio Gates",
+    "Move Congress from York back to Boston"
+   ],
+   "answer": 2,
+   "explain": "After Gates's win at Saratoga, some officers and delegates criticized Washington; the scheme collapsed and General Thomas Conway resigned."
+  },
+  {
+   "id": "r5-0165",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "On New Year's Day 1802, Baptists from Cheshire, Massachusetts, gave President Jefferson what gift to honor his support of religious liberty?",
+   "options": [
+    "A silver communion set",
+    "A Hebrew Bible bound in leather",
+    "A carved eagle for the White House",
+    "A wheel of cheese weighing more than 1,200 pounds"
+   ],
+   "answer": 3,
+   "explain": "Elder John Leland delivered the 'Mammoth Cheese'; the same day Jefferson wrote his letter to the Danbury Baptists."
+  },
+  {
+   "id": "r5-0166",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Jefferson's 1779 Bill for the More General Diffusion of Knowledge proposed what for Virginia?",
+   "options": [
+    "A state university for training clergy",
+    "A public library in every county",
+    "A law licensing all printers",
+    "A system of free public schools"
+   ],
+   "answer": 3,
+   "explain": "The bill would have given free elementary schooling to all free children; the legislature never fully passed it."
+  },
+  {
+   "id": "r5-0167",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Jefferson kept copies of his letters with a polygraph. What did this device do?",
+   "options": [
+    "Made a copy with a second pen linked to his own",
+    "Measured a person's pulse to detect lies",
+    "Turned his letters into a secret cipher",
+    "Printed his letters with movable type"
+   ],
+   "answer": 0,
+   "explain": "Jefferson used the polygraph, improved by Charles Willson Peale and John Isaac Hawkins, from 1804 on and called it the finest invention of the age."
+  },
+  {
+   "id": "r5-0168",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which president announced the normalization of diplomatic relations with Vietnam in 1995?",
+   "options": [
+    "Bill Clinton",
+    "George H. W. Bush",
+    "Jimmy Carter",
+    "Ronald Reagan"
+   ],
+   "answer": 0,
+   "explain": "Clinton had lifted the trade embargo in 1994; Vietnam veterans in the Senate such as John McCain and John Kerry backed the move."
+  },
+  {
+   "id": "r5-0169",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 1,
+   "q": "After 1975, many Vietnamese refugees settled in Westminster, California, building a business district known by what name?",
+   "options": [
+    "Little Saigon",
+    "Chinatown",
+    "Koreatown",
+    "Japantown"
+   ],
+   "answer": 0,
+   "explain": "Orange County's Little Saigon grew from the late 1970s into one of the largest Vietnamese communities outside Vietnam."
+  },
+  {
+   "id": "r5-0170",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "In 1971 Senate testimony, which Vietnam veteran asked, 'How do you ask a man to be the last man to die for a mistake?'",
+   "options": [
+    "John Kerry",
+    "John McCain",
+    "Ron Kovic",
+    "Max Cleland"
+   ],
+   "answer": 0,
+   "explain": "Kerry spoke for Vietnam Veterans Against the War before the Foreign Relations Committee; he later served as senator and secretary of state."
+  },
+  {
+   "id": "r5-0171",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Operation Starlite in August 1965 is remembered as what?",
+   "options": [
+    "The first major U.S. ground offensive of the war",
+    "The first U.S. bombing raid on Hanoi",
+    "The last evacuation of U.S. troops",
+    "The first use of Agent Orange"
+   ],
+   "answer": 0,
+   "explain": "Marines attacked a Viet Cong regiment near Chu Lai, the first big U.S. ground battle against a main-force unit."
+  },
+  {
+   "id": "r5-0172",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "Which paralyzed Marine veteran wrote the 1976 antiwar memoir Born on the Fourth of July?",
+   "options": [
+    "Tim O'Brien",
+    "Philip Caputo",
+    "Michael Herr",
+    "Ron Kovic"
+   ],
+   "answer": 3,
+   "explain": "Kovic, wounded in 1968, became an antiwar activist; Oliver Stone filmed his memoir in 1989."
+  },
+  {
+   "id": "r5-0173",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "The Staggers Rail Act of 1980 helped revive struggling freight railroads by doing what?",
+   "options": [
+    "Nationalizing all freight railroads",
+    "Loosening federal control of rates and routes",
+    "Banning trucks from interstate highways",
+    "Creating a federal passenger railroad"
+   ],
+   "answer": 1,
+   "explain": "Deregulation let railroads set rates and drop money-losing lines; freight railroads became profitable again in the following decades."
+  },
+  {
+   "id": "r5-0174",
+   "period": 8,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "In 1970, which railroad, formed by merging the Pennsylvania and New York Central lines, filed what was then the largest U.S. corporate bankruptcy?",
+   "options": [
+    "Conrail",
+    "Erie Lackawanna",
+    "Penn Central",
+    "Norfolk Southern"
+   ],
+   "answer": 2,
+   "explain": "Penn Central's collapse led Congress to create Amtrak for passengers and, in 1976, Conrail for northeastern freight."
+  },
+  {
+   "id": "r5-0175",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "The 'Harvey Girls' were young women who worked where in the late 1800s and early 1900s?",
+   "options": [
+    "In Pullman sleeping cars",
+    "In telegraph offices at depots",
+    "In restaurants along the Santa Fe Railway",
+    "In textile mills in New England"
+   ],
+   "answer": 2,
+   "explain": "Fred Harvey's restaurants and hotels fed rail travelers; thousands of young women moved west to work in them."
+  },
+  {
+   "id": "r5-0176",
+   "period": 8,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "union-station",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "Which New York station was saved from a planned office tower when the Supreme Court upheld the city's landmarks law in 1978?",
+   "options": [
+    "Pennsylvania Station",
+    "Hoboken Terminal",
+    "Flatbush Avenue Station",
+    "Grand Central Terminal"
+   ],
+   "answer": 3,
+   "explain": "In Penn Central Transportation Co. v. New York City, the Court ruled that landmark rules were not an unconstitutional taking."
+  },
+  {
+   "id": "r5-0177",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 2,
+   "q": "Electric 'interurban' railways, which boomed between about 1900 and 1915, mainly did what?",
+   "options": [
+    "Carried coal from mines to seaports",
+    "Hauled freight across the continent",
+    "Ran under city streets as subways",
+    "Linked cities with nearby towns and farm areas"
+   ],
+   "answer": 3,
+   "explain": "Interurbans spread especially in the Midwest but faded as automobiles and paved roads spread in the 1920s."
+  },
+  {
+   "id": "r5-0178",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Which railroad engineer, killed in a 1900 wreck in Mississippi while trying to stop his train, became a folk hero in a popular ballad?",
+   "options": [
+    "John Henry",
+    "Paul Bunyan",
+    "Casey Jones",
+    "Joe Hill"
+   ],
+   "answer": 2,
+   "explain": "John Luther 'Casey' Jones stayed at the throttle of his Illinois Central train to slow it, saving his passengers."
+  },
+  {
+   "id": "r5-0179",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Bandleader Glenn Miller, honored with a memorial headstone at Arlington, disappeared in December 1944 while doing what?",
+   "options": [
+    "Leading a USO tour in the Pacific",
+    "Flying across the English Channel to France",
+    "Sailing to North Africa with his band",
+    "Driving to the front in Belgium"
+   ],
+   "answer": 1,
+   "explain": "Miller led the Army Air Forces band; his small plane vanished over the Channel and was never found."
+  }
+ ]
+}

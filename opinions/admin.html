@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moderation · Opinions · Stay Informed News</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body data-section="opinions" data-ads="off">
+<main id="main" class="page">
+  <div class="wrap">
+    <div class="kicker">Opinions · Admin</div>
+    <h1 class="ptitle">Moderation</h1>
+    <div id="gate"><div class="op-skel" style="width:40%"></div></div>
+    <section id="panel" hidden>
+      <p class="lede">Reports from readers. Remove content that breaks the community guidelines, suspend repeat offenders, or dismiss reports that need no action.</p>
+      <div class="op-tabs" role="tablist" aria-label="Report status" style="margin-top:18px">
+        <button role="tab" data-status="open" aria-selected="true">Open</button>
+        <button role="tab" data-status="resolved" aria-selected="false">Resolved</button>
+      </div>
+      <div class="grid" id="list" style="margin-top:16px" aria-live="polite"></div>
+    </section>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  const $ = s => document.querySelector(s), esc = OP.esc;
+  let status = 'open', reports = [];
+  OP.demoBanner();
+
+  function card(r){
+    const t = r.target, a = t && t.author;
+    const link = t ? (r.target_type === 'post' ? OP.postUrl(t.post_id) : OP.postUrl(t.post_id) + '#c-' + encodeURIComponent(t.id)) : null;
+    return '<div class="card op-report" data-id="' + esc(r.id) + '">' +
+      '<div class="op-by"><span class="op-badge ' + (r.target_type === 'post' ? '' : 'muted') + '">' + (r.target_type === 'post' ? 'Piece' : 'Comment') + '</span>' +
+        (r.status === 'resolved' ? '<span class="op-badge muted">Resolved</span>' : '') +
+        '<span>Reported ' + esc(OP.when(r.created_at)) + ' by ' + OP.byline(r.reporter) + '</span></div>' +
+      '<div><b>Reason:</b> ' + esc(r.reason) + '</div>' +
+      (t ? '<div class="q">' + (t.title ? '<b>' + esc(t.title) + '</b>\n' : '') + esc(t.text) + '</div>' +
+           '<div class="meta">By ' + OP.byline(a) + (a && a.is_banned ? ' <span class="op-badge red">Suspended</span>' : '') + ' · <a href="' + link + '" target="_blank" rel="noopener">Open in new tab</a></div>'
+         : '<div class="q"><i>This content has already been removed.</i></div>') +
+      (r.status === 'open' ? '<div class="btns">' +
+        (t ? '<button class="btn red" data-a="remove">Remove ' + (r.target_type === 'post' ? 'piece' : 'comment') + '</button>' : '') +
+        (a && !a.is_banned ? '<button class="btn ghost" data-a="ban">Suspend author</button>' : '') +
+        '<button class="btn ghost" data-a="dismiss">' + (t ? 'Dismiss' : 'Mark resolved') + '</button></div>' : '') +
+    '</div>';
+  }
+  async function load(){
+    const list = $('#list');
+    list.innerHTML = '<div class="op-skel"></div>';
+    try {
+      reports = await SINDb.listReports({ status });
+      list.innerHTML = reports.length ? reports.map(card).join('') : '<div class="empty">' + (status === 'open' ? 'No open reports. All clear.' : 'No resolved reports yet.') + '</div>';
+    } catch(e){ list.innerHTML = '<div class="empty">' + esc(e.message) + '</div>'; }
+  }
+  $('#list').addEventListener('click', async e => {
+    const b = e.target.closest('[data-a]'); if (!b) return;
+    const r = reports.find(x => x.id === b.closest('[data-id]').dataset.id); if (!r) return;
+    try {
+      if (b.dataset.a === 'remove'){
+        if (!confirm('Permanently remove this ' + (r.target_type === 'post' ? 'piece and its comments' : 'comment and its replies') + '?')) return;
+        if (r.target_type === 'post') await SINDb.deletePost(r.target_id); else await SINDb.deleteComment(r.target_id);
+        await SINDb.resolveReport(r.id); SIN.toast('Removed');
+      } else if (b.dataset.a === 'ban'){
+        if (!confirm('Suspend ' + r.target.author.display_name + '? They will no longer be able to publish, comment, like or report.')) return;
+        await SINDb.banUser(r.target.author.id, true); SIN.toast('Author suspended');
+      } else if (b.dataset.a === 'dismiss'){
+        await SINDb.resolveReport(r.id); SIN.toast('Report resolved');
+      }
+      load();
+    } catch(x){ SIN.toast(x.message); }
+  });
+  document.querySelectorAll('[data-status]').forEach(b => b.addEventListener('click', () => {
+    status = b.dataset.status;
+    document.querySelectorAll('[data-status]').forEach(x => x.setAttribute('aria-selected', String(x === b)));
+    load();
+  }));
+
+  async function gate(u){
+    if (!u){ $('#gate').innerHTML = '<div class="notice">Sign in with an admin account to see the moderation queue. <a href="account.html?next=admin.html">Sign in</a></div>'; $('#panel').hidden = true; return; }
+    if (!u.is_admin){ $('#gate').innerHTML = '<div class="notice warn">This page is for site moderators only.</div>'; $('#panel').hidden = true; return; }
+    $('#gate').innerHTML = ''; $('#panel').hidden = false; load();
+  }
+  SINDb.getUser().then(gate);
+  SINDb.onAuthChange(gate);
+})();
+</script>
+</body>
+</html>

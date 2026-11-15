@@ -1,0 +1,24 @@
+{
+  "banks": [
+    "bank-fill-civic.json",
+    "bank-fill-small.json",
+    "bank-fill-war.json",
+    "bank-new-A-1.json",
+    "bank-new-A-2.json",
+    "bank-new-B-1.json",
+    "bank-p1-2.json",
+    "bank-p3.json",
+    "bank-p4-5.json",
+    "bank-p6-7.json",
+    "bank-p8-9.json",
+    "bank-r10-1.json",
+    "bank-r11-1.json",
+    "bank-r3-1.json",
+    "bank-r4-1.json",
+    "bank-r5-1.json",
+    "bank-r6-1.json",
+    "bank-r7-1.json",
+    "bank-r8-1.json",
+    "bank-r9-1.json"
+  ]
+}

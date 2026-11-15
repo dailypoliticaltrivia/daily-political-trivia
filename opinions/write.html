@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Write · Opinions · Stay Informed News</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body data-section="opinions" data-ads="off">
+<main id="main" class="page">
+  <div class="wrap">
+    <div class="kicker">Opinions</div>
+    <h1 class="ptitle" id="pageTitle">Write a piece</h1>
+    <div id="gate"><div class="op-skel" style="width:50%"></div></div>
+
+    <form id="editor" hidden novalidate>
+      <div class="op-tabs op-wtabs" role="tablist" aria-label="Editor view">
+        <button type="button" role="tab" aria-selected="true" data-view="edit">Write</button>
+        <button type="button" role="tab" aria-selected="false" data-view="preview">Preview</button>
+      </div>
+      <div class="op-write">
+        <div class="op-edit-pane">
+          <div class="field">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="op-titlein" maxlength="150" required autocomplete="off" placeholder="A clear, honest headline">
+            <div class="op-count" id="titleCount"></div>
+          </div>
+          <div class="field">
+            <label for="subtitle">Subtitle <span class="meta">(optional)</span></label>
+            <input type="text" id="subtitle" maxlength="250" autocomplete="off" placeholder="One sentence that sums up your argument">
+          </div>
+          <div class="field">
+            <label for="body">Your piece</label>
+            <div class="op-toolbar" role="toolbar" aria-label="Formatting">
+              <button type="button" data-md="bold" title="Bold"><b>B</b></button>
+              <button type="button" data-md="italic" title="Italic"><i>I</i></button>
+              <button type="button" data-md="h2" title="Heading">H</button>
+              <button type="button" data-md="link" title="Link">Link</button>
+              <button type="button" data-md="quote" title="Quote">&ldquo; &rdquo;</button>
+              <button type="button" data-md="ul" title="Bulleted list">&bull; List</button>
+              <button type="button" data-md="ol" title="Numbered list">1. List</button>
+              <button type="button" data-md="code" title="Code">&lt;/&gt;</button>
+            </div>
+            <textarea id="body" maxlength="50000" required placeholder="Write in plain text or Markdown. Leave a blank line between paragraphs."></textarea>
+            <div class="op-count" id="bodyCount"></div>
+            <p class="op-mdhelp"><code>## Heading</code> · <code>**bold**</code> · <code>*italic*</code> · <code>[link](https://…)</code> · <code>&gt; quote</code> · <code>- list</code> · <code>`code`</code>. HTML is not allowed and will show as plain text.</p>
+          </div>
+          <div class="field">
+            <label for="tags">Tags <span class="meta">(up to 5, separated by commas)</span></label>
+            <input type="text" id="tags" autocomplete="off" placeholder="housing, local government">
+          </div>
+          <p class="op-err" id="err" role="alert"></p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+            <button class="btn red" type="submit" id="publish">Publish</button>
+            <a class="btn ghost" href="index.html" id="cancel">Cancel</a>
+            <span class="meta" id="draftNote"></span>
+          </div>
+          <p class="help" style="margin-top:12px">By publishing you confirm this is your own work and follows the <a href="guidelines.html">Opinion Guidelines</a>. Pieces are public.</p>
+        </div>
+        <div class="op-preview-pane is-off">
+          <div class="meta" style="margin-bottom:6px">Live preview</div>
+          <div class="op-preview" aria-live="off">
+            <h2 class="op-title" id="pvTitle"></h2>
+            <p class="op-sub" id="pvSub"></p>
+            <div class="op-body" id="pvBody"></div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  const $ = s => document.querySelector(s), esc = OP.esc, LIM = SINDb.limits;
+  const editId = OP.param('id');
+  const DRAFT = 'sin-opinions-draft';           // per-browser unsent draft for NEW pieces only
+  const f = $('#editor'), title = $('#title'), sub = $('#subtitle'), body = $('#body'), tags = $('#tags'), err = $('#err');
+  OP.demoBanner();
+
+  if (editId){ $('#pageTitle').textContent = 'Edit piece'; $('#publish').textContent = 'Save changes'; $('#cancel').href = OP.postUrl(editId); document.title = 'Edit · Opinions · Stay Informed News'; }
+
+  /* preview */
+  let t;
+  function preview(){
+    $('#pvTitle').textContent = title.value || 'Your title';
+    $('#pvSub').textContent = sub.value; $('#pvSub').hidden = !sub.value;
+    $('#pvBody').innerHTML = body.value.trim() ? SINMd.render(body.value) : '<p class="meta">Your piece will appear here as you type.</p>';
+  }
+  function saveDraft(){
+    if (editId) return;
+    try { localStorage.setItem(DRAFT, JSON.stringify({ title: title.value, subtitle: sub.value, body: body.value, tags: tags.value })); $('#draftNote').textContent = 'Draft saved in this browser'; } catch(e){}
+  }
+  [title, sub, body, tags].forEach(el => el.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { preview(); saveDraft(); }, 120); }));
+  OP.counter(title, $('#titleCount'), LIM.title);
+  OP.counter(body, $('#bodyCount'), LIM.body);
+
+  /* mobile write/preview tabs */
+  document.querySelectorAll('.op-wtabs button').forEach(b => b.addEventListener('click', () => {
+    const v = b.dataset.view;
+    document.querySelectorAll('.op-wtabs button').forEach(x => x.setAttribute('aria-selected', String(x === b)));
+    $('.op-edit-pane').classList.toggle('is-off', v !== 'edit');
+    $('.op-preview-pane').classList.toggle('is-off', v !== 'preview');
+    if (v === 'preview') preview();
+  }));
+  // on wide screens both panes show; .is-off only hides at mobile widths (see op.css)
+
+  /* toolbar */
+  function wrapSel(before, after, placeholder){
+    const s = body.selectionStart, e = body.selectionEnd, v = body.value, sel = v.slice(s, e) || placeholder;
+    body.setRangeText(before + sel + after, s, e, 'end');
+    if (!v.slice(s, e)){ body.selectionStart = s + before.length; body.selectionEnd = s + before.length + sel.length; }
+    body.focus(); body.dispatchEvent(new Event('input'));
+  }
+  function prefixLines(fn){
+    const v = body.value; let s = body.selectionStart, e = body.selectionEnd;
+    s = v.lastIndexOf('\n', s - 1) + 1; const ee = v.indexOf('\n', e); e = ee < 0 ? v.length : ee;
+    const lines = v.slice(s, e).split('\n').map(fn);
+    body.setRangeText(lines.join('\n'), s, e, 'select'); body.focus(); body.dispatchEvent(new Event('input'));
+  }
+  $('.op-toolbar').addEventListener('click', e => {
+    const b = e.target.closest('[data-md]'); if (!b) return;
+    const k = b.dataset.md;
+    if (k === 'bold') wrapSel('**', '**', 'bold text');
+    else if (k === 'italic') wrapSel('*', '*', 'italic text');
+    else if (k === 'code') wrapSel('`', '`', 'code');
+    else if (k === 'link'){ const u = prompt('Link address (must start with https:// or http://)', 'https://'); if (u && /^https?:\/\/\S+$/i.test(u)) wrapSel('[', '](' + u + ')', 'link text'); else if (u) SIN.toast('Links must start with http:// or https://'); }
+    else if (k === 'h2') prefixLines(l => '## ' + l.replace(/^#+\s*/, ''));
+    else if (k === 'quote') prefixLines(l => '> ' + l);
+    else if (k === 'ul') prefixLines(l => '- ' + l);
+    else if (k === 'ol') prefixLines((l, i) => (i + 1) + '. ' + l);
+  });
+
+  /* submit */
+  let dirty = false;
+  f.addEventListener('input', () => { dirty = true; });
+  window.addEventListener('beforeunload', e => { if (dirty && editId){ e.preventDefault(); e.returnValue = ''; } });
+  function lockOut(u, msg){            // signed out or unconfirmed in the middle of writing: keep the text, show the gate
+    saveDraft();
+    f.hidden = true;
+    $('#gate').innerHTML = (msg ? '<p class="op-err" role="alert">' + esc(msg) + '</p>' : '') + OP.writeGate(u, 'write.html' + location.search);
+  }
+  f.addEventListener('submit', async e => {
+    e.preventDefault();
+    err.textContent = '';
+    const data = { title: title.value, subtitle: sub.value, body: body.value, tags: tags.value };
+    const btn = $('#publish'); btn.disabled = true;
+    try {
+      const cur = await SINDb.getUser();                       // this page check is only a courtesy: the database enforces the same rule
+      if (!cur || cur.verified === false || cur.is_banned){ lockOut(cur, 'Your session ended before this could be published. Your draft is saved in this browser.'); btn.disabled = false; return; }
+      const r = editId ? await SINDb.updatePost(editId, data) : await SINDb.createPost(data);
+      dirty = false;
+      if (!editId) try { localStorage.removeItem(DRAFT); } catch(x){}
+      SIN.toast(editId ? 'Changes saved' : 'Published');
+      location.href = OP.postUrl(r.id);
+    } catch(x){ err.textContent = x.message; btn.disabled = false; }
+  });
+
+  /* gate: must be signed in, not banned, and the author when editing */
+  async function start(){
+    const gate = $('#gate');
+    const u = await SINDb.getUser();
+    const blocked = (!u || u.verified === false || u.is_banned) ? OP.writeGate(u, 'write.html' + location.search) : '';
+    if (blocked){
+      let note = '';
+      try { if (!editId && JSON.parse(localStorage.getItem(DRAFT) || 'null')) note = '<p class="meta" style="max-width:560px">Your unsent draft is saved in this browser and will be waiting for you.</p>'; } catch(e){}
+      gate.innerHTML = blocked + note;
+      SINDb.onAuthChange(nu => { if (nu && nu.verified !== false && !nu.is_banned) location.reload(); });
+      return;
+    }
+    SINDb.onAuthChange(nu => { if (!nu || nu.verified === false || nu.is_banned) lockOut(nu, 'You were signed out. Your draft is saved in this browser.'); });
+    if (editId){
+      const p = await SINDb.getPost(editId);
+      if (!p){ gate.innerHTML = '<div class="empty">That piece no longer exists. <a href="index.html">Back to Opinions</a></div>'; return; }
+      if (p.author_id !== u.id){ gate.innerHTML = '<div class="notice warn">Only the author can edit this piece. <a href="' + OP.postUrl(editId) + '">Back to the piece</a></div>'; return; }
+      title.value = p.title; sub.value = p.subtitle; body.value = p.body; tags.value = p.tags.join(', ');
+    } else {
+      try { const d = JSON.parse(localStorage.getItem(DRAFT) || 'null'); if (d){ title.value = d.title || ''; sub.value = d.subtitle || ''; body.value = d.body || ''; tags.value = d.tags || ''; $('#draftNote').textContent = 'Restored your unsent draft'; } } catch(e){}
+    }
+    gate.innerHTML = '<p class="meta" style="margin:0 0 14px">Writing as ' + OP.avatar(u) + ' <b style="color:var(--ink)">' + esc(u.display_name) + '</b></p>';
+    f.hidden = false;
+    title.dispatchEvent(new Event('input')); body.dispatchEvent(new Event('input'));
+    preview(); dirty = false;
+    if (!editId) title.focus();
+  }
+  start().catch(e => { $('#gate').innerHTML = '<div class="empty">Something went wrong: ' + esc(e.message) + '</div>'; });
+})();
+</script>
+</body>
+</html>

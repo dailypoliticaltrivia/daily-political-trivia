@@ -1,0 +1,6 @@
+# CNAME TEMPLATE. Not active.
+# GitHub Pages reads a file named exactly "CNAME" (no extension) that holds ONE line: your domain.
+# Most owners do NOT need this file: when you type the domain into Settings > Pages > Custom domain,
+# GitHub handles it. If you deploy with the included "Deploy site" workflow, GitHub ignores a CNAME file anyway.
+# If you want one: copy this file to "CNAME", delete these comment lines, and leave only the domain, e.g.
+#   www.example.com

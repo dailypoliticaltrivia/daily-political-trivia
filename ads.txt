@@ -1,0 +1,33 @@
+# ads.txt TEMPLATE for Daily Political Trivia.  NOTHING BELOW IS ACTIVE: every line is a comment.
+#
+# What this file is: a public list of the companies allowed to sell ad space on your site. Ad buyers check it
+# and skip sellers that are not listed. It must be served at the ROOT of your own domain:
+#     https://YOUR-DOMAIN.example/ads.txt
+# A "github.io" project address will not work for this; you need your own domain (see ADS-SETUP.md).
+#
+# How to use it: when an ad account is approved, the company shows you the exact line(s) to publish.
+# Copy THEIR line, replace the matching example below (or add it), delete the leading "# ", and delete the
+# example lines you do not use. Every token written YOUR-... is a reminder to replace it. Never publish a line with
+# a made-up id, and never leave a YOUR-... token in a line that is not commented out.
+#
+# Format of one line:  advertising-system-domain, your-account-id, DIRECT-or-RESELLER, certification-authority-id (optional)
+#
+# ---- Google AdSense / Google Ad Manager (the same line serves both) ----
+# google.com, pub-YOUR-ADSENSE-PUBLISHER-ID, DIRECT, f08c47fec0942fa0
+#
+# ---- Prebid / header bidding partners. Examples of the FORMAT only: use the line each partner gives you. ----
+# rubiconproject.com, YOUR-MAGNITE-ACCOUNT-ID, DIRECT, 0bfd66d529a55807
+# pubmatic.com, YOUR-PUBMATIC-PUBLISHER-ID, DIRECT, 5d62403b186f2ace
+# openx.com, YOUR-OPENX-ACCOUNT-ID, DIRECT, 6a698e2ec38604c6
+# indexexchange.com, YOUR-INDEX-ACCOUNT-ID, DIRECT, 50b1c356f2c5c8fc
+# appnexus.com, YOUR-XANDR-MEMBER-ID, DIRECT, f5ab79cb980f11d1
+#
+# ---- Managed partner (Mediavine, Raptive, Ezoic, Freestar, Publift ...) ----
+# The partner gives you a block of lines (often 10 or more) or an automatic ads.txt feature. Paste exactly that block here
+# and remove the Google line above if the partner says to.
+#
+# ---- Optional contact lines (spec variables) ----
+# OWNERDOMAIN=YOUR-DOMAIN.example
+# CONTACT=YOUR-CONTACT-EMAIL@YOUR-DOMAIN.example
+#
+# Note on app-ads.txt: that is a separate file only for mobile apps. This is a website, so you do not need it.

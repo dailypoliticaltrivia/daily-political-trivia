@@ -1,0 +1,60 @@
+{
+ "_about": "Years for state governor roles that people-db/people.json lists without dates (bioguide|state -> [from, to, name]), from audit/answers-govlt-roster.csv (Wikipedia lists of governors, each row confirmed by Wikidata or the member article). Read by build-dh-derived.js and build-dh-derived-2.js. Answer agent 2026-11-13.",
+ "dates": {
+  "W000114|GA": [
+   "1780",
+   "1789",
+   "George Walton"
+  ],
+  "G000216|GA": [
+   "1829",
+   "1839",
+   "George Gilmer"
+  ],
+  "J000144|GA": [
+   "1865",
+   "1865",
+   "James Johnson"
+  ],
+  "S000551|GA": [
+   "1907",
+   "1911",
+   "Hoke Smith"
+  ],
+  "D000341|NE": [
+   "1901",
+   "1901",
+   "Charles Dietrich"
+  ],
+  "S000563|NH": [
+   "1809",
+   "1810",
+   "Jeremiah Smith"
+  ],
+  "B000345|NH": [
+   "1819",
+   "1823",
+   "Samuel Bell"
+  ],
+  "P000019|NH": [
+   "1839",
+   "1842",
+   "John Page"
+  ],
+  "B000331|NH": [
+   "1881",
+   "1883",
+   "Charles Bell"
+  ],
+  "H000078|TN": [
+   "1829",
+   "1829",
+   "William Hall"
+  ],
+  "B000959|TN": [
+   "1937",
+   "1953",
+   "Gordon Browning"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Capitol Climb logo">
+<path d="M5 60H13V55H21V50H27" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="25" y="46" width="34" height="4" rx="1" fill="currentColor"/>
+<rect x="31" y="40" width="22" height="6" fill="currentColor"/>
+<rect x="29" y="37" width="26" height="3" fill="currentColor"/>
+<path d="M31 37C31 26 36 22 42 22S53 26 53 37z" fill="var(--logo-accent,var(--accent,#a3141f))"/>
+<path d="M39 22L40.2 14h3.6L45 22z" fill="currentColor"/><rect x="41" y="8" width="2" height="6" fill="currentColor"/>
+</svg>

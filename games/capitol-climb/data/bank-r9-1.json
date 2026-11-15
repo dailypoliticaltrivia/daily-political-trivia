@@ -1,0 +1,3517 @@
+{
+ "bank": "r9-1",
+ "questions": [
+  {
+   "id": "r9-0001",
+   "period": 9,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "At their October 1986 summit in Reykjavik, Iceland, what issue kept Reagan and Gorbachev from sealing a deal for deep nuclear cuts?",
+   "options": [
+    "Reagan's refusal to confine SDI research to the lab",
+    "U.S. insistence on weapons inspections inside Siberia",
+    "Soviet demands that all U.S. troops leave West Germany",
+    "A dispute over the Soviet war in Afghanistan"
+   ],
+   "answer": 0,
+   "explain": "Gorbachev wanted SDI confined to the laboratory and Reagan refused, but the talks paved the way for the 1987 INF Treaty."
+  },
+  {
+   "id": "r9-0002",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In October 1987 the Senate rejected which Supreme Court nominee of President Reagan by a vote of 58 to 42?",
+   "options": [
+    "Clement Haynsworth",
+    "Antonin Scalia",
+    "Anthony Kennedy",
+    "Robert Bork"
+   ],
+   "answer": 3,
+   "explain": "Bork's defeat after bitter hearings turned his name into a verb; Anthony Kennedy was later confirmed to the seat."
+  },
+  {
+   "id": "r9-0003",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "George H. W. Bush's 1988 pledge 'Read my lips: no new taxes' came back to haunt him after he agreed to what in 1990?",
+   "options": [
+    "Repeal of the 1986 tax reform law",
+    "A national sales tax to pay for the Gulf War",
+    "A budget deal with Congress that raised some taxes",
+    "A constitutional balanced budget amendment"
+   ],
+   "answer": 2,
+   "explain": "The 1990 budget agreement raised the top income tax rate from 28 to 31 percent to cut deficits, angering conservatives before 1992."
+  },
+  {
+   "id": "r9-0004",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "The 1993 Brady Act, named for a press secretary wounded in the 1981 attack on President Reagan, required what?",
+   "options": [
+    "Federal licensing exams for every gun owner",
+    "Background checks on handgun buyers at licensed dealers",
+    "A national registry of all privately owned guns",
+    "A ban on handgun sales in the District of Columbia"
+   ],
+   "answer": 1,
+   "explain": "The law began with a five-day waiting period and moved to the National Instant Criminal Background Check System in 1998."
+  },
+  {
+   "id": "r9-0005",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Which House Republican leader was the chief promoter of the 1994 'Contract with America'?",
+   "options": [
+    "Lamar Alexander",
+    "Newt Gingrich",
+    "Bob Dole",
+    "Dan Quayle"
+   ],
+   "answer": 1,
+   "explain": "The Contract listed ten bills Republicans promised to bring to a vote; after the party won the House, Gingrich became Speaker in 1995."
+  },
+  {
+   "id": "r9-0006",
+   "period": 9,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "What was the main effect on U.S. policy of the October 1993 battle in Mogadishu, in which 18 American soldiers died?",
+   "options": [
+    "U.S. forces were withdrawn from Somalia by early 1994",
+    "A much larger force was sent to occupy the country",
+    "Congress declared war on Somali militia leaders",
+    "NATO took over command of the entire peacekeeping mission"
+   ],
+   "answer": 0,
+   "explain": "The losses turned opinion against the mission; President Clinton set a withdrawal date and U.S. troops left by March 1994."
+  },
+  {
+   "id": "r9-0007",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In 1998 President Clinton said the world had not acted quickly enough to stop the killing of hundreds of thousands of people in about 100 days in 1994. In which country did this genocide happen?",
+   "options": [
+    "Liberia",
+    "Sudan",
+    "Somalia",
+    "Rwanda"
+   ],
+   "answer": 3,
+   "explain": "Hutu extremists killed Tutsi and moderate Hutu; Clinton made his remarks during a stop in Kigali in March 1998."
+  },
+  {
+   "id": "r9-0008",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Children's Health Insurance Program, created in 1997, was aimed mainly at which young people?",
+   "options": [
+    "Only students enrolled in public schools",
+    "Sons and daughters of active-duty troops",
+    "Uninsured kids above Medicaid income limits",
+    "Every child under five, whatever the family income"
+   ],
+   "answer": 2,
+   "explain": "CHIP gave states federal matching funds to cover children in low- and moderate-income families above Medicaid limits."
+  },
+  {
+   "id": "r9-0009",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "In Clinton v. Jones (1997), the Supreme Court ruled unanimously that a sitting president has what?",
+   "options": [
+    "Immunity from every kind of criminal inquiry",
+    "Power to end any private civil suit by claiming executive privilege",
+    "No immunity from civil suits over acts before taking office",
+    "A right to delay all lawsuits until leaving office"
+   ],
+   "answer": 2,
+   "explain": "The Paula Jones suit went forward, and Clinton's testimony in it later figured in his 1998 impeachment."
+  },
+  {
+   "id": "r9-0010",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "In Clinton v. City of New York (1998), the Supreme Court struck down which 1996 law?",
+   "options": [
+    "The Defense of Marriage Act",
+    "The Line Item Veto Act",
+    "The Personal Responsibility Act",
+    "The Telecommunications Act"
+   ],
+   "answer": 1,
+   "explain": "The Court held 6-3 that letting the president cancel parts of signed bills violated the Constitution's Presentment Clause."
+  },
+  {
+   "id": "r9-0011",
+   "period": 9,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "supreme-court",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In Reno v. ACLU (1997), the Supreme Court struck down parts of a 1996 law that tried to restrict what?",
+   "options": [
+    "Indecent material on the internet",
+    "Political ads on talk radio",
+    "Violent video game sales to minors",
+    "Ownership of cable TV channels"
+   ],
+   "answer": 0,
+   "explain": "The Court gave online speech full First Amendment protection, overturning key parts of the Communications Decency Act."
+  },
+  {
+   "id": "r9-0012",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "supreme-court",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "In Hamdan v. Rumsfeld (2006), the Supreme Court ruled that military commissions set up to try Guantanamo detainees did what?",
+   "options": [
+    "Had to be moved into state courts",
+    "Could only try U.S. citizens",
+    "Could go ahead without any changes",
+    "Violated military law and the Geneva Conventions"
+   ],
+   "answer": 3,
+   "explain": "The 5-3 ruling said the commissions lacked congressional authorization; Congress responded with the Military Commissions Act of 2006."
+  },
+  {
+   "id": "r9-0013",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Acting on the 9/11 Commission's advice, Congress in 2004 created which post to oversee the nation's intelligence agencies?",
+   "options": [
+    "National Security Adviser",
+    "Secretary of Homeland Security",
+    "Chairman of the Joint Chiefs of Staff",
+    "Director of National Intelligence"
+   ],
+   "answer": 3,
+   "explain": "The Intelligence Reform and Terrorism Prevention Act of 2004 took that coordinating role away from the CIA director."
+  },
+  {
+   "id": "r9-0014",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "In March 2008, which Wall Street investment bank was saved from collapse by an emergency sale to JPMorgan Chase?",
+   "options": [
+    "Merrill Lynch",
+    "Goldman Sachs",
+    "Bear Stearns",
+    "Lehman Brothers"
+   ],
+   "answer": 2,
+   "explain": "The Fed agreed to absorb most losses on about $30 billion of Bear's assets; Lehman Brothers, denied a rescue, failed that September."
+  },
+  {
+   "id": "r9-0015",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "In September 2008 an emergency government loan of about $85 billion kept which insurance giant from failing?",
+   "options": [
+    "MetLife",
+    "AIG",
+    "Prudential Financial",
+    "Countrywide Financial"
+   ],
+   "answer": 1,
+   "explain": "AIG had sold huge amounts of credit default swaps, and officials feared its collapse would spread losses across the financial system."
+  },
+  {
+   "id": "r9-0016",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "With federal aid, General Motors and Chrysler went through what process in 2009?",
+   "options": [
+    "Government-backed bankruptcy reorganizations",
+    "Purchase outright by Japanese automakers Toyota and Honda",
+    "Conversion into permanent federal agencies",
+    "A merger into a single national automaker"
+   ],
+   "answer": 0,
+   "explain": "Both firms emerged within about six weeks; the Treasury took a large stake in GM that it had sold off by the end of 2013."
+  },
+  {
+   "id": "r9-0017",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "In September 2008 the federal government took control of which two mortgage giants through conservatorship?",
+   "options": [
+    "Fannie Mae and Freddie Mac",
+    "Countrywide and IndyMac",
+    "Wells Fargo and Wachovia",
+    "Bear Stearns and Lehman Brothers"
+   ],
+   "answer": 0,
+   "explain": "The Federal Housing Finance Agency put the two government-sponsored enterprises, which backed millions of home loans, under federal control."
+  },
+  {
+   "id": "r9-0018",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "According to the National Bureau of Economic Research, the Great Recession that began in December 2007 ended in which month?",
+   "options": [
+    "December 2010",
+    "November 2012",
+    "March 2008",
+    "June 2009"
+   ],
+   "answer": 3,
+   "explain": "At 18 months it was the longest U.S. recession since World War II, though unemployment stayed high for years afterward."
+  },
+  {
+   "id": "r9-0019",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In King v. Burwell (2015), the Supreme Court upheld which feature of the Affordable Care Act?",
+   "options": [
+    "A single-payer public insurance plan",
+    "A rule that employers cover all workers",
+    "Tax credits for people buying plans on federal exchanges",
+    "Required Medicaid expansion in every state"
+   ],
+   "answer": 2,
+   "explain": "The 6-3 ruling, written by Chief Justice Roberts, let subsidies flow in states that had not built their own marketplaces."
+  },
+  {
+   "id": "r9-0020",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "When Congress passed the Affordable Care Act in 2010, how many Republicans voted for it on final passage?",
+   "options": [
+    "Every Republican in the House",
+    "None in either the House or the Senate",
+    "About half of Senate Republicans",
+    "A handful of moderate senators but no House members"
+   ],
+   "answer": 1,
+   "explain": "The House passed the Senate bill 219-212 in March 2010 with no Republican votes; the Senate had passed it 60-39 in December 2009."
+  },
+  {
+   "id": "r9-0021",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Starting in 2014, the Affordable Care Act barred health insurers from doing what?",
+   "options": [
+    "Raising premiums for any reason at all after the first year",
+    "Denying coverage because of a preexisting condition",
+    "Selling plans across state lines",
+    "Charging any monthly premium"
+   ],
+   "answer": 1,
+   "explain": "The law paired that rule with a mandate and subsidies so that healthy people would also buy coverage."
+  },
+  {
+   "id": "r9-0022",
+   "period": 9,
+   "themes": [
+    "identity",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "The first bill President Obama signed, in January 2009, was the Lilly Ledbetter Fair Pay Act. What did it do?",
+   "options": [
+    "Restarted the deadline for pay-bias claims with each paycheck",
+    "Raised the federal minimum wage to $10 an hour",
+    "Banned salary history questions in hiring",
+    "Required paid family leave for all workers"
+   ],
+   "answer": 0,
+   "explain": "It reversed the Supreme Court's 2007 Ledbetter v. Goodyear ruling, which had said her pay claim was filed too late."
+  },
+  {
+   "id": "r9-0023",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Which justice wrote the majority opinion in Obergefell v. Hodges (2015)?",
+   "options": [
+    "Ruth Bader Ginsburg",
+    "Antonin Scalia",
+    "John Roberts",
+    "Anthony Kennedy"
+   ],
+   "answer": 3,
+   "explain": "Kennedy, who also wrote Lawrence v. Texas and United States v. Windsor, grounded the 5-4 ruling in due process and equal protection."
+  },
+  {
+   "id": "r9-0024",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which phrase became a symbol of the disputed 2000 presidential recount in Florida?",
+   "options": [
+    "Torn seals on ballot boxes",
+    "Ghost votes cast by dead residents",
+    "Hanging chads on punch-card ballots",
+    "Misprinted names on voting machines"
+   ],
+   "answer": 2,
+   "explain": "Recounters argued over partly punched bits of paper on ballots until Bush v. Gore halted the recount in December 2000."
+  },
+  {
+   "id": "r9-0025",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "McDonald v. City of Chicago (2010) applied the gun right recognized in District of Columbia v. Heller to whom?",
+   "options": [
+    "Private businesses",
+    "Federal employees only",
+    "State and local governments",
+    "Military reservists"
+   ],
+   "answer": 2,
+   "explain": "The 5-4 ruling held that the Second Amendment binds the states through the Fourteenth Amendment, striking down Chicago's handgun ban."
+  },
+  {
+   "id": "r9-0026",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1991 Clarence Thomas was confirmed to succeed which retiring Supreme Court justice?",
+   "options": [
+    "Harry Blackmun",
+    "Thurgood Marshall",
+    "Lewis Powell",
+    "William J. Brennan Jr."
+   ],
+   "answer": 1,
+   "explain": "Marshall, the first Black justice, retired after 24 years on the Court; the Senate confirmed Thomas 52-48."
+  },
+  {
+   "id": "r9-0027",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "Whom did President Clinton appoint in 1993 as his first nominee to the Supreme Court?",
+   "options": [
+    "Ruth Bader Ginsburg",
+    "Sandra Day O'Connor",
+    "Sonia Sotomayor",
+    "Stephen Breyer"
+   ],
+   "answer": 0,
+   "explain": "Ginsburg, a former ACLU women's rights litigator, became the second woman on the Court; Clinton named Stephen Breyer in 1994."
+  },
+  {
+   "id": "r9-0028",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Gramm-Rudman-Hollings Act of 1985 tried to cut federal deficits by what method?",
+   "options": [
+    "Lowering the top income tax rate to 28 percent",
+    "Selling federal lands in the West",
+    "A national sales tax on imported goods",
+    "Automatic spending cuts if deficit targets were missed"
+   ],
+   "answer": 3,
+   "explain": "Its sequestration trigger was reworked after the Supreme Court struck down part of the law in Bowsher v. Synar (1986)."
+  },
+  {
+   "id": "r9-0029",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "fdr-memorial",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The 1983 Social Security rescue, based on a commission chaired by Alan Greenspan, did what?",
+   "options": [
+    "Ended benefits for workers who retired before 70",
+    "Paid for benefits entirely from income taxes",
+    "Turned the program into individual private investment accounts for all workers",
+    "Raised payroll taxes and slowly lifted the full retirement age to 67"
+   ],
+   "answer": 3,
+   "explain": "Signed by Reagan, the law also began taxing some benefits of higher-income retirees, shoring up the trust funds for decades."
+  },
+  {
+   "id": "r9-0030",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "In April 1986 U.S. warplanes struck targets in which country after a terrorist bombing of a West Berlin disco popular with American soldiers?",
+   "options": [
+    "Syria",
+    "Lebanon",
+    "Libya",
+    "Iran"
+   ],
+   "answer": 2,
+   "explain": "Operation El Dorado Canyon targeted Muammar Qaddafi's government, which U.S. officials blamed for the La Belle discotheque attack."
+  },
+  {
+   "id": "r9-0031",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Which measures passed by Congress between 1982 and 1984 restricted U.S. aid to the Contra rebels in Nicaragua?",
+   "options": [
+    "The Platt Amendments",
+    "The Boland Amendments",
+    "The Bricker Amendments",
+    "The Byrd Amendments"
+   ],
+   "answer": 1,
+   "explain": "White House aides' secret efforts to keep arming the Contras despite these limits became part of the Iran-Contra affair."
+  },
+  {
+   "id": "r9-0032",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "Which National Security Council aide, a Marine lieutenant colonel, helped divert money from secret arms sales to Iran to the Nicaraguan Contras?",
+   "options": [
+    "Oliver North",
+    "Caspar Weinberger",
+    "William Casey",
+    "Alexander Haig"
+   ],
+   "answer": 0,
+   "explain": "North's televised testimony in 1987 made him famous; his convictions were later vacated on appeal."
+  },
+  {
+   "id": "r9-0033",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "At a December 1989 summit held aboard ships off which Mediterranean island did the U.S. and Soviet leaders signal that the Cold War was ending?",
+   "options": [
+    "Malta",
+    "Cyprus",
+    "Sicily",
+    "Crete"
+   ],
+   "answer": 0,
+   "explain": "Meeting weeks after the Berlin Wall opened, the two leaders spoke of the Cold War giving way to a new era."
+  },
+  {
+   "id": "r9-0034",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "How did the White House respond to China's June 1989 crackdown on protesters in Tiananmen Square?",
+   "options": [
+    "It broke off diplomatic relations with the government in Beijing",
+    "It moved U.S. recognition back to Taiwan",
+    "It ordered a full trade embargo on China",
+    "It suspended military sales but kept diplomatic ties"
+   ],
+   "answer": 3,
+   "explain": "Bush also halted high-level contacts but quietly sent envoys to Beijing, hoping to preserve the relationship."
+  },
+  {
+   "id": "r9-0035",
+   "period": 9,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "NAFTA was negotiated in 1992. Which president then won its approval in Congress and signed the law putting it into effect?",
+   "options": [
+    "Ronald Reagan",
+    "Jimmy Carter",
+    "Bill Clinton",
+    "George W. Bush"
+   ],
+   "answer": 2,
+   "explain": "Clinton signed the implementing act in December 1993 with votes mostly from Republicans; the agreement took effect January 1, 1994."
+  },
+  {
+   "id": "r9-0036",
+   "period": 9,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "In 1995 which body replaced the General Agreement on Tariffs and Trade as the main overseer of world trade rules?",
+   "options": [
+    "The International Monetary Fund",
+    "The World Trade Organization",
+    "The Group of Seven",
+    "The World Bank"
+   ],
+   "answer": 1,
+   "explain": "The WTO grew out of the Uruguay Round of trade talks, which Congress approved in 1994."
+  },
+  {
+   "id": "r9-0037",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What happened in the March 1990 'Capitol Crawl' in Washington?",
+   "options": [
+    "Farmers drove tractors at a crawl to block roads into the city",
+    "Disability activists left wheelchairs to climb the Capitol steps",
+    "Students crawled to the Capitol to demand lower college loan rates",
+    "Veterans crawled across the Mall to protest cuts to their hospitals"
+   ],
+   "answer": 1,
+   "explain": "The protest helped push through the Americans with Disabilities Act, signed by George H. W. Bush in July 1990, which banned disability discrimination in jobs, public services and public places."
+  },
+  {
+   "id": "r9-0038",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "The 1996 welfare reform law replaced Aid to Families with Dependent Children with which program?",
+   "options": [
+    "Temporary Assistance for Needy Families",
+    "Low Income Home Energy Assistance Program",
+    "The Earned Income Tax Credit",
+    "The Food Stamp Program"
+   ],
+   "answer": 0,
+   "explain": "TANF gave states block grants and set a five-year lifetime limit on federally funded aid for most families."
+  },
+  {
+   "id": "r9-0039",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Whose 1998 report to Congress, laying out possible grounds for impeachment, led to the House vote against President Clinton?",
+   "options": [
+    "Attorney General Janet Reno",
+    "Senator Fred Thompson",
+    "Special prosecutor Archibald Cox",
+    "Independent counsel Kenneth Starr"
+   ],
+   "answer": 3,
+   "explain": "Starr's inquiry began with the Whitewater land deal and grew to include Clinton's testimony about Monica Lewinsky."
+  },
+  {
+   "id": "r9-0040",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "In October 2000, suicide bombers in a small boat attacked which U.S. Navy destroyer in the harbor of Aden, Yemen?",
+   "options": [
+    "USS Stark",
+    "USS Liberty",
+    "USS Cole",
+    "USS Vincennes"
+   ],
+   "answer": 2,
+   "explain": "Seventeen sailors died in the attack, which came less than a year before the September 11 strikes."
+  },
+  {
+   "id": "r9-0041",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In August 1998 terrorist truck bombs struck U.S. embassies in which two African countries?",
+   "options": [
+    "Somalia and Ethiopia",
+    "Egypt and Libya",
+    "Kenya and Tanzania",
+    "Nigeria and Ghana"
+   ],
+   "answer": 2,
+   "explain": "The attacks killed more than 220 people; President Clinton answered with cruise missile strikes in Afghanistan and Sudan."
+  },
+  {
+   "id": "r9-0042",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Apple computer, introduced in 1984 with a famous Super Bowl ad, brought the mouse and on-screen windows to a mass market?",
+   "options": [
+    "The Apple II",
+    "The Macintosh",
+    "The Newton",
+    "The iMac"
+   ],
+   "answer": 1,
+   "explain": "The Mac popularized the graphical interface; Apple's earlier and far pricier Lisa had used similar ideas."
+  },
+  {
+   "id": "r9-0043",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Amazon, founded by Jeff Bezos in 1994 near Seattle, began as an online seller of what?",
+   "options": [
+    "Books",
+    "Used cars",
+    "Airline tickets",
+    "Music CDs"
+   ],
+   "answer": 0,
+   "explain": "Its rapid growth made it a symbol of the internet's commercialization, and it later sold almost every kind of goods."
+  },
+  {
+   "id": "r9-0044",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What was the 'Y2K problem' that governments and companies spent billions to fix before January 1, 2000?",
+   "options": [
+    "Satellites due to fall out of orbit",
+    "Power grids unable to meet holiday demand",
+    "A virus set to erase bank records",
+    "Software that stored years with only two digits"
+   ],
+   "answer": 3,
+   "explain": "Programmers feared computers would read 2000 as 1900; massive repairs meant few serious failures occurred."
+  },
+  {
+   "id": "r9-0045",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "pentagon",
+    "air-and-space"
+   ],
+   "difficulty": 3,
+   "q": "In 2000 President Clinton made the military's Global Positioning System far more accurate for civilian users by ending what?",
+   "options": [
+    "Encryption of all navigation data",
+    "Monthly fees that civilian users paid for each satellite signal",
+    "A ban on GPS receivers in private cars",
+    "Deliberate signal degradation called Selective Availability"
+   ],
+   "answer": 3,
+   "explain": "Turning off Selective Availability on May 1, 2000, sped the spread of car navigation and later smartphone maps."
+  },
+  {
+   "id": "r9-0046",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "In the mid-1990s, which state passed New York to become the second most populous in the nation?",
+   "options": [
+    "Florida",
+    "Illinois",
+    "Texas",
+    "Pennsylvania"
+   ],
+   "answer": 2,
+   "explain": "Sun Belt growth drove the shift; Florida passed New York for third place about two decades later."
+  },
+  {
+   "id": "r9-0047",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "After the 1990 and 2000 censuses, House seats shifted mainly toward which states?",
+   "options": [
+    "Older industrial states of the Northeast",
+    "Fast-growing states in the South and West",
+    "Farm states of the Great Plains",
+    "States along the Great Lakes"
+   ],
+   "answer": 1,
+   "explain": "California, Texas, Florida and Arizona gained seats, while New York, Pennsylvania and Ohio lost them."
+  },
+  {
+   "id": "r9-0048",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The 2010 census counted about how many people living in the United States?",
+   "options": [
+    "About 309 million",
+    "About 250 million",
+    "About 281 million",
+    "About 350 million"
+   ],
+   "answer": 0,
+   "explain": "That was up from about 281 million in 2000, with the fastest growth in the South and West."
+  },
+  {
+   "id": "r9-0049",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "By the late 2010s, about what share of U.S. residents had been born abroad, close to the record set in the late 1800s and early 1900s?",
+   "options": [
+    "About one in seven",
+    "About one in two",
+    "About one in three",
+    "About one in twenty"
+   ],
+   "answer": 0,
+   "explain": "The foreign-born share reached roughly 14 percent, near the peak of about 15 percent recorded in 1890 and 1910."
+  },
+  {
+   "id": "r9-0050",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "About how many people eventually gained legal status through the amnesty provisions of the 1986 Immigration Reform and Control Act?",
+   "options": [
+    "About 50,000",
+    "About 25 million",
+    "About 300,000",
+    "About 2.7 million"
+   ],
+   "answer": 3,
+   "explain": "Most were Mexican nationals; the law also made it illegal for employers to knowingly hire unauthorized workers."
+  },
+  {
+   "id": "r9-0051",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "To qualify for DACA when it began in 2012, an applicant generally had to have arrived in the United States before what age?",
+   "options": [
+    "25",
+    "10",
+    "16",
+    "21"
+   ],
+   "answer": 2,
+   "explain": "Applicants also had to be under 31 as of June 15, 2012, and to have lived in the country continuously since 2007."
+  },
+  {
+   "id": "r9-0052",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Under the 'wet foot, dry foot' policy adopted in 1995, Cuban migrants were generally allowed to stay if they did what?",
+   "options": [
+    "Paid a fee at a U.S. consulate",
+    "Reached U.S. soil instead of being stopped at sea",
+    "Had a relative serving in the military",
+    "Applied for asylum from a third country such as Mexico first"
+   ],
+   "answer": 1,
+   "explain": "Those intercepted at sea were usually sent back to Cuba; President Obama ended the policy in January 2017."
+  },
+  {
+   "id": "r9-0053",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Ryan White CARE Act of 1990, named for an Indiana teenager, provided federal money for what?",
+   "options": [
+    "Vaccines for school-age children",
+    "Care and treatment for people with HIV and AIDS",
+    "Building new hospitals and clinics in rural farm counties",
+    "Research into childhood leukemia"
+   ],
+   "answer": 1,
+   "explain": "White, infected through a blood product for hemophilia, was barred from his school and became a national voice against AIDS stigma."
+  },
+  {
+   "id": "r9-0054",
+   "period": 9,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Where was the AIDS Memorial Quilt first displayed in October 1987, during a gay rights march in Washington?",
+   "options": [
+    "On the National Mall",
+    "In the Capitol Rotunda",
+    "Inside Union Station",
+    "At Arlington National Cemetery"
+   ],
+   "answer": 0,
+   "explain": "The quilt, begun in San Francisco, then had nearly 2,000 panels, each honoring a person who had died of AIDS."
+  },
+  {
+   "id": "r9-0055",
+   "period": 9,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "washington-monument",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which leader called the October 1995 Million Man March on the National Mall?",
+   "options": [
+    "Al Sharpton",
+    "Jesse Jackson",
+    "Julian Bond",
+    "Louis Farrakhan"
+   ],
+   "answer": 3,
+   "explain": "The Nation of Islam leader urged Black men to commit to family and community; crowd estimates were disputed."
+  },
+  {
+   "id": "r9-0056",
+   "period": 9,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "In 1984 Geraldine Ferraro became the first woman to do what?",
+   "options": [
+    "Win election as governor without succeeding her husband",
+    "Sit on the Supreme Court",
+    "Run for vice president on a major party ticket",
+    "Serve as Speaker of the House"
+   ],
+   "answer": 2,
+   "explain": "The New York congresswoman ran with Democrat Walter Mondale, who lost 49 states to Ronald Reagan."
+  },
+  {
+   "id": "r9-0057",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which Panamanian dictator surrendered to U.S. forces in January 1990 and was flown to Miami to face drug charges?",
+   "options": [
+    "Fulgencio Batista",
+    "Omar Torrijos",
+    "Manuel Noriega",
+    "Daniel Ortega"
+   ],
+   "answer": 2,
+   "explain": "Operation Just Cause, launched in December 1989, ousted him; he was convicted of drug trafficking in 1992."
+  },
+  {
+   "id": "r9-0058",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which federal agency, then part of Homeland Security, drew heavy criticism for its slow response to Hurricane Katrina in 2005?",
+   "options": [
+    "The U.S. Coast Guard",
+    "The Federal Emergency Management Agency",
+    "The Centers for Disease Control",
+    "The National Weather Service"
+   ],
+   "answer": 1,
+   "explain": "FEMA director Michael Brown resigned within weeks; the Coast Guard, by contrast, won praise for rescuing thousands."
+  },
+  {
+   "id": "r9-0059",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "What caused the loss of a space shuttle and its crew of seven in February 2003?",
+   "options": [
+    "Wing damage from foam that broke off during launch",
+    "A booster explosion seconds after liftoff",
+    "A collision with a piece of orbiting space junk at high speed",
+    "A parachute failure during landing"
+   ],
+   "answer": 0,
+   "explain": "The shuttle Columbia broke apart over Texas on reentry; shuttle flights paused for more than two years, and a memorial to the crew stands at Arlington."
+  },
+  {
+   "id": "r9-0060",
+   "period": 9,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Ronald Reagan's 1984 reelection campaign aired a famous ad built around which line?",
+   "options": [
+    "Happy days are here again",
+    "A return to normalcy",
+    "A time for choosing",
+    "It's morning again in America"
+   ],
+   "answer": 3,
+   "explain": "Reagan won 49 states against Walter Mondale amid a strong economic recovery."
+  },
+  {
+   "id": "r9-0061",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "Why was the 2001 tax cut signed by George W. Bush written to expire after ten years?",
+   "options": [
+    "Bush promised voters he would repeal it once the budget deficit was gone",
+    "The House insisted on a vote in every census year",
+    "The Supreme Court limited tax laws to ten years",
+    "Senate budget rules let it pass by simple majority only if temporary"
+   ],
+   "answer": 3,
+   "explain": "The law passed through budget reconciliation, and the Byrd rule barred it from adding to deficits beyond the ten-year window."
+  },
+  {
+   "id": "r9-0062",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In July 2000 President Clinton hosted Israeli and Palestinian leaders at Camp David. What was the outcome?",
+   "options": [
+    "They signed a final peace treaty",
+    "Israel left the West Bank within a year",
+    "The talks ended without an agreement",
+    "They agreed to share Jerusalem as a capital"
+   ],
+   "answer": 2,
+   "explain": "Ehud Barak and Yasser Arafat could not settle issues such as Jerusalem and refugees, and violence erupted that fall."
+  },
+  {
+   "id": "r9-0063",
+   "period": 9,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Which former Senate majority leader chaired the talks that produced Northern Ireland's 1998 Good Friday Agreement?",
+   "options": [
+    "Bob Dole",
+    "George Mitchell",
+    "Howard Baker",
+    "Tom Daschle"
+   ],
+   "answer": 1,
+   "explain": "Mitchell, a Maine Democrat, was sent by President Clinton and later led a Middle East fact-finding panel."
+  },
+  {
+   "id": "r9-0064",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "In 1819 Representative James Tallmadge of New York set off the Missouri crisis by proposing what?",
+   "options": [
+    "Gradual emancipation in Missouri as a condition of statehood",
+    "Letting Missouri's own voters decide the slavery question for themselves",
+    "Admitting Maine and Missouri as a pair",
+    "A slavery line at 36 degrees 30 minutes"
+   ],
+   "answer": 0,
+   "explain": "His amendment barred bringing more enslaved people into Missouri and freed children born there at 25; it passed the House but died in the Senate."
+  },
+  {
+   "id": "r9-0065",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Which proposal did the Hartford Convention of 1814-1815 send to Congress?",
+   "options": [
+    "A two-thirds vote of Congress to declare war",
+    "Secession of New England from the Union",
+    "Moving the capital back to Philadelphia",
+    "Abolishing slavery in the District of Columbia"
+   ],
+   "answer": 0,
+   "explain": "Delegates also sought to end the three-fifths clause and limit presidents to one term, but news of peace made them look disloyal."
+  },
+  {
+   "id": "r9-0066",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "Daniel Webster ended his 1830 Senate reply to Robert Hayne with which famous line?",
+   "options": [
+    "Our Federal Union: it must be preserved!",
+    "The Union, next to our liberty, most dear!",
+    "I would rather be right than be president.",
+    "Liberty and Union, now and forever, one and inseparable!"
+   ],
+   "answer": 3,
+   "explain": "Webster rejected the South Carolina claim that states could nullify federal laws; schoolchildren memorized the speech for decades."
+  },
+  {
+   "id": "r9-0067",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Massachusetts opened the nation's first state-funded normal school in Lexington in 1839. What was it for?",
+   "options": [
+    "Educating deaf and blind children",
+    "Preparing ministers for frontier churches",
+    "Training public school teachers",
+    "Teaching farm science to young men"
+   ],
+   "answer": 2,
+   "explain": "Horace Mann, secretary of the state board of education, championed normal schools as part of the common school movement."
+  },
+  {
+   "id": "r9-0068",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Ralph Waldo Emerson's 1837 address 'The American Scholar' urged Americans to do what?",
+   "options": [
+    "Adopt British models of university study",
+    "Build an intellectual life independent of Europe",
+    "Leave cities for communal farms",
+    "Return to strict Puritan theology"
+   ],
+   "answer": 1,
+   "explain": "Oliver Wendell Holmes Sr. later called the Harvard speech America's intellectual Declaration of Independence."
+  },
+  {
+   "id": "r9-0069",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which transcendentalist writer, a former editor of The Dial, published Woman in the Nineteenth Century in 1845?",
+   "options": [
+    "Sarah Grimke",
+    "Margaret Fuller",
+    "Lucretia Mott",
+    "Catharine Beecher"
+   ],
+   "answer": 1,
+   "explain": "Fuller argued that women should be free to develop every talent; the book is an early landmark of American feminism."
+  },
+  {
+   "id": "r9-0070",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "The lyceum movement, begun by Josiah Holbrook in Massachusetts in 1826, did what?",
+   "options": [
+    "Organized local public lectures and debates for adults",
+    "Built free public libraries in every county",
+    "Founded the first colleges for women",
+    "Trained missionaries for the western frontier"
+   ],
+   "answer": 0,
+   "explain": "By the 1830s thousands of towns had lyceums, which hosted speakers such as Ralph Waldo Emerson."
+  },
+  {
+   "id": "r9-0071",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In his 1838 Lyceum Address, young Abraham Lincoln warned of what danger to the republic?",
+   "options": [
+    "Too many immigrants voting",
+    "A foreign invasion from British Canada",
+    "The power of the Second Bank",
+    "Mob violence and contempt for the law"
+   ],
+   "answer": 3,
+   "explain": "Speaking soon after a mob killed abolitionist editor Elijah Lovejoy, Lincoln urged reverence for the laws as a political religion."
+  },
+  {
+   "id": "r9-0072",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In 1817 President James Madison vetoed the Bonus Bill, which would have done what?",
+   "options": [
+    "Raised tariffs to aid new factories",
+    "Paid cash bonuses to veterans who had fought in the War of 1812",
+    "Used Second Bank payments to fund roads and canals",
+    "Bought Florida from Spain"
+   ],
+   "answer": 2,
+   "explain": "Madison favored internal improvements but believed they required a constitutional amendment."
+  },
+  {
+   "id": "r9-0073",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "On July 4, 1828, which aged signer of the Declaration of Independence laid the first stone of a new railroad from Baltimore to the West?",
+   "options": [
+    "Benjamin Rush",
+    "Elbridge Gerry",
+    "Charles Carroll of Carrollton",
+    "John Adams"
+   ],
+   "answer": 2,
+   "explain": "Carroll, then about 90, was the last surviving signer; the Baltimore and Ohio became the first U.S. common-carrier railroad."
+  },
+  {
+   "id": "r9-0074",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "After Nat Turner's 1831 revolt, what did that state's legislature do in its 1831-1832 session?",
+   "options": [
+    "Abolished slavery in the state's western counties",
+    "Debated gradual emancipation, rejected it and tightened slave codes",
+    "Voted to secede from the Union",
+    "Freed every enslaved man who had fought for the United States in the War of 1812"
+   ],
+   "answer": 1,
+   "explain": "New laws restricted Black preaching and gatherings, and Thomas R. Dew soon published a widely read defense of slavery."
+  },
+  {
+   "id": "r9-0075",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "During Lafayette's 1824-1825 farewell tour, how did Congress thank him for his service in the Revolution?",
+   "options": [
+    "It voted him $200,000 and a township of public land",
+    "It made him an honorary general of the Army",
+    "It gave him a seat in the Senate for life",
+    "It named the new capital district for him"
+   ],
+   "answer": 0,
+   "explain": "Lafayette visited all 24 states and became the first foreign dignitary to address the House of Representatives."
+  },
+  {
+   "id": "r9-0076",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "John Quincy Adams's 1825 call for a national university and observatories, which he called 'lighthouses of the skies,' got what response?",
+   "options": [
+    "A constitutional amendment allowing them",
+    "Enthusiastic praise from Andrew Jackson's supporters in Congress",
+    "Quick funding for both projects",
+    "Ridicule and resistance from a Congress wary of federal power"
+   ],
+   "answer": 3,
+   "explain": "Critics mocked the phrase, and Congress never created the national university or a national observatory, though it did fund some roads and canals."
+  },
+  {
+   "id": "r9-0077",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "In 1837 what did the Senate do with its 1834 resolution censuring Andrew Jackson over the Bank deposits?",
+   "options": [
+    "Sent it to the Supreme Court to rule on whether censure was constitutional",
+    "Reaffirmed it by a two-thirds vote",
+    "Turned it into articles of impeachment",
+    "Expunged it by drawing black lines around it in the journal"
+   ],
+   "answer": 3,
+   "explain": "Thomas Hart Benton led the drive; Jackson remains the only president censured by the Senate."
+  },
+  {
+   "id": "r9-0078",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which kind of entertainment, featuring white performers in blackface, became one of the most popular in the United States by the 1840s?",
+   "options": [
+    "The vaudeville revue",
+    "The Chautauqua lecture",
+    "The minstrel show",
+    "The Wild West show"
+   ],
+   "answer": 2,
+   "explain": "Minstrel shows spread demeaning stereotypes; Thomas D. Rice's 'Jim Crow' routine later gave segregation laws their nickname."
+  },
+  {
+   "id": "r9-0079",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "The New York Sun, founded in 1833, helped start the 'penny press.' What made these papers new?",
+   "options": [
+    "They were mailed free by the Post Office",
+    "They sold cheaply to mass readers and relied on ads",
+    "They were printed only in German",
+    "They were run by political parties"
+   ],
+   "answer": 1,
+   "explain": "Penny papers featured crime, local news and human-interest stories, reaching working-class city readers on a new scale."
+  },
+  {
+   "id": "r9-0080",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Sarah Josepha Hale, editor of Godey's Lady's Book from 1837, campaigned for years to make which holiday national?",
+   "options": [
+    "Thanksgiving",
+    "Mother's Day",
+    "Memorial Day",
+    "Independence Day"
+   ],
+   "answer": 0,
+   "explain": "Her letters to presidents helped persuade Abraham Lincoln to proclaim a national Thanksgiving in 1863."
+  },
+  {
+   "id": "r9-0081",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1846 a public demonstration at Massachusetts General Hospital showed that surgery could be done painlessly using what?",
+   "options": [
+    "Ether as an anesthetic",
+    "Electric shocks to the nerves",
+    "Laughing gas mixed with opium",
+    "Chloroform from Scotland"
+   ],
+   "answer": 0,
+   "explain": "Dentist William T. G. Morton gave the ether on October 16, 1846; the room is still called the Ether Dome."
+  },
+  {
+   "id": "r9-0082",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "identity"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which enslaved man owned by William Clark traveled the whole route of the Lewis and Clark expedition?",
+   "options": [
+    "Toussaint Charbonneau",
+    "George Drouillard",
+    "John Colter",
+    "York"
+   ],
+   "answer": 3,
+   "explain": "York hunted and scouted for the Corps of Discovery; Clark refused for years afterward to free him."
+  },
+  {
+   "id": "r9-0083",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "In a confidential January 1803 message, President Jefferson asked Congress for how much money to fund an expedition to the Pacific?",
+   "options": [
+    "$15 million",
+    "$250,000",
+    "$2,500",
+    "$25,000"
+   ],
+   "answer": 2,
+   "explain": "The expedition ended up costing about $38,000; Jefferson framed it partly as promoting trade with Native nations."
+  },
+  {
+   "id": "r9-0084",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The Smithsonian Institution was founded in 1846 with money left by James Smithson. What was notable about him?",
+   "options": [
+    "He was a French envoy to Washington",
+    "He was a British scientist who never visited the United States",
+    "He was a former secretary of the Treasury under Thomas Jefferson",
+    "He was a Revolutionary War officer from Virginia"
+   ],
+   "answer": 1,
+   "explain": "His bequest, worth about half a million dollars, arrived in gold in 1838, and Congress debated for years before chartering the institution."
+  },
+  {
+   "id": "r9-0085",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "The U.S. Exploring Expedition of 1838-1842, led by Charles Wilkes, is remembered for what?",
+   "options": [
+    "Finding a usable Northwest Passage through the Arctic islands of Canada",
+    "Charting Pacific waters and helping show Antarctica is a continent",
+    "Opening trade with Japan",
+    "Mapping the source of the Mississippi River"
+   ],
+   "answer": 1,
+   "explain": "Its tens of thousands of specimens became core collections of the new Smithsonian Institution."
+  },
+  {
+   "id": "r9-0086",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "house-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "By what vote did the House of Representatives pass the Indian Removal Act in May 1830?",
+   "options": [
+    "102 to 97",
+    "130 to 60",
+    "150 to 40",
+    "180 to 20"
+   ],
+   "answer": 0,
+   "explain": "The close vote showed deep opposition; the Senate had passed the bill 28 to 19."
+  },
+  {
+   "id": "r9-0087",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "During his 1818 invasion of Spanish Florida, Andrew Jackson set off an international uproar by executing two subjects of which country?",
+   "options": [
+    "Mexico",
+    "France",
+    "Spain",
+    "Great Britain"
+   ],
+   "answer": 3,
+   "explain": "Jackson accused Alexander Arbuthnot and Robert Ambrister of aiding the Seminoles; Secretary of State John Quincy Adams defended him."
+  },
+  {
+   "id": "r9-0088",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which schoolbooks, first published in 1836, taught generations of children to read while stressing moral lessons?",
+   "options": [
+    "Webster's Blue-Backed Speller",
+    "The Columbian Orator",
+    "The McGuffey Readers",
+    "The New England Primer"
+   ],
+   "answer": 2,
+   "explain": "William Holmes McGuffey's readers went on to sell more than 100 million copies."
+  },
+  {
+   "id": "r9-0089",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In August 1812 American general William Hull surrendered which post to the British, largely without a fight?",
+   "options": [
+    "Fort McHenry",
+    "Fort Niagara",
+    "Detroit",
+    "Plattsburgh"
+   ],
+   "answer": 2,
+   "explain": "Isaac Brock and Tecumseh bluffed Hull into giving up; he was sentenced to death by court-martial, then pardoned by Madison."
+  },
+  {
+   "id": "r9-0090",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In 1805 the expedition's Shoshone interpreter found that the chief whose horses Lewis and Clark needed was whom?",
+   "options": [
+    "The Mandan chief Sheheke",
+    "Her brother Cameahwait",
+    "The Nez Perce leader Twisted Hair",
+    "The Lakota chief Black Buffalo"
+   ],
+   "answer": 1,
+   "explain": "Shoshone horses let the Corps of Discovery cross the Bitterroot Mountains, where the Nez Perce later helped them."
+  },
+  {
+   "id": "r9-0091",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Many French Protestants settled in South Carolina in the 1680s and 1690s after France did what in 1685?",
+   "options": [
+    "Revoked the Edict of Nantes",
+    "Founded New Orleans",
+    "Lost Acadia to Britain",
+    "Banned emigration to Canada"
+   ],
+   "answer": 0,
+   "explain": "Louis XIV's revocation ended legal toleration for Protestants; Huguenot families such as the Manigaults became prominent in Charleston."
+  },
+  {
+   "id": "r9-0092",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In a 1751 essay, Benjamin Franklin worried that which immigrants were so numerous in Pennsylvania that they might never adopt English ways?",
+   "options": [
+    "Swedes",
+    "Irish Catholics",
+    "Scottish Highlanders",
+    "Germans"
+   ],
+   "answer": 3,
+   "explain": "Franklin later deleted the passage from subsequent editions; German speakers made up roughly a third of Pennsylvania’s people by the Revolution."
+  },
+  {
+   "id": "r9-0093",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "About how many colonists loyal to the Crown left the United States during and after the American Revolution?",
+   "options": [
+    "About 500,000",
+    "About 5,000",
+    "About 1.5 million",
+    "About 60,000 to 80,000"
+   ],
+   "answer": 3,
+   "explain": "Many went to Nova Scotia, New Brunswick and Quebec, and Loyalists took thousands of enslaved people with them to the Caribbean."
+  },
+  {
+   "id": "r9-0094",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "After the 1907-1908 Gentlemen's Agreement, many Japanese women came to Hawaii and the West Coast as 'picture brides.' What were they?",
+   "options": [
+    "Students sent by the Japanese government to American colleges",
+    "Nurses hired by sugar plantations",
+    "Women married by proxy after exchanging photos",
+    "Actresses recruited for silent films"
+   ],
+   "answer": 2,
+   "explain": "The agreement curbed Japanese laborers but let wives join husbands, so many marriages were arranged by photograph."
+  },
+  {
+   "id": "r9-0095",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Dillingham Commission's 1911 report argued that immigration from which regions threatened American society?",
+   "options": [
+    "Canada and Mexico",
+    "Southern and Eastern Europe",
+    "Northern and Western Europe",
+    "The British Caribbean"
+   ],
+   "answer": 1,
+   "explain": "Its 41 volumes fed demands for a literacy test and the quota laws of the 1920s."
+  },
+  {
+   "id": "r9-0096",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Cable Act of 1922 changed the law so that an American woman who married a foreign man generally did what?",
+   "options": [
+    "Kept her U.S. citizenship",
+    "Had to move abroad with her husband",
+    "Paid a fee to remain a citizen",
+    "Lost her right to vote"
+   ],
+   "answer": 0,
+   "explain": "Under a 1907 law such women had lost citizenship; the Cable Act still stripped it from women who wed Asian men barred from naturalizing."
+  },
+  {
+   "id": "r9-0097",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which painter's 60-panel Migration Series (1940-1941) told the story of the Great Migration?",
+   "options": [
+    "Jacob Lawrence",
+    "Romare Bearden",
+    "Henry Ossawa Tanner",
+    "Aaron Douglas"
+   ],
+   "answer": 0,
+   "explain": "Lawrence, a child of migrants, finished the panels at 23; they are split between the Phillips Collection in Washington and MoMA."
+  },
+  {
+   "id": "r9-0098",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Refugee Relief Act of 1953 did what?",
+   "options": [
+    "Set up a guest worker program for Mexican farm laborers",
+    "Ended Chinese exclusion",
+    "Created the diversity visa",
+    "Admitted about 200,000 refugees beyond quota limits"
+   ],
+   "answer": 3,
+   "explain": "Many came from Communist Eastern Europe; like the 1948 Displaced Persons Act, it bent the 1920s quota system."
+  },
+  {
+   "id": "r9-0099",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Operation Pedro Pan, from 1960 to 1962, brought about 14,000 unaccompanied children to the U.S. from which country?",
+   "options": [
+    "The Dominican Republic",
+    "Haiti",
+    "Cuba",
+    "Guatemala"
+   ],
+   "answer": 2,
+   "explain": "Parents fearing indoctrination under Fidel Castro sent the children, many of whom were cared for by the Catholic Church in Miami."
+  },
+  {
+   "id": "r9-0100",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 3,
+   "q": "The 'Freedom Flights' of 1965 to 1973 carried about how many Cubans to the U.S.?",
+   "options": [
+    "About 2.5 million",
+    "More than 250,000",
+    "About 2,500",
+    "About 25,000"
+   ],
+   "answer": 1,
+   "explain": "Twice-daily flights from Varadero to Miami followed an agreement between the Johnson administration and Cuba."
+  },
+  {
+   "id": "r9-0101",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which technology, spreading after World War II, is often credited with making Sun Belt cities such as Phoenix and Houston more attractive to newcomers?",
+   "options": [
+    "Nuclear power",
+    "Air conditioning",
+    "Television",
+    "Jet travel"
+   ],
+   "answer": 1,
+   "explain": "Cooling homes, offices and factories made hot summers bearable and fed the region's rapid population growth."
+  },
+  {
+   "id": "r9-0102",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "Which 1975 law funded the resettlement in the U.S. of refugees from South Vietnam and Cambodia?",
+   "options": [
+    "The Indochina Migration and Refugee Assistance Act",
+    "The Refugee Act",
+    "The McCarran-Walter Immigration and Nationality Act",
+    "The Displaced Persons Act"
+   ],
+   "answer": 0,
+   "explain": "Some 130,000 people, most from South Vietnam, arrived in 1975 and passed through camps such as Fort Chaffee and Camp Pendleton."
+  },
+  {
+   "id": "r9-0103",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Jackson-Vanik amendment of 1974 tied U.S. trade benefits for the Soviet Union to what?",
+   "options": [
+    "Cutting its nuclear arsenal",
+    "Ending its military and economic aid to North Vietnam",
+    "Leaving Afghanistan",
+    "Letting citizens, especially Jews, emigrate freely"
+   ],
+   "answer": 3,
+   "explain": "Pressure over emigration helped hundreds of thousands of Soviet Jews eventually reach Israel and the United States."
+  },
+  {
+   "id": "r9-0104",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "smithsonian-african-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Frederick Douglass's March 1863 broadside 'Men of Color, To Arms!' urged Black men to do what?",
+   "options": [
+    "Flee to Canada until the war ended",
+    "Follow John Brown's sons to Kansas",
+    "Join the Union army",
+    "Vote for Lincoln's reelection"
+   ],
+   "answer": 2,
+   "explain": "Written as he recruited for the 54th Massachusetts, it argued that fighting would help win freedom and citizenship."
+  },
+  {
+   "id": "r9-0105",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "What did Frederick Douglass call the small one-room cabin behind his Washington, D.C., home where he went to read and write alone?",
+   "options": [
+    "The Retreat",
+    "The Hermitage",
+    "The Growlery",
+    "The Lodge"
+   ],
+   "answer": 2,
+   "explain": "The one-room hideaway let Douglass escape a busy household of family members and visitors."
+  },
+  {
+   "id": "r9-0106",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Black physician and writer co-edited Frederick Douglass's first newspaper, founded in Rochester in 1847?",
+   "options": [
+    "William Wells Brown",
+    "Martin Delany",
+    "Henry Highland Garnet",
+    "James McCune Smith"
+   ],
+   "answer": 1,
+   "explain": "Delany later became a leading advocate of Black emigration and, in 1865, a major in the Union army."
+  },
+  {
+   "id": "r9-0107",
+   "period": 9,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "In 2013 a statue of Frederick Douglass was placed in the U.S. Capitol's Emancipation Hall as a gift from whom?",
+   "options": [
+    "The District of Columbia",
+    "The state of New York",
+    "The state of Maryland",
+    "The NAACP"
+   ],
+   "answer": 0,
+   "explain": "Because the District is not a state, Congress passed a special law to accept its statue, unveiled on June 19, 2013."
+  },
+  {
+   "id": "r9-0108",
+   "period": 4,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Never knowing his exact birthday, Frederick Douglass chose to celebrate it on which date?",
+   "options": [
+    "July 4",
+    "September 3",
+    "January 1",
+    "February 14"
+   ],
+   "answer": 3,
+   "explain": "Carter G. Woodson later timed Negro History Week, forerunner of Black History Month, to include the birthdays of Douglass and Lincoln."
+  },
+  {
+   "id": "r9-0109",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Frederick Douglass declared 'If there is no struggle, there is no progress' in an 1857 speech celebrating what?",
+   "options": [
+    "The founding of the Liberty Party",
+    "The Fourth of July",
+    "The 1808 ban on the slave trade",
+    "Emancipation in the British West Indies"
+   ],
+   "answer": 3,
+   "explain": "Speaking at Canandaigua, New York, in August 1857, he also said that power concedes nothing without a demand."
+  },
+  {
+   "id": "r9-0110",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Who wrote the preface to Frederick Douglass's first autobiography, published in 1845?",
+   "options": [
+    "Charles Sumner",
+    "Theodore Parker",
+    "William Lloyd Garrison",
+    "Gerrit Smith"
+   ],
+   "answer": 2,
+   "explain": "Wendell Phillips added a letter, and both white abolitionists vouched for a book that skeptics doubted a fugitive could write."
+  },
+  {
+   "id": "r9-0111",
+   "period": 4,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "After his escape, Frederick took the surname Douglass at a friend's suggestion, from a character in which work?",
+   "options": [
+    "Robert Burns's poem Tam o' Shanter",
+    "Walter Scott's poem The Lady of the Lake",
+    "Shakespeare's play Macbeth",
+    "John Bunyan's The Pilgrim's Progress"
+   ],
+   "answer": 1,
+   "explain": "Nathan Johnson, his host in New Bedford, proposed the name; Douglass had briefly used Johnson as a surname."
+  },
+  {
+   "id": "r9-0112",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1967 the Smithsonian opened an experimental neighborhood museum near Frederick Douglass's last home in Washington. What is it called today?",
+   "options": [
+    "The Anacostia Community Museum",
+    "The Hirshhorn Museum",
+    "The Renwick Gallery",
+    "The National Postal Museum"
+   ],
+   "answer": 0,
+   "explain": "Founded as the Anacostia Neighborhood Museum, it was the first federally funded community museum."
+  },
+  {
+   "id": "r9-0113",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In his 1869 lecture 'Our Composite Nation,' Frederick Douglass defended the right of which group to immigrate and become citizens?",
+   "options": [
+    "Chinese immigrants",
+    "Irish Catholics",
+    "German refugees",
+    "Mexican Americans"
+   ],
+   "answer": 0,
+   "explain": "Amid rising anti-Chinese agitation, Douglass argued that a nation built from many peoples would be stronger for it."
+  },
+  {
+   "id": "r9-0114",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In February 1866 Frederick Douglass joined a Black delegation that met which president at the White House to press for voting rights?",
+   "options": [
+    "Rutherford B. Hayes",
+    "Ulysses S. Grant",
+    "Abraham Lincoln",
+    "Andrew Johnson"
+   ],
+   "answer": 3,
+   "explain": "The meeting went badly; Johnson opposed Black suffrage, and Douglass's group published a rebuttal to his views."
+  },
+  {
+   "id": "r9-0115",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "arlington-cemetery"
+   ],
+   "difficulty": 3,
+   "q": "On Memorial Day 1871, Frederick Douglass spoke at which site, urging the nation to remember what the Civil War had been fought for?",
+   "options": [
+    "Gettysburg National Cemetery",
+    "Antietam battlefield",
+    "Arlington National Cemetery",
+    "Lincoln's tomb in Springfield"
+   ],
+   "answer": 2,
+   "explain": "At the monument to the unknown Union dead, he rejected forgetting the difference between fighting for slavery and fighting for freedom."
+  },
+  {
+   "id": "r9-0116",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "At Ap Bac in January 1963, what happened when South Vietnamese troops with U.S. advisers attacked a smaller Viet Cong force?",
+   "options": [
+    "The Viet Cong surrendered within hours",
+    "The Viet Cong inflicted heavy losses and escaped",
+    "U.S. Marines took over and won the battle",
+    "North Vietnamese tanks broke the attack"
+   ],
+   "answer": 1,
+   "explain": "Five U.S. helicopters were downed and three Americans killed, and reporters' accounts raised doubts about official optimism."
+  },
+  {
+   "id": "r9-0117",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "In June 1963 the Buddhist monk Thich Quang Duc shocked the world by doing what on a Saigon street?",
+   "options": [
+    "Starting a public hunger strike",
+    "Burning himself to death in protest",
+    "Calling a nationwide general strike",
+    "Leading a march on the presidential palace"
+   ],
+   "answer": 1,
+   "explain": "Malcolm Browne's photograph of the protest against Ngo Dinh Diem's treatment of Buddhists spread worldwide."
+  },
+  {
+   "id": "r9-0118",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Which antiwar senator's strong showing in the March 1968 New Hampshire primary signaled trouble for Lyndon Johnson?",
+   "options": [
+    "Eugene McCarthy",
+    "George McGovern",
+    "J. William Fulbright",
+    "Hubert Humphrey"
+   ],
+   "answer": 0,
+   "explain": "McCarthy won about 42 percent against the president, and Robert Kennedy entered the race four days later."
+  },
+  {
+   "id": "r9-0119",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Who replaced Robert McNamara as secretary of defense in March 1968 and soon urged Lyndon Johnson to wind down the war?",
+   "options": [
+    "McGeorge Bundy",
+    "Dean Rusk",
+    "Melvin Laird",
+    "Clark Clifford"
+   ],
+   "answer": 3,
+   "explain": "Clifford's review after the Tet Offensive led him to oppose sending large numbers of new troops."
+  },
+  {
+   "id": "r9-0120",
+   "period": 8,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "After the Tet Offensive, General William Westmoreland's command asked for about how many more troops?",
+   "options": [
+    "About 2 million",
+    "About 20,000",
+    "About 206,000",
+    "About 2,000"
+   ],
+   "answer": 2,
+   "explain": "Johnson sent only a small fraction of that number and announced a partial bombing halt on March 31, 1968."
+  },
+  {
+   "id": "r9-0121",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "vietnam-memorial",
+    "arlington-cemetery"
+   ],
+   "difficulty": 2,
+   "q": "Who succeeded William Westmoreland as commander of U.S. forces in Vietnam in 1968?",
+   "options": [
+    "Matthew Ridgway",
+    "Maxwell Taylor",
+    "Creighton Abrams",
+    "Earle Wheeler"
+   ],
+   "answer": 2,
+   "explain": "Abrams oversaw Vietnamization and the drawdown of U.S. troops; he is buried at Arlington, and the Army's M1 tank bears his name."
+  },
+  {
+   "id": "r9-0122",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Service members killed in which May 1975 operation are the last casualties listed by date on the Vietnam Veterans Memorial?",
+   "options": [
+    "The fall of Saigon",
+    "The recovery of the merchant ship Mayaguez",
+    "Operation Babylift",
+    "The April evacuation of the U.S. embassy in Phnom Penh"
+   ],
+   "answer": 1,
+   "explain": "Dozens of Americans died in the operation, most in the assault on Koh Tang island and a helicopter crash en route from Thailand; their names close the chronological list on the Wall."
+  },
+  {
+   "id": "r9-0123",
+   "period": 9,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1980 which president signed the law setting aside land on the National Mall for the Vietnam Veterans Memorial?",
+   "options": [
+    "Jimmy Carter",
+    "Gerald Ford",
+    "Ronald Reagan",
+    "Richard Nixon"
+   ],
+   "answer": 0,
+   "explain": "The law, signed July 1, 1980, gave the Vietnam Veterans Memorial Fund about two acres in Constitution Gardens."
+  },
+  {
+   "id": "r9-0124",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "Lam Son 719, a 1971 offensive that ended in a costly retreat, sent South Vietnamese troops into which country?",
+   "options": [
+    "North Vietnam",
+    "Cambodia",
+    "Thailand",
+    "Laos"
+   ],
+   "answer": 3,
+   "explain": "Aimed at the Ho Chi Minh Trail, it tested Vietnamization; U.S. aircraft helped, but U.S. ground troops were barred from crossing the border."
+  },
+  {
+   "id": "r9-0125",
+   "period": 8,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Eddie Adams's Pulitzer Prize-winning 1968 photograph showed what?",
+   "options": [
+    "A helicopter on a Saigon rooftop",
+    "A young girl running down a road after a napalm attack on her village",
+    "Marines raising a flag over Hue's citadel",
+    "A South Vietnamese police chief executing a Viet Cong prisoner"
+   ],
+   "answer": 3,
+   "explain": "Taken in Saigon during the Tet Offensive, the image of Gen. Nguyen Ngoc Loan became a lasting symbol of the war's brutality."
+  },
+  {
+   "id": "r9-0126",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "During the April 1971 protest called Dewey Canyon III, what did hundreds of Vietnam veterans do at the U.S. Capitol?",
+   "options": [
+    "Held a sit-in inside the Senate chamber",
+    "Chained themselves to the Capitol columns",
+    "Threw their medals over a fence toward the Capitol steps",
+    "Burned their draft cards in the Rotunda"
+   ],
+   "answer": 2,
+   "explain": "Vietnam Veterans Against the War organized the protest; John Kerry testified to the Senate Foreign Relations Committee that week."
+  },
+  {
+   "id": "r9-0127",
+   "period": 8,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In 1979 Congress created a network of storefront Vet Centers to offer Vietnam veterans what?",
+   "options": [
+    "Free college tuition",
+    "Readjustment counseling outside VA hospitals",
+    "Bonus payments for combat tours",
+    "Small business loans"
+   ],
+   "answer": 1,
+   "explain": "The program grew from veterans' advocacy about lasting war trauma, which psychiatrists recognized as PTSD in 1980."
+  },
+  {
+   "id": "r9-0128",
+   "period": 8,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "vietnam-memorial"
+   ],
+   "difficulty": 2,
+   "q": "When Vietnam peace talks in Paris expanded in late 1968 and early 1969, delegates spent weeks arguing over what?",
+   "options": [
+    "The shape of the negotiating table",
+    "The city where talks would be held",
+    "Whether reporters could attend",
+    "Which language the talks would use"
+   ],
+   "answer": 0,
+   "explain": "The dispute was about whether the Viet Cong would count as a separate party; a round table with side tables settled it."
+  },
+  {
+   "id": "r9-0129",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Luce-Celler Act of 1946 allowed immigrants from which two places to become naturalized citizens, with small yearly quotas?",
+   "options": [
+    "The Philippines and India",
+    "Mexico and Cuba",
+    "China and Japan",
+    "Korea and Vietnam"
+   ],
+   "answer": 0,
+   "explain": "Each received a quota of 100 a year; the law followed the 1943 repeal of Chinese exclusion."
+  },
+  {
+   "id": "r9-0130",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which retired Army general, named commissioner of immigration in 1954, led a mass deportation drive aimed at Mexican workers in the Southwest?",
+   "options": [
+    "Lewis Hershey",
+    "Leslie Groves",
+    "Curtis LeMay",
+    "Joseph Swing"
+   ],
+   "answer": 3,
+   "explain": "The agency claimed more than a million removals that year, a figure historians regard as inflated, even as the bracero program kept growing."
+  },
+  {
+   "id": "r9-0131",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Boley, founded in 1903 in what was then Indian Territory, became one of the best-known examples of what?",
+   "options": [
+    "A Chinese mining camp",
+    "A utopian socialist commune",
+    "An all-Black town",
+    "A Mennonite farm colony"
+   ],
+   "answer": 2,
+   "explain": "Dozens of all-Black towns rose in Oklahoma and Indian Territory, settled by Black Creek freedmen and migrants from the South."
+  },
+  {
+   "id": "r9-0132",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Beginning in 1885, under a program arranged with Hawaii's government, tens of thousands of Japanese laborers came to Hawaii to work where?",
+   "options": [
+    "In railroad tunnels",
+    "On sugar plantations",
+    "On whaling ships",
+    "In gold mines"
+   ],
+   "answer": 1,
+   "explain": "About 29,000 contract workers came by 1894, and by 1900 Japanese were the largest ethnic group in the islands."
+  },
+  {
+   "id": "r9-0133",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Under a 1981 agreement with Haiti, what did the U.S. Coast Guard begin doing?",
+   "options": [
+    "Escorting Haitian boats safely to Miami and granting quick asylum",
+    "Stopping Haitian boats at sea and returning most migrants",
+    "Building refugee camps on Haitian soil",
+    "Training Haiti's navy to fight drug smugglers"
+   ],
+   "answer": 1,
+   "explain": "Critics charged that Haitians were treated more harshly than Cubans; the interdiction policy continued under later presidents."
+  },
+  {
+   "id": "r9-0134",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Sun City, which opened in 1960 near Phoenix, pioneered what kind of community?",
+   "options": [
+    "A large planned retirement community",
+    "A company town for copper miners",
+    "An integrated public housing project",
+    "A desert military base town"
+   ],
+   "answer": 0,
+   "explain": "Developer Del Webb's project helped draw retirees to the Sun Belt, especially Arizona and Florida."
+  },
+  {
+   "id": "r9-0135",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Weeksville, founded in the 1830s in what is now Brooklyn, was notable as what?",
+   "options": [
+    "A Shaker religious colony",
+    "A Dutch farming village",
+    "A camp for Irish canal workers",
+    "A community founded by free Black Americans"
+   ],
+   "answer": 3,
+   "explain": "Named for James Weeks, who bought land there in 1838, it grew to have its own churches, schools and newspaper."
+  },
+  {
+   "id": "r9-0136",
+   "period": 4,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1845 and 1846 a society of German nobles founded New Braunfels and Fredericksburg to settle German immigrants in which place?",
+   "options": [
+    "Wisconsin",
+    "Missouri",
+    "Texas",
+    "Pennsylvania"
+   ],
+   "answer": 2,
+   "explain": "The Adelsverein sent thousands of Germans to the Texas Hill Country, which kept a strong German culture for generations."
+  },
+  {
+   "id": "r9-0137",
+   "period": 5,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "From 1856 to 1860, about 3,000 Latter-day Saint emigrants, many from Europe, crossed the plains to Utah in what way?",
+   "options": [
+    "Riding early transcontinental trains",
+    "Sailing around Cape Horn",
+    "Pulling handcarts on foot",
+    "Driving large cattle herds"
+   ],
+   "answer": 2,
+   "explain": "Two companies caught by early snows in 1856, the Willie and Martin companies, lost more than 200 people."
+  },
+  {
+   "id": "r9-0138",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "At Ford's English School pageants in the 1910s, immigrant workers in native dress stepped into a giant pot and came out in American clothes. What idea did this act out?",
+   "options": [
+    "Cultural pluralism",
+    "The melting pot",
+    "The Social Gospel",
+    "Manifest destiny"
+   ],
+   "answer": 1,
+   "explain": "Israel Zangwill's 1908 play The Melting Pot had popularized the phrase; the company also taught English and American customs."
+  },
+  {
+   "id": "r9-0139",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which federal agency did Congress create in 1924, the same year it passed the National Origins Act?",
+   "options": [
+    "The U.S. Border Patrol",
+    "The Federal Bureau of Investigation",
+    "The Immigration and Naturalization Service",
+    "The U.S. Coast Guard"
+   ],
+   "answer": 0,
+   "explain": "The Border Patrol began with about 450 officers guarding the borders with Mexico and Canada."
+  },
+  {
+   "id": "r9-0140",
+   "period": 7,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "During the worst years of the Great Depression in the early 1930s, what happened to migration to and from the U.S.?",
+   "options": [
+    "Immigration reached an all-time high",
+    "Most new arrivals came from Asia",
+    "Quotas were lifted to fill farm jobs",
+    "More people left the country than arrived"
+   ],
+   "answer": 3,
+   "explain": "Jobs were scarce and visas tightly limited, and repatriation drives aimed at Mexican Americans added to the outflow."
+  },
+  {
+   "id": "r9-0141",
+   "period": 8,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In the 1940s and 1950s, many white Appalachians moved north to factory cities such as Detroit and Cincinnati along routes nicknamed what?",
+   "options": [
+    "The Chisholm Trail",
+    "The Natchez Trace",
+    "The Lincoln Highway",
+    "The Hillbilly Highway"
+   ],
+   "answer": 3,
+   "explain": "Roads such as U.S. 23 carried migrants from Kentucky and West Virginia to jobs in the industrial Midwest."
+  },
+  {
+   "id": "r9-0142",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Where did President Lyndon Johnson sign the Immigration and Nationality Act of 1965?",
+   "options": [
+    "In the great hall at Ellis Island",
+    "In the White House Rose Garden",
+    "At the foot of the Statue of Liberty",
+    "At Angel Island in San Francisco Bay"
+   ],
+   "answer": 2,
+   "explain": "Johnson said the law ended the national origins quota system, though he predicted it would not greatly reshape the country."
+  },
+  {
+   "id": "r9-0143",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "The sanctuary movement of the 1980s involved churches doing what?",
+   "options": [
+    "Resettling Soviet Jewish emigres",
+    "Sheltering Central American refugees denied asylum",
+    "Protesting the deployment of U.S. nuclear missiles in Western Europe",
+    "Hiding Vietnam-era draft resisters"
+   ],
+   "answer": 1,
+   "explain": "Congregations aided people fleeing wars in El Salvador and Guatemala; several activists were convicted at a 1986 trial in Arizona."
+  },
+  {
+   "id": "r9-0144",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Immigration Act of 1990 created Temporary Protected Status. What did it allow?",
+   "options": [
+    "Temporary stays for people from countries hit by war or disaster",
+    "Permanent green cards for skilled workers",
+    "Amnesty for farmworkers who arrived before 1986",
+    "Fast-track citizenship for immigrants who enlisted in the military"
+   ],
+   "answer": 0,
+   "explain": "Salvadorans were the first group named in the law, and each designation had to be renewed by the government."
+  },
+  {
+   "id": "r9-0145",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "The 2000 census was the first to let people do what?",
+   "options": [
+    "Mark more than one race",
+    "Report their religion",
+    "Claim Hispanic origin",
+    "Skip the question on age"
+   ],
+   "answer": 0,
+   "explain": "About 6.8 million people, or 2.4 percent, chose two or more races."
+  },
+  {
+   "id": "r9-0146",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "By about 2000, which large state had become 'majority-minority,' with non-Hispanic whites under half its population?",
+   "options": [
+    "Ohio",
+    "Michigan",
+    "Pennsylvania",
+    "California"
+   ],
+   "answer": 3,
+   "explain": "Hawaii and New Mexico had also crossed that line by 2000, and Census estimates showed Texas joining them in the mid-2000s."
+  },
+  {
+   "id": "r9-0147",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "From the 1970s onward, demographers noted a reversal of the Great Migration. What was it?",
+   "options": [
+    "Immigrants leaving cities for farms",
+    "Native Americans returning to reservations",
+    "Black Americans moving from the North and West to the South",
+    "White Southerners moving to New England and the Upper Midwest"
+   ],
+   "answer": 2,
+   "explain": "Atlanta, Houston and Dallas became major destinations as Sun Belt jobs grew and many families returned to Southern roots."
+  },
+  {
+   "id": "r9-0148",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In the 1990s, the Hispanic population grew fastest in percentage terms in which region, long outside the traditional immigrant gateways?",
+   "options": [
+    "New England",
+    "The Southeast",
+    "Alaska and Hawaii",
+    "The Mid-Atlantic"
+   ],
+   "answer": 1,
+   "explain": "Jobs in meatpacking, poultry plants and construction drew Latino workers; North Carolina's Hispanic population nearly quintupled."
+  },
+  {
+   "id": "r9-0149",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Under the Transportation Act of 1718, Britain sent tens of thousands of whom to its American colonies?",
+   "options": [
+    "Debtors freed from prison",
+    "Convicted criminals",
+    "Unemployed Irish weavers",
+    "Orphaned children"
+   ],
+   "answer": 1,
+   "explain": "About 50,000 convicts went, most to Maryland and Virginia, before the Revolution ended the practice."
+  },
+  {
+   "id": "r9-0150",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1731 families from the Canary Islands, sent by the Spanish crown, formed the first civil town government in which present-day Texas city?",
+   "options": [
+    "San Antonio",
+    "El Paso",
+    "Galveston",
+    "Houston"
+   ],
+   "answer": 0,
+   "explain": "The Islenos organized the villa of San Fernando de Bexar beside the existing mission and presidio."
+  },
+  {
+   "id": "r9-0151",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1775-1776 Juan Bautista de Anza led about 240 settlers overland from Sonora to found a presidio and mission at which site?",
+   "options": [
+    "Los Angeles",
+    "San Diego",
+    "Santa Fe",
+    "San Francisco"
+   ],
+   "answer": 3,
+   "explain": "Many of the colonists were of mixed Spanish, Native and African descent; they founded the Presidio and Mission San Francisco de Asis in 1776."
+  },
+  {
+   "id": "r9-0152",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "Before it entered the Union as a free state in 1820 under the Missouri Compromise, Maine had been part of which state?",
+   "options": [
+    "New Hampshire",
+    "Vermont",
+    "Massachusetts",
+    "New York"
+   ],
+   "answer": 2,
+   "explain": "Its admission balanced Missouri's, keeping the Senate evenly split between free and slave states."
+  },
+  {
+   "id": "r9-0153",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Edgar Allan Poe's 1841 story 'The Murders in the Rue Morgue' is often called the first modern example of which genre?",
+   "options": [
+    "The science fiction novel",
+    "The ghost story",
+    "The detective story",
+    "The western"
+   ],
+   "answer": 2,
+   "explain": "Its amateur sleuth, C. Auguste Dupin, set a pattern later followed by Arthur Conan Doyle's Sherlock Holmes."
+  },
+  {
+   "id": "r9-0154",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Within months of its 1839 announcement in Paris, which new invention spread to American cities, giving rise to portrait studios?",
+   "options": [
+    "The phonograph",
+    "The daguerreotype photograph",
+    "The typewriter",
+    "The electric telegraph"
+   ],
+   "answer": 1,
+   "explain": "Samuel Morse was among the first Americans to try the process, and by the 1850s portrait studios were common."
+  },
+  {
+   "id": "r9-0155",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which architect designed the Smithsonian Institution Building, the red sandstone 'Castle' begun on the Mall in 1847?",
+   "options": [
+    "James Renwick Jr.",
+    "Thomas U. Walter",
+    "Benjamin Latrobe",
+    "Robert Mills"
+   ],
+   "answer": 0,
+   "explain": "Renwick, who later designed St. Patrick's Cathedral in New York, chose a medieval revival style."
+  },
+  {
+   "id": "r9-0156",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "What happened to Monticello after Thomas Jefferson died in 1826?",
+   "options": [
+    "Congress bought it as a national shrine",
+    "His daughter Martha freed its enslaved workers and kept farming the land",
+    "British raiders burned it to the ground",
+    "It was sold, along with enslaved people, to pay his debts"
+   ],
+   "answer": 3,
+   "explain": "Jefferson died deeply in debt; in 1827 his estate advertised 130 enslaved people for sale at auction, and the house itself was sold in 1831."
+  },
+  {
+   "id": "r9-0157",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "In 1835 the Baltimore and Ohio's Washington Branch gave the capital what for the first time?",
+   "options": [
+    "A horse-drawn streetcar line",
+    "Gas street lighting",
+    "A canal to the Ohio River",
+    "A rail link to another city"
+   ],
+   "answer": 3,
+   "explain": "The line ran from Relay, Maryland, to Washington; Union Station would not open until 1907."
+  },
+  {
+   "id": "r9-0158",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Andrew Jackson used the veto 12 times. How did that compare with the presidents before him?",
+   "options": [
+    "It was fewer than George Washington had used",
+    "It exactly matched James Madison's total",
+    "It was more than all six predecessors combined",
+    "His was the first veto any president used"
+   ],
+   "answer": 2,
+   "explain": "Jackson used 12 vetoes, including the 1832 Bank veto, to the 10 of his predecessors, often on policy grounds rather than constitutional ones."
+  },
+  {
+   "id": "r9-0159",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which English-born painter, who worked in New York's Catskill Mountains, is regarded as the founder of the Hudson River School?",
+   "options": [
+    "John Trumbull",
+    "Thomas Cole",
+    "Gilbert Stuart",
+    "George Catlin"
+   ],
+   "answer": 1,
+   "explain": "Cole's dramatic wilderness landscapes from the 1820s and 1830s inspired painters such as Frederic Church and Asher Durand."
+  },
+  {
+   "id": "r9-0160",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Chinese immigrants held for weeks or months at the Angel Island Immigration Station left what on the barracks walls?",
+   "options": [
+    "Poems carved and written in Chinese",
+    "Maps of escape routes into the city",
+    "Murals painted by New Deal artists",
+    "Lists of approved interpreters"
+   ],
+   "answer": 0,
+   "explain": "More than 200 poems have been documented, recording the anger and homesickness of people detained under Chinese exclusion."
+  },
+  {
+   "id": "r9-0161",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1815 Paul Cuffe, a wealthy Black ship captain from Massachusetts, carried 38 Black Americans to settle in which British colony?",
+   "options": [
+    "Sierra Leone",
+    "Nova Scotia",
+    "Liberia",
+    "Jamaica"
+   ],
+   "answer": 0,
+   "explain": "Cuffe, of African and Wampanoag descent, hoped to build trade and a free Black settlement in Africa; he died in 1817."
+  },
+  {
+   "id": "r9-0162",
+   "period": 8,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "The Phoenix Program, launched in the late 1960s with CIA help, aimed to do what in South Vietnam?",
+   "options": [
+    "Resettle refugees in new model villages",
+    "Rebuild schools wrecked by the fighting",
+    "Train South Vietnamese air force pilots",
+    "Root out the Viet Cong's secret civilian network"
+   ],
+   "answer": 3,
+   "explain": "Tens of thousands of suspected Viet Cong operatives were captured, persuaded to defect or killed, and critics charged it led to abuses."
+  },
+  {
+   "id": "r9-0163",
+   "period": 8,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "vietnam-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Cooper-Church Amendment, passed after the 1970 Cambodian incursion, did what?",
+   "options": [
+    "Cut off all funds for the war in Vietnam",
+    "Required Senate approval for bombing the North",
+    "Barred U.S. ground troops and advisers from Cambodia",
+    "Ended the military draft"
+   ],
+   "answer": 2,
+   "explain": "It is often described as the first time Congress restricted the deployment of troops during a war."
+  },
+  {
+   "id": "r9-0164",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "During his 1846 tour of Scotland, Frederick Douglass campaigned against the Free Church of Scotland under what slogan?",
+   "options": [
+    "Free soil, free speech, free men",
+    "Send back the money",
+    "Remember the Amistad",
+    "Down with King Cotton"
+   ],
+   "answer": 1,
+   "explain": "The church had accepted donations from slaveholding congregations in the American South."
+  },
+  {
+   "id": "r9-0165",
+   "period": 4,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "The Steerage Act of 1819, the first federal law on immigrant voyages, required ships arriving in the U.S. to do what?",
+   "options": [
+    "Carry a doctor licensed by Congress",
+    "Limit crowding and file lists of their passengers",
+    "Pay a head tax for each immigrant",
+    "Land only at New York's Castle Garden"
+   ],
+   "answer": 1,
+   "explain": "Those passenger lists became the first federal count of immigrants, and many survive at the National Archives."
+  },
+  {
+   "id": "r9-0166",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Google, founded in 1998 by Stanford graduate students Larry Page and Sergey Brin, began as what?",
+   "options": [
+    "A search engine for the World Wide Web",
+    "A mobile phone company",
+    "A maker of personal computers",
+    "An online bookstore"
+   ],
+   "answer": 0,
+   "explain": "Its method of ranking pages by the links pointing to them helped it become the most used search engine of the 2000s."
+  },
+  {
+   "id": "r9-0167",
+   "period": 9,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "The farm crisis of the 1980s ruined many Midwestern farm families after what happened?",
+   "options": [
+    "A cattle disease forced the slaughter of most herds",
+    "A drought turned the Plains into a dust bowl",
+    "Congress ended all federal farm price supports",
+    "Land values and crop prices fell while interest rates stayed high"
+   ],
+   "answer": 3,
+   "explain": "Thousands of farms were foreclosed, and musicians began the Farm Aid benefit concerts in 1985 to help."
+  }
+ ]
+}

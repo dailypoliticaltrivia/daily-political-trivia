@@ -1,0 +1,486 @@
+Caucus Sort: rule library report
+People with usable photos: 15203 (members 10959, presidents-only 19, people-db only 4225)
+Fame tiers (Wikipedia avg monthly page views x office weight): famous floor (living) 18000, iconic floor (historical) 90000, historical presidents 60000, easy-group floor (yellow) 50000
+Eligible faces: 452 (living 391, historical 61, easy-tier 251)
+Rules defined: 338   kept: 125   dropped (not enough famous members): 213
+Kept by colour pool: yellow (easy) 26, green 57, blue 31, purple (hard) 11
+Dropped by colour pool: yellow (easy) 0, green 43, blue 167, purple (hard) 3
+people-db: 17828 records, 4225 new people used, 10983 merged into existing members, 2620 skipped (no usable photo, or elect-2026 not yet in office)
+Photos found only in the root photos/ folder (not yet published to site/games/congressional-grid/photos/): 2273 (included; copied into the site folder when a puzzle uses them)
+
+[d1 yellow] women  (demo, 72 famous members, 72 living)  Women in Congress
+      top 8: Haley Stevens, Kamala Harris, Ilhan Omar, Susan Collins, Nancy Pelosi, Cindy Hyde-Smith, Alexandria Ocasio-Cortez, Elissa Slotkin
+[d1 yellow] women-sen  (demo, 34 famous members, 34 living)  Women who served in the Senate
+      top 8: Kamala Harris, Susan Collins, Cindy Hyde-Smith, Elissa Slotkin, Amy Klobuchar, Hillary Clinton, Ashley Moody, Marsha Blackburn
+[d1 yellow] scotus-all  (exec, 13 famous members, 11 living)  Supreme Court justices
+      top 8: William Howard Taft (hist.), Clarence Thomas, Ruth Bader Ginsburg (hist.), Samuel Alito, John Roberts, Sonia Sotomayor, Brett Kavanaugh, Ketanji Brown Jackson
+[d1 yellow] scotus-current  (exec, 9 famous members, 9 living)  Current Supreme Court justices
+      top 8: Clarence Thomas, Samuel Alito, John Roberts, Sonia Sotomayor, Brett Kavanaugh, Ketanji Brown Jackson, Amy Coney Barrett, Elena Kagan
+[d1 yellow] c119-hou  (lead, 64 famous members, 64 living)  House members of the 119th Congress (2025-27)
+      top 8: Hakeem Jeffries, Haley Stevens, Ilhan Omar, Mike Johnson, Nancy Pelosi, Byron Donalds, Alexandria Ocasio-Cortez, Lauren Boebert
+[d1 yellow] c119-sen  (lead, 94 famous members, 93 living)  Senators of the 119th Congress (2025-27)
+      top 8: Jon Ossoff, J.D. Vance, Mitch McConnell, Charles Schumer, Chuck Grassley, Marco Rubio, Susan Collins, Bernard Sanders
+[d1 yellow] cur-hou  (lead, 60 famous members, 60 living)  Current members of the House
+      top 8: Hakeem Jeffries, Haley Stevens, Ilhan Omar, Mike Johnson, Nancy Pelosi, Byron Donalds, Alexandria Ocasio-Cortez, Lauren Boebert
+[d1 yellow] cur-sen  (lead, 88 famous members, 88 living)  Current U.S. senators
+      top 8: Jon Ossoff, Mitch McConnell, Charles Schumer, Chuck Grassley, Susan Collins, Bernard Sanders, Ted Cruz, John Cornyn
+[d1 yellow] speaker  (lead, 8 famous members, 6 living)  Speakers of the House
+      top 8: James K. Polk (hist.), Mike Johnson, Nancy Pelosi, Dennis Hastert (hist.), Newt Gingrich, Paul Ryan, Kevin McCarthy, John Boehner
+[d1 yellow] vp-all  (lead, 28 famous members, 6 living)  Vice presidents of the United States
+      top 8: J.D. Vance, Lyndon B. Johnson (hist.), Joe Biden, Theodore Roosevelt (hist.), Dick Cheney (hist.), Gerald Ford (hist.), Richard Nixon (hist.), George H. W. Bush (hist.)
+[d1 yellow] c119-hou-Dem  (party, 28 famous members, 28 living, lean D)  House Democrats of the 119th Congress (2025-27)
+      top 8: Hakeem Jeffries, Haley Stevens, Ilhan Omar, Nancy Pelosi, Alexandria Ocasio-Cortez, Chris Pappas, Jasmine Crockett, Katherine Clark
+[d1 yellow] c119-hou-Rep  (party, 35 famous members, 35 living, lean R)  House Republicans of the 119th Congress (2025-27)
+      top 8: Mike Johnson, Byron Donalds, Lauren Boebert, Thomas Massie, Nancy Mace, Ashley Hinson, Brandon Gill, Mike Collins
+[d1 yellow] c119-sen-Dem  (party, 44 famous members, 44 living, lean D)  Democratic senators of the 119th Congress (2025-27)
+      top 8: Jon Ossoff, Charles Schumer, Sherrod Brown, John Fetterman, Elissa Slotkin, Amy Klobuchar, Christopher Murphy, Chris Van Hollen
+[d1 yellow] c119-sen-Rep  (party, 48 famous members, 47 living, lean R)  Republican senators of the 119th Congress (2025-27)
+      top 8: J.D. Vance, Mitch McConnell, Chuck Grassley, Marco Rubio, Susan Collins, Ted Cruz, John Cornyn, Jon Husted
+[d1 yellow] cur-hou-Dem  (party, 26 famous members, 26 living, lean D)  Current House Democrats
+      top 8: Hakeem Jeffries, Haley Stevens, Ilhan Omar, Nancy Pelosi, Alexandria Ocasio-Cortez, Chris Pappas, Jasmine Crockett, Katherine Clark
+[d1 yellow] cur-hou-Rep  (party, 33 famous members, 33 living, lean R)  Current House Republicans
+      top 8: Mike Johnson, Byron Donalds, Lauren Boebert, Thomas Massie, Nancy Mace, Ashley Hinson, Brandon Gill, Mike Collins
+[d1 yellow] cur-sen-Dem  (party, 43 famous members, 43 living, lean D)  Current Democratic senators
+      top 8: Jon Ossoff, Charles Schumer, John Fetterman, Elissa Slotkin, Amy Klobuchar, Christopher Murphy, Chris Van Hollen, Cory Booker
+[d1 yellow] cur-sen-Rep  (party, 43 famous members, 43 living, lean R)  Current Republican senators
+      top 8: Mitch McConnell, Chuck Grassley, Susan Collins, Ted Cruz, John Cornyn, Cindy Hyde-Smith, John Kennedy, Ashley Moody
+[d1 yellow] party-Dem  (party, 162 famous members, 144 living, lean D)  Democrats
+      top 8: Jon Ossoff, Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Joe Biden, Bill Clinton, Hakeem Jeffries
+[d1 yellow] party-Rep  (party, 182 famous members, 158 living, lean R)  Republicans
+      top 8: Donald Trump, J.D. Vance, George W. Bush, Mitch McConnell, Ronald Reagan (hist.), Theodore Roosevelt (hist.), Dick Cheney (hist.), Dwight D. Eisenhower (hist.)
+[d1 yellow] db-gov-pres  (pres, 18 famous members, 2 living)  Governors who became president
+      top 8: George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Jimmy Carter (hist.), Thomas Jefferson (hist.), John Tyler (hist.)
+[d1 yellow] pres-all  (pres, 45 famous members, 5 living)  U.S. Presidents
+      top 8: Donald Trump, Barack Obama, George W. Bush, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Joe Biden, Ronald Reagan (hist.)
+[d1 yellow] pres-governor  (pres, 17 famous members, 2 living)  Presidents who were governors
+      top 8: George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Jimmy Carter (hist.), Thomas Jefferson (hist.), John Tyler (hist.)
+[d1 yellow] pres-modern  (pres, 8 famous members, 5 living)  Presidents since 1980
+      top 8: Donald Trump, Barack Obama, George W. Bush, Joe Biden, Ronald Reagan (hist.), Bill Clinton, Jimmy Carter (hist.), George H. W. Bush (hist.)
+[d1 yellow] pres-party-Democrat  (pres, 16 famous members, 3 living, lean D)  Democratic presidents
+      top 8: Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Joe Biden, Bill Clinton, Jimmy Carter (hist.), Harry S. Truman (hist.)
+[d1 yellow] pres-party-Republican  (pres, 19 famous members, 2 living, lean R)  Republican presidents
+      top 8: Donald Trump, George W. Bush, Ronald Reagan (hist.), Theodore Roosevelt (hist.), Abraham Lincoln (hist.), Dwight D. Eisenhower (hist.), Gerald Ford (hist.), Richard Nixon (hist.)
+[d2 green] c119-women-hou  (demo, 27 famous members, 27 living)  Women in the House in the 119th Congress (2025-27)
+      top 8: Haley Stevens, Ilhan Omar, Nancy Pelosi, Alexandria Ocasio-Cortez, Lauren Boebert, Jasmine Crockett, Nancy Mace, Ashley Hinson
+[d2 green] c119-women-sen  (demo, 24 famous members, 24 living)  Women senators of the 119th Congress (2025-27)
+      top 8: Susan Collins, Cindy Hyde-Smith, Elissa Slotkin, Amy Klobuchar, Ashley Moody, Marsha Blackburn, Katie Boyd Britt, Lisa Murkowski
+[d2 green] cur-women-hou  (demo, 25 famous members, 25 living)  Current women in the House
+      top 8: Haley Stevens, Ilhan Omar, Nancy Pelosi, Alexandria Ocasio-Cortez, Lauren Boebert, Jasmine Crockett, Nancy Mace, Ashley Hinson
+[d2 green] cur-women-sen  (demo, 24 famous members, 24 living)  Current women senators
+      top 8: Susan Collins, Cindy Hyde-Smith, Elissa Slotkin, Amy Klobuchar, Ashley Moody, Marsha Blackburn, Katie Boyd Britt, Lisa Murkowski
+[d2 green] c119-all  (era, 158 famous members, 157 living)  Members of the 119th Congress (2025-27)
+      top 8: Jon Ossoff, J.D. Vance, Mitch McConnell, Hakeem Jeffries, Haley Stevens, Charles Schumer, Ilhan Omar, Chuck Grassley
+[d2 green] cur-all  (era, 148 famous members, 148 living)  Current members of Congress
+      top 8: Jon Ossoff, Mitch McConnell, Hakeem Jeffries, Haley Stevens, Charles Schumer, Ilhan Omar, Chuck Grassley, Susan Collins
+[d2 green] cab-ag  (exec, 6 famous members, 6 living)  Recent U.S. attorneys general
+      top 8: Todd Blanche, Pam Bondi, Jeff Sessions, Merrick Garland, William Barr, John Ashcroft
+[d2 green] cab-defense  (exec, 8 famous members, 7 living)  Recent Defense secretaries
+      top 8: Dick Cheney (hist.), Pete Hegseth, Jim Mattis, Lloyd Austin III, Leon Panetta, Robert Gates, William Cohen, Mark Esper
+[d2 green] cab-state  (exec, 7 famous members, 7 living)  Recent Secretaries of State
+      top 8: Marco Rubio, Hillary Clinton, John Kerry, Condoleezza Rice, Mike Pompeo, Antony Blinken, Rex Tillerson
+[d2 green] cabinet  (exec, 49 famous members, 46 living)  Cabinet secretaries
+      top 8: Dick Cheney (hist.), Pete Hegseth, Marco Rubio, Xavier Becerra, Robert Kennedy Jr., Pete Buttigieg, Hillary Clinton, Scott Bessent
+[d2 green] firstlady-all  (exec, 6 famous members, 5 living)  First ladies
+      top 8: Melania Trump, Hillary Clinton, Jacqueline Kennedy Onassis (hist.), Michelle Obama, Laura Bush, Jill Biden
+[d2 green] firstlady-modern  (exec, 5 famous members, 5 living)  First ladies since 1980
+      top 8: Melania Trump, Hillary Clinton, Michelle Obama, Laura Bush, Jill Biden
+[d2 green] nominee-lost  (exec, 27 famous members, 7 living)  Presidential nominees who lost the general election
+      top 8: Donald Trump, Theodore Roosevelt (hist.), Gerald Ford (hist.), Richard Nixon (hist.), Jimmy Carter (hist.), George H. W. Bush (hist.), Thomas Jefferson (hist.), Kamala Harris
+[d2 green] scotus-recent  (exec, 12 famous members, 11 living)  Supreme Court justices since 1990
+      top 8: Clarence Thomas, Ruth Bader Ginsburg (hist.), Samuel Alito, John Roberts, Sonia Sotomayor, Brett Kavanaugh, Ketanji Brown Jackson, Amy Coney Barrett
+[d2 green] wh-press  (exec, 8 famous members, 8 living)  White House press secretaries
+      top 8: Karoline Leavitt, Sarah Huckabee Sanders, Karine Jean-Pierre, Jen Psaki, Kayleigh McEnany, Stephanie Grisham, Sean Spicer, Dana Perino
+[d2 green] gov-2026  (gov, 40 famous members, 40 living)  Governors in office during 2026
+      top 8: Gavin Newsom, Greg Abbott, Ron DeSantis, Kathleen Hochul, JB Pritzker, Andy Beshear, Sarah Huckabee Sanders, Josh Shapiro
+[d2 green] gov-all  (gov, 110 famous members, 90 living)  Current or former governors
+      top 8: George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Jimmy Carter (hist.), Thomas Jefferson (hist.), Gavin Newsom
+[d2 green] gov-current  (gov, 38 famous members, 38 living)  Current governors
+      top 8: Gavin Newsom, Greg Abbott, Ron DeSantis, Kathleen Hochul, JB Pritzker, Andy Beshear, Sarah Huckabee Sanders, Josh Shapiro
+[d2 green] mayor-big  (gov, 15 famous members, 15 living)  Mayors of big American cities
+      top 8: Zohran Mamdani, Gavin Newsom, Rahm Emanuel, Karen Bass, Rudy Giuliani, Michael Bloomberg, John Hickenlooper, Eric Adams
+[d2 green] mayor-nyc  (gov, 5 famous members, 5 living)  Mayors of New York City
+      top 8: Zohran Mamdani, Rudy Giuliani, Michael Bloomberg, Eric Adams, Bill de Blasio
+[d2 green] vp-modern  (lead, 11 famous members, 6 living)  Vice presidents since 1974
+      top 8: J.D. Vance, Joe Biden, Dick Cheney (hist.), Gerald Ford (hist.), George H. W. Bush (hist.), Kamala Harris, Al Gore, Mike Pence
+[d2 green] sen-Democrat  (party, 77 famous members, 67 living, lean D)  Democratic senators
+      top 8: Jon Ossoff, Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Joe Biden, Charles Schumer, Kamala Harris, Harry S. Truman (hist.)
+[d2 green] sen-Republican  (party, 77 famous members, 70 living, lean R)  Republican senators
+      top 8: J.D. Vance, Mitch McConnell, Richard Nixon (hist.), Chuck Grassley, Marco Rubio, Susan Collins, Ted Cruz, John Cornyn
+[d2 green] db-vp-pres  (pres, 15 famous members, 1 living)  Vice presidents who became president
+      top 8: Lyndon B. Johnson (hist.), Joe Biden, Theodore Roosevelt (hist.), Gerald Ford (hist.), Richard Nixon (hist.), George H. W. Bush (hist.), Thomas Jefferson (hist.), Harry S. Truman (hist.)
+[d2 green] pres-assassinated  (pres, 4 famous members, 0 living)  Assassinated presidents
+      top 8: John F. Kennedy (hist.), Abraham Lincoln (hist.), James A. Garfield (hist.), William McKinley (hist.)
+[d2 green] pres-born-MA  (pres, 4 famous members, 0 living)  Presidents born in Massachusetts
+      top 8: John F. Kennedy (hist.), George H. W. Bush (hist.), John Adams (hist.), John Quincy Adams (hist.)
+[d2 green] pres-born-NY  (pres, 5 famous members, 1 living)  Presidents born in New York
+      top 8: Donald Trump, Franklin D. Roosevelt (hist.), Theodore Roosevelt (hist.), Martin Van Buren (hist.), Millard Fillmore (hist.)
+[d2 green] pres-born-OH  (pres, 7 famous members, 0 living)  Presidents born in Ohio
+      top 8: William Howard Taft (hist.), James A. Garfield (hist.), Ulysses S. Grant (hist.), William McKinley (hist.), Warren G. Harding (hist.), Rutherford B. Hayes (hist.), Benjamin Harrison (hist.)
+[d2 green] pres-born-VA  (pres, 8 famous members, 0 living)  Presidents born in Virginia
+      top 8: George Washington (hist.), Thomas Jefferson (hist.), John Tyler (hist.), Woodrow Wilson (hist.), William Henry Harrison (hist.), James Madison (hist.), James Monroe (hist.), Zachary Taylor (hist.)
+[d2 green] pres-diedoffice  (pres, 8 famous members, 0 living)  Presidents who died in office
+      top 8: John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Abraham Lincoln (hist.), James A. Garfield (hist.), William McKinley (hist.), William Henry Harrison (hist.), Warren G. Harding (hist.), Zachary Taylor (hist.)
+[d2 green] pres-elected2  (pres, 18 famous members, 4 living)  Presidents elected to two terms
+      top 8: Donald Trump, Barack Obama, George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Abraham Lincoln (hist.), George Washington (hist.)
+[d2 green] pres-general  (pres, 11 famous members, 0 living)  Presidents who were generals
+      top 8: George Washington (hist.), Dwight D. Eisenhower (hist.), Andrew Jackson (hist.), James A. Garfield (hist.), Ulysses S. Grant (hist.), Andrew Johnson (hist.), William Henry Harrison (hist.), Rutherford B. Hayes (hist.)
+[d2 green] pres-senate  (pres, 17 famous members, 2 living)  Presidents who were once U.S. senators
+      top 8: Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Joe Biden, Richard Nixon (hist.), Harry S. Truman (hist.), John Tyler (hist.), Andrew Jackson (hist.)
+[d2 green] pres-the1900s  (pres, 17 famous members, 1 living)  Presidents first inaugurated in the 20th century
+      top 8: Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Dwight D. Eisenhower (hist.), Gerald Ford (hist.)
+[d2 green] pres-the2000s  (pres, 4 famous members, 4 living)  Presidents first inaugurated in 2001 or later
+      top 8: Donald Trump, Barack Obama, George W. Bush, Joe Biden
+[d2 green] sen-became-pres  (pres, 26 famous members, 2 living)  Presidents who served in the U.S. Congress
+      top 8: Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Joe Biden, Abraham Lincoln (hist.), Gerald Ford (hist.), Richard Nixon (hist.), George H. W. Bush (hist.)
+[d2 green] c119-state-CA  (state, 8 famous members, 8 living)  Members of the 119th Congress (2025-27) from California
+      top 8: Nancy Pelosi, Robert Garcia, Ro Khanna, Adam Schiff, Alex Padilla, Eric Swalwell, Kevin Kiley, Aisha Wahab
+[d2 green] c119-state-FL  (state, 8 famous members, 8 living)  Members of the 119th Congress (2025-27) from Florida
+      top 8: Marco Rubio, Byron Donalds, Ashley Moody, Rick Scott, Anna Paulina Luna, Maria Elvira Salazar, Michael Waltz, Maxwell Frost
+[d2 green] c119-state-MA  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Massachusetts
+      top 8: Elizabeth Warren, Katherine Clark, Edward Markey, Ayanna Pressley, Jake Auchincloss
+[d2 green] c119-state-MI  (state, 6 famous members, 6 living)  Members of the 119th Congress (2025-27) from Michigan
+      top 8: Haley Stevens, Elissa Slotkin, Gary Peters, Rashida Tlaib, John James, Debbie Dingell
+[d2 green] c119-state-NJ  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from New Jersey
+      top 8: Cory Booker, Mikie Sherrill, Andy Kim, Jefferson Van Drew, Thomas Kean, Jr.
+[d2 green] c119-state-NY  (state, 7 famous members, 7 living)  Members of the 119th Congress (2025-27) from New York
+      top 8: Hakeem Jeffries, Charles Schumer, Alexandria Ocasio-Cortez, Kirsten Gillibrand, Michael Lawler, Elise Stefanik, Thomas Suozzi
+[d2 green] c119-state-OH  (state, 6 famous members, 6 living)  Members of the 119th Congress (2025-27) from Ohio
+      top 8: J.D. Vance, Jon Husted, Sherrod Brown, Bernie Moreno, Max Miller, Jim Jordan
+[d2 green] c119-state-TX  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Texas
+      top 8: Ted Cruz, John Cornyn, Jasmine Crockett, Brandon Gill, Dan Crenshaw
+[d2 green] cur-state-CA  (state, 7 famous members, 7 living)  Current members of Congress from California
+      top 8: Nancy Pelosi, Robert Garcia, Ro Khanna, Adam Schiff, Alex Padilla, Kevin Kiley, Aisha Wahab
+[d2 green] cur-state-FL  (state, 6 famous members, 6 living)  Current members of Congress from Florida
+      top 8: Byron Donalds, Ashley Moody, Rick Scott, Anna Paulina Luna, Maria Elvira Salazar, Maxwell Frost
+[d2 green] cur-state-MA  (state, 5 famous members, 5 living)  Current members of Congress from Massachusetts
+      top 8: Elizabeth Warren, Katherine Clark, Edward Markey, Ayanna Pressley, Jake Auchincloss
+[d2 green] cur-state-MI  (state, 6 famous members, 6 living)  Current members of Congress from Michigan
+      top 8: Haley Stevens, Elissa Slotkin, Gary Peters, Rashida Tlaib, John James, Debbie Dingell
+[d2 green] cur-state-NY  (state, 7 famous members, 7 living)  Current members of Congress from New York
+      top 8: Hakeem Jeffries, Charles Schumer, Alexandria Ocasio-Cortez, Kirsten Gillibrand, Michael Lawler, Elise Stefanik, Thomas Suozzi
+[d2 green] cur-state-TX  (state, 5 famous members, 5 living)  Current members of Congress from Texas
+      top 8: Ted Cruz, John Cornyn, Jasmine Crockett, Brandon Gill, Dan Crenshaw
+[d2 green] gov-of-CA  (state, 6 famous members, 5 living)  Governors of California
+      top 8: Ronald Reagan (hist.), Gavin Newsom, Arnold Schwarzenegger, Jerry Brown, Gray Davis, Pete Wilson
+[d2 green] gov-of-MA  (state, 5 famous members, 4 living)  Governors of Massachusetts
+      top 8: Calvin Coolidge (hist.), Mitt Romney, Maura Healey, Michael Dukakis, Charlie Baker
+[d2 green] gov-of-NY  (state, 9 famous members, 4 living)  Governors of New York
+      top 8: Franklin D. Roosevelt (hist.), Theodore Roosevelt (hist.), Grover Cleveland (hist.), Martin Van Buren (hist.), Nelson Rockefeller (hist.), Kathleen Hochul, Andrew Cuomo, Eliot Spitzer
+[d2 green] gov-of-VA  (state, 8 famous members, 5 living)  Governors of Virginia
+      top 8: Thomas Jefferson (hist.), John Tyler (hist.), James Monroe (hist.), Mark Warner, Abigail Davis Spanberger, Tim Kaine, Glenn Youngkin, Douglas Wilder
+[d2 green] sen-AZ  (state, 5 famous members, 4 living)  Senators from Arizona since 1990
+      top 8: John McCain (hist.), Mark Kelly, Kyrsten Sinema, Ruben Gallego, Jeff Flake
+[d2 green] sen-MA  (state, 5 famous members, 4 living)  Senators from Massachusetts since 1990
+      top 8: Ted Kennedy (hist.), John Kerry, Elizabeth Warren, Edward Markey, Scott Brown
+[d2 green] sen-OH  (state, 5 famous members, 5 living)  Senators from Ohio since 1990
+      top 8: J.D. Vance, Jon Husted, Sherrod Brown, Mike DeWine, Bernie Moreno
+[d3 blue] cab-adm-Biden  (exec, 7 famous members, 7 living, lean D)  Members of the Biden cabinet
+      top 8: Xavier Becerra, Pete Buttigieg, Debra Haaland, Lloyd Austin III, Antony Blinken, Merrick Garland, Janet Yellen
+[d3 blue] cab-adm-Trump  (exec, 27 famous members, 27 living, lean R)  Members of the Trump cabinet
+      top 8: Pete Hegseth, Marco Rubio, Robert Kennedy Jr., Scott Bessent, Kristi Noem, Howard Lutnick, Markwayne Mullin, Rick Perry
+[d3 blue] gov-cabinet  (exec, 7 famous members, 5 living)  Former governors who joined a cabinet
+      top 8: Thomas Jefferson (hist.), James Monroe (hist.), Kristi Noem, Rick Perry, Doug Burgum, Sonny Perdue, John Ashcroft
+[d3 blue] sen-cabinet  (exec, 12 famous members, 7 living)  Senators who became cabinet secretaries
+      top 8: Marco Rubio, John Quincy Adams (hist.), James Buchanan (hist.), Martin Van Buren (hist.), Hillary Clinton, James Monroe (hist.), John Calhoun (hist.), John Kerry
+[d3 blue] leader-hou  (lead, 14 famous members, 12 living)  House party leaders and whips
+      top 8: Hakeem Jeffries, Dick Cheney (hist.), Gerald Ford (hist.), Nancy Pelosi, Newt Gingrich, Kevin McCarthy, Katherine Clark, James Clyburn
+[d3 blue] vp-senate  (lead, 16 famous members, 5 living)  Vice presidents who served in the Senate
+      top 8: J.D. Vance, Lyndon B. Johnson (hist.), Joe Biden, Richard Nixon (hist.), Kamala Harris, Harry S. Truman (hist.), John Tyler (hist.), Al Gore
+[d3 blue] both-chambers  (life, 68 famous members, 53 living)  Members who served in both the House and the Senate
+      top 8: Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Richard Nixon (hist.), Charles Schumer, Chuck Grassley, John Tyler (hist.), Andrew Jackson (hist.), Bernard Sanders
+[d3 blue] hou-Democrat  (party, 79 famous members, 74 living, lean D)  Democratic members of the House
+      top 8: Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Hakeem Jeffries, Haley Stevens, Charles Schumer, Ilhan Omar, Xavier Becerra, James K. Polk (hist.)
+[d3 blue] hou-Republican  (party, 93 famous members, 81 living, lean R)  Republican members of the House
+      top 8: Dick Cheney (hist.), Gerald Ford (hist.), Richard Nixon (hist.), George H. W. Bush (hist.), Chuck Grassley, James A. Garfield (hist.), Mike Johnson, William McKinley (hist.)
+[d3 blue] women-Democrat  (party, 43 famous members, 43 living, lean D)  Democratic women in Congress
+      top 8: Haley Stevens, Kamala Harris, Ilhan Omar, Nancy Pelosi, Alexandria Ocasio-Cortez, Elissa Slotkin, Amy Klobuchar, Hillary Clinton
+[d3 blue] women-Republican  (party, 28 famous members, 28 living, lean R)  Republican women in Congress
+      top 8: Susan Collins, Cindy Hyde-Smith, Ashley Moody, Kristi Noem, Lauren Boebert, Marsha Blackburn, Katie Boyd Britt, Kelly Loeffler
+[d3 blue] pres-house  (pres, 19 famous members, 0 living)  Presidents who once served in the House
+      top 8: Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Abraham Lincoln (hist.), Gerald Ford (hist.), Richard Nixon (hist.), George H. W. Bush (hist.), John Tyler (hist.), Andrew Jackson (hist.)
+[d3 blue] pres-lostpv  (pres, 5 famous members, 2 living)  Presidents who won the White House but lost the popular vote
+      top 8: Donald Trump, George W. Bush, John Quincy Adams (hist.), Rutherford B. Hayes (hist.), Benjamin Harrison (hist.)
+[d3 blue] pres-nonpol  (pres, 12 famous members, 3 living)  Presidents since 1900 who never served in Congress
+      top 8: Donald Trump, George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Dwight D. Eisenhower (hist.), Jimmy Carter (hist.)
+[d3 blue] pres-succeeded  (pres, 9 famous members, 0 living)  Presidents who took over after a death or resignation
+      top 8: Lyndon B. Johnson (hist.), Theodore Roosevelt (hist.), Gerald Ford (hist.), Harry S. Truman (hist.), John Tyler (hist.), Calvin Coolidge (hist.), Andrew Johnson (hist.), Chester A. Arthur (hist.)
+[d3 blue] c119-state-LA  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Louisiana
+      top 8: Mike Johnson, John Kennedy, Steve Scalise, Bill Cassidy, Julia Letlow
+[d3 blue] c119-state-MD  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Maryland
+      top 8: Chris Van Hollen, Andy Harris, Jamie Raskin, Angela Alsobrooks, Steny Hoyer
+[d3 blue] cur-state-LA  (state, 5 famous members, 5 living)  Current members of Congress from Louisiana
+      top 8: Mike Johnson, John Kennedy, Steve Scalise, Bill Cassidy, Julia Letlow
+[d3 blue] cur-state-MD  (state, 5 famous members, 5 living)  Current members of Congress from Maryland
+      top 8: Chris Van Hollen, Andy Harris, Jamie Raskin, Angela Alsobrooks, Steny Hoyer
+[d3 blue] dem-CA  (state, 11 famous members, 11 living, lean D)  Democrats from California in Congress since 1990
+      top 8: Kamala Harris, Xavier Becerra, Nancy Pelosi, Karen Bass, Robert Garcia, Ro Khanna, Adam Schiff, Alex Padilla
+[d3 blue] dem-IL  (state, 5 famous members, 5 living, lean D)  Democrats from Illinois in Congress since 1990
+      top 8: Barack Obama, Rahm Emanuel, Richard Durbin, Tammy Duckworth, Rod Blagojevich
+[d3 blue] dem-MA  (state, 8 famous members, 7 living, lean D)  Democrats from Massachusetts in Congress since 1990
+      top 8: Ted Kennedy (hist.), John Kerry, Elizabeth Warren, Katherine Clark, Edward Markey, Ayanna Pressley, Jake Auchincloss, Joseph Kennedy II
+[d3 blue] dem-MI  (state, 6 famous members, 6 living, lean D)  Democrats from Michigan in Congress since 1990
+      top 8: Haley Stevens, Elissa Slotkin, Gary Peters, Rashida Tlaib, Debbie Dingell, Debbie Stabenow
+[d3 blue] dem-NJ  (state, 5 famous members, 5 living, lean D)  Democrats from New Jersey in Congress since 1990
+      top 8: Cory Booker, Mikie Sherrill, Robert Menendez (NJ), Andy Kim, Bill Bradley
+[d3 blue] dem-NY  (state, 8 famous members, 8 living, lean D)  Democrats from New York in Congress since 1990
+      top 8: Hakeem Jeffries, Charles Schumer, Alexandria Ocasio-Cortez, Hillary Clinton, Kathleen Hochul, Kirsten Gillibrand, Thomas Suozzi, Anthony Weiner
+[d3 blue] gov-of-NH  (state, 5 famous members, 5 living)  Governors of New Hampshire
+      top 8: Jeanne Shaheen, John H. Sununu, Chris Sununu, Margaret Wood Hassan, Kelly Ayotte
+[d3 blue] rep-party-FL  (state, 10 famous members, 10 living, lean R)  Republicans from Florida in Congress since 1990
+      top 8: Marco Rubio, Ron DeSantis, Byron Donalds, Ashley Moody, David Jolly, Rick Scott, Matt Gaetz, Anna Paulina Luna
+[d3 blue] rep-party-GA  (state, 5 famous members, 5 living, lean R)  Republicans from Georgia in Congress since 1990
+      top 8: Newt Gingrich, Kelly Loeffler, Mike Collins, David Perdue, Marjorie Taylor Greene
+[d3 blue] rep-party-OH  (state, 8 famous members, 8 living, lean R)  Republicans from Ohio in Congress since 1990
+      top 8: J.D. Vance, Jon Husted, Mike DeWine, Bernie Moreno, John Boehner, John Kasich, Max Miller, Jim Jordan
+[d3 blue] rep-party-TX  (state, 8 famous members, 8 living, lean R)  Republicans from Texas in Congress since 1990
+      top 8: Ted Cruz, John Cornyn, Brandon Gill, Dan Crenshaw, Kay Bailey Hutchison, Ron Paul, Tom DeLay, John Ratcliffe
+[d3 blue] sen-ME  (state, 5 famous members, 5 living)  Senators from Maine since 1990
+      top 8: Susan Collins, Angus King, Jr., George Mitchell, William Cohen, Olympia Snowe
+[d4 purple] founders  (era, 6 famous members, 0 living)  Founding Fathers
+      top 8: George Washington (hist.), Thomas Jefferson (hist.), John Adams (hist.), James Madison (hist.), Alexander Hamilton (hist.), Benjamin Franklin (hist.)
+[d4 purple] founders-pres  (era, 5 famous members, 0 living)  Founding Fathers who became president
+      top 8: George Washington (hist.), Thomas Jefferson (hist.), John Adams (hist.), James Madison (hist.), James Monroe (hist.)
+[d4 purple] cabinet-congress  (exec, 16 famous members, 15 living)  Cabinet members who once served in Congress
+      top 8: Dick Cheney (hist.), Marco Rubio, Xavier Becerra, Hillary Clinton, Kristi Noem, Debra Haaland, John Kerry, Markwayne Mullin
+[d4 purple] fbi-cia  (exec, 8 famous members, 7 living)  Directors of the FBI and CIA
+      top 8: George H. W. Bush (hist.), Kash Patel, Mike Pompeo, James Comey, Leon Panetta, David Petraeus, Robert Gates, John Ratcliffe
+[d4 purple] lost-then-won  (exec, 4 famous members, 0 living)  Presidents who lost a general election before winning one
+      top 8: Richard Nixon (hist.), Thomas Jefferson (hist.), Andrew Jackson (hist.), William Henry Harrison (hist.)
+[d4 purple] partychair  (exec, 5 famous members, 5 living)  National party chairs
+      top 8: Ken Martin, Michael Whatley, Howard Dean, Joe Gruters, Donna Brazile
+[d4 purple] vpnominee-lost  (exec, 9 famous members, 7 living)  Running mates who lost the general election
+      top 8: Mike Pence, Sarah Palin, Dan Quayle, Walter Mondale (hist.), Paul Ryan, Bob Dole (hist.), Timothy Walz, Tim Kaine
+[d4 purple] wh-cos  (exec, 9 famous members, 8 living)  White House chiefs of staff
+      top 8: Dick Cheney (hist.), Stephen Miller, Susie Wiles, Rahm Emanuel, John H. Sununu, Leon Panetta, James Baker, John Kelly
+[d4 purple] gov-sen  (gov, 20 famous members, 15 living)  Former governors who became senators
+      top 8: John Tyler (hist.), Andrew Johnson (hist.), William Henry Harrison (hist.), Strom Thurmond (hist.), Mitt Romney, John Rockefeller, IV (hist.), Angus King, Jr., Mark Warner
+[d4 purple] mayor-higher  (gov, 12 famous members, 8 living)  Former mayors who went on to higher office
+      top 8: Gavin Newsom, Grover Cleveland (hist.), Bernard Sanders, Calvin Coolidge (hist.), Andrew Johnson (hist.), Pete Buttigieg, Hubert Humphrey (hist.), Cory Booker
+[d4 purple] leader-sen  (lead, 15 famous members, 10 living)  Senate party leaders and whips
+      top 8: Lyndon B. Johnson (hist.), Mitch McConnell, Charles Schumer, John Cornyn, Ted Kennedy (hist.), Hubert Humphrey (hist.), John Thune, Charles Curtis (hist.)
+
+DROPPED (too few famous members; count/needed):
+  [d2] women-leaders (3/4) Women who led a party or chamber in Congress -> Nancy Pelosi, Patty Murray, Katherine Clark
+  [d3] cur-state-AL (2/5) Current members of Congress from Alabama -> Tommy Tuberville, Katie Boyd Britt
+  [d3] sen-AL (4/5) Senators from Alabama since 1990 -> Tommy Tuberville, Katie Boyd Britt, Doug Jones, Jeff Sessions
+  [d3] cur-state-AK (3/5) Current members of Congress from Alaska -> Dan Sullivan, Lisa Murkowski, Nicholas Begich III
+  [d3] sen-AK (4/5) Senators from Alaska since 1990 -> Dan Sullivan, Lisa Murkowski, Frank Murkowski, Mark Begich
+  [d2] cur-state-AZ (4/5) Current members of Congress from Arizona -> Mark Kelly, Ruben Gallego, Andy Biggs, Yassamin Ansari
+  [d3] dem-AZ (4/5) Democrats from Arizona in Congress since 1990 -> Mark Kelly, Ruben Gallego, Gabby Giffords, Yassamin Ansari
+  [d3] rep-party-AZ (3/5) Republicans from Arizona in Congress since 1990 -> John McCain (hist.), Andy Biggs, Jeff Flake
+  [d3] cur-state-AR (1/5) Current members of Congress from Arkansas -> Tom Cotton
+  [d3] sen-AR (1/5) Senators from Arkansas since 1990 -> Tom Cotton
+  [d2] sen-CA (4/5) Senators from California since 1990 -> Kamala Harris, Adam Schiff, Alex Padilla, Pete Wilson
+  [d3] rep-party-CA (2/5) Republicans from California in Congress since 1990 -> Kevin McCarthy, Pete Wilson
+  [d3] cur-state-CO (4/5) Current members of Congress from Colorado -> Lauren Boebert, John Hickenlooper, Michael Bennet, Gabe Evans
+  [d3] sen-CO (2/5) Senators from Colorado since 1990 -> John Hickenlooper, Michael Bennet
+  [d3] cur-state-CT (2/5) Current members of Congress from Connecticut -> Christopher Murphy, Richard Blumenthal
+  [d3] sen-CT (2/5) Senators from Connecticut since 1990 -> Christopher Murphy, Richard Blumenthal
+  [d3] cur-state-DE (3/5) Current members of Congress from Delaware -> Sarah McBride, Christopher Coons, Lisa Blunt Rochester
+  [d3] sen-DE (3/5) Senators from Delaware since 1990 -> Joe Biden, Christopher Coons, Lisa Blunt Rochester
+  [d2] sen-FL (3/5) Senators from Florida since 1990 -> Marco Rubio, Ashley Moody, Rick Scott
+  [d3] dem-FL (2/5) Democrats from Florida in Congress since 1990 -> Charlie Crist, Maxwell Frost
+  [d2] cur-state-GA (3/5) Current members of Congress from Georgia -> Jon Ossoff, Raphael Warnock, Mike Collins
+  [d2] sen-GA (4/5) Senators from Georgia since 1990 -> Jon Ossoff, Raphael Warnock, Kelly Loeffler, David Perdue
+  [d3] dem-GA (2/5) Democrats from Georgia in Congress since 1990 -> Jon Ossoff, Raphael Warnock
+  [d3] cur-state-HI (2/5) Current members of Congress from Hawaii -> Brian Schatz, Mazie Hirono
+  [d3] sen-HI (2/5) Senators from Hawaii since 1990 -> Brian Schatz, Mazie Hirono
+  [d3] cur-state-ID (1/5) Current members of Congress from Idaho -> James Risch
+  [d3] sen-ID (1/5) Senators from Idaho since 1990 -> James Risch
+  [d2] cur-state-IL (2/5) Current members of Congress from Illinois -> Richard Durbin, Tammy Duckworth
+  [d2] sen-IL (3/5) Senators from Illinois since 1990 -> Barack Obama, Richard Durbin, Tammy Duckworth
+  [d3] rep-party-IL (2/5) Republicans from Illinois in Congress since 1990 -> Dennis Hastert (hist.), Adam Kinzinger
+  [d3] cur-state-IN (2/5) Current members of Congress from Indiana -> Victoria Spartz, Todd Young
+  [d3] sen-IN (3/5) Senators from Indiana since 1990 -> Evan Bayh, Mike Braun, Todd Young
+  [d3] cur-state-IA (3/5) Current members of Congress from Iowa -> Chuck Grassley, Ashley Hinson, Joni Ernst
+  [d3] sen-IA (3/5) Senators from Iowa since 1990 -> Chuck Grassley, Joni Ernst, Tom Harkin
+  [d3] cur-state-KS (2/5) Current members of Congress from Kansas -> Roger Marshall, Jerry Moran
+  [d3] sen-KS (4/5) Senators from Kansas since 1990 -> Roger Marshall, Bob Dole (hist.), Sam Brownback, Jerry Moran
+  [d3] cur-state-KY (4/5) Current members of Congress from Kentucky -> Mitch McConnell, Thomas Massie, Rand Paul, Andy Barr
+  [d3] sen-KY (2/5) Senators from Kentucky since 1990 -> Mitch McConnell, Rand Paul
+  [d3] sen-LA (2/5) Senators from Louisiana since 1990 -> John Kennedy, Bill Cassidy
+  [d3] cur-state-ME (2/5) Current members of Congress from Maine -> Susan Collins, Angus King, Jr.
+  [d3] sen-MD (2/5) Senators from Maryland since 1990 -> Chris Van Hollen, Angela Alsobrooks
+  [d3] rep-party-MA (1/5) Republicans from Massachusetts in Congress since 1990 -> Scott Brown
+  [d2] sen-MI (3/5) Senators from Michigan since 1990 -> Elissa Slotkin, Gary Peters, Debbie Stabenow
+  [d3] rep-party-MI (2/5) Republicans from Michigan in Congress since 1990 -> Mike Rogers (MI), John James
+  [d3] cur-state-MN (4/5) Current members of Congress from Minnesota -> Ilhan Omar, Amy Klobuchar, Tom Emmer, Tina Smith
+  [d3] sen-MN (4/5) Senators from Minnesota since 1990 -> Amy Klobuchar, Al Franken, Tina Smith, Mark Dayton
+  [d3] cur-state-MS (2/5) Current members of Congress from Mississippi -> Cindy Hyde-Smith, Roger Wicker
+  [d3] sen-MS (3/5) Senators from Mississippi since 1990 -> Cindy Hyde-Smith, Roger Wicker, Trent Lott
+  [d3] cur-state-MO (2/5) Current members of Congress from Missouri -> Eric Schmitt, Josh Hawley
+  [d3] sen-MO (4/5) Senators from Missouri since 1990 -> Eric Schmitt, Josh Hawley, Claire McCaskill, John Ashcroft
+  [d3] cur-state-MT (3/5) Current members of Congress from Montana -> Tim Sheehy, Ryan Zinke, Steve Daines
+  [d3] sen-MT (3/5) Senators from Montana since 1990 -> Tim Sheehy, Jon Tester, Steve Daines
+  [d3] cur-state-NE (1/5) Current members of Congress from Nebraska -> Pete Ricketts
+  [d3] sen-NE (2/5) Senators from Nebraska since 1990 -> Pete Ricketts, Ben Sasse
+  [d3] cur-state-NV (2/5) Current members of Congress from Nevada -> Susie Lee, Catherine Cortez Masto
+  [d3] sen-NV (1/5) Senators from Nevada since 1990 -> Catherine Cortez Masto
+  [d3] cur-state-NH (3/5) Current members of Congress from New Hampshire -> Chris Pappas, Jeanne Shaheen, Margaret Wood Hassan
+  [d3] sen-NH (4/5) Senators from New Hampshire since 1990 -> John E. Sununu, Jeanne Shaheen, Margaret Wood Hassan, Kelly Ayotte
+  [d2] cur-state-NJ (4/5) Current members of Congress from New Jersey -> Cory Booker, Andy Kim, Jefferson Van Drew, Thomas Kean, Jr.
+  [d2] sen-NJ (4/5) Senators from New Jersey since 1990 -> Cory Booker, Robert Menendez (NJ), Andy Kim, Bill Bradley
+  [d3] rep-party-NJ (1/5) Republicans from New Jersey in Congress since 1990 -> Thomas Kean, Jr.
+  [d3] cur-state-NM (1/5) Current members of Congress from New Mexico -> Ben Ray Luján
+  [d3] sen-NM (1/5) Senators from New Mexico since 1990 -> Ben Ray Luján
+  [d2] sen-NY (3/5) Senators from New York since 1990 -> Charles Schumer, Hillary Clinton, Kirsten Gillibrand
+  [d3] rep-party-NY (3/5) Republicans from New York in Congress since 1990 -> George Santos, Michael Lawler, Elise Stefanik
+  [d2] cur-state-NC (4/5) Current members of Congress from North Carolina -> Thom Tillis, Virginia Foxx, Ted Budd, Donald Davis
+  [d2] sen-NC (4/5) Senators from North Carolina since 1990 -> Thom Tillis, John Edwards, Ted Budd, Elizabeth Dole
+  [d3] dem-NC (2/5) Democrats from North Carolina in Congress since 1990 -> John Edwards, Donald Davis
+  [d3] rep-party-NC (4/5) Republicans from North Carolina in Congress since 1990 -> Thom Tillis, Virginia Foxx, Ted Budd, Elizabeth Dole
+  [d3] cur-state-ND (0/5) Current members of Congress from North Dakota
+  [d3] sen-ND (0/5) Senators from North Dakota since 1990
+  [d2] cur-state-OH (3/5) Current members of Congress from Ohio -> Bernie Moreno, Max Miller, Jim Jordan
+  [d3] dem-OH (1/5) Democrats from Ohio in Congress since 1990 -> Sherrod Brown
+  [d3] cur-state-OK (0/5) Current members of Congress from Oklahoma
+  [d3] sen-OK (1/5) Senators from Oklahoma since 1990 -> Markwayne Mullin
+  [d3] cur-state-OR (2/5) Current members of Congress from Oregon -> Ron Wyden, Jeff Merkley
+  [d3] sen-OR (2/5) Senators from Oregon since 1990 -> Ron Wyden, Jeff Merkley
+  [d2] cur-state-PA (3/5) Current members of Congress from Pennsylvania -> John Fetterman, David McCormick, Brian Fitzpatrick
+  [d2] sen-PA (4/5) Senators from Pennsylvania since 1990 -> John Fetterman, David McCormick, Rick Santorum, Robert Casey, Jr.
+  [d3] dem-PA (2/5) Democrats from Pennsylvania in Congress since 1990 -> John Fetterman, Robert Casey, Jr.
+  [d3] rep-party-PA (3/5) Republicans from Pennsylvania in Congress since 1990 -> David McCormick, Brian Fitzpatrick, Rick Santorum
+  [d3] cur-state-RI (2/5) Current members of Congress from Rhode Island -> Sheldon Whitehouse, Jack Reed
+  [d3] sen-RI (2/5) Senators from Rhode Island since 1990 -> Sheldon Whitehouse, Jack Reed
+  [d3] cur-state-SC (3/5) Current members of Congress from South Carolina -> Nancy Mace, Tim Scott, James Clyburn
+  [d3] sen-SC (3/5) Senators from South Carolina since 1990 -> Lindsey Graham (hist.), Strom Thurmond (hist.), Tim Scott
+  [d3] cur-state-SD (2/5) Current members of Congress from South Dakota -> John Thune, Mike Rounds
+  [d3] sen-SD (3/5) Senators from South Dakota since 1990 -> John Thune, Tom Daschle, Mike Rounds
+  [d3] cur-state-TN (2/5) Current members of Congress from Tennessee -> Marsha Blackburn, Bill Hagerty
+  [d3] sen-TN (4/5) Senators from Tennessee since 1990 -> Al Gore, Marsha Blackburn, Bill Hagerty, Bill Frist
+  [d2] sen-TX (3/5) Senators from Texas since 1990 -> Ted Cruz, John Cornyn, Kay Bailey Hutchison
+  [d3] dem-TX (2/5) Democrats from Texas in Congress since 1990 -> Jasmine Crockett, Beto O’Rourke
+  [d3] cur-state-UT (2/5) Current members of Congress from Utah -> Mike Lee, John Curtis
+  [d3] sen-UT (3/5) Senators from Utah since 1990 -> Mitt Romney, Mike Lee, John Curtis
+  [d3] cur-state-VT (2/5) Current members of Congress from Vermont -> Bernard Sanders, Peter Welch
+  [d3] sen-VT (3/5) Senators from Vermont since 1990 -> Bernard Sanders, Patrick Leahy, Peter Welch
+  [d2] cur-state-VA (3/5) Current members of Congress from Virginia -> Mark Warner, Tim Kaine, Robert Wittman
+  [d2] sen-VA (2/5) Senators from Virginia since 1990 -> Mark Warner, Tim Kaine
+  [d3] dem-VA (3/5) Democrats from Virginia in Congress since 1990 -> Mark Warner, Abigail Davis Spanberger, Tim Kaine
+  [d3] rep-party-VA (1/5) Republicans from Virginia in Congress since 1990 -> Robert Wittman
+  [d2] cur-state-WA (4/5) Current members of Congress from Washington -> Patty Murray, Marie Gluesenkamp Perez, Pramila Jayapal, Maria Cantwell
+  [d2] sen-WA (2/5) Senators from Washington since 1990 -> Patty Murray, Maria Cantwell
+  [d3] dem-WA (4/5) Democrats from Washington in Congress since 1990 -> Patty Murray, Marie Gluesenkamp Perez, Pramila Jayapal, Maria Cantwell
+  [d3] rep-party-WA (0/5) Republicans from Washington in Congress since 1990
+  [d3] cur-state-WV (2/5) Current members of Congress from West Virginia -> James Justice, Shelley Moore Capito
+  [d3] sen-WV (4/5) Senators from West Virginia since 1990 -> John Rockefeller, IV (hist.), Joe Manchin, III, James Justice, Shelley Moore Capito
+  [d3] cur-state-WI (3/5) Current members of Congress from Wisconsin -> Tammy Baldwin, Ron Johnson, Thomas Tiffany
+  [d3] sen-WI (2/5) Senators from Wisconsin since 1990 -> Tammy Baldwin, Ron Johnson
+  [d3] cur-state-WY (3/5) Current members of Congress from Wyoming -> John Barrasso, Cynthia Lummis, Harriet Hageman
+  [d3] sen-WY (2/5) Senators from Wyoming since 1990 -> John Barrasso, Cynthia Lummis
+  [d3] c119-state-AL (2/5) Members of the 119th Congress (2025-27) from Alabama -> Tommy Tuberville, Katie Boyd Britt
+  [d3] c119-state-AK (3/5) Members of the 119th Congress (2025-27) from Alaska -> Dan Sullivan, Lisa Murkowski, Nicholas Begich III
+  [d2] c119-state-AZ (4/5) Members of the 119th Congress (2025-27) from Arizona -> Mark Kelly, Ruben Gallego, Andy Biggs, Yassamin Ansari
+  [d3] c119-state-AR (1/5) Members of the 119th Congress (2025-27) from Arkansas -> Tom Cotton
+  [d3] c119-state-CO (4/5) Members of the 119th Congress (2025-27) from Colorado -> Lauren Boebert, John Hickenlooper, Michael Bennet, Gabe Evans
+  [d3] c119-state-CT (2/5) Members of the 119th Congress (2025-27) from Connecticut -> Christopher Murphy, Richard Blumenthal
+  [d3] c119-state-DE (3/5) Members of the 119th Congress (2025-27) from Delaware -> Sarah McBride, Christopher Coons, Lisa Blunt Rochester
+  [d2] c119-state-GA (4/5) Members of the 119th Congress (2025-27) from Georgia -> Jon Ossoff, Raphael Warnock, Mike Collins, Marjorie Taylor Greene
+  [d3] c119-state-HI (2/5) Members of the 119th Congress (2025-27) from Hawaii -> Brian Schatz, Mazie Hirono
+  [d3] c119-state-ID (1/5) Members of the 119th Congress (2025-27) from Idaho -> James Risch
+  [d2] c119-state-IL (2/5) Members of the 119th Congress (2025-27) from Illinois -> Richard Durbin, Tammy Duckworth
+  [d3] c119-state-IN (2/5) Members of the 119th Congress (2025-27) from Indiana -> Victoria Spartz, Todd Young
+  [d3] c119-state-IA (3/5) Members of the 119th Congress (2025-27) from Iowa -> Chuck Grassley, Ashley Hinson, Joni Ernst
+  [d3] c119-state-KS (2/5) Members of the 119th Congress (2025-27) from Kansas -> Roger Marshall, Jerry Moran
+  [d3] c119-state-KY (4/5) Members of the 119th Congress (2025-27) from Kentucky -> Mitch McConnell, Thomas Massie, Rand Paul, Andy Barr
+  [d3] c119-state-ME (2/5) Members of the 119th Congress (2025-27) from Maine -> Susan Collins, Angus King, Jr.
+  [d3] c119-state-MN (4/5) Members of the 119th Congress (2025-27) from Minnesota -> Ilhan Omar, Amy Klobuchar, Tom Emmer, Tina Smith
+  [d3] c119-state-MS (2/5) Members of the 119th Congress (2025-27) from Mississippi -> Cindy Hyde-Smith, Roger Wicker
+  [d3] c119-state-MO (2/5) Members of the 119th Congress (2025-27) from Missouri -> Eric Schmitt, Josh Hawley
+  [d3] c119-state-MT (3/5) Members of the 119th Congress (2025-27) from Montana -> Tim Sheehy, Ryan Zinke, Steve Daines
+  [d3] c119-state-NE (1/5) Members of the 119th Congress (2025-27) from Nebraska -> Pete Ricketts
+  [d3] c119-state-NV (2/5) Members of the 119th Congress (2025-27) from Nevada -> Susie Lee, Catherine Cortez Masto
+  [d3] c119-state-NH (3/5) Members of the 119th Congress (2025-27) from New Hampshire -> Chris Pappas, Jeanne Shaheen, Margaret Wood Hassan
+  [d3] c119-state-NM (1/5) Members of the 119th Congress (2025-27) from New Mexico -> Ben Ray Luján
+  [d2] c119-state-NC (4/5) Members of the 119th Congress (2025-27) from North Carolina -> Thom Tillis, Virginia Foxx, Ted Budd, Donald Davis
+  [d3] c119-state-ND (0/5) Members of the 119th Congress (2025-27) from North Dakota
+  [d3] c119-state-OK (1/5) Members of the 119th Congress (2025-27) from Oklahoma -> Markwayne Mullin
+  [d3] c119-state-OR (2/5) Members of the 119th Congress (2025-27) from Oregon -> Ron Wyden, Jeff Merkley
+  [d2] c119-state-PA (3/5) Members of the 119th Congress (2025-27) from Pennsylvania -> John Fetterman, David McCormick, Brian Fitzpatrick
+  [d3] c119-state-RI (2/5) Members of the 119th Congress (2025-27) from Rhode Island -> Sheldon Whitehouse, Jack Reed
+  [d3] c119-state-SC (4/5) Members of the 119th Congress (2025-27) from South Carolina -> Lindsey Graham (hist.), Nancy Mace, Tim Scott, James Clyburn
+  [d3] c119-state-SD (2/5) Members of the 119th Congress (2025-27) from South Dakota -> John Thune, Mike Rounds
+  [d3] c119-state-TN (2/5) Members of the 119th Congress (2025-27) from Tennessee -> Marsha Blackburn, Bill Hagerty
+  [d3] c119-state-UT (2/5) Members of the 119th Congress (2025-27) from Utah -> Mike Lee, John Curtis
+  [d3] c119-state-VT (2/5) Members of the 119th Congress (2025-27) from Vermont -> Bernard Sanders, Peter Welch
+  [d2] c119-state-VA (3/5) Members of the 119th Congress (2025-27) from Virginia -> Mark Warner, Tim Kaine, Robert Wittman
+  [d2] c119-state-WA (4/5) Members of the 119th Congress (2025-27) from Washington -> Patty Murray, Marie Gluesenkamp Perez, Pramila Jayapal, Maria Cantwell
+  [d3] c119-state-WV (2/5) Members of the 119th Congress (2025-27) from West Virginia -> James Justice, Shelley Moore Capito
+  [d3] c119-state-WI (3/5) Members of the 119th Congress (2025-27) from Wisconsin -> Tammy Baldwin, Ron Johnson, Thomas Tiffany
+  [d3] c119-state-WY (3/5) Members of the 119th Congress (2025-27) from Wyoming -> John Barrasso, Cynthia Lummis, Harriet Hageman
+  [d2] cab-treasury (3/5) Recent Treasury secretaries -> Scott Bessent, Janet Yellen, Lawrence Summers
+  [d4] cab-homeland (4/5) Homeland Security and Energy secretaries -> Kristi Noem, Markwayne Mullin, Rick Perry, Chris Wright
+  [d3] cab-adm-Obama (3/5) Members of the Obama cabinet -> Hillary Clinton, John Kerry, Leon Panetta
+  [d3] cab-adm-GWBush (4/5) Members of the George W. Bush cabinet -> Condoleezza Rice, Elaine Chao, Robert Gates, John Ashcroft
+  [d3] cab-adm-Clinton (4/5) Members of the Clinton cabinet -> Andrew Cuomo, Robert Reich, William Cohen, Lawrence Summers
+  [d3] cab-adm-Reagan (3/5) Members of the Reagan cabinet -> George Shultz (hist.), James Baker, Elizabeth Dole
+  [d3] scotus-chief (2/4) Chief justices of the United States -> William Howard Taft (hist.), John Roberts
+  [d2] scotus-women (0/4) Women on the Supreme Court
+  [d3] just-adm-Reagan (1/4) Supreme Court justices appointed by Reagan -> Anthony Kennedy
+  [d3] just-adm-GHWBush (1/4) Supreme Court justices appointed by George H.W. Bush -> Clarence Thomas
+  [d3] just-adm-Clinton (2/4) Supreme Court justices appointed by Clinton -> Ruth Bader Ginsburg (hist.), Stephen Breyer
+  [d3] just-adm-GWBush (2/4) Supreme Court justices appointed by George W. Bush -> Samuel Alito, John Roberts
+  [d3] just-adm-Obama (2/4) Supreme Court justices appointed by Obama -> Sonia Sotomayor, Elena Kagan
+  [d3] just-adm-Trump (3/4) Supreme Court justices appointed by Trump -> Brett Kavanaugh, Amy Coney Barrett, Neil Gorsuch
+  [d3] just-adm-Nixon (0/4) Supreme Court justices appointed by Nixon
+  [d3] just-adm-Biden (1/4) Supreme Court justices appointed by Biden -> Ketanji Brown Jackson
+  [d3] fed-chair (3/4) Federal Reserve chairs -> Kevin Warsh, Jerome Powell, Janet Yellen
+  [d4] nsa (4/5) National security advisors -> Marco Rubio, Henry Kissinger (hist.), Condoleezza Rice, Michael Waltz
+  [d4] un-amb (3/5) U.S. ambassadors to the United Nations -> George H. W. Bush (hist.), Nikki Haley, Michael Waltz
+  [d3] gov-of-AL (1/5) Governors of Alabama -> Kay Ivey
+  [d3] gov-of-AK (3/5) Governors of Alaska -> Sarah Palin, Mike Dunleavy, Frank Murkowski
+  [d2] gov-of-AZ (1/5) Governors of Arizona -> Katie Hobbs
+  [d2] gov-of-AR (3/5) Governors of Arkansas -> Bill Clinton, Sarah Huckabee Sanders, Mike Huckabee
+  [d3] gov-of-CO (2/5) Governors of Colorado -> John Hickenlooper, Jared Polis
+  [d3] gov-of-CT (1/5) Governors of Connecticut -> Ned Lamont
+  [d3] gov-of-DE (0/5) Governors of Delaware
+  [d2] gov-of-FL (4/5) Governors of Florida -> Ron DeSantis, Rick Scott, Jeb Bush, Charlie Crist
+  [d2] gov-of-GA (3/5) Governors of Georgia -> Jimmy Carter (hist.), Brian Kemp, Sonny Perdue
+  [d3] gov-of-HI (1/5) Governors of Hawaii -> Josh Green
+  [d3] gov-of-ID (1/5) Governors of Idaho -> James Risch
+  [d2] gov-of-IL (2/5) Governors of Illinois -> JB Pritzker, Rod Blagojevich
+  [d3] gov-of-IN (4/5) Governors of Indiana -> William Henry Harrison (hist.), Mike Pence, Evan Bayh, Mike Braun
+  [d3] gov-of-IA (1/5) Governors of Iowa -> Kim Reynolds
+  [d3] gov-of-KS (2/5) Governors of Kansas -> Laura Kelly, Sam Brownback
+  [d3] gov-of-KY (1/5) Governors of Kentucky -> Andy Beshear
+  [d3] gov-of-LA (2/5) Governors of Louisiana -> Bobby Jindal, Jeffrey Landry
+  [d3] gov-of-ME (2/5) Governors of Maine -> Angus King, Jr., Janet Mills
+  [d3] gov-of-MD (2/5) Governors of Maryland -> Spiro Agnew (hist.), Wes Moore
+  [d2] gov-of-MI (1/5) Governors of Michigan -> Gretchen Whitmer
+  [d3] gov-of-MN (3/5) Governors of Minnesota -> Jesse Ventura, Timothy Walz, Mark Dayton
+  [d3] gov-of-MS (1/5) Governors of Mississippi -> Tate Reeves
+  [d3] gov-of-MO (1/5) Governors of Missouri -> John Ashcroft
+  [d3] gov-of-MT (0/5) Governors of Montana
+  [d3] gov-of-NE (1/5) Governors of Nebraska -> Pete Ricketts
+  [d3] gov-of-NV (1/5) Governors of Nevada -> Joe Lombardo
+  [d2] gov-of-NJ (3/5) Governors of New Jersey -> Woodrow Wilson (hist.), Chris Christie, Mikie Sherrill
+  [d3] gov-of-NM (2/5) Governors of New Mexico -> Michelle Lujan Grisham, Gary Johnson
+  [d2] gov-of-NC (1/5) Governors of North Carolina -> Josh Stein
+  [d3] gov-of-ND (1/5) Governors of North Dakota -> Doug Burgum
+  [d2] gov-of-OH (4/5) Governors of Ohio -> William McKinley (hist.), Rutherford B. Hayes (hist.), Mike DeWine, John Kasich
+  [d3] gov-of-OK (1/5) Governors of Oklahoma -> Kevin Stitt
+  [d3] gov-of-OR (1/5) Governors of Oregon -> Tina Kotek
+  [d2] gov-of-PA (1/5) Governors of Pennsylvania -> Josh Shapiro
+  [d3] gov-of-RI (0/5) Governors of Rhode Island
+  [d3] gov-of-SC (3/5) Governors of South Carolina -> Strom Thurmond (hist.), Nikki Haley, Henry McMaster
+  [d3] gov-of-SD (2/5) Governors of South Dakota -> Kristi Noem, Mike Rounds
+  [d3] gov-of-TN (3/5) Governors of Tennessee -> James K. Polk (hist.), Andrew Johnson (hist.), Bill Lee
+  [d2] gov-of-TX (3/5) Governors of Texas -> George W. Bush, Greg Abbott, Rick Perry
+  [d3] gov-of-UT (1/5) Governors of Utah -> Spencer Cox
+  [d3] gov-of-VT (2/5) Governors of Vermont -> Phil Scott, Howard Dean
+  [d2] gov-of-WA (0/5) Governors of Washington
+  [d3] gov-of-WV (3/5) Governors of West Virginia -> John Rockefeller, IV (hist.), Joe Manchin, III, James Justice
+  [d3] gov-of-WI (1/5) Governors of Wisconsin -> Tony Evers
+  [d3] gov-of-WY (0/5) Governors of Wyoming
+
+PUZZLE STATS (450 puzzles)
+eligible faces: 452 (living top tier 270, living below top 121, historical 61) | top-tier faces used more than 18x: 197, other faces used more than 18x: 2
+people with photos: 15203 | rules kept: 125 of 338 (yellow/green/blue/purple: 26/57/31/11) | dropped: 213
+puzzles: 450 | distinct faces used: 433 | most-repeated face shown 26x (target 18 = 1 in 25; the cap was raised 6 times to 24; faces used more than 18 times: 199, mean uses per face 16.6)
+face use spread: std dev 6.8 | faces used 23x or more: 143 | 26x or more: 10
+distinct rules used: 122 | duplicate puzzles: 0
+living per puzzle (of 16): min 12, median 15, max 16 | living faces in top tier (eff >= 32000): min 12, median 12 (living floor 18000)
+lowest-fame face per puzzle: min 18011, median 20482 | average fame per puzzle: min 52990, median 118216 | easiest (yellow) group lowest face: min 50683, median 61409
+puzzle gate rejections while generating: could not fill a group 6953, party imbalance among faces 4, one-sided category set 3, near-duplicate titles 1
+json size: 376191 bytes

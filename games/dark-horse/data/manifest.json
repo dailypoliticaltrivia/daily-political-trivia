@@ -1,0 +1,22 @@
+{
+  "banks": [
+    "bank-people.json",
+    "bank-civics.json",
+    "bank-people-2.json",
+    "bank-civics-2.json",
+    "bank-curated-1.json",
+    "bank-curated-2.json",
+    "bank-derived-1.json",
+    "bank-derived-2.json",
+    "bank-derived-3.json",
+    "bank-derived-4.json",
+    "bank-derived-5.json",
+    "bank-derived-6.json",
+    "bank-derived2-1.json",
+    "bank-derived2-2.json",
+    "bank-derived2-3.json",
+    "bank-derived2-4.json",
+    "bank-curated2-1.json",
+    "bank-round3-1.json"
+  ]
+}

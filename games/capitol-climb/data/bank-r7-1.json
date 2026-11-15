@@ -1,0 +1,3635 @@
+{
+ "bank": "r7-1",
+ "questions": [
+  {
+   "id": "r7-0001",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Opechancanough, the Powhatan leader who directed the 1622 and 1644 attacks on English Virginia, met what end in 1646?",
+   "options": [
+    "He died of smallpox while bargaining for a peace treaty at Jamestown",
+    "He fled west and lived out his life among the Monacan",
+    "He was captured and later shot by a guard while held at Jamestown",
+    "He was shipped to England and died in the Tower of London"
+   ],
+   "answer": 2,
+   "explain": "Captured by Governor William Berkeley's men, the aged leader was shot in the back by an English soldier while a prisoner at Jamestown."
+  },
+  {
+   "id": "r7-0002",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "The 1646 treaty that ended the last Anglo-Powhatan War left the Powhatan peoples in what position?",
+   "options": [
+    "Tributaries paying Virginia a yearly tribute of beaver skins",
+    "Equal partners sharing the Jamestown peninsula with English settlers",
+    "Subjects of the Spanish governor of Florida",
+    "Members of the Haudenosaunee Confederacy"
+   ],
+   "answer": 0,
+   "explain": "Under the treaty, the Powhatan ceded land between the James and York rivers and paid a yearly tribute of beaver skins to Virginia's governor."
+  },
+  {
+   "id": "r7-0003",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Which Pamunkey leader signed the 1677 Treaty of Middle Plantation, which confirmed land rights for Native tributary towns in Virginia?",
+   "options": [
+    "Weetamoo",
+    "Wahunsenacawh",
+    "Opechancanough",
+    "Cockacoeske"
+   ],
+   "answer": 3,
+   "explain": "Cockacoeske, a female leader of the Pamunkey, signed the treaty after Bacon's Rebellion and was recognized as overlord of several tributary peoples."
+  },
+  {
+   "id": "r7-0004",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In September 1676, after Governor William Berkeley fled, what did Nathaniel Bacon's followers do to Jamestown?",
+   "options": [
+    "Fortified it as the capital of a new colony",
+    "Burned the town, including its statehouse and church",
+    "Handed it to a Dutch fleet in the James River",
+    "Turned it over to the Susquehannock as ransom"
+   ],
+   "answer": 1,
+   "explain": "Bacon's men burned Jamestown on September 19, 1676, so that Berkeley could not use it as a base; the capital later moved to Williamsburg."
+  },
+  {
+   "id": "r7-0005",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "How did Nathaniel Bacon die in October 1676?",
+   "options": [
+    "By hanging in Jamestown after a trial before Berkeley",
+    "Of dysentery and fever while his rebellion was still going on",
+    "In battle against the Occaneechi on the Roanoke River",
+    "Shot by royal soldiers who had just landed from England"
+   ],
+   "answer": 1,
+   "explain": "Bacon died of the 'bloody flux' (dysentery) and fever; without him the uprising collapsed, and Berkeley hanged more than twenty rebels."
+  },
+  {
+   "id": "r7-0006",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In May 1676, Bacon's volunteers turned on which Native people, who had just helped them by attacking a Susquehannock camp?",
+   "options": [
+    "The Tuscarora",
+    "The Nanticoke",
+    "The Catawba",
+    "The Occaneechi"
+   ],
+   "answer": 3,
+   "explain": "After the Occaneechi defeated a Susquehannock band, Bacon's men quarreled with them over captives and plunder and attacked their island town."
+  },
+  {
+   "id": "r7-0007",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "The three ships that brought the first Jamestown colonists in 1607 were the Godspeed, the Discovery and which larger flagship?",
+   "options": [
+    "The Susan Constant",
+    "The Mayflower",
+    "The Sea Venture",
+    "The Ark"
+   ],
+   "answer": 0,
+   "explain": "Captain Christopher Newport commanded the Susan Constant, the largest of the three ships that reached Virginia in the spring of 1607."
+  },
+  {
+   "id": "r7-0008",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Sea Venture, flagship of a 1609 relief fleet bound for Jamestown, was wrecked on which island group?",
+   "options": [
+    "The Bahamas",
+    "The Azores",
+    "Bermuda",
+    "The Outer Banks"
+   ],
+   "answer": 2,
+   "explain": "The castaways built two small ships and reached Jamestown in 1610; their story is thought to have helped inspire Shakespeare's The Tempest."
+  },
+  {
+   "id": "r7-0009",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "What was the harsh code of rules imposed on Jamestown in 1610-1611 under Thomas Gates and Thomas Dale?",
+   "options": [
+    "The Fundamental Orders",
+    "The Body of Liberties",
+    "The Frame of Government",
+    "The Laws Divine, Moral and Martial"
+   ],
+   "answer": 3,
+   "explain": "The martial-law code punished offenses such as stealing food or skipping work with whipping or death, as the company tried to save the colony."
+  },
+  {
+   "id": "r7-0010",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In June 1610, Jamestown's starving survivors were sailing away when they met the arriving ships of which new governor?",
+   "options": [
+    "Sir Thomas Dale",
+    "Sir William Berkeley",
+    "Lord De La Warr (Thomas West)",
+    "Sir Francis Wyatt"
+   ],
+   "answer": 2,
+   "explain": "De La Warr's fleet arrived with supplies and new settlers, and he ordered the colonists back to Jamestown just after the Starving Time."
+  },
+  {
+   "id": "r7-0011",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which settlement, founded in 1634, served as Maryland's first capital?",
+   "options": [
+    "Annapolis",
+    "St. Mary's City",
+    "Baltimore",
+    "Chestertown"
+   ],
+   "answer": 1,
+   "explain": "Colonists from the Ark and the Dove founded St. Mary's City near the mouth of the Potomac; it remained the capital until the 1690s."
+  },
+  {
+   "id": "r7-0012",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which Maryland rebel led the Protestant Association that overthrew the Calvert family's government in 1689?",
+   "options": [
+    "John Coode",
+    "Richard Ingle",
+    "Jacob Leisler",
+    "Nathaniel Bacon"
+   ],
+   "answer": 0,
+   "explain": "Coode's Protestant Associators seized power after the Glorious Revolution, and the Crown soon took over Maryland as a royal colony."
+  },
+  {
+   "id": "r7-0013",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Which English soldier served as Plymouth Colony's military leader?",
+   "options": [
+    "John Alden",
+    "William Brewster",
+    "Myles Standish",
+    "Edward Winslow"
+   ],
+   "answer": 2,
+   "explain": "Standish, a professional soldier, led Plymouth's militia and in 1623 led a raid on Massachusett men at Wessagusset."
+  },
+  {
+   "id": "r7-0014",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Thomas Morton angered Plymouth's leaders at his Merrymount trading post in the 1620s chiefly by doing what?",
+   "options": [
+    "Raising a maypole and selling guns to Native people",
+    "Claiming the land for the Dutch West India Company",
+    "Refusing to pay a tax levied by King Charles I",
+    "Printing pamphlets that mocked the Church of England"
+   ],
+   "answer": 0,
+   "explain": "Plymouth's Myles Standish arrested Morton in 1628, and he was shipped back to England; Morton mocked the Puritans in his book New English Canaan."
+  },
+  {
+   "id": "r7-0015",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Under the 1629 Cambridge Agreement, Puritan leaders of the Massachusetts Bay Company decided to do what?",
+   "options": [
+    "Ask the king to name a royal governor for their colony",
+    "Sell their shares to Dutch merchants in Leiden",
+    "Send only indentured servants to clear and settle the colony at first",
+    "Carry the company's charter and government with them to New England"
+   ],
+   "answer": 3,
+   "explain": "Taking the charter to Massachusetts let the colony govern itself far from company shareholders and royal officials in London."
+  },
+  {
+   "id": "r7-0016",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "John Winthrop sailed to Massachusetts Bay in 1630 aboard which flagship of the Puritan fleet?",
+   "options": [
+    "The Mayflower",
+    "The Arbella",
+    "The Speedwell",
+    "The Dove"
+   ],
+   "answer": 1,
+   "explain": "The Arbella led the Winthrop Fleet of eleven ships; Winthrop's famous 'city upon a hill' sermon is traditionally linked to the voyage."
+  },
+  {
+   "id": "r7-0017",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which New England colony was left out of the New England Confederation formed in 1643?",
+   "options": [
+    "Plymouth",
+    "Rhode Island",
+    "Connecticut",
+    "New Haven"
+   ],
+   "answer": 1,
+   "explain": "The United Colonies of New England joined Massachusetts Bay, Plymouth, Connecticut and New Haven for defense; Rhode Island's dissenters were excluded."
+  },
+  {
+   "id": "r7-0018",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which Connecticut captain led the 1637 attack on the Pequot fort at Mystic?",
+   "options": [
+    "Myles Standish",
+    "Benjamin Church",
+    "John Endecott",
+    "John Mason"
+   ],
+   "answer": 3,
+   "explain": "Mason, with John Underhill and Mohegan and Narragansett allies, set the fort on fire; hundreds of Pequot, many of them women and children, were killed."
+  },
+  {
+   "id": "r7-0019",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which Mohegan sachem allied with the English against the Pequot in 1637?",
+   "options": [
+    "Uncas",
+    "Sassacus",
+    "Massasoit",
+    "Canonicus"
+   ],
+   "answer": 0,
+   "explain": "Uncas broke from the Pequot and sided with the English, making the Mohegan a leading power in southern New England after the war."
+  },
+  {
+   "id": "r7-0020",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1643 the United Colonies approved the execution of which Narragansett sachem, then a captive of the Mohegan leader Uncas?",
+   "options": [
+    "Sassacus",
+    "Canonicus",
+    "Miantonomi",
+    "Ninigret"
+   ],
+   "answer": 2,
+   "explain": "Miantonomi was captured in battle with the Mohegan; with English approval, Uncas's brother killed him, deepening Narragansett anger at the colonists."
+  },
+  {
+   "id": "r7-0021",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The 1675 death of which Christian Native interpreter, and the hanging of three Wampanoag men for it, helped start King Philip's War?",
+   "options": [
+    "Tisquantum",
+    "Samoset",
+    "Hobbamock",
+    "John Sassamon"
+   ],
+   "answer": 3,
+   "explain": "Sassamon had warned Plymouth of Metacom's plans; Plymouth's trial and execution of three Wampanoag men for his death brought war that June."
+  },
+  {
+   "id": "r7-0022",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Metacom was killed in August 1676 by a Native soldier serving in the company of which colonial captain?",
+   "options": [
+    "John Mason",
+    "Myles Standish",
+    "Benjamin Church",
+    "Josiah Winslow"
+   ],
+   "answer": 2,
+   "explain": "Church's mixed English and Native company tracked Metacom to Mount Hope, where a Native man named John Alderman shot him."
+  },
+  {
+   "id": "r7-0023",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which enslaved woman in minister Samuel Parris's household was among the first people accused of witchcraft in Salem in 1692?",
+   "options": [
+    "Bridget Bishop",
+    "Tituba",
+    "Rebecca Nurse",
+    "Ann Putnam"
+   ],
+   "answer": 1,
+   "explain": "Tituba confessed under pressure and described a conspiracy of witches, which fed the panic; she was jailed but not executed."
+  },
+  {
+   "id": "r7-0024",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "supreme-court",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Governor William Phips created which special court to hear the Salem witchcraft cases in 1692?",
+   "options": [
+    "The Court of Oyer and Terminer",
+    "The Court of High Commission",
+    "The Court of Star Chamber",
+    "The Court of Vice-Admiralty"
+   ],
+   "answer": 0,
+   "explain": "The court, led by William Stoughton, condemned the accused; Phips dissolved it in October 1692 as doubts about spectral evidence grew."
+  },
+  {
+   "id": "r7-0025",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Which Salem judge stood in Boston's Old South Meeting House in 1697 while a statement taking the blame for his role was read?",
+   "options": [
+    "William Stoughton",
+    "John Hathorne",
+    "Samuel Sewall",
+    "Cotton Mather"
+   ],
+   "answer": 2,
+   "explain": "Sewall was the only judge to publicly apologize; Stoughton and Hathorne never did."
+  },
+  {
+   "id": "r7-0026",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Baptist minister secured Rhode Island's 1663 royal charter, with its promise of a 'lively experiment' in religious liberty?",
+   "options": [
+    "John Clarke",
+    "Samuel Gorton",
+    "William Coddington",
+    "Henry Dunster"
+   ],
+   "answer": 0,
+   "explain": "Clarke spent years in London lobbying for the charter, which guaranteed that no one would be punished for differences in religious opinion."
+  },
+  {
+   "id": "r7-0027",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Fort Christina, the main settlement of New Sweden founded in 1638, stood at the site of which present-day city?",
+   "options": [
+    "Philadelphia, Pennsylvania",
+    "Trenton, New Jersey",
+    "Camden, New Jersey",
+    "Wilmington, Delaware"
+   ],
+   "answer": 3,
+   "explain": "Peter Minuit led the Swedish expedition, naming the fort for Sweden's young Queen Christina."
+  },
+  {
+   "id": "r7-0028",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which governor led the Dutch takeover of New Sweden in 1655?",
+   "options": [
+    "Peter Minuit",
+    "Peter Stuyvesant",
+    "Willem Kieft",
+    "Johan Printz"
+   ],
+   "answer": 1,
+   "explain": "Stuyvesant sailed up the Delaware with several hundred soldiers, and the Swedish colony surrendered without a major battle."
+  },
+  {
+   "id": "r7-0029",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Willem Kieft, director of New Netherland, set off a 1643-1645 war after soldiers massacred Native refugees at which place?",
+   "options": [
+    "Fort Orange",
+    "Pavonia",
+    "Schenectady",
+    "Flushing"
+   ],
+   "answer": 1,
+   "explain": "The February 1643 killings at Pavonia, across the Hudson from Manhattan, provoked Lenape attacks that nearly destroyed the colony's outlying farms."
+  },
+  {
+   "id": "r7-0030",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "The Duke of York granted New Jersey in 1664 to which two proprietors?",
+   "options": [
+    "Cecil and Leonard Calvert",
+    "Anthony Ashley Cooper and John Locke",
+    "Ferdinando Gorges and John Mason",
+    "John Berkeley and George Carteret"
+   ],
+   "answer": 3,
+   "explain": "Carteret had defended the island of Jersey for the Crown during England's civil war, giving the colony its name."
+  },
+  {
+   "id": "r7-0031",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "What did William Penn call his plan for a colony founded on Quaker principles?",
+   "options": [
+    "A holy experiment",
+    "A city upon a hill",
+    "An errand into the wilderness",
+    "A lively experiment"
+   ],
+   "answer": 0,
+   "explain": "Penn hoped Pennsylvania would show that a government could rest on religious liberty, peace and fair dealing."
+  },
+  {
+   "id": "r7-0032",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "What happened to Jacob Leisler after his rebellion in New York ended in 1691?",
+   "options": [
+    "He became the colony's royal governor",
+    "He fled to the Dutch colony at Curacao",
+    "He was convicted of treason and hanged",
+    "He was pardoned and elected to the assembly"
+   ],
+   "answer": 2,
+   "explain": "Leisler and his son-in-law Jacob Milborne were executed in May 1691; Parliament reversed their attainders in 1695."
+  },
+  {
+   "id": "r7-0033",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1719, South Carolina colonists overthrew whose rule after the Yamasee War exposed weak defenses?",
+   "options": [
+    "The royal governor of Virginia",
+    "The Royal African Company",
+    "The Spanish governor of Florida",
+    "The Lords Proprietors"
+   ],
+   "answer": 3,
+   "explain": "Colonists asked the Crown to take over; South Carolina came under royal government, and the Crown bought out the proprietors in 1729."
+  },
+  {
+   "id": "r7-0034",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which surveyor, author of A New Voyage to Carolina, was executed by the Tuscarora in 1711?",
+   "options": [
+    "Christoph von Graffenried",
+    "Mark Catesby",
+    "John Lawson",
+    "William Byrd II"
+   ],
+   "answer": 2,
+   "explain": "Lawson and Graffenried were captured on a trip up the Neuse River; Graffenried was released, but Lawson was killed as the war began."
+  },
+  {
+   "id": "r7-0035",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "What turned the Yamasee War in South Carolina's favor in early 1716?",
+   "options": [
+    "A Spanish fleet arrived to defend Charles Town",
+    "The Cherokee sided with the colony against the Creek",
+    "The Yamasee surrendered after a smallpox outbreak",
+    "Virginia sent an army of several thousand men"
+   ],
+   "answer": 1,
+   "explain": "After Cherokee leaders killed Creek envoys at Tugaloo, the Cherokee joined South Carolina, and the Creek and their allies pulled back."
+  },
+  {
+   "id": "r7-0036",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "Which Yamacraw leader welcomed James Oglethorpe and helped Georgia's founders at Savannah in 1733?",
+   "options": [
+    "Tomochichi",
+    "Attakullakulla",
+    "Malatchi",
+    "Canasatego"
+   ],
+   "answer": 0,
+   "explain": "Tomochichi granted land for Savannah and traveled to London in 1734, where he met King George II."
+  },
+  {
+   "id": "r7-0037",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Which Creek-English woman served as James Oglethorpe's interpreter and trade go-between in early Georgia?",
+   "options": [
+    "Nancy Ward",
+    "Cockacoeske",
+    "Mary Musgrove",
+    "Weetamoo"
+   ],
+   "answer": 2,
+   "explain": "Mary Musgrove (Coosaponakeesa) ran a trading post near Savannah and helped Georgia keep peace with the Creek."
+  },
+  {
+   "id": "r7-0038",
+   "period": 2,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The War of Jenkins' Ear, which began between Britain and Spain in 1739, was named for what?",
+   "options": [
+    "A British captain's ear, cut off by a Spanish coast guard officer",
+    "A Spanish governor's ear lost in a sword duel with James Oglethorpe",
+    "A Georgia trader's ear cut off by Creek warriors",
+    "A sailor's ear lost in a mutiny aboard a slave ship"
+   ],
+   "answer": 0,
+   "explain": "Robert Jenkins said Spanish coast guards boarded his ship in 1731 and cut off his ear; he displayed it to Parliament years later."
+  },
+  {
+   "id": "r7-0039",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which Tewa religious leader organized the Pueblo Revolt of 1680?",
+   "options": [
+    "Tecumseh",
+    "Opechancanough",
+    "Metacom",
+    "Popé (Po'pay)"
+   ],
+   "answer": 3,
+   "explain": "Popé directed the revolt from Taos; a marble statue of him represents New Mexico in the U.S. Capitol's National Statuary Hall collection."
+  },
+  {
+   "id": "r7-0040",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which Spanish governor led the reconquest of New Mexico beginning in 1692?",
+   "options": [
+    "Juan de Onate",
+    "Diego de Vargas",
+    "Francisco Vazquez de Coronado",
+    "Antonio de Otermin"
+   ],
+   "answer": 1,
+   "explain": "Otermin was the governor who fled in 1680; Vargas returned twelve years later and reoccupied Santa Fe by 1693."
+  },
+  {
+   "id": "r7-0041",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "How did Pueblo runners coordinate the start of the 1680 revolt across many towns?",
+   "options": [
+    "By sending painted shields to each town's leaders",
+    "By carrying knotted cords, with one knot untied each day",
+    "By lighting signal fires on a chain of mesas",
+    "By passing letters written in Spanish by mission scribes"
+   ],
+   "answer": 1,
+   "explain": "When the last knot was untied, the towns were to rise together; the revolt began on August 10, 1680."
+  },
+  {
+   "id": "r7-0042",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which Jesuit missionary founded missions in the Pimeria Alta, in present-day Sonora and Arizona, beginning in 1687?",
+   "options": [
+    "Junipero Serra",
+    "Bartolome de las Casas",
+    "Jacques Marquette",
+    "Eusebio Kino"
+   ],
+   "answer": 3,
+   "explain": "Kino founded more than twenty missions, including San Xavier del Bac near Tucson, and mapped the region."
+  },
+  {
+   "id": "r7-0043",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "La Salle's 1685 colony, which alarmed Spain, was planted by mistake on the coast of which present-day state?",
+   "options": [
+    "Texas",
+    "Florida",
+    "Alabama",
+    "Mississippi"
+   ],
+   "answer": 0,
+   "explain": "Aiming for the mouth of the Mississippi, La Salle landed at Matagorda Bay; he was killed by his own men in 1687."
+  },
+  {
+   "id": "r7-0044",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Jesuit Relations, published yearly from 1632 to 1673, were what?",
+   "options": [
+    "Treaties signed between New France and the Haudenosaunee nations",
+    "Royal laws governing the fur trade",
+    "Missionaries' reports from New France printed in France",
+    "Letters from Huguenot settlers in Carolina"
+   ],
+   "answer": 2,
+   "explain": "The reports described Native peoples and mission work in detail and are a major source for the history of New France."
+  },
+  {
+   "id": "r7-0045",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1649, Haudenosaunee attacks destroyed the homeland and Jesuit missions of which Iroquoian-speaking confederacy?",
+   "options": [
+    "The Mi'kmaq",
+    "The Abenaki",
+    "The Ottawa",
+    "The Wendat (Huron)"
+   ],
+   "answer": 3,
+   "explain": "Weakened by epidemics, the Wendat were scattered by Haudenosaunee raids; survivors moved near Quebec or west to the Great Lakes."
+  },
+  {
+   "id": "r7-0046",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1673, missionary Jacques Marquette and which fur trader traveled down the Mississippi River as far as the Arkansas River?",
+   "options": [
+    "Robert de La Salle",
+    "Samuel de Champlain",
+    "Louis Jolliet",
+    "Etienne Brule"
+   ],
+   "answer": 2,
+   "explain": "Jolliet and Marquette turned back near the Arkansas after learning the river flowed to the Gulf of Mexico, not the Pacific."
+  },
+  {
+   "id": "r7-0047",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which French Canadian brothers led the founding of Louisiana, including Mobile and New Orleans?",
+   "options": [
+    "Marquette and Jolliet",
+    "Iberville and Bienville",
+    "La Salle and Tonti",
+    "Champlain and Frontenac"
+   ],
+   "answer": 1,
+   "explain": "Pierre Le Moyne d'Iberville founded the first posts in 1699; his brother Jean-Baptiste, sieur de Bienville, founded New Orleans in 1718."
+  },
+  {
+   "id": "r7-0048",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "John Law's company, which promoted French Louisiana, collapsed in 1720 in a speculative crash known as what?",
+   "options": [
+    "The Mississippi Bubble",
+    "The South Sea Bubble",
+    "Tulip Mania",
+    "The Darien scheme"
+   ],
+   "answer": 0,
+   "explain": "Law's Mississippi Company sold shares on promises of Louisiana riches; when the bubble burst, French investors were ruined."
+  },
+  {
+   "id": "r7-0049",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "At the 1744 Treaty of Lancaster, which Onondaga speaker urged the colonies to unite as the Haudenosaunee nations had?",
+   "options": [
+    "Joseph Brant",
+    "Tanacharison",
+    "Canasatego",
+    "Shikellamy"
+   ],
+   "answer": 2,
+   "explain": "Benjamin Franklin printed the treaty proceedings, and Canasatego's advice is often cited in discussions of the Albany Plan."
+  },
+  {
+   "id": "r7-0050",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "England's Navigation Act of 1651 was aimed mainly at the shipping trade of which rival?",
+   "options": [
+    "The Dutch",
+    "The French",
+    "The Spanish",
+    "The Portuguese"
+   ],
+   "answer": 0,
+   "explain": "Dutch merchants dominated colonial carrying trade; the act helped bring on the First Anglo-Dutch War in 1652."
+  },
+  {
+   "id": "r7-0051",
+   "period": 2,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which formerly enslaved man commanded the Black militia at Fort Mose in Spanish Florida?",
+   "options": [
+    "Juan Garrido",
+    "Pedro Menendez de Aviles",
+    "Estevanico",
+    "Francisco Menendez"
+   ],
+   "answer": 3,
+   "explain": "Menendez, who had escaped slavery in Carolina, led the free Black militia that helped defeat Oglethorpe's forces at Fort Mose in 1740."
+  },
+  {
+   "id": "r7-0052",
+   "period": 2,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "The 1741 conspiracy trials in New York City relied heavily on the testimony of which indentured servant?",
+   "options": [
+    "Mary Dyer",
+    "Mary Burton",
+    "Margaret Brent",
+    "Anne Hutchinson"
+   ],
+   "answer": 1,
+   "explain": "Burton, a servant at John Hughson's tavern, named many alleged plotters; dozens of enslaved men were burned or hanged."
+  },
+  {
+   "id": "r7-0053",
+   "period": 2,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In 1640, a Virginia court sentenced John Punch, a runaway servant of African descent, to what?",
+   "options": [
+    "Return to Africa on the next ship",
+    "Serve his master for the rest of his life",
+    "Pay a fine in tobacco and go free",
+    "Join the colony's militia for seven years"
+   ],
+   "answer": 1,
+   "explain": "The two European servants who ran with Punch received only extra years, so his case is often cited as the first legal record of lifelong slavery in Virginia."
+  },
+  {
+   "id": "r7-0054",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Most indentured servants bound for the Chesapeake in the 1600s signed contracts for about how long?",
+   "options": [
+    "One to two years",
+    "Ten to fifteen years",
+    "Their entire lives",
+    "Four to seven years"
+   ],
+   "answer": 3,
+   "explain": "Terms usually ran four to seven years, and younger servants without contracts often served longer under local custom."
+  },
+  {
+   "id": "r7-0055",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Jonathan Edwards described the 1734-1735 revival in his Northampton church in which widely read work?",
+   "options": [
+    "A Faithful Narrative of the Surprising Work of God",
+    "The Danger of an Unconverted Ministry",
+    "Magnalia Christi Americana",
+    "The Day of Doom"
+   ],
+   "answer": 0,
+   "explain": "Published in 1737, the Faithful Narrative was read in Britain and the colonies and became a model account of revival."
+  },
+  {
+   "id": "r7-0056",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "In 1750, Northampton's congregation dismissed Jonathan Edwards mainly over what?",
+   "options": [
+    "His public support for the Old Lights",
+    "His refusal to preach at outdoor revivals",
+    "His stricter rules for admitting people to communion",
+    "His plan to merge with the Church of England"
+   ],
+   "answer": 2,
+   "explain": "Edwards insisted that communicants show evidence of conversion, reversing his grandfather Solomon Stoddard's open practice."
+  },
+  {
+   "id": "r7-0057",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Which Boston minister was the leading Old Light critic of the revivals of the 1740s?",
+   "options": [
+    "Jonathan Edwards",
+    "Gilbert Tennent",
+    "Samuel Davies",
+    "Charles Chauncy"
+   ],
+   "answer": 3,
+   "explain": "Chauncy's Seasonable Thoughts on the State of Religion (1743) attacked the revivals' emotional excesses."
+  },
+  {
+   "id": "r7-0058",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "George Whitefield raised money across the colonies for which institution in Georgia?",
+   "options": [
+    "A college for training ministers",
+    "A hospital for sick sailors",
+    "An orphan house near Savannah",
+    "A school for Creek children"
+   ],
+   "answer": 2,
+   "explain": "Whitefield founded the Bethesda Orphan House in 1740 and collected gifts for it on his preaching tours."
+  },
+  {
+   "id": "r7-0059",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which English founder of the Society of Friends toured the American colonies in 1671-1673?",
+   "options": [
+    "William Penn",
+    "George Fox",
+    "John Wesley",
+    "John Woolman"
+   ],
+   "answer": 1,
+   "explain": "Fox visited Quaker meetings from Barbados and Maryland to Rhode Island, strengthening the young Quaker communities."
+  },
+  {
+   "id": "r7-0060",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Quaker John Woolman's 1754 essay Some Considerations on the Keeping of Negroes urged what?",
+   "options": [
+    "That Friends give up holding people in slavery",
+    "That Quakers move to the frontier to convert Native peoples",
+    "That Pennsylvania ban all imports from Britain",
+    "That Friends stop paying taxes for war"
+   ],
+   "answer": 0,
+   "explain": "Woolman traveled among Quaker meetings urging members to free enslaved people; Philadelphia Friends moved against slaveholding in 1758 and after."
+  },
+  {
+   "id": "r7-0061",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Parliament shut down the Massachusetts Land Bank in 1741 by extending which law to the colonies?",
+   "options": [
+    "The Molasses Act",
+    "The Woolen Act",
+    "The Bubble Act",
+    "The Staple Act"
+   ],
+   "answer": 2,
+   "explain": "The Land Bank issued notes backed by mortgages; its closure ruined many investors, including Samuel Adams's father."
+  },
+  {
+   "id": "r7-0062",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "After the statehouse at Jamestown burned in 1698, Virginia moved its capital to which town?",
+   "options": [
+    "Williamsburg",
+    "Richmond",
+    "Norfolk",
+    "Yorktown"
+   ],
+   "answer": 0,
+   "explain": "The new capital grew from Middle Plantation and was renamed for King William III; Richmond became the capital in 1780."
+  },
+  {
+   "id": "r7-0063",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1728, Virginia planter William Byrd II led a survey to fix the boundary between Virginia and which colony?",
+   "options": [
+    "Maryland",
+    "Pennsylvania",
+    "South Carolina",
+    "North Carolina"
+   ],
+   "answer": 3,
+   "explain": "Byrd's witty History of the Dividing Line describes the survey through the Great Dismal Swamp."
+  },
+  {
+   "id": "r7-0064",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Which Boston minister went to London and helped negotiate Massachusetts's new charter of 1691?",
+   "options": [
+    "Cotton Mather",
+    "Increase Mather",
+    "John Wise",
+    "Samuel Willard"
+   ],
+   "answer": 1,
+   "explain": "Increase Mather could not restore the old charter but won a new one and helped choose William Phips as governor."
+  },
+  {
+   "id": "r7-0065",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "According to Connecticut legend, colonists hid their charter from Edmund Andros in 1687 in what place?",
+   "options": [
+    "A church bell tower",
+    "A hollow oak tree",
+    "A ship in the harbor",
+    "A cave near New Haven"
+   ],
+   "answer": 1,
+   "explain": "The tree, later called the Charter Oak, stood in Hartford until a storm toppled it in 1856."
+  },
+  {
+   "id": "r7-0066",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "In February 1690, during King William's War, French and Native forces destroyed which New York frontier village?",
+   "options": [
+    "Deerfield",
+    "Kingston",
+    "Albany",
+    "Schenectady"
+   ],
+   "answer": 3,
+   "explain": "The night raid killed about sixty people and alarmed the English colonies, which planned a failed attack on Quebec that year."
+  },
+  {
+   "id": "r7-0067",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The 1704 French and Native raid on Deerfield, Massachusetts, took place during which war?",
+   "options": [
+    "Queen Anne's War",
+    "King Philip's War",
+    "King George's War",
+    "Dummer's War"
+   ],
+   "answer": 0,
+   "explain": "Raiders killed dozens of residents and marched more than one hundred captives to Canada, including minister John Williams."
+  },
+  {
+   "id": "r7-0068",
+   "period": 2,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Maine merchant commanded the New England army in the 1745 siege of France's fortress on Cape Breton Island?",
+   "options": [
+    "William Shirley",
+    "Robert Rogers",
+    "William Pepperrell",
+    "William Johnson"
+   ],
+   "answer": 2,
+   "explain": "Governor William Shirley organized the expedition against Louisbourg; Pepperrell led the troops and was made a baronet after its capture."
+  },
+  {
+   "id": "r7-0069",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Pocahontas died in 1617 at the start of a voyage home and was buried in which English town?",
+   "options": [
+    "Plymouth",
+    "Bristol",
+    "Dover",
+    "Gravesend"
+   ],
+   "answer": 3,
+   "explain": "She fell ill as her ship set out down the Thames and was buried at St George's Church in Gravesend."
+  },
+  {
+   "id": "r7-0070",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "Which Abenaki sachem startled the Plymouth settlers in March 1621 by walking into their settlement and greeting them in English?",
+   "options": [
+    "Tisquantum",
+    "Massasoit",
+    "Samoset",
+    "Hobbamock"
+   ],
+   "answer": 2,
+   "explain": "Samoset had learned some English from fishermen in Maine; he soon returned with Tisquantum (Squanto), who spoke English better."
+  },
+  {
+   "id": "r7-0071",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Founded in 1635, which is the oldest public school in the United States?",
+   "options": [
+    "Phillips Academy",
+    "Boston Latin School",
+    "Hotchkiss School",
+    "Groton School"
+   ],
+   "answer": 1,
+   "explain": "Boston's town meeting voted to support a schoolmaster in 1635; Boston Latin's students later included Benjamin Franklin, who did not graduate."
+  },
+  {
+   "id": "r7-0072",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which learned society did Benjamin Franklin help found in Philadelphia in 1743?",
+   "options": [
+    "The American Philosophical Society",
+    "The Royal Society of Arts",
+    "The Massachusetts Historical Society",
+    "The American Academy of Arts and Sciences"
+   ],
+   "answer": 0,
+   "explain": "Franklin proposed a society to share 'useful knowledge' among colonial scientists; it still meets in Philadelphia."
+  },
+  {
+   "id": "r7-0073",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1751, Benjamin Franklin and physician Thomas Bond founded which Philadelphia institution?",
+   "options": [
+    "The Union Fire Company",
+    "The Library Company",
+    "Pennsylvania Hospital",
+    "The Pennsylvania Gazette"
+   ],
+   "answer": 2,
+   "explain": "Pennsylvania Hospital cared for the sick poor and the mentally ill; Franklin raised matching funds from the assembly."
+  },
+  {
+   "id": "r7-0074",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Franklin's 1742 'Pennsylvania fireplace,' later called the Franklin stove, was designed to do what?",
+   "options": [
+    "Heat a room better while burning less wood",
+    "Cook food without any open flame",
+    "Smelt iron ore for colonial forges",
+    "Light city streets with burning oil"
+   ],
+   "answer": 0,
+   "explain": "Franklin refused a patent, saying people should share in inventions freely as they benefited from others'."
+  },
+  {
+   "id": "r7-0075",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Boston merchant Peter Faneuil gave the town what building in 1742?",
+   "options": [
+    "A Huguenot church and burial ground",
+    "A lighthouse at the harbor's entrance",
+    "A grammar school for poor boys",
+    "A market hall with a meeting room above it"
+   ],
+   "answer": 3,
+   "explain": "Faneuil Hall later hosted protest meetings in the 1760s and 1770s; part of Faneuil's fortune came from trade tied to slavery."
+  },
+  {
+   "id": "r7-0076",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Alexander Spotswood's 1716 expedition, whose members became known as the Knights of the Golden Horseshoe, crossed the Blue Ridge into which valley?",
+   "options": [
+    "The Ohio Valley",
+    "The Shenandoah Valley",
+    "The Mohawk Valley",
+    "The Connecticut Valley"
+   ],
+   "answer": 1,
+   "explain": "Spotswood promoted settlement west of the Blue Ridge; according to tradition, he gave members small golden horseshoes to mark the journey."
+  },
+  {
+   "id": "r7-0077",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1752, French-allied warriors led by Charles Langlade destroyed Pickawillany, a trading town of which people?",
+   "options": [
+    "The Shawnee",
+    "The Miami",
+    "The Lenape",
+    "The Wyandot"
+   ],
+   "answer": 1,
+   "explain": "The Miami leader Memeskia, called Old Briton for his British trade ties, was killed, warning British traders off the Ohio country."
+  },
+  {
+   "id": "r7-0078",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Harvard's first president, Henry Dunster, was forced to resign in 1654 for rejecting what practice?",
+   "options": [
+    "Singing hymns in church",
+    "Teaching Greek and Hebrew",
+    "Ordaining ministers",
+    "Infant baptism"
+   ],
+   "answer": 3,
+   "explain": "Dunster's Baptist views clashed with Massachusetts law, which required infant baptism."
+  },
+  {
+   "id": "r7-0079",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 1811 German Coast Uprising, the largest slave revolt in U.S. history, took place in which territory?",
+   "options": [
+    "The Territory of Orleans",
+    "The Mississippi Territory",
+    "The Missouri Territory",
+    "The Indiana Territory"
+   ],
+   "answer": 0,
+   "explain": "Hundreds of enslaved people marched toward New Orleans along the Mississippi before militia and federal troops crushed the revolt."
+  },
+  {
+   "id": "r7-0080",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Denmark Vesey, executed in 1822 for planning a revolt in Charleston, had earlier bought his freedom with what?",
+   "options": [
+    "Wages from service in the War of 1812",
+    "Gold found on the Georgia frontier",
+    "Prize money from a city lottery",
+    "A loan from the American Colonization Society"
+   ],
+   "answer": 2,
+   "explain": "Vesey won $1,500 in a 1799 lottery and bought his freedom; Charleston later destroyed the AME church where he worshiped."
+  },
+  {
+   "id": "r7-0081",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "South Carolina's Negro Seamen Act of 1822 required what?",
+   "options": [
+    "Paying Black sailors the same wages as white sailors",
+    "Banning Black sailors from the U.S. Navy",
+    "Freeing any enslaved person who reached a ship",
+    "Jailing free Black sailors while their ships stayed in port"
+   ],
+   "answer": 3,
+   "explain": "Passed after the Vesey plot, the law angered Britain; a federal judge called it unconstitutional, but South Carolina kept enforcing it."
+  },
+  {
+   "id": "r7-0082",
+   "period": 4,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Nat Turner took which natural event in February 1831 as a sign to prepare his revolt?",
+   "options": [
+    "A great comet",
+    "An earthquake",
+    "A solar eclipse",
+    "A meteor shower"
+   ],
+   "answer": 2,
+   "explain": "Turner saw the eclipse as a divine signal; the revolt began that August in Southampton County, Virginia."
+  },
+  {
+   "id": "r7-0083",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "In Barron v. Baltimore (1833), Chief Justice Marshall's Court held what?",
+   "options": [
+    "States could not tax a bank chartered by Congress",
+    "The Bill of Rights limited only the federal government, not the states",
+    "Cities had no power to regulate their harbors",
+    "Private property could never be taken for public use, even with payment"
+   ],
+   "answer": 1,
+   "explain": "A wharf owner claimed the city had taken his property without compensation; the Fourteenth Amendment later opened the way to applying rights to the states."
+  },
+  {
+   "id": "r7-0084",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In Johnson v. M'Intosh (1823), the Supreme Court ruled what about Native land?",
+   "options": [
+    "Only the federal government could acquire it from Native nations",
+    "Native nations could sell it to any private buyer",
+    "States owned all of it within their borders",
+    "Settlers gained title after living on it for seven years"
+   ],
+   "answer": 0,
+   "explain": "Marshall's opinion relied on the 'doctrine of discovery,' holding that private purchases from tribes gave no valid title."
+  },
+  {
+   "id": "r7-0085",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "Who succeeded John Marshall as chief justice of the United States in 1836?",
+   "options": [
+    "Joseph Story",
+    "John McLean",
+    "Roger B. Taney",
+    "Salmon P. Chase"
+   ],
+   "answer": 2,
+   "explain": "Taney, Jackson's former Treasury secretary, led the Court until 1864; he is best known for the Dred Scott decision."
+  },
+  {
+   "id": "r7-0086",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Prigg v. Pennsylvania (1842) struck down a Pennsylvania law because it conflicted with what?",
+   "options": [
+    "The federal Fugitive Slave Act of 1793",
+    "The Missouri Compromise",
+    "The Northwest Ordinance",
+    "The Tariff of 1842"
+   ],
+   "answer": 0,
+   "explain": "The Court also said states need not help enforce the federal law, which led several northern states to pass personal liberty laws."
+  },
+  {
+   "id": "r7-0087",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Which Treasury secretary under Jefferson and Madison worked to pay down the national debt and wrote an 1808 report on roads and canals?",
+   "options": [
+    "Alexander Hamilton",
+    "Oliver Wolcott Jr.",
+    "Alexander J. Dallas",
+    "Albert Gallatin"
+   ],
+   "answer": 3,
+   "explain": "Gallatin, born in Geneva, served from 1801 to 1814, the longest of any Treasury secretary, and later helped negotiate the Treaty of Ghent."
+  },
+  {
+   "id": "r7-0088",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Which U.S. Army general, secretly a paid Spanish agent, exposed Aaron Burr's western scheme to Jefferson?",
+   "options": [
+    "William Hull",
+    "James Wilkinson",
+    "Henry Dearborn",
+    "Winfield Scott"
+   ],
+   "answer": 1,
+   "explain": "Wilkinson had conspired with Burr before turning on him; his secret Spanish pension was confirmed by documents found after his death."
+  },
+  {
+   "id": "r7-0089",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Who became the first governor of the Territory of Orleans, the southern part of the Louisiana Purchase?",
+   "options": [
+    "William Henry Harrison",
+    "William C. C. Claiborne",
+    "Andrew Jackson",
+    "Meriwether Lewis"
+   ],
+   "answer": 1,
+   "explain": "Claiborne received Louisiana from France in December 1803 and later became the first governor of the state of Louisiana."
+  },
+  {
+   "id": "r7-0090",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1804, Stephen Decatur led a daring night raid into a Barbary Coast harbor to do what?",
+   "options": [
+    "Rescue the pasha's imprisoned brother",
+    "Blow up the city's main fort",
+    "Seize the pasha's treasury",
+    "Burn the captured U.S. frigate Philadelphia"
+   ],
+   "answer": 3,
+   "explain": "Decatur's men slipped in on a captured ketch and set the Philadelphia ablaze; Britain's Admiral Nelson reportedly praised the raid."
+  },
+  {
+   "id": "r7-0091",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The USS Constitution earned the nickname 'Old Ironsides' in an 1812 victory over which British frigate?",
+   "options": [
+    "HMS Guerriere",
+    "HMS Leopard",
+    "HMS Shannon",
+    "HMS Macedonian"
+   ],
+   "answer": 0,
+   "explain": "Sailors said British cannonballs bounced off the Constitution's thick oak sides, and the frigate won again against HMS Java that December."
+  },
+  {
+   "id": "r7-0092",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which U.S. commander reported 'We have met the enemy and they are ours' after a battle on Lake Erie in 1813?",
+   "options": [
+    "Stephen Decatur",
+    "Thomas Macdonough",
+    "Oliver Hazard Perry",
+    "Isaac Hull"
+   ],
+   "answer": 2,
+   "explain": "Perry's victory gave the United States control of Lake Erie and forced the British to give up Detroit."
+  },
+  {
+   "id": "r7-0093",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Tecumseh was killed in October 1813 at which battle in Upper Canada?",
+   "options": [
+    "The Battle of Queenston Heights",
+    "The Battle of Fallen Timbers",
+    "The Battle of Lundy's Lane",
+    "The Battle of the Thames"
+   ],
+   "answer": 3,
+   "explain": "William Henry Harrison's army defeated the British and their Native allies; Tecumseh's death broke up his confederacy."
+  },
+  {
+   "id": "r7-0094",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1813, American troops burned public buildings at York, the capital of Upper Canada. York is now which city?",
+   "options": [
+    "Montreal",
+    "Kingston",
+    "Toronto",
+    "Ottawa"
+   ],
+   "answer": 2,
+   "explain": "The burning of York's parliament buildings was cited by the British as one reason for burning Washington in 1814."
+  },
+  {
+   "id": "r7-0095",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Thomas Macdonough's September 1814 naval victory stopped a British invasion from Canada on which lake?",
+   "options": [
+    "Lake Ontario",
+    "Lake Champlain",
+    "Lake George",
+    "Lake Erie"
+   ],
+   "answer": 1,
+   "explain": "The Battle of Plattsburgh forced British troops back to Canada and strengthened the U.S. position at the Ghent peace talks."
+  },
+  {
+   "id": "r7-0096",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The August 1813 Red Stick attack on which Alabama stockade drew the United States into the Creek War?",
+   "options": [
+    "Fort Mims",
+    "Fort Dearborn",
+    "Fort Meigs",
+    "Fort Stoddert"
+   ],
+   "answer": 0,
+   "explain": "Red Stick warriors killed hundreds of settlers, militia and enslaved people at Fort Mims north of Mobile."
+  },
+  {
+   "id": "r7-0097",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Barataria Bay privateer and his men helped Andrew Jackson defend New Orleans in 1814-1815?",
+   "options": [
+    "William Walker",
+    "Jean-Baptiste Point du Sable",
+    "Jean Lafitte",
+    "Pierre Laclede"
+   ],
+   "answer": 2,
+   "explain": "Lafitte turned down a British offer and provided men, flints and powder; Madison later pardoned the Baratarians."
+  },
+  {
+   "id": "r7-0098",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "After the British burned the White House, President Madison signed the ratified Treaty of Ghent in 1815 in which nearby house?",
+   "options": [
+    "The Octagon House",
+    "Blair House",
+    "Decatur House",
+    "Dumbarton Oaks"
+   ],
+   "answer": 0,
+   "explain": "The Madisons lived in the Octagon, owned by John Tayloe III, while the White House was rebuilt; the treaty was signed in its upstairs study."
+  },
+  {
+   "id": "r7-0099",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "In the 1820 election, James Monroe won every electoral vote but one. Who received that lone vote?",
+   "options": [
+    "DeWitt Clinton",
+    "Rufus King",
+    "Daniel Webster",
+    "John Quincy Adams"
+   ],
+   "answer": 3,
+   "explain": "New Hampshire elector William Plumer voted for Adams, Monroe's secretary of state, reportedly because he thought Monroe a weak leader."
+  },
+  {
+   "id": "r7-0100",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "British foreign secretary George Canning proposed in 1823 that the United States and Britain do what?",
+   "options": [
+    "Divide the Oregon Country between them at the line of the Columbia River",
+    "Jointly warn other European powers against intervening in Latin America",
+    "Jointly buy Cuba from Spain",
+    "End the Atlantic slave trade by naval patrols"
+   ],
+   "answer": 1,
+   "explain": "John Quincy Adams persuaded Monroe to act alone, and the United States issued the Monroe Doctrine that December."
+  },
+  {
+   "id": "r7-0101",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Besides Jackson, John Quincy Adams and Henry Clay, who was the fourth major presidential candidate in 1824, a Georgian slowed by a stroke?",
+   "options": [
+    "John C. Calhoun",
+    "William H. Crawford",
+    "DeWitt Clinton",
+    "Daniel Webster"
+   ],
+   "answer": 1,
+   "explain": "Crawford, Monroe's Treasury secretary, finished third in electoral votes, ahead of Clay, so Clay could not be considered by the House."
+  },
+  {
+   "id": "r7-0102",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Andrew Jackson's 1830 Maysville Road veto rejected federal money for a road lying entirely within which state?",
+   "options": [
+    "Ohio",
+    "Tennessee",
+    "Indiana",
+    "Kentucky"
+   ],
+   "answer": 3,
+   "explain": "Jackson argued a purely local road was not a proper federal project; it was also a jab at Kentucky's Henry Clay."
+  },
+  {
+   "id": "r7-0103",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which third party held the first national presidential nominating convention, in 1831?",
+   "options": [
+    "The Anti-Masonic Party",
+    "The Liberty Party",
+    "The Free Soil Party",
+    "The Know-Nothing Party"
+   ],
+   "answer": 0,
+   "explain": "Meeting in Baltimore, the Anti-Masons nominated William Wirt; the major parties soon adopted conventions too."
+  },
+  {
+   "id": "r7-0104",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In January 1835, the first known attempt to kill a sitting president failed outside the Capitol. Why?",
+   "options": [
+    "A guard knocked the gun away just in time",
+    "The bullet struck a book in Jackson's coat",
+    "Both of the attacker's pistols misfired",
+    "The gunman lost his nerve and ran away"
+   ],
+   "answer": 2,
+   "explain": "Richard Lawrence's two pistols misfired; Jackson went after him with his cane, and Lawrence was later found insane."
+  },
+  {
+   "id": "r7-0105",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Which Treasury secretary did Jackson fire in 1833 for refusing to remove federal deposits from the Second Bank?",
+   "options": [
+    "Samuel D. Ingham",
+    "Levi Woodbury",
+    "Albert Gallatin",
+    "William J. Duane"
+   ],
+   "answer": 3,
+   "explain": "Duane lasted only a few months; Jackson replaced him with Roger B. Taney, who moved the deposits to state banks."
+  },
+  {
+   "id": "r7-0106",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Critics mocked the first vice president to take over after a president's death with what nickname?",
+   "options": [
+    "The Little Magician",
+    "Old Kinderhook",
+    "His Accidency",
+    "The Sage of Lindenwald"
+   ],
+   "answer": 2,
+   "explain": "When Harrison died in 1841, John Tyler insisted he was fully president, not acting president, setting a lasting precedent."
+  },
+  {
+   "id": "r7-0107",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Dorr Rebellion of 1841-1842 sought to do what in Rhode Island?",
+   "options": [
+    "Separate church and state",
+    "Extend voting rights to men without land",
+    "Abolish slavery in the state",
+    "Annex part of Massachusetts"
+   ],
+   "answer": 1,
+   "explain": "Rhode Island still used its 1663 charter, which limited voting to landowners; a new 1843 constitution widened suffrage."
+  },
+  {
+   "id": "r7-0108",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Who commanded the Texan defenders of the Alamo in 1836?",
+   "options": [
+    "William B. Travis",
+    "Sam Houston",
+    "Stephen F. Austin",
+    "Mirabeau Lamar"
+   ],
+   "answer": 0,
+   "explain": "Travis, who shared command with Jim Bowie until Bowie fell ill, wrote a famous letter pledging 'victory or death.'"
+  },
+  {
+   "id": "r7-0109",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "After his capture at San Jacinto, Santa Anna signed which agreements accepting Texas independence?",
+   "options": [
+    "The Treaty of Guadalupe Hidalgo",
+    "The Treaty of Cordoba",
+    "The Treaties of Velasco",
+    "The Adams-Onis Treaty"
+   ],
+   "answer": 2,
+   "explain": "Mexico's government refused to ratify the treaties, which Santa Anna signed as a prisoner."
+  },
+  {
+   "id": "r7-0110",
+   "period": 4,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Tejano officer led a company of Tejano soldiers at the Battle of San Jacinto?",
+   "options": [
+    "Juan Seguin",
+    "Lorenzo de Zavala",
+    "Jose Antonio Navarro",
+    "Gregorio Esparza"
+   ],
+   "answer": 0,
+   "explain": "Seguin had left the Alamo as a messenger before it fell; he later became mayor of San Antonio."
+  },
+  {
+   "id": "r7-0111",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Donner Party was trapped by snow in 1846-1847 in which mountain range?",
+   "options": [
+    "The Rocky Mountains",
+    "The Cascade Range",
+    "The Wasatch Range",
+    "The Sierra Nevada"
+   ],
+   "answer": 3,
+   "explain": "Delayed by the untested Hastings Cutoff, the emigrants were stranded near Truckee Lake; about half died."
+  },
+  {
+   "id": "r7-0112",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1834 and 1836, Lowell mill women staged 'turnouts' to protest what?",
+   "options": [
+    "A ban on attending church on Sundays",
+    "Wage cuts and higher boardinghouse charges",
+    "The hiring of Irish immigrant men",
+    "The closing of the company library"
+   ],
+   "answer": 1,
+   "explain": "The 1834 strike failed and the 1836 strike won only partial rollbacks, but they showed that the young women saw themselves as 'daughters of freemen' with rights."
+  },
+  {
+   "id": "r7-0113",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The 'Rhode Island system' of textile labor, unlike the Lowell system, typically hired what?",
+   "options": [
+    "Only young single women",
+    "Whole families, including children",
+    "Only skilled men from Britain",
+    "Enslaved workers hired from the South"
+   ],
+   "answer": 1,
+   "explain": "Mills in the Samuel Slater tradition built villages and hired families, with children doing much of the work."
+  },
+  {
+   "id": "r7-0114",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "A November 1825 ceremony in which a keg of Lake Erie water was poured into New York Harbor was nicknamed what?",
+   "options": [
+    "The Grand Junction",
+    "The Union of the Lakes",
+    "The Baptism of the Hudson",
+    "The Wedding of the Waters"
+   ],
+   "answer": 3,
+   "explain": "The ceremony marked the Erie Canal's opening; Governor DeWitt Clinton rode the boat Seneca Chief from Buffalo to New York City."
+  },
+  {
+   "id": "r7-0115",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "About how long was the original Erie Canal when it opened in 1825?",
+   "options": [
+    "About 363 miles",
+    "About 90 miles",
+    "About 650 miles",
+    "About 1,200 miles"
+   ],
+   "answer": 0,
+   "explain": "The canal used 83 locks to climb more than 500 feet between the Hudson and Lake Erie, and it cut freight costs sharply."
+  },
+  {
+   "id": "r7-0116",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "The term 'wildcat banks' in the 1830s referred to what?",
+   "options": [
+    "Branches of the Second Bank of the United States opened in frontier towns and mining camps",
+    "Banks owned by fur trading companies",
+    "Loosely regulated state banks that issued more notes than they could redeem",
+    "Federal offices that sold public land"
+   ],
+   "answer": 2,
+   "explain": "The name was said to come from banks set up in remote places where few could reach them to redeem notes."
+  },
+  {
+   "id": "r7-0117",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Samuel Colt patented what invention in the United States in 1836?",
+   "options": [
+    "A breech-loading cannon",
+    "An early machine gun",
+    "A steel-bladed plow",
+    "A revolving-cylinder pistol"
+   ],
+   "answer": 3,
+   "explain": "Colt's early company failed, but the Mexican-American War and Texas Rangers' orders later made his revolvers a success."
+  },
+  {
+   "id": "r7-0118",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Which minister's 1825 Six Sermons on Intemperance helped launch the temperance crusade?",
+   "options": [
+    "Charles G. Finney",
+    "Neal Dow",
+    "Lyman Beecher",
+    "Timothy Dwight"
+   ],
+   "answer": 2,
+   "explain": "Beecher, father of Harriet Beecher Stowe, called for total abstinence; the American Temperance Society formed in 1826."
+  },
+  {
+   "id": "r7-0119",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "Under the Auburn system of prison discipline in New York, inmates did what?",
+   "options": [
+    "Lived alone in solitary cells day and night and never left them",
+    "Worked together by day in silence and slept in separate cells",
+    "Earned early release by joining the army",
+    "Were hired out to farms during harvest"
+   ],
+   "answer": 1,
+   "explain": "The Auburn model, cheaper than full solitary confinement, spread to most American prisons."
+  },
+  {
+   "id": "r7-0120",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "Eastern State Penitentiary in Philadelphia, opened in 1829, became famous for what practice?",
+   "options": [
+    "Keeping each prisoner alone in a cell",
+    "Putting prisoners on chain gangs",
+    "Letting prisoners run their own courts",
+    "Sending prisoners to frontier forts"
+   ],
+   "answer": 0,
+   "explain": "Its 'separate system' was meant to bring penitence through solitude; Charles Dickens criticized it after a visit in 1842."
+  },
+  {
+   "id": "r7-0121",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Dorothea Dix's 1843 memorial described mentally ill people kept in cages, cellars and stalls in which state?",
+   "options": [
+    "Virginia",
+    "Ohio",
+    "Massachusetts",
+    "Pennsylvania"
+   ],
+   "answer": 2,
+   "explain": "Dix's report to the Massachusetts legislature led to the expansion of the state hospital at Worcester."
+  },
+  {
+   "id": "r7-0122",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "William Holmes McGuffey is known for what?",
+   "options": [
+    "A series of graded school readers",
+    "The first American dictionary",
+    "Designing the first public kindergarten",
+    "Founding the first teachers' college"
+   ],
+   "answer": 0,
+   "explain": "First published in 1836, McGuffey Readers taught reading along with moral lessons and sold well over 100 million copies."
+  },
+  {
+   "id": "r7-0123",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Mary Lyon founded which women's seminary in Massachusetts in 1837?",
+   "options": [
+    "Wellesley",
+    "Smith",
+    "Radcliffe",
+    "Mount Holyoke"
+   ],
+   "answer": 3,
+   "explain": "Mount Holyoke Female Seminary kept costs low so that women of modest means could attend."
+  },
+  {
+   "id": "r7-0124",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Ohio college, founded in 1833, was among the first to admit both women and Black students?",
+   "options": [
+    "Kenyon College",
+    "Oberlin College",
+    "Miami University",
+    "Antioch College"
+   ],
+   "answer": 1,
+   "explain": "Oberlin admitted Black students from 1835 and in 1841 granted bachelor's degrees to women."
+  },
+  {
+   "id": "r7-0125",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Prudence Crandall was arrested in 1833 for running what in Canterbury, Connecticut?",
+   "options": [
+    "A station on the Underground Railroad",
+    "A school for Black girls",
+    "A printing press for abolitionist tracts",
+    "A tavern open on Sundays"
+   ],
+   "answer": 1,
+   "explain": "Connecticut passed a 'Black Law' to close her school, and a mob attacked the building in 1834."
+  },
+  {
+   "id": "r7-0126",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The 1834 Lane Seminary debates in Cincinnati, led by student Theodore Dwight Weld, were mainly about what?",
+   "options": [
+    "Whether women could preach",
+    "Temperance versus moderate drinking",
+    "Missions to Native peoples",
+    "Immediate abolition versus colonization"
+   ],
+   "answer": 3,
+   "explain": "After trustees banned the antislavery society, many students left for Oberlin, which became an abolitionist center."
+  },
+  {
+   "id": "r7-0127",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Before founding The Liberator, William Lloyd Garrison worked in Baltimore with which Quaker antislavery editor?",
+   "options": [
+    "Benjamin Lundy",
+    "John Woolman",
+    "Lucretia Mott",
+    "Levi Coffin"
+   ],
+   "answer": 0,
+   "explain": "Garrison co-edited Lundy's Genius of Universal Emancipation and was jailed for libel against a slave-trading merchant."
+  },
+  {
+   "id": "r7-0128",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which wealthy New York merchant brothers helped finance the American Anti-Slavery Society?",
+   "options": [
+    "Francis and John Lowell",
+    "Nathan and Abbott Lawrence",
+    "Arthur and Lewis Tappan",
+    "Erastus and Isaac Corning"
+   ],
+   "answer": 2,
+   "explain": "The evangelical Tappans also backed Oberlin College and the legal defense of the Amistad captives."
+  },
+  {
+   "id": "r7-0129",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In July 1835, a mob in Charleston, South Carolina, broke into the post office and burned what?",
+   "options": [
+    "Ballots from a disputed election",
+    "Copies of the Tariff of 1832",
+    "Letters from Mexican officials",
+    "Abolitionist pamphlets mailed from the North"
+   ],
+   "answer": 3,
+   "explain": "The American Anti-Slavery Society's postal campaign led southern postmasters to stop delivering abolitionist mail."
+  },
+  {
+   "id": "r7-0130",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Pennsylvania Hall, a meeting hall built by abolitionists in Philadelphia, met what fate in May 1838?",
+   "options": [
+    "Congress seized it for a federal mint",
+    "It was sold to a slave trader",
+    "A mob burned it days after it opened",
+    "It became the state's first Black college"
+   ],
+   "answer": 2,
+   "explain": "Rioters set the hall on fire during a women's antislavery convention, while firefighters protected only nearby buildings."
+  },
+  {
+   "id": "r7-0131",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 2,
+   "q": "Henry Highland Garnet's 1843 'Address to the Slaves' in Buffalo urged what?",
+   "options": [
+    "That free Black Americans move to Liberia",
+    "That enslaved people resist their enslavers",
+    "That abolitionists stop voting",
+    "That the North secede from the Union"
+   ],
+   "answer": 1,
+   "explain": "A convention of Black leaders narrowly declined to endorse it; Frederick Douglass was among those who opposed it then."
+  },
+  {
+   "id": "r7-0132",
+   "period": 4,
+   "themes": [
+    "identity",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which wealthy Black sailmaker in Philadelphia helped fund The Liberator in its early years?",
+   "options": [
+    "James Forten",
+    "Paul Cuffe",
+    "Richard Allen",
+    "Absalom Jones"
+   ],
+   "answer": 0,
+   "explain": "Forten, a Revolutionary War veteran, opposed colonization and supported Garrison's paper."
+  },
+  {
+   "id": "r7-0133",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Elizabeth Cady Stanton and Lucretia Mott met in 1840 at which event, where women delegates were refused seats?",
+   "options": [
+    "The founding of the Liberty Party in Albany",
+    "The Lane Seminary debates in Cincinnati",
+    "The World Anti-Slavery Convention in London",
+    "Jackson's farewell address in Washington"
+   ],
+   "answer": 2,
+   "explain": "Angered by the exclusion, the two talked of holding a women's rights meeting, which they did at Seneca Falls in 1848."
+  },
+  {
+   "id": "r7-0134",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "The 1848 Seneca Falls Convention met in which building?",
+   "options": [
+    "The Wesleyan Chapel",
+    "Faneuil Hall",
+    "The Broadway Tabernacle",
+    "Independence Hall"
+   ],
+   "answer": 0,
+   "explain": "The chapel belonged to antislavery Wesleyan Methodists; it later became part of Women's Rights National Historical Park."
+  },
+  {
+   "id": "r7-0135",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Which bishop built American Methodism's system of circuit-riding preachers?",
+   "options": [
+    "John Wesley",
+    "Charles Finney",
+    "Lyman Beecher",
+    "Francis Asbury"
+   ],
+   "answer": 3,
+   "explain": "Asbury rode an estimated quarter-million miles; Methodism became the largest American denomination by the mid-1800s."
+  },
+  {
+   "id": "r7-0136",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Followers of William Miller called October 22, 1844, the day the expected Second Coming did not occur, what?",
+   "options": [
+    "The Day of Doom",
+    "The Great Disappointment",
+    "The Burned-Over Day",
+    "The Last Awakening"
+   ],
+   "answer": 1,
+   "explain": "Some Millerites later formed the Seventh-day Adventist Church."
+  },
+  {
+   "id": "r7-0137",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "In 1839, Mormons founded which Illinois city, for a time one of the largest in the state?",
+   "options": [
+    "Kirtland",
+    "Nauvoo",
+    "Independence",
+    "Carthage"
+   ],
+   "answer": 1,
+   "explain": "After Joseph Smith's murder in 1844, Brigham Young led most residents out of Nauvoo toward Utah starting in 1846."
+  },
+  {
+   "id": "r7-0138",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which Welsh industrialist bought New Harmony, Indiana, in 1825 for a socialist community?",
+   "options": [
+    "John Humphrey Noyes",
+    "Charles Fourier",
+    "George Rapp",
+    "Robert Owen"
+   ],
+   "answer": 3,
+   "explain": "Owen bought the town from George Rapp's Harmony Society; the experiment fell apart within about two years."
+  },
+  {
+   "id": "r7-0139",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "Sabbatarian reformers in the late 1820s petitioned Congress to do what?",
+   "options": [
+    "Stop the Post Office from moving mail on Sundays",
+    "Close all taverns on Sundays",
+    "Make Christmas a federal holiday",
+    "Require prayer in public schools"
+   ],
+   "answer": 0,
+   "explain": "Senator Richard M. Johnson's 1829 report rejected the petitions as mixing church and state."
+  },
+  {
+   "id": "r7-0140",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Cherokee Phoenix, first published in 1828, was notable as what?",
+   "options": [
+    "A treaty signed with the state of Georgia",
+    "The first Cherokee church",
+    "The first newspaper published by a Native nation",
+    "A ship that carried Cherokee to Indian Territory"
+   ],
+   "answer": 2,
+   "explain": "Edited by Elias Boudinot, it printed columns in English and in Sequoyah's Cherokee syllabary."
+  },
+  {
+   "id": "r7-0141",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1839, Major Ridge, John Ridge and Elias Boudinot were killed by fellow Cherokee in Indian Territory. Why?",
+   "options": [
+    "They had sold Cherokee land to Texas",
+    "They had sided with the Seminole in war",
+    "They had tried to overthrow Principal Chief John Ross by force of arms",
+    "They had signed the removal treaty without the nation's consent"
+   ],
+   "answer": 3,
+   "explain": "Cherokee law made selling national land without consent a capital crime, and Ridge himself had helped write that law."
+  },
+  {
+   "id": "r7-0142",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which U.S. general commanded the troops who rounded up the Cherokee for removal in 1838?",
+   "options": [
+    "Zachary Taylor",
+    "Andrew Jackson",
+    "Winfield Scott",
+    "John E. Wool"
+   ],
+   "answer": 2,
+   "explain": "Scott's soldiers forced Cherokee families into stockades; the nation then went west in detachments largely under Cherokee leadership."
+  },
+  {
+   "id": "r7-0143",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Seminole leader Osceola was seized in 1837 in what way?",
+   "options": [
+    "In a night raid on his Everglades camp",
+    "While meeting under a white flag of truce",
+    "After a Seminole rival betrayed him in Cuba",
+    "When his ship was stopped off the Florida Keys"
+   ],
+   "answer": 1,
+   "explain": "General Thomas Jesup's capture of Osceola under a flag of truce drew widespread criticism; Osceola died in prison in 1838."
+  },
+  {
+   "id": "r7-0144",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Black Hawk, whose band's 1832 return across the Mississippi set off the Black Hawk War, was a leader of which people?",
+   "options": [
+    "The Sauk",
+    "The Potawatomi",
+    "The Ho-Chunk",
+    "The Kickapoo"
+   ],
+   "answer": 0,
+   "explain": "Black Hawk led a band of Sauk and Meskwaki back across the Mississippi to reclaim their village lands; his autobiography was published in 1833."
+  },
+  {
+   "id": "r7-0145",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In the 1832 Treaty of Pontotoc Creek, which nation agreed to sell its Mississippi homeland?",
+   "options": [
+    "The Choctaw",
+    "The Creek",
+    "The Chickasaw",
+    "The Cherokee"
+   ],
+   "answer": 2,
+   "explain": "The Chickasaw moved west in the late 1830s, settling among the Choctaw in Indian Territory."
+  },
+  {
+   "id": "r7-0146",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "senate-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Which New Jersey senator spoke for about six hours over three days against the Indian Removal Act in 1830?",
+   "options": [
+    "Theodore Frelinghuysen",
+    "Daniel Webster",
+    "Henry Clay",
+    "Thomas Hart Benton"
+   ],
+   "answer": 0,
+   "explain": "Frelinghuysen, called the 'Christian statesman,' argued removal broke treaties; he was Clay's running mate in 1844."
+  },
+  {
+   "id": "r7-0147",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which writer created the stories 'Rip Van Winkle' and 'The Legend of Sleepy Hollow'?",
+   "options": [
+    "Edgar Allan Poe",
+    "Nathaniel Hawthorne",
+    "James Fenimore Cooper",
+    "Washington Irving"
+   ],
+   "answer": 3,
+   "explain": "Both stories appeared in The Sketch Book (1819-1820), which made Irving the first American author famous in Europe."
+  },
+  {
+   "id": "r7-0148",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "James Smithson, whose bequest led Congress to create the Smithsonian Institution in 1846, was a scientist from which country?",
+   "options": [
+    "France",
+    "Great Britain",
+    "The Netherlands",
+    "Switzerland"
+   ],
+   "answer": 1,
+   "explain": "Smithson never visited the United States; his gold sovereigns arrived in 1838, and Congress debated for years how to use them."
+  },
+  {
+   "id": "r7-0149",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "After the Treasury building burned in 1833, which architect designed its replacement?",
+   "options": [
+    "Benjamin Latrobe",
+    "Robert Mills",
+    "Charles Bulfinch",
+    "James Hoban"
+   ],
+   "answer": 1,
+   "explain": "Mills's Greek Revival design, begun in 1836, forms the oldest wing of the Treasury Building beside the White House."
+  },
+  {
+   "id": "r7-0150",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "Which Boston architect completed the U.S. Capitol and its first low wooden dome in the 1820s?",
+   "options": [
+    "Thomas U. Walter",
+    "Robert Mills",
+    "William Thornton",
+    "Charles Bulfinch"
+   ],
+   "answer": 3,
+   "explain": "Bulfinch succeeded Latrobe in 1818; his copper-covered dome was replaced by Walter's cast-iron dome in the 1850s and 1860s."
+  },
+  {
+   "id": "r7-0151",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The 1809 Treaty of Fort Wayne angered Tecumseh because it did what?",
+   "options": [
+    "Ceded about 3 million acres of Native land in Indiana Territory",
+    "Moved the Shawnee and Lenape to new lands west of the Mississippi River",
+    "Banned Native peoples from trading with Britain",
+    "Created a reservation around Prophetstown"
+   ],
+   "answer": 0,
+   "explain": "Tecumseh argued that no single nation could sell land that belonged to all Native peoples in common."
+  },
+  {
+   "id": "r7-0152",
+   "period": 4,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "John Horse (Juan Caballo) was a leader of which group during the Second Seminole War?",
+   "options": [
+    "Creek Red Sticks",
+    "Cherokee Old Settlers",
+    "Black Seminoles",
+    "Choctaw Light Horse"
+   ],
+   "answer": 2,
+   "explain": "Black Seminoles, many descended from people who escaped slavery, fought beside the Seminole; John Horse later led a group to Mexico."
+  },
+  {
+   "id": "r7-0153",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "In 1837, who became the only vice president ever chosen by the Senate, after no candidate won an electoral majority?",
+   "options": [
+    "John Tyler",
+    "Francis Granger",
+    "George M. Dallas",
+    "Richard Mentor Johnson"
+   ],
+   "answer": 3,
+   "explain": "Virginia's electors refused to vote for Johnson, so the Senate chose between him and Whig Francis Granger under the Twelfth Amendment."
+  },
+  {
+   "id": "r7-0154",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Robert Fulton's Clermont made its famous 1807 voyage up the Hudson River from New York City to which town?",
+   "options": [
+    "Buffalo",
+    "Poughkeepsie",
+    "Albany",
+    "Troy"
+   ],
+   "answer": 2,
+   "explain": "The roughly 150-mile trip took about 32 hours, far faster than a sloop against the current."
+  },
+  {
+   "id": "r7-0155",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1787, John Fitch demonstrated an early steamboat for delegates to the Constitutional Convention on which river?",
+   "options": [
+    "The Hudson",
+    "The Delaware",
+    "The Potomac",
+    "The Ohio"
+   ],
+   "answer": 1,
+   "explain": "Fitch later ran a short-lived passenger service near Philadelphia, nearly two decades before Fulton's commercial success."
+  },
+  {
+   "id": "r7-0156",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "The Comstock Lode, discovered in 1859 in present-day Nevada, was a huge deposit of which metal?",
+   "options": [
+    "Silver",
+    "Copper",
+    "Lead",
+    "Iron"
+   ],
+   "answer": 0,
+   "explain": "The strike built Virginia City and helped Nevada gain statehood in 1864."
+  },
+  {
+   "id": "r7-0157",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Pony Express of 1860-1861 carried mail by relays of horseback riders between Missouri and which state?",
+   "options": [
+    "Oregon",
+    "Utah",
+    "California",
+    "Texas"
+   ],
+   "answer": 2,
+   "explain": "Riders cut mail time to about ten days; the service ended when the transcontinental telegraph was finished in October 1861."
+  },
+  {
+   "id": "r7-0158",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The giant Corliss steam engine powered Machinery Hall at which 1876 event?",
+   "options": [
+    "The Centennial Exhibition in Philadelphia",
+    "The World's Columbian Exposition in Chicago",
+    "The opening of the Brooklyn Bridge",
+    "The Pan-American Exposition in Buffalo"
+   ],
+   "answer": 0,
+   "explain": "President Grant and Brazil's Emperor Pedro II started the engine, which drove machines throughout the hall."
+  },
+  {
+   "id": "r7-0159",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Completed in 1874, James B. Eads's bridge across the Mississippi at St. Louis was the first major bridge to use what material?",
+   "options": [
+    "Reinforced concrete",
+    "Aluminum",
+    "Cast iron",
+    "Steel"
+   ],
+   "answer": 3,
+   "explain": "Eads used steel arches and deep caissons sunk to bedrock; the bridge still carries traffic and light rail."
+  },
+  {
+   "id": "r7-0160",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Milwaukee printer Christopher Latham Sholes helped invent which machine, patented in 1868?",
+   "options": [
+    "The telephone",
+    "The typewriter",
+    "The phonograph",
+    "The cash register"
+   ],
+   "answer": 1,
+   "explain": "Sholes's design, sold to Remington, introduced the QWERTY keyboard layout."
+  },
+  {
+   "id": "r7-0161",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Thomas Edison's Pearl Street Station, opened in 1882, supplied electric power to customers in which city?",
+   "options": [
+    "Chicago",
+    "New York City",
+    "Boston",
+    "Philadelphia"
+   ],
+   "answer": 1,
+   "explain": "The coal-fired plant in lower Manhattan was the first commercial central power station in the United States, serving dozens of customers at first."
+  },
+  {
+   "id": "r7-0162",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 3,
+   "q": "Which soil scientist led the Soil Conservation Service created in 1935?",
+   "options": [
+    "Gifford Pinchot",
+    "Aldo Leopold",
+    "Rexford Tugwell",
+    "Hugh Hammond Bennett"
+   ],
+   "answer": 3,
+   "explain": "Bennett, called the father of soil conservation, reportedly timed testimony to Congress as a dust storm darkened Washington."
+  },
+  {
+   "id": "r7-0163",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 2,
+   "q": "The Tennessee Valley Authority's first dam, completed in 1936, was named for which senator?",
+   "options": [
+    "George W. Norris",
+    "Robert La Follette",
+    "Huey Long",
+    "Alben Barkley"
+   ],
+   "answer": 0,
+   "explain": "Norris of Nebraska had pushed for public power at Muscle Shoals for years before the TVA was created in 1933."
+  },
+  {
+   "id": "r7-0164",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In January 1919, a huge storage tank burst in Boston's North End, sending a wave of what through the streets?",
+   "options": [
+    "Crude oil",
+    "Seawater",
+    "Molasses",
+    "Beer"
+   ],
+   "answer": 2,
+   "explain": "The Great Molasses Flood killed 21 people; the tank's owner was found responsible for building it poorly."
+  },
+  {
+   "id": "r7-0165",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "After a hurricane killed thousands in 1900, which Texas city pioneered the city commission form of government?",
+   "options": [
+    "Houston",
+    "Corpus Christi",
+    "Beaumont",
+    "Galveston"
+   ],
+   "answer": 3,
+   "explain": "The storm was the deadliest natural disaster in U.S. history; Galveston also raised its ground level and built a seawall."
+  },
+  {
+   "id": "r7-0166",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Promoted beginning in 1913, the Lincoln Highway was the first what?",
+   "options": [
+    "Federally funded interstate freeway",
+    "Paved road in the national parks",
+    "Road across the United States from coast to coast",
+    "Toll road built by a railroad"
+   ],
+   "answer": 2,
+   "explain": "The route ran from New York City to San Francisco and was backed by auto and tire makers such as Carl Fisher."
+  },
+  {
+   "id": "r7-0167",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Colorado River Compact of 1922, negotiated with Commerce Secretary Herbert Hoover's help, divided the river's water how?",
+   "options": [
+    "Equally between the United States and Mexico",
+    "Between an Upper Basin and a Lower Basin group of states",
+    "Among Native nations along the river",
+    "Between farms and cities by a fixed formula"
+   ],
+   "answer": 1,
+   "explain": "Seven states signed the compact, which set the stage for Hoover Dam; Mexico's share was settled by a 1944 treaty."
+  },
+  {
+   "id": "r7-0168",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Great Smoky Mountains National Park, established in 1934, lies on the border of which two states?",
+   "options": [
+    "Tennessee and North Carolina",
+    "Virginia and West Virginia",
+    "Kentucky and Tennessee",
+    "North Carolina and Georgia"
+   ],
+   "answer": 0,
+   "explain": "Unlike western parks carved from federal land, it was assembled from private land bought with state funds and a large Rockefeller gift."
+  },
+  {
+   "id": "r7-0169",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In the early 1920s, Henry Ford offered to buy or lease which unfinished federal dam and nitrate plants on the Tennessee River?",
+   "options": [
+    "Norris Dam",
+    "Fort Loudoun",
+    "Muscle Shoals",
+    "Chickamauga Dam"
+   ],
+   "answer": 2,
+   "explain": "Senator George Norris blocked the sale and pushed for public ownership, which led to the Tennessee Valley Authority in 1933."
+  },
+  {
+   "id": "r7-0170",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "The Wilderness Act of 1964 was largely written by which Wilderness Society leader, who died months before it passed?",
+   "options": [
+    "Howard Zahniser",
+    "David Brower",
+    "Bob Marshall",
+    "Olaus Murie"
+   ],
+   "answer": 0,
+   "explain": "Zahniser wrote more than sixty drafts; the law defined wilderness as land 'untrammeled by man.'"
+  },
+  {
+   "id": "r7-0171",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which 1977 federal law required coal companies to restore land after strip mining?",
+   "options": [
+    "The Clean Air Act",
+    "The Resource Conservation and Recovery Act",
+    "The Toxic Substances Control Act",
+    "The Surface Mining Control and Reclamation Act"
+   ],
+   "answer": 3,
+   "explain": "The law required companies to restore strip-mined land and created an office to oversee reclamation."
+  },
+  {
+   "id": "r7-0172",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "After World War II, center-pivot irrigation on the High Plains drew heavily on which underground water source?",
+   "options": [
+    "The Edwards Aquifer",
+    "The Ogallala Aquifer",
+    "The Floridan Aquifer",
+    "The Great Salt Lake basin"
+   ],
+   "answer": 1,
+   "explain": "The aquifer lies beneath parts of eight states; pumping for irrigation has lowered water levels sharply in places such as western Kansas and the Texas Panhandle."
+  },
+  {
+   "id": "r7-0173",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Marjory Stoneman Douglas's 1947 book described which Florida ecosystem as a 'river of grass'?",
+   "options": [
+    "The Okefenokee Swamp",
+    "The Everglades",
+    "The Florida Keys",
+    "Lake Okeechobee's shoreline"
+   ],
+   "answer": 1,
+   "explain": "The book appeared the same year President Truman dedicated Everglades National Park."
+  }
+ ]
+}

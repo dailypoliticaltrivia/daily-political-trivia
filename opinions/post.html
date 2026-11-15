@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Opinion · Stay Informed News</title>
+<meta name="description" content="An opinion piece from the Stay Informed News community.">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<meta property="og:image" content="https://dailypoliticaltrivia.com/assets/icons/og-image.png" data-sin-head>
+<meta property="og:image:alt" content="Daily Political Trivia: four daily political games, a new puzzle every day" data-sin-head>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:site_name" content="Stay Informed News">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Opinion · Stay Informed News">
+<meta property="og:description" content="An opinion piece from the Stay Informed News community.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-section="opinions">
+<main id="main" class="page">
+  <div class="wrap">
+    <article class="op-article" id="article" aria-live="polite">
+      <div class="op-skel" style="width:30%"></div><div class="op-skel" style="height:44px"></div><div class="op-skel" style="width:80%"></div>
+    </article>
+    <section class="op-comments" id="comments" hidden aria-labelledby="cHead">
+      <div class="sechead"><h2 id="cHead">Comments</h2></div>
+      <div id="cForm"></div>
+      <ul class="op-clist" id="cList"></ul>
+    </section>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  const esc = OP.esc, I = OP.ICON, LIM = SINDb.limits;
+  const id = OP.param('id');
+  const art = document.getElementById('article');
+  let me = null, post = null;
+  OP.demoBanner();
+
+  function notFound(msg){
+    art.innerHTML = '<div class="empty"><p style="font-family:var(--serif);font-size:22px;margin:0 0 6px;color:var(--ink)">' + esc(msg || 'This piece could not be found.') + '</p>It may have been removed by its author or a moderator. <a href="index.html">Back to Opinions</a></div>';
+  }
+  const canDelete = () => me && post && (me.id === post.author_id || me.is_admin);
+
+  function renderPost(){
+    const p = post, a = p.author || {};
+    document.title = p.title + ' · Stay Informed News';
+    const edited = p.updated_at && (new Date(p.updated_at) - new Date(p.published_at) > 60e3);
+    art.innerHTML =
+      '<div class="kicker"><a href="index.html">Opinion</a>' + (p.tags.length ? ' · ' + p.tags.map(t => '<a href="index.html?tag=' + encodeURIComponent(t) + '">' + esc(t) + '</a>').join(', ') : '') + '</div>' +
+      '<h1 class="op-title">' + esc(p.title) + '</h1>' +
+      (p.subtitle ? '<p class="op-sub">' + esc(p.subtitle) + '</p>' : '') +
+      '<div class="op-byline">' + OP.avatar(a, 'md') + '<div class="who">' + OP.byline(a) +
+        '<span><time datetime="' + esc(p.published_at) + '">' + esc(OP.fmtDate(p.published_at)) + '</time> · ' + p.reading_minutes + ' min read' + (edited ? ' · edited' : '') + '</span></div></div>' +
+      '<div class="op-actions" id="acts"></div>' +
+      '<div class="op-body">' + SINMd.render(p.body) + '</div>' +
+      '<div class="op-actions" id="acts2"></div>' +
+      '<div class="op-authorbox">' + OP.avatar(a, 'md') + '<div><a class="n" href="' + OP.authorUrl(a) + '">' + esc(a.display_name || 'Former member') + '</a><p id="aBio">Read more from this writer.</p></div></div>';
+    renderActions();
+    if (a.username) SINDb.getProfile(a.username).then(pr => { if (pr && pr.bio) document.getElementById('aBio').textContent = pr.bio; }).catch(()=>{});
+  }
+  function renderActions(){
+    const p = post;
+    const like = '<button class="op-chip' + (p.liked_by_me ? ' on' : '') + '" data-act="like" aria-pressed="' + !!p.liked_by_me + '">' + (p.liked_by_me ? I.heartFill : I.heart) + '<span>' + p.like_count + '</span><span class="sr-only"> likes</span></button>';
+    const com = '<a class="op-chip" href="#comments">' + I.comment + '<span id="cCount">' + p.comment_count + '</span><span class="sr-only"> comments</span></a>';
+    const share = '<button class="op-chip" data-act="share">' + I.share + 'Share</button>';
+    const rep = '<button class="op-chip" data-act="report">' + I.flag + 'Report</button>';
+    let own = '';
+    if (me && me.id === p.author_id) own += '<a class="op-chip" href="write.html?id=' + encodeURIComponent(p.id) + '">Edit</a>';
+    if (canDelete()) own += '<button class="op-chip danger" data-act="delete">' + (me.id === p.author_id ? 'Delete' : 'Remove (admin)') + '</button>';
+    document.getElementById('acts').innerHTML = like + com + share + '<span class="sp"></span>' + own + rep;
+    document.getElementById('acts2').innerHTML = like + share;
+  }
+  art.addEventListener('click', async e => {
+    const b = e.target.closest('[data-act]'); if (!b) return;
+    const act = b.dataset.act;
+    if (act === 'like'){
+      if (!me){ SIN.toast('Sign in to like pieces.'); return; }
+      b.disabled = true;
+      try { const r = await SINDb.toggleLike(post.id); post.liked_by_me = r.liked; post.like_count = r.like_count; renderActions(); }
+      catch(err){ SIN.toast(err.message); b.disabled = false; }
+    } else if (act === 'share'){
+      const url = location.origin + location.pathname + '?id=' + encodeURIComponent(post.id);
+      if (navigator.share && matchMedia('(pointer:coarse)').matches){ navigator.share({ title: post.title, url }).catch(()=>{}); return; }
+      try { await navigator.clipboard.writeText(url); SIN.toast('Link copied'); }
+      catch(err){ prompt('Copy this link:', url); }
+    } else if (act === 'report'){
+      OP.report('post', post.id);
+    } else if (act === 'delete'){
+      if (!confirm(me.id === post.author_id ? 'Delete this piece permanently? Its comments will be deleted too.' : 'Remove this piece as an admin? This cannot be undone.')) return;
+      try { await SINDb.deletePost(post.id); SIN.toast('Piece deleted'); setTimeout(() => location.href = 'index.html', 600); }
+      catch(err){ SIN.toast(err.message); }
+    }
+  });
+
+  /* ---------- comments ---------- */
+  const cList = document.getElementById('cList');
+  function commentHTML(c, isReply){
+    const mine = me && me.id === c.author_id;
+    const a = c.author || {};
+    const isOP = post && c.author_id === post.author_id;
+    return '<li class="op-c" id="c-' + esc(c.id) + '" data-id="' + esc(c.id) + '">' +
+      '<div class="hd">' + OP.avatar(a) + OP.byline(a) + (isOP ? '<span class="op-badge">Author</span>' : '') + '<span aria-hidden="true">·</span><time datetime="' + esc(c.created_at) + '">' + esc(OP.when(c.created_at)) + '</time></div>' +
+      '<div class="bd">' + SINMd.comment(c.body) + '</div>' +
+      '<div class="ft">' +
+        (!isReply && me ? '<button class="op-link" data-c="reply">Reply</button>' : '') +
+        (me && !mine ? '<button class="op-link" data-c="report">Report</button>' : '') +
+        (!me ? '<button class="op-link" data-c="report">Report</button>' : '') +
+        (mine ? '<button class="op-link danger" data-c="delete">Delete</button>' : (me && me.is_admin ? '<button class="op-link danger" data-c="delete">Remove (admin)</button>' : '')) +
+      '</div>' +
+      (!isReply ? '<div class="op-replyslot"></div><ul class="op-replies"' + (c.replies.length ? '' : ' hidden') + '>' + c.replies.map(r => commentHTML(r, true)).join('') + '</ul>' : '') +
+    '</li>';
+  }
+  function formHTML(parent){
+    return '<form class="op-cform' + (parent ? ' op-replyform' : '') + '" data-parent="' + esc(parent || '') + '">' +
+      '<label class="sr-only" for="ct-' + esc(parent || 'top') + '">' + (parent ? 'Your reply' : 'Your comment') + '</label>' +
+      '<textarea id="ct-' + esc(parent || 'top') + '" maxlength="' + LIM.comment + '" placeholder="' + (parent ? 'Write a reply…' : 'Add to the conversation…') + '" required></textarea>' +
+      '<div class="row"><span class="op-count"></span><span style="display:flex;gap:8px">' + (parent ? '<button type="button" class="btn ghost" data-cancel>Cancel</button>' : '') + '<button class="btn" type="submit">' + (parent ? 'Reply' : 'Post comment') + '</button></span></div></form>';
+  }
+  function wireForm(f){
+    const ta = f.querySelector('textarea');
+    OP.counter(ta, f.querySelector('.op-count'), LIM.comment);
+    const cancel = f.querySelector('[data-cancel]'); if (cancel) cancel.addEventListener('click', () => f.remove());
+    f.addEventListener('submit', async e => {
+      e.preventDefault();
+      const btn = f.querySelector('button[type=submit]'); btn.disabled = true;
+      try {
+        await SINDb.addComment({ post_id: post.id, parent_id: f.dataset.parent || null, body: ta.value });
+        ta.value = ''; ta.dispatchEvent(new Event('input'));
+        if (f.dataset.parent) f.remove();
+        SIN.toast('Comment posted');
+        await loadComments();
+      } catch(err){ SIN.toast(err.message); }
+      btn.disabled = false;
+    });
+  }
+  function renderForm(){
+    const box = document.getElementById('cForm');
+    if (!me) box.innerHTML = '<div class="notice"><a href="account.html?next=' + encodeURIComponent('post.html?id=' + id) + '"><b>Sign in</b></a> or <a href="account.html?mode=signup&next=' + encodeURIComponent('post.html?id=' + id) + '">create a free account</a> to join the conversation.</div>';
+    else if (me.is_banned) box.innerHTML = '<div class="notice warn">Your account is suspended, so you cannot comment.</div>';
+    else if (me.verified === false) box.innerHTML = '<div class="notice warn">Confirm your email address to comment. <a href="account.html?next=' + encodeURIComponent('post.html?id=' + id) + '">Go to my account</a></div>';
+    else { box.innerHTML = formHTML(null); wireForm(box.querySelector('form')); }
+  }
+  async function loadComments(){
+    try {
+      const list = await SINDb.listComments(post.id);
+      const total = list.reduce((n, c) => n + 1 + c.replies.length, 0);
+      document.getElementById('cHead').textContent = total ? OP.plural(total, 'comment') : 'Comments';
+      const cc = document.getElementById('cCount'); if (cc) cc.textContent = total;
+      post.comment_count = total;
+      cList.innerHTML = list.length ? list.map(c => commentHTML(c, false)).join('') : '<li class="meta" style="padding:10px 0">No comments yet. Start the conversation.</li>';
+      if (location.hash.startsWith('#c-')){ const t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView({ block: 'center' }); }
+    } catch(err){ cList.innerHTML = '<li class="empty">Comments could not be loaded.</li>'; }
+  }
+  cList.addEventListener('click', async e => {
+    const b = e.target.closest('[data-c]'); if (!b) return;
+    const li = b.closest('.op-c'), cid = li.dataset.id;
+    if (b.dataset.c === 'reply'){
+      const slot = li.querySelector('.op-replyslot');
+      if (slot.querySelector('form')){ slot.querySelector('textarea').focus(); return; }
+      slot.innerHTML = formHTML(cid); wireForm(slot.querySelector('form')); slot.querySelector('textarea').focus();
+    } else if (b.dataset.c === 'report'){
+      OP.report('comment', cid);
+    } else if (b.dataset.c === 'delete'){
+      if (!confirm('Delete this comment' + (li.querySelector('.op-replies li') ? ' and its replies' : '') + '? This cannot be undone.')) return;
+      try { await SINDb.deleteComment(cid); SIN.toast('Comment deleted'); loadComments(); } catch(err){ SIN.toast(err.message); }
+    }
+  });
+
+  async function start(){
+    if (!id) return notFound('No piece was selected.');
+    try {
+      [me, post] = await Promise.all([SINDb.getUser(), SINDb.getPost(id)]);
+    } catch(e){ return notFound('This piece could not be loaded. ' + e.message); }
+    if (!post) return notFound();
+    renderPost();
+    document.getElementById('comments').hidden = false;
+    renderForm();
+    loadComments();
+  }
+  start();
+  SINDb.onAuthChange(async u => {
+    if ((u && u.id) === (me && me.id)) return;
+    me = u;
+    if (post){ post = await SINDb.getPost(id) || post; renderActions(); renderForm(); loadComments(); }
+  });
+})();
+</script>
+</body>
+</html>

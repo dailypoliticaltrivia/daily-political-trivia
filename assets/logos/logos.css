@@ -1,0 +1,6 @@
+/* Game logo marks and lockups. Marks are inline SVG using currentColor (ink) and
+   --logo-accent (falls back to the site's --accent). Grid unit 4, stroke 4, corner radius 2-4. */
+.logo-mark{display:block;flex:none;width:44px;height:44px;color:var(--ink);--logo-accent:var(--accent)}
+.glock{display:flex;align-items:center;gap:var(--s4,16px);margin:var(--s2,8px) 0 var(--s3,12px)}
+.glock .ptitle{margin:0}
+.glock .logo-mark{width:clamp(44px,6vw,64px);height:clamp(44px,6vw,64px)}

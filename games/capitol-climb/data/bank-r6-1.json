@@ -1,0 +1,3538 @@
+{
+ "bank": "r6-1",
+ "questions": [
+  {
+   "id": "r6-0001",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The largest earthwork at Cahokia, a platform mound whose base covers about 14 acres, is known by what name?",
+   "options": [
+    "Emerald Mound",
+    "Grave Creek Mound",
+    "Monks Mound",
+    "Serpent Mound"
+   ],
+   "answer": 2,
+   "explain": "Monks Mound, named for Trappist monks who lived nearby in the 1800s, is the largest prehistoric earthen structure in the Americas north of Mexico."
+  },
+  {
+   "id": "r6-0002",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "At Cahokia, archaeologists found circles of large wooden posts, nicknamed Woodhenge. What purpose are they thought to have served?",
+   "options": [
+    "Fortifying the edge of the central plaza",
+    "Drying fish and meat for winter storage",
+    "Holding up the roof of a great council house",
+    "Marking solstices and equinoxes by the sun's position"
+   ],
+   "answer": 3,
+   "explain": "Sunrise lined up with certain posts at the solstices and equinoxes, so the circles likely worked as solar calendars for ceremonies and planting."
+  },
+  {
+   "id": "r6-0003",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Poverty Point in Louisiana, a set of huge concentric earthen ridges built more than 3,000 years ago, is remarkable because its builders were mainly what?",
+   "options": [
+    "Maize farmers who had migrated from Mesoamerica",
+    "Hunter-fisher-gatherers rather than full-time farmers",
+    "Seafaring traders from the Caribbean islands",
+    "Herders of domesticated llamas and alpacas"
+   ],
+   "answer": 1,
+   "explain": "UNESCO notes that Poverty Point's earthworks were built by hunter-fisher-gatherers, one of the largest such feats by a non-farming society anywhere."
+  },
+  {
+   "id": "r6-0004",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "What is the name of the largest great house in Chaco Canyon, a D-shaped Ancestral Puebloan building that held hundreds of rooms?",
+   "options": [
+    "Pueblo Bonito",
+    "Taos Pueblo",
+    "Cliff Palace",
+    "Casa Grande Ruins"
+   ],
+   "answer": 0,
+   "explain": "Pueblo Bonito was built in stages from the mid-800s to the 1100s and rose four or five stories in places, making it the center of the Chaco world."
+  },
+  {
+   "id": "r6-0005",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Spiro Mounds, a Mississippian site in present-day Oklahoma, is famous for what discovery?",
+   "options": [
+    "A burial mound filled with engraved shell, copper and textiles",
+    "A walled town of adobe apartment blocks",
+    "A stone calendar carved by visiting Maya scribes",
+    "The oldest known maize cobs in North America"
+   ],
+   "answer": 0,
+   "explain": "Spiro's Craig Mound held a hollow 'Great Mortuary' rich in shell, copper and cloth from distant places; looters dug much of it out in the 1930s."
+  },
+  {
+   "id": "r6-0006",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Haudenosaunee tradition credits the Peacemaker and which partner, a grieving leader, with persuading five nations to accept the Great Law of Peace?",
+   "options": [
+    "Tadodaho",
+    "Pontiac",
+    "Joseph Brant",
+    "Hiawatha"
+   ],
+   "answer": 3,
+   "explain": "Hiawatha (Ayenwatha) carried the Peacemaker's message; the Onondaga chief Tadodaho resisted longest before the League was formed."
+  },
+  {
+   "id": "r6-0007",
+   "period": 1,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The name Haudenosaunee, which the Iroquois use for themselves, means what?",
+   "options": [
+    "People of the Standing Stone",
+    "Keepers of the Western Door",
+    "People of the Longhouse",
+    "Dwellers by the Great Lake"
+   ],
+   "answer": 2,
+   "explain": "The name pictures the league as one great longhouse stretching across New York; the Seneca were 'keepers of the western door.'"
+  },
+  {
+   "id": "r6-0008",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which waterfall, for thousands of years one of the great salmon-fishing and trading places of the Pacific Northwest, was flooded by The Dalles Dam in 1957?",
+   "options": [
+    "Multnomah Falls",
+    "Celilo Falls",
+    "Snoqualmie Falls",
+    "Shoshone Falls"
+   ],
+   "answer": 1,
+   "explain": "Wasco, Wishram and other peoples fished salmon at Celilo Falls and hosted traders from far away; The Dalles Dam drowned the falls in 1957."
+  },
+  {
+   "id": "r6-0009",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Chinook peoples, who lived where the great river of the Northwest meets the Pacific, were known for what role in the regional economy?",
+   "options": [
+    "Trading as go-betweens for coastal and inland peoples",
+    "Growing irrigated cotton for export",
+    "Raising bison in fenced river pastures",
+    "Mining turquoise for Mesoamerican markets"
+   ],
+   "answer": 0,
+   "explain": "Living where the Columbia met the Pacific, the Chinook traded dried salmon, shells, canoes and slaves among peoples up and down the coast and inland."
+  },
+  {
+   "id": "r6-0010",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Inca kept census and tribute records using what system?",
+   "options": [
+    "Clay tablets marked with wedges",
+    "Folded bark-paper books called codices",
+    "Strings of shell beads called wampum",
+    "Knotted cords called quipu"
+   ],
+   "answer": 3,
+   "explain": "Quipu-keepers recorded numbers by the type and position of knots on hanging cords, letting the Inca run a large empire without a writing system."
+  },
+  {
+   "id": "r6-0011",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1532, Francisco Pizarro's small force captured the Inca ruler Atahualpa at which town?",
+   "options": [
+    "Cuzco",
+    "Quito",
+    "Cajamarca",
+    "Vilcabamba"
+   ],
+   "answer": 2,
+   "explain": "Atahualpa paid a room full of gold and silver as ransom but was executed in 1533; Lima was founded by Pizarro only in 1535."
+  },
+  {
+   "id": "r6-0012",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "When the Spanish arrived in Peru, Inca power had just been weakened by a civil war between Atahualpa and which half-brother?",
+   "options": [
+    "Tupac Amaru",
+    "Huascar",
+    "Pachacuti",
+    "Manco Inca"
+   ],
+   "answer": 1,
+   "explain": "Atahualpa had defeated Huascar shortly before Pizarro arrived, leaving the empire divided; Huascar was killed on Atahualpa's orders in 1532."
+  },
+  {
+   "id": "r6-0013",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "On the 'Noche Triste' of 1520, what happened to the Spanish forces led by Cortes?",
+   "options": [
+    "They captured Moctezuma inside his palace",
+    "They suffered heavy losses fleeing Tenochtitlan at night",
+    "They burned their ships to prevent desertion",
+    "They landed on the Gulf coast at Veracruz"
+   ],
+   "answer": 1,
+   "explain": "After the Aztecs rose against them, the Spaniards and their allies tried to slip out along a causeway and lost hundreds of men and much treasure."
+  },
+  {
+   "id": "r6-0014",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which Native city-state, a longtime enemy of the Aztecs, became the most important ally of the Spanish in the conquest of Tenochtitlan?",
+   "options": [
+    "Tlaxcala",
+    "Cholula",
+    "Tlacopan",
+    "Tlatelolco"
+   ],
+   "answer": 0,
+   "explain": "Thousands of Tlaxcalan warriors fought beside the Spanish, and Tlaxcala later won special privileges from the Spanish crown for its help."
+  },
+  {
+   "id": "r6-0015",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "The Aztec Empire was formally a Triple Alliance of Tenochtitlan and which two other city-states?",
+   "options": [
+    "Tula and Teotihuacan",
+    "Tlaxcala and Cholula",
+    "Texcoco and Tlacopan",
+    "Cuzco and Quito"
+   ],
+   "answer": 2,
+   "explain": "The alliance formed in 1428; over time Tenochtitlan became the dominant partner and collected most of the tribute."
+  },
+  {
+   "id": "r6-0016",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Who was the last Aztec ruler, captured when Tenochtitlan fell to the Spanish and their Native allies in August 1521?",
+   "options": [
+    "Ahuitzotl",
+    "Cuitlahuac",
+    "Itzcoatl",
+    "Cuauhtemoc"
+   ],
+   "answer": 3,
+   "explain": "Cuauhtemoc led the defense during the long siege; Cortes later had him executed in 1525 during an expedition to Honduras."
+  },
+  {
+   "id": "r6-0017",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Esteban, an enslaved man from Morocco who had survived the Narvaez expedition, was killed in 1539 while guiding a search for what?",
+   "options": [
+    "A water passage to the Pacific",
+    "The Fountain of Youth",
+    "The Seven Cities of Cibola",
+    "The kingdom of El Dorado"
+   ],
+   "answer": 2,
+   "explain": "Esteban scouted ahead of Fray Marcos de Niza and died at the Zuni town of Hawikuh; the friar's report then inspired Coronado's 1540 expedition."
+  },
+  {
+   "id": "r6-0018",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Members of Coronado's expedition in 1540 became the first Europeans known to see which natural feature?",
+   "options": [
+    "The Great Salt Lake",
+    "The Grand Canyon",
+    "Niagara Falls",
+    "Yosemite Valley"
+   ],
+   "answer": 1,
+   "explain": "Hopi guides led a party under Garcia Lopez de Cardenas to the canyon rim, but the men could not find a way down to the river."
+  },
+  {
+   "id": "r6-0019",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "After the Zuni towns disappointed him, Coronado pushed onto the Plains in 1541 seeking a rich land called Quivira. What did it turn out to be?",
+   "options": [
+    "Grass-house villages of the Wichita in present-day Kansas",
+    "The abandoned city of Cahokia on the Mississippi",
+    "A silver-mining town in northern Mexico",
+    "A Pueblo town built of gold in Colorado"
+   ],
+   "answer": 0,
+   "explain": "Instead of gold, Coronado found farming villages of the ancestors of the Wichita and returned to Mexico in 1542 a disappointed man."
+  },
+  {
+   "id": "r6-0020",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In 1565, Pedro Menendez de Aviles attacked which French Huguenot settlement near present-day Jacksonville, Florida?",
+   "options": [
+    "Fort Saint Louis",
+    "Port-Royal",
+    "Charlesfort",
+    "Fort Caroline"
+   ],
+   "answer": 3,
+   "explain": "Menendez captured Fort Caroline and executed most of the French prisoners, ending France's attempt to plant a colony in Florida."
+  },
+  {
+   "id": "r6-0021",
+   "period": 1,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Tristan de Luna's 1559 attempt to plant a Spanish colony at what is now Pensacola Bay failed largely because of what?",
+   "options": [
+    "A hurricane that wrecked most of the fleet soon after arrival",
+    "A mutiny led by sailors from Portugal",
+    "An attack by English privateers",
+    "A smallpox epidemic among the colonists"
+   ],
+   "answer": 0,
+   "explain": "The storm sank most ships and much of the food just weeks after landing; the colony struggled on and was abandoned in 1561."
+  },
+  {
+   "id": "r6-0022",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Jacques Cartier applied the name Canada to the St. Lawrence region after hearing an Iroquoian word meaning what?",
+   "options": [
+    "Great river",
+    "Land of ice",
+    "Where the waters meet the sea",
+    "Village or settlement"
+   ],
+   "answer": 3,
+   "explain": "Iroquoian guides used kanata for the village of Stadacona, and Cartier extended it to the whole surrounding region."
+  },
+  {
+   "id": "r6-0023",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "On his 1535 voyage, Cartier visited Hochelaga, a fortified Iroquoian town on the site of which present-day city?",
+   "options": [
+    "Ottawa",
+    "Toronto",
+    "Montreal",
+    "Quebec City"
+   ],
+   "answer": 2,
+   "explain": "Cartier climbed the hill he named Mont Royal; Stadacona, the other town he visited, stood where Quebec City is now."
+  },
+  {
+   "id": "r6-0024",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1605, French colonists led by Pierre Dugua de Mons and Samuel de Champlain founded Port-Royal in which region?",
+   "options": [
+    "The shore of Lake Huron",
+    "Acadia, in present-day Nova Scotia",
+    "The upper Mississippi valley",
+    "The Florida panhandle"
+   ],
+   "answer": 1,
+   "explain": "After a deadly winter on St. Croix Island, the colonists moved across the Bay of Fundy to Port-Royal, an early center of French Acadia."
+  },
+  {
+   "id": "r6-0025",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which English sea captain completed the first English voyage around the world, from 1577 to 1580?",
+   "options": [
+    "Martin Frobisher",
+    "Walter Raleigh",
+    "Francis Drake",
+    "John Hawkins"
+   ],
+   "answer": 2,
+   "explain": "Drake raided Spanish ports and ships along the Pacific coast on the way, and Queen Elizabeth I knighted him aboard the Golden Hind in 1581."
+  },
+  {
+   "id": "r6-0026",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "In the 1560s John Hawkins became known as the first English captain to do what?",
+   "options": [
+    "Found a colony in Newfoundland",
+    "Map the coast of California",
+    "Sail through the Northwest Passage",
+    "Ship enslaved Africans across the Atlantic for sale"
+   ],
+   "answer": 3,
+   "explain": "Hawkins seized Africans in Sierra Leone and sold them in the Spanish Caribbean; his 1568 defeat at San Juan de Ulua soured England's ties with Spain."
+  },
+  {
+   "id": "r6-0027",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Virginia Dare, born at Roanoke in 1587, is remembered as what?",
+   "options": [
+    "The first child born to English parents in the Americas",
+    "Raleigh's daughter and heir",
+    "The colony's chief interpreter",
+    "The first Englishwoman to sail across the Atlantic to America"
+   ],
+   "answer": 0,
+   "explain": "Virginia was the granddaughter of Governor John White; she vanished with the rest of the colonists before White returned in 1590."
+  },
+  {
+   "id": "r6-0028",
+   "period": 1,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Manteo, a Croatoan man who traveled to England and back, played what role in the Roanoke ventures?",
+   "options": [
+    "He led the attack that destroyed the colony",
+    "He served as an interpreter and ally of the English",
+    "He ruled the Powhatan chiefdom",
+    "He guided Spanish soldiers to the island"
+   ],
+   "answer": 1,
+   "explain": "Manteo sailed to England in 1584, helped Harriot learn his language and was baptized by the colonists in 1587."
+  },
+  {
+   "id": "r6-0029",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1488 the Portuguese captain Bartolomeu Dias became the first European known to sail around which point?",
+   "options": [
+    "Cape Verde",
+    "The Strait of Gibraltar",
+    "The Cape of Good Hope",
+    "Cape Horn"
+   ],
+   "answer": 2,
+   "explain": "Dias's voyage proved a sea route around Africa to the Indian Ocean existed, opening the way for Vasco da Gama's 1497-1499 trip to India."
+  },
+  {
+   "id": "r6-0030",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Portuguese commander, sailing for India in 1500, reached the coast of Brazil and claimed it for Portugal?",
+   "options": [
+    "Pedro Alvares Cabral",
+    "Francisco de Almeida",
+    "Ferdinand Magellan",
+    "Bartolomeu Dias"
+   ],
+   "answer": 0,
+   "explain": "Cabral swung far west into the Atlantic and sighted Brazil in April 1500, then continued on to India."
+  },
+  {
+   "id": "r6-0031",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Treaty of Tordesillas set the dividing line 370 leagues west of the Cape Verde Islands. Which later Portuguese colony lay east of that line?",
+   "options": [
+    "Newfoundland",
+    "Brazil",
+    "Mexico",
+    "Florida"
+   ],
+   "answer": 1,
+   "explain": "Because the bulge of South America crossed the line, Portugal could claim Brazil while Spain claimed most of the rest of the Americas."
+  },
+  {
+   "id": "r6-0032",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "After the Santa Maria ran aground on Christmas Eve 1492, Columbus left about 39 men in a fort on Hispaniola called what?",
+   "options": [
+    "Santo Domingo",
+    "La Isabela",
+    "San Salvador",
+    "La Navidad"
+   ],
+   "answer": 3,
+   "explain": "When Columbus returned in 1493 he found the fort burned and all the men dead, apparently after conflict with the Taino."
+  },
+  {
+   "id": "r6-0033",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Founded in 1496 on Hispaniola, which city is the oldest continuously inhabited European-founded settlement in the Americas?",
+   "options": [
+    "Havana",
+    "San Juan",
+    "Santo Domingo",
+    "Cartagena de Indias"
+   ],
+   "answer": 2,
+   "explain": "Bartholomew Columbus founded the city, which became the first seat of Spanish rule in the Americas; it is now the capital of the Dominican Republic."
+  },
+  {
+   "id": "r6-0034",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which English word comes from the Taino language of the Caribbean?",
+   "options": [
+    "Persimmon",
+    "Tomahawk",
+    "Moccasin",
+    "Hurricane"
+   ],
+   "answer": 3,
+   "explain": "Spanish borrowed huracan from the Taino; canoe, hammock and barbecue also trace back to Taino words, while moccasin and tomahawk are Algonquian."
+  },
+  {
+   "id": "r6-0035",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "The Laws of Burgos (1512) are significant as Spain's first attempt to do what?",
+   "options": [
+    "Regulate how colonists treated Native workers in the Americas",
+    "Divide the world's new lands with Portugal",
+    "Ban the import of enslaved Africans",
+    "Grant self-government to the colonies"
+   ],
+   "answer": 0,
+   "explain": "The laws, a response to Dominican protests, limited hours and punishments for Native laborers, though they were widely ignored."
+  },
+  {
+   "id": "r6-0036",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Pope Paul III's 1537 bull Sublimis Deus declared what about the Native peoples of the Americas?",
+   "options": [
+    "They were subjects of the Portuguese crown",
+    "They were rational people who must not be enslaved",
+    "They could be required to work in the mines",
+    "They owed the church a yearly tithe of gold"
+   ],
+   "answer": 1,
+   "explain": "The bull affirmed that Indigenous peoples could receive the faith and keep their liberty and property, though enforcement in the colonies was weak."
+  },
+  {
+   "id": "r6-0037",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "From 1524, which body in Spain governed the American colonies on the king's behalf?",
+   "options": [
+    "The Spanish Inquisition",
+    "The Cortes of Castile",
+    "The Audiencia of Mexico",
+    "The Council of the Indies"
+   ],
+   "answer": 3,
+   "explain": "The council drafted laws, named officials and heard appeals for Spanish America; audiencias were courts in the colonies that answered to it."
+  },
+  {
+   "id": "r6-0038",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Bartolome de las Casas's 1552 book about Spanish cruelty in the Americas was titled what?",
+   "options": [
+    "The True History of the Conquest of New Spain",
+    "The Royal Commentaries of the Incas and General History of Peru",
+    "A Short Account of the Destruction of the Indies",
+    "The General History of the Things of New Spain"
+   ],
+   "answer": 2,
+   "explain": "Rivals of Spain translated and reprinted the book widely, feeding the Black Legend; the other titles are by Sahagun, Diaz del Castillo and Garcilaso."
+  },
+  {
+   "id": "r6-0039",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Early in his career, Las Casas proposed relieving Native laborers by bringing in whom, a proposal he later regretted?",
+   "options": [
+    "Portuguese peasants",
+    "Enslaved Africans",
+    "Spanish convicts",
+    "Chinese laborers"
+   ],
+   "answer": 1,
+   "explain": "Las Casas later wrote that enslaving Africans was just as unjust as enslaving Native Americans and repented his earlier advice."
+  },
+  {
+   "id": "r6-0040",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1562 at Mani, in the Yucatan, Bishop Diego de Landa ordered the burning of what?",
+   "options": [
+    "Maya books and religious images",
+    "Spanish heretics' Bibles",
+    "Taino wooden carvings",
+    "Aztec tribute records"
+   ],
+   "answer": 0,
+   "explain": "Landa destroyed dozens of Maya codices; only four pre-conquest Maya books are known to survive today."
+  },
+  {
+   "id": "r6-0041",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which historian coined the term 'Columbian Exchange' in a 1972 book?",
+   "options": [
+    "William Cronon",
+    "Frederick Jackson Turner",
+    "Samuel Eliot Morison",
+    "Alfred W. Crosby"
+   ],
+   "answer": 3,
+   "explain": "Crosby's The Columbian Exchange traced how plants, animals and diseases crossed the Atlantic after 1492 and reshaped both hemispheres."
+  },
+  {
+   "id": "r6-0042",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which two mosquito-borne diseases reached the Americas from the Eastern Hemisphere after 1492, later shaping life in tropical and southern lowlands?",
+   "options": [
+    "Malaria and yellow fever",
+    "Influenza and typhus",
+    "Smallpox and measles",
+    "Cholera and tuberculosis"
+   ],
+   "answer": 0,
+   "explain": "Both diseases came with ships and the slave trade; they took a heavy toll in the Caribbean and low country, where mosquitoes thrived."
+  },
+  {
+   "id": "r6-0043",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "After 1492, which American crops helped feed rapid population growth in China?",
+   "options": [
+    "Rice and soybeans",
+    "Wheat and barley",
+    "Maize and sweet potatoes",
+    "Sugarcane, bananas and taro"
+   ],
+   "answer": 2,
+   "explain": "Maize and sweet potatoes grew on hillsides and poor soils unsuited to rice, letting Chinese farmers expand into new land."
+  },
+  {
+   "id": "r6-0044",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Chili peppers, now central to cooking in India, Thailand and Korea, originated where?",
+   "options": [
+    "South Asia",
+    "The Americas",
+    "The Mediterranean",
+    "East Africa"
+   ],
+   "answer": 1,
+   "explain": "Portuguese and Spanish traders spread chili peppers from the Americas across Africa and Asia within decades of Columbus's voyages."
+  },
+  {
+   "id": "r6-0045",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Enriquillo led a long Taino rebellion against Spanish rule in the 1520s and early 1530s on which island?",
+   "options": [
+    "Puerto Rico",
+    "Hispaniola",
+    "Cuba",
+    "Jamaica"
+   ],
+   "answer": 1,
+   "explain": "Enriquillo held out in the Bahoruco Mountains until 1533, when he won a treaty granting his followers their freedom."
+  },
+  {
+   "id": "r6-0046",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In Spanish America, communities formed by people who escaped slavery, such as the one led by Gaspar Yanga near Veracruz, were often called what?",
+   "options": [
+    "Palenques",
+    "Haciendas",
+    "Presidios",
+    "Reducciones"
+   ],
+   "answer": 0,
+   "explain": "After years of resistance, Yanga's community won Spanish recognition as a free town in the early 1600s."
+  },
+  {
+   "id": "r6-0047",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Around the year 1000, Norse sailors built a short-lived settlement at L'Anse aux Meadows on which island?",
+   "options": [
+    "Baffin Island",
+    "Greenland",
+    "Cape Breton Island",
+    "Newfoundland"
+   ],
+   "answer": 3,
+   "explain": "Excavated in the 1960s, the site is the only confirmed Norse settlement in North America and matches sagas about a land called Vinland."
+  },
+  {
+   "id": "r6-0048",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which language of the Mexica gave English words such as tomato, avocado and coyote?",
+   "options": [
+    "Taino",
+    "Quechua",
+    "Nahuatl",
+    "Mayan"
+   ],
+   "answer": 2,
+   "explain": "Spanish borrowed tomatl, ahuacatl and coyotl from Nahuatl, and English took them from Spanish."
+  },
+  {
+   "id": "r6-0049",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Why did the Spanish conquest of the Maya take far longer than the conquest of the Aztecs?",
+   "options": [
+    "The Maya were divided among many independent states, not one empire",
+    "The Maya had acquired steel weapons and cannon from Portuguese traders",
+    "Portugal defended the Maya region",
+    "The Maya lived on islands Spain could not reach"
+   ],
+   "answer": 0,
+   "explain": "With no single capital to seize, the Spanish had to subdue Maya states one by one; the last independent kingdom fell in 1697."
+  },
+  {
+   "id": "r6-0050",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "What was the name of the royal road that linked Mexico City to the new Spanish settlements in New Mexico from 1598?",
+   "options": [
+    "The Old Spanish Trail",
+    "El Camino Real de Tierra Adentro",
+    "The Santa Fe Trail",
+    "The Natchez Trace"
+   ],
+   "answer": 1,
+   "explain": "The road ran some 1,500 miles; caravans carried goods, settlers and missionaries north and hides and wool south for over two centuries."
+  },
+  {
+   "id": "r6-0051",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "After the expedition's commander was killed in the Philippines in 1521, which navigator brought the surviving ship, the Victoria, home to Spain to complete the first voyage around the world?",
+   "options": [
+    "Francisco de Orellana",
+    "Vasco Nunez de Balboa",
+    "Juan Rodriguez Cabrillo",
+    "Juan Sebastian Elcano"
+   ],
+   "answer": 3,
+   "explain": "Magellan died at Mactan; Elcano reached Spain in September 1522 with 18 survivors."
+  },
+  {
+   "id": "r6-0052",
+   "period": 1,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In colonial Spanish America, people of Spanish descent born in the Americas were called what?",
+   "options": [
+    "Mestizos",
+    "Peninsulares",
+    "Criollos",
+    "Mulattoes"
+   ],
+   "answer": 2,
+   "explain": "Criollos often owned land and wealth but were usually passed over for the top offices, which went to Spain-born peninsulares."
+  },
+  {
+   "id": "r6-0053",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "How many voyages did Christopher Columbus make to the Americas?",
+   "options": [
+    "Three",
+    "Two",
+    "Five",
+    "Four"
+   ],
+   "answer": 3,
+   "explain": "Columbus sailed in 1492, 1493, 1498 and 1502; on the last two he reached the coasts of South and Central America."
+  },
+  {
+   "id": "r6-0054",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "By about what time had most people left Cahokia, once the largest city north of Mexico?",
+   "options": [
+    "About 800 to 900",
+    "About 1350 to 1400",
+    "About 1550 to 1600",
+    "About 1700 to 1750"
+   ],
+   "answer": 1,
+   "explain": "Cahokia peaked around 1050 to 1150; flooding, drought, resource strain and conflict are among the explanations for its decline."
+  },
+  {
+   "id": "r6-0055",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Mississippian societies of the Southeast and Midwest were typically organized as what?",
+   "options": [
+    "Chiefdoms ruled by hereditary elites from mound centers",
+    "Republics led by elected assemblies",
+    "Empires governed by written law codes",
+    "Small egalitarian bands of mobile foragers with no fixed towns"
+   ],
+   "answer": 0,
+   "explain": "Chiefs lived atop platform mounds and collected tribute of food and goods; de Soto met such chiefdoms, including Coosa, in the 1540s."
+  },
+  {
+   "id": "r6-0056",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "After about 1300, as the Four Corners region emptied, many Ancestral Puebloans moved where?",
+   "options": [
+    "To the Pacific Northwest coast",
+    "To the Great Lakes region",
+    "To the Rio Grande valley and the Hopi and Zuni areas",
+    "To the Gulf coast of Texas"
+   ],
+   "answer": 2,
+   "explain": "Their descendants include the Pueblo peoples of the Rio Grande, Hopi and Zuni, whom the Spanish met in the 1500s."
+  },
+  {
+   "id": "r6-0057",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "The Navajo and Apache speak Athabaskan languages. Where do linguists and archaeologists believe their ancestors migrated from?",
+   "options": [
+    "The subarctic of western Canada and Alaska",
+    "The Eastern Woodlands",
+    "The Valley of Mexico and the Gulf coast of Mesoamerica",
+    "The Caribbean islands"
+   ],
+   "answer": 0,
+   "explain": "Related Athabaskan languages are spoken in Alaska and northwest Canada; the ancestors of the Navajo and Apache reached the Southwest around 1400 or later."
+  },
+  {
+   "id": "r6-0058",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "When Champlain sailed up the St. Lawrence in 1603, what had happened to the Iroquoian towns Cartier visited in the 1530s?",
+   "options": [
+    "They had become the Huron capital",
+    "They had been conquered by Spain",
+    "They had vanished, for reasons still debated",
+    "They had grown into French trading posts"
+   ],
+   "answer": 2,
+   "explain": "Warfare with the Mohawk or other Haudenosaunee, European diseases and migration are among proposed explanations for the disappearance of the St. Lawrence Iroquoians."
+  },
+  {
+   "id": "r6-0059",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Apalachee people, whose name was later given to the Appalachian Mountains, lived in which region?",
+   "options": [
+    "The Ohio River valley",
+    "The Great Lakes",
+    "Southern New England",
+    "The Florida panhandle"
+   ],
+   "answer": 3,
+   "explain": "Narvaez's men recorded the name in 1528; mapmakers later applied it to the mountains far to the north."
+  },
+  {
+   "id": "r6-0060",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Columbus's second voyage in 1493 differed from his first mainly because it did what?",
+   "options": [
+    "Reached the mainland coast of North America near Florida and the Carolinas",
+    "Brought more than a thousand settlers and livestock to colonize Hispaniola",
+    "Returned with the first cargo of silver",
+    "Sailed around the southern tip of Africa"
+   ],
+   "answer": 1,
+   "explain": "Seventeen ships carried colonists, horses, pigs, cattle and seeds, beginning the transfer of European farming to the Americas."
+  },
+  {
+   "id": "r6-0061",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "During the 1892 Homestead strike, anarchist Alexander Berkman tried to assassinate which Carnegie Steel executive?",
+   "options": [
+    "Henry Clay Frick",
+    "Andrew Mellon",
+    "Thomas A. Scott",
+    "Charles M. Schwab"
+   ],
+   "answer": 0,
+   "explain": "Frick survived being shot and stabbed; the attack turned public sympathy away from the strikers."
+  },
+  {
+   "id": "r6-0062",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In 1893 the governor of Illinois drew national criticism for doing what?",
+   "options": [
+    "Ordering the arrest of anarchist newspaper editors",
+    "Calling out the militia against Pullman strikers",
+    "Pardoning three surviving men convicted in the Haymarket case",
+    "Vetoing an eight-hour workday law"
+   ],
+   "answer": 2,
+   "explain": "Governor John Peter Altgeld concluded the Haymarket trial had been unfair; the pardons of Fielden, Neebe and Schwab cost him politically."
+  },
+  {
+   "id": "r6-0063",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "The Knights of Labor began in 1869 as a secret society of which workers in Philadelphia?",
+   "options": [
+    "Dock workers",
+    "Garment cutters",
+    "Railroad brakemen",
+    "Coal miners"
+   ],
+   "answer": 1,
+   "explain": "Uriah Stephens and fellow tailors founded the order; it dropped its secrecy in 1881 and grew rapidly under Terence Powderly."
+  },
+  {
+   "id": "r6-0064",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In September 1869, Jay Gould and Jim Fisk tried to corner the market in what, causing the 'Black Friday' panic?",
+   "options": [
+    "Cotton",
+    "Railroad bonds",
+    "Silver",
+    "Gold"
+   ],
+   "answer": 3,
+   "explain": "The scheme collapsed when President Grant had the Treasury sell $4 million in gold, crashing the price on September 24."
+  },
+  {
+   "id": "r6-0065",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "In 1882 Rockefeller and his partners organized Standard Oil as a trust. What did this arrangement do?",
+   "options": [
+    "Made every refinery worker a part owner",
+    "Let a board of trustees control many companies' stock as one unit",
+    "Made the firm a government-chartered monopoly partly owned by Ohio",
+    "Split the firm into regional competitors"
+   ],
+   "answer": 1,
+   "explain": "Stockholders in about 40 companies traded their shares for trust certificates, letting nine trustees run the whole empire."
+  },
+  {
+   "id": "r6-0066",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1882, Thomas Edison opened which pioneering central electric power station in Lower Manhattan?",
+   "options": [
+    "Menlo Park Station",
+    "Wall Street Station",
+    "Niagara Falls Power Station",
+    "Pearl Street Station"
+   ],
+   "answer": 3,
+   "explain": "Pearl Street began serving about 85 customers in September 1882 using direct current, the model for central power plants."
+  },
+  {
+   "id": "r6-0067",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "senate-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Red Cloud's War (1866-1868) ended with the United States agreeing to do what?",
+   "options": [
+    "Abandon its forts along the Bozeman Trail",
+    "Move the Lakota to Indian Territory",
+    "Buy the Black Hills from the Lakota",
+    "Pay for a railroad across Lakota land"
+   ],
+   "answer": 0,
+   "explain": "The 1868 Fort Laramie Treaty closed the forts guarding the trail to Montana's gold fields, a rare victory for a Native nation over the Army."
+  },
+  {
+   "id": "r6-0068",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In the Modoc War of 1872-1873, Kintpuash (Captain Jack) and a small band held out for months in which terrain on the California-Oregon border?",
+   "options": [
+    "The Everglades",
+    "The Staked Plains",
+    "The lava beds near Tule Lake",
+    "The Black Hills"
+   ],
+   "answer": 2,
+   "explain": "The Modoc used lava caves and trenches as natural forts; General Edward Canby was killed during peace talks, and Kintpuash was hanged."
+  },
+  {
+   "id": "r6-0069",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "An 1871 Indian Appropriations Act changed federal Indian policy by doing what?",
+   "options": [
+    "Creating the Bureau of Indian Affairs",
+    "Dividing reservations into individual family allotments of 160 acres",
+    "Ending the practice of making treaties with Native nations",
+    "Granting citizenship to all Native Americans"
+   ],
+   "answer": 2,
+   "explain": "The House, left out of Senate-ratified treaties, insisted that tribes no longer be treated as nations; later policy came through laws and executive orders."
+  },
+  {
+   "id": "r6-0070",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "President Grant's 'Peace Policy' of 1869 did what?",
+   "options": [
+    "Gave church groups such as the Quakers a role in running Indian agencies",
+    "Banned settlers from crossing the Mississippi",
+    "Recognized Native nations as foreign countries",
+    "Ended the reservation system"
+   ],
+   "answer": 0,
+   "explain": "Religious denominations nominated agents to replace corrupt political appointees, though Army campaigns continued alongside the policy."
+  },
+  {
+   "id": "r6-0071",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Which Army officer, founder of the Carlisle Indian Industrial School, summed up its aim as 'Kill the Indian in him, and save the man'?",
+   "options": [
+    "Nelson Miles",
+    "George Crook",
+    "William Tecumseh Sherman",
+    "Richard Henry Pratt"
+   ],
+   "answer": 3,
+   "explain": "Pratt spoke the line in 1892; Carlisle cut students' hair, banned Native languages and became a model for boarding schools nationwide."
+  },
+  {
+   "id": "r6-0072",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Ghost Dance of 1889-1890 spread from the visions of Wovoka, a prophet of which people?",
+   "options": [
+    "The Lakota",
+    "The Northern Paiute",
+    "The Southern Cheyenne",
+    "The Crow"
+   ],
+   "answer": 1,
+   "explain": "Wovoka, of Nevada, taught that dancing and right living would bring renewal; Lakota followers' version alarmed officials before Wounded Knee."
+  },
+  {
+   "id": "r6-0073",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "Which formerly enslaved man from Tennessee promoted Black migration to Kansas in the 1870s and was called the 'Father of the Exodus'?",
+   "options": [
+    "Hiram Revels",
+    "Blanche K. Bruce",
+    "Benjamin 'Pap' Singleton",
+    "P. B. S. Pinchback"
+   ],
+   "answer": 2,
+   "explain": "Singleton organized settlement colonies and circulated flyers urging Black Southerners to seek land and safety in Kansas."
+  },
+  {
+   "id": "r6-0074",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which Agriculture Department clerk founded the Patrons of Husbandry, or Grange, in 1867?",
+   "options": [
+    "Charles William Macune",
+    "Ignatius Donnelly",
+    "James B. Weaver",
+    "Oliver Hudson Kelley"
+   ],
+   "answer": 3,
+   "explain": "Kelley toured the war-torn South for the department in 1866 and decided farmers needed a national organization; the Grange was founded in Washington in December 1867."
+  },
+  {
+   "id": "r6-0075",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Who was the People's Party's presidential candidate in 1892, winning more than a million votes and 22 electoral votes?",
+   "options": [
+    "Tom Watson",
+    "James B. Weaver",
+    "William Jennings Bryan",
+    "Ignatius Donnelly"
+   ],
+   "answer": 1,
+   "explain": "Weaver, an Iowa Civil War general, had also run for the Greenback Party in 1880; he carried Kansas, Colorado, Idaho and Nevada."
+  },
+  {
+   "id": "r6-0076",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "William H. Harvey's best-selling 1894 pamphlet Coin's Financial School argued for what?",
+   "options": [
+    "Unlimited coinage of silver at 16 to 1",
+    "A strict gold standard",
+    "Abolishing all paper money",
+    "A new national bank modeled on Alexander Hamilton's"
+   ],
+   "answer": 0,
+   "explain": "In the book a boy named Coin bested bankers and professors in debate; it helped build the free-silver movement before 1896."
+  },
+  {
+   "id": "r6-0077",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "During the 1890s, Treasury officials and investors watched which symbolic minimum level of the gold reserve backing U.S. currency?",
+   "options": [
+    "$10 million",
+    "$100 million",
+    "$500 million",
+    "$1 billion"
+   ],
+   "answer": 1,
+   "explain": "When the reserve fell below $100 million in 1893, confidence collapsed; by early 1895 it had fallen near $41 million before Morgan's syndicate stepped in."
+  },
+  {
+   "id": "r6-0078",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Mississippi's 1890 constitution became a model for disfranchising Black voters by requiring what?",
+   "options": [
+    "Property worth at least $10,000",
+    "Proof of service in the Union army",
+    "Three generations of residence in the state",
+    "A poll tax and a literacy test judged by local officials"
+   ],
+   "answer": 3,
+   "explain": "Registrars could pass white voters under an 'understanding clause' while rejecting Black voters; other Southern states copied the plan."
+  },
+  {
+   "id": "r6-0079",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "Louisiana's 1898 constitution exempted men from literacy and property tests if their fathers or grandfathers could vote before 1867. What was this called?",
+   "options": [
+    "The grandfather clause",
+    "The white primary",
+    "The eight-box law",
+    "The understanding clause"
+   ],
+   "answer": 0,
+   "explain": "The 1867 cutoff excluded virtually all Black men; the Supreme Court struck down such clauses in Guinn v. United States (1915)."
+  },
+  {
+   "id": "r6-0080",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Which phrase, spoken by a Protestant minister backing James G. Blaine in 1884, may have cost Blaine New York and the presidency?",
+   "options": [
+    "Waving the bloody shirt",
+    "Burn this letter, kind regards to Mrs. Fisher",
+    "Rum, Romanism and Rebellion",
+    "Ma, Ma, where's my Pa?"
+   ],
+   "answer": 2,
+   "explain": "Rev. Samuel Burchard called the Democrats the party of 'Rum, Romanism, and Rebellion'; Irish Catholic voters took offense and Cleveland narrowly won New York."
+  },
+  {
+   "id": "r6-0081",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "Which New York senator, who resigned in 1881 in a patronage fight with President Garfield, led the Republican faction that defended the spoils system?",
+   "options": [
+    "John Sherman",
+    "Carl Schurz",
+    "James G. Blaine",
+    "Roscoe Conkling"
+   ],
+   "answer": 3,
+   "explain": "Conkling and fellow senator Thomas Platt quit over Garfield's choice for collector of the Port of New York, expecting reelection; the legislature refused."
+  },
+  {
+   "id": "r6-0082",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor",
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "In 1894, Cleveland let which tariff become law without his signature, denouncing its many protectionist amendments as 'party perfidy and party dishonor'?",
+   "options": [
+    "The Mongrel Tariff",
+    "The Wilson-Gorman Tariff",
+    "The Dingley Tariff",
+    "The McKinley Tariff"
+   ],
+   "answer": 1,
+   "explain": "The House's tariff cuts were gutted by hundreds of Senate amendments; the law also carried an income tax later struck down by the Supreme Court."
+  },
+  {
+   "id": "r6-0083",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 3,
+   "q": "Secretary of State James G. Blaine hosted the first International Conference of American States in 1889-1890. Which organization grew out of it?",
+   "options": [
+    "The Pan American Union",
+    "The Universal Postal Union",
+    "The International Red Cross",
+    "The Hague Tribunal"
+   ],
+   "answer": 0,
+   "explain": "The conference created a Commercial Bureau of the American Republics, renamed the Pan American Union in 1910; its headquarters stands near the White House."
+  },
+  {
+   "id": "r6-0084",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In the 1895 Venezuela boundary dispute, Secretary of State Richard Olney asserted U.S. power in the hemisphere against which country?",
+   "options": [
+    "Germany",
+    "Spain",
+    "Great Britain",
+    "Austria-Hungary"
+   ],
+   "answer": 2,
+   "explain": "Olney claimed that the United States was 'practically sovereign' in the hemisphere; Britain agreed to arbitration over British Guiana's border."
+  },
+  {
+   "id": "r6-0085",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1889, a standoff among American, German and British warships over which Pacific islands ended when a cyclone wrecked most of the ships?",
+   "options": [
+    "Hawaii",
+    "Guam",
+    "Samoa",
+    "Fiji"
+   ],
+   "answer": 2,
+   "explain": "The storm at Apia sank or beached six warships; the powers then agreed to share control and in 1899 divided the islands."
+  },
+  {
+   "id": "r6-0086",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "The 1887 'Bayonet Constitution,' forced on King Kalakaua by mostly American businessmen, did what?",
+   "options": [
+    "Created an elected U.S.-style presidency",
+    "Cut the king's powers, denied Asians the vote and set wealth tests for voters",
+    "Banned foreign ownership of sugar land",
+    "Made Hawaii a U.S. territory"
+   ],
+   "answer": 1,
+   "explain": "Armed members of the Hawaiian League imposed property and income requirements for voting, putting power in the hands of wealthy planters."
+  },
+  {
+   "id": "r6-0087",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "When the U.S.-Hawaii trade reciprocity treaty was renewed in 1887, what did the United States gain?",
+   "options": [
+    "Exclusive rights to a naval station at Pearl Harbor",
+    "Control of Hawaii's foreign policy",
+    "A coaling station at Honolulu",
+    "Ownership of Hawaii's sugar refineries"
+   ],
+   "answer": 0,
+   "explain": "Duty-free sugar exports had made planters rich since 1875; the renewal gave the U.S. Navy the harbor that later became its Pacific base."
+  },
+  {
+   "id": "r6-0088",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "After the 1893 overthrow of Hawaii's monarchy, what did President Cleveland do with the treaty to annex the islands?",
+   "options": [
+    "Signed it and sent troops to occupy Honolulu",
+    "Submitted it to a vote of all Hawaiians",
+    "Traded it to Britain for rights in Samoa",
+    "Withdrew it from the Senate and ordered an inquiry, which found U.S. officials had aided the coup"
+   ],
+   "answer": 3,
+   "explain": "James Blount's report concluded that U.S. minister John Stevens and landed Marines helped topple Queen Liliuokalani; annexation waited until 1898."
+  },
+  {
+   "id": "r6-0089",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "In 1898 Hawaii was annexed by what means, after an annexation treaty failed to win two-thirds of the Senate?",
+   "options": [
+    "An executive order by McKinley",
+    "A Supreme Court ruling",
+    "A popular vote of Hawaii's residents",
+    "A joint resolution of Congress"
+   ],
+   "answer": 3,
+   "explain": "The Newlands Resolution needed only simple majorities in both houses; McKinley signed it in July 1898 amid the war with Spain."
+  },
+  {
+   "id": "r6-0090",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "The 1898 de Lome letter, published by Hearst's New York Journal, angered Americans because the Spanish minister called whom weak?",
+   "options": [
+    "John Sherman",
+    "President McKinley",
+    "Theodore Roosevelt",
+    "Grover Cleveland"
+   ],
+   "answer": 1,
+   "explain": "Enrique Dupuy de Lome called McKinley 'weak and a bidder for the admiration of the crowd'; the Maine exploded less than a week after publication."
+  },
+  {
+   "id": "r6-0091",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Spanish general Valeriano Weyler, called 'the Butcher' in the American press, fought Cuban rebels by doing what?",
+   "options": [
+    "Forcing rural Cubans into fortified camps where many died",
+    "Burning Havana to the ground",
+    "Freeing enslaved Cubans to join his army",
+    "Bombarding Key West"
+   ],
+   "answer": 0,
+   "explain": "Weyler's reconcentration policy herded hundreds of thousands into camps with little food; disease killed huge numbers and outraged Americans."
+  },
+  {
+   "id": "r6-0092",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor",
+    "treasury"
+   ],
+   "difficulty": 2,
+   "q": "Under the 1898 Treaty of Paris, the United States agreed to pay Spain how much in connection with the Philippines?",
+   "options": [
+    "$7.2 million",
+    "$15 million",
+    "$20 million",
+    "$50 million"
+   ],
+   "answer": 2,
+   "explain": "The payment accompanied Spain's cession of the Philippines; $7.2 million was the price of Alaska and $15 million went to Mexico in 1848."
+  },
+  {
+   "id": "r6-0093",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Founded in 1871 near deposits of iron ore, coal and limestone, which city became the iron and steel center of the New South?",
+   "options": [
+    "Birmingham, Alabama",
+    "Richmond, Virginia",
+    "Atlanta, Georgia",
+    "Chattanooga, Tennessee"
+   ],
+   "answer": 0,
+   "explain": "Birmingham grew so fast it was called the Magic City; its mills relied heavily on Black workers, including convict laborers."
+  },
+  {
+   "id": "r6-0094",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In the 1880s and 1890s, cotton textile mills spread across which Southern region, drawing poor white families into mill villages?",
+   "options": [
+    "The Mississippi Delta",
+    "The Texas Gulf Coast",
+    "The Florida peninsula",
+    "The Piedmont of the Carolinas and Georgia"
+   ],
+   "answer": 3,
+   "explain": "Water power from Piedmont rivers and cheap labor drew mills; families often worked together, children included, and lived in company housing."
+  },
+  {
+   "id": "r6-0095",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Chicago architect, designer of the Wainwright Building, wrote that 'form ever follows function'?",
+   "options": [
+    "Frank Lloyd Wright",
+    "Louis Sullivan",
+    "H. H. Richardson",
+    "Daniel Burnham"
+   ],
+   "answer": 1,
+   "explain": "Sullivan's 1896 essay on the tall office building shaped modern architecture; Frank Lloyd Wright worked for him as a young draftsman."
+  },
+  {
+   "id": "r6-0096",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Emma Lazarus wrote her sonnet 'The New Colossus' in 1883 to raise money for what?",
+   "options": [
+    "Relief for Irish famine victims",
+    "The building of Ellis Island",
+    "The pedestal of the Statue of Liberty",
+    "A shelter for Jewish refugees in New York"
+   ],
+   "answer": 2,
+   "explain": "The poem, with its 'huddled masses yearning to breathe free,' was put on a plaque inside the pedestal in 1903."
+  },
+  {
+   "id": "r6-0097",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "In 1897 President Cleveland vetoed a bill backed by the Immigration Restriction League that would have required immigrants to do what?",
+   "options": [
+    "Pass a literacy test",
+    "Prove they had jobs waiting",
+    "Speak English",
+    "Pay a $100 entry tax"
+   ],
+   "answer": 0,
+   "explain": "Cleveland called the test a radical departure from national policy; Congress finally imposed one over Wilson's veto in 1917."
+  },
+  {
+   "id": "r6-0098",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which Christian group, founded in London by William and Catherine Booth, began organized work in the United States in 1880?",
+   "options": [
+    "The Volunteers of America",
+    "The Christian Endeavor Society",
+    "The YMCA",
+    "The Salvation Army"
+   ],
+   "answer": 3,
+   "explain": "Its uniformed officers held street meetings and ran shelters in the slums; the Volunteers of America was a later offshoot founded in the U.S. in 1896."
+  },
+  {
+   "id": "r6-0099",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 2,
+   "q": "In 1879 Belva Lockwood became the first woman to do what?",
+   "options": [
+    "Be appointed to a president's cabinet as a department head",
+    "Serve in Congress",
+    "Practice law before the U.S. Supreme Court",
+    "Serve as a federal judge"
+   ],
+   "answer": 2,
+   "explain": "Lockwood lobbied Congress to pass a law letting women argue before the Court; she later ran for president in 1884 and 1888."
+  },
+  {
+   "id": "r6-0100",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "In Minor v. Happersett (1875), the Supreme Court ruled what?",
+   "options": [
+    "States could not bar women from practicing law",
+    "Citizenship did not give women a constitutional right to vote",
+    "Married women had a right to own property",
+    "Women could serve on federal juries"
+   ],
+   "answer": 1,
+   "explain": "Virginia Minor argued the Fourteenth Amendment protected her vote; the unanimous ruling pushed suffragists toward a constitutional amendment."
+  },
+  {
+   "id": "r6-0101",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The Comstock Act of 1873 made it a federal crime to do what?",
+   "options": [
+    "Employ children under twelve in factories",
+    "Sell liquor in federal territories",
+    "Bring in Chinese contract laborers",
+    "Mail obscene material, including information on contraception"
+   ],
+   "answer": 3,
+   "explain": "Anthony Comstock lobbied for the law and enforced it as a postal inspector for decades."
+  },
+  {
+   "id": "r6-0102",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "In November 1889, which four states were admitted to the Union within about ten days of one another?",
+   "options": [
+    "Idaho, Wyoming, Utah and Oklahoma",
+    "Colorado, Nevada, Nebraska and Kansas",
+    "North Dakota, South Dakota, Montana and Washington",
+    "Arizona, New Mexico, Oklahoma and Utah"
+   ],
+   "answer": 2,
+   "explain": "Republicans in Congress welcomed the new, mostly Republican states; Idaho and Wyoming followed in July 1890."
+  },
+  {
+   "id": "r6-0103",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In Strauder v. West Virginia (1880), the Supreme Court struck down a state law that did what?",
+   "options": [
+    "Required separate railroad cars by race",
+    "Barred Black men from serving on juries",
+    "Imposed a poll tax on voters",
+    "Banned interracial marriage"
+   ],
+   "answer": 1,
+   "explain": "The Court held that excluding Black citizens from juries by law violated equal protection, though other methods of exclusion soon spread."
+  },
+  {
+   "id": "r6-0104",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In Allgeyer v. Louisiana (1897), the Supreme Court for the first time read which right into the Fourteenth Amendment's due process clause?",
+   "options": [
+    "Liberty of contract",
+    "The right to privacy",
+    "The right to bear arms",
+    "Freedom of the press"
+   ],
+   "answer": 0,
+   "explain": "The doctrine became the basis for striking down many labor laws in the Lochner era, until the Court abandoned it in 1937."
+  },
+  {
+   "id": "r6-0105",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In Juilliard v. Greenman (1884), the Supreme Court upheld Congress's power to do what?",
+   "options": [
+    "Set railroad rates in every state",
+    "Ban Chinese immigration",
+    "Make paper money legal tender even in peacetime",
+    "Tax incomes without apportionment"
+   ],
+   "answer": 2,
+   "explain": "The Legal Tender Cases had upheld greenbacks as a wartime measure; Juilliard extended the power to peacetime."
+  },
+  {
+   "id": "r6-0106",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In 1878 Rutherford B. Hayes began which White House tradition after Congress barred children from playing on the Capitol grounds?",
+   "options": [
+    "The national Christmas tree lighting",
+    "The Thanksgiving turkey pardon",
+    "The Fourth of July fireworks picnic",
+    "The Easter Egg Roll"
+   ],
+   "answer": 3,
+   "explain": "Children who had rolled eggs on the Capitol lawn were invited to the White House South Lawn, and the event became an annual custom."
+  },
+  {
+   "id": "r6-0107",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Which president was the first to have electric lighting installed in the White House, in 1891?",
+   "options": [
+    "Benjamin Harrison",
+    "Grover Cleveland",
+    "William McKinley",
+    "Chester A. Arthur"
+   ],
+   "answer": 0,
+   "explain": "The Harrisons were reportedly so wary of the switches that they sometimes left the lights on all night rather than touch them."
+  },
+  {
+   "id": "r6-0108",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "white-house",
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "In 1887 Cleveland vetoed the Texas Seed Bill, which would have given drought-stricken farmers what?",
+   "options": [
+    "Federal crop insurance",
+    "$10,000 to buy seed grain",
+    "Free land in Indian Territory",
+    "Low railroad rates for hay"
+   ],
+   "answer": 1,
+   "explain": "Cleveland wrote that 'though the people support the Government, the Government should not support the people.'"
+  },
+  {
+   "id": "r6-0109",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "By the 1890s, critics mocked the U.S. Senate with what nickname because of its many wealthy members tied to big business?",
+   "options": [
+    "The Gilded Chamber",
+    "The Billion Dollar Congress",
+    "The Millionaires' Club",
+    "The Robber Barons' Court"
+   ],
+   "answer": 2,
+   "explain": "Chosen by state legislatures, many senators owed their seats to corporate allies, a key argument for the Seventeenth Amendment."
+  },
+  {
+   "id": "r6-0110",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "Between 1850 and 1871, Congress granted railroads roughly how much public land?",
+   "options": [
+    "About 1 million acres",
+    "About 13 million acres",
+    "About 130 million acres",
+    "About 1.3 billion acres"
+   ],
+   "answer": 2,
+   "explain": "Federal grants of about 131 million acres, plus state grants, helped finance western lines; Congress stopped making new grants in 1871."
+  },
+  {
+   "id": "r6-0111",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which leader of California's Workingmen's Party in the late 1870s rallied crowds with the slogan 'The Chinese must go!'?",
+   "options": [
+    "Denis Kearney",
+    "Henry George",
+    "Samuel Gompers",
+    "Terence Powderly"
+   ],
+   "answer": 0,
+   "explain": "Kearney, an Irish immigrant drayman, led sandlot rallies in San Francisco; the party helped write anti-Chinese clauses into California's 1879 constitution."
+  },
+  {
+   "id": "r6-0112",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1871, a mob killed about 18 Chinese residents in which city, one of the deadliest mass lynchings in U.S. history?",
+   "options": [
+    "Denver",
+    "San Francisco",
+    "Seattle",
+    "Los Angeles"
+   ],
+   "answer": 3,
+   "explain": "The massacre in the city's Chinatown followed a shootout that killed a white man; few of the attackers were punished."
+  },
+  {
+   "id": "r6-0113",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In the 1897 Lattimer massacre in Pennsylvania, sheriff's deputies shot unarmed striking coal miners who were mostly what?",
+   "options": [
+    "Black migrants from the Deep South hired as strikebreakers",
+    "Polish, Slovak and Lithuanian immigrants",
+    "Irish immigrants",
+    "Welsh immigrants"
+   ],
+   "answer": 1,
+   "explain": "Nineteen marchers were killed, many shot in the back; the deputies were tried and acquitted."
+  },
+  {
+   "id": "r6-0114",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "By the 1890 census, which city had passed Philadelphia to become the second largest in the United States?",
+   "options": [
+    "St. Louis",
+    "Chicago",
+    "Boston",
+    "Baltimore"
+   ],
+   "answer": 1,
+   "explain": "Chicago topped a million people in 1890, growing from about 30,000 in 1850 as a rail, meatpacking and grain hub."
+  },
+  {
+   "id": "r6-0115",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "house-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "Alexander 'Boss' Shepherd paved streets and laid sewers in the early 1870s as the dominant member (vice-chair) of the Board of Public Works and later governor of which city's territorial government?",
+   "options": [
+    "Washington, D.C.",
+    "Baltimore",
+    "New York City",
+    "Chicago"
+   ],
+   "answer": 0,
+   "explain": "Shepherd's projects modernized the capital but ran up huge debts; Congress abolished the territorial government in 1874 and put appointed commissioners in charge."
+  },
+  {
+   "id": "r6-0116",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which Smithsonian building on the National Mall opened in 1881 as the U.S. National Museum, showing objects from the 1876 Centennial Exhibition?",
+   "options": [
+    "The Smithsonian Castle",
+    "The Natural History Building",
+    "The Freer Gallery",
+    "The Arts and Industries Building"
+   ],
+   "answer": 3,
+   "explain": "Railcar loads of Centennial exhibits donated to the Smithsonian needed a home; the building hosted President Garfield's inaugural ball in 1881."
+  },
+  {
+   "id": "r6-0117",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Settlers who slipped into Oklahoma's Unassigned Lands before the official start of the 1889 land run were called what?",
+   "options": [
+    "Exodusters",
+    "Boomers",
+    "Jayhawkers",
+    "Sooners"
+   ],
+   "answer": 3,
+   "explain": "Boomers had lobbied to open the land; Sooners jumped the gun, and the name later became the University of Oklahoma's nickname."
+  },
+  {
+   "id": "r6-0118",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Klondike gold rush of 1896-1899 drew prospectors to which region?",
+   "options": [
+    "Canada's Yukon, by way of Alaska",
+    "Colorado's Pikes Peak and Cripple Creek districts",
+    "Montana's Last Chance Gulch",
+    "California's Sierra Nevada"
+   ],
+   "answer": 0,
+   "explain": "About 100,000 people set out; most traveled through Alaska ports like Skagway and climbed passes such as the Chilkoot."
+  },
+  {
+   "id": "r6-0119",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 3,
+   "q": "Which Illinois livestock dealer built stockyards beside the Kansas Pacific Railway in 1867, creating the first great cow town at the end of the Chisholm Trail?",
+   "options": [
+    "Richard King",
+    "Joseph McCoy",
+    "Jesse Chisholm",
+    "Charles Goodnight"
+   ],
+   "answer": 1,
+   "explain": "McCoy's yards let Texas drovers sell cattle for shipment to Chicago; the phrase 'the real McCoy' is sometimes linked to him."
+  },
+  {
+   "id": "r6-0120",
+   "period": 6,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Northern Paiute author and activist wrote Life Among the Piutes (1883)?",
+   "options": [
+    "Zitkala-Sa",
+    "Susette La Flesche",
+    "Sarah Winnemucca",
+    "Pauline Johnson"
+   ],
+   "answer": 2,
+   "explain": "Winnemucca's book, an early autobiography by a Native American woman, attacked corrupt agents and the forced removal of her people."
+  },
+  {
+   "id": "r6-0121",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1710 nearly 3,000 German Palatine refugees were sent by the British government to which colony to make tar and pitch for the navy?",
+   "options": [
+    "New York",
+    "Georgia",
+    "Pennsylvania",
+    "Virginia"
+   ],
+   "answer": 0,
+   "explain": "The naval stores camps on the Hudson failed; many Palatines moved to the Schoharie and Mohawk valleys or on to Pennsylvania."
+  },
+  {
+   "id": "r6-0122",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "By the early 1700s, South Carolina became the first mainland English colony to have what?",
+   "options": [
+    "A Quaker-led assembly",
+    "A majority of people of African descent",
+    "A population made up mostly of German-speaking immigrants",
+    "A royal ban on slavery"
+   ],
+   "answer": 1,
+   "explain": "Rice planting drove huge imports of enslaved Africans; by about 1708 they outnumbered whites, and fears of revolt shaped the colony's laws."
+  },
+  {
+   "id": "r6-0123",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "An epidemic from about 1616 to 1619 had what effect on the New England coast before the Pilgrims arrived?",
+   "options": [
+    "It wiped out English fishing camps",
+    "It destroyed the region's maize crops",
+    "It drove the Wampanoag inland to the Great Lakes",
+    "It killed a large share of the coastal Native population"
+   ],
+   "answer": 3,
+   "explain": "The Pilgrims settled on cleared fields of Patuxet, a Wampanoag town emptied by the disease; Tisquantum (Squanto) had been born there."
+  },
+  {
+   "id": "r6-0124",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Settlers of New Sweden, founded on the Delaware River in 1638, are credited with bringing what to North America?",
+   "options": [
+    "The saltbox house",
+    "The Conestoga wagon",
+    "The log cabin",
+    "The covered bridge"
+   ],
+   "answer": 2,
+   "explain": "Swedish and Finnish colonists built notched-log houses familiar from home; the style later spread across the American frontier."
+  },
+  {
+   "id": "r6-0125",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "To clear land quickly, many colonial farmers girdled trees. What did that involve?",
+   "options": [
+    "Cutting a ring through the bark so the tree died standing",
+    "Pulling trees down with teams of oxen",
+    "Burning out the roots underground",
+    "Bending and weaving young saplings together to form living fences"
+   ],
+   "answer": 0,
+   "explain": "Farmers planted corn among the dead trunks, a method colonists learned partly from Native practice; the trees were felled or burned later."
+  },
+  {
+   "id": "r6-0126",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Wealthy Lowcountry rice planters often left their plantations for Charleston or the mountains in summer. Why?",
+   "options": [
+    "To attend the colonial legislature",
+    "To escape malaria and other fevers in the swampy rice districts",
+    "To avoid winter flooding of the fields",
+    "To sell their rice crops in person to merchants in London"
+   ],
+   "answer": 1,
+   "explain": "Flooded rice fields bred mosquitoes; planters left enslaved workers, many with some inherited resistance, behind with overseers."
+  },
+  {
+   "id": "r6-0127",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which fish, dried and salted, became New England's leading export in the 1600s and 1700s?",
+   "options": [
+    "Shad",
+    "Sturgeon",
+    "Cod",
+    "Salmon"
+   ],
+   "answer": 2,
+   "explain": "Massachusetts hung a carved 'Sacred Cod' in its State House; the best fish went to Catholic Europe and the poorest to Caribbean plantations."
+  },
+  {
+   "id": "r6-0128",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Of the enslaved Africans who survived the Atlantic crossing, roughly what share were brought to mainland British North America?",
+   "options": [
+    "Under 5 percent",
+    "About 25 percent",
+    "About 50 percent",
+    "More than 75 percent"
+   ],
+   "answer": 0,
+   "explain": "Most went to Brazil and the Caribbean; about 400,000 reached mainland North America, where the enslaved population grew mainly through births."
+  },
+  {
+   "id": "r6-0129",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Which Missouri trader opened the Santa Fe Trail in 1821, returning from New Mexico with a large profit?",
+   "options": [
+    "Kit Carson",
+    "Thomas Fitzpatrick",
+    "Jedediah Smith",
+    "William Becknell"
+   ],
+   "answer": 3,
+   "explain": "Becknell is called the father of the Santa Fe Trail; his 1822 trip proved wagons could cross the route."
+  },
+  {
+   "id": "r6-0130",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 3,
+   "q": "After white mobs attacked Black neighborhoods in Cincinnati in 1829, hundreds of Black residents left to found the Wilberforce settlement where?",
+   "options": [
+    "Haiti",
+    "Upper Canada",
+    "Liberia",
+    "Mexican Texas"
+   ],
+   "answer": 1,
+   "explain": "Ohio began enforcing its Black Laws, which required a bond of $500; the riots that followed drove many families across the border to present-day Ontario."
+  },
+  {
+   "id": "r6-0131",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1834 an anti-Catholic mob burned an Ursuline convent in which Massachusetts town?",
+   "options": [
+    "Salem",
+    "Lowell",
+    "Springfield",
+    "Charlestown"
+   ],
+   "answer": 3,
+   "explain": "Rumors that a woman was held against her will fed the attack; the convent school mainly educated daughters of Protestant families."
+  },
+  {
+   "id": "r6-0132",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Before he became a fire-eating secessionist, Edmund Ruffin was known for promoting what?",
+   "options": [
+    "Building canals across Virginia",
+    "Growing sugarcane in Florida",
+    "Restoring worn-out Southern soil with marl",
+    "Breeding mules for the cotton belt"
+   ],
+   "answer": 2,
+   "explain": "Ruffin's 1832 Essay on Calcareous Manures showed farmers how to fix acidic, exhausted soil; he later fired an early shot at Fort Sumter."
+  },
+  {
+   "id": "r6-0133",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "John James Audubon's The Birds of America, published between 1827 and 1838, was notable for what?",
+   "options": [
+    "Maps of the Lewis and Clark route",
+    "The first scientific system for naming plants",
+    "Life-size color prints of North American birds",
+    "Early photographs of western wildlife taken on government surveys"
+   ],
+   "answer": 2,
+   "explain": "The giant 'double elephant folio' had 435 hand-colored plates; the Library of Congress holds a set."
+  },
+  {
+   "id": "r6-0134",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Thomas Cole's 1836 painting The Oxbow contrasts what?",
+   "options": [
+    "Stormy wilderness and cultivated farmland along the Connecticut River",
+    "Native villages and Spanish missions",
+    "Northern factories and Southern plantations",
+    "Ocean storms and a calm harbor"
+   ],
+   "answer": 0,
+   "explain": "Cole painted himself in the wild foreground; the view from Mount Holyoke raised questions about how settlement was changing the land."
+  },
+  {
+   "id": "r6-0135",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Many Irish immigrants of the 1820s and 1830s found work doing what?",
+   "options": [
+    "Crewing whaling ships out of Nantucket and New Bedford",
+    "Trapping furs in the Rockies",
+    "Running cotton plantations",
+    "Digging canals and building railroads"
+   ],
+   "answer": 3,
+   "explain": "Irish laborers worked on the Erie Canal and dug many other canals and railroads, often for low pay in dangerous conditions."
+  },
+  {
+   "id": "r6-0136",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1812, the Russian-American Company built which outpost on the northern California coast?",
+   "options": [
+    "Fort Vancouver",
+    "Fort Ross",
+    "Sutter's Fort",
+    "Fort Clatsop"
+   ],
+   "answer": 1,
+   "explain": "Russians and Alaska Native hunters used it to hunt sea otters and grow food for Alaska; John Sutter bought its goods in 1841."
+  },
+  {
+   "id": "r6-0137",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Johnny Appleseed, whose real name was John Chapman, planted apple nurseries mainly in which region?",
+   "options": [
+    "Florida and Georgia",
+    "Texas and Louisiana",
+    "California and Oregon",
+    "Ohio and Indiana"
+   ],
+   "answer": 3,
+   "explain": "Chapman started nurseries ahead of settlers and sold seedlings to them; he died in Indiana in 1845."
+  },
+  {
+   "id": "r6-0138",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "During the Second Seminole War, many Seminoles held out against the Army by retreating into which region?",
+   "options": [
+    "The Great Dismal Swamp",
+    "The Florida Keys",
+    "The Everglades",
+    "The Ozark Mountains"
+   ],
+   "answer": 2,
+   "explain": "The swamps hid Seminole and Black Seminole fighters; the war cost the U.S. Army about 1,500 lives and never fully ended with a treaty."
+  },
+  {
+   "id": "r6-0140",
+   "period": 9,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "According to Census Bureau estimates, in which year did the U.S. population pass 300 million?",
+   "options": [
+    "1990",
+    "1999",
+    "2006",
+    "2015"
+   ],
+   "answer": 2,
+   "explain": "The 300 million mark came in October 2006, about 39 years after the population passed 200 million in 1967."
+  },
+  {
+   "id": "r6-0141",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "A 2012 Pew study found that by 2010, which group had passed Hispanics as the largest share of new immigrants to the United States?",
+   "options": [
+    "Europeans",
+    "Asians",
+    "Africans",
+    "Middle Easterners"
+   ],
+   "answer": 1,
+   "explain": "Pew found that 36 percent of new immigrants in 2010 were Asian, as Mexican migration slowed during the recession."
+  },
+  {
+   "id": "r6-0142",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Pew research in 2012 found that net migration from Mexico to the United States between 2005 and 2010 had fallen to about what level?",
+   "options": [
+    "Its highest level ever",
+    "Roughly zero",
+    "About 1 million a year",
+    "Double the 1990s level"
+   ],
+   "answer": 1,
+   "explain": "The housing bust, tighter enforcement and falling birth rates in Mexico ended four decades of heavy net migration."
+  },
+  {
+   "id": "r6-0143",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Operation Gatekeeper, launched in 1994, tightened border enforcement in which area, pushing many crossers toward deserts and mountains?",
+   "options": [
+    "Brownsville",
+    "Tucson",
+    "El Paso",
+    "San Diego"
+   ],
+   "answer": 3,
+   "explain": "Fencing and agents in the San Diego sector cut crossings there but shifted them east, and deaths in remote areas rose."
+  },
+  {
+   "id": "r6-0144",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "Which temporary visa for workers in 'specialty occupations,' given its modern form by the Immigration Act of 1990, became heavily used by technology companies?",
+   "options": [
+    "The H-1B",
+    "The bracero permit",
+    "The diversity visa",
+    "The K-1"
+   ],
+   "answer": 0,
+   "explain": "The 1990 law set an annual H-1B cap of 65,000; the K-1 is a fiance visa and the bracero program ended in 1964."
+  },
+  {
+   "id": "r6-0145",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 2003, the functions of which agency were divided among new federal bureaus, including ICE, CBP and USCIS?",
+   "options": [
+    "The Drug Enforcement Administration",
+    "The Bureau of Indian Affairs",
+    "The Federal Emergency Management Agency",
+    "The Immigration and Naturalization Service"
+   ],
+   "answer": 3,
+   "explain": "The INS, part of the Justice Department since 1940, was abolished when the Department of Homeland Security took over; FEMA moved in intact."
+  },
+  {
+   "id": "r6-0146",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "California voters' Proposition 227 in 1998 sharply limited what in public schools?",
+   "options": [
+    "Bilingual education programs",
+    "Teaching of evolution",
+    "Services for unauthorized immigrants",
+    "Affirmative action in admissions"
+   ],
+   "answer": 0,
+   "explain": "The measure required most English learners to be taught in English; voters largely repealed it in 2016."
+  },
+  {
+   "id": "r6-0147",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which metropolitan area became home to the largest Somali community in the United States after refugees began arriving in the 1990s?",
+   "options": [
+    "Detroit",
+    "Washington, D.C., and its suburbs",
+    "Minneapolis-St. Paul",
+    "Houston"
+   ],
+   "answer": 2,
+   "explain": "Refugees fleeing Somalia's civil war were resettled there, and many relatives followed; Minnesota later elected Somali American officials."
+  },
+  {
+   "id": "r6-0148",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Michigan city, next to Detroit, has one of the largest concentrations of Arab Americans in the United States?",
+   "options": [
+    "Flint",
+    "Dearborn",
+    "Grand Rapids",
+    "Lansing"
+   ],
+   "answer": 1,
+   "explain": "Arab immigrants were first drawn to Ford's auto plants in the early 1900s; Lebanese, Yemeni and Iraqi families arrived later."
+  },
+  {
+   "id": "r6-0149",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In 2014, a surge of unaccompanied children arriving at the southern border came mostly from which countries?",
+   "options": [
+    "Cuba, Haiti and the Dominican Republic",
+    "Brazil, Argentina and Chile",
+    "Colombia, Venezuela and Ecuador",
+    "Guatemala, Honduras and El Salvador"
+   ],
+   "answer": 3,
+   "explain": "Gang violence and poverty in Central America's Northern Triangle drove tens of thousands of minors north, straining shelters and courts."
+  },
+  {
+   "id": "r6-0150",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "In 2000, federal agents took six-year-old Elian Gonzalez from relatives in Miami so he could return with his father to which country?",
+   "options": [
+    "Haiti",
+    "The Dominican Republic",
+    "Cuba",
+    "Venezuela"
+   ],
+   "answer": 2,
+   "explain": "Elian survived a boat sinking that killed his mother; the custody fight became a national drama before courts sided with his father."
+  },
+  {
+   "id": "r6-0151",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Since about 1970, and especially after 1990, Black Americans' net migration has moved in what direction?",
+   "options": [
+    "Out of the country to the Caribbean",
+    "Toward the South, reversing the earlier Great Migration",
+    "Toward the Great Plains states",
+    "Toward small towns in New England"
+   ],
+   "answer": 1,
+   "explain": "Demographers call it the New Great Migration; metro Atlanta, Houston and Dallas drew large numbers of Black newcomers."
+  },
+  {
+   "id": "r6-0152",
+   "period": 9,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 2,
+   "q": "Which state grew fastest in percentage terms in both the 2000 and 2010 censuses, driven by the growth of Las Vegas?",
+   "options": [
+    "Nevada",
+    "Texas",
+    "Arizona",
+    "Florida"
+   ],
+   "answer": 0,
+   "explain": "Nevada grew about 66 percent in the 1990s and 35 percent in the 2000s, the fastest of any state both times."
+  },
+  {
+   "id": "r6-0153",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Great Flood of 1993 caused massive damage along which rivers?",
+   "options": [
+    "The Ohio, Tennessee and Cumberland",
+    "The upper Mississippi and Missouri",
+    "The Hudson and Delaware",
+    "The Rio Grande and Pecos"
+   ],
+   "answer": 1,
+   "explain": "Months of heavy rain broke hundreds of levees across nine Midwestern states, and many towns later moved buildings out of the floodplain."
+  },
+  {
+   "id": "r6-0154",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The 1988 Yellowstone fires, which burned roughly a third of the park, set off a national debate over what policy?",
+   "options": [
+    "Banning cars from the park",
+    "Opening the park to logging",
+    "Letting natural fires burn",
+    "Reintroducing bison"
+   ],
+   "answer": 2,
+   "explain": "Under a policy since 1972, many lightning fires were allowed to burn; scientists later found the forests regrew vigorously."
+  },
+  {
+   "id": "r6-0155",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 2,
+   "q": "The 2017 Tax Cuts and Jobs Act included a provision to open part of which protected area to oil and gas leasing?",
+   "options": [
+    "The Everglades",
+    "Yellowstone National Park",
+    "The Boundary Waters Canoe Area Wilderness",
+    "The Arctic National Wildlife Refuge"
+   ],
+   "answer": 3,
+   "explain": "Opening the refuge's coastal plain had been debated for decades; its first lease sale in 2021 drew few bids."
+  },
+  {
+   "id": "r6-0156",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "In West Virginia v. EPA (2022), the Supreme Court limited the EPA's power to do what?",
+   "options": [
+    "Force a shift of power generation away from coal plants",
+    "Ban leaded gasoline",
+    "Regulate lead in drinking water",
+    "Enforce the Endangered Species Act"
+   ],
+   "answer": 0,
+   "explain": "Citing the 'major questions' doctrine, the Court said Congress had not clearly authorized such sweeping, industry-wide emissions rules."
+  },
+  {
+   "id": "r6-0157",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "After the United States formally left the Paris climate agreement in November 2020, when did it rejoin?",
+   "options": [
+    "January 2019",
+    "February 2021",
+    "June 2017",
+    "December 2015"
+   ],
+   "answer": 1,
+   "explain": "Joe Biden signed the order to rejoin on his first day in office, and the return took effect 30 days later."
+  },
+  {
+   "id": "r6-0158",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In August 2021 the federal government declared its first-ever shortage on the lower Colorado River, triggered by low water in which reservoir?",
+   "options": [
+    "Lake Lanier",
+    "Lake Okeechobee",
+    "The Great Salt Lake",
+    "Lake Mead"
+   ],
+   "answer": 3,
+   "explain": "A long drought drained the reservoir behind Hoover Dam; Arizona took the largest cut in deliveries in 2022."
+  },
+  {
+   "id": "r6-0160",
+   "period": 9,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Hurricane Sandy in 2012 caused its worst damage in which area?",
+   "options": [
+    "New York and New Jersey",
+    "Texas and Oklahoma",
+    "Louisiana and Mississippi",
+    "Florida and Georgia"
+   ],
+   "answer": 0,
+   "explain": "Its storm surge flooded lower Manhattan and the subways and wrecked large stretches of the Jersey Shore."
+  },
+  {
+   "id": "r6-0161",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1843 the first large wagon train, about a thousand people, set out from Missouri in what became known as the Great Emigration. Where were most headed?",
+   "options": [
+    "Oregon's Willamette Valley",
+    "Utah's Salt Lake Valley",
+    "California's Central Valley",
+    "Texas's Brazos River valley"
+   ],
+   "answer": 0,
+   "explain": "Guided part of the way by Marcus Whitman, the train proved families with wagons could cross to Oregon, and thousands followed each year."
+  },
+  {
+   "id": "r6-0162",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "In an 1824 treaty with the United States, Russia agreed not to claim land on the Pacific coast south of what latitude?",
+   "options": [
+    "36 degrees 30 minutes north",
+    "42 degrees north",
+    "49 degrees north",
+    "54 degrees 40 minutes north"
+   ],
+   "answer": 3,
+   "explain": "The line later marked the southern tip of Alaska and became the 'Fifty-four forty' rallying cry for claiming all of Oregon in the 1840s."
+  },
+  {
+   "id": "r6-0163",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "After Mexico secularized the California missions in the 1830s, much of the mission land ended up as what?",
+   "options": [
+    "Gold-mining claims along the rivers",
+    "U.S. Army forts and supply depots",
+    "Large ranchos granted mostly to Californio families",
+    "Reservations run by mission Indians"
+   ],
+   "answer": 2,
+   "explain": "Mission Indians were promised land but received little; ranchos raising cattle for hides and tallow came to dominate Mexican California."
+  },
+  {
+   "id": "r6-0164",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the late 1940s and 1950s, cheap airfares and Puerto Rico's shift from farming to factories helped drive a large migration of Puerto Ricans mainly to which city?",
+   "options": [
+    "Hartford, Connecticut",
+    "New York City",
+    "Los Angeles",
+    "Philadelphia"
+   ],
+   "answer": 1,
+   "explain": "Puerto Ricans were U.S. citizens and could move freely; by 1960 hundreds of thousands lived in New York neighborhoods such as East Harlem."
+  },
+  {
+   "id": "r6-0166",
+   "period": 9,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In February 2021, a severe winter storm caused massive power failures in which state, whose electric grid is largely separate from the rest of the country?",
+   "options": [
+    "Texas",
+    "Louisiana",
+    "Oklahoma",
+    "Arkansas"
+   ],
+   "answer": 0,
+   "explain": "Frozen equipment knocked out generation across the ERCOT grid, leaving millions without power for days; hundreds of deaths were linked to the storm."
+  },
+  {
+   "id": "r6-0167",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Cuban Adjustment Act of 1966 gave Cubans who reached the United States what special benefit?",
+   "options": [
+    "Free return passage to Cuba",
+    "The chance to apply for permanent residence after a period in the U.S.",
+    "Automatic citizenship on arrival",
+    "Land grants in southern Florida"
+   ],
+   "answer": 1,
+   "explain": "The law, passed during the Cold War, let Cuban parolees become legal permanent residents without the usual immigrant visa process."
+  },
+  {
+   "id": "r6-0168",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which insect pest spread from Mexico into Texas in the 1890s and across the Cotton Belt by the 1920s, pushing many farmers off the land?",
+   "options": [
+    "The chinch bug",
+    "The gypsy moth",
+    "The Rocky Mountain locust",
+    "The boll weevil"
+   ],
+   "answer": 3,
+   "explain": "The weevil destroyed cotton bolls, ruining many tenant farmers; the damage pushed Southern farmers to diversify and added to migration north."
+  },
+  {
+   "id": "r6-0169",
+   "period": 8,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "house-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Alaska Native Claims Settlement Act of 1971 resolved Native land claims by creating what?",
+   "options": [
+    "A trust fund paid out to each person once",
+    "Regional and village Native corporations that received land and money",
+    "A separate self-governing Native territory",
+    "Reservations run by the Bureau of Indian Affairs"
+   ],
+   "answer": 1,
+   "explain": "Alaska Natives received about 44 million acres and nearly $1 billion, clearing the way for the oil pipeline from Prudhoe Bay."
+  },
+  {
+   "id": "r6-0170",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Trans-Alaska Pipeline, finished in 1977, carries oil from Prudhoe Bay on the Arctic coast to which port?",
+   "options": [
+    "Anchorage",
+    "Juneau",
+    "Nome",
+    "Valdez"
+   ],
+   "answer": 3,
+   "explain": "The 800-mile line crosses three mountain ranges and permafrost; the 1973 oil crisis helped push its approval through Congress."
+  }
+ ]
+}

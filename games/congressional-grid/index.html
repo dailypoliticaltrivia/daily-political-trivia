@@ -1,0 +1,1547 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Congressional Grid</title>
+<meta name="description" content="A daily trivia grid for members of Congress. Fill all nine squares with the rarest picks.">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Congressional Grid">
+<meta property="og:description" content="A daily trivia grid for members of Congress. Fill all nine squares with the rarest picks.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon-grid.svg">
+<link rel="preload" href="data/members.js" as="script">
+<link rel="preload" href="../../assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/public-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link id="cgFonts" href="../../assets/fonts.css" rel="stylesheet">
+<script>try{var t=localStorage.getItem('sin-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<style>
+/* ============ tokens (same values as the website's site.css; party colours are the game's own) ============ */
+:root{
+  color-scheme:light;
+  --paper:#fafafa; --panel:#ffffff; --panel-2:#f0f0ee; --ink:#111214; --muted:#5a5d64; --line:#e2e3e5; --line-strong:#c3c5c9;
+  --navy:#111214; --navy-2:#33353a; --red:#a3141f; --red-fill:#a3141f; --gold:#8a5d0b; --gold-fill:#c99a2e;
+  --accent:#111214; --accent-ink:#ffffff; --focus:#141413;
+  --dem:#1d4fa8; --rep:#a3141f; --ind:#6b4fa0; --oth:#7c6a3f;
+  --good:#1d6b45; --bad:#a3141f;
+  --star-dim:#d4d5d8;
+  --shadow-sm:none;
+  --shadow-md:0 8px 20px -14px rgba(17,18,20,.45);
+  --shadow-lg:0 24px 60px -20px rgba(5,6,8,.5);
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --r:4px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#121316; --panel:#191a1e; --panel-2:#212227; --ink:#eceef0; --muted:#a0a3ab; --line:#2a2c31; --line-strong:#464950;
+    --navy:#3a3c41; --navy-2:#464950; --red:#ff8286; --red-fill:#f0646b; --gold:#e3b252; --gold-fill:#c99a2e;
+    --accent:#eceef0; --accent-ink:#121316; --focus:#eceef0;
+    --dem:#7ea6ff; --rep:#ff8286; --ind:#bb9cf2; --oth:#d6bf86;
+    --good:#6fcf9f; --bad:#ff8286;
+    --star-dim:#35373d;
+    --shadow-sm:none; --shadow-md:0 12px 26px -16px rgba(0,0,0,.8); --shadow-lg:0 28px 80px -16px rgba(0,0,0,.85);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#121316; --panel:#191a1e; --panel-2:#212227; --ink:#eceef0; --muted:#a0a3ab; --line:#2a2c31; --line-strong:#464950;
+  --navy:#3a3c41; --navy-2:#464950; --red:#ff8286; --red-fill:#f0646b; --gold:#e3b252; --gold-fill:#c99a2e;
+  --accent:#eceef0; --accent-ink:#121316; --focus:#eceef0;
+  --dem:#7ea6ff; --rep:#ff8286; --ind:#bb9cf2; --oth:#d6bf86;
+  --good:#6fcf9f; --bad:#ff8286;
+  --star-dim:#35373d;
+  --shadow-sm:none; --shadow-md:0 12px 26px -16px rgba(0,0,0,.8); --shadow-lg:0 28px 80px -16px rgba(0,0,0,.85);
+}
+
+/* ============ base ============ */
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.45;min-height:100vh;overflow-x:hidden;
+  background-image:radial-gradient(1200px 500px at 50% -200px, color-mix(in srgb, var(--navy) 9%, transparent), transparent 70%);}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* abstract flag band */
+.band{height:12px;display:flex}
+.band .canton{width:min(32%,180px);background-color:var(--navy);
+  background-image:radial-gradient(circle, rgba(255,255,255,.55) .9px, transparent 1.3px);background-size:9px 6px;background-position:2px 0}
+.band .stripes{flex:1;background:repeating-linear-gradient(to bottom,var(--red-fill) 0 2px,var(--panel) 2px 4px)}
+
+.wrap{max-width:660px;margin:0 auto;padding:0 16px 40px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));padding-bottom:calc(40px + env(safe-area-inset-bottom))}
+
+/* ============ masthead ============ */
+header.mast{position:relative;text-align:center;padding:22px 0 0}
+.mark{display:block;margin:0 auto 6px;width:44px;height:44px;color:var(--ink);--logo-accent:var(--red)}
+
+h1{margin:0;font-family:var(--serif);font-weight:700;font-size:clamp(30px,8.2vw,46px);line-height:1.05;letter-spacing:-.01em}
+h1 em{font-style:italic;font-weight:400;color:var(--red)}
+.rule{margin:14px 0 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);height:5px}
+.dateline{display:flex;align-items:center;justify-content:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--line-strong);
+  font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.dateline .st{color:var(--red);font-size:10px;letter-spacing:0}
+.iconbtn{position:absolute;top:22px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line-strong);background:var(--panel);
+  display:grid;place-items:center;color:var(--ink);transition:background .15s,border-color .15s}
+@media (hover:hover){.iconbtn:hover{border-color:var(--ink)}}
+.iconbtn svg{width:20px;height:20px}
+#helpIcon{right:0}
+
+/* game toggle: Congress / Presidents */
+.homelink{display:inline-flex;align-items:center;gap:6px;margin-top:14px;min-height:44px;padding:0 4px;font:600 14px var(--sans,system-ui);color:var(--muted);text-decoration:none}
+@media (hover:hover){.homelink:hover{color:var(--ink);text-decoration:underline}}
+.modes{display:flex;flex-direction:column;align-items:center;gap:8px;padding-top:4px}
+.statepick{display:flex;flex-direction:column;align-items:center;gap:3px;max-width:100%}
+.statepick .row1{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
+.statepick label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.statepick select{font:600 14px var(--sans);color:var(--ink);background:var(--panel);border:1px solid var(--line-strong);border-radius:999px;
+  padding:0 34px 0 16px;min-height:40px;max-width:min(300px,calc(100vw - 32px));cursor:pointer;-webkit-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;background-size:12px}
+@media (hover:hover){.statepick select:hover{border-color:var(--ink)}}
+.statepick .hint{text-align:center;min-height:1em}
+.seg{display:inline-flex;gap:2px;padding:3px;border:1px solid var(--line-strong);border-radius:999px;background:var(--panel)}
+.seg button{border:0;background:transparent;border-radius:999px;padding:8px 20px;min-height:40px;min-width:104px;font-weight:600;font-size:14px;color:var(--muted);transition:background .15s,color .15s}
+@media (hover:hover){.seg button:hover{color:var(--ink)}}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.seg button:focus-visible{outline-offset:1px}
+header.mast.after-modes{padding-top:12px}
+
+/* ============ status bar ============ */
+.status{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin:18px 0 14px}
+.lbl{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.pips{display:flex;gap:3px;align-items:center}
+.pip{width:17px;height:17px;color:var(--ink);transition:color .3s, transform .3s}
+
+.pip.spent{color:var(--star-dim);transform:scale(.82)}
+.pips-n{margin-left:7px;font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.scorebox{text-align:right}
+.scorev{font-family:var(--sans);font-weight:700;font-size:28px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.scorev small{font-size:12px;font-weight:500;color:var(--muted);letter-spacing:0;margin-left:4px}
+
+/* ============ grid ============ */
+.grid{display:grid;grid-template-columns:minmax(58px,.74fr) repeat(3,minmax(0,1fr));gap:7px}
+.hd{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:3px;
+  background:var(--panel-2);border-radius:10px;padding:8px 5px;min-height:62px;min-width:0;position:relative;overflow:hidden}
+.hd.col{border-top:3px solid var(--red-fill);padding-top:6px}
+.hd.row{border-left:3px solid var(--red-fill);padding-left:3px}
+.hd .eb{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);line-height:1}
+.hd .tx{font-family:var(--serif);font-weight:700;font-size:clamp(11.5px,3vw,15px);line-height:1.18;overflow-wrap:normal;color:var(--ink);display:block;width:100%}
+.hd.long .tx{font-size:clamp(10px,2.45vw,13px)}
+.hd.corner{background:transparent;padding:0}
+.seal{width:min(54px,80%);aspect-ratio:1;border-radius:50%;border:1.5px solid var(--line-strong);display:grid;place-items:center;color:var(--red);
+  box-shadow:inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--line)}
+.seal svg{width:42%;height:42%}
+
+.cell{position:relative;aspect-ratio:1/1;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;padding:0;
+  box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:center;transition:border-color .18s, box-shadow .18s, transform .18s}
+@media (hover:hover){button.cell:hover{border-color:var(--navy);box-shadow:var(--shadow-md);transform:translateY(-1px)}}
+
+.cell .plus{width:30px;height:30px;border-radius:50%;border:1.5px dashed var(--line-strong);display:grid;place-items:center;color:var(--muted);transition:all .18s}
+.cell .plus svg{width:14px;height:14px}
+@media (hover:hover){button.cell:hover .plus{border-style:solid;border-color:var(--navy);background:var(--navy);color:#fff}}
+.cell .ph{position:absolute;inset:0}
+.cell .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block}
+.cell .cap{position:absolute;left:0;right:0;bottom:0;padding:22px 6px 6px;color:#fff;text-align:left;line-height:1.15;
+  background:linear-gradient(to bottom, transparent, rgba(6,14,32,.62) 38%, rgba(6,14,32,.92))}
+.cell .cap .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:clamp(10px,2.55vw,13px)}
+.cell .cap .mt{display:flex;align-items:center;gap:4px;margin-top:2px;font-size:clamp(9px,2.2vw,11px);font-weight:600;opacity:.92;letter-spacing:.03em;white-space:nowrap;overflow:hidden}
+.pdot{display:inline-block;flex:none;width:7px;height:7px;border-radius:50%;background:var(--p,var(--oth));box-shadow:0 0 0 1.5px rgba(255,255,255,.85)}
+.badge{position:absolute;top:5px;right:5px;min-width:26px;height:26px;padding:0 5px;border-radius:13px;display:grid;place-items:center;
+  font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;background:rgba(255,253,248,.95);color:#0e1d3a;box-shadow:0 1px 3px rgba(0,0,0,.35)}
+.badge.t1{background:var(--gold-fill);color:#1d1404}
+.badge.t2{background:var(--ink);color:var(--paper)}
+.cell.revealed{background:repeating-linear-gradient(135deg,var(--panel) 0 7px,var(--panel-2) 7px 9px);color:var(--muted);font-size:20px}
+.cell.pop{animation:pop .45s cubic-bezier(.2,.9,.3,1.2)}
+.cell.shake{animation:shake .38s}
+@keyframes pop{from{transform:scale(.9);opacity:.2}to{transform:none;opacity:1}}
+@keyframes shake{20%,60%{transform:translateX(-5px)}40%,80%{transform:translateX(5px)}}
+
+/* initials / no-photo fallback */
+.ini{position:absolute;inset:0;display:grid;place-items:center;color:#f6f3ea;font-family:var(--serif);font-weight:700;letter-spacing:.02em;
+  background:#33353a;}
+.ini::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle, rgba(255,255,255,.14) 1px, transparent 1.5px);background-size:10px 10px;opacity:.7}
+.ini span{position:relative}
+.cell .ini{font-size:clamp(20px,6.5vw,32px);padding-bottom:22%}
+
+/* ============ actions / footer ============ */
+.actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:20px 0 6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:999px;padding:10px 18px;font-weight:600;font-size:14.5px;
+  border:1px solid transparent;background:var(--accent);color:var(--accent-ink);transition:filter .15s, background .15s, border-color .15s;min-height:42px}
+@media (hover:hover){.btn:hover{filter:brightness(1.12)}}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+@media (hover:hover){.btn.ghost:hover{filter:none;border-color:var(--ink);background:var(--panel)}}
+.btn svg{width:16px;height:16px}
+footer{margin-top:22px;text-align:center;color:var(--muted);font-size:12.5px}
+.stars{display:flex;justify-content:center;align-items:center;gap:10px;color:var(--red);margin-bottom:10px}
+.stars::before,.stars::after{content:"";height:1px;flex:1;background:var(--line-strong)}
+.stars span{font-size:10px;letter-spacing:6px;padding-left:6px}
+footer p{margin:4px auto;max-width:480px}
+
+/* ============ toast ============ */
+#toast{position:fixed;left:50%;bottom:max(20px, env(safe-area-inset-bottom));transform:translate(-50%,16px);z-index:60;
+  display:flex;align-items:center;gap:9px;background:var(--ink);color:var(--paper);padding:11px 16px 11px 13px;border-radius:999px;font-size:14px;font-weight:500;
+  box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:opacity .2s, transform .25s;max-width:calc(100vw - 32px)}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#toast .ti{width:20px;height:20px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:12px;font-weight:700;background:var(--paper);color:var(--ink)}
+#toast.good .ti{background:#2f9e66;color:#fff}
+#toast.bad .ti{background:#d33a48;color:#fff}
+
+/* ============ dialogs ============ */
+dialog{border:0;padding:0;border-radius:16px;background:var(--panel);color:var(--ink);box-shadow:var(--shadow-lg);
+  width:min(500px, calc(100% - 32px));max-width:none;max-height:min(88vh, 760px);overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}
+dialog::backdrop{background:rgba(6,12,28,.58);backdrop-filter:blur(2px)}
+dialog[open]{animation:dlgIn .22s ease-out}
+dialog[open]::backdrop{animation:fadeIn .22s ease-out}
+@keyframes dlgIn{from{opacity:0;transform:translateY(10px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.dlg{padding:20px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.dlg-hd{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:12px}
+.dlg h2{margin:0;font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.2}
+.dlg .kicker{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:4px}
+.x{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:transparent;display:grid;place-items:center;color:var(--muted)}
+@media (hover:hover){.x:hover{color:var(--ink);border-color:var(--ink)}}
+.x svg{width:16px;height:16px}
+.dlg p{margin:0}
+.dlg ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.dlg-ft{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;padding-top:4px}
+#pick{margin-top:max(16px, 7vh)}
+
+.crit{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:14px}
+.chip{display:inline-flex;flex-direction:column;background:var(--panel-2);border-left:3px solid var(--red-fill);border-radius:8px;padding:5px 10px;min-width:0;max-width:100%}
+.chip small{font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.chip b{font-family:var(--serif);font-size:15px;overflow-wrap:anywhere}
+.crit .amp{font-family:var(--serif);font-style:italic;color:var(--muted);font-size:18px}
+.hint{font-size:12.5px;color:var(--muted)}
+
+.search{position:relative}
+.search svg{position:absolute;left:13px;top:50%;width:18px;height:18px;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+input[type=search]{width:100%;font:inherit;font-size:16px;padding:12px 14px 12px 40px;border-radius:10px;border:1.5px solid var(--line-strong);background:var(--paper);color:var(--ink);-webkit-appearance:none;appearance:none}
+input[type=search]:focus{border-color:var(--navy);outline:none;box-shadow:0 0 0 3px color-mix(in srgb, var(--focus) 35%, transparent)}
+
+.results{display:flex;flex-direction:column;gap:2px;max-height:min(46vh,420px);overflow-y:auto;overflow-x:hidden;margin:0 -6px;padding:0 6px}
+.opt{display:flex;align-items:center;gap:11px;padding:7px 8px;border-radius:10px;cursor:pointer;border:1px solid transparent;min-width:0}
+.opt[aria-selected=true]{background:var(--panel-2);border-color:var(--line-strong)}
+.opt.used{opacity:.55}
+.opt .th{position:relative;flex:none;width:40px;height:50px;border-radius:7px;overflow:hidden;background:var(--panel-2)}
+.opt .th img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;display:block}
+.opt .th .ini{font-size:14px}
+.opt .bd{min-width:0;flex:1}
+.opt .nm{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.opt .nm mark{background:none;color:inherit;text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:2px}
+.opt .mt{font-size:12.5px;line-height:1.35;color:var(--muted);margin-top:1px}
+.opt .mt .pdot{box-shadow:none;margin-right:6px;vertical-align:1px}
+.opt .tag{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line-strong);border-radius:4px;padding:0 4px;margin-left:6px;vertical-align:2px}
+.empty{padding:14px 8px;color:var(--muted);font-size:14px;text-align:center}
+.more{padding:6px 8px 2px;font-size:12px;color:var(--muted);text-align:center}
+
+/* results dialog */
+.final{display:flex;align-items:center;justify-content:center;gap:22px;padding:6px 0}
+.final .num{font-family:var(--serif);font-weight:700;font-size:64px;line-height:1;letter-spacing:-.02em;font-variant-numeric:lining-nums tabular-nums}
+.final .cap{font-size:12px;color:var(--muted);text-align:left;line-height:1.4}
+.final .cap b{display:block;color:var(--ink);font-size:13px;text-transform:uppercase;letter-spacing:.1em}
+.mini{display:grid;grid-template-columns:repeat(3,38px);gap:4px}
+.mini span{height:38px;border-radius:7px;display:grid;place-items:center;font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;background:var(--panel-2);color:var(--muted)}
+.mini span.f{background:var(--ink);color:var(--paper)}
+.mini span.f.t1{background:var(--gold-fill);color:#1d1404}
+
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:10px 6px;text-align:center;min-width:0}
+.facts div+div{border-left:1px solid var(--line)}
+.facts b{display:block;font-size:18px;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.facts span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+pre.share{background:var(--paper);border:1px dashed var(--line-strong);border-radius:10px;padding:12px;margin:0;text-align:center;font-size:18px;line-height:1.3;white-space:pre-wrap;font-family:var(--sans);overflow-wrap:anywhere}
+.studyline{margin:10px 0 0;font-size:14px;text-align:center}.studylink{color:var(--ink);font-weight:600;text-underline-offset:3px}
+
+/* ============ review of every correct answer (after game over) ============ */
+.reviewhint{text-align:center;margin:14px 0 0}
+.cell.review{cursor:pointer;font:inherit;color:inherit}
+@media (hover:hover){.cell.review:hover{border-color:var(--navy);box-shadow:var(--shadow-md)}}
+.cell.review:focus-visible{outline:3px solid var(--focus,var(--navy));outline-offset:-3px}
+.cell .vw{position:absolute;left:4px;top:4px;z-index:2;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--line-strong);box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.cell .vw svg{width:12px;height:12px}
+#review{height:min(88vh,760px);overflow:hidden;margin-top:max(16px,6vh)}
+#review[open]{display:flex;flex-direction:column}
+#review .dlg{flex:1;min-height:0;overflow:hidden}
+.revnav{display:flex;align-items:center;gap:8px}
+.revnav .btn{min-width:44px;min-height:44px;padding:0 12px}
+.revcount{flex:1;text-align:center;font-weight:700;font-size:15px}
+.revcount small{display:block;font-weight:500;font-size:12px;color:var(--muted)}
+.revmine{border:1.5px solid var(--gold-fill,var(--navy));background:var(--panel-2);border-radius:8px;padding:6px 8px}
+.revmine .lab{font-size:11px;font-weight:700;color:var(--muted);margin:0 0 2px 2px}
+.revlist{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;gap:2px;overscroll-behavior:contain}
+.revlist .opt,.revmine .opt{cursor:default}
+.revlist .opt.mine{background:var(--panel-2);border-color:var(--gold-fill,var(--line-strong))}
+.rt{flex:none;min-width:34px;height:26px;padding:0 7px;border-radius:13px;display:grid;place-items:center;font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;background:var(--panel-2);color:var(--ink);border:1px solid var(--line-strong)}
+.rt.t1{background:var(--gold-fill);color:#1d1404;border-color:transparent}
+.rt.t2{background:var(--ink);color:var(--paper);border-color:transparent}
+.revmore{display:flex;justify-content:center}
+.revmore .btn{width:100%;min-height:44px}
+@media (max-width:480px){
+  #review{width:100%;max-width:100%;margin:auto 0 0;border-radius:12px 12px 0 0;height:min(90vh,760px);padding-bottom:env(safe-area-inset-bottom)}
+}
+
+/* ============ phones ============ */
+@media (max-width:420px){
+  .grid{gap:5px;grid-template-columns:minmax(0,.95fr) repeat(3,minmax(0,1fr))}
+  .hd{min-height:54px;padding:6px 3px}
+  .hd .tx{font-size:12px}
+  .hd.long .tx{font-size:10.5px}
+  .hd .eb{font-size:8.5px;letter-spacing:.08em}
+  .cell .cap{padding:16px 4px 4px}
+  .badge{top:3px;right:3px;min-width:22px;height:22px;font-size:11px}
+  .pip{width:15px;height:15px}
+  .pips{gap:2px}
+  .scorev{font-size:24px}
+  .dlg{padding:16px}
+  .final{gap:16px}
+  .final .num{font-size:54px}
+  #helpIcon{width:36px;height:36px}
+}
+
+/* ============ motion ============ */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  .cell.shake{outline:3px solid var(--bad);outline-offset:-3px}
+}
+
+/* ============ family layer: same header, type and shapes as the other games and the site ============ */
+body{background-image:none}
+.wrap{max-width:680px}
+.homelink{margin-top:8px;padding:0;color:var(--red);font-weight:600;font-size:14px}
+@media (hover:hover){.homelink:hover{text-decoration:underline;text-underline-offset:3px}}
+.modes{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-top:0}
+.statepick{flex-direction:row;align-items:center;gap:10px}
+.statepick .hint{display:none}
+.statepick label,.lbl,.hd .eb,.chip small,.dlg .kicker,.facts span,.final .cap b,.opt .tag{text-transform:none;letter-spacing:0;font-weight:600}
+.statepick label{font-size:13px}
+.lbl{font-size:13px;margin-bottom:4px}
+.seg,.statepick select,.btn,#toast{border-radius:var(--r)}
+.seg{padding:0;border-color:var(--ink);gap:0;background:transparent;overflow:hidden}
+.seg button{border-radius:0;min-width:44px;min-height:44px;padding:0 20px;color:var(--ink)}
+.seg button+button{border-left:1px solid var(--ink)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.statepick select{min-height:44px;font-weight:500}
+.btn{min-height:44px;padding:0 20px;font-size:15px}
+header.mast,header.mast.after-modes{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:16px;text-align:left;padding:20px 0 0}
+.mark{margin:0;width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px)}
+h1{font-weight:500;font-size:clamp(32px,8vw,52px);letter-spacing:-.025em;line-height:1.04}
+h1 em{font-style:normal;font-weight:inherit;color:inherit}
+.iconbtn{position:static;width:44px;height:44px;border-radius:var(--r)}
+.rule{grid-column:1/-1;margin:16px 0 0;height:0;border-top:2px solid var(--ink);border-bottom:0}
+.dateline{grid-column:1/-1;justify-content:flex-start;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px;font-weight:500;letter-spacing:0;text-transform:none}
+.dateline .st{display:none}
+.hd{border-radius:var(--r)}
+.hd .eb{font-size:10.5px;font-weight:600}
+.hd .tx{font-weight:600}
+.chip{border-radius:var(--r)}
+.chip small{font-size:11px}
+.cell .cap{background:linear-gradient(to bottom, transparent, rgba(8,9,12,.62) 38%, rgba(8,9,12,.92))}
+.final .num,.dlg h2{font-weight:600}
+.final .cap b{font-size:13px}
+.facts span{font-size:12px}
+dialog{border-radius:6px}
+.x{border-radius:var(--r)}
+.opt,input[type=search]{border-radius:var(--r)}
+.opt .th{border-radius:2px}
+.mini span{border-radius:var(--r)}
+.stars{display:none}
+footer{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);text-align:left}
+footer p{margin:4px 0;max-width:56ch}
+@media (max-width:420px){ .modes{gap:8px} .seg button{padding:0 14px} .hd .eb{font-size:9.5px} }
+/* start screen: shown once per visit before today's grid; the Start press is the player action a video pre-roll needs */
+.gate{margin:22px 0 8px}
+.gate[hidden]{display:none}
+.gate .gr{font-family:var(--serif);font-size:clamp(18px,4.4vw,21px);line-height:1.45;color:var(--ink);max-width:44ch;margin:0 0 20px;text-wrap:pretty}
+.gate .gb{display:flex;flex-wrap:wrap;gap:10px}
+.wrap.gated .status,.wrap.gated .grid,.wrap.gated .actions{display:none}
+
+/* start screen skeleton (also the loading state while the data files arrive) */
+.gate-art{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;max-width:300px;margin:0 0 22px;opacity:.9}
+.gate-art i{aspect-ratio:1;border:1px dashed var(--line-strong);border-radius:var(--r);background:transparent}
+.gate-art i:nth-child(-n+4),.gate-art i:nth-child(4n+1){background:var(--panel-2);border-style:solid;border-color:var(--line)}
+.gate-art i:nth-child(1){visibility:hidden}
+.gate-art i:nth-child(-n+4){aspect-ratio:auto;height:14px;align-self:end}
+.gate-art i:nth-child(4n+1){aspect-ratio:auto}
+.gate-art i:nth-child(n+6):nth-child(-n+8),.gate-art i:nth-child(n+10):nth-child(-n+12),.gate-art i:nth-child(n+14){}
+.gate .btn[disabled]{opacity:.6;cursor:progress}
+
+/* ============ PHONE LAYER (design-notes/PHONE.md): compact top row, board sized to the screen, bottom-sheet dialogs ============ */
+html{-webkit-tap-highlight-color:transparent}
+button,select,.cell,.opt{touch-action:manipulation}
+@media (max-width:759px){
+  html,body{overscroll-behavior-y:contain}
+  .wrap{display:flex;flex-direction:column;position:relative;padding-top:env(safe-area-inset-top);padding-bottom:calc(20px + env(safe-area-inset-bottom))}
+  .wrap>*{flex:none}
+  header.mast,header.mast.after-modes{order:-3;padding:0 0 0 80px;column-gap:8px;min-height:52px;grid-template-columns:minmax(0,1fr) auto}
+  .modes{order:-2}
+  .homelink{position:absolute;left:max(16px,env(safe-area-inset-left));top:env(safe-area-inset-top);margin:0;min-width:44px;min-height:52px;padding:0 8px 0 0;font-size:16px;z-index:2}
+  .mark{display:none}
+  h1{font-size:clamp(21px,6vw,28px);line-height:1.1;grid-column:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .iconbtn{width:48px;height:48px;margin-right:-8px}
+  #helpIcon{width:48px;height:48px}
+  .iconbtn:active,.x:active{background:var(--panel-2)}
+  .rule{display:none}
+  .dateline{padding:0 0 8px;font-size:14px;border-bottom:0;color:var(--muted)}
+  .modes{gap:8px 12px;flex-wrap:nowrap;justify-content:space-between;padding:0 0 4px;border-top:1px solid var(--line);padding-top:8px}
+  .seg{flex:none}
+  .seg button{min-height:44px;padding:0 12px;font-size:15px;min-width:0}
+  .statepick{flex:1 1 0;min-width:0;justify-content:flex-end;gap:0}
+  .statepick .row1{flex-wrap:nowrap;gap:0;width:100%;justify-content:flex-end}
+  .statepick label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .statepick select{min-height:44px;font-size:16px;width:100%;max-width:100%}
+  /* start screen */
+  .gate{margin:16px 0 8px}
+  .gate .gr{font-size:19px;margin-bottom:18px}
+  .gate-art{max-width:min(100%,280px)}
+  .gate .gb{flex-direction:column}
+  .gate .btn{width:100%;min-height:52px;font-size:17px}
+  /* status */
+  .status{margin:10px 0 8px;align-items:center}
+  .lbl{font-size:13px;margin-bottom:2px}
+  .pip{width:15px;height:15px}
+  .pips-n{font-size:14px;margin-left:5px;white-space:nowrap}
+  .scorev{font-size:26px;white-space:nowrap}
+  .scorev small{font-size:13px;display:block;margin:2px 0 0}
+  .scorebox{flex:none}
+  /* board */
+  .grid{gap:5px}
+  .hd{padding:5px 3px;min-height:52px}
+  .hd .eb{font-size:12px;letter-spacing:0}
+  .hd .tx,.hd.long .tx{font-size:clamp(12px,3.3vw,15px);hyphens:auto;overflow-wrap:break-word;-webkit-hyphens:auto}
+  .cell{border-radius:6px}
+  .cell:active{transform:scale(.96);border-color:var(--ink)}
+  .cell .cap .nm{font-size:clamp(11px,3vw,13px)}
+  .cell .cap .mt{font-size:clamp(11px,2.8vw,12px)}
+  .badge{min-width:24px;height:24px;font-size:12px}
+  .actions{margin:12px 0 4px;gap:8px}
+  .actions .btn{flex:1 1 calc(50% - 4px);min-height:48px;padding:0 12px}
+  .actions .btn:first-child:nth-last-child(n+3){flex-basis:100%}
+  .btn:active{transform:scale(.98);filter:brightness(.92)}
+  .btn.ghost:active{background:var(--panel-2)}
+  footer{margin-top:20px;font-size:14px}
+  footer p{margin:6px 0}
+  .reviewhint{font-size:15px;margin:10px 0 0}
+  .hint{font-size:14px}
+
+  /* dialogs become bottom sheets with a handle; they follow the visible viewport (keyboard) */
+  dialog,#review{position:fixed;left:0;right:0;top:auto;bottom:var(--kb,0px);margin:0;width:100%;max-width:100%;
+    max-height:calc(var(--vvh,100dvh) - max(12px,env(safe-area-inset-top)));height:auto;border-radius:16px 16px 0 0;
+    padding-bottom:env(safe-area-inset-bottom);overscroll-behavior:contain;transition:transform .2s ease-out}
+  dialog[open]{display:flex;flex-direction:column;animation:sheetIn .26s cubic-bezier(.2,.8,.2,1)}
+  @keyframes sheetIn{from{transform:translateY(40%);opacity:.4}to{transform:none;opacity:1}}
+  dialog[open]::backdrop{backdrop-filter:none}
+  .dlg{padding:6px 16px 16px;flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;gap:12px}
+  .dlg::before{content:"";flex:none;align-self:center;width:44px;height:5px;border-radius:3px;background:var(--line-strong);margin:2px 0 4px}
+  .dlg-hd{padding-bottom:10px}
+  .dlg h2{font-size:24px}
+  .dlg .kicker{font-size:14px}
+  .dlg p,.dlg li{font-size:17px;line-height:1.5}
+  .x{width:44px;height:44px;margin:-4px -6px 0 0}
+  #pick{margin-top:0}
+  #pick .dlg{overflow:hidden}
+  #pick .results{flex:1 1 auto;min-height:140px;max-height:none}
+  #review{height:auto;margin-top:0}
+  #review[open]{height:min(calc(var(--vvh,100dvh) - max(12px,env(safe-area-inset-top))),760px)}
+  #review .dlg{overflow:hidden}
+  .chip b{font-size:16px}
+  .chip small{font-size:12px}
+  input[type=search]{min-height:48px;font-size:16px}
+  .opt{padding:6px 8px;min-height:60px}
+  .opt .nm{font-size:16px}
+  .opt .mt{font-size:14px}
+  .opt .tag{font-size:12px}
+  .more,.empty{font-size:14px}
+  .dlg-ft{flex-direction:column-reverse}
+  .dlg-ft .btn{width:100%;min-height:52px}
+  .final .cap{font-size:14px}
+  .facts span{font-size:13px}
+  .rt{font-size:13px;min-height:28px}
+  .revcount{font-size:16px}
+  .revcount small{font-size:14px}
+  .revmine .lab{font-size:13px}
+  #toast{bottom:calc(16px + env(safe-area-inset-bottom));font-size:15px}
+}
+/* keyboard open (the visible height is small): the pick sheet keeps only what is needed to type and choose */
+@media (max-width:759px) and (max-height:480px){
+  #pick .kicker,#pick #qHint{display:none}
+  #pick .dlg{gap:8px}
+  #pick .dlg-hd{padding-bottom:6px}
+  .dlg h2{font-size:20px}
+  .dlg::before{margin:0 0 2px}
+  .chip{padding:3px 8px}
+  .chip b{font-size:15px}
+  #pick .opt{min-height:52px}
+}
+html.kb-open #pick .kicker,html.kb-open #pick #qHint{display:none}
+html.kb-open #pick .dlg{gap:8px}
+html.kb-open #pick .dlg-hd{padding-bottom:6px}
+html.kb-open .dlg h2{font-size:20px}
+html.kb-open .chip{padding:3px 8px}
+/* small phones: 360x640 shows the whole board without scrolling */
+@media (max-width:759px) and (max-height:700px){
+  .gate{margin:8px 0}
+  .gate .gr{font-size:17px;margin-bottom:12px}
+  .gate-art{display:none}
+  .dateline{padding-bottom:4px}
+  .status{margin:6px 0}
+  .actions{margin-top:8px}
+}
+/* landscape phone: board capped by height, controls beside it are not needed; keep it simple */
+@media (max-width:900px) and (orientation:landscape) and (max-height:520px){
+  .grid{max-width:520px;margin-left:auto;margin-right:auto}
+  .gate-art{display:none}
+  header.mast,header.mast.after-modes{min-height:44px}
+  .homelink{min-height:44px}
+}
+
+/* ===== design-system unification (games): the same tokens, header, buttons, dialogs and results layout as the other three games
+   (site.css + its "design-system unification (games)" block). Grid's game colour is flag red; party colours stay the game's own. ===== */
+:root{
+  --muted:#4b4e55; --ink-2:#33353a; --field:#80838a;
+  --g-grid:#b22234; --red:#b22234; --red-fill:#b22234; --accent:#b22234; --accent-ink:#ffffff;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px;
+  --shadow-lg:0 24px 60px -20px rgba(0,0,0,.5);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --muted:#b0b3ba; --ink-2:#cfd1d6; --field:#7b7e87; --g-grid:#d94452; --red:#f0646b; --red-fill:#d94452; --accent:#f0646b; --accent-ink:#121316 }
+}
+:root[data-theme="dark"]{ --muted:#b0b3ba; --ink-2:#cfd1d6; --field:#7b7e87; --g-grid:#d94452; --red:#f0646b; --red-fill:#d94452; --accent:#f0646b; --accent-ink:#121316 }
+body{font-size:16px;line-height:1.5}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.cell.review:focus-visible{outline:2px solid var(--focus);outline-offset:-3px}
+[tabindex="-1"]:focus{outline:none}
+.wrap{padding-top:var(--s5)}
+.mark{--logo-accent:var(--g-grid)}
+
+/* header: back link + effects/sound/help on one row, then logo and title, then the mode bar (as Caucus Sort) */
+.kicker.gk{display:flex;align-items:center;justify-content:space-between;margin:0;font:600 14px var(--sans);color:var(--red)}
+.gk .homelink,.homelink{position:static;display:inline-flex;align-items:center;gap:6px;min-height:44px;min-width:0;margin:0;padding:0;font:600 14px var(--sans);color:var(--red);text-decoration:none}
+.gk .sinfx-slot{margin-left:auto}
+.gk .iconbtn{position:static;width:44px;height:44px;margin:0 -8px 0 0;border:0;border-radius:var(--r);background:transparent;color:var(--ink)}
+.gk .iconbtn svg{width:22px;height:22px}
+@media (hover:hover){.gk .iconbtn:hover{background:var(--panel-2)}}
+header.mast,header.mast.after-modes{display:flex;align-items:center;gap:var(--s4);padding:0;margin:var(--s2) 0 var(--s3);min-height:0;text-align:left}
+.mark{display:block;margin:0;flex:none;width:clamp(44px,6vw,64px);height:clamp(44px,6vw,64px)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(36px,5.4vw,60px);line-height:1.04;letter-spacing:-.025em;white-space:normal;overflow:visible}
+.modes{margin-top:var(--s5);padding-top:var(--s3);border-top:2px solid var(--ink);justify-content:space-between}
+.seg{border-color:var(--ink)}
+.seg button{font:600 14px var(--sans);padding:0 var(--s4)}
+.statepick label{font-size:14px}
+.statepick select{border-color:var(--field);font:500 15px var(--sans)}
+.dateline{padding:var(--s3) 0 0;border:0;font-size:14px;color:var(--muted)}
+.gate{margin:var(--s4) 0 var(--s2)}
+.gate .gr{font-size:clamp(19px,2vw,22px);line-height:1.45;color:var(--ink-2);max-width:46ch;margin:0 0 var(--s5)}
+.gate .gb{gap:var(--s3)}
+.status{margin:var(--s4) 0 var(--s3)}
+
+/* buttons: the site set (44px, 4px radius, 600 15px); primary takes the game colour, ghost has the field border */
+.btn{font:600 15px var(--sans);min-height:44px;padding:0 var(--s5);border-radius:var(--r);gap:var(--s2)}
+.btn.ghost{border-color:var(--field)}
+@media (hover:hover){.btn.ghost:hover{border-color:var(--ink);background:transparent}}
+.actions{justify-content:flex-start;gap:var(--s3);margin:var(--s5) 0 var(--s2)}
+
+/* dialogs: 8px corners, one shadow and backdrop (as the Capitol Climb sheet); 24px padding; serif 500 headings */
+dialog{box-shadow:var(--shadow-lg)}
+@media (min-width:760px){ dialog{border-radius:8px;width:min(520px,calc(100% - 32px))} }
+dialog::backdrop{background:rgba(10,10,12,.55);backdrop-filter:none}
+.dlg{padding:var(--s5);gap:var(--s3)}
+.dlg h2{font-weight:500;font-size:24px;letter-spacing:-.015em}
+.dlg .kicker{font-size:13px}
+.x{border-color:var(--line-strong)}
+
+/* results: big score first, then the details, share text, Share / Copy / practice / answers, the study link */
+.final{justify-content:flex-start;align-items:flex-end;gap:var(--s5);padding:0}
+.final>div:last-child{order:-1}
+.final .num{font:700 clamp(48px,14vw,72px)/1 var(--sans);letter-spacing:-.03em}
+.final .cap{font-size:14px;margin-top:var(--s2)}
+.final .cap b{font-size:15px}
+.facts{display:grid;grid-template-columns:auto auto 1fr;gap:var(--s5);border:0}
+.facts div{display:flex;flex-direction:column-reverse;padding:0;text-align:left}
+.facts div+div{border-left:0}
+.facts b{font:600 20px/1.2 var(--serif);margin-top:2px}
+.facts span{font:600 13px var(--sans);color:var(--muted)}
+pre.share{margin:0;padding:var(--s3) var(--s4);background:var(--panel-2);border:1px solid var(--line);border-radius:var(--r);color:var(--ink);font:16px/1.45 var(--sans);text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
+#done .dlg-ft{justify-content:flex-start;gap:var(--s3);padding-top:0}
+#done .dlg-ft .btn{flex:1 1 180px;min-width:0;min-height:48px;padding:0 var(--s4)}
+.studyline{margin:var(--s1) 0 0;font-size:15px;line-height:1.45;text-align:left}
+.studylink{color:var(--red);font-weight:600;text-underline-offset:3px}
+.studylink::after{content:" \2192"}
+#helpIcon.iconbtn{width:44px;height:44px}
+.kicker.gk .sinfx-btn:last-child{margin-right:0}
+
+@media (max-width:759px){
+  .wrap{padding-top:max(8px,env(safe-area-inset-top))}
+  .kicker.gk{margin-left:-8px}
+  .gk .homelink,.homelink{position:static;padding:0 8px;min-height:44px;font-size:16px}
+  header.mast,header.mast.after-modes{order:0;padding:0;margin:0;gap:var(--s3);min-height:0}
+  .modes{order:0;margin-top:var(--s3);padding-top:var(--s2);border-top:1px solid var(--ink)}
+  .mark{display:block;width:36px;height:36px}
+  h1{font-size:clamp(26px,7.4vw,32px);line-height:1.1}
+  .dateline{padding:var(--s2) 0 0;font-size:14px}
+  /* while the board is on screen the logo and title step aside (as in Caucus Sort and Dark Horse) */
+  .wrap:not(.gated) header.mast{display:none}
+  .gate .gr{font-size:19px}
+  .gate .btn{min-height:52px;font-size:15px}
+  .actions .btn{min-height:52px}
+  .dlg{padding:var(--s2) var(--s4) var(--s4)}
+  .dlg::before{width:40px;height:4px;border-radius:2px}
+  .dlg p,.dlg li{font-size:16px}
+  #done .dlg-ft{flex-direction:column}
+  #done .dlg-ft .btn{flex:none;width:100%;min-height:52px}
+  .final .num{font-size:clamp(48px,14vw,72px)}
+  .seg button{padding:0 var(--s3);font-size:15px}
+}
+</style>
+<!-- head-patch -->
+<link rel="canonical" href="https://dailypoliticaltrivia.com/games/congressional-grid/" data-sin-head>
+<meta property="og:url" content="https://dailypoliticaltrivia.com/games/congressional-grid/" data-sin-head>
+<meta property="og:image" content="https://dailypoliticaltrivia.com/assets/icons/og-congressional-grid.png" data-sin-head>
+<meta property="og:image:alt" content="Congressional Grid: fill nine squares with members of Congress" data-sin-head>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="stylesheet" href="../../assets/fx.css">
+<link rel="apple-touch-icon" href="../../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:site_name" content="Daily Political Trivia">
+<meta property="og:type" content="website">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-game="grid">
+<div class="wrap gated" id="cgWrap">
+  <div class="kicker gk"><a class="homelink" id="homeLink" href="../"><span aria-hidden="true">&larr;</span> Games</a><span class="sinfx-slot" data-sinfx-controls></span><button class="iconbtn" id="helpIcon" type="button" aria-label="How to play">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M9.3 9.3a2.8 2.8 0 1 1 3.9 2.6c-.8.3-1.2 1-1.2 1.8v.5"/><circle cx="12" cy="17.2" r=".6" fill="currentColor"/></svg>
+    </button></div>
+  <script>
+    /* On the website the game sits at /games/congressional-grid/, so the Games hub is one level up.
+       When the workshop copy is opened from the project root, the website is in site/. */
+    if(!/\/games\/congressional-grid\/?(index\.html)?$/.test(location.pathname)) document.getElementById('homeLink').href='site/games/index.html';
+  </script>
+  <header class="mast after-modes">
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect x="6" y="6" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><path d="M24 20v-4c0-5.5 3.6-10 8-10s8 4.5 8 10v4z" fill="currentColor"/><rect x="46" y="6" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><rect x="6" y="26" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><rect x="24" y="24" width="16" height="16" rx="4" fill="var(--logo-accent,var(--accent,#a3141f))"/><rect x="46" y="26" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><rect x="6" y="46" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><rect x="26" y="46" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/><rect x="46" y="46" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+    <h1 id="gameTitle">Congressional <em>Grid</em></h1>
+  </header>
+  <div class="modes">
+    <div class="seg" role="group" aria-label="Choose a game">
+      <button type="button" id="gameCongress" data-game="congress" aria-pressed="true">Congress</button>
+      <button type="button" id="gamePresidents" data-game="presidents" aria-pressed="false">Presidents</button>
+    </div>
+    <div class="statepick" id="statePick">
+      <div class="row1"><label for="stateSel">Grid</label>
+        <select id="stateSel" aria-describedby="stateNote"><option value="">All states</option></select></div>
+      <div class="hint" id="stateNote" aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="dateline"><span class="st" aria-hidden="true">&#9733;</span><span id="modeLabel"></span><span class="st" aria-hidden="true">&#9733;</span></div>
+
+  <section class="gate" id="startGate" aria-label="Start">
+    <p class="gr" id="gateRules">Fill nine squares by picking a member of Congress who fits both the row and the column. You get nine guesses, and the rarer the pick, the lower your score.</p>
+    <div class="gate-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="gb"><button class="btn" id="gateGo" type="button" disabled>Loading today&rsquo;s grid&hellip;</button><button class="btn ghost" id="gateHow" type="button">How to play</button></div>
+  </section>
+
+  <section class="status" aria-label="Game status">
+    <div>
+      <div class="lbl" id="pipsLbl">Guesses</div>
+      <div class="pips" id="pips" role="img" aria-labelledby="pipsLbl"></div>
+    </div>
+    <div class="scorebox">
+      <div class="lbl">Score</div>
+      <div class="scorev" aria-live="polite"><span id="score">0</span><small>lower wins</small></div>
+    </div>
+  </section>
+
+  <div class="grid" id="grid" role="group" aria-label="Congressional Grid board"></div>
+
+  <p class="hint reviewhint" id="reviewHint" hidden>Tap any square to see every correct answer.</p>
+  <div class="actions">
+    <button class="btn" id="resultsBtn" type="button" hidden>See results</button>
+    <button class="btn ghost" id="howBtn" type="button">How to play</button>
+    <button class="btn ghost" id="practiceBtn" type="button">Practice grid</button>
+    <button class="btn ghost" id="dailyBtn" type="button" hidden>Back to daily</button>
+  </div>
+
+  <footer>
+    <div class="stars" aria-hidden="true"><span>&#9733;&#9733;&#9733;</span></div>
+    <p id="foot"></p>
+    <p id="rarityNote"></p>
+  </footer>
+</div>
+
+<!-- pick dialog -->
+<dialog id="pick" aria-labelledby="pickTitle"><div class="dlg">
+  <div class="dlg-hd">
+    <div><div class="kicker">Make your pick</div><h2 id="pickTitle">Who fits both?</h2></div>
+    <button class="x" type="button" data-close aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+  </div>
+  <div class="crit" id="crit"></div>
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input type="search" id="q" name="member" placeholder="Search by name&hellip;" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="search" enterkeyhint="go"
+      role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list" aria-label="Search members of Congress" aria-describedby="qHint">
+  </div>
+  <div class="hint" id="qHint">Type at least two letters. Use &uarr; &darr; and Enter to choose. A wrong pick costs a guess.</div>
+  <div class="results" id="results" role="listbox" aria-label="Matching members"></div>
+  <div class="sr-only" id="resultsLive" aria-live="polite"></div>
+</div></dialog>
+
+<!-- how to play -->
+<dialog id="how" aria-labelledby="howTitle"><div class="dlg">
+  <div class="dlg-hd">
+    <div><div class="kicker">The rules</div><h2 id="howTitle">How to play</h2></div>
+    <button class="x" type="button" data-close aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+  </div>
+  <p id="howLead">Each square sits where a row and a column meet. Pick a <b>member of Congress</b> who fits <b>both</b> categories.</p>
+  <ul>
+    <li>You have <b>9 guesses</b>. Every pick uses one, right or wrong.</li>
+    <li>You can't use the same person twice.</li>
+    <li>Each correct pick shows a <b>rarity score</b> from 1 to 100. <span id="howRarity">Members from small states score lower, which is better, because fewer people can name them.</span></li>
+    <li>Your score is the total of your nine squares. An empty square counts as 100. <b>Lowest score wins</b>; a perfect grid scores 9.</li>
+    <li>A new daily grid appears every day at midnight. Practice grids are unlimited and aren't saved.</li>
+  </ul>
+  <div class="sinfx-slot" data-sinfx-controls="labels"></div>
+  <div class="dlg-ft"><button class="btn" type="button" id="howClose">Start playing</button></div>
+</div></dialog>
+
+<!-- results -->
+<dialog id="done" aria-labelledby="doneTitle"><div class="dlg">
+  <div class="dlg-hd">
+    <div><div class="kicker" id="doneKicker">Daily grid</div><h2 id="doneTitle">Grid complete</h2></div>
+    <button class="x" type="button" data-close aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+  </div>
+  <div class="final">
+    <div class="mini" id="doneMini" aria-hidden="true"></div>
+    <div><div class="num" id="doneScore"></div><div class="cap"><b>Total score</b>Lower is better &middot; best possible is 9</div></div>
+  </div>
+  <div class="facts">
+    <div><b id="fFilled">0/9</b><span>Filled</span></div>
+    <div><b id="fWrong">0</b><span>Misses</span></div>
+    <div><b id="fRare">&mdash;</b><span>Rarest pick</span></div>
+  </div>
+  <pre class="share" id="shareText" aria-label="Shareable result"></pre>
+  <div class="dlg-ft">
+    <button class="btn" type="button" id="shareBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>Share result</button>
+    <button class="btn ghost" type="button" id="copyBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>Copy result</button>
+    <button class="btn ghost" type="button" id="practiceAgain">Play a practice grid</button>
+    <button class="btn ghost" type="button" id="seeAnswers">See all answers</button>
+  </div>
+  <p class="studyline"><a class="studylink" href="../../map/">Study up for tomorrow: every member by state, party and year on the Congress Map</a></p>
+</div></dialog>
+
+<!-- review: every correct answer for a square (only after the game is over; filled in on demand, never stored in the page) -->
+<dialog id="review" aria-labelledby="revTitle"><div class="dlg">
+  <div class="dlg-hd">
+    <div><div class="kicker" id="revKicker">Every correct answer</div><h2 id="revTitle" tabindex="-1"></h2></div>
+    <button class="x" type="button" data-close aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+  </div>
+  <div class="revnav">
+    <button class="btn ghost" type="button" id="revPrev" aria-label="Previous square"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="revcount" id="revCount" aria-live="polite"></div>
+    <button class="btn ghost" type="button" id="revNext" aria-label="Next square"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="revmine" id="revMine" hidden></div>
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input type="search" id="revQ" name="filter" placeholder="Filter names&hellip;" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="search" enterkeyhint="search" aria-label="Filter names">
+  </div>
+  <div class="revlist" id="revList"></div>
+  <div class="revmore"><button class="btn ghost" type="button" id="revMore" hidden>Show more</button></div>
+</div></dialog>
+
+<div id="toast" role="status" aria-live="polite"><span class="ti" aria-hidden="true"></span><span id="toastMsg"></span></div>
+
+<!-- ads: inert unless assets/ads/ads-config.js is enabled (path is for the published copy in site/games/congressional-grid/) -->
+<script src="../../assets/ads/ads-config.js"></script>
+<script src="../../assets/ads/ads-loader.js"></script>
+<script src="../../assets/fx.js"></script>
+<script>
+/* Start-up: the page (start screen, header, skeleton) paints first; the ~5 MB data files are then fetched in parallel and run in order
+   (dynamic scripts with async=false), and the game engine below starts when the last one has run. Nothing about the game changes. */
+(function(){
+  var files=['data/members.js','categories.js','data/presidents.js'], left=files.length, failed=false, t0=performance.now();
+  function fail(){
+    if(failed) return; failed=true;
+    var b=document.getElementById('gateGo'), r=document.getElementById('gateRules');
+    if(r) r.textContent='The game data could not be loaded. Check your connection, then reload this page.';
+    if(b){ b.disabled=false; b.textContent='Reload'; b.onclick=function(){ location.reload(); }; }
+  }
+  function boot(){
+    try{ window.__cgBoot(); }catch(e){ if(window.console) console.error(e); fail(); return; }
+    window.__cgLoadMs=Math.round(performance.now()-t0);
+    var b=document.getElementById('gateGo'); if(b) b.disabled=false;
+  }
+  function go(){
+    files.forEach(function(f){
+      var s=document.createElement('script'); s.src=f; s.async=false;
+      s.onerror=fail; s.onload=function(){ if(--left===0 && !failed) boot(); };
+      document.head.appendChild(s);
+    });
+    var fl=document.getElementById('cgFonts'); if(fl) fl.media='all';
+  }
+  // after the first paint
+  if(window.requestAnimationFrame) requestAnimationFrame(function(){ setTimeout(go,0); }); else setTimeout(go,0);
+})();
+/* Bottom-sheet dialogs on phones: swipe down on the handle area to close. */
+(function(){
+  document.querySelectorAll('dialog').forEach(function(d){
+    var y0=null, dy=0;
+    function area(e){ var r=d.getBoundingClientRect(); return e.touches[0].clientY-r.top < 64; }
+    d.addEventListener('touchstart',function(e){ if(window.innerWidth>560||!area(e)) return; y0=e.touches[0].clientY; dy=0; d.style.transition='none'; },{passive:true});
+    d.addEventListener('touchmove',function(e){ if(y0===null) return; dy=Math.max(0,e.touches[0].clientY-y0); d.style.transform='translateY('+dy+'px)'; },{passive:true});
+    function end(){ if(y0===null) return; var close=dy>90; y0=null; d.style.transition=''; d.style.transform=''; if(close) d.close(); }
+    d.addEventListener('touchend',end); d.addEventListener('touchcancel',end);
+  });
+  /* visible viewport (soft keyboard, dynamic toolbar) as CSS variables for the sheets */
+  var vv=window.visualViewport, root=document.documentElement, raf=0;
+  if(vv){
+    var upd=function(){ raf=0; root.style.setProperty('--vvh',Math.round(vv.height)+'px'); var kb=Math.max(0,Math.round(window.innerHeight-vv.height-vv.offsetTop)); root.style.setProperty('--kb',kb+'px'); root.classList.toggle('kb-open',kb>120||vv.height<420); };
+    var sched=function(){ if(!raf) raf=requestAnimationFrame(upd); };
+    vv.addEventListener('resize',sched); vv.addEventListener('scroll',sched); upd();
+  }
+})();
+</script>
+<script>
+window.__cgBoot=function(){
+'use strict';
+const $ = id => document.getElementById(id);
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const NOW_YEAR = new Date().getFullYear();
+
+/* ---------- two games share this engine: "congress" (data/members.js + categories.js) and "presidents" (data/presidents.js) ----------
+   Each game has its own roster, categories, daily-puzzle seed, saved-game key prefix and wording. useGame() switches the active one. */
+const num = v => typeof v==='number' && isFinite(v);
+const clean = a => (Array.isArray(a) ? a : []).filter(m => m && m.id && m.name);   // defensive: works with old current-only file and the all-time file
+const GAMES = {
+  congress:{
+    key:'congress', members:()=>clean(window.MEMBERS), catFn:()=>window.CATEGORIES, minCounts:[4,3,2],
+    store:'cg-', seed:'', title:'Congressional Grid', h1:['Congressional','Grid'], share:'🏛️ Congressional Grid', noun:'member',
+    desc:'A daily trivia grid for members of Congress. Fill all nine squares with the rarest picks.',
+    searchLabel:'Search members of Congress', boardLabel:'Congressional Grid board',
+    sub:m=>m.state||'',
+    meta:m=>[m.party||'Unknown party', chamberLabel(m), stateLabel(m), yearsLabel(m)],
+    foot:(m)=>{ let first=Infinity; m.forEach(x=>{ if(num(x.firstYear) && x.firstYear<first) first=x.firstYear; });
+      return (m.some(x=>x.current===false) ? 'Every member of Congress, '+(isFinite(first)?first:1789)+'–present.' : 'Current members of Congress.'); },
+    updated:()=>window.MEMBERS_UPDATED,
+    rarity:()=>typeof window.RARITY_NOTE==='string' && window.RARITY_NOTE ? window.RARITY_NOTE : 'Rarity is based on state population: smaller state, lower (rarer) number.',
+    lead:(allTime)=>'Each square sits where a row and a column meet. Pick a <b>'+(allTime?'member of Congress, past or present,':'current member of Congress')+'</b> who fits <b>both</b> categories.'
+  },
+  presidents:{
+    key:'presidents', members:()=>clean(window.PRESIDENTS), catFn:()=>window.PRESIDENT_CATEGORIES, minCounts:[4],
+    store:'cgp-', seed:'presidents-', title:'Presidents Mode', h1:['Presidents','Mode'], share:'🎩 Presidents', noun:'president',
+    desc:'A daily trivia grid for U.S. presidents. Fill all nine squares with the rarest picks.',
+    searchLabel:'Search U.S. presidents', boardLabel:'Presidents Mode board',
+    sub:m=>m.ord||'',
+    meta:m=>[m.party||'', m.ord?'President '+m.ord:'', m.stateName?'Born in '+m.stateName:'', m.service||''],
+    foot:(m)=>{ const terms=m.reduce((s,x)=>s+String(x.ord||'').split('/').length,0);
+      return 'All '+m.length+' people who have served as U.S. president ('+terms+' presidencies), 1789–present.'; },
+    updated:()=>window.PRESIDENTS_UPDATED,
+    rarity:()=>typeof window.PRESIDENTS_RARITY_NOTE==='string' && window.PRESIDENTS_RARITY_NOTE ? window.PRESIDENTS_RARITY_NOTE : 'Rarity is based on birth-state population: smaller state, lower (rarer) number.',
+    lead:()=>'Each square sits where a row and a column meet. Pick a <b>U.S. president</b> who fits <b>both</b> categories. Grover Cleveland and Donald Trump are each one person, even though they served two separate terms.'
+  }
+};
+// active game's roster and category machinery (assigned by useGame)
+let G, M, N, idIdx, ALL_TIME, cats, W, C, pairArr, pairMap, catByKey, GROUPS, POOLS, SR=null, setupMs=0;
+const byId = id => { const i=idIdx.get(id); return i===undefined ? null : M[i]; };
+const isCurrent = m => typeof m.current==='boolean' ? m.current : !(m.lastYear && m.lastYear < NOW_YEAR);
+
+function partyColor(p){
+  p=String(p||'');
+  if(/^democrat(ic)?$/i.test(p)) return 'var(--dem)';
+  if(/^republican$/i.test(p)) return 'var(--rep)';
+  if(/^independent/i.test(p)) return 'var(--ind)';
+  return 'var(--oth)';
+}
+function partyAbbr(p){
+  p=String(p||'').trim(); if(!p) return '?';
+  const words=p.split(/[\s-]+/).filter(w=>/^[A-Za-z]/.test(w));
+  return words.length>1 ? words.slice(0,3).map(w=>w[0].toUpperCase()).join('') : p[0].toUpperCase();
+}
+function chamberLabel(m){
+  const ch = Array.isArray(m.chambers) ? m.chambers : [];
+  if(ch.includes('House') && ch.includes('Senate')) return 'House & Senate';
+  return m.chamber==='Senate' ? 'Senate' : m.chamber==='House' ? 'House' : (m.chamber||'');
+}
+function yearsLabel(m){
+  if(num(m.firstYear)){
+    if(isCurrent(m)) return m.firstYear+'–present';
+    if(num(m.lastYear) && m.lastYear!==m.firstYear) return m.firstYear+'–'+m.lastYear;
+    return String(m.firstYear);
+  }
+  if(num(m.years) && isCurrent(m)) return 'Since '+Math.max(1789, Math.round(NOW_YEAR + (new Date().getMonth()/12) - m.years));
+  return '';
+}
+function stateLabel(m){
+  const n = m.stateName || m.state || '';
+  const extra = Array.isArray(m.states) ? new Set(m.states).size - 1 : 0;
+  return extra>0 ? n+' +'+extra : n;
+}
+const initials = n => String(n).replace(/\b(Jr|Sr|II|III|IV)\b\.?/gi,'').replace(/[^\p{L}\s'-]/gu,'').split(/\s+/).filter(Boolean)
+  .map(w=>w[0]).filter((c,i,a)=>i===0||i===a.length-1).join('').toUpperCase() || '?';
+
+let photoSet=null;
+function congressHasPhoto(id){
+  if(!photoSet){ photoSet=new Set(); clean(window.MEMBERS).forEach(x=>{ if(x.photo) photoSet.add(x.id); }); }
+  return photoSet.has(id);
+}
+function photoNode(m, eager){
+  const wrap=document.createElement('div');
+  const fallback=()=>{ wrap.innerHTML='<div class="ini"><span>'+esc(initials(m.name))+'</span></div>'; };
+  // presidents who served in Congress reuse their Congress photo (bioguide id) when it exists; everyone else gets initials
+  const src = m.bio ? (congressHasPhoto(m.bio) ? 'photos/'+encodeURIComponent(m.bio)+'.jpg' : (typeof m.photo==='string' ? m.photo : ''))
+    : (typeof m.photo==='string' ? m.photo : (m.photo ? 'photos/'+encodeURIComponent(m.id)+'.jpg' : ''));
+  if(src){
+    const img=new Image(); img.alt=''; img.decoding='async';
+    if(!eager) img.loading='lazy';
+    img.addEventListener('error', fallback, {once:true});
+    img.src=src;
+    wrap.appendChild(img);
+  } else fallback();
+  return wrap;
+}
+
+/* ---------- categories: precomputed bitsets + cached pair overlaps (built once per game / per state, on first use) ----------
+   A "scope" is a game (congress, presidents) or a single state inside Congress: the roster is then only the members who served from that
+   state, state/region categories are left out, categories are re-counted inside the state, and rarity is computed inside the state pool. */
+const built = {};
+let curD, PCT=null, curState='';
+let rawDefs=null;
+function congressDefs(members){                       // category definitions from categories.js, fresh copies (the engine writes bits onto them)
+  if(!rawDefs){ try { const fn=window.CATEGORIES; rawDefs = (typeof fn==='function' ? fn(members) : []).filter(c=>c && c.key!=null && typeof c.test==='function'); }
+    catch(e){ console.error('CATEGORIES failed', e); rawDefs=[]; } }
+  return rawDefs.map(c=>({group:c.group,key:c.key,label:c.label,test:c.test}));
+}
+function packD(members, cs, extra){
+  const n=members.length, map=new Map(); members.forEach((m,i)=>map.set(m.id,i));
+  const w=Math.max(1, Math.ceil(n/32));
+  cs.forEach((c,ci)=>{
+    c.ix=ci; c.group=c.group||'other'; c.bits=new Uint32Array(w); let cnt=0;
+    for(let i=0;i<n;i++){ let ok=false; try{ ok=!!c.test(members[i]); }catch(e){} if(ok){ c.bits[i>>>5]|=(1<<(i&31)); cnt++; } }
+    c.count=cnt;
+  });
+  return Object.assign({ M:members, N:n, idIdx:map, ALL_TIME:members.some(m=>m.current===false), cats:cs, W:w, C:cs.length, PCT:null,
+    pairArr: cs.length<=1500 ? new Int32Array(cs.length*cs.length).fill(-1) : null, pairMap: cs.length<=1500 ? null : new Map(), SR:null }, extra||{});
+}
+function finishD(D){
+  D.catByKey=new Map(D.cats.map(c=>[String(c.key),c]));
+  D.GROUPS=[...new Set(D.cats.map(c=>c.group))];
+  D.POOLS=new Map(D.GROUPS.map(g=>[g, D.cats.filter(c=>c.group===g)]));
+  return D;
+}
+
+/* ----- single-state scope (Congress mode) ----- */
+const inState = (m,st) => (Array.isArray(m.states)&&m.states.length ? m.states : [m.state]).indexOf(st) >= 0;
+const NO_STATE_GROUPS = {state:1, region:1};          // state and region categories make no sense inside one state
+const STATES = {};                                    // code -> {code,name,n,ok,reason,cfg}
+const STATE_MIN_POOL = 20;
+let statesDone=false;
+function indexStates(){
+  if(statesDone) return; statesDone=true;
+  const names={}, cnt={};
+  clean(window.MEMBERS).forEach(m=>{
+    const list = Array.isArray(m.states)&&m.states.length ? m.states : [m.state];
+    new Set(list).forEach(s=>{ if(s) cnt[s]=(cnt[s]||0)+1; });
+    if(m.state && m.stateName) names[m.state]=m.stateName;
+  });
+  Object.assign(names,{DK:names.DK||'Dakota Territory',OL:names.OL||'Territory of Orleans',PI:names.PI||'Philippines'});
+  Object.keys(cnt).forEach(code=>{
+    const n=cnt[code], name=names[code]||code;
+    // sensible minimums by pool size (small states relax them); too few members -> disabled with a short reason
+    const cfg = n>=300 ? {catMin:6, minCounts:[4,3,2]} : n>=100 ? {catMin:4, minCounts:[3,2]} : {catMin:3, minCounts:[2]};
+    const ok = n>=STATE_MIN_POOL;
+    STATES[code]={code,name,n,ok,cfg, reason: ok ? '' : 'only '+n+' member'+(n===1?'':'s')+' ever served, too few for a fair grid'};
+  });
+}
+function rarityInPool(pool){                          // 1-100, shorter service within the state = lower (rarer)
+  const ys=pool.map(m=>num(m.years)?m.years:0).sort((x,y)=>x-y), n=ys.length, out=new Map();
+  const first=new Map(), last=new Map();
+  ys.forEach((y,i)=>{ if(!first.has(y)) first.set(y,i); last.set(y,i); });
+  pool.forEach(m=>{ const y=num(m.years)?m.years:0; const mid=(first.get(y)+last.get(y)+1)/2; out.set(m.id, Math.max(1,Math.min(100,Math.round(100*mid/n)))); });
+  return out;
+}
+function stateGame(st){
+  const S=STATES[st], B=GAMES.congress;
+  return Object.assign({}, B, { stateCode:st, stateName:S.name, minCounts:S.cfg.minCounts,
+    store:'cgs-'+st+'-', seed:'state-'+st+'-', title:S.name+' Grid', h1:[S.name,'Grid'], share:'🏛️ '+S.name+' Grid',
+    desc:'A daily trivia grid for members of Congress who served from '+S.name+'. Fill all nine squares with the rarest picks.',
+    searchLabel:'Search members of Congress from '+S.name, boardLabel:S.name+' Grid board',
+    sub:m=>yearsLabel(m),
+    foot:()=>'Every member of Congress who served from '+S.name+': '+S.n.toLocaleString('en-US')+' people, past and present.',
+    rarity:()=>'Rarity is based on length of service within '+S.name+': a shorter career, lower (rarer) number. It is worked out among the '+S.n.toLocaleString('en-US')+' members from '+S.name+'.',
+    lead:()=>'Each square sits where a row and a column meet. Pick a <b>member of Congress who served from '+esc(S.name)+'</b> and fits <b>both</b> categories.' });
+}
+function buildState(st){
+  const S=STATES[st], pool=clean(window.MEMBERS).filter(m=>inState(m,st));
+  const defs=congressDefs(clean(window.MEMBERS)).filter(c=>!NO_STATE_GROUPS[c.group||'other']);
+  const n=pool.length;
+  // drop categories that are too small inside the state to be usable (and nearly-universal ones)
+  const keep=defs.filter(c=>{ let k=0; for(let i=0;i<n;i++){ try{ if(c.test(pool[i])) k++; }catch(e){} } return k>=S.cfg.catMin && k<=n*0.92; });
+  const D=packD(pool, keep);
+  D.PCT=rarityInPool(pool);
+  return finishD(D);
+}
+
+function useGame(key, st){
+  const base = GAMES[key] || GAMES.congress;
+  indexStates();
+  const code = base.key==='congress' && st && STATES[st] && STATES[st].ok ? st : '';
+  G = code ? stateGame(code) : base;
+  const bk = code ? 'congress:'+code : base.key;
+  let D = built[bk];
+  if(!D){
+    const t0 = performance.now();
+    if(code) D = buildState(code);
+    else { const members=base.members(); let cs=[];
+      try { const fn=base.catFn(); cs = (typeof fn==='function' ? fn(members) : []).filter(c=>c && c.key!=null && typeof c.test==='function'); }
+      catch(e){ console.error('CATEGORIES failed', e); }
+      D = finishD(packD(members, cs)); }
+    D.setupMs = performance.now()-t0;
+    built[bk]=D;
+  }
+  curD=D;
+  ({M,N,idIdx,ALL_TIME,cats,W,C,pairArr,pairMap,catByKey,GROUPS,POOLS,SR,setupMs,PCT} = D);
+}
+const byKey = k => catByKey.get(String(k));
+const hasMember = (c,i) => ((c.bits[i>>>5]>>>(i&31))&1)===1;
+function popcnt(x){ x=x-((x>>>1)&0x55555555); x=(x&0x33333333)+((x>>>2)&0x33333333); return (Math.imul((x+(x>>>4))&0x0f0f0f0f,0x01010101)>>>24); }
+function overlap(a,b){
+  const k=a.ix*C+b.ix;
+  let v = pairArr ? pairArr[k] : (pairMap.has(k) ? pairMap.get(k) : -1);
+  if(v>=0) return v;
+  v=0; const A=a.bits, B=b.bits;
+  for(let w=0;w<W;w++){ const x=A[w]&B[w]; if(x) v+=popcnt(x); }
+  if(pairArr){ pairArr[k]=v; pairArr[b.ix*C+a.ix]=v; } else { pairMap.set(k,v); pairMap.set(b.ix*C+a.ix,v); }
+  return v;
+}
+
+/* ---------- seeded random (unchanged) ---------- */
+function hash(s){ let h=1779033703^s.length; for(let i=0;i<s.length;i++){ h=Math.imul(h^s.charCodeAt(i),3432918353); h=h<<13|h>>>19; } return ()=>{ h=Math.imul(h^h>>>16,2246822507); h=Math.imul(h^h>>>13,3266489909); return (h^=h>>>16)>>>0; }; }
+function rngFrom(seed){ let a=hash(seed)(); return ()=>{ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+function makeGrid(seed){
+  if(!C) return null;
+  const rnd = rngFrom(seed);
+  const pickCat=()=>{ // pick a group first so states don't dominate
+    const g = rnd()<0.18 && POOLS.has('state') ? 'state' : GROUPS[Math.floor(rnd()*GROUPS.length)];
+    const pool=POOLS.get(g)||[]; const c=pool[Math.floor(rnd()*pool.length)]; return c||null;
+  };
+  for(const minCount of G.minCounts){
+    for(let t=0;t<6000;t++){
+      const six=[]; let guard=0;
+      while(six.length<6 && guard++<50){ const c=pickCat(); if(c && !six.includes(c)) six.push(c); }
+      if(six.length<6) continue;
+      if(new Set(six.map(c=>c.group)).size<4) continue;
+      if(six.filter(c=>c.group==='state').length>1) continue;
+      const rows=six.slice(0,3), cols=six.slice(3);
+      let ok=true;
+      for(const r of rows){ for(const c of cols){ if(overlap(r,c)<minCount){ ok=false; break; } } if(!ok) break; }
+      if(ok) return {rows:rows.map(c=>c.key),cols:cols.map(c=>c.key)};
+    }
+  }
+  return null;
+}
+
+/* ---------- state ---------- */
+const MAX=9;
+let seed, mode, game, lastFilled=-1;
+const today=()=>{ const d=new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+const store={ get(k){ try{return JSON.parse(localStorage.getItem(k));}catch(e){return null;} }, set(k,v){ try{localStorage.setItem(k,JSON.stringify(v));}catch(e){} } };
+
+function validSaved(s){
+  return s && Array.isArray(s.rows) && Array.isArray(s.cols) && s.rows.length===3 && s.cols.length===3
+    && s.rows.concat(s.cols).every(k=>byKey(k)) && Array.isArray(s.cells) && s.cells.length===9 && num(s.left);
+}
+function gridFor(gs){ let g=makeGrid(gs); for(let k=2; !g && k<=4; k++) g=makeGrid(gs+'#'+k); return g; }
+function start(newSeed,newMode){
+  seed=newSeed; mode=newMode; lastFilled=-1;
+  const saved = mode==='daily' ? store.get(G.store+seed) : null;   // separate saved games per game (cg- / cgp-)
+  if(validSaved(saved)){ game=saved; }
+  else {
+    const tg=performance.now();
+    const gs=G.seed+seed;                                              // separate daily puzzle per game
+    const g=gridFor(gs);
+    window.__cgPerf={setupMs:Math.round(setupMs), gridMs:Math.round(performance.now()-tg), members:N, categories:C};
+    if(!g){ showFatal(); return; }
+    game={rows:g.rows,cols:g.cols,cells:Array(9).fill(null),left:MAX,wrong:0};
+    save();
+  }
+  $('modeLabel').textContent = mode==='daily' ? 'Daily grid · '+longDate(seed) : 'Practice grid · not saved';
+  $('dailyBtn').hidden = mode==='daily';
+  $('practiceBtn').textContent = mode==='daily' ? 'Practice grid' : 'New practice grid';
+  render();
+  updateGate();
+}
+function save(){ if(mode==='daily') store.set(G.store+seed,game); }
+
+/* ---------- start screen + ad breaks (see assets/ads/INTEGRATION.md; all of it is inert when ads are off) ---------- */
+const AD_ID='congressional-grid';
+function adBreak(kind){ try{ return window.SIN_ADS && SIN_ADS.ready ? Promise.resolve(SIN_ADS[kind](AD_ID)) : Promise.resolve(); }catch(e){ return Promise.resolve(); } }
+function gameplay(on){ try{ if(window.SIN_ADS && SIN_ADS.setGameplay) SIN_ADS.setGameplay(on); }catch(e){} }
+let gateOpen=true;                         // true until the player presses Start once in this visit
+function updateGate(){
+  const g=$('startGate'); if(!g) return;
+  const started = !!game && (game.cells.some(Boolean) || game.left<MAX), fin = finished();
+  const show = gateOpen && mode==='daily' && !fin;
+  g.hidden=!show; const w=document.querySelector('.wrap'); if(w) w.classList.toggle('gated', show);
+  if(!show) return;
+  const who = G.key==='presidents' ? 'a U.S. president' : 'a member of Congress';
+  $('gateRules').textContent = 'Fill nine squares by picking '+who+' who fits both the row and the column. You get nine guesses, and the rarer the pick, the lower your score.';
+  $('gateGo').textContent = started ? 'Continue today’s grid' : 'Play today’s grid';
+}
+$('gateGo').onclick=()=>{
+  const b=$('gateGo');
+  const begin=()=>{ gateOpen=false; store.set('cg-seen',1); gameplay(true); updateGate(); fitHeaders(); b.disabled=false; focusAfter(0); fx('reveal',{el:$('grid'),dy:10}); };
+  // With ads off SIN_ADS does not exist and begin() runs at once, synchronously: a normal start with no delay.
+  if(window.SIN_ADS && SIN_ADS.ready){ b.disabled=true; adBreak('showPreroll').then(begin,begin); } else begin();
+};
+$('gateHow').onclick=()=>$('how').showModal();
+function longDate(s){
+  const p=String(s).split('-').map(Number); if(p.length!==3||p.some(isNaN)) return s;
+  return new Date(p[0],p[1]-1,p[2]).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+}
+function showFatal(){
+  $('grid').innerHTML='<p class="empty" style="grid-column:1/-1">The grid couldn’t be built from the current data. Please try again later.</p>';
+}
+
+function cellPct(entry){
+  if(!entry) return 100;
+  if(PCT){ const v=PCT.get(entry.id); return num(v) ? v : (num(entry.pct) ? entry.pct : 100); }   // single-state grid: rarity inside the state pool
+  const m=byId(entry.id);
+  if(m && num(m.pct)) return m.pct;
+  return num(entry.pct) ? entry.pct : 100;
+}
+function score(){ return game.cells.reduce((s,c)=>s+cellPct(c),0); }
+function finished(){ return game.left<=0 || game.cells.every(Boolean); }
+const tier = p => p<=10 ? 't1' : p<=40 ? 't2' : '';
+
+/* ---------- render ---------- */
+const GROUP_LABEL={party:'Party',chamber:'Chamber',gender:'Gender',region:'Region',state:'State',committee:'Committee',exp:'Tenure',age:'Age',other:'Category',
+  race:'Heritage',era:'Era',service:'Service',life:'Life',military:'Military',job:'Occupation',office:'Office held',school:'Education',name:'Name',election:'Elections',honor:'Honor'};
+const groupLabel = g => GROUP_LABEL[g] || String(g).replace(/[_-]+/g,' ').replace(/^\w/,c=>c.toUpperCase());
+const VIEW_ICON='<span class="vw" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg></span>';
+const STAR_PATH='M12 2.6l2.7 6.2 6.7.6-5.1 4.5 1.5 6.6L12 17l-5.8 3.5 1.5-6.6-5.1-4.5 6.7-.6z';
+
+function headTile(c, cls){
+  const d=document.createElement('div'); d.className='hd '+cls+(String(c.label).length>22?' long':'');
+  d.title=c.label;
+  d.innerHTML='<span class="eb">'+esc(groupLabel(c.group))+'</span><span class="tx">'+esc(c.label)+'</span>';
+  return d;
+}
+function render(){
+  const g=$('grid'); g.innerHTML='';
+  const done=finished();
+  const corner=document.createElement('div'); corner.className='hd corner'; corner.setAttribute('aria-hidden','true');
+  corner.innerHTML='<div class="seal"><svg viewBox="0 0 24 24" fill="currentColor"><path d="'+STAR_PATH+'"/></svg></div>';
+  g.appendChild(corner);
+  game.cols.forEach(k=>g.appendChild(headTile(byKey(k),'col')));
+  game.rows.forEach((rk,ri)=>{
+    const rc=byKey(rk);
+    g.appendChild(headTile(rc,'row'));
+    game.cols.forEach((ck,ci)=>{
+      const cc=byKey(ck), idx=ri*3+ci, entry=game.cells[idx];
+      const where=rc.label+' and '+cc.label;
+      let el;
+      if(entry){
+        const m=byId(entry.id) || {id:entry.id,name:entry.name||'Unknown member',party:'',state:'',photo:false};
+        const p=cellPct(entry);
+        el=document.createElement(done?'button':'div'); el.className='cell filled'+(done?' review':'');
+        if(done){ el.type='button'; el.setAttribute('aria-label', where+': '+m.name+', rarity '+p+'. See every correct answer'); }
+        else { el.setAttribute('role','img'); el.setAttribute('aria-label', where+': '+m.name+', rarity '+p); }
+        const ph=photoNode(m,true); ph.className='ph'; el.appendChild(ph);
+        el.insertAdjacentHTML('beforeend','<span class="badge '+tier(p)+'" aria-hidden="true">'+p+'</span>'
+          +'<span class="cap" aria-hidden="true"><span class="nm">'+esc(m.name)+'</span><span class="mt"><i class="pdot" style="--p:'+partyColor(m.party)+'"></i>'
+          +esc(partyAbbr(m.party))+(G.sub(m)?' · '+esc(G.sub(m)):'')+'</span></span>');
+        if(done) el.insertAdjacentHTML('beforeend', VIEW_ICON);
+        if(idx===lastFilled) el.classList.add('pop');
+      } else if(done){
+        el=document.createElement('button'); el.type='button'; el.className='cell revealed review';
+        el.setAttribute('aria-label', where+': empty, 100 points. See every correct answer'); el.innerHTML='<span aria-hidden="true">&mdash;</span>'+VIEW_ICON;
+      } else {
+        el=document.createElement('button'); el.type='button'; el.className='cell';
+        el.setAttribute('aria-label', where+': empty. Choose a member');
+        el.innerHTML='<span class="plus" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 1.5v11M1.5 7h11"/></svg></span>';
+        el.addEventListener('click',()=>openPick(idx));
+      }
+      el.dataset.idx=idx;
+      if(done) el.addEventListener('click',()=>openReview(idx));
+      g.appendChild(el);
+    });
+  });
+  // guesses
+  const pips=$('pips'); pips.innerHTML='';
+  for(let i=0;i<MAX;i++){
+    pips.insertAdjacentHTML('beforeend','<svg class="pip'+(i>=game.left?' spent':'')+'" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="'+STAR_PATH+'"/></svg>');
+  }
+  pips.insertAdjacentHTML('beforeend','<span class="pips-n" aria-hidden="true">'+game.left+' left</span>');
+  pips.setAttribute('aria-label', game.left+' of '+MAX+' guesses left');
+  $('score').textContent=score();
+  $('resultsBtn').hidden=!done;
+  $('reviewHint').hidden=!done;
+  lastFilled=-1;
+  fitHeaders();
+}
+// shrink a header label until its longest word fits (no mid-word breaks like "Republica-n")
+function fitHeaders(){
+  document.querySelectorAll('.hd .tx').forEach(el=>{
+    el.style.fontSize='';
+    let fs=parseFloat(getComputedStyle(el).fontSize), guard=0;
+    while(el.scrollWidth>el.clientWidth+1 && fs>8.5 && guard++<12){ fs-=0.5; el.style.fontSize=fs+'px'; }
+  });
+}
+let fitT; window.addEventListener('resize',()=>{ clearTimeout(fitT); fitT=setTimeout(fitHeaders,120); });
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>fitHeaders());
+
+/* ---------- footer / copy that depends on the roster ---------- */
+function renderCopy(){
+  const u = G.updated(), upd = u ? longDate(u) : '';
+  $('foot').textContent = G.foot(M) + (upd ? ' Data updated '+upd+'.' : '');
+  $('rarityNote').textContent = G.rarity();
+  $('howRarity').textContent = G.rarity();
+  $('howLead').innerHTML = G.lead(ALL_TIME);
+  $('q').setAttribute('aria-label', G.searchLabel);
+  $('grid').setAttribute('aria-label', G.boardLabel);
+  $('gameTitle').innerHTML = esc(G.h1[0])+' <em>'+esc(G.h1[1])+'</em>';
+  document.title = G.title;
+  const d = document.querySelector('meta[name=description]'); if(d) d.setAttribute('content', G.desc);
+  const og = document.querySelector('meta[property="og:title"]'); if(og) og.setAttribute('content', G.title);
+  document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.game===G.key ? 'true' : 'false'));
+  const sp=$('statePick'); sp.hidden = G.key!=='congress';
+  const sel=$('stateSel'); if(sel.value!==(G.stateCode||'')) sel.value=G.stateCode||'';
+  $('stateNote').textContent = G.stateCode ? STATES[G.stateCode].n.toLocaleString('en-US')+' members served from '+G.stateName+'.' : '';
+}
+function fillStateSelect(){
+  indexStates();
+  const sel=$('stateSel'); sel.innerHTML='<option value="">All states</option>';
+  Object.values(STATES).sort((a,b)=>a.name.localeCompare(b.name)).forEach(S=>{
+    const o=document.createElement('option'); o.value=S.code;
+    o.textContent = S.ok ? S.name : S.name+' ('+S.reason+')'; o.disabled=!S.ok; sel.appendChild(o);
+  });
+}
+
+/* ---------- search ---------- */
+const SUFFIX=/^(jr|sr|ii|iii|iv|v)$/;
+const norm = s => String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[’'`.]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+function buildSearch(){
+  const rec = s => { const full=norm(s), toks=full.split(' ').filter(Boolean), core=toks.filter(t=>!SUFFIX.test(t));
+    return {full, toks, last:core[core.length-1]||'', compact:full.replace(/ /g,'')}; };
+  // also match the formal name (aka), e.g. "Aaron Paul Bean" for "Aaron Bean"
+  SR = curD.SR = M.map(m=>{ const r=rec(m.name); if(m.aka && norm(m.aka)!==r.full) r.alt=rec(m.aka); return r; });
+}
+const rankBest=(r,q,qt,qc)=>{ const a=rank(r,q,qt,qc); if(!r.alt) return a; const b=rank(r.alt,q,qt,qc); return a<0?b:(b<0?a:Math.min(a,b)); };
+function rank(r,q,qt,qc){
+  if(r.full===q) return 0;
+  if(r.full.startsWith(q)) return 1;
+  if(r.last===q) return 2;
+  if(r.last.startsWith(q)) return 3;
+  if(qt.every(t=>r.toks.some(x=>x.startsWith(t)))) return 4;
+  if(r.full.includes(q) || (qc.length>2 && r.compact.includes(qc))) return 5;
+  return -1;
+}
+function search(raw){
+  if(!SR) buildSearch();
+  const q=norm(raw); if(q.length<2) return {list:[],total:0};
+  const qt=q.split(' '), qc=q.replace(/ /g,'');
+  const hits=[];
+  for(let i=0;i<N;i++){ const k=rankBest(SR[i],q,qt,qc); if(k>=0) hits.push([k,i]); }
+  hits.sort((a,b)=>{
+    if(a[0]!==b[0]) return a[0]-b[0];
+    const A=M[a[1]], B=M[b[1]];
+    const ca=isCurrent(A)?1:0, cb=isCurrent(B)?1:0; if(ca!==cb) return cb-ca;
+    const la=num(A.lastYear)?A.lastYear:9999, lb=num(B.lastYear)?B.lastYear:9999; if(la!==lb) return lb-la;
+    return SR[a[1]].full < SR[b[1]].full ? -1 : 1;
+  });
+  return {list:hits.slice(0,10).map(h=>M[h[1]]), total:hits.length};
+}
+function highlight(name, raw){
+  // underline the first token-start match of the last query word, accent-insensitively
+  const q=norm(raw).split(' ').pop(); if(!q) return esc(name);
+  const words=String(name).split(/(\s+)/);
+  let done=false;
+  return words.map(w=>{ if(!done && norm(w).startsWith(q)){ done=true; const n=Math.min(w.length,q.length); return '<mark>'+esc(w.slice(0,n))+'</mark>'+esc(w.slice(n)); } return esc(w); }).join('');
+}
+
+/* ---------- picking ---------- */
+let curIdx=null, shown=[], active=-1;
+function openPick(idx){
+  curIdx=idx; const r=byKey(game.rows[Math.floor(idx/3)]), c=byKey(game.cols[idx%3]);
+  const n=overlap(r,c);
+  $('crit').innerHTML='<span class="chip"><small>'+esc(groupLabel(r.group))+'</small><b>'+esc(r.label)+'</b></span><span class="amp" aria-hidden="true">&amp;</span>'
+    +'<span class="chip"><small>'+esc(groupLabel(c.group))+'</small><b>'+esc(c.label)+'</b></span>';
+  $('pickTitle').textContent='Who fits both?';
+  $('qHint').textContent=n.toLocaleString('en-US')+' possible answer'+(n===1?'':'s')+(G.stateCode?' from '+G.stateName:'')+'. Use ↑ ↓ and Enter to choose. A wrong pick costs a guess.';
+  $('q').value=''; setResults([],0,'');
+  $('pick').showModal(); $('q').focus();
+}
+function setActive(i){
+  active=i;
+  [...$('results').querySelectorAll('.opt')].forEach((el,j)=>el.setAttribute('aria-selected', j===i ? 'true':'false'));
+  const el=$('opt-'+i);
+  if(el){ $('q').setAttribute('aria-activedescendant', el.id); el.scrollIntoView({block:'nearest'}); }
+  else $('q').removeAttribute('aria-activedescendant');
+}
+function setResults(list,total,raw){
+  const box=$('results'); box.innerHTML=''; shown=list; active=-1;
+  const q=$('q'); q.setAttribute('aria-expanded', list.length?'true':'false'); q.removeAttribute('aria-activedescendant');
+  if(norm(raw).length<2){ $('resultsLive').textContent=''; return; }
+  if(!list.length){ box.innerHTML='<div class="empty">No '+G.noun+' matches “'+esc(raw.trim())+'”.</div>'; $('resultsLive').textContent='No matches'; return; }
+  const used=new Set(game.cells.filter(Boolean).map(c=>c.id));
+  list.forEach((m,i)=>{
+    const o=document.createElement('div'); o.className='opt'+(used.has(m.id)?' used':''); o.id='opt-'+i;
+    o.setAttribute('role','option'); o.setAttribute('aria-selected','false');
+    const th=photoNode(m,false); th.className='th'; o.appendChild(th);
+    const metaRaw=G.meta(m).filter(Boolean), meta=metaRaw.map(esc);
+    o.insertAdjacentHTML('beforeend','<div class="bd"><div class="nm">'+highlight(m.name,raw)+(used.has(m.id)?'<span class="tag">Used</span>':'')+'</div>'
+      +'<div class="mt"><i class="pdot" style="--p:'+partyColor(m.party)+'"></i>'+meta.join(' · ')+'</div></div>');
+    o.setAttribute('aria-label', m.name+', '+metaRaw.join(', ')+(used.has(m.id)?', already used':''));
+    o.addEventListener('click',()=>guess(m));
+    o.addEventListener('mousemove',()=>{ if(active!==i) setActive(i); });
+    box.appendChild(o);
+  });
+  if(total>list.length) box.insertAdjacentHTML('beforeend','<div class="more">Top '+list.length+' of '+total.toLocaleString('en-US')+' matches. Keep typing to narrow it down.</div>');
+  $('resultsLive').textContent=total+' match'+(total===1?'':'es');
+  setActive(0);
+}
+$('q').addEventListener('input',()=>{
+  // synchronous on purpose: a full scan of ~12,700 precomputed names takes a few ms,
+  // and Enter must always act on the results that are on screen
+  const raw=$('q').value; const r=search(raw); setResults(r.list,r.total,raw);
+});
+$('q').addEventListener('keydown',e=>{
+  if(e.key==='ArrowDown'){ if(shown.length){ e.preventDefault(); setActive(Math.min(active+1, shown.length-1)); } }
+  else if(e.key==='ArrowUp'){ if(shown.length){ e.preventDefault(); setActive(Math.max(active-1, 0)); } }
+  else if(e.key==='Enter'){ e.preventDefault(); if(active>=0 && shown[active]) guess(shown[active]); }
+});
+
+/* ---------- toasts ---------- */
+let toastT;
+function toast(msg, kind){
+  const t=$('toast'); t.className=kind||''; $('toastMsg').textContent=msg;
+  t.querySelector('.ti').textContent = kind==='good' ? '✓' : kind==='bad' ? '✕' : 'i';
+  void t.offsetWidth; t.classList.add('show');
+  clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),2600);
+}
+
+function focusAfter(idx){
+  const cells=[...document.querySelectorAll('button.cell')];
+  const next=cells.find(b=>+b.dataset.idx>=idx) || cells[0];
+  if(next) next.focus({preventScroll:true});
+}
+/* optional shared effects (assets/fx.js): a missing file changes nothing */
+function fx(type,o){ try{ if(window.SINFX) SINFX.play(type,o); }catch(e){} }
+function fxc(name){ try{ return window.SINFX ? SINFX[name].apply(SINFX,Array.prototype.slice.call(arguments,1)) : undefined; }catch(e){} }
+function guess(m){
+  if(game.cells.some(c=>c&&c.id===m.id)){ toast('You already used '+m.name+'.','bad'); return; }
+  const idx=curIdx, r=byKey(game.rows[Math.floor(idx/3)]), c=byKey(game.cols[idx%3]);
+  $('pick').close();
+  const i=idIdx.get(m.id);
+  game.left--;
+  if(i!==undefined && hasMember(r,i) && hasMember(c,i)){
+    game.cells[idx]={id:m.id, name:m.name, pct:PCT ? (PCT.get(m.id)||100) : (num(m.pct)?m.pct:100)}; lastFilled=idx;
+    const p=cellPct(game.cells[idx]);
+    toast('Correct! '+m.name+' · rarity '+p, 'good');
+    save(); render();
+    cellFx(idx,p);
+  } else {
+    game.wrong=(game.wrong||0)+1;
+    toast(m.name+' doesn’t fit that square.', 'bad');
+    const oldPip=document.querySelectorAll('#pips .pip')[game.left];   // the guess star that was just spent: it cracks and falls
+    fxc('crackFall',oldPip);
+    save(); render();
+    const el=document.querySelector('.cell[data-idx="'+idx+'"]'); if(el) el.classList.add('shake');
+    fx('wrong',{el:el,shake:false});
+  }
+  if(finished()){ gameplay(false); if(mode==='daily') adBreak('showPostroll'); setTimeout(showDone,650); } else focusAfter(idx);
+}
+
+/* rarity 1-100, lower = rarer: the badge counts down to it, the photo slides in, the burst grows with the rarity (rare = 10 or less = gold) */
+function cellFx(idx,p){
+  const el=document.querySelector('.cell[data-idx="'+idx+'"]'); if(!el) return;
+  const rare=(100-p)/100, ph=el.querySelector('.ph'), badge=el.querySelector('.badge');
+  fxc('slideIn',ph,{dy:14,ms:300});
+  fxc('countUp',badge,p,560,100);
+  if(p<=10) fx('rare',{el:el,tier:5,color:'#f2b705',intensity:0.6+0.4*(10-p)/10});
+  else fx('correct',{el:el,intensity:rare*0.9});
+}
+
+/* ---------- finish ---------- */
+function showDone(){
+  const filled=game.cells.filter(Boolean).length, s=score();
+  $('doneKicker').textContent = mode==='daily' ? 'Daily grid · '+longDate(seed) : 'Practice grid';
+  $('doneTitle').textContent = filled===9 ? (s<=150 ? 'A statesman’s grid!' : 'Grid complete!') : 'Out of guesses';
+  $('doneScore').textContent=s;
+  $('doneMini').innerHTML=game.cells.map(c=>{ if(!c) return '<span>&ndash;</span>'; const p=cellPct(c); return '<span class="f '+tier(p)+'">'+p+'</span>'; }).join('');
+  $('fFilled').textContent=filled+'/9';
+  $('fWrong').textContent=game.wrong||0;
+  let best=null; game.cells.forEach(c=>{ if(c && (!best || cellPct(c)<cellPct(best))) best=c; });
+  if(best){ const bm=byId(best.id); const nm=(bm?bm.name:best.name)||''; $('fRare').textContent=cellPct(best); $('fRare').title=nm; $('fRare').parentNode.querySelector('span').textContent='Rarest: '+(nm.split(' ').filter(w=>!/^(Jr|Sr|II|III|IV)\.?$/i.test(w)).pop()||''); }
+  else { $('fRare').textContent='—'; $('fRare').parentNode.querySelector('span').textContent='Rarest pick'; }
+  const lines=[0,1,2].map(r=>[0,1,2].map(c=>{ const e=game.cells[r*3+c]; if(!e) return '⬜'; const p=cellPct(e); return p<=5 ? '🟥' : p<=10 ? '🟧' : p<=25 ? '🟨' : p<=50 ? '🟩' : '🟦'; }).join('')).join('\n');
+  $('shareText').textContent=G.share+' '+(mode==='daily'?seed:'(practice)')+'\nScore '+s+' · '+filled+'/9\n'+lines+'\n🟥 rarest · 🟦 most common';
+  $('done').showModal();
+  $('shareBtn').focus();
+  doneFx(filled,s);
+}
+function doneFx(filled,s){
+  fxc('countUp',$('doneScore'),s,900,0);
+  if(filled===9 && s<=150) fx('win',{el:$('doneTitle'),intensity:1});
+  else if(filled===9) fx('win',{el:$('doneTitle'),intensity:0.55});
+  else if(filled>=6) fx('levelUp',{el:$('doneTitle')});
+  else fx('lose',{el:$('doneTitle')});
+}
+function shareOut(t, el, useShare, done) {
+    /* Share sheet first (if asked), then clipboard, then the old copy command; if all are blocked (a sandboxed preview, an old browser) the text is left selected so it can be copied by hand. */
+    function pick() { try { if (el.select) { el.focus(); el.select(); el.setSelectionRange(0, t.length); } else { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); } } catch (e) {} }
+    function manual() { pick(); done('manual'); }
+    function viaExec() { pick(); try { if (document.execCommand('copy')) { done('copied'); return; } } catch (e) {} manual(); }
+    function viaClip() { if (navigator.clipboard && navigator.clipboard.writeText) { try { navigator.clipboard.writeText(t).then(function () { done('copied'); }, viaExec); } catch (e) { viaExec(); } } else viaExec(); }
+    if (useShare && navigator.share) { var u = /^https?:$/.test(location.protocol) && !/claude|localhost|127.0|192.168|^10./.test(location.hostname) ? location.origin + location.pathname : ''; try { navigator.share(u ? { text: t, url: u } : { text: t }).then(function () { done('shared'); }, function (e) { if (e && e.name === 'AbortError') return; viaClip(); }); } catch (e) { viaClip(); } } else viaClip();
+  }
+$('shareBtn').onclick=function(){ var el=$('shareText'); shareOut(el.textContent, el, true, function(k){ toast(k==='manual'?'Text selected. Press and hold it, then tap Copy.':k==='shared'?'Result shared':'Result copied to clipboard','good'); }); };
+$('copyBtn').onclick=function(){ var el=$('shareText'); shareOut(el.textContent, el, false, function(k){ if(k==='manual') toast('Text selected. Press and hold it, then tap Copy.'); else toast('Result copied to clipboard','good'); }); };
+$('practiceAgain').onclick=()=>{ $('done').close(); newPractice(); };
+
+/* ---------- review: every correct answer for a square, only once the game is over ----------
+   Computed on demand from the bitsets (the same overlap the engine uses to build the grid) and dropped when the panel closes:
+   nothing is kept in the page, in localStorage or in the saved game. */
+function answersOf(r, c){
+  const out=[];
+  for(let i=0;i<N;i++){
+    if(hasMember(r,i) && hasMember(c,i)){ const m=M[i]; out.push({m, pct:cellPct({id:m.id})}); }
+  }
+  out.sort((a,b)=> a.pct-b.pct || String(a.m.name).localeCompare(String(b.m.name)));   // rarest (lowest score) first
+  return out;
+}
+let revIdx=0, revAll=[], revView=[], revShown=0, revMine=null, revReturn=null;
+const REV_STEP=25;
+function revRow(a, mine){
+  const m=a.m, o=document.createElement('div'); o.className='opt'+(mine?' mine':'');
+  const th=photoNode(m,false); th.className='th'; o.appendChild(th);
+  const metaRaw=G.meta(m).filter(Boolean);
+  o.insertAdjacentHTML('beforeend','<div class="bd"><div class="nm">'+esc(m.name)+(mine?'<span class="tag">Your pick</span>':'')+'</div>'
+    +'<div class="mt"><i class="pdot" style="--p:'+partyColor(m.party)+'"></i>'+metaRaw.map(esc).join(' · ')+'</div></div>'
+    +'<span class="rt '+tier(a.pct)+'" title="Rarity score">'+a.pct+'</span>');
+  return o;
+}
+function revPaint(more){
+  const box=$('revList');
+  if(!more){ box.innerHTML=''; revShown=0; box.scrollTop=0; }
+  const n=Math.min(revView.length, revShown+REV_STEP), frag=document.createDocumentFragment();
+  for(let i=revShown;i<n;i++) frag.appendChild(revRow(revView[i], !!(revMine && revView[i].m.id===revMine)));
+  if(!revView.length) frag.appendChild(Object.assign(document.createElement('div'),{className:'empty',textContent:'No names match.'}));
+  box.appendChild(frag); revShown=n;
+  const left=revView.length-revShown;
+  $('revMore').hidden=left<=0;
+  $('revMore').textContent='Show more ('+left.toLocaleString('en-US')+' left)';
+}
+function revCountText(){
+  const q=norm($('revQ').value), tot=revAll.length;
+  return (q ? revView.length.toLocaleString('en-US')+' of '+tot.toLocaleString('en-US') : tot.toLocaleString('en-US'))+' correct answer'+(tot===1?'':'s')+'<small>Rarest first</small>';
+}
+function revShow(idx){
+  revIdx=(idx+9)%9;
+  const r=byKey(game.rows[Math.floor(revIdx/3)]), c=byKey(game.cols[revIdx%3]);
+  revAll=answersOf(r,c); revView=revAll; $('revQ').value='';
+  const entry=game.cells[revIdx]; revMine=entry ? entry.id : null;
+  $('revTitle').textContent=r.label+' + '+c.label;
+  $('revKicker').textContent='Square '+(revIdx+1)+' of 9'+(G.stateCode?' · '+G.stateName:'');
+  $('revCount').innerHTML=revCountText();
+  const mine=$('revMine');
+  if(revMine){ const a=revAll.find(x=>x.m.id===revMine) || {m:byId(revMine)||{id:revMine,name:entry.name||'Unknown',party:''}, pct:cellPct(entry)};
+    mine.innerHTML='<div class="lab">Your answer</div>'; mine.appendChild(revRow(a,true)); mine.hidden=false; }
+  else { mine.hidden=true; mine.innerHTML=''; }
+  revPaint(false);
+}
+function openReview(idx){
+  if(!finished()) return;                                   // nothing is revealed before the game is over
+  revReturn=document.querySelector('.cell[data-idx="'+idx+'"]');
+  revShow(idx);
+  if(!$('review').open){ $('review').showModal(); fx('reveal',{el:$('review').querySelector('.dlg'),dy:10,ms:240}); }
+  $('revTitle').focus({preventScroll:true});
+}
+function revClosed(){
+  revAll=[]; revView=[]; revMine=null; $('revList').innerHTML=''; $('revMine').innerHTML='';
+  const el=document.querySelector('.cell[data-idx="'+revIdx+'"]') || revReturn;
+  if(el && el.focus) el.focus({preventScroll:true});
+}
+$('review').addEventListener('close',revClosed);
+$('revPrev').addEventListener('click',()=>revShow(revIdx-1));
+$('revNext').addEventListener('click',()=>revShow(revIdx+1));
+$('revMore').addEventListener('click',()=>revPaint(true));
+$('revQ').addEventListener('input',()=>{
+  const q=norm($('revQ').value);
+  revView = q ? revAll.filter(a=>norm(a.m.name).indexOf(q)>=0) : revAll;
+  revPaint(false);
+  $('revCount').innerHTML=revCountText();
+});
+$('review').addEventListener('keydown',e=>{
+  if(e.target===$('revQ') || e.altKey||e.ctrlKey||e.metaKey) return;
+  if(e.key==='ArrowLeft'){ e.preventDefault(); revShow(revIdx-1); }
+  else if(e.key==='ArrowRight'){ e.preventDefault(); revShow(revIdx+1); }
+});
+{ let sx=0, sy=0, t0=0;                                         // swipe between squares
+  $('review').addEventListener('touchstart',e=>{ const t=e.touches[0]; sx=t.clientX; sy=t.clientY; t0=Date.now(); },{passive:true});
+  $('review').addEventListener('touchend',e=>{ const t=e.changedTouches[0], dx=t.clientX-sx, dy=t.clientY-sy;
+    if(Date.now()-t0<700 && Math.abs(dx)>70 && Math.abs(dx)>Math.abs(dy)*2) revShow(revIdx+(dx<0?1:-1)); },{passive:true}); }
+$('seeAnswers').onclick=()=>{ $('done').close(); openReview(0); };
+
+/* ---------- dialogs & buttons ---------- */
+document.querySelectorAll('dialog').forEach(d=>{
+  d.addEventListener('click',e=>{ if(e.target===d) d.close(); });           // backdrop click
+  d.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>d.close()));
+});
+$('how').addEventListener('close',()=>store.set('cg-seen',1));
+const openHow=()=>$('how').showModal();
+$('howBtn').onclick=openHow; $('helpIcon').onclick=openHow;
+$('howClose').onclick=()=>$('how').close();
+$('resultsBtn').onclick=showDone;
+function newPractice(){ start('practice-'+Math.random().toString(36).slice(2),'practice'); toast('New practice grid'); }
+$('practiceBtn').onclick=newPractice;
+$('dailyBtn').onclick=()=>start(today(),'daily');
+
+// game toggle: remembered in localStorage; each game keeps its own daily puzzle and saved grid
+function setGame(key, initial){
+  useGame(GAMES[key] ? key : 'congress', curState);
+  renderCopy();
+  start(today(),'daily');
+  if(!initial) toast('Switched to '+(G.key==='presidents'?'Presidents':'Congress'));
+}
+document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.game!==G.key) setGame(b.dataset.game); }));
+// state picker (Congress only): remembered in localStorage "cg-state"; each state has its own daily seed and save key (cgs-<ST>-<date>)
+$('stateSel').addEventListener('change',()=>{
+  const v=$('stateSel').value;
+  if(v && !(STATES[v] && STATES[v].ok)){ $('stateSel').value=curState; return; }
+  curState=v;
+  useGame('congress', curState); renderCopy(); start(today(),'daily');
+  toast(v ? 'Switched to '+STATES[v].name : 'Switched to all states');
+});
+// Add ?reset to the address to clear saved daily progress (handy for testing).
+try{
+  if(/[?&]reset\b/.test(location.search) && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)){   // developer helper: only on this PC, never on the public site
+    Object.keys(localStorage).filter(k=>/^(cgp?-|cgs-[A-Z]{2}-)\d{4}-\d{2}-\d{2}$/.test(k)).forEach(k=>localStorage.removeItem(k));
+    history.replaceState(null,'',location.pathname);
+  }
+}catch(e){}
+fillStateSelect();
+// The game always opens on the preset Daily grid: Congress, all states. Presidents and the state
+// picker are optional choices for this visit only, so nothing about them is remembered.
+try{ localStorage.removeItem('cg-state'); localStorage.removeItem('cg-game'); }catch(e){}
+curState='';
+setGame('congress', true);
+// A tab left open past midnight moves on to the new day's grid.
+function checkNewDay(){ if(mode==='daily' && seed!==today()){ start(today(),'daily'); toast('A new daily grid is ready'); } }
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden) checkNewDay(); });
+setInterval(checkNewDay,60000);
+if(!store.get('cg-seen') && $('startGate').hidden) $('how').showModal();
+// hooks for the Node test (test-state-grids.js); harmless in the browser
+window.__cg = { answersOf, useGame, makeGrid, gridFor, overlap, byKey, indexStates, STATES, state:()=>({G,cats,N,C,PCT,POOLS}) };
+};
+</script>
+</body>
+</html>

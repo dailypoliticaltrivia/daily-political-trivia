@@ -1,0 +1,35 @@
+# Things that must never be committed or published (see DEPLOY.md and tools/predeploy-check.js).
+.taste-skill/
+.design-backup/
+shots/
+audit/
+people-db/
+photo-work/
+scratch/
+tmpx/
+deploy-site/
+node_modules/
+# editor / assistant settings (can hold local paths, permissions, transcripts)
+.claude/
+.vscode/
+.idea/
+# keys and certificates
+*.pem
+*.key
+*.pfx
+*.p12
+# local-only helper output
+phone-test.html
+*.bak
+*.orig
+*.tmp
+*.log
+*.swp
+.env
+.env.*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# owner answers for tools/fill-placeholders.js (private)
+tools/launch-answers.json

@@ -1,0 +1,17 @@
+{
+  "_help": "Copy this file to launch-answers.json (same folder), set your domain, then run: node tools/fill-placeholders.js tools/launch-answers.json --dry-run   (and again without --dry-run). Your name and county are NOT needed: leave ownerName empty and the pages say 'an individual in Maryland, doing business as Daily Political Trivia'.",
+  "ownerName": "",
+  "county": "",
+  "domain": "dailypoliticaltrivia.com",
+  "emails": {
+    "legal": "",
+    "privacy": "",
+    "dmca": "",
+    "corrections": "",
+    "accessibility": "",
+    "security": ""
+  },
+  "date": "",
+  "operatorText": "",
+  "baseUrl": ""
+}

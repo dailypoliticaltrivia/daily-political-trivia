@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Account · Stay Informed News</title>
+<meta name="description" content="Sign in or create a free Stay Informed News account to write and comment.">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="op.css">
+<!-- head-patch -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Political">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="robots" content="noindex">
+</head>
+<body data-section="opinions" data-ads="off">
+<main id="main" class="page">
+  <div class="wrap">
+    <div class="op-auth">
+      <div class="kicker">Your account</div>
+      <h1 class="ptitle" id="h">Sign in</h1>
+      <div id="demoHint"></div>
+
+      <!-- signed out -->
+      <div id="out" hidden>
+        <div class="op-tabs" role="tablist" aria-label="Account">
+          <button role="tab" data-tab="signin" aria-selected="true">Sign in</button>
+          <button role="tab" data-tab="signup" aria-selected="false">Create account</button>
+          <button role="tab" data-tab="reset" aria-selected="false">Forgot password</button>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <form id="fSignin" data-pane="signin">
+            <div class="field"><label for="siEmail">Email</label><input type="email" id="siEmail" autocomplete="email" required></div>
+            <div class="field"><label for="siPass">Password</label><input type="password" id="siPass" autocomplete="current-password" required></div>
+            <p class="op-err" role="alert"></p>
+            <div id="siResend" hidden><button class="op-link" type="button" id="siResendBtn">Send the confirmation email again</button></div>
+            <button class="btn" type="submit" style="width:100%">Sign in</button>
+            <div class="op-google" hidden style="margin-top:10px"><button class="btn ghost" type="button" data-google style="width:100%">Continue with Google</button></div>
+          </form>
+
+          <form id="fSignup" data-pane="signup" hidden>
+            <div class="field"><label for="suName">Display name</label><input type="text" id="suName" maxlength="60" autocomplete="name" required><div class="help">Shown on your pieces and comments. Your real name is encouraged but not required.</div></div>
+            <div class="field"><label for="suUser">Username</label><input type="text" id="suUser" maxlength="24" autocomplete="username" pattern="[a-z0-9_]{3,24}" required><div class="help">3 to 24 lowercase letters, numbers or underscores. Used in your profile link.</div></div>
+            <div class="field"><label for="suEmail">Email</label><input type="email" id="suEmail" autocomplete="email" required><div class="help">Never shown publicly.</div></div>
+            <div class="field"><label for="suPass">Password</label><input type="password" id="suPass" minlength="10" maxlength="72" autocomplete="new-password" aria-describedby="suHint" required>
+              <div id="suMeter" aria-hidden="true" style="display:flex;gap:4px;margin-top:6px"><i style="flex:1;height:4px;border-radius:2px;background:var(--line-strong)"></i><i style="flex:1;height:4px;border-radius:2px;background:var(--line-strong)"></i><i style="flex:1;height:4px;border-radius:2px;background:var(--line-strong)"></i><i style="flex:1;height:4px;border-radius:2px;background:var(--line-strong)"></i></div>
+              <div class="help" id="suHint" aria-live="polite">At least 10 characters. Length matters more than symbols: a short sentence or a few random words is a great password.</div></div>
+            <div class="field"><label class="op-check"><input type="checkbox" id="suAgree" required> <span>I am 18 or older. I agree to the <a href="../terms.html" target="_blank" rel="noopener">Terms</a> and the <a href="guidelines.html" target="_blank" rel="noopener">Opinion Guidelines</a>, and I have read the <a href="../privacy.html" target="_blank" rel="noopener">Privacy policy</a>.</span></label></div>
+            <p class="op-err" role="alert"></p>
+            <button class="btn red" type="submit" style="width:100%">Create account</button>
+            <div class="op-google" hidden style="margin-top:10px"><button class="btn ghost" type="button" data-google style="width:100%">Continue with Google</button><div class="help">By continuing with Google you confirm you are 18 or older and agree to the <a href="../terms.html" target="_blank" rel="noopener">Terms</a> and the Guidelines.</div></div>
+          </form>
+
+          <form id="fReset" data-pane="reset" hidden>
+            <p class="meta" style="margin-top:0">Enter the email you signed up with. If it belongs to an account, we will send a link to choose a new password.</p>
+            <div class="field"><label for="rsEmail">Email</label><input type="email" id="rsEmail" autocomplete="email" required></div>
+            <p class="op-err" role="alert"></p>
+            <button class="btn" type="submit" style="width:100%">Send reset link</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- choose a new password (after following a reset link) -->
+      <div id="recover" hidden>
+        <div class="card">
+          <form id="fNewPass">
+            <p class="meta" style="margin-top:0" id="recoverNote">Choose a new password for your account.</p>
+            <div class="field"><label for="npPass">New password</label><input type="password" id="npPass" minlength="10" maxlength="72" autocomplete="new-password" required><div class="help">At least 10 characters. Length matters more than symbols.</div></div>
+            <p class="op-err" role="alert"></p>
+            <button class="btn" type="submit" style="width:100%">Save new password</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- signed in -->
+      <div id="in" hidden></div>
+
+      <!-- after sign-up when email confirmation is required -->
+      <div id="checkMail" hidden class="card">
+        <h2 style="font-family:var(--serif);margin:0">Check your email</h2>
+        <p style="margin:0">If <b id="cmAddr"></b> can be used for a new account, we have sent a confirmation link to it. Click it to activate your account, then come back here to sign in. You cannot publish until your email is confirmed.</p>
+        <p class="help" style="margin:8px 0 0">Nothing arrived? Check your spam folder, or <button class="op-link" type="button" id="cmResend">send it again</button>.</p>
+        <div id="cmDemo" class="notice warn" hidden style="margin-top:12px"><b>Demo mode:</b> no real email is sent, because accounts live only in this browser. <button class="btn" type="button" id="cmVerify" style="margin-top:8px">Pretend I clicked the link in the email</button></div>
+      </div>
+
+      <p class="help" id="guidelines" style="margin-top:22px">Read the <a href="../terms.html">Terms</a>, the <a href="guidelines.html">Opinion Guidelines</a> and the <a href="../privacy.html">Privacy policy</a>. You must be 18 or older to have an account.</p>
+    </div>
+  </div>
+</main>
+<script src="../assets/site.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="md.js"></script>
+<script src="op.js"></script>
+<script>
+(function(){ if (window.OP_OFF) return;   // Opinions switched off: op.js already showed the coming-soon page
+  const $ = s => document.querySelector(s), esc = OP.esc;
+  const NEXTKEY = 'sin-opinions-next';          // where to send the person after they finish signing up / confirming
+  const stored = () => { try { return OP.safeNext(localStorage.getItem(NEXTKEY)); } catch(e){ return null; } };
+  const next = OP.safeNext(OP.param('next'));
+  if (next) { try { localStorage.setItem(NEXTKEY, next); } catch(e){} }
+  const forget = () => { try { localStorage.removeItem(NEXTKEY); } catch(e){} };
+  let lastEmail = '';
+  let recovering = SINDb.isRecovery();
+  OP.demoBanner();
+
+  if (SINDb.mode === 'demo'){
+    $('#demoHint').innerHTML = '<div class="notice" style="margin-bottom:14px"><b>Demo mode: accounts live only in this browser.</b> Try it out: create your own demo account (you will pretend to confirm your email), or sign in as the demo admin with email <b>editor@demo.local</b> and password <b>demo-admin</b> to see the moderation tools.</div>';
+  }
+
+  function tab(name){
+    document.querySelectorAll('[data-tab]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+    document.querySelectorAll('[data-pane]').forEach(f => { f.hidden = f.dataset.pane !== name; });
+    $('#h').textContent = { signin: 'Sign in', signup: 'Create your account', reset: 'Reset your password' }[name];
+  }
+  document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => tab(b.dataset.tab)));
+
+  function show(which){
+    ['out', 'in', 'recover', 'checkMail'].forEach(k => { $('#' + k).hidden = k !== which; });
+  }
+  function busy(form, on){ form.querySelectorAll('button,input').forEach(x => { x.disabled = on; }); }
+  function handle(form, fn){
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      const er = form.querySelector('.op-err'); er.textContent = '';
+      if (!form.checkValidity()){ form.reportValidity(); return; }
+      busy(form, true);
+      try { await fn(); } catch(x){ er.textContent = x.message; }
+      busy(form, false);
+    });
+  }
+  const done = () => { const n = next || stored(); if (n){ forget(); location.href = n; } else render(); };
+
+  // optional "Continue with Google" (only when config.js says google: true)
+  if (SINDb.googleEnabled && SINDb.googleEnabled()){
+    document.querySelectorAll('.op-google').forEach(x => { x.hidden = false; });
+    document.querySelectorAll('[data-google]').forEach(b => b.addEventListener('click', async () => { try { await SINDb.signInWithGoogle(); } catch(x){ SIN.toast(x.message); } }));
+  }
+  async function resend(email){
+    if (!email){ SIN.toast('Enter your email address first.'); return; }
+    try { await SINDb.resendConfirmation(email); SIN.toast('If that address needs confirming, we have sent the email again.'); } catch(x){ SIN.toast(x.message); }
+  }
+  $('#siResendBtn').addEventListener('click', () => resend($('#siEmail').value));
+  $('#cmResend').addEventListener('click', () => resend(lastEmail));
+  $('#cmVerify').addEventListener('click', async () => {
+    try { await SINDb.demoVerify(lastEmail); SIN.toast('Email confirmed (demo). You can sign in now.'); show('out'); tab('signin'); $('#siEmail').value = lastEmail; $('#siPass').focus(); } catch(x){ SIN.toast(x.message); }
+  });
+
+  // password strength hint
+  const SUPASS = $('#suPass');
+  const HINT0 = 'At least 10 characters. Length matters more than symbols: a short sentence or a few random words is a great password.';
+  function meter(){
+    const st = SINDb.passwordStrength(SUPASS.value), bars = document.querySelectorAll('#suMeter i');
+    const col = ['', 'var(--accent)', '#8a5d0b', '#17643f', '#17643f'][st.score] || 'var(--line-strong)';
+    bars.forEach((b, i) => { b.style.background = i < st.score ? col : 'var(--line-strong)'; });
+    $('#suHint').textContent = !SUPASS.value ? HINT0 : (st.score <= 1 ? st.label + ': ' + (SINDb.passwordIssue(SUPASS.value) || '') : st.label + '. Length matters more than symbols.');
+  }
+  SUPASS.addEventListener('input', meter);
+
+  handle($('#fSignin'), async () => {
+    $('#siResend').hidden = true;
+    try { await SINDb.signIn({ email: $('#siEmail').value, password: $('#siPass').value }); }
+    catch(x){ if (x.code === 'unverified') $('#siResend').hidden = false; throw x; }
+    $('#siPass').value = ''; SIN.toast('Signed in'); done();
+  });
+  $('#suUser').addEventListener('input', e => { const v = e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, ''); if (v !== e.target.value) e.target.value = v; });
+  $('#suName').addEventListener('change', () => {
+    const u = $('#suUser'); if (!u.value) u.value = $('#suName').value.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '').slice(0, 24);
+  });
+  handle($('#fSignup'), async () => {
+    if (!$('#suAgree').checked) throw new Error('Please confirm you are 18 or older and agree to the Terms and the Opinion Guidelines.');
+    lastEmail = $('#suEmail').value.trim().toLowerCase();
+    const r = await SINDb.signUp({ display_name: $('#suName').value, username: $('#suUser').value, email: $('#suEmail').value, password: $('#suPass').value });
+    $('#suPass').value = '';
+    if (r.needsConfirmation){ $('#cmAddr').textContent = lastEmail; $('#cmDemo').hidden = SINDb.mode !== 'demo'; show('checkMail'); return; }
+    SIN.toast('Welcome to Stay Informed'); done();
+  });
+  handle($('#fReset'), async () => {
+    const r = await SINDb.resetPassword($('#rsEmail').value);
+    if (r && r.demo){ recovering = true; $('#recoverNote').textContent = 'Demo mode: no email is sent, because accounts live only in this browser. Choose a new password here.'; show('recover'); $('#h').textContent = 'Choose a new password'; return; }
+    $('#fReset .op-err').innerHTML = '<span class="op-ok">If an account exists for that email, a reset link is on its way. Check your inbox.' + (SINDb.mode === 'demo' ? ' (Demo mode: nothing is actually sent.)' : '') + '</span>';
+  });
+  handle($('#fNewPass'), async () => {
+    await SINDb.updatePassword($('#npPass').value);
+    $('#npPass').value = ''; recovering = false;
+    history.replaceState(null, '', location.pathname);
+    SIN.toast('Password updated'); render();
+  });
+
+  async function render(){
+    if (recovering){ show('recover'); $('#h').textContent = 'Choose a new password'; return; }
+    const u = await SINDb.getUser();
+    if (!u){ show('out'); tab(OP.param('mode') === 'signup' ? 'signup' : (OP.param('mode') === 'reset' ? 'reset' : 'signin')); return; }
+    $('#h').textContent = 'Your account';
+    $('#in').innerHTML =
+      '<div class="card"><div class="op-by" style="font-size:14px">' + OP.avatar(u, 'md') + '<div><b style="color:var(--ink);font-size:17px">' + esc(u.display_name) + '</b>' +
+        (u.is_admin ? ' <span class="op-badge">Admin</span>' : '') + (u.is_banned ? ' <span class="op-badge red">Suspended</span>' : '') +
+        '<br>@' + esc(u.username || '') + ' · ' + esc(u.email || '') + (u.verified === false ? '' : ' <span class="op-badge">Email confirmed</span>') + '</div></div>' +
+      (u.is_banned ? '<div class="notice warn">Your account is suspended. You can still read, but you cannot publish, comment or like.</div>' : '') +
+      (u.verified === false ? '<div class="notice warn">Your email address is not confirmed yet, so you cannot publish or comment. Check your inbox for the confirmation link.</div>' : '') +
+      '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:6px">' +
+        (u.username ? '<a class="btn ghost" href="' + OP.authorUrl(u) + '">Your profile</a>' : '') +
+        (u.is_banned || u.verified === false ? '' : '<a class="btn" href="' + (stored() || 'write.html') + '">' + (stored() ? 'Continue where you left off' : 'Write a piece') + '</a>') +
+        (u.is_admin ? '<a class="btn ghost" href="admin.html">Moderation queue</a>' : '') +
+        '<button class="btn ghost" id="signout">Sign out</button></div></div>' +
+      (SINDb.mode === 'demo' ? '<p class="help" style="margin-top:12px">Demo tools: <button class="op-link" id="resetDemo">Reset all demo data in this browser</button></p>' : '');
+    show('in');
+    $('#signout').addEventListener('click', async () => { forget(); await SINDb.signOut(); SIN.toast('Signed out'); render(); });
+    const rd = $('#resetDemo');
+    if (rd) rd.addEventListener('click', async () => { if (!confirm('Delete every demo account, piece and comment in this browser and restore the samples?')) return; await SINDb.resetDemo(); try { localStorage.removeItem('sin-opinions-draft'); } catch(e){} SIN.toast('Demo data reset'); render(); });
+  }
+  SINDb.onAuthChange((u, ev) => { if (ev === 'PASSWORD_RECOVERY'){ recovering = true; } render(); });
+  render();
+})();
+</script>
+</body>
+</html>

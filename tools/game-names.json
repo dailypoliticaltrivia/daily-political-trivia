@@ -1,0 +1,38 @@
+{
+  "_readme": "ONE place for the display name, tagline and URL slug of the games that are renamed or still provisional (Dark Horse, Caucus Sort, Capitol Climb). The key is the game's 'art' id from games/games.json. 'slug' is the live folder name and 'appliedSlug' the folder that exists now: they are EQUAL until the folder rename. 'plannedSlug' is the slug the later pass will use. TO RENAME THE FOLDERS (do it in one step, once the fact-check agents are done with the bank files): set 'slug' to the 'plannedSlug' value for 'trivia' (dark-horse) and 'dc-journey' (capitol-climb), then run  node tools/apply-game-names.js  from the site folder (it renames the folder, rewrites page titles, meta tags, hub list, About links, the nav line in assets/site.js and every literal games/<old>/ path in the site, tools and tests), then  node tools/build-sitemap.js  and  node tools/apply-head-patch.js. The manual leftovers are listed in audit/rebrand-log.md. Names: see legal/ip/TRADEMARK-CLEARANCE.md (Part 0A for Dark Horse: always present it as 'Dark Horse · Daily Political Trivia' or with a descriptor; no horse imagery). Never put the NYT word for this kind of game in any of these fields.",
+  "games": {
+    "trivia": {
+      "name": "Dark Horse",
+      "slug": "dark-horse",
+      "tagline": "Seven questions, 30 seconds each, one answer apiece. The rarer your correct answer, the more it scores.",
+      "description": "Dark Horse: the daily rarity quiz from Daily Political Trivia. Seven questions, 30 seconds each. The rarer your correct answer, the more it scores.",
+      "appliedSlug": "dark-horse",
+      "plannedSlug": "dark-horse",
+      "alternative": {
+        "name": "Long Ballot",
+        "slug": "long-ballot",
+        "note": "fallbacks if a conflict appears: Long Ballot, Deep Bench, Cloakroom (legal/ip/TRADEMARK-CLEARANCE.md 0A.9); not trademark-checked"
+      }
+    },
+    "caucus-sort": {
+      "name": "Caucus Sort",
+      "slug": "caucus-sort",
+      "tagline": "Sort 16 politician faces into four hidden groups. Four mistakes allowed.",
+      "description": "Sort 16 politician faces into four hidden groups. A new puzzle every day. Four mistakes allowed. Not affiliated with any other puzzle maker.",
+      "appliedSlug": "caucus-sort"
+    },
+    "dc-journey": {
+      "name": "Capitol Climb",
+      "slug": "capitol-climb",
+      "tagline": "Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day.",
+      "description": "Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day. Not affiliated with any other game.",
+      "appliedSlug": "capitol-climb",
+      "alternative": {
+        "name": "Founders Trail",
+        "slug": "founders-trail",
+        "note": "backup name chosen by the owner; not trademark-checked"
+      },
+      "plannedSlug": "capitol-climb"
+    }
+  }
+}

@@ -1,0 +1,3605 @@
+{
+ "bank": "r10-1",
+ "questions": [
+  {
+   "id": "r10-0001",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Etowah, a Mississippian town with tall flat-topped mounds and finely worked copper plates, stands beside a river near Cartersville in which present-day state?",
+   "options": [
+    "Georgia",
+    "Tennessee",
+    "Ohio",
+    "Arkansas"
+   ],
+   "answer": 0,
+   "explain": "Etowah was occupied from about 1000 to 1550; its largest mound rises more than 60 feet above the Etowah River valley."
+  },
+  {
+   "id": "r10-0002",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "At Ocmulgee near Macon, Georgia, archaeologists uncovered the clay floor of a round council building with a raised bench and a bird-shaped platform. What kind of structure was it?",
+   "options": [
+    "A kiva cut into rock",
+    "An earth lodge",
+    "A bark longhouse",
+    "A cedar plank house"
+   ],
+   "answer": 1,
+   "explain": "The Ocmulgee earth lodge, dated to about 1015, was rebuilt by the Park Service in the 1930s over its original floor."
+  },
+  {
+   "id": "r10-0003",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Archaeologists group the shared Mississippian images found on copper plates and shell gorgets from Spiro to Etowah, such as falcon-winged dancers and forked eyes, under what name?",
+   "options": [
+    "The Hopewell Interaction Sphere",
+    "The Eastern Agricultural Complex",
+    "The Southeastern Ceremonial Complex",
+    "The Clovis Tradition"
+   ],
+   "answer": 2,
+   "explain": "The Southeastern Ceremonial Complex, also called the Mississippian Ideological Interaction Sphere, reflects religious ideas shared across many chiefdoms."
+  },
+  {
+   "id": "r10-0004",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Mississippian peoples, including those at Cahokia, played chunkey. What did players do in this game?",
+   "options": [
+    "Kicked a rubber ball through a stone ring",
+    "Raced dugout canoes between villages",
+    "Hit a deerskin ball over a net of cords",
+    "Threw spears at a rolling stone disk"
+   ],
+   "answer": 3,
+   "explain": "Players hurled poles where they thought the rolling disk would stop; polished chunkey stones are found at many Mississippian sites."
+  },
+  {
+   "id": "r10-0005",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Old Oraibi, a Hopi village on Third Mesa that has been lived in since about the 1100s, is in which present-day state?",
+   "options": [
+    "Arizona",
+    "New Mexico",
+    "Colorado",
+    "Utah"
+   ],
+   "answer": 0,
+   "explain": "Oraibi is often cited as one of the oldest continuously inhabited settlements in the United States."
+  },
+  {
+   "id": "r10-0006",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Taos Pueblo, a multistory adobe town lived in for about a thousand years, sits at the foot of the Sangre de Cristo Mountains in which present-day state?",
+   "options": [
+    "Arizona",
+    "New Mexico",
+    "Texas",
+    "Colorado"
+   ],
+   "answer": 1,
+   "explain": "Taos Pueblo was named a National Historic Landmark in 1960 and a UNESCO World Heritage Site in 1992."
+  },
+  {
+   "id": "r10-0007",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Hopi farmers on the dry mesas of northern Arizona raised corn with very little rain. Which method helped them do it?",
+   "options": [
+    "Flooding fields from stone-lined mountain reservoirs",
+    "Building raised garden beds in shallow lakes",
+    "Planting seeds deep in sandy soil to reach moisture",
+    "Clearing new forest plots by burning each spring"
+   ],
+   "answer": 2,
+   "explain": "Hopi dry farming placed seeds as much as a foot deep, in fields sited where runoff and sand held water."
+  },
+  {
+   "id": "r10-0008",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Long before Spaniards arrived, Hopi and other Pueblo weavers made kilts, sashes and blankets from which fiber that they grew themselves?",
+   "options": [
+    "Flax",
+    "Hemp",
+    "Silk",
+    "Cotton"
+   ],
+   "answer": 3,
+   "explain": "Pueblo peoples grew a drought-tolerant cotton; among the Hopi, men traditionally did the weaving."
+  },
+  {
+   "id": "r10-0009",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Mimbres potters of southwestern New Mexico, working from about 1000 to 1130, are best known for what?",
+   "options": [
+    "Black-on-white bowls painted with animals and people",
+    "Glazed blue-and-white tiles for temple walls",
+    "Giant carved stone heads of their rulers",
+    "Copper bells cast in clay molds for trade"
+   ],
+   "answer": 0,
+   "explain": "Many Mimbres bowls were buried with the dead, often with a small hole punched through the bottom."
+  },
+  {
+   "id": "r10-0010",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Tlingit and other northern Northwest Coast weavers made Chilkat robes, worn at ceremonies, from what materials?",
+   "options": [
+    "Bison hair and cotton thread",
+    "Mountain goat wool and cedar bark",
+    "Sheep wool and linen thread",
+    "Turkey feathers and yucca cord"
+   ],
+   "answer": 1,
+   "explain": "A single Chilkat robe, woven in bold formline designs, could take a weaver a year or more to finish."
+  },
+  {
+   "id": "r10-0011",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Northwest Coast peoples traded oil rendered from the eulachon along inland routes called grease trails. What is a eulachon?",
+   "options": [
+    "A large sea mammal of the northern Pacific",
+    "A shellfish gathered from tidal flats",
+    "A small, oily fish of the smelt family",
+    "A cedar tree whose sap was boiled down"
+   ],
+   "answer": 2,
+   "explain": "Eulachon are so oily that a dried one can be lit like a candle, which is why they are also called candlefish."
+  },
+  {
+   "id": "r10-0012",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Makah, at the northwestern tip of present-day Washington State, were known for which ocean skill?",
+   "options": [
+    "Diving for pearls in warm lagoons",
+    "Farming kelp in walled sea pens",
+    "Boiling seawater to make salt cakes",
+    "Hunting whales from cedar canoes"
+   ],
+   "answer": 3,
+   "explain": "Makah whaling was central to their culture; their 1855 Treaty of Neah Bay expressly protected the right to hunt whales."
+  },
+  {
+   "id": "r10-0013",
+   "period": 1,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Among many Northwest Coast peoples before European contact, how did a person usually become enslaved?",
+   "options": [
+    "By being captured in a raid on another group",
+    "By being sentenced for debt by a tribal court",
+    "By being sold by a parent during a famine year",
+    "By losing a wager at a potlatch feast"
+   ],
+   "answer": 0,
+   "explain": "Captives taken in raids, and their descendants, formed a slave class owned by high-ranking households."
+  },
+  {
+   "id": "r10-0014",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Why did Iroquoian farming towns in the Northeast usually move to a new site every couple of decades?",
+   "options": [
+    "Spanish slave raiders had found them",
+    "Nearby soil and firewood were worn out",
+    "Spring floods washed away their fields",
+    "Their law forbade burying the dead twice"
+   ],
+   "answer": 1,
+   "explain": "Nearby fields lost fertility and the forest near the palisade was cut over, the standard explanation for why the whole town relocated a few miles away."
+  },
+  {
+   "id": "r10-0015",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Southeastern peoples brewed the ceremonial 'black drink,' a strong caffeinated tea taken before councils, from the leaves of which plant?",
+   "options": [
+    "Tobacco",
+    "Coca",
+    "Yaupon holly",
+    "Cacao"
+   ],
+   "answer": 2,
+   "explain": "Yaupon is the most caffeine-rich plant native to North America; its scientific name, Ilex vomitoria, recalls purging rituals."
+  },
+  {
+   "id": "r10-0016",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Green Corn Ceremony, or Busk, held by the Muscogee (Creek) and other Southeastern peoples, marked what?",
+   "options": [
+    "The first snowfall and the start of winter hunts",
+    "A victory over enemies in a recent war",
+    "The return of migrating bison to the river",
+    "Renewal and forgiveness as the new corn ripened"
+   ],
+   "answer": 3,
+   "explain": "Towns rekindled sacred fires, cleaned houses and forgave many offenses before the new corn could be eaten."
+  },
+  {
+   "id": "r10-0017",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "In 1540 Hernando de Soto's expedition was received by a woman ruler, known to the Spanish as the Lady of Cofitachequi, in what is now which state?",
+   "options": [
+    "South Carolina",
+    "Florida",
+    "Arkansas",
+    "Louisiana"
+   ],
+   "answer": 0,
+   "explain": "The Lady gave the Spaniards pearls, but de Soto took her captive; she later escaped from the expedition."
+  },
+  {
+   "id": "r10-0018",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Among the Taino of the Caribbean, what was a cacique?",
+   "options": [
+    "A carved stone image of a spirit",
+    "A chief who ruled a village or a larger district",
+    "A field of mounded earth for cassava",
+    "A plaza where ball games were played"
+   ],
+   "answer": 1,
+   "explain": "Spaniards carried the Taino word cacique across their empire, using it for Native leaders from Mexico to Peru."
+  },
+  {
+   "id": "r10-0019",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Taino farmers grew cassava in mounded fields called conucos. Before grating bitter cassava roots into bread flour, what did they have to remove?",
+   "options": [
+    "Their thick wax coating",
+    "Their sharp spines",
+    "Their poisonous juice",
+    "Their oily seeds"
+   ],
+   "answer": 2,
+   "explain": "Bitter cassava contains cyanide compounds, so the grated pulp was squeezed dry before baking flat cassava bread."
+  },
+  {
+   "id": "r10-0020",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "The Viceroyalty of Peru, created by Spain in 1542, was governed from which city founded by Francisco Pizarro in 1535?",
+   "options": [
+    "Quito",
+    "Potosi",
+    "Bogota",
+    "Lima"
+   ],
+   "answer": 3,
+   "explain": "Lima, the City of Kings, was the seat of Spanish rule over most of South America for nearly three centuries."
+  },
+  {
+   "id": "r10-0021",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Spain's treasure fleets from Veracruz and the Isthmus of Panama gathered at which Caribbean port before sailing home together under naval escort?",
+   "options": [
+    "Havana",
+    "San Juan",
+    "Santo Domingo",
+    "Kingston"
+   ],
+   "answer": 0,
+   "explain": "Under the fleet system set up in the 1560s, the convoys met at Havana and then caught the Gulf Stream past Florida."
+  },
+  {
+   "id": "r10-0022",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Where was the first printing press in the Americas set up, in 1539?",
+   "options": [
+    "Lima",
+    "Mexico City",
+    "Santo Domingo",
+    "Havana"
+   ],
+   "answer": 1,
+   "explain": "Juan Pablos ran the press for the Seville printer Juan Cromberger; its early books were mostly religious works for missionaries."
+  },
+  {
+   "id": "r10-0023",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Spaniards built Mexico City's cathedral beside the ruined sacred precinct of Tenochtitlan. What was its great pyramid, crowned by twin shrines, called?",
+   "options": [
+    "The Pyramid of the Sun",
+    "El Castillo",
+    "The Templo Mayor",
+    "The Great Pyramid of Cholula"
+   ],
+   "answer": 2,
+   "explain": "Its twin shrines honored Huitzilopochtli and Tlaloc; excavation of its ruins began in earnest in 1978."
+  },
+  {
+   "id": "r10-0024",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which mid-Atlantic island chain, roughly 850 miles west of Portugal, did the Portuguese begin settling in the 1430s?",
+   "options": [
+    "The Canary Islands",
+    "Cape Verde",
+    "The Bahamas",
+    "The Azores"
+   ],
+   "answer": 3,
+   "explain": "The Azores, Madeira and Cape Verde became stepping stones for Portuguese voyages and testing grounds for colonization."
+  },
+  {
+   "id": "r10-0025",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "By about 1500, which Portuguese-settled Atlantic island had become one of Europe's leading sources of sugar?",
+   "options": [
+    "Madeira",
+    "Terceira",
+    "Corsica",
+    "Malta"
+   ],
+   "answer": 0,
+   "explain": "Madeira's sugar mills, worked partly by enslaved people, offered an early model of the plantation system later carried to Brazil."
+  },
+  {
+   "id": "r10-0026",
+   "period": 1,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In 1492, the same year as Columbus's first voyage, Ferdinand and Isabella ordered which group to convert to Christianity or leave Spain?",
+   "options": [
+    "Muslims",
+    "Jews",
+    "Protestants",
+    "Basques"
+   ],
+   "answer": 1,
+   "explain": "The Alhambra Decree forced tens of thousands into exile; Muslims in Castile faced a similar order in 1502."
+  },
+  {
+   "id": "r10-0027",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "The 1469 marriage of Isabella and Ferdinand joined which two Iberian kingdoms, laying the base for a united Spain?",
+   "options": [
+    "Leon and Portugal",
+    "Navarre and Granada",
+    "Castile and Aragon",
+    "Galicia and Valencia"
+   ],
+   "answer": 2,
+   "explain": "Each kingdom kept its own laws, but together the Catholic Monarchs finished the Reconquista and backed Columbus."
+  },
+  {
+   "id": "r10-0028",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Juan de la Cosa, a mapmaker who sailed with Columbus, drew a world map in 1500 that is notable as what?",
+   "options": [
+    "The first map to use the name America",
+    "The first map drawn with the Mercator projection",
+    "The first printed atlas of the known world",
+    "The oldest surviving European map to show the Americas"
+   ],
+   "answer": 3,
+   "explain": "His manuscript chart, now in Madrid, shows Caribbean islands and coastline as a green landmass west of the Atlantic."
+  },
+  {
+   "id": "r10-0029",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "A 1513 world map that survives in part, showing the Atlantic coasts of South America and Africa and said to draw on a Columbus chart, was made by an admiral of which empire?",
+   "options": [
+    "The Ottoman Empire",
+    "The Portuguese Empire",
+    "The Mughal Empire",
+    "The Venetian Republic"
+   ],
+   "answer": 0,
+   "explain": "Piri Reis drew the map on gazelle-skin parchment; it was rediscovered in Istanbul's Topkapi Palace in 1929."
+  },
+  {
+   "id": "r10-0030",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Martin Behaim's globe, made in Nuremberg in 1492 and the oldest surviving globe of the earth, leaves out which landmass?",
+   "options": [
+    "Africa",
+    "The Americas",
+    "Asia",
+    "Europe"
+   ],
+   "answer": 1,
+   "explain": "Finished just before news of Columbus reached Europe, it shows open ocean between Europe and Asia."
+  },
+  {
+   "id": "r10-0031",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Abraham Ortelius's Theatrum Orbis Terrarum, published in Antwerp in 1570, is usually regarded as what?",
+   "options": [
+    "The first globe to show the Pacific",
+    "The first sea chart of Newfoundland",
+    "The first modern atlas",
+    "The first map to show Cuba as an island"
+   ],
+   "answer": 2,
+   "explain": "It gathered uniform maps of the world into one bound book and went through dozens of editions."
+  },
+  {
+   "id": "r10-0032",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Juan Ponce de Leon named Florida in 1513 partly because he arrived near which Christian holiday season?",
+   "options": [
+    "Christmas",
+    "Pentecost",
+    "Advent",
+    "Easter"
+   ],
+   "answer": 3,
+   "explain": "The Spanish called Easter Pascua Florida, the flowery feast, and the coast was also green with plants."
+  },
+  {
+   "id": "r10-0033",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Where did the name California come from?",
+   "options": [
+    "An island of women warriors in a Spanish romance novel",
+    "A Chumash word for the land beyond the sea",
+    "The name of Hernan Cortes's flagship",
+    "A saint honored on the day Cabrillo landed"
+   ],
+   "answer": 0,
+   "explain": "Garci Rodriguez de Montalvo's novel Las Sergas de Esplandian, printed about 1510, described an island named California."
+  },
+  {
+   "id": "r10-0034",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The first recorded smallpox epidemic in the Americas broke out in 1518-1519 on which island before reaching Mexico?",
+   "options": [
+    "Cuba",
+    "Hispaniola",
+    "Jamaica",
+    "Martinique"
+   ],
+   "answer": 1,
+   "explain": "Smallpox ravaged the remaining Taino and soon spread to the mainland, where it struck Tenochtitlan in 1520."
+  },
+  {
+   "id": "r10-0035",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1545 and again in 1576, devastating epidemics killed a large share of the Native people of New Spain. By what name, from the Aztec word for pestilence, are they known?",
+   "options": [
+    "Tlatoani",
+    "Calpulli",
+    "Cocoliztli",
+    "Pochteca"
+   ],
+   "answer": 2,
+   "explain": "The cause of the cocoliztli epidemics is still debated; they were among the deadliest disease outbreaks in Mexico's history."
+  },
+  {
+   "id": "r10-0036",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which animals did Andean peoples domesticate to carry loads and supply wool long before Europeans arrived?",
+   "options": [
+    "Horses and donkeys",
+    "Goats and sheep",
+    "Camels and yaks",
+    "Llamas and alpacas"
+   ],
+   "answer": 3,
+   "explain": "Llama caravans carried goods along Inca roads, while alpaca fleece made fine cloth."
+  },
+  {
+   "id": "r10-0037",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "High in the Andes, people preserved potatoes as chuno, which could keep for years. How did they make it?",
+   "options": [
+    "By freezing them at night and drying them in the sun",
+    "By salting them in sealed clay jars",
+    "By smoking them over slow fires of dung",
+    "By burying them in hot desert sand"
+   ],
+   "answer": 0,
+   "explain": "Repeated frosts, sun and trampling squeezed out the water, leaving light potatoes that fed armies and storehouses."
+  },
+  {
+   "id": "r10-0038",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Machu Picchu, high in the Peruvian Andes, is generally thought to have been built as an estate for which Inca ruler?",
+   "options": [
+    "Atahualpa",
+    "Pachacuti",
+    "Huascar",
+    "Manco Inca"
+   ],
+   "answer": 1,
+   "explain": "Built in the mid-1400s, the site escaped Spanish notice and became internationally famous after Hiram Bingham's 1911 visit."
+  },
+  {
+   "id": "r10-0039",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Inca road system, which ran thousands of miles along the Andes and down the Pacific coast, is known by what Quechua name?",
+   "options": [
+    "The sacbe network",
+    "The Camino Real",
+    "The Qhapaq Nan",
+    "The Natchez Trace"
+   ],
+   "answer": 2,
+   "explain": "Relay runners called chasquis carried messages and quipus along the roads, which included rope suspension bridges."
+  },
+  {
+   "id": "r10-0040",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Inca called their empire Tawantinsuyu. What does the name mean?",
+   "options": [
+    "The children of the sun",
+    "The land of gold",
+    "The great road",
+    "The four parts together"
+   ],
+   "answer": 3,
+   "explain": "The empire was divided into four quarters, or suyus, which met at the capital, Cuzco."
+  },
+  {
+   "id": "r10-0041",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1516 the friar Tomas de Berlanga is credited with bringing which crop from the Canary Islands to Hispaniola?",
+   "options": [
+    "Bananas",
+    "Coffee",
+    "Cacao",
+    "Tobacco"
+   ],
+   "answer": 0,
+   "explain": "Bananas and plantains, originally from Southeast Asia, spread quickly through tropical America after 1516."
+  },
+  {
+   "id": "r10-0042",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "What was the title of the Mexica (Aztec) ruler, a word meaning 'speaker'?",
+   "options": [
+    "Sapa Inca",
+    "Tlatoani",
+    "Cacique",
+    "Calpulli"
+   ],
+   "answer": 1,
+   "explain": "The ruler of Tenochtitlan was the huey tlatoani, or great speaker, chosen from a royal lineage by a council of nobles."
+  },
+  {
+   "id": "r10-0043",
+   "period": 1,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In a Spanish colonial town, what was the cabildo?",
+   "options": [
+    "The royal treasury office",
+    "The parish church",
+    "The town council",
+    "The army garrison"
+   ],
+   "answer": 2,
+   "explain": "Cabildos of leading citizens ran local affairs such as markets, streets and land grants under royal officials."
+  },
+  {
+   "id": "r10-0044",
+   "period": 1,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In colonial New Spain and Peru, what was an obraje?",
+   "options": [
+    "A silver mine owned by the crown",
+    "A mission school for Native children",
+    "A royal warehouse for tobacco",
+    "A textile workshop often run with forced Native labor"
+   ],
+   "answer": 3,
+   "explain": "Obrajes wove woolen and cotton cloth for colonial markets and were notorious for locking in debt-bound workers."
+  },
+  {
+   "id": "r10-0045",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Spain began settling which Caribbean island in 1509 and held it until England seized it in 1655?",
+   "options": [
+    "Jamaica",
+    "Barbados",
+    "Trinidad",
+    "Bermuda"
+   ],
+   "answer": 0,
+   "explain": "Spanish Jamaica's first capital was Sevilla la Nueva on the north coast; England's capture came under Oliver Cromwell."
+  },
+  {
+   "id": "r10-0046",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Which Taino leader, who fled Hispaniola to organize resistance in Cuba, was burned at the stake by the Spanish around 1512?",
+   "options": [
+    "Enriquillo",
+    "Hatuey",
+    "Guacanagari",
+    "Anacaona"
+   ],
+   "answer": 1,
+   "explain": "Hatuey is remembered in Cuba as an early hero of resistance to colonial rule."
+  },
+  {
+   "id": "r10-0047",
+   "period": 1,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The ball used in the Mesoamerican ballgame was a solid ball made from what?",
+   "options": [
+    "Leather",
+    "Wood",
+    "Rubber",
+    "Stone"
+   ],
+   "answer": 2,
+   "explain": "Mesoamericans mixed latex with juice from morning glory vines to make bouncy rubber thousands of years before Europeans did."
+  },
+  {
+   "id": "r10-0048",
+   "period": 1,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "Casa Grande, a four-story building of caliche mud raised near the Gila River in present-day Arizona around 1350, was built by which people?",
+   "options": [
+    "The Mogollon",
+    "The Fremont",
+    "The Mississippians",
+    "The Hohokam"
+   ],
+   "answer": 3,
+   "explain": "Openings in its walls line up with the sun and moon at key times, suggesting it served as an astronomical marker."
+  },
+  {
+   "id": "r10-0049",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Native peoples of the northern woodlands built light canoes covered with the bark of which tree?",
+   "options": [
+    "Birch",
+    "Oak",
+    "Pine",
+    "Maple"
+   ],
+   "answer": 0,
+   "explain": "Birchbark canoes were light enough to carry around rapids, which made them ideal for the river routes of the fur trade."
+  },
+  {
+   "id": "r10-0050",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Wendat (Huron) of present-day southern Ontario traded surplus of which crop to Algonquian hunting peoples farther north?",
+   "options": [
+    "Rice",
+    "Corn",
+    "Wheat",
+    "Barley"
+   ],
+   "answer": 1,
+   "explain": "In return the Wendat received furs, fish and meat, and their trade network later became central to the French fur trade."
+  },
+  {
+   "id": "r10-0051",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Kiliaen van Rensselaer, an Amsterdam merchant, held the most successful patroonship in New Netherland. Where was Rensselaerswyck?",
+   "options": [
+    "On western Long Island near Brooklyn",
+    "Along the Delaware River near Philadelphia",
+    "Along the upper Hudson near present-day Albany",
+    "On Staten Island at the harbor mouth"
+   ],
+   "answer": 2,
+   "explain": "Van Rensselaer never visited; his tenants farmed a vast estate whose manor lasted into the 1800s."
+  },
+  {
+   "id": "r10-0052",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "New York's Brooklyn and Harlem take their names from what?",
+   "options": [
+    "Lenape villages on the sites",
+    "English lords who held land grants",
+    "Dutch West India Company directors",
+    "Towns in the Netherlands"
+   ],
+   "answer": 3,
+   "explain": "Breuckelen and Nieuw Haarlem were named for Breukelen and Haarlem in the Dutch Republic."
+  },
+  {
+   "id": "r10-0053",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "Edward Winslow's letter describing the 1621 harvest celebration at Plymouth, attended by the Wampanoag leader and about 90 of his men, was published in what 1622 pamphlet?",
+   "options": [
+    "Mourt's Relation",
+    "Of Plymouth Plantation",
+    "A Model of Christian Charity",
+    "The Bay Psalm Book"
+   ],
+   "answer": 0,
+   "explain": "Winslow's letter and William Bradford's later history are the only firsthand accounts of the event."
+  },
+  {
+   "id": "r10-0054",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "The Cambridge Platform of 1648 set out what system of church government for New England Puritans?",
+   "options": [
+    "Rule by bishops appointed by the crown",
+    "Congregationalism, with each church governing itself",
+    "A single colony-wide synod that chose all ministers",
+    "Elected elders who answered to the Church of Scotland"
+   ],
+   "answer": 1,
+   "explain": "The platform also declared that civil magistrates should punish heresy and protect the churches."
+  },
+  {
+   "id": "r10-0055",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Harvard College was named in 1639 for John Harvard, a young minister who did what?",
+   "options": [
+    "Served as the college's first president",
+    "Wrote the colony's first law code",
+    "Left the college his library and half his estate",
+    "Translated the Bible into Massachusett"
+   ],
+   "answer": 2,
+   "explain": "Harvard died of tuberculosis in 1638, leaving about 400 books and roughly 780 pounds."
+  },
+  {
+   "id": "r10-0056",
+   "period": 2,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1665 Caleb Cheeshahteaumuck, a Wampanoag from Martha's Vineyard, became the first Native American to do what?",
+   "options": [
+    "Publish a book in English",
+    "Be ordained as a Puritan minister",
+    "Serve in a colonial assembly",
+    "Graduate from Harvard College"
+   ],
+   "answer": 3,
+   "explain": "He studied at Harvard's Indian College, built in the 1650s, but died of tuberculosis within a year of graduating."
+  },
+  {
+   "id": "r10-0057",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 3,
+   "q": "New Haven Colony, founded in 1638 by John Davenport and Theophilus Eaton, stood out even among Puritan colonies for what?",
+   "options": [
+    "Holding trials without juries, since the Bible did not mention them",
+    "Granting the vote to every adult man regardless of faith",
+    "Welcoming Quakers and Baptists as full citizens",
+    "Electing its governor by a vote of all church members, men and women"
+   ],
+   "answer": 0,
+   "explain": "New Haven based its laws closely on scripture; it was absorbed into Connecticut under the 1662 charter."
+  },
+  {
+   "id": "r10-0058",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Collegiate School, founded in Connecticut in 1701, was renamed in 1718 for which donor, a merchant who had grown rich in India?",
+   "options": [
+    "John Harvard",
+    "Elihu Yale",
+    "Eleazar Wheelock",
+    "James Blair"
+   ],
+   "answer": 1,
+   "explain": "Yale's gift of nine bales of goods, 417 books and a portrait of King George I helped pay for the college's first building in New Haven."
+  },
+  {
+   "id": "r10-0059",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Roger Williams's 1643 book A Key into the Language of America described what?",
+   "options": [
+    "A plan to divide New England into towns",
+    "His theology of separating church and civil state",
+    "The language and customs of the Narragansett",
+    "The route from Boston to New Amsterdam"
+   ],
+   "answer": 2,
+   "explain": "Williams wrote it on his voyage to England to get a charter for Providence Plantations."
+  },
+  {
+   "id": "r10-0060",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "In 1679 the English crown separated which territory from Massachusetts and made it a royal province?",
+   "options": [
+    "Maine",
+    "Plymouth",
+    "Vermont",
+    "New Hampshire"
+   ],
+   "answer": 3,
+   "explain": "Massachusetts had governed the towns around Portsmouth since the 1640s; Maine stayed part of Massachusetts until 1820."
+  },
+  {
+   "id": "r10-0061",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 2,
+   "q": "In 1704 the 'Three Lower Counties' of Pennsylvania gained their own assembly, the start of which future state?",
+   "options": [
+    "Delaware",
+    "New Jersey",
+    "Maryland",
+    "West Virginia"
+   ],
+   "answer": 0,
+   "explain": "The counties of New Castle, Kent and Sussex shared Pennsylvania's governor until the Revolution."
+  },
+  {
+   "id": "r10-0062",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 3,
+   "q": "In 1702 East Jersey and West Jersey, which had been run separately by proprietors, were joined in what form?",
+   "options": [
+    "A Quaker commonwealth",
+    "A single royal colony",
+    "A province of New York",
+    "A Dutch trading charter"
+   ],
+   "answer": 1,
+   "explain": "Until 1738 the royal governor of New York also served as governor of New Jersey."
+  },
+  {
+   "id": "r10-0063",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Culpeper's Rebellion of 1677, in the Albemarle region of Carolina, grew out of anger at what?",
+   "options": [
+    "A ban on settlement west of the mountains",
+    "The crown's plan to make Anglicanism the only faith",
+    "Collection of a Navigation Act duty on tobacco",
+    "Raids by Spanish forces from Florida"
+   ],
+   "answer": 2,
+   "explain": "Rebels jailed the acting governor and customs collector and ran the colony for about two years."
+  },
+  {
+   "id": "r10-0064",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "At the 1742 Battle of Bloody Marsh on St. Simons Island, James Oglethorpe's Georgia forces turned back an invasion launched from where?",
+   "options": [
+    "French Louisiana",
+    "Creek towns on the Chattahoochee",
+    "British Jamaica",
+    "Spanish Cuba and Florida"
+   ],
+   "answer": 3,
+   "explain": "The battle, part of the War of Jenkins' Ear, ended Spain's last serious attempt to take Georgia."
+  },
+  {
+   "id": "r10-0065",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Founded in Williamsburg in 1736 by printer William Parks, the Virginia Gazette was the first what in the colony?",
+   "options": [
+    "Newspaper",
+    "Public library",
+    "College press",
+    "Almanac"
+   ],
+   "answer": 0,
+   "explain": "It printed news, laws and advertisements, including notices offering rewards for people who had escaped slavery."
+  },
+  {
+   "id": "r10-0066",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Maryland's first colonists arrived in 1634 aboard which two ships?",
+   "options": [
+    "The Susan Constant and the Discovery",
+    "The Ark and the Dove",
+    "The Arbella and the Talbot",
+    "The Mayflower and the Speedwell"
+   ],
+   "answer": 1,
+   "explain": "More than a hundred settlers (estimates range from about 130 to 200), Catholic and Protestant, landed on St. Clement’s Island in March 1634."
+  },
+  {
+   "id": "r10-0067",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In 1695 Maryland moved its capital from its original settlement near the mouth of the Potomac to which town on the Severn River?",
+   "options": [
+    "Baltimore",
+    "Chestertown",
+    "Annapolis",
+    "Frederick"
+   ],
+   "answer": 2,
+   "explain": "The move followed Protestant control of the colony after 1689; Annapolis was more central and had a fine harbor."
+  },
+  {
+   "id": "r10-0068",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which Gulf Coast town served as the capital of French Louisiana from 1702 until 1720?",
+   "options": [
+    "New Orleans",
+    "Natchez",
+    "Baton Rouge",
+    "Mobile"
+   ],
+   "answer": 3,
+   "explain": "Bienville moved the settlement to its present site in 1711; the capital later shifted to Biloxi and then New Orleans."
+  },
+  {
+   "id": "r10-0069",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "French farming villages of the Illinois Country, such as Kaskaskia, shipped what down the Mississippi to feed New Orleans?",
+   "options": [
+    "Flour and other foodstuffs",
+    "Refined sugar",
+    "Indigo dye",
+    "Cured tobacco"
+   ],
+   "answer": 0,
+   "explain": "Their open-field wheat farms, worked partly by enslaved people, made the Illinois Country a breadbasket for Louisiana."
+  },
+  {
+   "id": "r10-0070",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Spain built the Castillo de San Marcos at St. Augustine, begun in 1672, from coquina. What is coquina?",
+   "options": [
+    "A volcanic rock shipped from Cuba",
+    "A soft limestone made of compacted shells",
+    "Clay bricks fired in local kilns",
+    "Cedar logs packed with sand"
+   ],
+   "answer": 1,
+   "explain": "Coquina absorbed cannonballs instead of shattering, and the fort was never taken by force."
+  },
+  {
+   "id": "r10-0071",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Ville-Marie, founded in 1642 by Paul de Chomedey de Maisonneuve and Jeanne Mance as a Catholic mission, grew into which city?",
+   "options": [
+    "Quebec",
+    "Trois-Rivieres",
+    "Montreal",
+    "Detroit"
+   ],
+   "answer": 2,
+   "explain": "Mance founded the settlement's hospital, the Hotel-Dieu; the island's location made it the hub of the fur trade."
+  },
+  {
+   "id": "r10-0072",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Acadian farmers around the Bay of Fundy turned tidal salt marshes into fields by building what?",
+   "options": [
+    "Terraces cut into the coastal hillsides",
+    "Raised beds floating on rafts in the bay",
+    "Windmills that pumped water out to sea",
+    "Dikes with one-way sluice gates called aboiteaux"
+   ],
+   "answer": 3,
+   "explain": "The gates let fresh water drain out at low tide but kept the sea from flowing in at high tide."
+  },
+  {
+   "id": "r10-0073",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1736 French forces under Bienville were defeated at Ackia, in present-day Mississippi, by which nation, trading partners of the English?",
+   "options": [
+    "The Chickasaw",
+    "The Choctaw",
+    "The Natchez",
+    "The Muscogee (Creek)"
+   ],
+   "answer": 0,
+   "explain": "The Choctaw were France's allies in the war; the Chickasaw kept close ties with Carolina traders."
+  },
+  {
+   "id": "r10-0074",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "In 1730 Sir Alexander Cuming took a delegation of which nation's leaders to London, where they signed a treaty of friendship and trade?",
+   "options": [
+    "The Haudenosaunee",
+    "The Cherokee",
+    "The Catawba",
+    "The Shawnee"
+   ],
+   "answer": 1,
+   "explain": "The seven visitors, including the young Attakullakulla, met King George II."
+  },
+  {
+   "id": "r10-0075",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 3,
+   "q": "The Westo, armed raiders who sold Native captives to Virginia and Carolina traders, were crushed in 1680 by whom?",
+   "options": [
+    "The Spanish garrison at St. Augustine",
+    "Haudenosaunee war parties from New York",
+    "Carolina colonists and their Savannah allies",
+    "French troops sent from Mobile"
+   ],
+   "answer": 2,
+   "explain": "Carolina traders turned against the Westo to take over the Indian slave trade themselves."
+  },
+  {
+   "id": "r10-0076",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In the Great Swamp Fight of December 1675, colonial forces attacked a fortified winter town of which nation in Rhode Island?",
+   "options": [
+    "The Pequot",
+    "The Mohegan",
+    "The Nipmuc",
+    "The Narragansett"
+   ],
+   "answer": 3,
+   "explain": "Hundreds of Narragansett, many of them women and children, were killed, drawing the nation fully into King Philip's War."
+  },
+  {
+   "id": "r10-0077",
+   "period": 2,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Ayuba Suleiman Diallo, a Muslim scholar from West Africa enslaved in Maryland in the 1730s, won his freedom after doing what?",
+   "options": [
+    "Writing a letter in Arabic that reached England",
+    "Escaping to Spanish Florida by canoe",
+    "Suing his owner in a Maryland court",
+    "Buying himself with money from tobacco"
+   ],
+   "answer": 0,
+   "explain": "Oglethorpe and others arranged his release; he returned home in 1734, and a memoir of his life was published in London."
+  },
+  {
+   "id": "r10-0078",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Lucy Terry Prince's poem 'Bars Fight,' about a 1746 raid near Deerfield, Massachusetts, is considered what?",
+   "options": [
+    "The first poem printed in a colonial newspaper",
+    "The oldest known literary work by an African American",
+    "The first song written for a colonial militia",
+    "The earliest captivity narrative by a woman"
+   ],
+   "answer": 1,
+   "explain": "Passed down orally for generations, it first appeared in print in 1854-55, in Josiah Holland’s Springfield newspaper and then his history of western Massachusetts."
+  },
+  {
+   "id": "r10-0079",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 3,
+   "q": "William Tennent's 'Log College' in Pennsylvania, begun around 1727, trained whom?",
+   "options": [
+    "Anglican priests for Virginia parishes",
+    "Quaker teachers for Philadelphia schools",
+    "Revival-minded Presbyterian ministers",
+    "Lutheran pastors for German settlers"
+   ],
+   "answer": 2,
+   "explain": "Its graduates, including Tennent's son Gilbert, became leaders of the Great Awakening; it is seen as a forerunner of Princeton."
+  },
+  {
+   "id": "r10-0080",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Kahal Kadosh Beth Elohim, a Jewish congregation organized in 1749, was founded in which colonial city?",
+   "options": [
+    "Philadelphia",
+    "Newport",
+    "Savannah",
+    "Charleston"
+   ],
+   "answer": 3,
+   "explain": "By the late 1700s Charleston had one of the largest Jewish communities in North America."
+  },
+  {
+   "id": "r10-0081",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "In early Massachusetts, wampum strings could legally be used for what until 1661?",
+   "options": [
+    "Paying debts as currency",
+    "Voting in town meetings",
+    "Proving church membership",
+    "Marking property lines"
+   ],
+   "answer": 0,
+   "explain": "Coins were scarce, so the colony accepted shell beads at set rates for small payments until it ended their legal-tender status."
+  },
+  {
+   "id": "r10-0082",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-cathedral"
+   ],
+   "difficulty": 2,
+   "q": "Michael Wigglesworth's 1662 poem The Day of Doom, a best seller in New England, described what?",
+   "options": [
+    "King Philip's War",
+    "The Last Judgment",
+    "The Salem witch trials",
+    "The founding of Harvard"
+   ],
+   "answer": 1,
+   "explain": "Its long ballad stanzas warned sinners of damnation; many New England families owned a copy alongside the Bible."
+  },
+  {
+   "id": "r10-0083",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Sarah Kemble Knight's journal records her 1704-1705 journey on horseback from Boston to which city?",
+   "options": [
+    "Philadelphia",
+    "Albany",
+    "New York",
+    "Hartford"
+   ],
+   "answer": 2,
+   "explain": "Her lively account of rough inns, river crossings and colonial manners was first published in 1825."
+  },
+  {
+   "id": "r10-0084",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 3,
+   "q": "Edward Randolph, sent to New England by the crown in 1676, reported that Massachusetts was doing what?",
+   "options": [
+    "Secretly trading furs with the Spanish",
+    "Preparing to declare war on New France",
+    "Selling its charter to Dutch investors",
+    "Ignoring the Navigation Acts and royal authority"
+   ],
+   "answer": 3,
+   "explain": "His reports helped lead to the 1684 cancellation of the Massachusetts charter."
+  },
+  {
+   "id": "r10-0085",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which insect first reached Virginia in a shipment that arrived in 1622, an import that spread across North America ahead of settlers?",
+   "options": [
+    "The honeybee",
+    "The silkworm",
+    "The ladybug",
+    "The cochineal insect"
+   ],
+   "answer": 0,
+   "explain": "Honeybees are not native to the Americas; they were brought for honey and wax."
+  },
+  {
+   "id": "r10-0086",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "William Bradford wrote of a 'mighty storm of wind and rain' that struck New England in August of which year?",
+   "options": [
+    "1620",
+    "1635",
+    "1675",
+    "1692"
+   ],
+   "answer": 1,
+   "explain": "The Great Colonial Hurricane of 1635 uprooted thousands of trees and wrecked ships along the coast."
+  },
+  {
+   "id": "r10-0087",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "A powerful hurricane in September 1752 flooded which colonial port, driving ships into its streets?",
+   "options": [
+    "Boston",
+    "New York",
+    "Charleston",
+    "Philadelphia"
+   ],
+   "answer": 2,
+   "explain": "The storm surge swept over the low-lying town, destroying wharves and many buildings."
+  },
+  {
+   "id": "r10-0088",
+   "period": 2,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1630 the Massachusetts Bay Colony began paying bounties for killing which animal, a threat to colonists' livestock?",
+   "options": [
+    "The beaver",
+    "The black bear",
+    "The mountain lion",
+    "The wolf"
+   ],
+   "answer": 3,
+   "explain": "Bounties and clearing of forests had wiped out wolves from most of southern New England by the 1700s."
+  },
+  {
+   "id": "r10-0089",
+   "period": 2,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 2,
+   "q": "In 1609 Samuel de Champlain joined Algonquin, Wendat and Montagnais allies in a battle against which nation, near the lake that now bears his name?",
+   "options": [
+    "The Mohawk",
+    "The Abenaki",
+    "The Mahican",
+    "The Mi'kmaq"
+   ],
+   "answer": 0,
+   "explain": "Champlain's guns killed several Mohawk leaders, starting decades of hostility between the Haudenosaunee and New France."
+  },
+  {
+   "id": "r10-0090",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "To protect Mexico City from flooding, Spanish authorities began in 1607 a huge project to drain water from its lake basin. What was it called?",
+   "options": [
+    "The Acequia Madre",
+    "The Desague",
+    "The Camino Real",
+    "The Chinampa Canal"
+   ],
+   "answer": 1,
+   "explain": "Enrico Martinez directed the work, which used Native laborers to dig a tunnel and later a great open cut at Huehuetoca."
+  },
+  {
+   "id": "r10-0091",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "George Washington's great-grandfather John Washington came to Virginia in 1656 in what role?",
+   "options": [
+    "As a royal governor's secretary",
+    "As a minister of the Church of England",
+    "As a mate on a merchant ship trading for tobacco",
+    "As an indentured servant on a plantation"
+   ],
+   "answer": 2,
+   "explain": "After the ship ran aground on the Potomac, he stayed, married and became a planter and militia officer."
+  },
+  {
+   "id": "r10-0092",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "George Washington was born in 1732 at Popes Creek, on the Northern Neck peninsula, in which county?",
+   "options": [
+    "Fairfax",
+    "Albemarle",
+    "Culpeper",
+    "Westmoreland"
+   ],
+   "answer": 3,
+   "explain": "The birthplace house burned in 1779; the site is now George Washington Birthplace National Monument."
+  },
+  {
+   "id": "r10-0093",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 2,
+   "q": "Washington spent much of his boyhood at Ferry Farm, across the Rappahannock River from which town?",
+   "options": [
+    "Fredericksburg",
+    "Charlottesville",
+    "Williamsburg",
+    "Richmond"
+   ],
+   "answer": 0,
+   "explain": "His father Augustine died there in 1743, when George was eleven."
+  },
+  {
+   "id": "r10-0094",
+   "period": 2,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "In 1748 the sixteen-year-old George Washington joined a survey of western Virginia lands owned by which proprietor?",
+   "options": [
+    "William Penn",
+    "Thomas, Lord Fairfax",
+    "Lord Baltimore",
+    "Lord Dunmore"
+   ],
+   "answer": 1,
+   "explain": "Fairfax's Northern Neck grant stretched to the Shenandoah Valley; the trip led to Washington's first job as a surveyor."
+  },
+  {
+   "id": "r10-0095",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 2,
+   "q": "In 1752 Lewis Hallam's company of London actors opened its first American season in which colonial capital?",
+   "options": [
+    "Boston",
+    "Annapolis",
+    "Williamsburg",
+    "New Haven"
+   ],
+   "answer": 2,
+   "explain": "They began with The Merchant of Venice; Puritan Boston still banned stage plays."
+  },
+  {
+   "id": "r10-0096",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1896 a hydroelectric plant at Niagara Falls began sending power to Buffalo, more than 20 miles away, using which system championed by George Westinghouse?",
+   "options": [
+    "Direct current from Thomas Edison's dynamos",
+    "Compressed air piped through iron mains",
+    "Steam carried in insulated underground pipes",
+    "Alternating current based on Nikola Tesla's patents"
+   ],
+   "answer": 3,
+   "explain": "The Adams Power Plant showed that alternating current could carry electricity long distances, settling the 'war of the currents.'"
+  },
+  {
+   "id": "r10-0097",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Ottmar Mergenthaler's Linotype machine, first used by the New York Tribune in 1886, sped up what task?",
+   "options": [
+    "Setting lines of type for printing",
+    "Folding and bundling newspapers",
+    "Sending news stories over telegraph lines",
+    "Making paper from wood pulp"
+   ],
+   "answer": 0,
+   "explain": "Casting a whole line of metal type at once let papers print more pages each day and helped make big-city dailies cheap."
+  },
+  {
+   "id": "r10-0098",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Frank W. Woolworth's chain of stores, which grew from a successful shop in Lancaster, Pennsylvania, in 1879, was built on what idea?",
+   "options": [
+    "Delivering goods ordered from a catalog by mail",
+    "Selling goods at fixed prices of five and ten cents",
+    "Letting customers buy goods on monthly credit",
+    "Selling only to members who paid a yearly fee"
+   ],
+   "answer": 1,
+   "explain": "Woolworth's open counters and low fixed prices helped create the five-and-dime store."
+  },
+  {
+   "id": "r10-0099",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "James B. Duke built his tobacco empire in the 1880s after adopting which invention, then formed the American Tobacco Company in 1890?",
+   "options": [
+    "The Corliss steam engine",
+    "The Westinghouse air brake",
+    "The Bonsack cigarette-rolling machine",
+    "The Sholes typewriter"
+   ],
+   "answer": 2,
+   "explain": "One Bonsack machine could roll as many cigarettes as dozens of hand workers; the Supreme Court broke up Duke's trust in 1911."
+  },
+  {
+   "id": "r10-0100",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which soft drink did Atlanta pharmacist John Pemberton create in 1886?",
+   "options": [
+    "Pepsi-Cola",
+    "Dr Pepper",
+    "Root beer",
+    "Coca-Cola"
+   ],
+   "answer": 3,
+   "explain": "Pemberton sold it as a soda-fountain tonic; Asa Candler later bought the business and built it into a national brand."
+  },
+  {
+   "id": "r10-0101",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1891 a brawl in Valparaiso that killed two sailors from the USS Baltimore nearly led to war between the United States and which country?",
+   "options": [
+    "Chile",
+    "Peru",
+    "Argentina",
+    "Mexico"
+   ],
+   "answer": 0,
+   "explain": "Chile paid an indemnity of $75,000 after President Benjamin Harrison demanded an apology."
+  },
+  {
+   "id": "r10-0102",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "An 1893 arbitration in Paris ruled against U.S. claims to control the Bering Sea in a dispute with Britain over hunting what?",
+   "options": [
+    "Sea otters",
+    "Fur seals",
+    "Bowhead whales",
+    "Walruses"
+   ],
+   "answer": 1,
+   "explain": "The tribunal rejected U.S. claims but set hunting rules; the 1911 North Pacific Fur Seal Convention later saved the herds."
+  },
+  {
+   "id": "r10-0103",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "In 1867, the same year as the Alaska purchase, the United States took possession of which uninhabited Pacific atoll?",
+   "options": [
+    "Wake",
+    "Guam",
+    "Midway",
+    "Tutuila"
+   ],
+   "answer": 2,
+   "explain": "Captain William Reynolds of the USS Lackawanna claimed it in August 1867; the Navy saw it as a possible coaling station."
+  },
+  {
+   "id": "r10-0104",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "In 1873 Spanish authorities in Cuba executed dozens of crew and passengers, including Americans, from which captured ship, nearly causing war?",
+   "options": [
+    "The Caroline",
+    "The Trent",
+    "The Merrimack",
+    "The Virginius"
+   ],
+   "answer": 3,
+   "explain": "Secretary of State Hamilton Fish settled the crisis by diplomacy, and Spain later paid an indemnity."
+  },
+  {
+   "id": "r10-0105",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "arlington-cemetery"
+   ],
+   "difficulty": 2,
+   "q": "In November 1868 George Custer's 7th Cavalry attacked the Cheyenne camp of Black Kettle, who had survived Sand Creek, on which river in present-day Oklahoma?",
+   "options": [
+    "The Washita",
+    "The Little Bighorn",
+    "The Powder",
+    "The Platte"
+   ],
+   "answer": 0,
+   "explain": "Black Kettle and his wife were among those killed; the attack was part of Sheridan's winter campaign on the southern Plains."
+  },
+  {
+   "id": "r10-0106",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Congress admitted Utah as a state in 1896 only after Utah agreed to which condition, long demanded by federal officials?",
+   "options": [
+    "A ban on Mormon officeholders",
+    "A permanent ban on polygamy",
+    "Moving the capital from Salt Lake City",
+    "Giving up its public lands to railroads"
+   ],
+   "answer": 1,
+   "explain": "The 1894 enabling act required the ban 'forever'; Utah's constitution also restored women's right to vote."
+  },
+  {
+   "id": "r10-0107",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1893, which state became the first where male voters approved women's suffrage in a popular referendum?",
+   "options": [
+    "Wyoming",
+    "Idaho",
+    "Colorado",
+    "Washington"
+   ],
+   "answer": 2,
+   "explain": "Wyoming had granted women the vote as a territory in 1869; Colorado's voters approved it by referendum in 1893."
+  },
+  {
+   "id": "r10-0108",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Johns Hopkins University, which opened in Baltimore in 1876, became a model for American universities by stressing what?",
+   "options": [
+    "Free tuition for every student from Maryland",
+    "Military drill and engineering for officers",
+    "Manual labor as part of every course",
+    "Graduate study and research on the German model"
+   ],
+   "answer": 3,
+   "explain": "Its graduate seminars, modeled on German universities, trained a generation of American scholars and set the pattern for the research university."
+  },
+  {
+   "id": "r10-0109",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Thomas Eakins's 1875 painting The Gross Clinic shocked many viewers with its frank depiction of what?",
+   "options": [
+    "A surgery in progress before medical students",
+    "A lynching in a Southern town square",
+    "A strike by steelworkers in Pittsburgh",
+    "A bare-knuckle boxing match in a saloon"
+   ],
+   "answer": 0,
+   "explain": "The Centennial Exhibition's art jury rejected it, and it hung instead in an Army hospital display at the fair."
+  },
+  {
+   "id": "r10-0110",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Hamlin Garland's 1891 story collection Main-Travelled Roads portrayed what?",
+   "options": [
+    "High society in New York and Newport",
+    "The hard lives of Midwestern farm families",
+    "Mining camps of the California gold rush",
+    "Immigrant sweatshops of Chicago"
+   ],
+   "answer": 1,
+   "explain": "Garland’s realism drew on his own youth on farms in Wisconsin and Iowa and his years in Dakota Territory."
+  },
+  {
+   "id": "r10-0111",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which best-selling 1880 novel, subtitled A Tale of the Christ, was written by former Union general Lew Wallace?",
+   "options": [
+    "Quo Vadis",
+    "In His Steps",
+    "Ben-Hur",
+    "Looking Backward"
+   ],
+   "answer": 2,
+   "explain": "Wallace finished it while serving as governor of New Mexico Territory; it became one of the best-selling American novels of the 1800s."
+  },
+  {
+   "id": "r10-0112",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Ohio-born poet won national fame with Lyrics of Lowly Life in 1896 and briefly worked at the Library of Congress?",
+   "options": [
+    "Langston Hughes",
+    "Countee Cullen",
+    "Claude McKay",
+    "Paul Laurence Dunbar"
+   ],
+   "answer": 3,
+   "explain": "Dunbar, whose parents had been enslaved in Kentucky, wrote in both standard English and dialect; he died in 1906."
+  },
+  {
+   "id": "r10-0113",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "John Philip Sousa, born in Washington, D.C., led which band from 1880 to 1892 before writing 'The Stars and Stripes Forever'?",
+   "options": [
+    "The U.S. Marine Band",
+    "The U.S. Army Band",
+    "The Boston Pops Orchestra",
+    "The U.S. Navy Band"
+   ],
+   "answer": 0,
+   "explain": "The Marine Band, 'The President's Own,' plays at the White House; Sousa's march became the national march by law in 1987."
+  },
+  {
+   "id": "r10-0114",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1869, which baseball club became the first to field a team of openly salaried professional players?",
+   "options": [
+    "The Brooklyn Atlantics",
+    "The Cincinnati Red Stockings",
+    "The New York Knickerbockers",
+    "The Chicago White Stockings"
+   ],
+   "answer": 1,
+   "explain": "Managed by Harry Wright, the Red Stockings toured the country and went unbeaten in 1869."
+  },
+  {
+   "id": "r10-0115",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The bicycle craze of the 1890s, set off by the 'safety' bicycle with two equal wheels and a chain drive, had what social effect?",
+   "options": [
+    "It ended the use of horses in American cities",
+    "It led Congress to build a national road network",
+    "It gave women more freedom to travel on their own",
+    "It made bicycles the main vehicle for mail delivery"
+   ],
+   "answer": 2,
+   "explain": "Susan B. Anthony said in 1896 that the bicycle had done more to emancipate women than anything else in the world."
+  },
+  {
+   "id": "r10-0116",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which showman's touring Wild West exhibition, begun in 1883, featured sharpshooter Annie Oakley and, for one season, Sitting Bull?",
+   "options": [
+    "P. T. Barnum",
+    "Wild Bill Hickok",
+    "Ned Buntline",
+    "William F. Cody"
+   ],
+   "answer": 3,
+   "explain": "Buffalo Bill's show turned the frontier into mass entertainment and toured Europe as well; Sitting Bull joined it in 1885."
+  },
+  {
+   "id": "r10-0117",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Engineer George Ferris built his giant observation wheel, more than 250 feet tall, for which event?",
+   "options": [
+    "The 1893 World's Columbian Exposition in Chicago",
+    "The 1876 Centennial Exhibition in Philadelphia",
+    "The 1889 Paris Exposition Universelle",
+    "The 1895 Cotton States Exposition in Atlanta"
+   ],
+   "answer": 0,
+   "explain": "Chicago meant the wheel to outdo the Eiffel Tower, built for the 1889 Paris fair."
+  },
+  {
+   "id": "r10-0118",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In 1893, Clara Barton's American Red Cross spent months helping survivors of a hurricane that devastated which area?",
+   "options": [
+    "The Florida Keys",
+    "The Sea Islands of South Carolina",
+    "Galveston Island, Texas",
+    "The Outer Banks of North Carolina"
+   ],
+   "answer": 1,
+   "explain": "The storm killed well over a thousand people, many of them Black farmers on islands near Beaufort."
+  },
+  {
+   "id": "r10-0119",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Beginning in 1871, the Fisk Jubilee Singers raised money for their Nashville university by doing what?",
+   "options": [
+    "Selling a best-selling book of slave narratives",
+    "Holding a national lottery for Black schools",
+    "Touring the U.S. and Europe singing spirituals",
+    "Giving speeches for Republican candidates"
+   ],
+   "answer": 2,
+   "explain": "They sang for President Grant in 1872 and for Queen Victoria in 1873, and their tours paid for Fisk's Jubilee Hall."
+  },
+  {
+   "id": "r10-0120",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house"
+   ],
+   "difficulty": 1,
+   "q": "Frederick Douglass served for more than twenty years as a trustee of which university in Washington, chartered by Congress in 1867?",
+   "options": [
+    "Georgetown University",
+    "Gallaudet University",
+    "Catholic University",
+    "Howard University"
+   ],
+   "answer": 3,
+   "explain": "Howard, named for Freedmen's Bureau commissioner Oliver O. Howard, admitted students regardless of race or sex."
+  },
+  {
+   "id": "r10-0121",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "house-floor",
+    "mlk-memorial"
+   ],
+   "difficulty": 2,
+   "q": "George Henry White of North Carolina, elected to the House in 1896, is remembered as what?",
+   "options": [
+    "The last Black member of Congress for nearly 28 years",
+    "The first Black member to chair a House committee",
+    "The first Black Speaker of a state legislature",
+    "The only Black Democrat in Congress before 1935"
+   ],
+   "answer": 0,
+   "explain": "When he left in 1901 he predicted Black Americans would return to Congress; Oscar De Priest was seated in 1929."
+  },
+  {
+   "id": "r10-0122",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "mlk-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Which Memphis-born educator living in Washington became the first president of the National Association of Colored Women in 1896?",
+   "options": [
+    "Ida B. Wells",
+    "Mary Church Terrell",
+    "Frances E. W. Harper",
+    "Madam C. J. Walker"
+   ],
+   "answer": 1,
+   "explain": "Terrell, among the first Black women to earn a college degree, later helped win a 1953 case ending segregated restaurants in D.C."
+  },
+  {
+   "id": "r10-0123",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 3,
+   "q": "The Presidential Succession Act of 1886 placed whom next in line after the vice president?",
+   "options": [
+    "The president pro tempore of the Senate",
+    "The Speaker of the House",
+    "The Cabinet, starting with the secretary of state",
+    "The chief justice of the Supreme Court"
+   ],
+   "answer": 2,
+   "explain": "Congress acted after Vice President Thomas Hendricks died in 1885; a 1947 law put the Speaker back in line."
+  },
+  {
+   "id": "r10-0124",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "In 1876, Secretary of War William Belknap was impeached over bribes tied to what?",
+   "options": [
+    "Contracts for Navy ironclad ships",
+    "Pensions for Union veterans",
+    "Land grants to western railroads",
+    "A trading post at a frontier Army fort"
+   ],
+   "answer": 3,
+   "explain": "Belknap resigned just before the House voted; the Senate held a trial anyway, and he was acquitted."
+  },
+  {
+   "id": "r10-0125",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "Chester Arthur hired which designer to redecorate the White House in 1882, adding a famous stained-glass screen to the entrance hall?",
+   "options": [
+    "Louis Comfort Tiffany",
+    "Stanford White",
+    "Augustus Saint-Gaudens",
+    "Frederick Law Olmsted"
+   ],
+   "answer": 0,
+   "explain": "Arthur reportedly had wagonloads of old furnishings auctioned off; Theodore Roosevelt removed the Tiffany screen in 1902."
+  },
+  {
+   "id": "r10-0126",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "First Lady Caroline Harrison served as the first president general of which organization founded in 1890?",
+   "options": [
+    "The National American Woman Suffrage Association",
+    "The Daughters of the American Revolution",
+    "The Woman's Christian Temperance Union",
+    "The General Federation of Women's Clubs"
+   ],
+   "answer": 1,
+   "explain": "She also oversaw a major renovation of the White House and began its collection of presidential china."
+  },
+  {
+   "id": "r10-0127",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Francis Bellamy wrote the original Pledge of Allegiance in 1892 for school celebrations of what?",
+   "options": [
+    "The 100th anniversary of the Bill of Rights",
+    "The opening of Ellis Island",
+    "The 400th anniversary of Columbus's first voyage",
+    "The dedication of Grant's Tomb"
+   ],
+   "answer": 2,
+   "explain": "It first appeared in the magazine The Youth's Companion, and schoolchildren recited it at Columbus Day events that October."
+  },
+  {
+   "id": "r10-0128",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Katharine Lee Bates wrote the poem 'America the Beautiful' after an 1893 trip to the summit of which mountain?",
+   "options": [
+    "Mount Washington",
+    "Longs Peak",
+    "Mount Rainier",
+    "Pikes Peak"
+   ],
+   "answer": 3,
+   "explain": "Bates, an English professor at Wellesley, first published the poem in 1895; it was later set to Samuel Ward's hymn tune."
+  },
+  {
+   "id": "r10-0129",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre",
+    "lincoln-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In 1876 a gang of counterfeiters tried to steal Abraham Lincoln's body from his tomb in Springfield, Illinois. What did they want?",
+   "options": [
+    "A cash ransom and the release of a jailed engraver",
+    "Proof that Lincoln had not been murdered",
+    "Revenge for the hanging of the conspirators",
+    "The gold buttons buried with the president"
+   ],
+   "answer": 0,
+   "explain": "Secret Service agents had been tipped off and broke up the plot; Lincoln's coffin was later sealed in concrete."
+  },
+  {
+   "id": "r10-0130",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "fords-theatre",
+    "lincoln-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In 1875, who had Mary Todd Lincoln declared insane at a court hearing in Chicago and committed to a private asylum?",
+   "options": [
+    "Her sister Elizabeth",
+    "Her son Robert",
+    "Her doctor, Charles Leale",
+    "Senator Charles Sumner"
+   ],
+   "answer": 1,
+   "explain": "She was released within months and declared sane by a court in 1876; she died in Springfield in 1882."
+  },
+  {
+   "id": "r10-0131",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 3,
+   "q": "John Wilkes Booth's brother Edwin, the leading Shakespearean actor of his day, founded what in New York in 1888?",
+   "options": [
+    "The Metropolitan Opera House",
+    "The Actors' Equity union",
+    "The Players, a club for actors and artists",
+    "The first Broadway theater district"
+   ],
+   "answer": 2,
+   "explain": "Edwin Booth gave his Gramercy Park house to the club and lived there until his death in 1893."
+  },
+  {
+   "id": "r10-0132",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial"
+   ],
+   "difficulty": 3,
+   "q": "In 1866 the American merchant ship General Sherman was burned and its crew killed after it sailed up the Taedong River toward which Korean city?",
+   "options": [
+    "Seoul",
+    "Busan",
+    "Chuncheon",
+    "Pyongyang"
+   ],
+   "answer": 3,
+   "explain": "The incident fed American interest in forcing Korea, the 'Hermit Kingdom,' to open to trade."
+  },
+  {
+   "id": "r10-0133",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "pentagon"
+   ],
+   "difficulty": 3,
+   "q": "In 1871 a U.S. naval expedition stormed Korean forts on which island guarding the river approach to Seoul?",
+   "options": [
+    "Ganghwa Island",
+    "Jeju Island",
+    "Wolmi Island",
+    "Ulleung Island"
+   ],
+   "answer": 0,
+   "explain": "American forces won the fighting but withdrew without a treaty; Korea's government stayed closed to the U.S. for another decade."
+  },
+  {
+   "id": "r10-0134",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "korean-war-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "The 1882 treaty negotiated by Commodore Robert Shufeldt made the United States the first Western nation to do what?",
+   "options": [
+    "Open trade with Japan",
+    "Sign a treaty with Korea",
+    "Lease a port in China",
+    "Annex islands in Samoa"
+   ],
+   "answer": 1,
+   "explain": "The treaty with the Joseon kingdom promised 'good offices' if a third power treated either nation unjustly."
+  },
+  {
+   "id": "r10-0135",
+   "period": 6,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "Which ornate Second Empire building, finished in 1888 just west of the White House, housed three executive departments under one roof?",
+   "options": [
+    "The Pension Building",
+    "The Old Post Office",
+    "The State, War, and Navy Building",
+    "The Patent Office Building"
+   ],
+   "answer": 2,
+   "explain": "Designed by Alfred Mullett, it is now the Eisenhower Executive Office Building and holds White House staff offices."
+  },
+  {
+   "id": "r10-0136",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Congress created the National Zoological Park in Washington in 1889 partly at the urging of William Hornaday, who wanted to save which animal?",
+   "options": [
+    "The passenger pigeon",
+    "The gray wolf",
+    "The bald eagle",
+    "The American bison"
+   ],
+   "answer": 3,
+   "explain": "Hornaday kept bison on the Mall behind the Smithsonian Castle before the zoo opened; he later led the Bronx Zoo."
+  },
+  {
+   "id": "r10-0137",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "Spencer Baird, later secretary of the Smithsonian, headed which federal agency created in 1871 to study declining fish stocks?",
+   "options": [
+    "The U.S. Fish Commission",
+    "The U.S. Forest Service",
+    "The Bureau of Reclamation",
+    "The National Park Service"
+   ],
+   "answer": 0,
+   "explain": "Baird set up a marine lab at Woods Hole, Massachusetts, and the commission raised and stocked fish across the country."
+  },
+  {
+   "id": "r10-0138",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 2,
+   "q": "Which federal agency, created in 1879 with Clarence King as its first director, mapped the nation's land and mineral resources?",
+   "options": [
+    "The General Land Office",
+    "The U.S. Geological Survey",
+    "The Army Corps of Engineers",
+    "The Bureau of Mines"
+   ],
+   "answer": 1,
+   "explain": "John Wesley Powell succeeded King in 1881 and expanded the survey's mapping of the arid West."
+  },
+  {
+   "id": "r10-0139",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The 1894 Hinckley fire, which killed more than 400 people, raced through logged-over pine land in which state?",
+   "options": [
+    "Michigan",
+    "Wisconsin",
+    "Minnesota",
+    "Oregon"
+   ],
+   "answer": 2,
+   "explain": "Slash left by loggers fueled the firestorm; trains carried hundreds of survivors to safety."
+  },
+  {
+   "id": "r10-0140",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In 1879 engineer James Eads completed jetties at the Mississippi River's South Pass. What were they meant to do?",
+   "options": [
+    "Divert floodwater into Lake Pontchartrain",
+    "Keep salt water out of New Orleans wells",
+    "Trap sediment to build new farmland",
+    "Make the river scour a deep channel for oceangoing ships"
+   ],
+   "answer": 3,
+   "explain": "Narrowing the channel sped the current, which carried away silt and opened the port of New Orleans to large ships."
+  },
+  {
+   "id": "r10-0141",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Ferdinand de Lesseps, builder of the Suez Canal, led a French attempt to dig a canal across Panama in the 1880s. Why did it fail?",
+   "options": [
+    "Disease, landslides and bankruptcy",
+    "A U.S. naval blockade of the isthmus",
+    "A war between Colombia and France",
+    "Opposition from the British navy"
+   ],
+   "answer": 0,
+   "explain": "Yellow fever and malaria killed thousands of workers, and the company collapsed in 1889 amid scandal."
+  },
+  {
+   "id": "r10-0142",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Sequoia National Park, created by Congress in 1890, was set aside mainly to protect what?",
+   "options": [
+    "Hot springs and geysers",
+    "Groves of giant sequoia trees",
+    "Wintering grounds for elk",
+    "Ancient cliff dwellings"
+   ],
+   "answer": 1,
+   "explain": "Congress created Yosemite National Park, also in California's Sierra Nevada, just days later."
+  },
+  {
+   "id": "r10-0143",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "In the 1870s and 1880s, huge 'bonanza farms' using hired crews and machinery grew wheat in which region?",
+   "options": [
+    "The Central Valley of California",
+    "The Shenandoah Valley of Virginia",
+    "The Red River Valley of Dakota and Minnesota",
+    "The Mississippi Delta"
+   ],
+   "answer": 2,
+   "explain": "Some covered tens of thousands of acres; many were set up by Northern Pacific Railroad investors."
+  },
+  {
+   "id": "r10-0144",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Audubon societies of the 1880s and 1890s, many led by women, campaigned against which fashion?",
+   "options": [
+    "Coats made from beaver fur",
+    "Shoes made from alligator hide",
+    "Combs carved from tortoiseshell",
+    "Hats decorated with wild bird feathers"
+   ],
+   "answer": 3,
+   "explain": "Boston's Harriet Hemenway and Minna Hall founded the Massachusetts Audubon Society in 1896 to fight the plume trade."
+  },
+  {
+   "id": "r10-0145",
+   "period": 6,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "From 1886 to 1918, who managed Yellowstone National Park?",
+   "options": [
+    "The U.S. Army",
+    "The state of Wyoming",
+    "The Northern Pacific Railroad",
+    "The Smithsonian Institution"
+   ],
+   "answer": 0,
+   "explain": "Cavalry troops patrolled against poachers from Fort Yellowstone until the new National Park Service took over."
+  },
+  {
+   "id": "r10-0146",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "In June 1898 the cruiser USS Charleston took which Pacific island from Spain, whose garrison had not heard that war had begun?",
+   "options": [
+    "Wake",
+    "Guam",
+    "Midway",
+    "Saipan"
+   ],
+   "answer": 1,
+   "explain": "Spanish officers thought the American shots were a salute and rowed out to apologize for having no powder to return it."
+  },
+  {
+   "id": "r10-0147",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "Which Librarian of Congress, serving from 1864 to 1897, pushed for the separate library building that opened across from the Capitol in 1897?",
+   "options": [
+    "Herbert Putnam",
+    "John Russell Young",
+    "Ainsworth Rand Spofford",
+    "George Watterston"
+   ],
+   "answer": 2,
+   "explain": "Spofford's push for copyright deposit swelled the collections until books were piled in the Capitol's halls."
+  },
+  {
+   "id": "r10-0148",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor"
+   ],
+   "difficulty": 2,
+   "q": "In 1875, which former president became the only one ever elected to the U.S. Senate after leaving the White House?",
+   "options": [
+    "Millard Fillmore",
+    "Ulysses S. Grant",
+    "Martin Van Buren",
+    "Andrew Johnson"
+   ],
+   "answer": 3,
+   "explain": "Tennessee's legislature elected him; he died a few months later. John Quincy Adams had served in the House after his presidency."
+  },
+  {
+   "id": "r10-0149",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "When Grover Cleveland won in 1884, he became the first Democrat elected president since whom?",
+   "options": [
+    "James Buchanan",
+    "Andrew Johnson",
+    "Franklin Pierce",
+    "Martin Van Buren"
+   ],
+   "answer": 0,
+   "explain": "Republicans had held the White House for 24 years; Andrew Johnson had become president by succession, not election."
+  },
+  {
+   "id": "r10-0150",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 2,
+   "q": "In 1893, during a financial panic, Grover Cleveland secretly had surgery aboard a friend's yacht to remove what?",
+   "options": [
+    "A bullet lodged near his spine",
+    "A tumor from the roof of his mouth",
+    "A kidney stone",
+    "A cataract from one eye"
+   ],
+   "answer": 1,
+   "explain": "The operation was kept secret to avoid alarming markets; it was not confirmed publicly until 1917."
+  },
+  {
+   "id": "r10-0151",
+   "period": 3,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "On May 19, 1780, the sky over New England grew so dark at midday that people lit candles. What do researchers now think caused it?",
+   "options": [
+    "Ash from a volcano in Iceland",
+    "A total eclipse of the sun",
+    "Smoke from huge wildfires in Canada",
+    "Dust blown from the Great Plains"
+   ],
+   "answer": 2,
+   "explain": "A University of Missouri tree-ring study (published 2007, announced 2008) found fire scars in Ontario from 1780; smoke combined with fog and cloud to block the sun."
+  },
+  {
+   "id": "r10-0152",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "washington-monument",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "During the winter of 1779-1780, among the harshest of the century, Washington's Continental Army camped near which New Jersey town?",
+   "options": [
+    "Trenton",
+    "Princeton",
+    "New Brunswick",
+    "Morristown"
+   ],
+   "answer": 3,
+   "explain": "Repeated blizzards buried the camp, and hungry soldiers suffered worse than they had at Valley Forge two years earlier."
+  },
+  {
+   "id": "r10-0153",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 2,
+   "q": "George Washington became president of the Patowmack Company in 1785. What was the company formed to do?",
+   "options": [
+    "Make the Potomac navigable with canals around its falls",
+    "Survey the boundary of the new federal city",
+    "Run ferries between Virginia and Maryland",
+    "Drain the marshes along the Anacostia"
+   ],
+   "answer": 0,
+   "explain": "Washington hoped the river would tie the western settlements to the East; the canal at Great Falls opened in 1802."
+  },
+  {
+   "id": "r10-0154",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 3,
+   "q": "In the 1790s George Washington built an unusual sixteen-sided barn at Mount Vernon. What was it designed for?",
+   "options": [
+    "Drying tobacco leaves in the open air",
+    "Having horses tread wheat to separate the grain",
+    "Housing his herd of mules for the winter",
+    "Storing ice cut from the Potomac"
+   ],
+   "answer": 1,
+   "explain": "Horses walked in circles on an upper floor of slatted boards, and the grain fell through to the floor below, out of the mud and weather."
+  },
+  {
+   "id": "r10-0155",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 3,
+   "q": "In 1784 Benjamin Franklin suggested that a dry fog over Europe and the harsh winter that followed might have been caused by what?",
+   "options": [
+    "Smoke from fires in Siberia",
+    "Smoke from coal fires in London",
+    "A volcanic eruption in Iceland",
+    "Changes in the Gulf Stream"
+   ],
+   "answer": 2,
+   "explain": "Iceland’s Laki fissure had erupted in 1783, releasing huge amounts of sulfur gases; Franklin, then in France, guessed at an Icelandic volcano (he named Hekla)."
+  },
+  {
+   "id": "r10-0156",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "In the 1820s a British fur company sent trapping brigades into the Snake River country to create a 'fur desert.' What was the goal?",
+   "options": [
+    "Burn the grasslands to drive bison north into Canada",
+    "Settle farm families to block the Oregon Trail",
+    "Plant forts on every river leading to California",
+    "Trap out the beaver so Americans would have no reason to come"
+   ],
+   "answer": 3,
+   "explain": "Hudson's Bay Company leader Peter Skene Ogden's brigades stripped the streams of beaver to keep American trappers out of the Oregon Country."
+  },
+  {
+   "id": "r10-0157",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "During the War of 1812, enslaved miners dug large amounts of saltpeter from which Kentucky cave for making gunpowder?",
+   "options": [
+    "Mammoth Cave",
+    "Carlsbad Cavern",
+    "Wind Cave",
+    "Luray Caverns"
+   ],
+   "answer": 0,
+   "explain": "The saltpeter works' wooden vats and pipes still survive in the cave, now a national park."
+  },
+  {
+   "id": "r10-0158",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "white-house",
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In 1805 Lewis and Clark sent President Jefferson a live animal from Fort Mandan that survived the long trip east. What was it?",
+   "options": [
+    "A grizzly bear cub",
+    "A prairie dog",
+    "A bighorn sheep",
+    "A pronghorn"
+   ],
+   "answer": 1,
+   "explain": "The expedition called it a 'barking squirrel'; a magpie from the same shipment also arrived alive."
+  },
+  {
+   "id": "r10-0159",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In the summer of 1805 Lewis and Clark spent about a month hauling their canoes and supplies around the Great Falls of which river?",
+   "options": [
+    "The Columbia",
+    "The Snake",
+    "The Missouri",
+    "The Yellowstone"
+   ],
+   "answer": 2,
+   "explain": "The portage of about 18 miles, over prickly pear and rough ground, was one of the hardest stretches of the journey."
+  },
+  {
+   "id": "r10-0160",
+   "period": 5,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "pentagon"
+   ],
+   "difficulty": 2,
+   "q": "In early 1863, Union troops tried to dig a canal across a bend in the Mississippi River. What did they hope to do?",
+   "options": [
+    "Flood the Confederate capital at Richmond",
+    "Drain swamps to plant cotton for the Union",
+    "Link the river to Lake Pontchartrain",
+    "Bypass Vicksburg's guns on the bluffs"
+   ],
+   "answer": 3,
+   "explain": "The canal across De Soto Point failed, and Grant instead marched his army south and crossed below the city."
+  },
+  {
+   "id": "r10-0161",
+   "period": 5,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 3,
+   "q": "Nevada's Comstock Lode mines of the 1860s and 1870s used enormous amounts of timber to brace their tunnels. Where did much of it come from?",
+   "options": [
+    "Forests around Lake Tahoe",
+    "The redwood coast of northern California",
+    "The pine woods of Michigan",
+    "The Black Hills of Dakota"
+   ],
+   "answer": 0,
+   "explain": "Square-set timbering devoured whole forests in the Sierra Nevada, carried by flumes and railroads."
+  },
+  {
+   "id": "r10-0162",
+   "period": 5,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 3,
+   "q": "California's Great Flood of 1862 was followed by a severe drought in 1863-1864. What was one result?",
+   "options": [
+    "The founding of Los Angeles's water system",
+    "Huge cattle losses that broke many Californio ranchos",
+    "The end of the Gold Rush in the Sierra",
+    "A mass migration of farmers to Oregon"
+   ],
+   "answer": 1,
+   "explain": "Hundreds of thousands of cattle died, and many Mexican-era ranch families lost land they had already been struggling to keep."
+  },
+  {
+   "id": "r10-0163",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The Lincoln Memorial, dedicated in 1922, stands on land that was what in the 1870s?",
+   "options": [
+    "A cemetery for Union soldiers",
+    "A railroad yard and depot",
+    "Tidal mudflats of the Potomac River",
+    "A plantation owned by the Custis family"
+   ],
+   "answer": 2,
+   "explain": "Army engineers dredged the river channel from the 1880s and used the fill to create West Potomac Park."
+  },
+  {
+   "id": "r10-0164",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "A fungus first identified at the Bronx Zoo in 1904 went on to kill billions of which tree, once common in eastern forests?",
+   "options": [
+    "The American elm",
+    "The eastern hemlock",
+    "The sugar maple",
+    "The American chestnut"
+   ],
+   "answer": 3,
+   "explain": "The blight, from imported Asian trees, wiped out mature chestnuts from Maine to Georgia within about 50 years."
+  },
+  {
+   "id": "r10-0165",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "The hurricane of September 21, 1938, which struck with almost no warning and killed hundreds of people, devastated which region?",
+   "options": [
+    "Long Island and New England",
+    "The Florida Keys",
+    "The Texas Gulf Coast",
+    "The Outer Banks"
+   ],
+   "answer": 0,
+   "explain": "Storm surge swept away beach communities in Rhode Island and Connecticut, and winds felled millions of trees."
+  },
+  {
+   "id": "r10-0166",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Which mission's crew took the 1968 'Earthrise' photograph of the earth rising over the moon?",
+   "options": [
+    "Apollo 11",
+    "Apollo 8",
+    "Gemini 4",
+    "Apollo 13"
+   ],
+   "answer": 1,
+   "explain": "Bill Anders took the photo on December 24, 1968; it is often credited with inspiring the environmental movement."
+  },
+  {
+   "id": "r10-0167",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "The first Landsat satellite, launched in 1972, was designed to do what?",
+   "options": [
+    "Relay telephone calls across the Atlantic",
+    "Watch for Soviet missile launches",
+    "Photograph the earth's land to track resources",
+    "Measure the ozone layer over Antarctica"
+   ],
+   "answer": 2,
+   "explain": "Landsat images have recorded changes such as deforestation, farming and urban growth for decades."
+  },
+  {
+   "id": "r10-0168",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 2,
+   "q": "Launched in 1960, TIROS-1 was the first successful satellite of what kind?",
+   "options": [
+    "Communications satellite",
+    "Spy satellite",
+    "Navigation satellite",
+    "Weather satellite"
+   ],
+   "answer": 3,
+   "explain": "In 78 days it sent back thousands of images of cloud cover, showing how satellites could track storms."
+  },
+  {
+   "id": "r10-0169",
+   "period": 8,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Glen Canyon Dam on the Colorado River, whose gates closed in 1963, created which reservoir?",
+   "options": [
+    "Lake Powell",
+    "Lake Mead",
+    "Lake Havasu",
+    "Lake Tahoe"
+   ],
+   "answer": 0,
+   "explain": "Environmentalists mourned the canyons it flooded; the Sierra Club had agreed to it in exchange for blocking the Echo Park dam."
+  },
+  {
+   "id": "r10-0170",
+   "period": 8,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Redwood National Park, created by Congress in 1968, protects old-growth forest in which state?",
+   "options": [
+    "Oregon",
+    "California",
+    "Washington",
+    "Alaska"
+   ],
+   "answer": 1,
+   "explain": "Congress expanded the park in 1978 to protect streams from logging upslope of the tallest trees."
+  },
+  {
+   "id": "r10-0171",
+   "period": 8,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 2,
+   "q": "Hurricane Agnes in June 1972 caused record floods in which state, especially along the Susquehanna River?",
+   "options": [
+    "Florida",
+    "Louisiana",
+    "Pennsylvania",
+    "Massachusetts"
+   ],
+   "answer": 2,
+   "explain": "Agnes was a weak storm at landfall but dropped enormous rain; Wilkes-Barre and Harrisburg were badly flooded."
+  },
+  {
+   "id": "r10-0172",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "What purpose did Thomas Jefferson's 1,000-foot terraced vegetable garden at Monticello serve?",
+   "options": [
+    "A kitchen garden worked only by hired English gardeners",
+    "A model farm for the University of Virginia",
+    "A nursery for trees sent to the federal city",
+    "A testing ground for hundreds of plant varieties"
+   ],
+   "answer": 3,
+   "explain": "Jefferson recorded his plantings in a Garden Book and grew vegetables from around the world, including seeds from the Lewis and Clark expedition."
+  },
+  {
+   "id": "r10-0173",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "culture-ideas"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 2,
+   "q": "In 1774 Thomas Jefferson bought which Virginia landmark, later calling it 'the most sublime of Nature's works'?",
+   "options": [
+    "Natural Bridge",
+    "Great Falls of the Potomac",
+    "Luray Caverns",
+    "Mount Rogers"
+   ],
+   "answer": 0,
+   "explain": "Jefferson acquired the limestone arch and surrounding land from King George III's government and described it in Notes on the State of Virginia."
+  }
+ ]
+}
