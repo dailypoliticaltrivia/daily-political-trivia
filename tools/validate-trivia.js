@@ -95,6 +95,12 @@ for (const f of manifest.banks){
 
     const jp = q.answers.filter(a => a && a.jackpot === true).length;
     if (jp > 1) err(where, `${jp} Dark Horse (jackpot) answers (at most one per question)`);
+    // owner rule (2026-11-15): every playable question has exactly one Dark Horse, weight 5 with a note explaining why it counts
+    if (q.answers.length >= MIN_ANSWERS && jp === 0) err(where, 'no Dark Horse (jackpot) answer: every playable question needs exactly one (a weight-5 answer with a sourced note; see audit/answers-dark-horse-log.md)');
+    q.answers.filter(a => a && a.jackpot === true).forEach(a => {
+      if (a.weight !== 5) err(`${where} "${a.name}"`, 'the Dark Horse (jackpot) answer must have weight 5');
+      if (!a.note || !String(a.note).trim()) err(`${where} "${a.name}"`, 'the Dark Horse (jackpot) answer needs a note explaining why it counts');
+    });
     if (jp) st.jackpots++;
     if (q.answers.length < MIN_ANSWERS) (st.small = st.small || []).push(q.id);
     st.count++;

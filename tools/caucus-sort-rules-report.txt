@@ -43,10 +43,10 @@ Photos found only in the root photos/ folder (not yet published to site/games/co
 [d1 yellow] cur-sen-Dem  (party, 43 famous members, 43 living, lean D)  Current Democratic senators
       top 8: Jon Ossoff, Charles Schumer, John Fetterman, Elissa Slotkin, Amy Klobuchar, Christopher Murphy, Chris Van Hollen, Cory Booker
 [d1 yellow] cur-sen-Rep  (party, 43 famous members, 43 living, lean R)  Current Republican senators
-      top 8: Mitch McConnell, Chuck Grassley, Susan Collins, Ted Cruz, John Cornyn, Cindy Hyde-Smith, John Kennedy, Ashley Moody
+      top 8: Mitch McConnell, Chuck Grassley, Susan Collins, Ted Cruz, John Cornyn, Cindy Hyde-Smith, John Kennedy (LA), Ashley Moody
 [d1 yellow] party-Dem  (party, 162 famous members, 144 living, lean D)  Democrats
       top 8: Jon Ossoff, Barack Obama, Lyndon B. Johnson (hist.), John F. Kennedy (hist.), Franklin D. Roosevelt (hist.), Joe Biden, Bill Clinton, Hakeem Jeffries
-[d1 yellow] party-Rep  (party, 182 famous members, 158 living, lean R)  Republicans
+[d1 yellow] party-Rep  (party, 180 famous members, 156 living, lean R)  Republicans
       top 8: Donald Trump, J.D. Vance, George W. Bush, Mitch McConnell, Ronald Reagan (hist.), Theodore Roosevelt (hist.), Dick Cheney (hist.), Dwight D. Eisenhower (hist.)
 [d1 yellow] db-gov-pres  (pres, 18 famous members, 2 living)  Governors who became president
       top 8: George W. Bush, Franklin D. Roosevelt (hist.), Ronald Reagan (hist.), Bill Clinton, Theodore Roosevelt (hist.), Jimmy Carter (hist.), Thomas Jefferson (hist.), John Tyler (hist.)
@@ -205,11 +205,11 @@ Photos found only in the root photos/ folder (not yet published to site/games/co
 [d3 blue] pres-succeeded  (pres, 9 famous members, 0 living)  Presidents who took over after a death or resignation
       top 8: Lyndon B. Johnson (hist.), Theodore Roosevelt (hist.), Gerald Ford (hist.), Harry S. Truman (hist.), John Tyler (hist.), Calvin Coolidge (hist.), Andrew Johnson (hist.), Chester A. Arthur (hist.)
 [d3 blue] c119-state-LA  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Louisiana
-      top 8: Mike Johnson, John Kennedy, Steve Scalise, Bill Cassidy, Julia Letlow
+      top 8: Mike Johnson, John Kennedy (LA), Steve Scalise, Bill Cassidy, Julia Letlow
 [d3 blue] c119-state-MD  (state, 5 famous members, 5 living)  Members of the 119th Congress (2025-27) from Maryland
       top 8: Chris Van Hollen, Andy Harris, Jamie Raskin, Angela Alsobrooks, Steny Hoyer
 [d3 blue] cur-state-LA  (state, 5 famous members, 5 living)  Current members of Congress from Louisiana
-      top 8: Mike Johnson, John Kennedy, Steve Scalise, Bill Cassidy, Julia Letlow
+      top 8: Mike Johnson, John Kennedy (LA), Steve Scalise, Bill Cassidy, Julia Letlow
 [d3 blue] cur-state-MD  (state, 5 famous members, 5 living)  Current members of Congress from Maryland
       top 8: Chris Van Hollen, Andy Harris, Jamie Raskin, Angela Alsobrooks, Steny Hoyer
 [d3 blue] dem-CA  (state, 11 famous members, 11 living, lean D)  Democrats from California in Congress since 1990
@@ -221,7 +221,7 @@ Photos found only in the root photos/ folder (not yet published to site/games/co
 [d3 blue] dem-MI  (state, 6 famous members, 6 living, lean D)  Democrats from Michigan in Congress since 1990
       top 8: Haley Stevens, Elissa Slotkin, Gary Peters, Rashida Tlaib, Debbie Dingell, Debbie Stabenow
 [d3 blue] dem-NJ  (state, 5 famous members, 5 living, lean D)  Democrats from New Jersey in Congress since 1990
-      top 8: Cory Booker, Mikie Sherrill, Robert Menendez (NJ), Andy Kim, Bill Bradley
+      top 8: Cory Booker, Mikie Sherrill, Bob Menendez Sr., Andy Kim, Bill Bradley
 [d3 blue] dem-NY  (state, 8 famous members, 8 living, lean D)  Democrats from New York in Congress since 1990
       top 8: Hakeem Jeffries, Charles Schumer, Alexandria Ocasio-Cortez, Hillary Clinton, Kathleen Hochul, Kirsten Gillibrand, Thomas Suozzi, Anthony Weiner
 [d3 blue] gov-of-NH  (state, 5 famous members, 5 living)  Governors of New Hampshire
@@ -254,7 +254,7 @@ Photos found only in the root photos/ folder (not yet published to site/games/co
       top 8: Dick Cheney (hist.), Stephen Miller, Susie Wiles, Rahm Emanuel, John H. Sununu, Leon Panetta, James Baker, John Kelly
 [d4 purple] gov-sen  (gov, 20 famous members, 15 living)  Former governors who became senators
       top 8: John Tyler (hist.), Andrew Johnson (hist.), William Henry Harrison (hist.), Strom Thurmond (hist.), Mitt Romney, John Rockefeller, IV (hist.), Angus King, Jr., Mark Warner
-[d4 purple] mayor-higher  (gov, 12 famous members, 8 living)  Former mayors who went on to higher office
+[d4 purple] mayor-higher  (gov, 13 famous members, 9 living)  Former mayors who went on to higher office
       top 8: Gavin Newsom, Grover Cleveland (hist.), Bernard Sanders, Calvin Coolidge (hist.), Andrew Johnson (hist.), Pete Buttigieg, Hubert Humphrey (hist.), Cory Booker
 [d4 purple] leader-sen  (lead, 15 famous members, 10 living)  Senate party leaders and whips
       top 8: Lyndon B. Johnson (hist.), Mitch McConnell, Charles Schumer, John Cornyn, Ted Kennedy (hist.), Hubert Humphrey (hist.), John Thune, Charles Curtis (hist.)
@@ -298,7 +298,7 @@ DROPPED (too few famous members; count/needed):
   [d3] sen-KS (4/5) Senators from Kansas since 1990 -> Roger Marshall, Bob Dole (hist.), Sam Brownback, Jerry Moran
   [d3] cur-state-KY (4/5) Current members of Congress from Kentucky -> Mitch McConnell, Thomas Massie, Rand Paul, Andy Barr
   [d3] sen-KY (2/5) Senators from Kentucky since 1990 -> Mitch McConnell, Rand Paul
-  [d3] sen-LA (2/5) Senators from Louisiana since 1990 -> John Kennedy, Bill Cassidy
+  [d3] sen-LA (2/5) Senators from Louisiana since 1990 -> John Kennedy (LA), Bill Cassidy
   [d3] cur-state-ME (2/5) Current members of Congress from Maine -> Susan Collins, Angus King, Jr.
   [d3] sen-MD (2/5) Senators from Maryland since 1990 -> Chris Van Hollen, Angela Alsobrooks
   [d3] rep-party-MA (1/5) Republicans from Massachusetts in Congress since 1990 -> Scott Brown
@@ -319,7 +319,7 @@ DROPPED (too few famous members; count/needed):
   [d3] cur-state-NH (3/5) Current members of Congress from New Hampshire -> Chris Pappas, Jeanne Shaheen, Margaret Wood Hassan
   [d3] sen-NH (4/5) Senators from New Hampshire since 1990 -> John E. Sununu, Jeanne Shaheen, Margaret Wood Hassan, Kelly Ayotte
   [d2] cur-state-NJ (4/5) Current members of Congress from New Jersey -> Cory Booker, Andy Kim, Jefferson Van Drew, Thomas Kean, Jr.
-  [d2] sen-NJ (4/5) Senators from New Jersey since 1990 -> Cory Booker, Robert Menendez (NJ), Andy Kim, Bill Bradley
+  [d2] sen-NJ (4/5) Senators from New Jersey since 1990 -> Cory Booker, Bob Menendez Sr., Andy Kim, Bill Bradley
   [d3] rep-party-NJ (1/5) Republicans from New Jersey in Congress since 1990 -> Thomas Kean, Jr.
   [d3] cur-state-NM (1/5) Current members of Congress from New Mexico -> Ben Ray Luján
   [d3] sen-NM (1/5) Senators from New Mexico since 1990 -> Ben Ray Luján
@@ -475,12 +475,12 @@ DROPPED (too few famous members; count/needed):
   [d3] gov-of-WY (0/5) Governors of Wyoming
 
 PUZZLE STATS (450 puzzles)
-eligible faces: 452 (living top tier 270, living below top 121, historical 61) | top-tier faces used more than 18x: 197, other faces used more than 18x: 2
+eligible faces: 452 (living top tier 270, living below top 121, historical 61) | top-tier faces used more than 18x: 206, other faces used more than 18x: 3
 people with photos: 15203 | rules kept: 125 of 338 (yellow/green/blue/purple: 26/57/31/11) | dropped: 213
-puzzles: 450 | distinct faces used: 433 | most-repeated face shown 26x (target 18 = 1 in 25; the cap was raised 6 times to 24; faces used more than 18 times: 199, mean uses per face 16.6)
-face use spread: std dev 6.8 | faces used 23x or more: 143 | 26x or more: 10
+puzzles: 450 | distinct faces used: 433 | most-repeated face shown 26x (target 18 = 1 in 25; the cap was raised 0 times to 18; faces used more than 18 times: 209, mean uses per face 16.6)
+face use spread: std dev 6.8 | faces used 23x or more: 133 | 26x or more: 3
 distinct rules used: 122 | duplicate puzzles: 0
 living per puzzle (of 16): min 12, median 15, max 16 | living faces in top tier (eff >= 32000): min 12, median 12 (living floor 18000)
-lowest-fame face per puzzle: min 18011, median 20482 | average fame per puzzle: min 52990, median 118216 | easiest (yellow) group lowest face: min 50683, median 61409
-puzzle gate rejections while generating: could not fill a group 6953, party imbalance among faces 4, one-sided category set 3, near-duplicate titles 1
-json size: 376191 bytes
+lowest-fame face per puzzle: min 18011, median 20480 | average fame per puzzle: min 46812, median 117934 | easiest (yellow) group lowest face: min 50683, median 61409
+puzzle gate rejections while generating: 
+json size: 376227 bytes

@@ -188,3 +188,4 @@ main>.wrap{max-width:calc(720px + var(--gut) * 2)}
 @keyframes dymIn{from{opacity:0;transform:translateY(-4px)}}
 @media (prefers-reduced-motion:reduce){ .tg-fb.dym{animation:none} }
 .sinfx-off .tg-fb.dym{animation:none}
+.tg-jppts{display:inline-block;margin-left:4px;font:700 12px var(--sans);color:var(--warn);white-space:nowrap}

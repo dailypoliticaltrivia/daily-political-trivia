@@ -1021,3 +1021,106 @@ main.mp-page{padding-top:var(--s5);animation:mp-in .32s var(--ease) both}   /* f
 @media (prefers-reduced-motion:reduce){ .mp-games-list a{transition:none} .mp-games-list a:hover{transform:none} }
 @media (max-width:759px){ .mp-games-list{grid-template-columns:1fr} .mp-games-list a{min-height:44px} }
 .mp-eras b:not(.free){text-overflow:ellipsis}
+
+/* ================= round 22: phones, the map is the hero ================= */
+@media (max-width:759px){
+  main.mp-page{padding-top:4px}
+  /* one row: party balance + search icon; the title stays for screen readers */
+  .mp-head{flex-wrap:nowrap;align-items:center;gap:8px;margin-bottom:4px;min-height:44px}
+  .mp-head .mp-headtext{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  .mp-head .mp-search{flex:0 0 44px}
+  .mp-head .mp-search input{min-height:44px;height:44px}
+  .mp-head .mp-search-ic{top:12px;left:12px}
+  .mp-head .mp-search:focus-within{flex-basis:100%}
+  .mp-head:has(.mp-search:focus-within) .mp-balance{display:none}
+  .mp-head .mp-balance{flex:1 1 auto;min-width:0;order:0;display:grid;grid-template-columns:1fr 1fr;gap:0 14px;padding:0;border:0;background:none}
+  .mp-head .mp-balance[hidden]{display:none}
+  .mp-head .mp-bal-row{grid-template-columns:auto minmax(0,1fr);grid-template-areas:"l n" "b b";gap:3px 6px;align-items:baseline}
+  .mp-head .mp-bal-l{grid-area:l;width:auto;font-size:9.5px;letter-spacing:.08em}
+  .mp-head .mp-bal-n{grid-area:n;justify-content:flex-end;gap:7px;font-size:11.5px;min-width:0;overflow:hidden}
+  .mp-head .mp-bal-n span{gap:3px}
+  .mp-head .mp-bal-n i{width:6px;height:6px}
+  .mp-head .mp-bal-bar{grid-area:b;height:4px;border-radius:2px}
+  .mp-head .mp-bal-mid{top:-2px;bottom:-2px}
+  /* mode switch + legend: one compact row that scrolls sideways if it must */
+  .mp-mapcol .mp-key{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;padding:7px 12px;gap:12px;min-height:0;border-top:1px solid var(--line)}
+  .mp-mapcol .mp-key::-webkit-scrollbar{display:none}
+  .mp-key .mp-mode{flex:none;margin:0}
+  .mp-key .mp-mode button{min-height:30px;padding:0 11px;font-size:12px}
+  .mp-key .mp-mode button::after{inset:-7px 0}
+  .mp-key .mp-legend{flex:none;flex-wrap:nowrap;white-space:nowrap;font-size:11.5px;gap:0 10px}
+  /* the sheet's peek is a slim timeline bar */
+  .mp-grip{height:18px}
+  .mp-grip-bar{width:36px;height:4px}
+  .mp-grip::after{top:-12px;height:30px}
+  .mp-panel .mp-time{position:relative;z-index:1;padding:0 12px 0}
+  .mp-panel .mp-time-top{height:44px;gap:0 8px;align-items:center}
+  .mp-panel .mp-playgrp{gap:0}
+  .mp-panel .mp-play{position:relative;width:36px;height:36px;box-shadow:0 1px 5px color-mix(in srgb,var(--mp-brand) 30%,transparent)}
+  .mp-panel .mp-play svg{width:16px;height:16px}
+  .mp-panel .mp-play::after{content:"";position:absolute;inset:-4px}
+  .mp-panel .mp-steps{gap:8px}
+  .mp-panel .mp-steps .mp-step{position:relative;width:36px;height:36px}
+  .mp-panel .mp-step svg{width:13px;height:13px}
+  .mp-panel .mp-step::after{content:"";position:absolute;inset:-4px}
+  .mp-panel .mp-readout{gap:8px;align-items:baseline}
+  .mp-panel .mp-year{font-size:26px;line-height:1}
+  .mp-panel .mp-cong{font-size:12px}
+  .mp-panel .mp-track{height:38px;margin:0 18px}
+  .mp-panel .mp-eras,.mp-panel .mp-eras i{height:20px}
+  .mp-panel .mp-eras i::before{top:6px;height:10px}
+  .mp-panel .mp-rail{top:9px;height:4px}
+  .mp-panel .mp-avail{top:15px}
+  .mp-panel .mp-thumb{top:11px;width:22px;height:22px;margin:-11px 0 0 -11px;border-width:3px}
+  .mp-panel .mp-thumb::after{inset:-11px}
+  .mp-panel .mp-ticks{top:19px;height:19px}
+  .mp-panel .mp-tick{height:3px}
+  .mp-panel .mp-tick.big{height:5px}
+  .mp-panel .mp-tick.big span{top:6px;font-size:10px;line-height:12px}
+  .mp-panel-body{padding-top:12px}
+}
+@media (max-width:759px){
+  .mp-mapcol .mp-key{padding:5px 12px}
+  .mp-key .mp-mode button{min-height:28px}
+  .mp-key .mp-mode button::after{inset:-8px 0}
+}
+/* short phones (SE-class): the slider drops its year labels, the big numeral already says the year */
+@media (max-width:759px) and (max-height:700px){
+  .mp-panel .mp-track{height:26px}
+  .mp-panel .mp-tick.big span{display:none}
+}
+@media (max-width:759px){
+  .mp-head .mp-balance{gap:0 12px}
+  .mp-head .mp-bal-l{font-size:9px;letter-spacing:.06em}
+  .mp-head .mp-bal-n{justify-content:flex-start;gap:6px;font-size:11px}
+  .mp-head .mp-bal-n span{gap:2px}
+  .mp-head .mp-bal-n i{width:5px;height:5px}
+  /* the row scrolls sideways when the legend is long: fade the edge so it reads as more */
+  .mp-mapcol .mp-key{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);padding-right:28px}
+}
+@media (max-width:399px){ .mp-head .mp-bal-n i{display:none} .mp-head .mp-bal-n{gap:5px} .mp-head .mp-balance{gap:0 10px} }
+@media (max-width:759px){ .mp-panel .mp-time{padding-bottom:3px} }
+/* round 22b: numbers never clip (three-party years were cut on desktop too) */
+@media (min-width:760px){ .mp-bal-row{grid-template-columns:auto minmax(64px,1fr) auto} }
+@media (max-width:759px){
+  /* phones: House and Senate as two thin lines (label | bar | numbers) inside the 44px title row */
+  .mp-head .mp-balance{grid-template-columns:minmax(0,1fr);gap:7px 0}
+  .mp-head .mp-bal-row{grid-template-columns:44px minmax(36px,1fr) auto;grid-template-areas:"l b n";gap:0 8px;align-items:center}
+  .mp-head .mp-bal-n{justify-content:flex-end;overflow:visible}
+  .mp-head .mp-bal-n i{display:inline-block}
+  /* real 44px tap boxes, smaller visuals drawn inside */
+  .mp-panel .mp-play{width:44px;height:44px;background:none;box-shadow:none;isolation:isolate;color:var(--mp-on-brand)}
+  .mp-panel .mp-play::after{content:none}
+  .mp-panel .mp-play::before{content:"";position:absolute;inset:4px;z-index:-1;border-radius:50%;background:var(--mp-brand);box-shadow:0 1px 5px color-mix(in srgb,var(--mp-brand) 30%,transparent)}
+  .mp-panel .mp-steps{gap:0}
+  .mp-panel .mp-steps .mp-step{width:44px;height:44px;border:0;background:none}
+  .mp-panel .mp-step::after{content:"";position:absolute;inset:4px;border-radius:50%;border:1px solid var(--line-strong);pointer-events:none}
+  .mp-panel .mp-thumb{width:44px;height:44px;margin:-22px 0 0 -22px;background:none;border:0;box-shadow:none}
+  .mp-panel .mp-thumb::after{inset:0}
+  .mp-panel .mp-thumb::before{content:"";position:absolute;inset:11px;border-radius:50%;background:var(--panel);border:3px solid var(--mp-brand);box-shadow:0 1px 5px rgba(0,0,0,.22)}
+  .mp-panel .mp-thumb:focus-visible{outline-offset:-6px}
+  /* the grip is a full-width 44px handle that straddles the sheet's top edge */
+  .mp-panel .mp-grip{position:absolute;top:-22px;left:0;right:0;height:44px;z-index:2;align-items:flex-end;padding-bottom:9px}
+  .mp-panel .mp-grip::after{content:none}
+  .mp-panel .mp-time{margin-top:22px}
+}

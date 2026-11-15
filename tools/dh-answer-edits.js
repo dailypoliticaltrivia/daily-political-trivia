@@ -54,6 +54,13 @@ for (const e of edits) {
     if (e.surname === false || (e.surname !== true && q.answers.length && q.answers.every(x => x.surname === false))) a.surname = false;
     q.answers.push(a);
     out.push(`add    ${e.q} "${e.name}" w${e.weight}`);
+  } else if (e.op === 'jackpot') {   // { op: "jackpot", name, note }: make an existing answer the question's single Dark Horse (weight 5)
+    const i = q.answers.findIndex(a => a.name === e.name);
+    if (i < 0) { out.push(`skip  ${e.q} jackpot "${e.name}": not found`); continue; }
+    if (q.answers.some(a => a.jackpot)) { out.push(`REFUSED ${e.q} jackpot "${e.name}": the question already has a Dark Horse`); bad++; continue; }
+    if (!e.note) { out.push(`REFUSED ${e.q} jackpot "${e.name}": a note is required`); bad++; continue; }
+    Object.assign(q.answers[i], { weight: 5, note: e.note, jackpot: true });
+    out.push(`jackpot ${e.q} "${e.name}"`);
   } else if (e.op === 'weight') {   // { op: "weight", name, weight }: re-rank an existing non-jackpot answer
     const i = q.answers.findIndex(a => a.name === e.name);
     if (i < 0) { out.push(`skip  ${e.q} weight "${e.name}": not found`); continue; }

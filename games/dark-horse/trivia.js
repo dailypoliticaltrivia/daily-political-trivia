@@ -615,7 +615,8 @@ var LK_CHUNK = 100, lkData = {};
 function lkIndex(qq){
   if (lkData[qq.id]) return lkData[qq.id];
   var rows = qq.answers.map(function(a, i){ return {i:i, a:a, keys:[norm(a.name)].concat((a.aliases || []).map(norm)), tier:tierOf(a)}; });
-  var rare = rows.slice().sort(function(x, y){ return y.tier - x.tier || x.i - y.i; });
+  /* "Rarest first": the Dark Horse always leads, then tiers from Long Shot down */
+  var rare = rows.slice().sort(function(x, y){ return (y.a.jackpot === true) - (x.a.jackpot === true) || y.tier - x.tier || x.i - y.i; });
   var az = rows.slice().sort(function(x, y){ return x.keys[0] < y.keys[0] ? -1 : x.keys[0] > y.keys[0] ? 1 : x.i - y.i; });
   return lkData[qq.id] = {rows:rows, rare:rare, az:az};
 }
@@ -641,8 +642,10 @@ function lkVerdict(qq, text){
 }
 function buildLookup(body, i){
   var qq = Q(i), ix = lkIndex(qq), n = qq.answers.length, st = {sort:'rare', q:'', shown:LK_CHUNK, list:ix.rare};
-  var id = 'lk' + i, open = n <= LK_CHUNK;
+  var id = 'lk' + i, open = n <= LK_CHUNK, jp = jackAnswer(i);
   body.innerHTML = (qq.note ? '<p class="tg-note">' + esc(qq.note) + '</p>' : '') +
+    /* the rarest answer of the question, always shown first after the game */
+    (jp ? '<p class="tg-jpline"><b>' + JACKPOT_SQ + ' The Dark Horse:</b> ' + esc(jp.name) + (jp.note ? '. ' + esc(jp.note) : '') + ' <span class="tg-jppts">+' + JACKPOT_PTS + ' points</span></p>' : '') +
     '<div class="lk"><label class="tg-sub lk-label" for="' + id + '-in">Check an answer</label>' +
     '<div class="lk-row"><input type="text" id="' + id + '-in" class="lk-in" inputmode="text" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Type any answer" aria-describedby="' + id + '-res">' +
     '<button class="btn red lk-go" type="button">Check</button></div>' +

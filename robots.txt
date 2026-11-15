@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 # Replace with your real domain when you set it (tools/site-config.json + node tools/build-sitemap.js prints the line).
-Sitemap: https://dailypoiticaltrivia.com/sitemap.xml
+Sitemap: https://dailypoliticaltrivia.com/sitemap.xml

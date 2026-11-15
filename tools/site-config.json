@@ -1,6 +1,6 @@
 {
   "_help": "Set baseUrl ONCE to your real address (no trailing slash needed). Without a custom domain on GitHub Pages it looks like https://YOURNAME.github.io/REPO-NAME . Then run: node tools/build-sitemap.js",
-  "baseUrl": "https://dailypoiticaltrivia.com",
+  "baseUrl": "https://dailypoliticaltrivia.com",
   "siteName": "Daily Political Trivia",
   "siteShortName": "Daily Political",
   "_brand": "Working name. Change siteName / siteShortName here ONCE, then run: node tools/apply-brand.js (site.js, manifest, page titles and social tags follow).",

@@ -473,7 +473,7 @@
     zoomKey = key;
     if (dbox) animateVB(fit(dbox, 0.08), first ? 0 : 720);
     else if (S.st && V.outlineOnly) animateVB(padTop(fit(bboxOf(S.st), 0.12), isPhone() ? 58 : 50), first ? 0 : 720);
-    else if (S.st && V.sgeo) animateVB(padBottom(padTop(fit(V.sgeo.box || bboxOf(S.st), isPhone() ? 0.06 : 0.1), isPhone() ? 58 : 50), CMP.on ? (isPhone() ? 120 : 30) : S.ghost ? 44 : 0), first ? 0 : 720);
+    else if (S.st && V.sgeo) animateVB(padBottom(padTop(fit(V.sgeo.box || bboxOf(S.st), isPhone() ? 0.06 : 0.1), isPhone() ? 58 : 50), CMP.on ? (isPhone() ? 120 : 30) : S.ghost ? 44 : (isPhone() ? 28 : 0)), first ? 0 : 720);
     else {
       let b = [0, 0, VIEW.w, VIEW.h];
       const ps = Array.from(el.gStates.querySelectorAll('.mp-st'));
@@ -2081,6 +2081,12 @@
     else if (timeEl.parentNode !== mapCol) { mapCol.appendChild(timeEl); trackRect = null; requestAnimationFrame(fitEras); }
     // the tour card: over the map on desktop, at the top of the sheet's content on phones (it would cover the small map)
     if (el.tour && el.tour.parentNode !== el.pbody) el.pbody.insertBefore(el.tour, el.pbody.firstChild);
+    // phones: the party balance shares the title row with the search icon (the title is visually hidden there), so the map gets the height
+    const head = document.querySelector('.mp-head'), srch = document.querySelector('.mp-search');
+    if (el.bal && head && srch) {
+      if (isPhone()) { if (el.bal.parentNode !== head) head.insertBefore(el.bal, srch); }
+      else if (el.bal.parentNode !== mapCol) mapCol.insertBefore(el.bal, mapCol.firstChild);
+    }
   }
   const SHEET = () => {
     const vh = (window.visualViewport ? window.visualViewport.height : window.innerHeight);
@@ -2088,7 +2094,8 @@
     const full = Math.round(vh - tab - 72);
     // peek shows the grip, the docked timeline and the title; half stops just under the map
     const tH = timeEl && timeEl.parentNode === el.panel ? timeEl.offsetHeight : 0;
-    const peek = Math.round(40 + tH + 66);
+    // phones: the peek is just the grip and the slim timeline; the title and summary sit below it (drag up or tap the map)
+    const peek = Math.round(tH ? Math.max(0, el.grip.offsetTop + el.grip.offsetHeight) + tH : 40 + 66);
     const mapBottom = el.wrap.offsetHeight + (document.querySelector('.mp-key') || { offsetHeight: 0 }).offsetHeight;
     const half = Math.round(Math.min(full, Math.max(peek + 120, vh - tab - Math.min(mapBottom, vh * 0.5))));
     document.documentElement.style.setProperty('--mp-peek', peek + 'px');

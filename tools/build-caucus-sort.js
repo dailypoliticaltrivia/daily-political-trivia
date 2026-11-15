@@ -218,12 +218,14 @@ people.forEach(p => {
   p.congLast = p.congLast || last(/Senator|Representative|Congress(man|woman)|Delegate|Resident Commissioner/i);
 });
 // 2026 races not yet called when the data was fetched: the candidate is treated as a possible winner (arguable only). Recheck after certification.
-const PENDING_ELECT = { 'Mary Peltola': { office: 'U.S. Senator', place: 'AK', from: '2027', to: null } };   // Alaska Senate ranked-choice count pending (fact-check 2026-11-13)
-people.forEach(p => { if (PENDING_ELECT[p.name]) (p.elect = p.elect || []).push(Object.assign({}, PENDING_ELECT[p.name])); });
+const PENDING_ELECT = { 'Mary Peltola': { office: 'U.S. Senator', place: 'AK', from: '2027', to: null } };
+const pendingKey = n => /Peltola$/.test(n) ? 'Mary Peltola' : n;   // display name may be 'Mary Sattler Peltola'   // Alaska Senate ranked-choice count pending (fact-check 2026-11-13)
+people.forEach(p => { const k = pendingKey(p.name); if (PENDING_ELECT[k]) (p.elect = p.elect || []).push(Object.assign({}, PENDING_ELECT[k])); });
 // p.future: the same person once their 2027 office starts (2026 winners: Letlow and Brown to the Senate, Donalds governor...). Rules treat it as arguable.
 people.forEach(p => {
   if (!p.elect || !p.elect.length) return;
-  const q = Object.assign({}, p, { roles: p.roles.concat(p.elect), f: new Set(p.f), chambers: p.chambers.slice(), senStates: p.senStates.slice(), repStates: p.repStates.slice(), future: null });
+  const q = Object.assign({}, p, { roles: p.roles.concat(p.elect.map(r => Object.assign({}, r, { from: '2026', future: true }))),   // roleMatch skips roles after 2026; the clone dates them 2026 so rules can see them (fact-check: Becerra, governor of California from 2027)
+    f: new Set(p.f), chambers: p.chambers.slice(), senStates: p.senStates.slice(), repStates: p.repStates.slice(), future: null });
   p.elect.forEach(r => { OFFICE_FLAGS.forEach(([f, re]) => { if (re.test(r.office)) q.f.add(f); }); const sc = stateCode(r.place);
     if (/Senator/i.test(r.office)) { if (!q.chambers.includes('Senate')) q.chambers.push('Senate'); if (sc && !q.senStates.includes(sc)) q.senStates.push(sc); q.senLast = 2027; q.f.add('congress'); }
     if (/Representative/i.test(r.office)) { if (!q.chambers.includes('House')) q.chambers.push('House'); if (sc && !q.repStates.includes(sc)) q.repStates.push(sc); q.f.add('congress'); } });
@@ -393,8 +395,10 @@ people.forEach(p => {
 // two eligible people with the same short display name (John H. Sununu, the governor and chief of staff, and his son John E. Sununu, the senator) keep their middle initial
 { const cnt = new Map(); people.forEach(p => { if (p.elig) cnt.set(p.name, (cnt.get(p.name) || 0) + 1); }); people.forEach(p => { if (p.elig && cnt.get(p.name) > 1 && p.fullName && p.fullName !== p.name) p.name = p.fullName; }); }
 // a face whose first and last name are a president's (Senator John Kennedy of Louisiana / JFK) gets the state too
-{ const presNames = new Set(PRESIDENTS.map(r => { const t = strip(r.name).replace(/[A-Z].s*/g, '').replace(/s+(Jr|Sr).?$/, '').trim().split(/s+/); return (t[0] + ' ' + t[t.length - 1]).toLowerCase(); }));
-  people.forEach(p => { const st = p.states.slice(-1)[0]; if (p.elig && !p.pres && st && presNames.has(strip(p.name).toLowerCase()) ) p.name = p.name + ' (' + st + ')'; }); }
+{ const presNames = new Set(PRESIDENTS.map(r => { const t = strip(r.name).replace(/\b[A-Z]\.\s*/g, '').replace(/,?\s+(Jr|Sr)\.?$/, '').trim().split(/\s+/); return (t[0] + ' ' + t[t.length - 1]).toLowerCase(); }));
+  people.forEach(p => { const st = p.states.slice(-1)[0]; if (p.elig && !p.pres && st && presNames.has(strip(p.name).toLowerCase())) p.name = p.name + ' (' + st + ')'; }); }
+// father and son in the same state and party (fact-check 2026-11-15: Senator Bob Menendez and Rep. Rob Menendez Jr., both New Jersey Democrats)
+{ const NAME_FIX = { M000639: 'Bob Menendez Sr.' }; people.forEach(p => { if (NAME_FIX[p.id]) p.name = NAME_FIX[p.id]; }); }
 // an eligible face whose name is shared by another well-known politician (Mike Rogers of Michigan / of Alabama) gets the state: 'Mike Rogers (MI)'
 { const known = new Map(); people.forEach(p => { if ((p.views || 0) >= 5000 || p.elig) known.set(p.name, (known.get(p.name) || 0) + 1); });
   people.forEach(p => { const st = p.states.slice(-1)[0]; if (p.elig && known.get(p.name) > 1 && st && !p.pres) p.name = p.name + ' (' + st + ')'; }); }
@@ -482,10 +486,10 @@ const LEADER_CH = { S000148: 'S', T000250: 'S', D000563: 'S', B000575: 'H', K000
   L000493: 'S', W000396: 'S', G000141: 'S', S000337: 'S', L000284: 'S', R000347: 'S', F000096: 'S', W000203: 'SH', J000257: 'S', C001008: 'S', U000013: 'SH',
   L000393: 'S', W000521: 'H', G000023: 'S', M000854: 'S', B000508: 'S', J000231: 'S' };
 // conference chairs, secretaries and similar officers are not 'leaders or whips' in the data but fairly read as party leaders: arguable only
-const LEADER_ARG = { F000450: 'H', C001109: 'H', S001196: 'H', M001159: 'H', A000371: 'H', B000287: 'H', C001038: 'H', C001095: 'S', A000360: 'S', E000295: 'S', C001047: 'S', M001111: 'S' };
+const LEADER_ARG = { E000287: 'H', S001194: 'S', P000587: 'H', F000450: 'H', C001109: 'H', S001196: 'H', M001159: 'H', A000371: 'H', B000287: 'H', C001038: 'H', C001095: 'S', A000360: 'S', E000295: 'S', C001047: 'S', M001111: 'S' };
 const leaderCh = p => !p.tags.has('leader') ? '' : LEADER_CH[p.id] || (p.chambers.length === 1 ? (p.chambers[0] === 'Senate' ? 'S' : 'H') : '?');
 addRule('leader-sen', 'lead', 'Senate party leaders and whips', 4, p => leaderCh(p).includes('S'), 5, { amb: p => /S|\?/.test(leaderCh(p)) || p.tags.has('ppt') || LEADER_ARG[p.id] === 'S' });   // presidents pro tempore (e.g. Patty Murray, also a conference officer) are arguable
-addRule('leader-hou', 'lead', 'House party leaders and whips', 3, p => leaderCh(p).includes('H'), 5, { amb: p => /H|\?/.test(leaderCh(p)) || LEADER_ARG[p.id] === 'H' });
+addRule('leader-hou', 'lead', 'House party leaders and whips', 3, p => leaderCh(p).includes('H'), 5, { amb: p => /H|\?/.test(leaderCh(p)) || LEADER_ARG[p.id] === 'H' || p.f.has('speaker') });
 addRule('women-leaders', 'lead', 'Women who led a party or chamber in Congress', 2, p => p.gender === 'Woman' && (p.tags.has('speaker') || p.tags.has('leader') || p.tags.has('ppt')), 4);
 addRule('women', 'demo', 'Women in Congress', 1, p => p.gender === 'Woman' && p.f.has('congress'), 8, { easy: true });   // (a first lady who later served, e.g. Hillary Clinton, is a woman in Congress too)
 addRule('women-sen', 'demo', 'Women who served in the Senate', 1, p => p.gender === 'Woman' && p.chambers.includes('Senate'));
@@ -493,19 +497,21 @@ addRule('women-sen', 'demo', 'Women who served in the Senate', 1, p => p.gender 
   const adj = x === 'Democrat' ? 'Democratic' : 'Republican', lean = x === 'Democrat' ? 'D' : 'R';
   // tests need a one-party career (clean answers); anyone who ever served under the party also "fits", so party switchers are never placed beside these
   addRule('women-' + x, 'party', adj + ' women in Congress', 3, p => p.gender === 'Woman' && p.f.has('congress') && p.parties.length === 1 && p.parties[0] === x, 5, { lean, amb: p => p.gender === 'Woman' && p.f.has('congress') && p.parties.includes(x) });
-  addRule('sen-' + x, 'party', adj + ' senators', 2, p => p.chambers.includes('Senate') && p.parties.length === 1 && p.parties[0] === x, 5, { lean, amb: p => p.chambers.includes('Senate') && (p.parties.includes(x) || x === 'Democrat' && /^(Bernie Sanders|Bernard Sanders|Angus King)$/.test(p.name)) });
+  addRule('sen-' + x, 'party', adj + ' senators', 2, p => p.chambers.includes('Senate') && p.parties.length === 1 && p.parties[0] === x, 5, { lean, amb: p => p.chambers.includes('Senate') && (p.parties.includes(x) || x === 'Democrat' && /^(Bernie Sanders|Bernard Sanders|Angus King)(,? Jr.?)?$/.test(p.name)) });
   addRule('hou-' + x, 'party', adj + ' members of the House', 3, p => p.chambers.includes('House') && p.parties.length === 1 && p.parties[0] === x, 5, { lean, amb: p => p.chambers.includes('House') && (p.parties.includes(x) || x === 'Democrat' && /^(Bernie Sanders|Bernard Sanders)$/.test(p.name)) });   // includes House members who later went to the Senate
 });
 addRule('both-chambers', 'life', 'Members who served in both the House and the Senate', 3, p => p.chambers.includes('House') && p.chambers.includes('Senate'));
 // a party's administration officials, its presidential candidates, its national chairs and the independents who caucus with it also fairly read as
 // "Democrats" / "Republicans" (fact-check 2026-11-13: Bessent, Lutnick, Carson, Podesta, Gruters, Whatley, Sanders)
 const ADM_PARTY = a => /^(Trump|G\.W\. Bush|G\.H\.W\. Bush|Reagan|Ford|Nixon|Eisenhower|Hoover|Coolidge|Harding)$/.test(a) ? 'Republican' : /^(Biden|Obama|Clinton|Carter|Johnson|L\.B\. Johnson|Kennedy|Truman|F\.D\. Roosevelt|Roosevelt)$/.test(a) ? 'Democrat' : null;
-const CAUCUS_D = /^(Bernie Sanders|Bernard Sanders|Angus King)$/;
+const CAUCUS_D = /^(Bernie Sanders|Bernard Sanders|Angus King)(,? Jr.?)?$/;
 // parties a person belonged to outside the offices in the data (fact-check 2026-11-13): arguable for that party's groups
 const OTHER_PARTY = { 'David Jolly': 'Democrat', 'Tulsi Gabbard': 'Republican', 'Rick Perry': 'Democrat', 'Charlie Crist': 'Republican', 'Joe Manchin': 'Independent', 'Kyrsten Sinema': 'Independent', 'Robert F. Kennedy Jr.': 'Independent', 'Robert Kennedy Jr.': 'Independent', 'Michael Bloomberg': 'Republican', 'Lincoln Chafee': 'Republican', 'Arlen Specter': 'Republican', 'Elizabeth Warren': 'Republican', 'Ronald Reagan': 'Democrat', 'Donald Trump': 'Democrat' };
 const partyAmb = x => p => partyIs(x)(p) || OTHER_PARTY[p.name] === x || (x === 'Democrat' && CAUCUS_D.test(p.name)) || p.roles.some(r => ADM_PARTY(admOf(r)) === x ||
   /Candidate$/i.test(r.office) && normParty(r.party) === x || new RegExp('^Chair of the ' + (x === 'Democrat' ? 'Democratic' : 'Republican') + ' National Committee$', 'i').test(r.office));
-const partyClean = (x, y) => p => partyIs(x)(p) && !partyIs(y)(p) && !p.roles.some(r => ADM_PARTY(admOf(r)) === y);   // RFK Jr. (a Democrat until 2023, now in Trump's cabinet) is only arguable
+// the party a switcher belongs to NOW: a clean answer only for that party (Jolly is now a Democrat, Gabbard a Republican; Crist a Democrat, Perry a Republican)
+const NOW_PARTY = { 'David Jolly': 'Democrat', 'Tulsi Gabbard': 'Republican', 'Charlie Crist': 'Democrat', 'Rick Perry': 'Republican', 'Robert F. Kennedy Jr.': 'Independent', 'Robert Kennedy Jr.': 'Independent', 'Michael Bloomberg': 'Democrat', 'Lincoln Chafee': 'Democrat', 'Arlen Specter': 'Democrat', 'Joe Manchin': 'Independent', 'Kyrsten Sinema': 'Independent' };
+const partyClean = (x, y) => p => partyIs(x)(p) && !partyIs(y)(p) && NOW_PARTY[p.name] !== y && !p.roles.some(r => ADM_PARTY(admOf(r)) === y);   // (Jolly, now a Democrat, is only arguable for 'Republicans')   // RFK Jr. (a Democrat until 2023, now in Trump's cabinet) is only arguable
 addRule('party-Dem', 'party', 'Democrats', 1, partyClean('Democrat', 'Republican'), 5, { lean: 'D', amb: partyAmb('Democrat') });
 addRule('party-Rep', 'party', 'Republicans', 1, partyClean('Republican', 'Democrat'), 5, { lean: 'R', amb: partyAmb('Republican') });
 
@@ -550,6 +556,7 @@ const C119 = new Map();
     C119.set(l.id.bioguide, { sen: ts.some(t => t.type === 'sen'), rep: ts.some(t => t.type === 'rep'), state: last.state, party: normParty(last.party === 'Independent' ? 'Independent' : last.party), parties: [...new Set(ts.map(t => normParty(t.party)))] });
   });
 }
+{ const k = C119.get('K000401'); if (k && !k.parties.includes('Republican')) k.parties.push('Republican'); }   // Kevin Kiley: a House Republican until he became an independent on 2026-03-09 (fact-check 2026-11-15)
 C119.set('B000944', { sen: true, rep: false, state: 'OH', party: 'Democrat', parties: ['Democrat'] });   // Sherrod Brown: won the Nov 2026 Ohio special election, takes the seat on 2026-12-15 (fact-check 2026-11-13)
 const c119 = p => C119.get(p.id);
 const c119Sen = p => !!c119(p) && c119(p).sen, c119Hou = p => !!c119(p) && c119(p).rep && !c119(p).sen;
@@ -598,7 +605,7 @@ addRule('partychair', 'exec', 'National party chairs', 4, p => roleMatch(p, /^Ch
 
 // -- governors, mayors
 const BIGCITY = new Set(['New York City', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia', 'Phoenix', 'San Antonio', 'San Diego', 'Dallas', 'San Francisco', 'Boston', 'Washington, D.C.', 'Washington, DC', 'Seattle', 'Atlanta', 'Miami', 'Detroit', 'Denver', 'Las Vegas', 'Baltimore', 'Nashville', 'Charlotte', 'Austin', 'Minneapolis', 'New Orleans', 'San Jose']);
-addRule('gov-2026', 'gov', 'Governors in office during 2026', 2, p => roleMatch(p, /^Governor$/i, r => ry(r) <= 2026 && (!r.to || parseInt(r.to, 10) >= 2026) && stateCode(r.place) && !['PR', 'GU', 'VI', 'AS', 'MP'].includes(stateCode(r.place))), 8, { easy: true, amb: p => roleMatch(p, /^Governor$/i, r => ry(r) <= 2026 && (!r.to || parseInt(r.to, 10) >= 2026)) });   // territorial governors (Gonzalez-Colon, Puerto Rico) are arguable   // dated twin of gov-current for 2027 puzzles
+addRule('gov-2026', 'gov', 'Governors in office during 2026', 2, p => roleMatch(p, /^Governor$/i, r => !r.future && ry(r) <= 2026 && (!r.to || parseInt(r.to, 10) >= 2026) && stateCode(r.place) && !['PR', 'GU', 'VI', 'AS', 'MP'].includes(stateCode(r.place))), 8, { easy: true, amb: p => roleMatch(p, /^Governor$/i, r => !r.future && ry(r) <= 2026 && (!r.to || parseInt(r.to, 10) >= 2026)) });   // territorial governors (Gonzalez-Colon, Puerto Rico) are arguable   // dated twin of gov-current for 2027 puzzles
 const GOV_LEAVING = /Dunleavy/;   // Alaska's governor changed on 2026-12-07 (fact-check 2026-11-13): never shown as current, never beside the group
 addRule('gov-current', 'gov', 'Current governors', 2, p => !GOV_LEAVING.test(p.name) && roleMatch(p, /^Governor$/i, r => !r.to && ry(r) >= 2015 && ry(r) <= 2026 && stateCode(r.place) && !['PR', 'GU', 'VI', 'AS', 'MP'].includes(stateCode(r.place))), 8, { easy: true, amb: p => roleMatch(p, /^Governor$/i, r => !r.to && ry(r) >= 2015 && ry(r) <= 2026 && stateCode(r.place) && !['PR', 'GU', 'VI', 'AS', 'MP'].includes(stateCode(r.place))) });
 // presidents who were governors (Reagan, Clinton, Carter, Bush...) are governors too: the old !p.pres exclusions made those puzzles unfair
