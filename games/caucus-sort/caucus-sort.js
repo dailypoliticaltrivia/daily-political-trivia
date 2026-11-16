@@ -67,10 +67,18 @@
     return { pid: p.id, idx: idx, order: order, solved: [], mistakes: 0, guesses: [], over: null, daily: daily };
   }
   function save() { if (S && S.daily) store('set', K + 'day.' + dayInfo.s, JSON.stringify({ pid: S.pid, idx: S.idx, order: S.order, solved: S.solved, mistakes: S.mistakes, guesses: S.guesses, over: S.over, seen: S.seen, missed: S.missed })); }
+  function puzzleIndex(id) { for (var i = 0; i < DATA.puzzles.length; i++) if (DATA.puzzles[i].id === id) return i; return -1; }
+  // today's puzzle: the admin's pick (data/schedule.json via assets/schedule.js) when it names a known puzzle, else the automatic rotation
+  function dailyIndex() {
+    try { var id = window.SIN_SCHEDULE ? SIN_SCHEDULE.get('caucus', dayInfo.s) : null; if (typeof id === 'string') { var i = puzzleIndex(id); if (i >= 0) return i; } } catch (e) {}
+    return mod(dayInfo.n - EPOCH, DATA.puzzles.length);
+  }
   function loadDaily() {
-    var idx = mod(dayInfo.n - EPOCH, DATA.puzzles.length), p = DATA.puzzles[idx];
+    var idx = dailyIndex(), p = DATA.puzzles[idx];
     var raw = store('get', K + 'day.' + dayInfo.s), st = null;
     try { st = raw ? JSON.parse(raw) : null; } catch (e) { st = null; }
+    // a player who already began today keeps the puzzle they began, even if the admin changed today's puzzle since
+    if (st && typeof st.pid === 'string' && st.pid !== p.id) { var j = puzzleIndex(st.pid); if (j >= 0) { idx = j; p = DATA.puzzles[j]; } }
     if (st && st.pid === p.id && Array.isArray(st.order) && st.order.length === 16) {
       // SECURITY: saved progress comes from localStorage, which anything running on this origin can edit. Re-build the
       // fields that are written into the page as plain numbers so a poisoned value can never become markup.
@@ -283,7 +291,7 @@
   // Shown for today's puzzle until the player presses Start (or Continue when they already began today). The button press
   // is the player action a video pre-roll needs. With ads off Start behaves exactly like a normal start, with no delay.
   function showIntro(started) {
-    var n = DATA.puzzles.length ? mod(dayInfo.n - EPOCH, DATA.puzzles.length) + 1 : 1;
+    var n = DATA.puzzles.length ? loadDaily().idx + 1 : 1;
     root.setAttribute('aria-busy', 'false');
     root.innerHTML = '<div class="cx-intro"><p class="cx-intro-date">Daily puzzle <b>#' + n + '</b> · ' + esc(dayInfo.s) + '</p>' +
       '<p class="cx-intro-rules">Sixteen faces, four hidden groups of four. You can make four mistakes. A new puzzle arrives every day at midnight, your local time.</p>' +
@@ -301,6 +309,9 @@
 
   // ------------------------------------------------------------------ start
   fetch('data/puzzles.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
+    // the admin's schedule (at most ~2.5 s, normally already loaded)
+    return new Promise(function (res) { if (window.SIN_SCHEDULE) SIN_SCHEDULE.ready(function () { res(d); }); else res(d); });
+  }).then(function (d) {
     DATA = d;
     if (mode === 'daily') {
       var d0 = loadDaily();

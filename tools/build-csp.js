@@ -85,7 +85,9 @@ for (const file of walk(root, [])) {
   // browsers ignore it). A page without a real <head> FAILS the build instead of being published without a policy.
   const HEAD = /<head(?=[\s>])[^>]*>/i;
   if (!HEAD.test(html)) { console.error('FAILED (no <head> element, so no policy could be added): ' + rel); process.exitCode = 1; continue; }
-  const metaFinal = rel === '404.html' ? meta.replace("base-uri 'none'", "base-uri 'self'") : meta;
+  let metaFinal = rel === '404.html' ? meta.replace("base-uri 'none'", "base-uri 'self'") : meta;
+  // the admin page (and only it) talks to the GitHub API: it reads and saves data/schedule.json with the admin's own GitHub key
+  if (rel === 'admin/index.html') metaFinal = metaFinal.replace("connect-src 'self'", "connect-src 'self' https://api.github.com");
   // The referrer policy goes in too (only the site name, never the full address, is sent to other sites), on every built page.
   const refMeta = /<meta\s+name=["']referrer["']/i.test(html) ? '' : '\n<meta name="referrer" content="strict-origin-when-cross-origin">';
   // Placement: before any script (a meta CSP only covers what comes after it), but after <meta charset> when that is the first

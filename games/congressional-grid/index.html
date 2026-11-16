@@ -762,6 +762,7 @@ pre.share{margin:0;padding:var(--s3) var(--s4);background:var(--panel-2);border:
 <script src="../../assets/ads/ads-config.js"></script>
 <script src="../../assets/ads/ads-loader.js"></script>
 <script src="../../assets/fx.js"></script>
+<script src="../../assets/schedule.js"></script>
 <script>
 /* Start-up: the page (start screen, header, skeleton) paints first; the ~5 MB data files are then fetched in parallel and run in order
    (dynamic scripts with async=false), and the game engine below starts when the last one has run. Nothing about the game changes. */
@@ -1058,6 +1059,19 @@ function validSaved(s){
   return s && Array.isArray(s.rows) && Array.isArray(s.cols) && s.rows.length===3 && s.cols.length===3
     && s.rows.concat(s.cols).every(k=>byKey(k)) && Array.isArray(s.cells) && s.cells.length===9 && num(s.left);
 }
+/* the admin's pick for this date (data/schedule.json via assets/schedule.js): main Congress grid only, every key known, six different
+   categories and at least one member in every square; anything else falls back to the automatic grid */
+function scheduledGrid(date){
+  try{
+    if(G.key!=='congress' || G.stateCode || !window.SIN_SCHEDULE) return null;
+    const e=SIN_SCHEDULE.get('grid',date);
+    if(!e || !Array.isArray(e.rows) || !Array.isArray(e.cols) || e.rows.length!==3 || e.cols.length!==3) return null;
+    const keys=e.rows.concat(e.cols).map(String), cs=keys.map(byKey);
+    if(cs.some(c=>!c) || new Set(keys).size!==6) return null;
+    for(let r=0;r<3;r++) for(let c=3;c<6;c++) if(overlap(cs[r],cs[c])<1) return null;
+    return {rows:keys.slice(0,3), cols:keys.slice(3)};
+  }catch(err){ return null; }
+}
 function gridFor(gs){ let g=makeGrid(gs); for(let k=2; !g && k<=4; k++) g=makeGrid(gs+'#'+k); return g; }
 function start(newSeed,newMode){
   seed=newSeed; mode=newMode; lastFilled=-1;
@@ -1066,7 +1080,7 @@ function start(newSeed,newMode){
   else {
     const tg=performance.now();
     const gs=G.seed+seed;                                              // separate daily puzzle per game
-    const g=gridFor(gs);
+    const g=(mode==='daily' && scheduledGrid(seed)) || gridFor(gs);
     window.__cgPerf={setupMs:Math.round(setupMs), gridMs:Math.round(performance.now()-tg), members:N, categories:C};
     if(!g){ showFatal(); return; }
     game={rows:g.rows,cols:g.cols,cells:Array(9).fill(null),left:MAX,wrong:0};
@@ -1533,7 +1547,7 @@ fillStateSelect();
 // picker are optional choices for this visit only, so nothing about them is remembered.
 try{ localStorage.removeItem('cg-state'); localStorage.removeItem('cg-game'); }catch(e){}
 curState='';
-setGame('congress', true);
+if(window.SIN_SCHEDULE) SIN_SCHEDULE.ready(()=>setGame('congress', true)); else setGame('congress', true);   // wait (at most ~2.5 s) for the admin's schedule
 // A tab left open past midnight moves on to the new day's grid.
 function checkNewDay(){ if(mode==='daily' && seed!==today()){ start(today(),'daily'); toast('A new daily grid is ready'); } }
 document.addEventListener('visibilitychange',()=>{ if(!document.hidden) checkNewDay(); });

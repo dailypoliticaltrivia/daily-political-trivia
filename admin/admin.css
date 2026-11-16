@@ -1,0 +1,49 @@
+/* Admin page (/admin/): plain, readable, works on a phone. */
+.adm{max-width:860px}
+.adm .lede{margin-top:var(--s2)}
+.adm-note{font:400 15px/1.5 var(--sans);color:var(--muted)}
+.adm-card{border:1px solid var(--line-strong);border-radius:var(--r);background:var(--panel);padding:var(--s4);margin:var(--s4) 0}
+.adm-card h2{font:700 18px var(--sans);margin:0 0 var(--s2)}
+.adm-card h3{font:600 15px var(--sans);margin:var(--s3) 0 var(--s2)}
+.adm-card p,.adm-card li,.adm-card label{font:400 15px/1.5 var(--sans);color:var(--ink-2)}
+.adm-card ol{padding-left:1.3em;margin:0 0 var(--s3)}
+.adm-card a{color:var(--ink);text-underline-offset:3px}
+.adm input[type=text],.adm input[type=password],.adm input[type=search],.adm select{font:400 16px var(--sans);color:var(--ink);background:var(--field);border:1px solid var(--line-strong);border-radius:8px;padding:9px 10px;width:100%;box-sizing:border-box;max-width:100%}
+.adm .row{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;margin:var(--s3) 0 0}
+.adm .btn{min-height:40px}
+.adm-small{font:400 13px/1.4 var(--sans);color:var(--muted)}
+.adm-err{font:600 14px/1.45 var(--sans);color:var(--bad);margin:var(--s2) 0 0}
+.adm-warn{font:500 14px/1.45 var(--sans);color:var(--warn);margin:var(--s2) 0 0}
+.adm-ok{font:600 14px/1.45 var(--sans);color:var(--good);margin:var(--s2) 0 0}
+.adm-top{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;justify-content:space-between;margin:var(--s4) 0 0}
+.adm-seg{display:inline-flex;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden}
+.adm-seg button{font:600 14px var(--sans);background:transparent;color:var(--ink);border:0;padding:9px 16px;cursor:pointer}
+.adm-seg button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.adm-head{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:baseline;justify-content:space-between}
+.adm-badge{font:700 12px var(--sans);text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:999px;border:1px solid var(--line-strong);color:var(--muted)}
+.adm-badge.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.adm-list{list-style:none;padding:0;margin:var(--s2) 0 0}
+.adm-list>li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px var(--s2);align-items:center;border-top:1px solid var(--line);padding:9px 0}
+.adm-list>li:first-child{border-top:0}
+.adm-list .t{font:500 15px/1.4 var(--sans);color:var(--ink)}
+.adm-list .m{font:400 13px/1.35 var(--sans);color:var(--muted)}
+.adm-list .acts{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.adm-mini{font:600 13px var(--sans);background:transparent;color:var(--ink);border:1px solid var(--line-strong);border-radius:8px;padding:6px 10px;cursor:pointer;min-height:34px}
+.adm-mini:hover{border-color:var(--ink)}
+.adm-mini:disabled{opacity:.4;cursor:default}
+.adm-grid-sel{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--s2)}
+.adm-grid-sel label{display:block;font:600 13px var(--sans);color:var(--muted);margin-bottom:4px}
+.adm-cells{border-collapse:collapse;margin:var(--s3) 0 0;width:100%;table-layout:fixed}
+.adm-cells caption{caption-side:top;text-align:left;padding-bottom:6px}
+.adm-cells th,.adm-cells td{border:1px solid var(--line);padding:6px 4px;font:400 13px/1.3 var(--sans);text-align:center;overflow-wrap:break-word;hyphens:auto}
+@media (max-width:480px){ .adm-cells th{font-size:12px} }
+.adm-cells th{color:var(--muted);font-weight:600}
+.adm-cells td.lo{color:var(--bad);font-weight:700}
+.adm-cells td.mid{color:var(--warn);font-weight:700}
+.adm-picker{border:2px solid var(--ink);border-radius:var(--r);padding:var(--s3);margin:var(--s3) 0;background:var(--paper)}
+.adm-picker .res{max-height:360px;overflow:auto;margin-top:var(--s2)}
+.adm-pick{display:block;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--line);padding:8px 2px;cursor:pointer;color:var(--ink);font:400 14px/1.4 var(--sans)}
+.adm-pick:hover,.adm-pick:focus-visible{background:var(--panel-2)}
+.adm-pick small{display:block;color:var(--muted);font-size:12px}
+.adm-save{position:sticky;bottom:calc(var(--tab-h, 0px) + 8px);z-index:5;border:2px solid var(--ink);border-radius:var(--r);background:var(--paper);padding:var(--s3);margin:var(--s5) 0 var(--s4);display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;justify-content:space-between}
+.adm-save p{margin:0;font:500 14px/1.4 var(--sans);color:var(--ink-2)}

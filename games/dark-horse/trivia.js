@@ -455,10 +455,21 @@ function maxScore(){ return S.ids.length * 100; }
 function commit(){ if (persist) save(S); }
 function say(el, msg){ el.textContent = ''; setTimeout(function(){ el.textContent = msg; }, 30); }
 
+/* the admin's pick for this date (data/schedule.json via assets/schedule.js): exactly COUNT different known question ids, easiest first.
+   Anything else (no entry, an unknown id, a repeat) falls back to the automatic daily set. */
+function scheduledSet(date){
+  try {
+    var e = window.SIN_SCHEDULE ? SIN_SCHEDULE.get('darkhorse', date) : null, seen = {};
+    if (!Array.isArray(e) || e.length !== COUNT) return null;
+    var rows = e.map(function(id){ id = String(id); if (seen[id] || !rowById || !rowById[id]) return null; seen[id] = 1; return rowById[id]; });
+    if (rows.some(function(x){ return !x; })) return null;
+    return rows.map(function(x, i){ return [x, i]; }).sort(function(a, b){ return a[0].difficulty - b[0].difficulty || a[1] - b[1]; }).map(function(x){ return x[0]; });
+  } catch(err){ return null; }
+}
 function newGame(mode){
   var date = todayStr();
   /* the daily set is drawn from the whole index; a practice round only from questions that can be loaded here (always all, except in the phone artifact) */
-  var set = mode === 'daily' ? dailySet(pool, date) : pickSet(pool.filter(canLoad), Math.random);
+  var set = mode === 'daily' ? (scheduledSet(date) || dailySet(pool, date)) : pickSet(pool.filter(canLoad), Math.random);
   var ids = set.map(function(x){ return x.id; });
   needLoad(ids, function(){
     S = {v:2, mode:mode, date:date, ids:ids, qi:0, phase:'q', timeLeft:SECONDS, tries:0, given:set.map(function(){ return null; })};
@@ -824,8 +835,9 @@ function boot(){
     /* no index.json deployed (404) or an unusable one: the old whole-bank path. Offline or a server error: friendly error + Retry. */
     if (e && (e.status === 404 || (!e.status && /^(bad|empty) index/.test(e.message)))) return loadBanks();
     throw e;
-  }).then(renderIntro, function(){ pool = []; renderIntro(); });
+  }).then(function(){ return new Promise(function(res){ if (window.SIN_SCHEDULE) SIN_SCHEDULE.ready(res); else res(); }); })   /* the admin's schedule (at most ~2.5 s, normally already loaded) */
+    .then(renderIntro, function(){ pool = []; renderIntro(); });
 }
-boot();
+if (!window.__DH_NO_BOOT) boot();   /* the /admin/ page loads this file only for dailySet(), with __DH_NO_BOOT set */
 if (typeof window.__DH_EXPOSE === 'function') window.__DH_EXPOSE({pickSet:pickSet, dailySet:dailySet, rngFrom:rngFrom, norm:norm, buildMatcher:buildMatcher, validQ:validQ, setBroadWeight:function(w){ BROAD_WEIGHT = w; }, BROAD_MIN:BROAD_MIN, getBroadWeight:function(){ return BROAD_WEIGHT; }});
 })();

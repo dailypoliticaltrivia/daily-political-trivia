@@ -170,6 +170,21 @@
     var go = document.getElementById('dj-go'); if (go) go.focus({ preventScroll: true });
   }
 
+  /* the admin's route for this date (data/schedule.json via assets/schedule.js): 5 to ROUTE_LEN different known questions, each at a
+     stop it belongs to. Anything else falls back to the automatic route. */
+  function scheduledJourney(date) {
+    try {
+      var e = window.SIN_SCHEDULE ? SIN_SCHEDULE.get('climb', date) : null, seen = {}, out = { date: date, stops: [], ids: [], diffs: [] };
+      if (!Array.isArray(e) || e.length < 5 || e.length > Core.ROUTE_LEN) return null;
+      for (var i = 0; i < e.length; i++) {
+        var it = e[i], q = it && byId[String(it.q)], sid = it && String(it.s);
+        if (!q || seen[q.id] || !stopsById[sid] || q.stops.indexOf(sid) < 0) return null;
+        seen[q.id] = 1; out.stops.push(sid); out.ids.push(q.id); out.diffs.push(q.difficulty);
+      }
+      return out;
+    } catch (err) { return null; }
+  }
+
   /* ---------- journey ---------- */
   function startDaily() {
     var d = dailyState();
@@ -177,7 +192,7 @@
     if (d.state === 'resume') { S = d.saved; gameplay(true); showJourney(); return; }
     var btn = document.getElementById('dj-go');
     function go() {
-      var r = Core.pickJourney(pool, stops, Core.dateStr());
+      var r = scheduledJourney(Core.dateStr()) || Core.pickJourney(pool, stops, Core.dateStr());
       if (!r.ids.length) return;
       S = { v: 1, mode: 'daily', date: r.date, stops: r.stops, ids: r.ids, qi: 0, lives: Core.LIVES, res: r.ids.map(function () { return null; }), pick: r.ids.map(function () { return null; }), phase: 'q' };
       save(KEY_DAILY, S); gameplay(true); showJourney();
@@ -445,6 +460,9 @@
     try { history.replaceState(null, '', location.pathname); } catch (e) {}
   }
   loadAll().then(function (r) {
+    // the admin's schedule (at most ~2.5 s, normally already loaded)
+    return new Promise(function (res) { if (window.SIN_SCHEDULE) SIN_SCHEDULE.ready(function () { res(r); }); else res(r); });
+  }).then(function (r) {
     stops = r.stops; pool = r.pool;
     stops.forEach(function (s) { stopsById[s.id] = s; });
     pool.forEach(function (q) { byId[q.id] = q; });
