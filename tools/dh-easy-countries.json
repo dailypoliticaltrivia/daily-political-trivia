@@ -1,0 +1,2908 @@
+{
+ "source": "Wikidata members of the United Nations (P463=Q1065) with sovereign-state class, capitals P36; Taiwan removed (not a UN member); names and capitals corrected by hand; independently checked against un.org; capitals updated after independent check 2026-11-16 (audit/dh-easy-data-check.csv): Malabo removed (Equatorial Guinea moved its capital to Ciudad de la Paz by Decree-Law 1/2026), Comayagüela and Cetinje added as constitutional capitals; m49 = UN M49 continent (Asia includes the Middle East and the Caucasus; Cyprus and Turkey are Asia in M49), alsoContinent = transcontinental countries also accepted for the other continent",
+ "count": 193,
+ "countries": [
+  {
+   "name": "Afghanistan",
+   "q": "Q889",
+   "sitelinks": 364,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kabul",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Albania",
+   "q": "Q222",
+   "sitelinks": 387,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tirana",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Algeria",
+   "q": "Q262",
+   "sitelinks": 374,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Algiers",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Andorra",
+   "q": "Q228",
+   "sitelinks": 333,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Andorra la Vella",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Angola",
+   "q": "Q916",
+   "sitelinks": 323,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Luanda",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Antigua and Barbuda",
+   "q": "Q781",
+   "sitelinks": 266,
+   "aliases": [
+    "Antigua"
+   ],
+   "capitals": [
+    {
+     "name": "St. John's",
+     "aliases": [
+      "Saint John's"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Argentina",
+   "q": "Q414",
+   "sitelinks": 372,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Buenos Aires",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Armenia",
+   "q": "Q399",
+   "sitelinks": 355,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Yerevan",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Australia",
+   "q": "Q408",
+   "sitelinks": 400,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Canberra",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Austria",
+   "q": "Q40",
+   "sitelinks": 372,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Vienna",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Azerbaijan",
+   "q": "Q227",
+   "sitelinks": 364,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Baku",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Bahamas",
+   "q": "Q778",
+   "sitelinks": 281,
+   "aliases": [
+    "The Bahamas"
+   ],
+   "capitals": [
+    {
+     "name": "Nassau",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bahrain",
+   "q": "Q398",
+   "sitelinks": 306,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Manama",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bangladesh",
+   "q": "Q902",
+   "sitelinks": 349,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Dhaka",
+     "aliases": [
+      "Dacca"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Barbados",
+   "q": "Q244",
+   "sitelinks": 277,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bridgetown",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Belarus",
+   "q": "Q184",
+   "sitelinks": 360,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Minsk",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Belgium",
+   "q": "Q31",
+   "sitelinks": 384,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Brussels",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Belize",
+   "q": "Q242",
+   "sitelinks": 282,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Belmopan",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Benin",
+   "q": "Q962",
+   "sitelinks": 308,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Porto-Novo",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bhutan",
+   "q": "Q917",
+   "sitelinks": 306,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Thimphu",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bolivia",
+   "q": "Q750",
+   "sitelinks": 314,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "La Paz",
+     "aliases": []
+    },
+    {
+     "name": "Sucre",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "q": "Q225",
+   "sitelinks": 342,
+   "aliases": [
+    "Bosnia"
+   ],
+   "capitals": [
+    {
+     "name": "Sarajevo",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Botswana",
+   "q": "Q963",
+   "sitelinks": 315,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Gaborone",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Brazil",
+   "q": "Q155",
+   "sitelinks": 387,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Brasília",
+     "aliases": [
+      "Brasilia"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Brunei",
+   "q": "Q921",
+   "sitelinks": 298,
+   "aliases": [
+    "Brunei Darussalam"
+   ],
+   "capitals": [
+    {
+     "name": "Bandar Seri Begawan",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Bulgaria",
+   "q": "Q219",
+   "sitelinks": 361,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Sofia",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Burkina Faso",
+   "q": "Q965",
+   "sitelinks": 309,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ouagadougou",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Burundi",
+   "q": "Q967",
+   "sitelinks": 304,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Gitega",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Cabo Verde",
+   "q": "Q1011",
+   "sitelinks": 292,
+   "aliases": [
+    "Cape Verde"
+   ],
+   "capitals": [
+    {
+     "name": "Praia",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Cambodia",
+   "q": "Q424",
+   "sitelinks": 332,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Phnom Penh",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Cameroon",
+   "q": "Q1009",
+   "sitelinks": 314,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Yaoundé",
+     "aliases": [
+      "Yaounde"
+     ]
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Canada",
+   "q": "Q16",
+   "sitelinks": 398,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ottawa",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Central African Republic",
+   "q": "Q929",
+   "sitelinks": 302,
+   "aliases": [
+    "CAR"
+   ],
+   "capitals": [
+    {
+     "name": "Bangui",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Chad",
+   "q": "Q657",
+   "sitelinks": 319,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "N'Djamena",
+     "aliases": [
+      "Ndjamena"
+     ]
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Chile",
+   "q": "Q298",
+   "sitelinks": 383,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Santiago",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "China",
+   "q": "Q148",
+   "sitelinks": 401,
+   "aliases": [
+    "People's Republic of China",
+    "PRC"
+   ],
+   "capitals": [
+    {
+     "name": "Beijing",
+     "aliases": [
+      "Peking"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Colombia",
+   "q": "Q739",
+   "sitelinks": 367,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bogotá",
+     "aliases": [
+      "Bogota"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Comoros",
+   "q": "Q970",
+   "sitelinks": 284,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Moroni",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Costa Rica",
+   "q": "Q800",
+   "sitelinks": 302,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "San José",
+     "aliases": [
+      "San Jose"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Côte d'Ivoire",
+   "q": "Q1008",
+   "sitelinks": 314,
+   "aliases": [
+    "Ivory Coast",
+    "Cote d'Ivoire"
+   ],
+   "capitals": [
+    {
+     "name": "Yamoussoukro",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Croatia",
+   "q": "Q224",
+   "sitelinks": 356,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Zagreb",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Cuba",
+   "q": "Q241",
+   "sitelinks": 312,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Havana",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Cyprus",
+   "q": "Q229",
+   "sitelinks": 327,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Nicosia",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Czech Republic",
+   "q": "Q213",
+   "sitelinks": 355,
+   "aliases": [
+    "Czechia"
+   ],
+   "capitals": [
+    {
+     "name": "Prague",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Democratic Republic of the Congo",
+   "q": "Q974",
+   "sitelinks": 335,
+   "aliases": [
+    "DRC",
+    "DR Congo",
+    "Congo-Kinshasa"
+   ],
+   "capitals": [
+    {
+     "name": "Kinshasa",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Denmark",
+   "q": "Q756617",
+   "sitelinks": 56,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Copenhagen",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Djibouti",
+   "q": "Q977",
+   "sitelinks": 300,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Djibouti",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Dominica",
+   "q": "Q784",
+   "sitelinks": 268,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Roseau",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Dominican Republic",
+   "q": "Q786",
+   "sitelinks": 282,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Santo Domingo",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Ecuador",
+   "q": "Q736",
+   "sitelinks": 317,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Quito",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Egypt",
+   "q": "Q79",
+   "sitelinks": 392,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Cairo",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": [
+    "Asia"
+   ]
+  },
+  {
+   "name": "El Salvador",
+   "q": "Q792",
+   "sitelinks": 289,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "San Salvador",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Equatorial Guinea",
+   "q": "Q983",
+   "sitelinks": 285,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ciudad de la Paz",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Eritrea",
+   "q": "Q986",
+   "sitelinks": 309,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Asmara",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Estonia",
+   "q": "Q191",
+   "sitelinks": 354,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tallinn",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Eswatini",
+   "q": "Q1050",
+   "sitelinks": 287,
+   "aliases": [
+    "Swaziland"
+   ],
+   "capitals": [
+    {
+     "name": "Mbabane",
+     "aliases": []
+    },
+    {
+     "name": "Lobamba",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Ethiopia",
+   "q": "Q115",
+   "sitelinks": 348,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Addis Ababa",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Fiji",
+   "q": "Q712",
+   "sitelinks": 282,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Suva",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Finland",
+   "q": "Q33",
+   "sitelinks": 403,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Helsinki",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "France",
+   "q": "Q142",
+   "sitelinks": 428,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Paris",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Gabon",
+   "q": "Q1000",
+   "sitelinks": 296,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Libreville",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Gambia",
+   "q": "Q1005",
+   "sitelinks": 301,
+   "aliases": [
+    "The Gambia"
+   ],
+   "capitals": [
+    {
+     "name": "Banjul",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Georgia",
+   "q": "Q230",
+   "sitelinks": 351,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tbilisi",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Germany",
+   "q": "Q183",
+   "sitelinks": 405,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Berlin",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Ghana",
+   "q": "Q117",
+   "sitelinks": 326,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Accra",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Greece",
+   "q": "Q41",
+   "sitelinks": 378,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Athens",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Grenada",
+   "q": "Q769",
+   "sitelinks": 253,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "St. George's",
+     "aliases": [
+      "Saint George's"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Guatemala",
+   "q": "Q774",
+   "sitelinks": 283,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Guatemala City",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Guinea",
+   "q": "Q1006",
+   "sitelinks": 301,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Conakry",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Guinea-Bissau",
+   "q": "Q1007",
+   "sitelinks": 300,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bissau",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Guyana",
+   "q": "Q734",
+   "sitelinks": 287,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Georgetown",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Haiti",
+   "q": "Q790",
+   "sitelinks": 294,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Port-au-Prince",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Honduras",
+   "q": "Q783",
+   "sitelinks": 301,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tegucigalpa",
+     "aliases": []
+    },
+    {
+     "name": "Comayagüela",
+     "aliases": [
+      "Comayaguela"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Hungary",
+   "q": "Q28",
+   "sitelinks": 359,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Budapest",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Iceland",
+   "q": "Q189",
+   "sitelinks": 356,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Reykjavík",
+     "aliases": [
+      "Reykjavik"
+     ]
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "India",
+   "q": "Q668",
+   "sitelinks": 404,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "New Delhi",
+     "aliases": [
+      "Delhi"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Indonesia",
+   "q": "Q252",
+   "sitelinks": 366,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Jakarta",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Iran",
+   "q": "Q794",
+   "sitelinks": 377,
+   "aliases": [
+    "Islamic Republic of Iran"
+   ],
+   "capitals": [
+    {
+     "name": "Tehran",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Iraq",
+   "q": "Q796",
+   "sitelinks": 350,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Baghdad",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Ireland",
+   "q": "Q27",
+   "sitelinks": 343,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Dublin",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Israel",
+   "q": "Q801",
+   "sitelinks": 380,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Jerusalem",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Italy",
+   "q": "Q38",
+   "sitelinks": 409,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Rome",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Jamaica",
+   "q": "Q766",
+   "sitelinks": 283,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kingston",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Japan",
+   "q": "Q17",
+   "sitelinks": 419,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tokyo",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Jordan",
+   "q": "Q810",
+   "sitelinks": 314,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Amman",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Kazakhstan",
+   "q": "Q232",
+   "sitelinks": 350,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Astana",
+     "aliases": [
+      "Nur-Sultan"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Kenya",
+   "q": "Q114",
+   "sitelinks": 338,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Nairobi",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Kiribati",
+   "q": "Q710",
+   "sitelinks": 251,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "South Tarawa",
+     "aliases": []
+    },
+    {
+     "name": "Tarawa",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Kuwait",
+   "q": "Q817",
+   "sitelinks": 306,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kuwait City",
+     "aliases": [
+      "Kuwait"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Kyrgyzstan",
+   "q": "Q813",
+   "sitelinks": 321,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bishkek",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Laos",
+   "q": "Q819",
+   "sitelinks": 317,
+   "aliases": [
+    "Lao PDR"
+   ],
+   "capitals": [
+    {
+     "name": "Vientiane",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Latvia",
+   "q": "Q211",
+   "sitelinks": 336,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Riga",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Lebanon",
+   "q": "Q822",
+   "sitelinks": 330,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Beirut",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Lesotho",
+   "q": "Q1013",
+   "sitelinks": 282,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Maseru",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Liberia",
+   "q": "Q1014",
+   "sitelinks": 292,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Monrovia",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Libya",
+   "q": "Q1016",
+   "sitelinks": 334,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tripoli",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Liechtenstein",
+   "q": "Q347",
+   "sitelinks": 316,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Vaduz",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Lithuania",
+   "q": "Q37",
+   "sitelinks": 352,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Vilnius",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Luxembourg",
+   "q": "Q32",
+   "sitelinks": 335,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Luxembourg",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Madagascar",
+   "q": "Q1019",
+   "sitelinks": 321,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Antananarivo",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Malawi",
+   "q": "Q1020",
+   "sitelinks": 298,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Lilongwe",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Malaysia",
+   "q": "Q833",
+   "sitelinks": 342,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kuala Lumpur",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Maldives",
+   "q": "Q826",
+   "sitelinks": 291,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Malé",
+     "aliases": [
+      "Male"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mali",
+   "q": "Q912",
+   "sitelinks": 312,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bamako",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Malta",
+   "q": "Q233",
+   "sitelinks": 327,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Valletta",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Marshall Islands",
+   "q": "Q709",
+   "sitelinks": 238,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Majuro",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mauritania",
+   "q": "Q1025",
+   "sitelinks": 306,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Nouakchott",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mauritius",
+   "q": "Q1027",
+   "sitelinks": 285,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Port Louis",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mexico",
+   "q": "Q96",
+   "sitelinks": 402,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Mexico City",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Micronesia",
+   "q": "Q702",
+   "sitelinks": 225,
+   "aliases": [
+    "Federated States of Micronesia"
+   ],
+   "capitals": [
+    {
+     "name": "Palikir",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Moldova",
+   "q": "Q217",
+   "sitelinks": 331,
+   "aliases": [
+    "Republic of Moldova"
+   ],
+   "capitals": [
+    {
+     "name": "Chișinău",
+     "aliases": [
+      "Chisinau"
+     ]
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Monaco",
+   "q": "Q235",
+   "sitelinks": 322,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Monaco",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mongolia",
+   "q": "Q711",
+   "sitelinks": 323,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ulaanbaatar",
+     "aliases": [
+      "Ulan Bator"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Montenegro",
+   "q": "Q236",
+   "sitelinks": 323,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Podgorica",
+     "aliases": []
+    },
+    {
+     "name": "Cetinje",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Morocco",
+   "q": "Q1028",
+   "sitelinks": 335,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Rabat",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Mozambique",
+   "q": "Q1029",
+   "sitelinks": 303,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Maputo",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Myanmar",
+   "q": "Q836",
+   "sitelinks": 318,
+   "aliases": [
+    "Burma"
+   ],
+   "capitals": [
+    {
+     "name": "Naypyidaw",
+     "aliases": [
+      "Nay Pyi Taw",
+      "Naypyitaw"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Namibia",
+   "q": "Q1030",
+   "sitelinks": 317,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Windhoek",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Nauru",
+   "q": "Q697",
+   "sitelinks": 266,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Yaren",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Nepal",
+   "q": "Q837",
+   "sitelinks": 325,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kathmandu",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Netherlands",
+   "q": "Q29999",
+   "sitelinks": 108,
+   "aliases": [
+    "Holland",
+    "The Netherlands"
+   ],
+   "capitals": [
+    {
+     "name": "Amsterdam",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "New Zealand",
+   "q": "Q664",
+   "sitelinks": 352,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Wellington",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Nicaragua",
+   "q": "Q811",
+   "sitelinks": 284,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Managua",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Niger",
+   "q": "Q1032",
+   "sitelinks": 302,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Niamey",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Nigeria",
+   "q": "Q1033",
+   "sitelinks": 349,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Abuja",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "North Korea",
+   "q": "Q423",
+   "sitelinks": 313,
+   "aliases": [
+    "DPRK"
+   ],
+   "capitals": [
+    {
+     "name": "Pyongyang",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "North Macedonia",
+   "q": "Q221",
+   "sitelinks": 327,
+   "aliases": [
+    "Macedonia"
+   ],
+   "capitals": [
+    {
+     "name": "Skopje",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Norway",
+   "q": "Q20",
+   "sitelinks": 394,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Oslo",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Oman",
+   "q": "Q842",
+   "sitelinks": 298,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Muscat",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Pakistan",
+   "q": "Q843",
+   "sitelinks": 357,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Islamabad",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Palau",
+   "q": "Q695",
+   "sitelinks": 259,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ngerulmud",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Panama",
+   "q": "Q804",
+   "sitelinks": 304,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Panama City",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Papua New Guinea",
+   "q": "Q691",
+   "sitelinks": 289,
+   "aliases": [
+    "PNG"
+   ],
+   "capitals": [
+    {
+     "name": "Port Moresby",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Paraguay",
+   "q": "Q733",
+   "sitelinks": 312,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Asunción",
+     "aliases": [
+      "Asuncion"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Peru",
+   "q": "Q419",
+   "sitelinks": 333,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Lima",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Philippines",
+   "q": "Q928",
+   "sitelinks": 335,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Manila",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Poland",
+   "q": "Q36",
+   "sitelinks": 391,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Warsaw",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Portugal",
+   "q": "Q45",
+   "sitelinks": 372,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Lisbon",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Qatar",
+   "q": "Q846",
+   "sitelinks": 291,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Doha",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Republic of the Congo",
+   "q": "Q971",
+   "sitelinks": 300,
+   "aliases": [
+    "Congo-Brazzaville",
+    "Congo Republic"
+   ],
+   "capitals": [
+    {
+     "name": "Brazzaville",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Romania",
+   "q": "Q218",
+   "sitelinks": 349,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bucharest",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Russia",
+   "q": "Q159",
+   "sitelinks": 421,
+   "aliases": [
+    "Russian Federation"
+   ],
+   "capitals": [
+    {
+     "name": "Moscow",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": [
+    "Asia"
+   ]
+  },
+  {
+   "name": "Rwanda",
+   "q": "Q1037",
+   "sitelinks": 303,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kigali",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Saint Kitts and Nevis",
+   "q": "Q763",
+   "sitelinks": 239,
+   "aliases": [
+    "St. Kitts and Nevis",
+    "St Kitts and Nevis"
+   ],
+   "capitals": [
+    {
+     "name": "Basseterre",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Saint Lucia",
+   "q": "Q760",
+   "sitelinks": 236,
+   "aliases": [
+    "St. Lucia",
+    "St Lucia"
+   ],
+   "capitals": [
+    {
+     "name": "Castries",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Saint Vincent and the Grenadines",
+   "q": "Q757",
+   "sitelinks": 238,
+   "aliases": [
+    "St. Vincent and the Grenadines",
+    "St Vincent and the Grenadines"
+   ],
+   "capitals": [
+    {
+     "name": "Kingstown",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Samoa",
+   "q": "Q683",
+   "sitelinks": 263,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Apia",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "San Marino",
+   "q": "Q238",
+   "sitelinks": 314,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "San Marino",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "São Tomé and Príncipe",
+   "q": "Q1039",
+   "sitelinks": 274,
+   "aliases": [
+    "Sao Tome and Principe"
+   ],
+   "capitals": [
+    {
+     "name": "São Tomé",
+     "aliases": [
+      "Sao Tome"
+     ]
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Saudi Arabia",
+   "q": "Q851",
+   "sitelinks": 351,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Riyadh",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Senegal",
+   "q": "Q1041",
+   "sitelinks": 309,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Dakar",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Serbia",
+   "q": "Q403",
+   "sitelinks": 352,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Belgrade",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Seychelles",
+   "q": "Q1042",
+   "sitelinks": 278,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Victoria",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Sierra Leone",
+   "q": "Q1044",
+   "sitelinks": 294,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Freetown",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Singapore",
+   "q": "Q334",
+   "sitelinks": 333,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Singapore",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Slovakia",
+   "q": "Q214",
+   "sitelinks": 341,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bratislava",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Slovenia",
+   "q": "Q215",
+   "sitelinks": 332,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ljubljana",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Solomon Islands",
+   "q": "Q685",
+   "sitelinks": 245,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Honiara",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Somalia",
+   "q": "Q1045",
+   "sitelinks": 326,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Mogadishu",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "South Africa",
+   "q": "Q258",
+   "sitelinks": 368,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Pretoria",
+     "aliases": []
+    },
+    {
+     "name": "Cape Town",
+     "aliases": []
+    },
+    {
+     "name": "Bloemfontein",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "South Korea",
+   "q": "Q884",
+   "sitelinks": 356,
+   "aliases": [
+    "Republic of Korea"
+   ],
+   "capitals": [
+    {
+     "name": "Seoul",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "South Sudan",
+   "q": "Q958",
+   "sitelinks": 283,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Juba",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Spain",
+   "q": "Q29",
+   "sitelinks": 397,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Madrid",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Sri Lanka",
+   "q": "Q854",
+   "sitelinks": 311,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Colombo",
+     "aliases": []
+    },
+    {
+     "name": "Sri Jayawardenepura Kotte",
+     "aliases": [
+      "Kotte"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Sudan",
+   "q": "Q1049",
+   "sitelinks": 335,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Suriname",
+   "q": "Q730",
+   "sitelinks": 288,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Paramaribo",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Sweden",
+   "q": "Q34",
+   "sitelinks": 370,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Stockholm",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Switzerland",
+   "q": "Q39",
+   "sitelinks": 387,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bern",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "Syria",
+   "q": "Q858",
+   "sitelinks": 338,
+   "aliases": [
+    "Syrian Arab Republic"
+   ],
+   "capitals": [
+    {
+     "name": "Damascus",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Tajikistan",
+   "q": "Q863",
+   "sitelinks": 308,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Dushanbe",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Tanzania",
+   "q": "Q924",
+   "sitelinks": 321,
+   "aliases": [
+    "United Republic of Tanzania"
+   ],
+   "capitals": [
+    {
+     "name": "Dodoma",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Thailand",
+   "q": "Q869",
+   "sitelinks": 356,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Bangkok",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Timor-Leste",
+   "q": "Q574",
+   "sitelinks": 292,
+   "aliases": [
+    "East Timor"
+   ],
+   "capitals": [
+    {
+     "name": "Dili",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Togo",
+   "q": "Q945",
+   "sitelinks": 302,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Lomé",
+     "aliases": [
+      "Lome"
+     ]
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Tonga",
+   "q": "Q678",
+   "sitelinks": 263,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Nukuʻalofa",
+     "aliases": [
+      "Nuku'alofa",
+      "Nukualofa"
+     ]
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "q": "Q754",
+   "sitelinks": 251,
+   "aliases": [
+    "Trinidad"
+   ],
+   "capitals": [
+    {
+     "name": "Port of Spain",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Tunisia",
+   "q": "Q948",
+   "sitelinks": 329,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tunis",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Turkey",
+   "q": "Q43",
+   "sitelinks": 430,
+   "aliases": [
+    "Türkiye",
+    "Turkiye"
+   ],
+   "capitals": [
+    {
+     "name": "Ankara",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "Turkmenistan",
+   "q": "Q874",
+   "sitelinks": 299,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Ashgabat",
+     "aliases": [
+      "Ashkhabad"
+     ]
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Tuvalu",
+   "q": "Q672",
+   "sitelinks": 255,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Funafuti",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Uganda",
+   "q": "Q1036",
+   "sitelinks": 312,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kampala",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Ukraine",
+   "q": "Q212",
+   "sitelinks": 390,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Kyiv",
+     "aliases": [
+      "Kiev"
+     ]
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "United Arab Emirates",
+   "q": "Q878",
+   "sitelinks": 320,
+   "aliases": [
+    "UAE"
+   ],
+   "capitals": [
+    {
+     "name": "Abu Dhabi",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "United Kingdom",
+   "q": "Q145",
+   "sitelinks": 396,
+   "aliases": [
+    "UK",
+    "U.K.",
+    "Britain",
+    "Great Britain"
+   ],
+   "capitals": [
+    {
+     "name": "London",
+     "aliases": []
+    }
+   ],
+   "m49": "Europe",
+   "alsoContinent": []
+  },
+  {
+   "name": "United States",
+   "q": "Q30",
+   "sitelinks": 427,
+   "aliases": [
+    "USA",
+    "US",
+    "U.S.",
+    "America",
+    "United States of America"
+   ],
+   "capitals": [
+    {
+     "name": "Washington, D.C.",
+     "aliases": [
+      "Washington DC",
+      "Washington"
+     ]
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Uruguay",
+   "q": "Q77",
+   "sitelinks": 325,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Montevideo",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Uzbekistan",
+   "q": "Q265",
+   "sitelinks": 310,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Tashkent",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Vanuatu",
+   "q": "Q686",
+   "sitelinks": 266,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Port Vila",
+     "aliases": []
+    }
+   ],
+   "m49": "Oceania",
+   "alsoContinent": []
+  },
+  {
+   "name": "Venezuela",
+   "q": "Q717",
+   "sitelinks": 347,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Caracas",
+     "aliases": []
+    }
+   ],
+   "m49": "Americas",
+   "alsoContinent": []
+  },
+  {
+   "name": "Vietnam",
+   "q": "Q881",
+   "sitelinks": 370,
+   "aliases": [
+    "Viet Nam"
+   ],
+   "capitals": [
+    {
+     "name": "Hanoi",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Yemen",
+   "q": "Q805",
+   "sitelinks": 318,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Sanaa",
+     "aliases": [
+      "Sana'a"
+     ]
+    },
+    {
+     "name": "Aden",
+     "aliases": []
+    }
+   ],
+   "m49": "Asia",
+   "alsoContinent": []
+  },
+  {
+   "name": "Zambia",
+   "q": "Q953",
+   "sitelinks": 309,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Lusaka",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  },
+  {
+   "name": "Zimbabwe",
+   "q": "Q954",
+   "sitelinks": 320,
+   "aliases": [],
+   "capitals": [
+    {
+     "name": "Harare",
+     "aliases": []
+    }
+   ],
+   "m49": "Africa",
+   "alsoContinent": []
+  }
+ ]
+}

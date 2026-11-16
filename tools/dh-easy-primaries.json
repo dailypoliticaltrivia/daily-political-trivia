@@ -1,0 +1,109 @@
+{
+ "source": "Major candidates for the Democratic and Republican presidential nominations in cycles the people bank does not already list (people-0116 2020 D, 0117 2016 R, 0118 2024 R, 0119 2008 both parties, 0120 2012 R). Written from Wikipedia's 'major candidates' sections for each primary; independently checked before merge.",
+ "cycles": {
+  "2000 Republican": [
+   "George W. Bush",
+   "John McCain",
+   "Alan Keyes",
+   "Steve Forbes",
+   "Gary Bauer",
+   "Orrin Hatch",
+   "Elizabeth Dole",
+   "Lamar Alexander",
+   "Dan Quayle",
+   "John Kasich",
+   "Bob Smith",
+   "Pat Buchanan",
+   "Herman Cain"
+  ],
+  "2000 Democratic": [
+   "Al Gore",
+   "Bill Bradley"
+  ],
+  "2004 Democratic": [
+   "John Kerry",
+   "John Edwards",
+   "Howard Dean",
+   "Wesley Clark",
+   "Dennis Kucinich",
+   "Joe Lieberman",
+   "Al Sharpton",
+   "Dick Gephardt",
+   "Carol Moseley Braun",
+   "Bob Graham"
+  ],
+  "2004 Republican": [
+   "George W. Bush"
+  ],
+  "2012 Democratic": [
+   "Barack Obama"
+  ],
+  "2016 Democratic": [
+   "Hillary Clinton",
+   "Bernie Sanders",
+   "Martin O'Malley",
+   "Jim Webb",
+   "Lincoln Chafee",
+   "Lawrence Lessig"
+  ],
+  "2020 Republican": [
+   "Donald Trump",
+   "Bill Weld",
+   "Joe Walsh",
+   "Mark Sanford",
+   "Rocky De La Fuente"
+  ],
+  "2024 Democratic": [
+   "Joe Biden",
+   "Dean Phillips",
+   "Marianne Williamson",
+   "Robert F. Kennedy Jr.",
+   "Kamala Harris",
+   "Jason Palmer"
+  ]
+ },
+ "aliases": {
+  "George W. Bush": [
+   "George Bush"
+  ],
+  "Al Gore": [
+   "Albert Gore"
+  ],
+  "Robert F. Kennedy Jr.": [
+   "RFK Jr.",
+   "RFK Jr",
+   "Bobby Kennedy Jr."
+  ],
+  "Martin O'Malley": [
+   "O'Malley"
+  ],
+  "Carol Moseley Braun": [
+   "Carol Moseley-Braun"
+  ],
+  "Dick Gephardt": [
+   "Richard Gephardt"
+  ],
+  "Bob Smith": [
+   "Robert C. Smith"
+  ],
+  "Bob Graham": [
+   "D. Robert Graham"
+  ],
+  "Wesley Clark": [
+   "Wes Clark"
+  ],
+  "Lincoln Chafee": [
+   "Linc Chafee"
+  ],
+  "Bill Weld": [
+   "William Weld"
+  ],
+  "Kamala Harris": [
+   "Harris"
+  ],
+  "Rocky De La Fuente": [
+   "Roque De La Fuente",
+   "Rocky de la Fuente"
+  ]
+ }
+}
