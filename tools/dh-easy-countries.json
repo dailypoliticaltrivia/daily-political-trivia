@@ -1,5 +1,5 @@
 {
- "source": "Wikidata members of the United Nations (P463=Q1065) with sovereign-state class, capitals P36; Taiwan removed (not a UN member); names and capitals corrected by hand; independently checked against un.org; capitals updated after independent check 2026-11-16 (audit/dh-easy-data-check.csv): Malabo removed (Equatorial Guinea moved its capital to Ciudad de la Paz by Decree-Law 1/2026), Comayagüela and Cetinje added as constitutional capitals; m49 = UN M49 continent (Asia includes the Middle East and the Caucasus; Cyprus and Turkey are Asia in M49), alsoContinent = transcontinental countries also accepted for the other continent",
+ "source": "Wikidata members of the United Nations (P463=Q1065) with sovereign-state class, capitals P36; Taiwan removed (not a UN member); names and capitals corrected by hand; independently checked against un.org; capitals updated after independent check 2026-11-16 (audit/dh-easy-data-check.csv): Malabo removed (Equatorial Guinea moved its capital to Ciudad de la Paz by Decree-Law 1/2026), Comayagüela and Cetinje added as constitutional capitals; m49 = UN M49 continent (Asia includes the Middle East and the Caucasus; Cyprus and Turkey are Asia in M49), alsoContinent = transcontinental countries also accepted for the other continent; lenient aliases: Malabo (Equatorial Guinea), and seats of government The Hague, Putrajaya, Cotonou, Dar es Salaam and Abidjan are accepted for their country’s capital",
  "count": 193,
  "countries": [
   {
@@ -274,7 +274,9 @@
    "capitals": [
     {
      "name": "Porto-Novo",
-     "aliases": []
+     "aliases": [
+      "Cotonou"
+     ]
     }
    ],
    "m49": "Africa",
@@ -598,7 +600,9 @@
    "capitals": [
     {
      "name": "Yamoussoukro",
-     "aliases": []
+     "aliases": [
+      "Abidjan"
+     ]
     }
    ],
    "m49": "Africa",
@@ -790,7 +794,9 @@
    "capitals": [
     {
      "name": "Ciudad de la Paz",
-     "aliases": []
+     "aliases": [
+      "Malabo"
+     ]
     }
    ],
    "m49": "Africa",
@@ -1152,7 +1158,9 @@
     }
    ],
    "m49": "Asia",
-   "alsoContinent": []
+   "alsoContinent": [
+    "Oceania"
+   ]
   },
   {
    "name": "Iran",
@@ -1512,7 +1520,9 @@
    "capitals": [
     {
      "name": "Kuala Lumpur",
-     "aliases": []
+     "aliases": [
+      "Putrajaya"
+     ]
     }
    ],
    "m49": "Asia",
@@ -1800,7 +1810,9 @@
    "capitals": [
     {
      "name": "Amsterdam",
-     "aliases": []
+     "aliases": [
+      "The Hague"
+     ]
     }
    ],
    "m49": "Europe",
@@ -2548,7 +2560,9 @@
    "capitals": [
     {
      "name": "Dodoma",
-     "aliases": []
+     "aliases": [
+      "Dar es Salaam"
+     ]
     }
    ],
    "m49": "Africa",
@@ -2582,7 +2596,9 @@
     }
    ],
    "m49": "Asia",
-   "alsoContinent": []
+   "alsoContinent": [
+    "Oceania"
+   ]
   },
   {
    "name": "Togo",

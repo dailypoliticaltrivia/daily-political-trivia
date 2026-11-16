@@ -1,5 +1,5 @@
 {
- "source": "Supplements for Dark Horse easy questions, 2026-11-16, after an independent completeness check (audit/dh-easy-check/result-A.csv). Acting First Ladies from Wikipedia's 'List of first ladies of the United States'; losing tickets from 'List of United States major party presidential tickets' and the 1796, 1824, 1836, 1860 and 1912 election articles. Second-checked before merge (audit/dh-easy-check/result-C.csv). Added later from audit/dh-easy-check/result-B.csv (reviewed against the cited lists): ranForPresident (easy-0011), womenGovernorsX (easy-0012), primariesX (easy-0019).",
+ "source": "Supplements for Dark Horse easy questions, 2026-11-16, after an independent completeness check (audit/dh-easy-check/result-A.csv). Acting First Ladies from Wikipedia's 'List of first ladies of the United States'; losing tickets from 'List of United States major party presidential tickets' and the 1796, 1824, 1836, 1860 and 1912 election articles. Second-checked before merge (audit/dh-easy-check/result-C.csv). Added later from audit/dh-easy-check/result-B.csv (reviewed against the cited lists): ranForPresident (easy-0011), womenGovernorsX (easy-0012), primariesX (easy-0019). Second check (result-C.csv): John Eager Howard removed (never formally nominated); Nathan Sanford, Nathaniel Macon, the 1848/1924/1968 third-party tickets and three more hostesses added.",
  "actingFirstLadies": [
   {
    "name": "Martha Jefferson Randolph",
@@ -76,6 +76,28 @@
     "Margaret Wilson"
    ],
    "weight": 4
+  },
+  {
+   "name": "Letitia Tyler Semple",
+   "aliases": [
+    "Letitia Semple"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Betty Taylor Bliss",
+   "aliases": [
+    "Mary Elizabeth Taylor Bliss",
+    "Betty Bliss"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Martha Johnson Patterson",
+   "aliases": [
+    "Martha Patterson"
+   ],
+   "weight": 5
   }
  ],
  "losingPresidential": [
@@ -155,11 +177,6 @@
  "losingVP": [
   {
    "name": "Jared Ingersoll",
-   "aliases": [],
-   "weight": 5
-  },
-  {
-   "name": "John Eager Howard",
    "aliases": [],
    "weight": 5
   },
@@ -272,6 +289,16 @@
     "Tom Eagleton"
    ],
    "weight": 3
+  },
+  {
+   "name": "Nathan Sanford",
+   "aliases": [],
+   "weight": 5
+  },
+  {
+   "name": "Nathaniel Macon",
+   "aliases": [],
+   "weight": 5
   }
  ],
  "founders": [
@@ -736,6 +763,45 @@
    "name": "Randall Terry",
    "aliases": [],
    "weight": 5
+  }
+ ],
+ "thirdPartyTickets": [
+  {
+   "name": "Charles Francis Adams Sr.",
+   "aliases": [
+    "Charles Francis Adams"
+   ],
+   "weight": 4
+  },
+  {
+   "name": "Robert La Follette",
+   "aliases": [
+    "Robert M. La Follette",
+    "Robert M. La Follette Sr.",
+    "Bob La Follette"
+   ],
+   "weight": 3
+  },
+  {
+   "name": "Burton K. Wheeler",
+   "aliases": [
+    "Burton Wheeler"
+   ],
+   "weight": 4
+  },
+  {
+   "name": "George Wallace",
+   "aliases": [
+    "George C. Wallace"
+   ],
+   "weight": 2
+  },
+  {
+   "name": "Curtis LeMay",
+   "aliases": [
+    "Curtis E. LeMay"
+   ],
+   "weight": 4
   }
  ]
 }
