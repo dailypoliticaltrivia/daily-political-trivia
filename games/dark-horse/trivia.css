@@ -189,3 +189,40 @@ main>.wrap{max-width:calc(720px + var(--gut) * 2)}
 @media (prefers-reduced-motion:reduce){ .tg-fb.dym{animation:none} }
 .sinfx-off .tg-fb.dym{animation:none}
 .tg-jppts{display:inline-block;margin-left:4px;font:700 12px var(--sans);color:var(--warn);white-space:nowrap}
+
+/* ===== race track (the horse gallops ahead by the points each answer scores; one lap = a perfect day) ===== */
+.tg-track{--trk-bed:#dcc29b;--trk-rail:#fff;--trk-in:#e7efe2;--horse:#2a1b12;--horse-line:#2a1b12;--silk:#b3121f;--silk2:#1d2f6f;margin:var(--s3) 0 var(--s4);max-width:620px}
+.tg-track svg{display:block;width:100%;height:auto;overflow:visible}
+.tg-track .infield{fill:var(--trk-in)}
+.tg-track .rail{fill:none;stroke:var(--line-strong);stroke-width:27}
+.tg-track .bed{fill:none;stroke:var(--trk-bed);stroke-width:24}
+.tg-track .post{stroke:var(--trk-rail);stroke-width:1.5;stroke-dasharray:3 3;opacity:.9}
+.tg-track .plab{font:600 11px var(--sans);fill:var(--muted);text-anchor:middle}
+.tg-track .fl{font-weight:700;fill:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10px}
+.tg-track .fin{stroke:#111;stroke-width:6}
+.tg-track .fin2{stroke:#fff;stroke-width:6;stroke-dasharray:3 3}
+.tg-track .tn{font:700 30px var(--sans);fill:var(--ink);text-anchor:middle;font-variant-numeric:tabular-nums}
+.tg-track .tof{font:500 13px var(--sans);fill:var(--muted);text-anchor:middle}
+.tg-track.lap2 .tof{fill:var(--accent);font-weight:700}
+.tg-horse .hz{fill:var(--horse);stroke:var(--horse-line);stroke-width:.8}
+.tg-horse .tail,.tg-horse .mane{fill:none;stroke:var(--horse);stroke-width:3;stroke-linecap:round}
+.tg-horse .mane{stroke-width:2.2}
+.tg-horse .lg line{stroke:var(--horse);stroke-width:2.8;stroke-linecap:round}
+.tg-horse .lg{transform-box:fill-box;transform-origin:50% 0}
+.tg-horse .silk{fill:var(--silk)}
+.tg-horse .silk2{fill:none;stroke:var(--silk2);stroke-width:2.6;stroke-linecap:round}
+.tg-horse .cap{fill:var(--silk2)}
+.tg-horse.run .lg{animation:tgLeg .3s ease-in-out infinite alternate}
+.tg-horse.run .l2,.tg-horse.run .l4{animation-delay:-.15s}
+.tg-horse.run .l3{animation-delay:-.07s}
+.tg-horse.run .hb{animation:tgBob .15s ease-in-out infinite alternate}
+.tg-horse.run .tail{animation:tgTail .3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:100% 0}
+.tg-horse.balk .hb{animation:tgBalk .35s ease-in-out 2}
+@keyframes tgLeg{from{transform:rotate(32deg)}to{transform:rotate(-32deg)}}
+@keyframes tgBob{from{transform:translateY(0)}to{transform:translateY(-2.5px)}}
+@keyframes tgTail{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}
+@keyframes tgBalk{0%,100%{transform:translateY(0) rotate(0)}30%{transform:translateY(-3px) rotate(-6deg)}60%{transform:translateY(0) rotate(3deg)}}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .tg-track{--trk-bed:#6a5238;--trk-in:#1f2a22;--trk-rail:#e8e8e8;--horse:#120b07;--horse-line:#c9b79f;--silk:#e0414d;--silk2:#7f9cf5} }
+:root[data-theme="dark"] .tg-track{--trk-bed:#6a5238;--trk-in:#1f2a22;--trk-rail:#e8e8e8;--horse:#120b07;--horse-line:#c9b79f;--silk:#e0414d;--silk2:#7f9cf5}
+@media (max-width:759px){ .tg-track{margin:var(--s2) 0 var(--s3)} .tg-track .plab{font-size:14px} .tg-track .tn{font-size:34px} .tg-track .tof{font-size:16px} }
+@media (prefers-reduced-motion:reduce){ .tg-horse .lg,.tg-horse .hb,.tg-horse .tail{animation:none!important} }

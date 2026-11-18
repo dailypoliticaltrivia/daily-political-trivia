@@ -65,7 +65,7 @@
   // The brand name lives in ONE place: tools/site-config.json ("siteName"); run  node tools/apply-brand.js  after changing it (it rewrites the next line).
   const BRAND = 'Daily Political Trivia'; // site-brand
   // The four daily games (label, address). Kept in step with games/games.json by tools/apply-game-names.js.
-  const GAMES = [['grid','Grid','games/congressional-grid/'],['trivia','Dark Horse','games/dark-horse/'],['caucus','Caucus Sort','games/caucus-sort/','Caucus'],['climb','Capitol Climb','games/capitol-climb/','Climb']]; // games-line
+  const GAMES = [['climb','Capitol Climb','games/capitol-climb/','Climb'],['caucus','Caucus Sort','games/caucus-sort/','Caucus'],['trivia','Dark Horse','games/dark-horse/'],['grid','Grid','games/congressional-grid/']]; // games-line
   const NAV = [['home','Home','index.html']].concat(GAMES, [['map','Map','map/'],['about','About','about.html']]).concat(OP ? [['opinions','Opinions','opinions/']] : []);
   // which nav item is current: the page's own address decides (the games all share data-section="games")
   const curKey = (function(){

@@ -1,31 +1,19 @@
 [
   {
-    "slug": "congressional-grid",
-    "title": "Congressional Grid",
-    "tagline": "Name a member of Congress who fits both the row and the column. Rarer picks score better.",
-    "url": "congressional-grid/",
+    "slug": "capitol-climb",
+    "title": "Capitol Climb",
+    "tagline": "Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day.",
+    "url": "capitol-climb/",
     "tags": [
       "Daily",
-      "Trivia",
-      "Politics"
+      "History",
+      "Trivia"
     ],
     "status": "live",
-    "art": "grid",
-    "pitch": "Fill nine squares with members of Congress. Rarer picks score better."
-  },
-  {
-    "slug": "dark-horse",
-    "title": "Dark Horse",
-    "tagline": "Seven questions, 30 seconds each, one answer apiece. The rarer your correct answer, the more it scores.",
-    "url": "dark-horse/",
-    "tags": [
-      "Daily",
-      "Trivia",
-      "Politics"
-    ],
-    "status": "live",
-    "art": "trivia",
-    "pitch": "The daily rarity quiz: seven questions, 30 seconds each. Rare answers score more."
+    "art": "dc-journey",
+    "pitch": "Twenty stops across DC, three hearts. U.S. history, where it happened.",
+    "level": 1,
+    "difficulty": "Easiest"
   },
   {
     "slug": "caucus-sort",
@@ -39,21 +27,41 @@
     ],
     "status": "live",
     "art": "caucus-sort",
-    "pitch": "Sort 16 politician faces into four hidden groups."
+    "pitch": "Sort 16 politician faces into four hidden groups.",
+    "level": 2,
+    "difficulty": "Medium"
   },
   {
-    "slug": "capitol-climb",
-    "title": "Capitol Climb",
-    "tagline": "Travel the National Mall and answer U.S. history questions where it happened. Twenty stops, three hearts, a new route every day.",
-    "url": "capitol-climb/",
+    "slug": "dark-horse",
+    "title": "Dark Horse",
+    "tagline": "Seven questions, 30 seconds each, one answer apiece. The rarer your correct answer, the more it scores.",
+    "url": "dark-horse/",
     "tags": [
       "Daily",
-      "History",
-      "Trivia"
+      "Trivia",
+      "Politics"
     ],
     "status": "live",
-    "art": "dc-journey",
-    "pitch": "Twenty stops across DC, three hearts. U.S. history, where it happened."
+    "art": "trivia",
+    "pitch": "The daily rarity quiz: seven questions, 30 seconds each. Rare answers score more.",
+    "level": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "slug": "congressional-grid",
+    "title": "Congressional Grid",
+    "tagline": "Name a member of Congress who fits both the row and the column. Rarer picks score better.",
+    "url": "congressional-grid/",
+    "tags": [
+      "Daily",
+      "Trivia",
+      "Politics"
+    ],
+    "status": "live",
+    "art": "grid",
+    "pitch": "Fill nine squares with members of Congress. Rarer picks score better.",
+    "level": 4,
+    "difficulty": "Hardest"
   },
   {
     "slug": "coming-soon",

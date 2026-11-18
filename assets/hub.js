@@ -74,6 +74,7 @@
         return '<li class="hli" style="--i:' + i + '"><a class="hcard" data-game="' + esc(String(g.art).replace(/[^a-z-]/g, '')) + '" data-state="' + st + '" href="' + esc(href) + '">' +
           '<span class="hart">' + (svgs[i] || '') + '</span>' +
           '<span class="hmain"><span class="hname">' + esc(g.title) + '</span>' +
+          (g.difficulty ? '<span class="hlevel glevel" data-level="' + Math.max(1, Math.min(4, g.level | 0)) + '"><span class="lvbars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Difficulty: ' + esc(g.difficulty) + '</span>' : '') +
           '<span class="hpitch">' + esc(g.pitch || g.tagline) + '</span></span>' +
           '<span class="hgo">' + (st === 'done' ? '<span class="hdone">' + CHECK + ' Done today</span>' : (st === 'resume' ? '<span class="hdone hpart">In progress</span>' : '')) +
           '<span class="hbtn' + (st === 'done' ? ' ghost' : '') + '">' + LABEL[st] + '</span></span></a></li>';

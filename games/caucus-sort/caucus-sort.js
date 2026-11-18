@@ -49,6 +49,7 @@
   var DATA = null, S = null;       // S = current game state
   var mode = qs.has('practice') ? 'practice' : 'daily';
   var facesOnly = store('get', K + 'faces') === '1';
+  var easyMode = store('get', K + 'easy') === '1';   // easy mode: the four category names are shown from the start
   var dayInfo = localDate();
 
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -66,7 +67,7 @@
     if (!daily) order = shuffle(order);
     return { pid: p.id, idx: idx, order: order, solved: [], mistakes: 0, guesses: [], over: null, daily: daily };
   }
-  function save() { if (S && S.daily) store('set', K + 'day.' + dayInfo.s, JSON.stringify({ pid: S.pid, idx: S.idx, order: S.order, solved: S.solved, mistakes: S.mistakes, guesses: S.guesses, over: S.over, seen: S.seen, missed: S.missed })); }
+  function save() { if (S && S.daily) store('set', K + 'day.' + dayInfo.s, JSON.stringify({ pid: S.pid, idx: S.idx, order: S.order, solved: S.solved, mistakes: S.mistakes, guesses: S.guesses, over: S.over, seen: S.seen, missed: S.missed, easy: !!S.easy })); }
   function puzzleIndex(id) { for (var i = 0; i < DATA.puzzles.length; i++) if (DATA.puzzles[i].id === id) return i; return -1; }
   // today's puzzle: the admin's pick (data/schedule.json via assets/schedule.js) when it names a known puzzle, else the automatic rotation
   function dailyIndex() {
@@ -88,6 +89,7 @@
       st.guesses = (Array.isArray(st.guesses) ? st.guesses : []).filter(Array.isArray).map(function (g) { return ints(g, 4); }).slice(0, 40);
       st.seen = (Array.isArray(st.seen) ? st.seen : []).filter(function (x) { return typeof x === 'string' && x.length < 40; }).slice(0, 200);
       st.over = (st.over === 'won' || st.over === 'lost') ? st.over : null;
+      st.easy = st.easy === true;
       if (st.order.length !== 16) return newState(p, idx, true);
       st.daily = true; return st;
     }
@@ -130,8 +132,18 @@
     var rows = S.guesses.map(function (g) { return g.map(function (s) { return EMOJI[s]; }).join(''); }).join('\n');
     var won = S.over === 'won';
     var gname = (document.querySelector('h1.ptitle') || {}).textContent || document.title.split(' · ')[0];   // stamped from site/tools/game-names.json
-    var title = mode === 'daily' ? gname + ' #' + (S.idx + 1) : gname + ' (practice)';
+    var title = (mode === 'daily' ? gname + ' #' + (S.idx + 1) : gname + ' (practice)') + (S.easy ? ' (easy mode)' : '');
     return title + '\n' + (won ? (S.mistakes ? 'Solved with ' + S.mistakes + ' mistake' + (S.mistakes > 1 ? 's' : '') : 'Solved with no mistakes') : 'Not solved (4 mistakes)') + '\n' + rows;
+  }
+
+  // Easy mode: the four category names, in an order that does not give away which is easiest (fixed per puzzle)
+  function catsHtml() {
+    var p = puzzle(), r = seeded(String(p.id).split('').reduce(function (a, c) { return (a * 31 + c.charCodeAt(0)) >>> 0; }, 7));
+    var ord = [0, 1, 2, 3];
+    for (var k = 3; k > 0; k--) { var j = Math.floor(r() * (k + 1)); var tmp = ord[k]; ord[k] = ord[j]; ord[j] = tmp; }
+    return '<div class="cx-cats" role="group" aria-label="Easy mode: the four categories"><p class="cx-cats-h">The four categories</p><ul>' +
+      ord.map(function (gi) { var done = S.solved.indexOf(gi) >= 0; return '<li class="' + (done ? 'done d' + (gi + 1) : '') + '">' + (done ? '<span class="sym" aria-hidden="true">' + SYMS[gi] + '</span>' : '') + esc(p.g[gi].t) + (done ? '<span class="sr-only"> (found)</span>' : '') + '</li>'; }).join('') +
+      '</ul></div>';
   }
 
   function render() {
@@ -139,13 +151,16 @@
     var remaining = S.order.filter(function (t) { return S.solved.indexOf(tiles[t].slot) < 0; });
     var h = '<div class="cx-bar">' +
       '<div class="cx-seg" role="group" aria-label="Game mode"><button type="button" data-mode="daily" aria-pressed="' + (mode === 'daily') + '">Daily</button><button type="button" data-mode="practice" aria-pressed="' + (mode === 'practice') + '">Practice</button></div>' +
-      '<label class="cx-check"><input type="checkbox" id="cx-faces"' + (facesOnly ? ' checked' : '') + '> Faces only (hard mode)</label></div>';
+      '<span class="cx-opts"><label class="cx-check"><input type="checkbox" id="cx-easy"' + (easyMode ? ' checked' : '') + '> Easy mode</label>' +
+      '<label class="cx-check"><input type="checkbox" id="cx-faces"' + (facesOnly ? ' checked' : '') + '> Faces only (hard mode)</label></span></div>';
+    if (easyMode && !over && !S.easy) { S.easy = true; save(); }
     h += '<div class="cx-meta"><span>' + (mode === 'daily' ? 'Daily puzzle <b>#' + (S.idx + 1) + '</b> · ' + esc(dayInfo.s) : 'Practice puzzle <b>#' + (S.idx + 1) + '</b> (not saved)') + '</span>' +
       '<span class="cx-lives" role="img" aria-label="Mistakes remaining: ' + (MAX_MISTAKES - S.mistakes) + ' of ' + MAX_MISTAKES + '">Mistakes left ';
     for (var i = 0; i < MAX_MISTAKES; i++) h += '<i class="' + (i < S.mistakes ? 'lost' : '') + '"></i>';
     h += '</span></div>';
     h += '<div class="cx-solved">' + S.solved.map(function (gi) { return groupHtml(gi, S.missed && S.missed.indexOf(gi) >= 0); }).join('') + '</div>';
     if (!over) {
+      if (easyMode) h += catsHtml();
       h += '<div class="cx-board' + (facesOnly ? ' cx-faces' : '') + '" id="cx-board" role="group" aria-label="Politician tiles. Select four that share a category.">';
       remaining.forEach(function (t) {
         var x = tiles[t], on = sel.indexOf(t) >= 0;
@@ -179,6 +194,8 @@
 
   function wire() {
     root.querySelectorAll('[data-mode]').forEach(function (b) { b.addEventListener('click', function () { var m = b.getAttribute('data-mode'); if (m !== mode) { setMode(m); var nb = root.querySelector('[data-mode="' + m + '"]'); if (nb) nb.focus(); } }); });
+    var ez = document.getElementById('cx-easy');
+    ez.addEventListener('change', function () { easyMode = ez.checked; store('set', K + 'easy', easyMode ? '1' : '0'); render(); var nz = document.getElementById('cx-easy'); if (nz) nz.focus(); say(easyMode ? 'Easy mode on: the four categories are shown above the faces.' : 'Easy mode off: the categories are hidden.'); });
     var f = document.getElementById('cx-faces');
     f.addEventListener('change', function () { facesOnly = f.checked; store('set', K + 'faces', facesOnly ? '1' : '0'); var b = document.getElementById('cx-board'); if (b) b.classList.toggle('cx-faces', facesOnly); say(facesOnly ? 'Faces only: names hidden. Tiles are still labelled for screen readers.' : 'Names shown'); });
     var board = document.getElementById('cx-board');
@@ -295,8 +312,11 @@
     root.setAttribute('aria-busy', 'false');
     root.innerHTML = '<div class="cx-intro"><p class="cx-intro-date">Daily puzzle <b>#' + n + '</b> · ' + esc(dayInfo.s) + '</p>' +
       '<p class="cx-intro-rules">Sixteen faces, four hidden groups of four. You can make four mistakes. A new puzzle arrives every day at midnight, your local time.</p>' +
+      '<label class="cx-check cx-intro-easy"><input type="checkbox" id="cx-intro-easy"' + (easyMode ? ' checked' : '') + '> Easy mode: show me the four categories</label>' +
       '<div class="row"><button class="btn red" id="cx-go" type="button">' + (started ? 'Continue today’s puzzle' : 'Play today’s puzzle') + '</button>' +
       '<button class="btn ghost" id="cx-pr" type="button">Practice puzzle</button></div></div>';
+    var ie = document.getElementById('cx-intro-easy');
+    ie.addEventListener('change', function () { easyMode = ie.checked; store('set', K + 'easy', easyMode ? '1' : '0'); });
     var go = document.getElementById('cx-go');
     go.addEventListener('click', function () {
       function begin() { gameplay(true); setMode('daily'); var fb = document.querySelector('.cx-tile'); if (fb) fb.focus({ preventScroll: true }); fx('reveal', { el: document.getElementById('cx-board') }); }

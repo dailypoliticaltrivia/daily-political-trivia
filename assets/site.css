@@ -536,3 +536,11 @@ body[data-game] .dj-sheet{box-shadow:0 24px 60px -20px rgba(0,0,0,.5)}
 @media (max-width:699px){ body[data-game] .dj-sheet-in{padding-left:var(--s4);padding-right:var(--s4)} }
 /* a heading or score that receives focus from script (tabindex=-1) shows no ring; keyboard targets keep theirs */
 body[data-game] [tabindex="-1"]:focus{outline:none}
+
+/* game difficulty (homepage guide + game cards): four bars, filled up to the level */
+.glevel{display:inline-flex;align-items:center;gap:8px;margin:0;font:600 13px/1.3 var(--sans);color:var(--muted);letter-spacing:.01em}
+.lvbars{display:inline-flex;align-items:flex-end;gap:2px;height:14px}
+.lvbars i{display:block;width:5px;border-radius:1px;background:var(--line-strong)}
+.lvbars i:nth-child(1){height:5px}.lvbars i:nth-child(2){height:8px}.lvbars i:nth-child(3){height:11px}.lvbars i:nth-child(4){height:14px}
+.glevel[data-level="1"] .lvbars i:nth-child(-n+1),.glevel[data-level="2"] .lvbars i:nth-child(-n+2),.glevel[data-level="3"] .lvbars i:nth-child(-n+3),.glevel[data-level="4"] .lvbars i{background:var(--ink)}
+.gitem .glevel{margin-top:calc(-1 * var(--s1))}

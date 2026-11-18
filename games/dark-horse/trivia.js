@@ -555,6 +555,85 @@ function head(){
   var dots = S.ids.map(function(_, i){ return '<i class="' + (i < S.qi || (i === S.qi && S.phase === 'review') ? 'done' : i === S.qi ? 'cur' : '') + '"></i>'; }).join('');
   return '<div class="tg-top"><span>Question ' + (S.qi + 1) + ' of ' + S.ids.length + (S.mode === 'practice' ? '<span class="tg-mode">Practice</span>' : '') + '</span><span class="meta">Total <b class="num" id="tg-ts">' + total() + '</b></span></div><div class="tg-dots" aria-hidden="true">' + dots + '</div>';
 }
+
+/* ---------- the race track: after every answer the horse gallops ahead by the points scored. One lap is a perfect day (7 x 100);
+   the Dark Horse bonus carries it past the finish into a victory lap. Drawn on a stadium-shaped oval, run counter-clockwise like a
+   U.S. racetrack. Positions are computed here (no DOM measuring). Decorative: aria-hidden, the score is announced in text elsewhere. */
+var TRK_R = 50, TRK_X0 = 90, TRK_X1 = 510, TRK_TOP = 20, TRK_BOT = 120, TRK_CY = 70;
+var TRK_LEN = 2 * (TRK_X1 - TRK_X0) + 2 * Math.PI * TRK_R;
+var TRK_MOTION = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+/* a point at distance d along the centre line, starting at the finish (bottom middle) heading right; nx,ny = outward normal; dir = +1 heading right, -1 left */
+function trkAt(d){
+  var half = (TRK_X1 - TRK_X0) / 2, arc = Math.PI * TRK_R, top = TRK_X1 - TRK_X0, mid = TRK_X0 + half, f;
+  d = ((d % TRK_LEN) + TRK_LEN) % TRK_LEN;
+  if (d < half) return {x: mid + d, y: TRK_BOT, nx: 0, ny: 1, dir: 1};
+  d -= half;
+  if (d < arc){ f = d / TRK_R; return {x: TRK_X1 + TRK_R * Math.sin(f), y: TRK_CY + TRK_R * Math.cos(f), nx: Math.sin(f), ny: Math.cos(f), dir: f < Math.PI / 2 ? 1 : -1}; }
+  d -= arc;
+  if (d < top) return {x: TRK_X1 - d, y: TRK_TOP, nx: 0, ny: -1, dir: -1};
+  d -= top;
+  if (d < arc){ f = d / TRK_R; return {x: TRK_X0 - TRK_R * Math.sin(f), y: TRK_CY - TRK_R * Math.cos(f), nx: -Math.sin(f), ny: -Math.cos(f), dir: f < Math.PI / 2 ? -1 : 1}; }
+  d -= arc;
+  return {x: TRK_X0 + d, y: TRK_BOT, nx: 0, ny: 1, dir: 1};
+}
+/* the horse stands with its hooves near the outer rail of the lane, a little larger than drawn, facing the way it runs */
+function horseAt(p){ return 'translate(' + r1(p.x) + ' ' + r1(p.y + 5) + ') scale(' + (p.dir < 0 ? '-1.2' : '1.2') + ' 1.2)'; }
+function trkLap(){ return maxScore() || 700; }
+function r1(v){ return Math.round(v * 10) / 10; }
+var HORSE = '<g class="hb">' +
+  '<path class="tail" d="M-15 -14C-22 -13 -25 -6 -23 1"/>' +
+  '<g class="lg l1"><line x1="-10" y1="-8" x2="-10" y2="7"/></g><g class="lg l2"><line x1="-6" y1="-8" x2="-6" y2="7"/></g>' +
+  '<g class="lg l3"><line x1="8" y1="-8" x2="8" y2="7"/></g><g class="lg l4"><line x1="12" y1="-8" x2="12" y2="7"/></g>' +
+  '<ellipse class="hz" cx="0" cy="-12" rx="15" ry="7"/>' +
+  '<path class="hz" d="M8 -16L15 -27L20 -26L15 -9Z"/>' +
+  '<path class="hz" d="M14 -27Q18 -31 22 -27L27 -21Q26 -18 22 -19.5L16 -22Z"/>' +
+  '<path class="hz" d="M16 -28L17 -33L19.5 -28.5Z"/>' +
+  '<path class="mane" d="M15 -27L9 -17"/>' +
+  '<path class="silk" d="M-6 -18L3 -26L6.5 -23.5L-1 -16.5Z"/>' +
+  '<path class="silk2" d="M-2 -17.5L3 -12"/>' +
+  '<circle class="cap" cx="4.5" cy="-28.5" r="3.4"/>' +
+  '</g>';
+function trackHtml(pts){
+  var lap = trkLap(), posts = '', k, p, n = 7, h0 = trkAt(TRK_LEN * pts / lap);
+  for (k = 1; k < n; k++){
+    p = trkAt(TRK_LEN * k / n);
+    posts += '<line class="post" x1="' + r1(p.x - p.nx * 11) + '" y1="' + r1(p.y - p.ny * 11) + '" x2="' + r1(p.x + p.nx * 11) + '" y2="' + r1(p.y + p.ny * 11) + '"/>' +
+      '<text class="plab" x="' + r1(p.x - p.nx * 22) + '" y="' + r1(p.y - p.ny * 22 + 4) + '">' + Math.round(lap * k / n) + '</text>';
+  }
+  var D = 'M300 ' + TRK_BOT + 'H' + TRK_X1 + 'A' + TRK_R + ' ' + TRK_R + ' 0 0 0 ' + TRK_X1 + ' ' + TRK_TOP + 'H' + TRK_X0 + 'A' + TRK_R + ' ' + TRK_R + ' 0 0 0 ' + TRK_X0 + ' ' + TRK_BOT + 'Z';
+  return '<div class="tg-track" id="tg-track" aria-hidden="true"><svg viewBox="0 -18 600 170" focusable="false">' +
+    '<path class="infield" d="' + D + '"/><path class="rail" d="' + D + '"/><path class="bed" d="' + D + '"/>' + posts +
+    '<line class="fin" x1="300" y1="' + (TRK_BOT - 13) + '" x2="300" y2="' + (TRK_BOT + 13) + '"/><line class="fin2" x1="300" y1="' + (TRK_BOT - 13) + '" x2="300" y2="' + (TRK_BOT + 13) + '"/>' +
+    '<text class="plab fl" x="300" y="' + (TRK_BOT + 25) + '">Finish</text>' +
+    '<text class="tn num" x="300" y="70">' + Math.round(pts) + '</text><text class="tof" x="300" y="88">' + (pts > lap ? 'Victory lap!' : 'of ' + lap + ' points') + '</text>' +
+    '<g class="tg-horse" transform="' + horseAt(h0) + '">' + HORSE + '</g></svg></div>';
+}
+function trackPlace(box, pts){
+  var lap = trkLap(), p = trkAt(TRK_LEN * pts / lap), h = box.querySelector('.tg-horse');
+  h.setAttribute('transform', horseAt(p));
+  box.querySelector('.tn').textContent = Math.round(pts);
+  box.querySelector('.tof').textContent = pts > lap ? 'Victory lap!' : 'of ' + lap + ' points';
+}
+/* gallop from one score to another; no points makes the horse stamp in place */
+function trackRun(from, to, ms, delay){
+  var box = document.getElementById('tg-track'); if (!box) return;
+  trackPlace(box, from);
+  var h = box.querySelector('.tg-horse');
+  if (!TRK_MOTION || !window.requestAnimationFrame){ trackPlace(box, to); if (to > trkLap()) box.classList.add('lap2'); return; }
+  if (to <= from){ h.classList.add('balk'); setTimeout(function(){ h.classList.remove('balk'); }, 800); return; }
+  setTimeout(function(){
+    var t0 = null; h.classList.add('run');
+    function step(ts){
+      if (!box.isConnected) return;
+      if (t0 === null) t0 = ts;
+      var k = Math.min(1, (ts - t0) / ms), e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      trackPlace(box, from + (to - from) * e);
+      if (k < 1) requestAnimationFrame(step); else { h.classList.remove('run'); if (to > trkLap()) box.classList.add('lap2'); }
+    }
+    requestAnimationFrame(step);
+  }, delay || 0);
+}
+function gallopMs(d){ return Math.round(650 + 1700 * Math.min(1, d / 300)); }
 var DIFF = ['', 'Easy', 'Medium', 'Hard'];
 function tierChip(a, cls){ var t = tierOf(a); if (a.jackpot === true) return '<li class="' + (cls || '') + ' rare">' + esc(a.name) + '<em>' + JACKPOT_SQ + ' Dark Horse &middot; ' + JACKPOT_PTS + '</em></li>'; return '<li class="' + (cls || '') + (t >= 4 ? ' rare' : '') + '">' + esc(a.name) + '<em>' + TIER_SQ[t] + ' ' + TIER_NAME[t] + ' &middot; ' + TIER_PTS[t] + '</em></li>'; }
 
@@ -594,6 +673,7 @@ function otherAnswers(i){
 function reviewFx(qq, g, t, hit){
   var verdict = document.getElementById('tg-verdict'), ts = document.getElementById('tg-ts');
   if (ts && t) fxc('countUp', ts, total(), 650, total() - qScore(S.qi));
+  trackRun(total() - qScore(S.qi), total(), gallopMs(qScore(S.qi)), 150);
   fxc('slideIn', verdict, {dy: 8});
   if (hit) fx('jackpot', {el: document.querySelector('.tg-jackpot') || verdict, tier: 5});
   else if (t >= 4) fx('rare', {el: verdict, tier: t, color: ['', '', '', '', '#f08a14', '#d92b2b'][t], intensity: t === 5 ? 1 : 0.75});
@@ -605,7 +685,7 @@ function renderReview(){
   var verdict = t ? 'Accepted: ' + esc(qq.answers[g.x].name) : 'Time up';
   var line = hit ? 'Dark Horse &middot; +' + JACKPOT_PTS + ' points' : t ? TIER_NAME[t] + ' answer &middot; +' + TIER_PTS[t] + ' points' : '0 points' + (S.tries ? ' &middot; ' + S.tries + (S.tries === 1 ? ' try' : ' tries') : '');
   var others = otherAnswers(S.qi), jp = jackAnswer(S.qi);
-  $game.innerHTML = head() +
+  $game.innerHTML = head() + trackHtml(total() - qScore(S.qi)) +
     '<h2 class="tg-prompt">' + esc(qq.prompt) + '</h2>' +
     (hit ? '<p class="tg-jackpot"><span aria-hidden="true">★</span> You found the Dark Horse!</p>' : '') +
     '<p class="tg-verdict ' + (t ? 'ok' : 'no') + '" id="tg-verdict" tabindex="-1">' + verdict + '</p>' +
@@ -741,7 +821,7 @@ function renderResults(justFinished){
   $game.setAttribute('aria-busy', 'false');
   $game.innerHTML = '<div class="tg-top"><span>' + (daily ? prettyDate(S.date) : 'Practice round<span class="tg-mode">Not saved</span>') + '</span></div>' +
     '<h2 class="tg-sub" style="margin-top:var(--s5)">Your score</h2><p class="tg-total num" id="tg-final" tabindex="-1">' + total() + '<small> / ' + maxScore() + (anyJack() ? ' + Dark Horse bonus' : '') + '</small></p>' +
-    '<p class="tg-rank">' + rankFor() + '</p>' +
+    '<p class="tg-rank">' + rankFor() + '</p>' + trackHtml(total()) +
     '<ul class="tg-qlist">' + rows + '</ul>' +
     '<h2 class="tg-sub" style="margin-top:var(--s6)">Share your result (no spoilers)</h2>' +
     '<textarea class="tg-share" id="tg-share" readonly aria-label="Share text">' + esc(txt) + '</textarea>' +
@@ -779,6 +859,7 @@ function renderResults(justFinished){
 function resultsFx(){
   var f = total() / maxScore(), top = total() > maxScore() || f >= 0.7;
   fxc('countUp', document.getElementById('tg-final'), total(), 1000, 0);
+  trackRun(0, total(), Math.round(1400 + 1400 * Math.min(1, total() / maxScore())), 250);
   fxc('staggerIn', document.querySelectorAll('.tg-qlist>li'), 90);   // the seven answers land one after another under the score
   fxc('slideIn', document.querySelector('.tg-rank'), {delay: 700, dy: 10});
   if (top) setTimeout(function(){ fx('win', {el: document.querySelector('.tg-rank'), intensity: total() > maxScore() ? 1 : 0.8}); }, 900);
