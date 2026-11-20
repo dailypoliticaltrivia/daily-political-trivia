@@ -33,7 +33,7 @@
     "smithsonian-american-indian",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which nations formed the original Haudenosaunee (Iroquois) Confederacy, a league that coordinated peace and decision-making among its members?",
    "options": [
     "Cherokee, Creek, Choctaw, Chickasaw, and Seminole",
@@ -290,7 +290,7 @@
     "smithsonian-american-indian",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Aztec (Mexica) capital of Tenochtitlan was built on an island in which lake?",
    "options": [
     "Lake Titicaca",
@@ -437,7 +437,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which language family included many peoples of New England and the Chesapeake, such as the Wampanoag and Powhatan, who met English colonists?",
    "options": [
     "Algonquian",
@@ -606,7 +606,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Native group became known for adopting the horse and shifting to a mobile bison-hunting life on the Plains after Spanish colonization?",
    "options": [
     "The Mohawk",
@@ -718,7 +718,7 @@
     "library-of-congress",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Columbus's first landfall in the Americas in 1492 was in which area?",
    "options": [
     "Newfoundland",
@@ -740,7 +740,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Treaty of Tordesillas (1494) was an agreement that did what?",
    "options": [
     "Ended a long religious war between Spain and England",
@@ -785,7 +785,7 @@
     "treasury",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which pair of items traveled from the Americas to Europe in the Columbian Exchange?",
    "options": [
     "Horses and wheat",
@@ -916,7 +916,7 @@
     "air-and-space",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which ship type, small and maneuverable with triangular sails, was favored by Portuguese and Spanish explorers?",
    "options": [
     "The caravel",
@@ -1006,7 +1006,7 @@
     "library-of-congress",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who explored the coast of Newfoundland in 1497 on behalf of England?",
    "options": [
     "Giovanni da Verrazzano",
@@ -1050,7 +1050,7 @@
     "capitol-rotunda",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Spanish explorer led the conquest of the Aztec Empire between 1519 and 1521?",
    "options": [
     "Francisco Pizarro",
@@ -1250,7 +1250,7 @@
     "smithsonian-american-indian",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Spanish colonial society in the Americas was marked by a social hierarchy based largely on what?",
    "options": [
     "Wealth alone, regardless of birth, ancestry, or place of residence",
@@ -1272,7 +1272,7 @@
     "smithsonian-american-indian",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A person of mixed Spanish and Native American ancestry in colonial Spanish America was called a what?",
    "options": [
     "Creole",
@@ -1359,7 +1359,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which event in 1492 completed the Spanish Christian reconquest of the Iberian Peninsula?",
    "options": [
     "The defeat of the Armada",
@@ -1535,7 +1535,7 @@
     "national-cathedral",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "French Protestants who faced persecution in France were known as what?",
    "options": [
     "Jesuits",
@@ -1579,7 +1579,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Samuel de Champlain founded Quebec in 1608. What was one reason France wanted it?",
    "options": [
     "To establish a haven for persecuted French Catholics",
@@ -1601,7 +1601,7 @@
     "smithsonian-american-indian",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Dutch West India Company established New Netherland to pursue what goal?",
    "options": [
     "Religious freedom for Dutch Calvinists",
@@ -1668,7 +1668,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Sir Walter Raleigh sponsored the English colony at which location in the 1580s?",
    "options": [
     "Roanoke Island",
@@ -1802,7 +1802,7 @@
     "smithsonian-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Before the Atlantic slave trade grew, Portuguese traders began transporting enslaved Africans to which places to work on sugar plantations?",
    "options": [
     "The upper Mississippi River valley in North America",
@@ -1824,7 +1824,7 @@
     "smithsonian-african-american-history",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which crop drove the early demand for enslaved African labor in the Caribbean and Brazil?",
    "options": [
     "Wheat",
@@ -2044,7 +2044,7 @@
     "air-and-space",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Giovanni da Verrazzano explored the Atlantic coast of North America in 1524 and sailed on behalf of which country?",
    "options": [
     "Spain",
@@ -2199,7 +2199,7 @@
     "capitol-rotunda",
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which expedition leader appears in the Capitol Rotunda painting 'Discovery of the Mississippi'?",
    "options": [
     "Samuel de Champlain",
@@ -2309,7 +2309,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sequence of events is in correct chronological order?",
    "options": [
     "St. Augustine founded, Roanoke settled, Cortes defeats the Aztecs",
@@ -2331,7 +2331,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which of these events happened first?",
    "options": [
     "Luther's Ninety-five Theses",
@@ -2507,7 +2507,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Native nations became key partners of the French in the fur trade of the St. Lawrence region?",
    "options": [
     "The Huron (Wendat) and Algonquin",
@@ -2662,7 +2662,7 @@
     "smithsonian-african-american-history",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which trading nation dominated the early European slave trade from West Africa in the 1400s and 1500s?",
    "options": [
     "England",
@@ -2684,7 +2684,7 @@
     "smithsonian-african-american-history",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did the Portuguese build the fort of Elmina in 1482 to trade for gold and, later, enslaved people?",
    "options": [
     "On the coast of present-day Ghana",
@@ -2793,7 +2793,7 @@
     "air-and-space",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Spanish explorer became the first European to sight the Pacific Ocean from the Americas, in 1513?",
    "options": [
     "Hernan Cortes",
@@ -3013,7 +3013,7 @@
     "smithsonian-american-history",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which of these items did Europeans bring to the Americas?",
    "options": [
     "Corn and pumpkins",
@@ -3150,7 +3150,7 @@
     "treasury",
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The headright system, introduced in Virginia in 1618, offered what?",
    "options": [
     "Free passage and land to all English citizens who asked",
@@ -3171,7 +3171,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Most English migrants to the Chesapeake colonies in the 1600s came as what?",
    "options": [
     "Indentured servants",
@@ -3399,7 +3399,7 @@
     "supreme-court",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Maryland, chartered in 1632 to Cecil Calvert, Lord Baltimore, was founded partly to do what?",
    "options": [
     "Provide a refuge for English Catholics and profit for the proprietor",
@@ -3422,7 +3422,7 @@
     "supreme-court",
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Maryland Act of Toleration (1649) is known for guaranteeing what?",
    "options": [
     "Freedom of religion for all people including non-Christians",
@@ -3557,7 +3557,7 @@
     "supreme-court",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the role of the county court and the vestry in colonial Virginia?",
    "options": [
     "Appointments by the king",
@@ -3784,7 +3784,7 @@
     "smithsonian-american-history",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which crop, raised with the knowledge and labor of enslaved West Africans, became South Carolina's main export in the 1700s?",
    "options": [
     "Rice",
@@ -3872,7 +3872,7 @@
     "smithsonian-american-history",
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Stono Rebellion in 1739 occurred in which colony?",
    "options": [
     "Virginia",
@@ -4277,7 +4277,7 @@
     "national-archives",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which colony's founding in 1634 was led by Leonard Calvert on behalf of his brother Cecil?",
    "options": [
     "Virginia",
@@ -4662,7 +4662,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Massasoit, leader of the Wampanoag, agreed to a treaty with Plymouth Colony in 1621 mainly because he wanted what?",
    "options": [
     "An ally against rival Native nations such as the Narragansett",
@@ -4684,7 +4684,7 @@
     "national-cathedral",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Puritans who founded Massachusetts Bay Colony in 1630 differed from the Pilgrims in that the Puritans mainly wanted to do what?",
    "options": [
     "Break away completely from the church and build a new religion apart from it",
@@ -4729,7 +4729,7 @@
     "national-cathedral",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Between about 1630 and 1640, thousands of English Puritans moved to New England. What is this migration called?",
    "options": [
     "The Great Migration",
@@ -4774,7 +4774,7 @@
     "house-floor",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In Puritan Massachusetts, who could vote in colonial elections in the early years?",
    "options": [
     "All adult men",
@@ -4842,7 +4842,7 @@
     "supreme-court",
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Roger Williams founded Providence in 1636, which grew into which colony known for religious toleration?",
    "options": [
     "Connecticut",
@@ -4909,7 +4909,7 @@
     "capitol-rotunda",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Fundamental Orders of Connecticut (1639) are often described as what?",
    "options": [
     "A treaty between the colonists and the Pequot nation that ended the war of 1637",
@@ -5216,7 +5216,7 @@
     "senate-floor",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Dominion of New England (1686) was an attempt by the Crown to do what?",
    "options": [
     "Combine several northern colonies under a royal governor",
@@ -5351,7 +5351,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Harvard College, founded in 1636, was established primarily to do what?",
    "options": [
     "Train ministers and educated leaders for the colony",
@@ -5705,7 +5705,7 @@
     "capitol-rotunda",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which New England colony received a 1662 charter that joined the Hartford and New Haven settlements?",
    "options": [
     "Rhode Island",
@@ -5860,7 +5860,7 @@
     "national-archives",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did the Pilgrims live for about a decade before sailing to America?",
    "options": [
     "France",
@@ -6152,7 +6152,7 @@
     "supreme-court",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which of these was a core belief of Quakers (the Society of Friends)?",
    "options": [
     "Ordained priests must lead worship and interpret Scripture for the congregation",
@@ -6241,7 +6241,7 @@
     "smithsonian-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Compared with New England and the Chesapeake, the middle colonies were distinctive in that their populations were what?",
    "options": [
     "Almost entirely English, with very few settlers from other countries",
@@ -6309,7 +6309,7 @@
     "white-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1735 trial of John Peter Zenger is remembered as an important step toward what?",
    "options": [
     "Trial by combat",
@@ -6354,7 +6354,7 @@
     "white-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Zenger was prosecuted for criticizing which official?",
    "options": [
     "King George II, who had personally ordered the printer's arrest in London",
@@ -6421,7 +6421,7 @@
     "treasury",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Navigation Acts, beginning in 1651, required that colonial trade be carried mainly in what?",
    "options": [
     "English or colonial ships",
@@ -6511,7 +6511,7 @@
     "capitol-rotunda",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Board of Trade, created in 1696, was established to do what?",
    "options": [
     "Oversee colonial commerce and advise on policy for the colonies",
@@ -6533,7 +6533,7 @@
     "treasury",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The term 'salutary neglect' describes what British practice in the early 1700s?",
    "options": [
     "Strict and constant enforcement of every trade law on colonial merchants",
@@ -6668,7 +6668,7 @@
     "treasury",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which was the largest city in the British colonies by the 1750s?",
    "options": [
     "Philadelphia",
@@ -7047,7 +7047,7 @@
     "smithsonian-american-history",
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "William and Mary, founded in 1693, was the second college in the colonies and was established in which colony?",
    "options": [
     "Maryland",
@@ -7114,7 +7114,7 @@
     "smithsonian-american-history",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which colony's iron industry was notable in the 1700s despite English restrictions?",
    "options": [
     "Georgia",
@@ -7181,7 +7181,7 @@
     "national-archives",
     "treasury"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 1670s English Plantation Duty Act imposed a tax on what?",
    "options": [
     "Enumerated goods shipped from one colony to another",
@@ -7203,7 +7203,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which ruler took the English throne after the Restoration in 1660?",
    "options": [
     "Oliver Cromwell",
@@ -7294,7 +7294,7 @@
     "library-of-congress",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which English document of 1689 limited royal power and protected certain rights?",
    "options": [
     "The English Bill of Rights",
@@ -7338,7 +7338,7 @@
     "national-cathedral",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Great Awakening of the 1730s and 1740s was a movement that emphasized what?",
    "options": [
     "Strict obedience to royal bishops and the established church hierarchy",
@@ -7382,7 +7382,7 @@
     "national-cathedral",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "George Whitefield, an English minister, became famous in the colonies during the 1740s for what?",
    "options": [
     "Preaching to huge outdoor crowds with a dramatic style",
@@ -7492,7 +7492,7 @@
     "national-cathedral",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which religious groups grew in numbers during and after the Great Awakening?",
    "options": [
     "Baptists and Presbyterians",
@@ -7514,7 +7514,7 @@
     "national-cathedral",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Mohegan minister became well known for his preaching during and after the Awakening?",
    "options": [
     "Metacom",
@@ -7712,7 +7712,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which French explorer claimed the Mississippi River valley for France in 1682 and named it Louisiana?",
    "options": [
     "Samuel de Champlain",
@@ -7756,7 +7756,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "French colonists in North America known as coureurs de bois were most concerned with what?",
    "options": [
     "Trading furs and building alliances with Native peoples",
@@ -7865,7 +7865,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Queen Anne's War (1702-1713) ended with the Treaty of Utrecht, which gave Britain what?",
    "options": [
     "Control of Louisiana and the Mississippi River from the French crown",
@@ -7932,7 +7932,7 @@
     "national-archives",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1753, Virginia's governor sent a young George Washington to deliver a message to French forces in the Ohio country. What was the message?",
    "options": [
     "An offer to trade with the French in return for Virginia's western land claims",
@@ -7954,7 +7954,7 @@
     "washington-monument",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Fort Necessity, where a young George Washington surrendered to French forces in 1754, was built in which area?",
    "options": [
     "Western Pennsylvania, near the Ohio country",
@@ -7977,7 +7977,7 @@
     "capitol-rotunda",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Albany Congress of 1754 brought together colonial delegates to do what?",
    "options": [
     "Declare independence from the British Crown and form a new national government",
@@ -8266,7 +8266,7 @@
     "smithsonian-african-american-history",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "By 1750, about what share of the population of the British mainland colonies was of African descent?",
    "options": [
     "About one in five",
@@ -8755,7 +8755,7 @@
     "washington-monument",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "As a teenager in the late 1740s, Washington gained early experience working as what?",
    "options": [
     "A land surveyor in Virginia's backcountry",
@@ -8778,7 +8778,7 @@
     "capitol-rotunda",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Washington's 1754 expedition into the Ohio country, which ended at Fort Necessity, was sent by whom?",
    "options": [
     "King George II, who personally selected Washington for the mission",
@@ -8933,7 +8933,7 @@
     "supreme-court",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which colony's early experiment with religious freedom, begun by Roger Williams, is often cited as a precedent for the later idea of separating church and state?",
    "options": [
     "Virginia",
@@ -9023,7 +9023,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which colony was unusual for having only one legislative house after 1701?",
    "options": [
     "Virginia",
@@ -9161,7 +9161,7 @@
     "capitol-rotunda",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When the Virginia General Assembly first met in 1619, burgesses were representatives from what units?",
    "options": [
     "Native villages that had signed treaties of alliance with the Virginia Company",
@@ -9251,7 +9251,7 @@
     "capitol-rotunda",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Colonial assemblies were modeled most closely on which part of the English Parliament?",
    "options": [
     "The Privy Council",
@@ -9542,7 +9542,7 @@
     "treasury",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In colonial America, Spanish silver coins known as 'pieces of eight' were widely used because of what?",
    "options": [
     "A shortage of English coins in the colonies",
@@ -9608,7 +9608,7 @@
     "treasury",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A tax on goods entering or leaving a port, such as those imposed under the Navigation Acts, is called what?",
    "options": [
     "A poll tax",
@@ -9742,7 +9742,7 @@
     "national-archives",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Boston printer's 1690 newspaper, Publick Occurrences, was shut down by authorities after a single issue?",
    "options": [
     "John Winthrop",
@@ -9876,7 +9876,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Native woman served as interpreter and guide for Hernan Cortes during the conquest of the Aztec Empire?",
    "options": [
     "Pocahontas",

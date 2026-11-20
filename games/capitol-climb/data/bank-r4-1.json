@@ -53,7 +53,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Moundville, one of the largest Mississippian ceremonial centers, with more than two dozen earthen mounds around a great plaza, is in which present-day state?",
    "options": [
     "Ohio",
@@ -116,7 +116,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On his second voyage in 1493, Columbus carried which crop to Hispaniola, beginning its spread into the Caribbean?",
    "options": [
     "Sugarcane",
@@ -179,7 +179,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Santa Elena, a capital of Spanish Florida in the late 1500s, stood in what is now which state?",
    "options": [
     "Georgia",
@@ -242,7 +242,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Maize was domesticated thousands of years ago from teosinte, a wild grass native to which region?",
    "options": [
     "The Andes of Peru",
@@ -305,7 +305,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Among Ancestral Puebloan and later Pueblo peoples, what is a kiva?",
    "options": [
     "A chamber used for ceremonies and meetings",
@@ -409,7 +409,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Columbus sailed south to the Canary Islands before heading west in 1492 in order to use what?",
    "options": [
     "The Gulf Stream",
@@ -786,7 +786,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "From 1729 until the early 1770s, the capital of Spanish Texas was Los Adaes, located in what is now which state?",
    "options": [
     "Oklahoma",
@@ -807,7 +807,7 @@
     "treasury",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Wall Street in Manhattan takes its name from what?",
    "options": [
     "A stone wall around an English fort",
@@ -870,7 +870,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Georgia's trustees in the 1730s hoped colonists would produce what luxury good, requiring settlers to plant mulberry trees?",
    "options": [
     "Wine",
@@ -1016,7 +1016,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The heavy, boat-shaped Conestoga wagon, used to haul freight in the 1700s and early 1800s, was first built in which colony?",
    "options": [
     "Virginia",
@@ -1056,7 +1056,7 @@
    "stops": [
     "national-archives"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The first U.S. patent, signed by George Washington in 1790, went to Samuel Hopkins for a process of making what?",
    "options": [
     "Steam engines for river ships and mills",
@@ -1141,7 +1141,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which state, formed from Virginia's western lands, joined the Union in 1792 as the 15th state?",
    "options": [
     "Tennessee",
@@ -1204,7 +1204,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 1770s and 1780s, settlers from which colony fought Pennsylvanians for control of the Wyoming Valley along the Susquehanna River?",
    "options": [
     "Virginia",
@@ -1245,7 +1245,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The New Madrid earthquakes of 1811-1812, among the strongest ever recorded in the eastern U.S., shook which region?",
    "options": [
     "The New England coast",
@@ -1310,7 +1310,7 @@
     "union-station",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1830, Peter Cooper's small steam locomotive Tom Thumb famously raced what on the Baltimore and Ohio line?",
    "options": [
     "A canal boat",
@@ -1395,7 +1395,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Lowell Offering, published in the 1840s, was notable as a magazine written by whom?",
    "options": [
     "Enslaved people who had escaped to the North",
@@ -1415,7 +1415,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1835, workers in which city won a ten-hour day through what is often called the first general strike in North America?",
    "options": [
     "New York City",
@@ -1584,7 +1584,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1811-1812, the New Orleans, built by Robert Fulton and Nicholas Roosevelt, became the first steamboat to travel which route?",
    "options": [
     "Down the Ohio and Mississippi rivers",
@@ -1605,7 +1605,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1811, John Jacob Astor's Pacific Fur Company founded which trading post at the mouth of the Columbia River?",
    "options": [
     "Fort Vancouver",
@@ -1774,7 +1774,7 @@
     "smithsonian-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Pony Express, which carried mail by relay riders between Missouri and California in 1860 and 1861, was put out of business by what?",
    "options": [
     "The transcontinental railroad",
@@ -2202,7 +2202,7 @@
     "smithsonian-american-history",
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After decades of commercial hide hunting, how many American bison were left by about 1889, from herds once numbering in the tens of millions?",
    "options": [
     "About 500,000",
@@ -2432,7 +2432,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "George Westinghouse's 1869 invention, which let engineers stop a whole train at once, was what?",
    "options": [
     "The automatic coupler",
@@ -2729,7 +2729,7 @@
     "fdr-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Created in 1933, which New Deal agency drew residential security maps that shaded many Black and immigrant neighborhoods red as risky?",
    "options": [
     "The Works Progress Administration",
@@ -3199,7 +3199,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Hurricane Andrew in 1992 devastated which area, leading to much stricter building codes there?",
    "options": [
     "New Orleans",
@@ -3219,7 +3219,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 2018 Camp Fire, the deadliest wildfire in California history, largely destroyed which town?",
    "options": [
     "Malibu",
@@ -3259,7 +3259,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1987, the last wild members of which endangered bird were captured for a breeding program, before captive-bred birds were released starting in 1992?",
    "options": [
     "The whooping crane",
@@ -3302,7 +3302,7 @@
     "white-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which 2022 law, signed by Joe Biden, contained the largest federal investment in climate and clean energy up to that time?",
    "options": [
     "The Inflation Reduction Act",
@@ -3324,7 +3324,7 @@
     "senate-floor",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which 2002 law, passed after the Enron and WorldCom scandals, tightened accounting and auditing rules for public companies?",
    "options": [
     "The Dodd-Frank Act",

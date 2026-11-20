@@ -11,7 +11,7 @@
     "korean-war-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date in 1950 did North Korean forces cross the 38th parallel to invade South Korea?",
    "options": [
     "April 12, 1950",
@@ -112,7 +112,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What was Task Force Smith, the first American ground unit to fight in Korea near Osan in July 1950?",
    "options": [
     "A Marine brigade of about 5,000 men from Okinawa",
@@ -152,7 +152,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Army division formed part of the Inchon force alongside the 1st Marine Division?",
    "options": [
     "The 1st Cavalry Division",
@@ -173,7 +173,7 @@
     "korean-war-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What name was given to the Inchon operation planned by General MacArthur?",
    "options": [
     "Operation Overlord",
@@ -273,7 +273,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which North Korean port was the site of a large seaborne evacuation of U.N. forces that ended around December 24, 1950?",
    "options": [
     "Inchon",
@@ -356,7 +356,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where did armistice negotiations to end the Korean War begin in July 1951?",
    "options": [
     "Seoul",
@@ -397,7 +397,7 @@
     "korean-war-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was the Korean War armistice signed?",
    "options": [
     "July 27, 1953",
@@ -457,7 +457,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Korean leader refused to sign the 1953 armistice because he rejected the outcome?",
    "options": [
     "Kim Il Sung of North Korea",
@@ -557,7 +557,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which U.S. Army general succeeded Ridgway as Eighth Army commander on April 14, 1951?",
    "options": [
     "Mark Clark",
@@ -657,7 +657,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many statues stand in the \"Column\" of servicemen at the Korean War Veterans Memorial?",
    "options": [
     "11",
@@ -679,7 +679,7 @@
     "vietnam-memorial",
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who sculpted the nineteen servicemen statues at the Korean War Veterans Memorial?",
    "options": [
     "Frank Gaylord",
@@ -821,7 +821,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which flowering plant, South Korea's national flower, is planted at the Korean War Veterans Memorial?",
    "options": [
     "Rose of Sharon",
@@ -841,7 +841,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When was the Korean War Veterans Memorial dedicated?",
    "options": [
     "June 25, 1950",
@@ -861,7 +861,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president led the groundbreaking for the Korean War Veterans Memorial on June 14, 1992?",
    "options": [
     "Ronald Wilson Reagan",
@@ -1204,7 +1204,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which attack on a U.S. airfield on February 7, 1965, prompted the reprisal raid Operation Flaming Dart?",
    "options": [
     "The siege of Khe Sanh",
@@ -1244,7 +1244,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What does \"Tet\" refer to in the name of the Tet Offensive?",
    "options": [
     "The Vietnamese Lunar New Year holiday",
@@ -1284,7 +1284,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Hanoi expected the Tet Offensive to trigger what?",
    "options": [
     "A coup against Ho Chi Minh",
@@ -1344,7 +1344,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. base saw a siege that continued for two months after the main Tet attacks?",
    "options": [
     "Camp Holloway",
@@ -1364,7 +1364,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date in 1968 did U.S. soldiers kill hundreds of unarmed civilians at My Lai?",
    "options": [
     "August 2, 1964",
@@ -1404,7 +1404,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which helicopter pilot tried to stop the killing at My Lai and reported it to his superiors?",
    "options": [
     "Hugh Thompson Jr.",
@@ -1424,7 +1424,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which journalist broke the story of the My Lai massacre in November 1969?",
    "options": [
     "Walter Cronkite",
@@ -1444,7 +1444,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the official U.S. Army report on the My Lai massacre and its cover-up, issued in 1970, known as?",
    "options": [
     "The Tower Commission report",
@@ -1486,7 +1486,7 @@
     "pentagon",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "By what vote did the Supreme Court decide New York Times Co. v. United States, the Pentagon Papers case?",
    "options": [
     "6 to 3",
@@ -1568,7 +1568,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how many students did the May 1970 Kent State shootings wound?",
    "options": [
     "Nine",
@@ -1588,7 +1588,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Two people were killed when police fired on a dormitory at which college in Mississippi in May 1970?",
    "options": [
     "Tougaloo College",
@@ -1689,7 +1689,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which 1973 law, passed over President Nixon's veto, restricted the president's power to commit U.S. forces abroad?",
    "options": [
     "The Neutrality Act",
@@ -1709,7 +1709,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Saigon fall to North Vietnamese forces?",
    "options": [
     "January 27, 1973",
@@ -1749,7 +1749,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which general became South Vietnam's president for a day or two and surrendered to the communists in April 1975?",
    "options": [
     "Duong Van Minh",
@@ -1869,7 +1869,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Vietnam veteran, inspired after seeing the film The Deer Hunter, founded the effort to build the Vietnam Veterans Memorial?",
    "options": [
     "Robert McNamara",
@@ -1889,7 +1889,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which two Mall landmarks do the arms of the Vietnam Veterans Memorial wall point to?",
    "options": [
     "The Capitol and the Jefferson Memorial",
@@ -1929,7 +1929,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What symbol marks a service member listed as missing in action on the Vietnam Veterans Memorial?",
    "options": [
     "A diamond",
@@ -1949,7 +1949,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many military women are named among the dead on the Vietnam Veterans Memorial?",
    "options": [
     "Two",
@@ -1970,7 +1970,7 @@
     "vietnam-memorial",
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How long did the reading of all the names engraved on the Wall take at Washington National Cathedral during the dedication week?",
    "options": [
     "56 hours",
@@ -1990,7 +1990,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where was the black granite for 144 panels of the Vietnam Veterans Memorial quarried?",
    "options": [
     "Barre, Vermont",
@@ -2010,7 +2010,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which U.S. city were the names for the Vietnam Veterans Memorial inscribed on the panels?",
    "options": [
     "Barre, Vermont",
@@ -2052,7 +2052,7 @@
     "korean-war-memorial",
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which sculptor created The Three Servicemen statue near the Vietnam Veterans Memorial?",
    "options": [
     "Frank Gaylord",
@@ -2072,7 +2072,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When was The Three Servicemen statue dedicated at the Vietnam Veterans Memorial?",
    "options": [
     "1980",
@@ -2134,7 +2134,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year was the Vietnam Women's Memorial dedicated?",
    "options": [
     "1982",
@@ -2174,7 +2174,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How high does the Vietnam Veterans Memorial wall rise at its tallest point?",
    "options": [
     "About 3 feet",
@@ -2254,7 +2254,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which official delayed the building permit for the Vietnam Veterans Memorial amid the controversy over its design?",
    "options": [
     "Defense Secretary Caspar Weinberger",
@@ -2274,7 +2274,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what year did construction of the Pentagon begin?",
    "options": [
     "1917",
@@ -2354,7 +2354,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Army officer pushed the Pentagon project and met the architect in July 1941, giving him days to produce a design?",
    "options": [
     "Brehon Somervell",
@@ -2394,7 +2394,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which company was the main contractor that built the Pentagon?",
    "options": [
     "Bechtel",
@@ -2414,7 +2414,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how much did the Pentagon cost to build?",
    "options": [
     "About $8 million",
@@ -2434,7 +2434,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which river provided the sand dredged for the concrete used to build the Pentagon?",
    "options": [
     "The Anacostia River",
@@ -2454,7 +2454,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which neighborhood of pawnshops and homes was cleared to make room for the Pentagon?",
    "options": [
     "Foggy Bottom",
@@ -2554,7 +2554,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Pentagon is in which Virginia county?",
    "options": [
     "Arlington County",
@@ -2615,7 +2615,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many people were killed at the Pentagon and on Flight 77 in the September 11 attack?",
    "options": [
     "64",
@@ -2635,7 +2635,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At what time did Flight 77 strike the Pentagon on September 11, 2001?",
    "options": [
     "9:37 a.m.",
@@ -2696,7 +2696,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many benches are in the Pentagon Memorial?",
    "options": [
     "125",
@@ -2717,7 +2717,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year was the Pentagon Memorial dedicated?",
    "options": [
     "2002",
@@ -2798,7 +2798,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Pentagon 9/11 memorial at Arlington National Cemetery is in which section?",
    "options": [
     "Section 27",
@@ -2842,7 +2842,7 @@
     "vietnam-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was the first U.S. secretary of defense?",
    "options": [
     "George Marshall",
@@ -2926,7 +2926,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many members does the Joint Chiefs of Staff have today?",
    "options": [
     "Five",
@@ -2986,7 +2986,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which military service chief was added as a statutory member of the Joint Chiefs by the 2020 defense authorization act?",
    "options": [
     "The Chief of Space Operations",
@@ -3106,7 +3106,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where is the headquarters of U.S. European Command?",
    "options": [
     "London, England",
@@ -3189,7 +3189,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Whose family estate became Arlington National Cemetery?",
    "options": [
     "The family of Robert E. Lee's wife, Mary Custis Lee",
@@ -3269,7 +3269,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which of these was a Civil War fort built on the Arlington estate lands?",
    "options": [
     "Fort Sumter",
@@ -3329,7 +3329,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the first soldier buried at Arlington National Cemetery, on May 13, 1864?",
    "options": [
     "Private John Simpson",
@@ -3429,7 +3429,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which section of Arlington was designated for African American soldiers and freed people?",
    "options": [
     "Section 60",
@@ -3449,7 +3449,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which section contains the Confederate graves authorized by Congress in 1900?",
    "options": [
     "Section 27",
@@ -3489,7 +3489,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date was the first official Decoration Day, later Memorial Day, held at Arlington?",
    "options": [
     "April 15, 1865",
@@ -3509,7 +3509,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After which war did the government begin repatriating war dead at its own expense, adding Arlington Sections 21, 22 and 24?",
    "options": [
     "The Spanish-American War",
@@ -3569,7 +3569,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how many acres does Arlington National Cemetery cover today?",
    "options": [
     "64",
@@ -3589,7 +3589,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which section of Arlington is the burial ground for service members killed in the post-2001 conflicts?",
    "options": [
     "Section 27",
@@ -3649,7 +3649,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which French city was the World War I Unknown Soldier selected before coming to Arlington?",
    "options": [
     "Paris",
@@ -3831,7 +3831,7 @@
     "arlington-cemetery",
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was the Vietnam War Unknown whose remains were identified by DNA testing in 1998?",
    "options": [
     "Army Sgt. Daniel Murphy",
@@ -3932,7 +3932,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which architect designed Kennedy's permanent grave, opened to the public on March 15, 1967?",
    "options": [
     "I. M. Pei",
@@ -3972,7 +3972,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which commander of the Tuskegee Airmen and first Black Air Force brigadier general is buried at Arlington?",
    "options": [
     "Colin Powell",
@@ -4034,7 +4034,7 @@
     "arlington-cemetery",
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which two Challenger shuttle crew members have individual graves at Arlington National Cemetery?",
    "options": [
     "Judith Resnik and Christa McAuliffe",
@@ -4339,7 +4339,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. president led the country into the Mexican-American War?",
    "options": [
     "James K. Polk",
@@ -4401,7 +4401,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did the United States declare war on Germany in World War I?",
    "options": [
     "May 7, 1915",
@@ -4461,7 +4461,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who commanded the American Expeditionary Forces in World War I?",
    "options": [
     "Douglas MacArthur",
@@ -4561,7 +4561,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many gold stars are on the Freedom Wall at the National WWII Memorial?",
    "options": [
     "400",
@@ -4641,7 +4641,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many bronze eagles hold a laurel wreath in each pavilion of the National WWII Memorial?",
    "options": [
     "One",
@@ -4703,7 +4703,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what year was the National WWII Memorial dedicated?",
    "options": [
     "1984",
@@ -4725,7 +4725,7 @@
     "korean-war-memorial",
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the architect of the National WWII Memorial?",
    "options": [
     "Friedrich St. Florian",
@@ -4826,7 +4826,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which World War II veteran's question to Representative Marcy Kaptur at a fish fry led her to introduce a memorial bill in 1987?",
    "options": [
     "Bob Dole",
@@ -4846,7 +4846,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who co-chaired the corporate fundraising effort for the National WWII Memorial with Frederick W. Smith?",
    "options": [
     "Senator John Glenn",
@@ -4866,7 +4866,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how much money was raised to build the National WWII Memorial?",
    "options": [
     "About $197 million",
@@ -4926,7 +4926,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When was ground broken for the National WWII Memorial?",
    "options": [
     "May 1993",
@@ -4988,7 +4988,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. ships were not in port during the Pearl Harbor attack and escaped damage?",
    "options": [
     "All of the battleships",
@@ -5028,7 +5028,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Japanese admiral planned the attack on Pearl Harbor?",
    "options": [
     "Hideki Tojo",
@@ -5068,7 +5068,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the code name of the Allied invasion of Normandy?",
    "options": [
     "Operation Barbarossa",
@@ -5128,7 +5128,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which beach had the highest number of Allied casualties on D-Day?",
    "options": [
     "Utah",
@@ -5228,7 +5228,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did Hitler hope to capture in the Battle of the Bulge?",
    "options": [
     "The city of Paris",
@@ -5432,7 +5432,7 @@
     "vietnam-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which diplomat's 1946 \"Long Telegram\" laid out the idea of containing Soviet expansion?",
    "options": [
     "Dean Acheson",
@@ -5454,7 +5454,7 @@
     "vietnam-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which journalist criticized the Truman Doctrine's pledge as open-ended?",
    "options": [
     "Edward R. Murrow",
@@ -5517,7 +5517,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What was the American name for the Berlin Airlift?",
    "options": [
     "Operation Overlord",
@@ -5559,7 +5559,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. general ordered the Berlin Airlift to begin?",
    "options": [
     "Lucius D. Clay",
@@ -5581,7 +5581,7 @@
     "vietnam-memorial",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Air Force general reorganized the Berlin Airlift's flight operations in the summer of 1948?",
    "options": [
     "Curtis LeMay",
@@ -5623,7 +5623,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did the Soviets lift the Berlin blockade?",
    "options": [
     "May 12, 1949",
@@ -5644,7 +5644,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which new Berlin airport was built by the French during the airlift?",
    "options": [
     "Tempelhof",
@@ -5855,7 +5855,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What deadline did UN Security Council Resolution 678 set for Iraq to leave Kuwait?",
    "options": [
     "January 15, 1991",
@@ -5939,7 +5939,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which general led U.S. Central Command and the U.S.-led coalition's forces in the Gulf War?",
    "options": [
     "Norman Schwarzkopf",
@@ -6023,7 +6023,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the code name of the 2011 raid that killed Osama bin Laden?",
    "options": [
     "Operation Enduring Freedom",
@@ -6107,7 +6107,7 @@
     "pentagon",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what year did the last U.S. troops leave Iraq under the 2008 security agreement?",
    "options": [
     "2003",
@@ -6270,7 +6270,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When did Chinese forces cross the Yalu River and enter the Korean War?",
    "options": [
     "October 19, 1950",
@@ -6290,7 +6290,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which river formed the border between North Korea and China and was crossed by Chinese forces in October 1950?",
    "options": [
     "The Han River",
@@ -6310,7 +6310,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "According to the UN Command, about what share of its ground troops were South Korean when its strength peaked in 1952?",
    "options": [
     "About 10 percent",
@@ -6330,7 +6330,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which British battalion was cut off and surrounded on Hill 235 at the Imjin River in April 1951?",
    "options": [
     "The 1st Battalion, Gloucestershire Regiment",
@@ -6371,7 +6371,7 @@
     "korean-war-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who signed Executive Order 9981 on July 26, 1948, ending discrimination in the armed forces?",
    "options": [
     "Dwight D. Eisenhower",
@@ -6392,7 +6392,7 @@
     "korean-war-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did Executive Order 9981 do?",
    "options": [
     "Created the Selective Service System",
@@ -6436,7 +6436,7 @@
     "white-house",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "By what vote did the Supreme Court decide Youngstown Sheet & Tube Co. v. Sawyer in June 1952?",
    "options": [
     "9 to 0",
@@ -6499,7 +6499,7 @@
     "korean-war-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the first African American naval officer killed in the Korean War?",
    "options": [
     "Benjamin O. Davis Jr.",
@@ -6519,7 +6519,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which wingman received the Medal of Honor for trying to rescue Jesse Brown near the Chosin Reservoir?",
    "options": [
     "Lewis Puller",
@@ -6539,7 +6539,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which prisoner exchange of August 1953 returned captured American and allied soldiers after the armistice?",
    "options": [
     "Operation Homecoming",
@@ -6599,7 +6599,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was the 1951 battle of Heartbreak Ridge fought?",
    "options": [
     "Inside the Pusan Perimeter",
@@ -6661,7 +6661,7 @@
     "korean-war-memorial",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which American fighter jet mainly fought the MiG-15 in MiG Alley?",
    "options": [
     "The F-4 Phantom",
@@ -6703,7 +6703,7 @@
     "korean-war-memorial",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. Air Force ace claimed 16 MiG kills in the Korean War?",
    "options": [
     "Chuck Yeager",
@@ -6844,7 +6844,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which birth date received lottery number 1 in the December 1, 1969, draft lottery?",
    "options": [
     "January 1",
@@ -6864,7 +6864,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When was the last man drafted into the U.S. Army during the Vietnam era?",
    "options": [
     "April 30, 1975",
@@ -6947,7 +6947,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which lieutenant colonel led the 1st Battalion, 7th Cavalry at LZ X-Ray in the Ia Drang battle?",
    "options": [
     "Hal Moore",
@@ -6967,7 +6967,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which unit used helicopters to fight at Ia Drang in November 1965?",
    "options": [
     "The 101st Airborne Division",
@@ -7009,7 +7009,7 @@
     "vietnam-memorial",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which aircraft did the U.S. use most prominently in Linebacker II?",
    "options": [
     "The F-117 stealth fighter",
@@ -7170,7 +7170,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. air campaign, begun in December 1964, bombed targets in Laos?",
    "options": [
     "Barrel Roll",
@@ -7231,7 +7231,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was held for over eight years in North Vietnamese prisons, one of the longest-held American POWs?",
    "options": [
     "Jeremiah Denton Jr.",
@@ -7271,7 +7271,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did a 1984 class-action settlement require chemical companies to do about Agent Orange?",
    "options": [
     "Pay $180 million to U.S. veterans",
@@ -7311,7 +7311,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year was the repeal of the Gulf of Tonkin Resolution signed into law?",
    "options": [
     "1971",
@@ -7371,7 +7371,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many Army National Guard divisions were mobilized for the Korean War?",
    "options": [
     "Two",
@@ -7391,7 +7391,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Army unit arrived in Korea from Okinawa in late July 1950 to reinforce the defense of the south?",
    "options": [
     "The 29th Infantry Regiment",
@@ -7511,7 +7511,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how far above the 38th parallel was Line KANSAS, which UN forces reached in spring 1951?",
    "options": [
     "Right on the parallel",
@@ -7531,7 +7531,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What order did Ridgway give Van Fleet on November 12, 1951, as the war settled into a stalemate?",
    "options": [
     "To attack across the Yalu River",
@@ -7551,7 +7551,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Chinese commander led the Chinese People's Volunteer Army in Korea?",
    "options": [
     "Zhu De",
@@ -7591,7 +7591,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What kind of stone is the Mural Wall of the Korean War Veterans Memorial made of?",
    "options": [
     "White marble from Vermont",
@@ -7611,7 +7611,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how large is the site of the Korean War Veterans Memorial?",
    "options": [
     "About 22 acres",
@@ -7631,7 +7631,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which corps, led by the 7th Infantry Division, reached the Yalu River at Hyesanjin on November 21, 1950?",
    "options": [
     "X Corps",

@@ -12,7 +12,7 @@
     "library-of-congress",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On three voyages from 1576 to 1578, Martin Frobisher hauled tons of black ore from Baffin Island back to England. What did it turn out to be?",
    "options": [
     "Worthless rock with no real gold in it",
@@ -143,7 +143,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How did most of Ralph Lane's Roanoke colonists get back to England in 1586?",
    "options": [
     "Spanish ships carried them to Seville as prisoners",
@@ -165,7 +165,7 @@
     "library-of-congress",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "During his 1585-1586 raid on Spain's American empire, Francis Drake sacked Santo Domingo and Cartagena and then burned which Florida town?",
    "options": [
     "Pensacola",
@@ -205,7 +205,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How did Sir Humphrey Gilbert die in 1583, on the way back from his colonizing voyage?",
    "options": [
     "He was killed in a skirmish with Spanish troops",
@@ -227,7 +227,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What became of Donnacona, the Iroquoian leader of Stadacona whom Jacques Cartier carried off to France in 1536?",
    "options": [
     "He died in France before Cartier sailed again",
@@ -249,7 +249,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the winter of 1535-1536, Cartier's crew at Stadacona recovered from scurvy after Iroquoians showed them a remedy made from what?",
    "options": [
     "Fermented maize mixed with maple sugar",
@@ -313,7 +313,7 @@
     "national-cathedral",
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In a 1511 sermon on Hispaniola, which Dominican friar denounced the colonists' treatment of the Taino by asking, 'Are these not men?'",
    "options": [
     "Juan Gines de Sepulveda",
@@ -357,7 +357,7 @@
     "treasury",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did the Casa de Contratacion, or House of Trade, founded in Seville in 1503, do?",
    "options": [
     "Licensed and regulated Spanish trade and travel to the Americas",
@@ -443,7 +443,7 @@
     "supreme-court",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In Spanish America, what was an audiencia?",
    "options": [
     "A town council chosen from local settlers",
@@ -507,7 +507,7 @@
     "smithsonian-american-indian",
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 1570s, Viceroy Francisco de Toledo forced many Andean families in Peru to move into what?",
    "options": [
     "Royal silver camps owned by the crown",
@@ -550,7 +550,7 @@
     "smithsonian-american-indian",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the Aztec Empire, who were the pochteca?",
    "options": [
     "Priests who kept the solar calendar",
@@ -591,7 +591,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Archaeologists found skeletons of scarlet macaws at Chaco Canyon's great houses. What do the birds reveal?",
    "options": [
     "Chacoans hunted macaws in nearby forests",
@@ -718,7 +718,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Hernando de Soto's expedition drove which animals along as a walking food supply, some of which escaped and spread across the Southeast?",
    "options": [
     "Goats",
@@ -804,7 +804,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did Pope Alexander VI's 1493 bull Inter caetera do?",
    "options": [
     "Granted Spain the lands west of a line in the Atlantic",
@@ -932,7 +932,7 @@
     "treasury",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Portugal's colony of Brazil took its name from what early export?",
    "options": [
     "A variety of sugarcane",
@@ -994,7 +994,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Peanuts became a staple crop in West Africa after Portuguese traders carried them across the Atlantic. Where were they first domesticated?",
    "options": [
     "Southeast Asia",
@@ -1165,7 +1165,7 @@
     "house-floor",
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Foran Act of 1885, pushed by organized labor, made it illegal to do what?",
    "options": [
     "Hire children under fourteen in factories or mines that shipped goods across state lines",
@@ -1187,7 +1187,7 @@
     "house-floor",
     "senate-floor"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Besides Chinese exclusion, Congress passed a general immigration law in 1882. What did it do?",
    "options": [
     "Required every immigrant to pass a literacy test in English",
@@ -1339,7 +1339,7 @@
     "white-house",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In December 1887, Grover Cleveland devoted his entire annual message to Congress to which issue?",
    "options": [
     "Civil service reform",
@@ -1381,7 +1381,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Republicans in 1884 chanted 'Ma, Ma, where's my Pa?' to attack Grover Cleveland over what?",
    "options": [
     "Reports that he had fathered a child out of wedlock",
@@ -1467,7 +1467,7 @@
     "union-station",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Before the Interstate Commerce Act banned them in 1887, railroad pools were agreements to do what?",
    "options": [
     "Combine workers from several lines into one union",
@@ -1532,7 +1532,7 @@
     "supreme-court",
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 1897 Maximum Freight Rate case, the Supreme Court weakened the Interstate Commerce Commission by ruling that it could not do what?",
    "options": [
     "Hold public hearings",
@@ -1682,7 +1682,7 @@
     "house-floor",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What fateful choice did the People's Party make at its 1896 convention?",
    "options": [
     "Nominating its own candidate, James B. Weaver, again",
@@ -1704,7 +1704,7 @@
     "smithsonian-african-american-history",
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Nicodemus, Kansas, founded in 1877 on the High Plains, is notable as what?",
    "options": [
     "A town settled by Black families from Kentucky at the end of Reconstruction",
@@ -1810,7 +1810,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Montana city, nicknamed the Richest Hill on Earth, became a leading copper producer in the 1880s as demand for electrical wire grew?",
    "options": [
     "Helena",
@@ -1917,7 +1917,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which nurse founded the Henry Street Settlement in 1893 to bring health care to immigrants on New York's Lower East Side?",
    "options": [
     "Clara Barton",
@@ -1937,7 +1937,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1891 James Naismith invented basketball for students at what kind of institution?",
    "options": [
     "A YMCA training school in Springfield, Massachusetts",
@@ -1958,7 +1958,7 @@
     "library-of-congress",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Chautauqua movement, begun in 1874 at a lake in western New York, offered what?",
    "options": [
     "Free hospital care for Civil War veterans",
@@ -2173,7 +2173,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Swarms of which insect devastated farms across the Great Plains in the mid-1870s, before the species mysteriously went extinct?",
    "options": [
     "The Rocky Mountain locust",
@@ -2509,7 +2509,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Good Friday earthquake of March 1964, the most powerful ever recorded in North America, struck which state?",
    "options": [
     "Alaska",
@@ -2571,7 +2571,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which American plant scientist won the 1970 Nobel Peace Prize for breeding high-yield wheat that helped launch the Green Revolution?",
    "options": [
     "George Washington Carver",
@@ -2614,7 +2614,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What drove the 'great plow-up' of the southern Plains grasslands in the 1910s and 1920s, setting the stage for the Dust Bowl?",
    "options": [
     "High wheat prices and new tractors",
@@ -2873,7 +2873,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Educator Septima Clark is best known for developing what?",
    "options": [
     "The legal strategy behind Brown v. Board of Education",
@@ -2894,7 +2894,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to James Meredith on the second day of his 1966 March Against Fear in Mississippi?",
    "options": [
     "State troopers jailed him for parading",
@@ -2916,7 +2916,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1966, King moved his family into an apartment on Chicago's West Side to campaign against what?",
    "options": [
     "Segregated public beaches",
@@ -2958,7 +2958,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1958, while signing copies of his first book in a Harlem department store, King was nearly killed when what happened?",
    "options": [
     "A woman stabbed him in the chest with a letter opener",
@@ -2979,7 +2979,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to King's home in Montgomery on January 30, 1956, during the bus boycott?",
    "options": [
     "It was seized by the city for unpaid taxes",
@@ -3001,7 +3001,7 @@
     "mlk-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In October 1960, after King was jailed in Georgia, how did John F. Kennedy win notice among Black voters?",
    "options": [
     "He flew to Atlanta to visit King in jail",
@@ -3274,7 +3274,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was badly injured trying to stop Lewis Powell inside the Seward home on April 14, 1865?",
    "options": [
     "Thomas Eckert, the War Department's telegraph chief",
@@ -3360,7 +3360,7 @@
     "smithsonian-african-american-history",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did the District of Columbia Compensated Emancipation Act of 1862 do?",
    "options": [
     "Freed enslaved people in all border states",
@@ -3402,7 +3402,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In an 1863 letter to the actor James Hackett, Lincoln named which Shakespeare play as one that nothing equals?",
    "options": [
     "Macbeth",
@@ -3527,7 +3527,7 @@
     "korean-war-memorial",
     "house-floor"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What did the Universal Military Training and Service Act of 1951 do?",
    "options": [
     "Lowered the draft age to 18 and a half and set service at 24 months",
@@ -3612,7 +3612,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Concern over how American prisoners behaved in Korean camps led President Eisenhower in 1955 to issue what?",
    "options": [
     "An order ending the draft of married men",
@@ -3657,7 +3657,7 @@
     "pentagon",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which chairman of the Joint Chiefs warned in 1951 that a war with China would be the wrong war, at the wrong place, at the wrong time, with the wrong enemy?",
    "options": [
     "George Marshall",

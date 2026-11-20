@@ -33,7 +33,7 @@
     "senate-floor",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In October 1987 the Senate rejected which Supreme Court nominee of President Reagan by a vote of 58 to 42?",
    "options": [
     "Clement Haynsworth",
@@ -557,7 +557,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Whom did President Clinton appoint in 1993 as his first nominee to the Supreme Court?",
    "options": [
     "Ruth Bader Ginsburg",
@@ -623,7 +623,7 @@
     "pentagon",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In April 1986 U.S. warplanes struck targets in which country after a terrorist bombing of a West Berlin disco popular with American soldiers?",
    "options": [
     "Syria",
@@ -958,7 +958,7 @@
    "stops": [
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the mid-1990s, which state passed New York to become the second most populous in the nation?",
    "options": [
     "Florida",
@@ -1375,7 +1375,7 @@
    "stops": [
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Daniel Webster ended his 1830 Senate reply to Robert Hayne with which famous line?",
    "options": [
     "Our Federal Union: it must be preserved!",
@@ -1688,7 +1688,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1846 a public demonstration at Massachusetts General Hospital showed that surgery could be done painlessly using what?",
    "options": [
     "Ether as an anesthetic",
@@ -2200,7 +2200,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What did Frederick Douglass call the small one-room cabin behind his Washington, D.C., home where he went to read and write alone?",
    "options": [
     "The Retreat",
@@ -2626,7 +2626,7 @@
     "vietnam-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Eddie Adams's Pulitzer Prize-winning 1968 photograph showed what?",
    "options": [
     "A helicopter on a Saigon rooftop",
@@ -2854,7 +2854,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1845 and 1846 a society of German nobles founded New Braunfels and Fredericksburg to settle German immigrants in which place?",
    "options": [
     "Wisconsin",
@@ -2874,7 +2874,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "From 1856 to 1860, about 3,000 Latter-day Saint emigrants, many from Europe, crossed the plains to Utah in what way?",
    "options": [
     "Riding early transcontinental trains",
@@ -2979,7 +2979,7 @@
     "smithsonian-american-history",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did President Lyndon Johnson sign the Immigration and Nationality Act of 1965?",
    "options": [
     "In the great hall at Ellis Island",
@@ -3043,7 +3043,7 @@
    "stops": [
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 2000 census was the first to let people do what?",
    "options": [
     "Mark more than one race",
@@ -3187,7 +3187,7 @@
    "stops": [
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Before it entered the Union as a free state in 1820 under the Missouri Compromise, Maine had been part of which state?",
    "options": [
     "New Hampshire",

@@ -11,7 +11,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Through which colonial port, with its quarantine station on Sullivan's Island, did more enslaved Africans enter British North America than through any other?",
    "options": [
     "Charleston",
@@ -32,7 +32,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did the largest group of Loyalists who left the United States after the Revolution resettle?",
    "options": [
     "The British West Indies",
@@ -96,7 +96,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the domestic slave trade, traders often marched enslaved people hundreds of miles south chained together in groups. What were these groups called?",
    "options": [
     "Gangs of hire",
@@ -202,7 +202,7 @@
     "washington-monument",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Construction of the National Road, the first major federally funded highway, began in 1811 at which town?",
    "options": [
     "Wheeling, Virginia",
@@ -266,7 +266,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Tariff of 1816, backed by both Henry Clay and a young John C. Calhoun, is usually described as the first U.S. tariff meant mainly to do what?",
    "options": [
     "Pay off the Revolutionary War debt",
@@ -288,7 +288,7 @@
     "senate-floor",
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1829 and 1830, Catharine Beecher organized a large campaign in which women did what?",
    "options": [
     "Petitioned Congress against Indian removal",
@@ -457,7 +457,7 @@
     "smithsonian-american-history",
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which physicist, known for work on electromagnetism, became the first secretary of the Smithsonian Institution in 1846?",
    "options": [
     "Joseph Henry",
@@ -521,7 +521,7 @@
     "treasury",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In January 1835, under Andrew Jackson, the federal government reached what financial milestone for the only time in its history?",
    "options": [
     "It paid off the entire national debt",
@@ -562,7 +562,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which educator opened the Troy Female Seminary in New York in 1821, offering young women subjects such as mathematics and science?",
    "options": [
     "Mary Lyon",
@@ -688,7 +688,7 @@
     "pentagon",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In October 1812, an American invasion of Upper Canada failed at which battle on the Niagara River, partly because New York militiamen refused to cross the border?",
    "options": [
     "Queenston Heights",
@@ -795,7 +795,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Clotilda, the last known ship to bring enslaved Africans to the United States, arrived in 1860 near which city, where its survivors later founded Africatown?",
    "options": [
     "Mobile, Alabama",
@@ -880,7 +880,7 @@
     "pentagon",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which battle, fought on May 8, 1846, north of the Rio Grande, was the first major battle of the Mexican-American War?",
    "options": [
     "Buena Vista",
@@ -923,7 +923,7 @@
    "stops": [
     "senate-floor"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which 1848 Democratic presidential nominee, a Michigan senator, popularized the idea that settlers of each territory should decide about slavery?",
    "options": [
     "James Buchanan",
@@ -988,7 +988,7 @@
     "white-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Ostend Manifesto of 1854, written by three American diplomats in Europe, urged the United States to buy, or if necessary seize, which island?",
    "options": [
     "Puerto Rico",
@@ -1008,7 +1008,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "American adventurer William Walker made himself president of which Central American country in 1856?",
    "options": [
     "Honduras",
@@ -1030,7 +1030,7 @@
     "national-cathedral",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Sharps rifles shipped to antislavery settlers in Kansas in the 1850s were nicknamed what, after a famous Brooklyn preacher who backed the effort?",
    "options": [
     "Beecher's Bibles",
@@ -1113,7 +1113,7 @@
     "lincoln-memorial",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was the front-runner for the 1860 Republican presidential nomination before Abraham Lincoln won on the third ballot in Chicago?",
    "options": [
     "Salmon P. Chase",
@@ -1134,7 +1134,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In April 1863, hundreds of women in the Confederate capital broke into shops and warehouses to seize food. What is this event called?",
    "options": [
     "The Richmond Bread Riot",
@@ -1283,7 +1283,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After Ohio Copperhead Clement Vallandigham was arrested and convicted by a military commission in 1863, how did Lincoln change his punishment?",
    "options": [
     "He pardoned him and let him run for Congress",
@@ -1305,7 +1305,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1868, which state's legislature became the first in the nation where Black members held a majority in a chamber?",
    "options": [
     "South Carolina",
@@ -1327,7 +1327,7 @@
     "smithsonian-african-american-history",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which lasting institution did most Reconstruction-era Southern state constitutions create for the first time in the region?",
    "options": [
     "State police forces",
@@ -1436,7 +1436,7 @@
     "white-house",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Using the Ku Klux Klan Act of 1871, President Grant suspended habeas corpus in nine counties of which state?",
    "options": [
     "Mississippi",
@@ -1522,7 +1522,7 @@
     "smithsonian-african-american-history",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did the \"Mississippi Plan\" of 1875 involve?",
    "options": [
     "Buying land for freedpeople with state bonds",
@@ -1542,7 +1542,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Republican governor of Mississippi asked in vain for federal troops to stop Democratic violence before the 1875 election?",
    "options": [
     "Adelbert Ames",
@@ -1562,7 +1562,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which former Confederate general, backed by paramilitary Red Shirts, claimed South Carolina's governorship after the disputed 1876 election?",
    "options": [
     "John B. Gordon",
@@ -1583,7 +1583,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In September 1874, the White League fought police and militia in New Orleans and briefly ousted Louisiana's Republican governor. What is this clash called?",
    "options": [
     "The Battle of Canal Street",
@@ -1646,7 +1646,7 @@
     "house-floor",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Amnesty Act of 1872 restored which right to most former Confederates?",
    "options": [
     "Holding public office",
@@ -1668,7 +1668,7 @@
     "fords-theatre",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which future president, a Tennessee senator who stayed loyal to the Union, was Lincoln's military governor of Tennessee from 1862?",
    "options": [
     "Hannibal Hamlin",
@@ -1712,7 +1712,7 @@
     "smithsonian-african-american-history",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 1876 Hamburg massacre, white paramilitaries killed Black militiamen in a town in which state, helping set off the violent campaign that ended Reconstruction there?",
    "options": [
     "South Carolina",
@@ -1734,7 +1734,7 @@
     "smithsonian-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "For the 1890 census, the Census Office first used an electric machine that tallied data from punched cards. Who invented it?",
    "options": [
     "Thomas Edison",
@@ -1756,7 +1756,7 @@
     "smithsonian-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Many Italian men around 1900 came to the United States to work for a few seasons and then returned home. What nickname described these migrants?",
    "options": [
     "Forty-Eighters",
@@ -1842,7 +1842,7 @@
     "smithsonian-american-history",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Naturalization Act of 1870 extended the right to become a citizen to which immigrants, for the first time?",
    "options": [
     "People born in China",
@@ -1929,7 +1929,7 @@
     "smithsonian-african-american-history",
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Kaiser shipyard jobs during World War II made which San Francisco Bay city a magnet for Black migrants from Texas and Louisiana, its Black population rising from a few hundred to thousands?",
    "options": [
     "Sacramento",
@@ -1950,7 +1950,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The first large group of Korean immigrants to the United States arrived in Honolulu in January 1903 aboard the SS Gaelic. What work had most of them come to do?",
    "options": [
     "Build California's railroads",
@@ -1973,7 +1973,7 @@
     "wwii-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "At which Wyoming incarceration camp did the Fair Play Committee urge Japanese American men to refuse the draft until their families' rights were restored?",
    "options": [
     "Tule Lake",
@@ -1995,7 +1995,7 @@
     "wwii-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the 1943 loyalty questionnaire, which California camp became a segregation center for Japanese Americans the government labeled disloyal?",
    "options": [
     "Tule Lake",
@@ -2059,7 +2059,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "California's Alien Land Law of 1913 was aimed mainly at which group of immigrant farmers?",
    "options": [
     "Japanese immigrants",
@@ -2080,7 +2080,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After San Francisco's 1906 earthquake and fire destroyed birth records, many Chinese immigrants entered the country claiming to be children of U.S. citizens. What were they called?",
    "options": [
     "Picture brides",
@@ -2143,7 +2143,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Many Armenians fleeing persecution in the Ottoman Empire in the late 1800s and early 1900s settled in which California farming city?",
    "options": [
     "Sacramento",
@@ -2186,7 +2186,7 @@
     "wwii-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "During World War II the United States held more than 2,000 people of Japanese descent who had been deported from Latin America. Most came from which country?",
    "options": [
     "Brazil",
@@ -2230,7 +2230,7 @@
     "smithsonian-american-history",
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In Japanese American communities, what term describes the U.S.-born children of immigrants from Japan?",
    "options": [
     "Nisei",
@@ -2274,7 +2274,7 @@
     "smithsonian-african-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "During the Great Migration, Black migrants from Virginia and the Carolinas most often moved where?",
    "options": [
     "To farms in Kansas and Nebraska",
@@ -2404,7 +2404,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "From the 1960s on, immigrants from the Dominican Republic concentrated most heavily in which New York City neighborhood?",
    "options": [
     "Washington Heights",
@@ -2468,7 +2468,7 @@
    "stops": [
     "national-archives"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Under federal law, individual census records are opened to the public how many years after a count?",
    "options": [
     "25 years",
@@ -2553,7 +2553,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In which year did Ellis Island close as an immigration station, after more than 12 million people had passed through it?",
    "options": [
     "1924",
@@ -2596,7 +2596,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The American Indian Movement was founded in 1968 in which city, home to a large urban Native population?",
    "options": [
     "Denver",
@@ -2682,7 +2682,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "During the 1992 Los Angeles riots, which immigrant community suffered especially heavy property losses, with more than 2,000 of its businesses damaged or destroyed?",
    "options": [
     "Korean Americans",
@@ -2704,7 +2704,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the 1980 census, which state gained four House seats, the largest gain of any state in that reapportionment?",
    "options": [
     "Texas",
@@ -2726,7 +2726,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After the 1990 census, which state gained seven House seats, the biggest gain by any state in that reapportionment?",
    "options": [
     "Texas",
@@ -2770,7 +2770,7 @@
     "smithsonian-american-history",
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Refugees from the Khmer Rouge period made which California city home to the largest Cambodian community in the United States?",
    "options": [
     "San Diego",
@@ -2791,7 +2791,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which federal agency, created in 1989, closed or sold hundreds of failed savings and loan institutions?",
    "options": [
     "The Reconstruction Finance Corporation",
@@ -2856,7 +2856,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Jesse Jackson, a former aide to Martin Luther King Jr., ran for president in 1984 and 1988 with a multiracial alliance he called what?",
    "options": [
     "The Poor People's Campaign",
@@ -2877,7 +2877,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who became Chicago's first Black mayor after winning the 1983 election?",
    "options": [
     "Coleman Young",
@@ -2899,7 +2899,7 @@
     "smithsonian-african-american-history",
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1989 Douglas Wilder became the first African American elected governor of a U.S. state. Which state?",
    "options": [
     "Virginia",
@@ -3028,7 +3028,7 @@
     "korean-war-memorial",
     "white-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Under the 1994 Agreed Framework, North Korea agreed to freeze its plutonium program in return for what?",
    "options": [
     "Withdrawal of all U.S. troops from South Korea",
@@ -3049,7 +3049,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the June 2018 Singapore summit, North Korea handed over how many boxes said to hold remains of Americans killed in the Korean War?",
    "options": [
     "5",
@@ -3070,7 +3070,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A new arch bridge named for Frederick Douglass, opened in 2021, carries South Capitol Street over which river near his last home in Washington?",
    "options": [
     "The Anacostia River",
@@ -3112,7 +3112,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A 1988 television ad attacking Michael Dukakis centered on a furlough program in which state, which he governed?",
    "options": [
     "New York",
@@ -3154,7 +3154,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Before joining the Supreme Court in 2010, Elena Kagan had held which post, as the first woman to do so?",
    "options": [
     "Attorney general",
@@ -3197,7 +3197,7 @@
     "capitol-rotunda",
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 2013, a statue of Rosa Parks was unveiled in the Capitol. What distinction did it hold?",
    "options": [
     "It was the first statue paid for by schoolchildren",
@@ -3218,7 +3218,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In May 1991, unrest broke out in which Washington, D.C., neighborhood after a police officer shot a Salvadoran man?",
    "options": [
     "Chevy Chase, D.C.",
@@ -3284,7 +3284,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The National Memorial for Peace and Justice, opened in 2018 in Montgomery, Alabama, honors whom?",
    "options": [
     "Freedom Riders attacked in Alabama in 1961",
@@ -3306,7 +3306,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In July 2008, the House of Representatives passed a resolution apologizing for what?",
    "options": [
     "The internment of Japanese Americans",
@@ -3349,7 +3349,7 @@
     "air-and-space",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which shuttle, NASA's most-flown orbiter, went on display at the Smithsonian's Udvar-Hazy Center in 2012?",
    "options": [
     "Discovery",
@@ -3370,7 +3370,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The first long-term crew arrived at the International Space Station in November 2000. Who made up that crew?",
    "options": [
     "Three American astronauts",
@@ -3435,7 +3435,7 @@
     "house-floor",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 2009 stimulus law set aside lump-sum payments for which veterans, whose promised benefits a 1946 law had taken away?",
    "options": [
     "Navajo code talkers of World War II",
@@ -3478,7 +3478,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Refugees from the 1992-1995 war in Bosnia made which Midwestern city home to one of the largest Bosnian communities outside Europe?",
    "options": [
     "Indianapolis",
@@ -3499,7 +3499,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1999, thousands of refugees from Kosovo were flown to the United States and first housed at which New Jersey Army post?",
    "options": [
     "Fort Monmouth",
@@ -3521,7 +3521,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Census Bureau estimates for 2004, released in 2005, showed that which state had joined California, Hawaii and New Mexico as \"majority-minority\"?",
    "options": [
     "Texas",
@@ -3563,7 +3563,7 @@
     "pentagon",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Operation Uphold Democracy in 1994 sent U.S. troops to restore which country's elected president, Jean-Bertrand Aristide?",
    "options": [
     "Panama",

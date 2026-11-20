@@ -11,7 +11,7 @@
     "jefferson-memorial",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Because of how electors voted in 1800, Thomas Jefferson ended up tied in the Electoral College, with 73 votes each, with his own running mate. Who was that running mate?",
    "options": [
     "Charles Cotesworth Pinckney",
@@ -75,7 +75,7 @@
     "jefferson-memorial",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At Jefferson's urging, Congress banned the importation of enslaved people from abroad as soon as the Constitution allowed it. On January 1 of which year did the ban take effect?",
    "options": [
     "1800",
@@ -159,7 +159,7 @@
     "jefferson-memorial",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who administered the oath of office to Jefferson in the Senate chamber of the unfinished Capitol on March 4, 1801?",
    "options": [
     "Chief Justice John Marshall",
@@ -265,7 +265,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The University of Virginia, chartered in 1819 on Jefferson's plan, opened for classes in which year, shortly before his death?",
    "options": [
     "1821",
@@ -285,7 +285,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In which year were Monticello and Jefferson's Academical Village at the University of Virginia named a UNESCO World Heritage Site?",
    "options": [
     "1966",
@@ -367,7 +367,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Construction of the Jefferson Memorial on the Tidal Basin began in which year?",
    "options": [
     "1934",
@@ -409,7 +409,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which stone covers the interior walls of the Jefferson Memorial's central chamber?",
    "options": [
     "Pink marble from Tennessee",
@@ -431,7 +431,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which writer and traveler, after returning from Japan in 1885, first proposed planting Japanese cherry trees in Washington, D.C., and pressed the idea for about 24 years?",
    "options": [
     "Helen Herron Taft",
@@ -494,7 +494,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In which year was the first Cherry Blossom Festival held in Washington, sponsored jointly by many civic groups?",
    "options": [
     "1912",
@@ -516,7 +516,7 @@
     "jefferson-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who served as Jefferson's secretary of state for both of his terms, from 1801 to 1809?",
    "options": [
     "James Monroe",
@@ -537,7 +537,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the only member of the Corps of Discovery to die during the expedition, in August 1804 near present-day Sioux City, Iowa?",
    "options": [
     "Sergeant Charles Floyd",
@@ -558,7 +558,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did the Corps of Discovery spend the winter of 1804-05 on the upper Missouri River?",
    "options": [
     "Fort Clatsop, in present-day Oregon",
@@ -579,7 +579,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Corps of Discovery built Fort Clatsop in December 1805 and wintered there near the Pacific. In which present-day state is the fort's site?",
    "options": [
     "Washington",
@@ -599,7 +599,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what month and year did the Corps of Discovery return to St. Louis, ending its journey?",
    "options": [
     "September 1806",
@@ -641,7 +641,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who sculpted the Columbus Fountain, dedicated in 1912 on the plaza in front of Union Station?",
    "options": [
     "Lorado Taft",
@@ -724,7 +724,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president dedicated Union Station's former Presidential Suite in 1951 as a lounge for members of the armed forces?",
    "options": [
     "Dwight D. Eisenhower",
@@ -852,7 +852,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When the National Visitor Center opened in Union Station in 1976, visitors sarcastically gave what nickname to its sunken slide-show area in the Main Hall?",
    "options": [
     "The Hole",
@@ -894,7 +894,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was President James Garfield shot by Charles Guiteau on July 2, 1881?",
    "options": [
     "On the east steps of the Capitol after a speech",
@@ -914,7 +914,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Charles Guiteau, who shot President Garfield in 1881, called himself a member of which Republican faction?",
    "options": [
     "The Stalwarts",
@@ -956,7 +956,7 @@
     "union-station",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After Garfield was shot by a disappointed office seeker, Congress passed which 1883 law creating a merit-based federal civil service?",
    "options": [
     "The Tenure of Office Act of 1867",
@@ -1060,7 +1060,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When Congress abolished the Interstate Commerce Commission in 1995, which agency took over its remaining rail regulatory functions?",
    "options": [
     "Federal Energy Regulatory Commission",
@@ -1081,7 +1081,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which engineer lobbied Congress for the funding that led to the Pacific Railroad Act of 1862 and surveyed a route through the Sierra Nevada for the Central Pacific?",
    "options": [
     "Grenville M. Dodge",
@@ -1102,7 +1102,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which two locomotives met nose to nose at Promontory Summit during the transcontinental railroad ceremony of May 10, 1869?",
    "options": [
     "The General and the Texas",
@@ -1143,7 +1143,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many ceremonial spikes were presented at the Promontory ceremony in 1869, counting the famous gold spike?",
    "options": [
     "Four",
@@ -1164,7 +1164,7 @@
     "union-station",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The John Bull, an 1831 locomotive displayed at the National Museum of American History, was built in which country for New Jersey's Camden and Amboy Railroad?",
    "options": [
     "Germany",
@@ -1185,7 +1185,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "George Pullman built a company town to house workers at his sleeping-car factory near which major city?",
    "options": [
     "Pittsburgh",
@@ -1247,7 +1247,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A children's design contest in the 1980s led to the Darth Vader carving on Washington National Cathedral's northwest tower. Which magazine helped publicize the contest nationwide?",
    "options": [
     "Boys' Life magazine",
@@ -1268,7 +1268,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On a Gothic building such as Washington National Cathedral, what makes a carved figure a true gargoyle rather than a grotesque?",
    "options": [
     "It has a spout that carries rainwater away from the building",
@@ -1290,7 +1290,7 @@
     "national-cathedral",
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Washington National Cathedral's Space Window, which holds a sliver of rock from the Moon, was designed by which artist?",
    "options": [
     "Rowan LeCompte",
@@ -1333,7 +1333,7 @@
     "national-cathedral",
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "A line along the bottom of the Space Window at Washington National Cathedral asks, 'Is not God in the height of heaven?' Which book of the Bible is that passage from?",
    "options": [
     "Psalms",
@@ -1355,7 +1355,7 @@
     "national-cathedral",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In September 2023 Washington National Cathedral unveiled stained-glass windows called 'Now and Forever,' on the theme of racial justice. Which artist designed them?",
    "options": [
     "Kerry James Marshall",
@@ -1377,7 +1377,7 @@
     "national-cathedral",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Poet Elizabeth Alexander wrote a poem for Washington National Cathedral's 2023 racial justice windows, to be carved in stone tablets beneath them. What is the poem's title?",
    "options": [
     "Praise Song for the Day",
@@ -1418,7 +1418,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Matthew Shepard, whose ashes were interred at Washington National Cathedral in October 2018, was attacked in 1998 near which Wyoming city?",
    "options": [
     "Laramie",
@@ -1461,7 +1461,7 @@
     "national-cathedral",
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On March 31, 1968, Martin Luther King Jr. preached his last Sunday sermon at the cathedral. What was its title?",
    "options": [
     "A Time to Break Silence",
@@ -1668,7 +1668,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which two former presidents delivered eulogies at Senator John McCain's funeral at Washington National Cathedral on September 1, 2018?",
    "options": [
     "Bill Clinton and George W. Bush",
@@ -1688,7 +1688,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which artist designed the Creation rose window above Washington National Cathedral's main west entrance, dedicated in 1976?",
    "options": [
     "Rodney Winfield",
@@ -1732,7 +1732,7 @@
     "national-cathedral",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A carving in the cathedral's Lincoln bay quotes the words 'With malice toward none.' From which Lincoln speech do they come?",
    "options": [
     "The Gettysburg Address, delivered in 1863",
@@ -1753,7 +1753,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Gothic churches such as Washington National Cathedral use flying buttresses to do what?",
    "options": [
     "Carry the outward push of the stone vaults down to supports outside the walls",
@@ -1775,7 +1775,7 @@
     "national-cathedral",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Kerry James Marshall's 2023 windows at Washington National Cathedral show marchers carrying large signs. Which word appears on the signs?",
    "options": [
     "Equality",
@@ -1857,7 +1857,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After Hurricane Irene forced a postponement, on what date in 2011 was the Martin Luther King Jr. Memorial formally dedicated?",
    "options": [
     "August 28, 2011",
@@ -1899,7 +1899,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sitting president spoke at the November 13, 2006, ceremonial groundbreaking for the Martin Luther King Jr. Memorial in Washington?",
    "options": [
     "Bill Clinton",
@@ -1920,7 +1920,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year did Congress authorize the Alpha Phi Alpha fraternity, to which King belonged, to build a memorial honoring him in Washington?",
    "options": [
     "1983",
@@ -1962,7 +1962,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The memorial's wall credits the line \"Injustice anywhere is a threat to justice everywhere\" to which of King's writings?",
    "options": [
     "His Nobel Peace Prize acceptance speech",
@@ -1983,7 +1983,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Stone of Hope at the King Memorial was moved forward out of the Mountain of Despair. Which memorial does it point toward?",
    "options": [
     "Lincoln Memorial",
@@ -2025,7 +2025,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sculptor created the bronze breadline figures and the listener to a fireside chat in the FDR Memorial's second-term room?",
    "options": [
     "Robert Graham",
@@ -2089,7 +2089,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Roosevelt first named the Four Freedoms on January 6, 1941, in what kind of address?",
    "options": [
     "His first inaugural address",
@@ -2111,7 +2111,7 @@
     "fdr-memorial",
     "wwii-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date in 1944 did Roosevelt sign the Servicemen's Readjustment Act, known as the GI Bill?",
    "options": [
     "May 8, 1944",
@@ -2153,7 +2153,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sculptor created the life-size statue of Franklin D. Roosevelt seated in a wheelchair, dedicated in the Prologue Room of the FDR Memorial in Washington in January 2001?",
    "options": [
     "Robert Graham",
@@ -2174,7 +2174,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 1944 campaign, critics claimed Roosevelt had left his dog Fala behind and sent a destroyer back. Where was Fala falsely said to be left?",
    "options": [
     "On a Pacific atoll",
@@ -2195,7 +2195,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which actor was on stage as Asa Trenchard in Our American Cousin on April 14, 1865, when John Wilkes Booth fired his pistol?",
    "options": [
     "Edwin Booth",
@@ -2215,7 +2215,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many of the eight defendants in the Lincoln assassination conspiracy trial were sentenced to death by hanging?",
    "options": [
     "Four",
@@ -2235,7 +2235,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was Dr. Samuel Mudd imprisoned after his conviction for aiding John Wilkes Booth?",
    "options": [
     "Fort Delaware in the Delaware River",
@@ -2255,7 +2255,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who wrote Our American Cousin, the comedy Lincoln was watching when he was shot at Ford's Theatre?",
    "options": [
     "Dion Boucicault",
@@ -2276,7 +2276,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In which museum is the rocking chair Lincoln sat in at Ford's Theatre on the night of the shooting now displayed?",
    "options": [
     "Smithsonian National Museum of American History",

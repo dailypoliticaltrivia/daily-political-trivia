@@ -12,7 +12,7 @@
     "capitol-rotunda",
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president was the first to be inaugurated in Washington, D.C., in 1801?",
    "options": [
     "John Adams",
@@ -79,7 +79,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What principle did Chief Justice John Marshall establish in Marbury v. Madison (1803)?",
    "options": [
     "Judicial review of acts of Congress",
@@ -262,7 +262,7 @@
     "senate-floor",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Embargo Act of 1807 was meant to pressure which nations?",
    "options": [
     "Britain and France",
@@ -620,7 +620,7 @@
     "senate-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the long-term political result of the Hartford Convention?",
    "options": [
     "It discredited the Federalist Party",
@@ -733,7 +733,7 @@
     "capitol-rotunda",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "McCulloch v. Maryland expanded federal power by relying on which constitutional clause?",
    "options": [
     "The Commerce Clause",
@@ -823,7 +823,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Missouri Compromise of 1820 admitted Missouri as a slave state and which other state as a free state?",
    "options": [
     "Maine",
@@ -935,7 +935,7 @@
     "senate-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The principal author of the Monroe Doctrine was which Secretary of State?",
    "options": [
     "Henry Clay",
@@ -1001,7 +1001,7 @@
     "house-floor",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The presidential election of 1824 was decided in the House of Representatives. Who became president?",
    "options": [
     "Andrew Jackson",
@@ -1431,7 +1431,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The American Colonization Society, founded in 1816, aimed to do what?",
    "options": [
     "Pay slaveholders to free the people they held in the South",
@@ -1746,7 +1746,7 @@
     "capitol-rotunda",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which change made the 1828 election different from earlier ones?",
    "options": [
     "Women gained the vote in several western states",
@@ -1768,7 +1768,7 @@
     "capitol-rotunda",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Critics who disliked Jackson's use of the veto and presidential power nicknamed him what?",
    "options": [
     "King Andrew",
@@ -1966,7 +1966,7 @@
     "white-house",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How did Jackson respond to the Nullification Crisis?",
    "options": [
     "He sought the Force Bill to enforce the tariff",
@@ -1988,7 +1988,7 @@
     "house-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What ended the Nullification Crisis in 1833?",
    "options": [
     "A Supreme Court ruling for South Carolina",
@@ -2057,7 +2057,7 @@
     "smithsonian-american-indian",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In Worcester v. Georgia (1832), the Supreme Court ruled that what?",
    "options": [
     "Native Americans could be citizens",
@@ -2172,7 +2172,7 @@
     "white-house",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Cherokee leader led the nation's legal and political resistance to removal?",
    "options": [
     "Sequoyah",
@@ -2195,7 +2195,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Cherokee man created a writing system for his people in the 1820s?",
    "options": [
     "Tecumseh",
@@ -2422,7 +2422,7 @@
     "capitol-rotunda",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Whig Party formed in the 1830s mainly in opposition to whom?",
    "options": [
     "Thomas Jefferson",
@@ -2716,7 +2716,7 @@
     "library-of-congress",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which reformer led the push for better treatment of the mentally ill in prisons and asylums?",
    "options": [
     "Dorothea Dix",
@@ -2739,7 +2739,7 @@
     "library-of-congress",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Horace Mann is best known for promoting what cause?",
    "options": [
     "Public common schools",
@@ -2785,7 +2785,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "William Lloyd Garrison's newspaper The Liberator demanded what?",
    "options": [
     "Gradual emancipation with compensation",
@@ -2831,7 +2831,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sisters from South Carolina became prominent abolitionists and women's rights advocates?",
    "options": [
     "Sarah and Angelina Grimke",
@@ -2876,7 +2876,7 @@
     "capitol-rotunda",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The congressional 'gag rule' of 1836-1844 did what?",
    "options": [
     "Banned the mailing of abolitionist newspapers in the South",
@@ -3014,7 +3014,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Frederick Douglass escaped slavery in Maryland in 1838 by doing what?",
    "options": [
     "Crossing the Ohio River by raft",
@@ -3037,7 +3037,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The newspaper Douglass founded in Rochester, New York, in 1847 was called what?",
    "options": [
     "The Liberator",
@@ -3106,7 +3106,7 @@
     "national-archives",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Nat Turner's 1831 rebellion took place in which state?",
    "options": [
     "South Carolina",
@@ -3175,7 +3175,7 @@
     "national-archives",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Creole incident of 1841 involved which event?",
    "options": [
     "Enslaved people seized a ship and sailed to the Bahamas",
@@ -3244,7 +3244,7 @@
     "smithsonian-american-history",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which of the following was true of most white southerners before the Civil War?",
    "options": [
     "They did not own enslaved people",
@@ -3290,7 +3290,7 @@
     "union-station",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Large numbers of German immigrants in the 1840s and 1850s mostly settled where?",
    "options": [
     "The Deep South, where they bought cotton plantations",
@@ -3656,7 +3656,7 @@
     "library-of-congress",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which journalist is traditionally credited with coining the term 'Manifest Destiny' in 1845?",
    "options": [
     "Horace Greeley",
@@ -3679,7 +3679,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Texas won independence from Mexico in 1836 after what battle?",
    "options": [
     "The Alamo",
@@ -3771,7 +3771,7 @@
     "capitol-rotunda",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "James K. Polk won the 1844 election on a platform that favored what?",
    "options": [
     "Annexing Texas and acquiring Oregon",
@@ -3794,7 +3794,7 @@
     "senate-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Democratic campaign slogan 'Fifty-four forty or fight' referred to claims in which region?",
    "options": [
     "The Rio Grande",
@@ -3817,7 +3817,7 @@
     "senate-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Oregon Treaty of 1846 with Britain did what?",
    "options": [
     "Gave all of the Oregon Country to the United States",
@@ -3999,7 +3999,7 @@
     "house-floor",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Wilmot Proviso (1846) proposed what?",
    "options": [
     "Admission of California as a slave state",
@@ -4022,7 +4022,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which doctrine let settlers in a territory decide for themselves whether to allow slavery?",
    "options": [
     "Popular sovereignty",
@@ -4134,7 +4134,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which agreement admitted California as a free state and enacted a stricter fugitive slave law?",
    "options": [
     "The Missouri Compromise",
@@ -4156,7 +4156,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Kentucky senator introduced the compromise package that became the Compromise of 1850?",
    "options": [
     "Stephen Douglas",
@@ -4405,7 +4405,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Stephen Douglas's Kansas-Nebraska Act of 1854 did what?",
    "options": [
     "Banned slavery in both new territories permanently",
@@ -4427,7 +4427,7 @@
     "house-floor",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Kansas-Nebraska Act effectively repealed what earlier agreement?",
    "options": [
     "The Missouri Compromise slavery line",
@@ -4449,7 +4449,7 @@
     "house-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which political party formed in 1854 in response to the Kansas-Nebraska Act?",
    "options": [
     "The Whig Party",
@@ -4562,7 +4562,7 @@
     "house-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In May 1856, Senator Charles Sumner was beaten with a cane on the Senate floor by whom?",
    "options": [
     "Stephen Douglas",
@@ -4673,7 +4673,7 @@
     "smithsonian-african-american-history",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who wrote the majority opinion in Dred Scott v. Sandford?",
    "options": [
     "John Marshall",
@@ -4763,7 +4763,7 @@
     "senate-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Lecompton Constitution was a proposed constitution for which territory?",
    "options": [
     "Nebraska",
@@ -4808,7 +4808,7 @@
     "house-floor",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Panic of 1857 hit which region the hardest?",
    "options": [
     "The North more than the South",
@@ -4896,7 +4896,7 @@
     "capitol-rotunda",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who won the 1858 Illinois Senate election?",
    "options": [
     "Abraham Lincoln, who won by a narrow majority",
@@ -4965,7 +4965,7 @@
     "senate-floor",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to John Brown after the Harpers Ferry raid?",
    "options": [
     "He escaped to Canada and lived there",
@@ -5345,7 +5345,7 @@
     "white-house",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The border states that allowed slavery but stayed in the Union were what?",
    "options": [
     "Virginia, Tennessee, Arkansas, and Texas",
@@ -5435,7 +5435,7 @@
     "pentagon",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The first major land battle of the Civil War, in July 1861, was fought near which Virginia stream?",
    "options": [
     "Bull Run",
@@ -5681,7 +5681,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Robert E. Lee took command of which Confederate army in 1862?",
    "options": [
     "The Army of Tennessee",
@@ -5703,7 +5703,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Seven Days Battles of 1862 ended which Union effort?",
    "options": [
     "Grant's campaign along the Tennessee River",
@@ -5725,7 +5725,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Battle of Antietam in September 1862 was fought in which state?",
    "options": [
     "Virginia",
@@ -5747,7 +5747,7 @@
     "lincoln-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Antietam is remembered as what?",
    "options": [
     "The first major battle of the war",
@@ -5770,7 +5770,7 @@
     "national-archives",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Why was the Union victory at Antietam politically important?",
    "options": [
     "It let Lincoln issue the Emancipation Proclamation",
@@ -5836,7 +5836,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Union disaster at Fredericksburg in December 1862 came under which commander?",
    "options": [
     "Joseph Hooker",
@@ -5859,7 +5859,7 @@
     "national-archives",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Emancipation Proclamation took effect on what date?",
    "options": [
     "April 12, 1861",
@@ -5882,7 +5882,7 @@
     "national-archives",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Emancipation Proclamation declared freedom for enslaved people where?",
    "options": [
     "In every state of the Union",
@@ -5905,7 +5905,7 @@
     "national-archives",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lincoln justified the Emancipation Proclamation as what?",
    "options": [
     "A military necessity as commander in chief",
@@ -5951,7 +5951,7 @@
     "national-archives",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Emancipation Proclamation also allowed what?",
    "options": [
     "The integration of white and Black regiments",
@@ -5974,7 +5974,7 @@
     "lincoln-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which regiment of Black soldiers, led by Colonel Robert Gould Shaw, attacked Fort Wagner in 1863?",
    "options": [
     "The 1st Kansas Colored",
@@ -5997,7 +5997,7 @@
     "arlington-cemetery",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "About how many Black men served in the Union Army and Navy during the Civil War?",
    "options": [
     "About 10,000",
@@ -6043,7 +6043,7 @@
     "smithsonian-african-american-history",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Two of Frederick Douglass's sons served in which famous Black regiment?",
    "options": [
     "The 1st Louisiana Native Guards",
@@ -6066,7 +6066,7 @@
     "arlington-cemetery",
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Robert Smalls became a Civil War hero in 1862 by doing what?",
    "options": [
     "Taking a Confederate ship to Union lines",
@@ -6202,7 +6202,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the main goal of the Union's Vicksburg campaign?",
    "options": [
     "Capture Richmond and end the war",
@@ -6224,7 +6224,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Grant's victory at Vicksburg ended on what date, near that of Gettysburg?",
    "options": [
     "January 1, 1863",
@@ -6268,7 +6268,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who commanded the Union forces at Gettysburg?",
    "options": [
     "Joseph Hooker",
@@ -6474,7 +6474,7 @@
     "smithsonian-african-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The New York City draft riots of July 1863 included what?",
    "options": [
     "Mob attacks on Black residents and officials",
@@ -6542,7 +6542,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The National Banking Acts of 1863-1864 did what?",
    "options": [
     "Rechartered the Second Bank of the United States",
@@ -6588,7 +6588,7 @@
     "house-floor",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Morrill Land-Grant Act of 1862 supported what?",
    "options": [
     "Colleges of agriculture and mechanical arts",
@@ -6862,7 +6862,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The long Union siege of Petersburg, Virginia, aimed to do what?",
    "options": [
     "Cut the rail lines feeding Richmond",
@@ -6929,7 +6929,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was Lincoln's Democratic opponent in 1864?",
    "options": [
     "Stephen Douglas",
@@ -6973,7 +6973,7 @@
     "lincoln-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Sherman's 'March to the Sea' in late 1864 ended at which Georgia city?",
    "options": [
     "Charleston",
@@ -7178,7 +7178,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Richmond, the Confederate capital, fell to Union forces in what month of 1865?",
    "options": [
     "January",
@@ -7292,7 +7292,7 @@
     "white-house",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After Lincoln was shot at Ford's Theatre, where was he taken?",
    "options": [
     "The White House, a few blocks away",
@@ -7314,7 +7314,7 @@
     "white-house",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which young Army surgeon was the first physician to reach Lincoln in the presidential box and tend his wound?",
    "options": [
     "Dr. Samuel Mudd",
@@ -7448,7 +7448,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what part of the US Capitol did Lincoln's body lie in state in April 1865?",
    "options": [
     "The Old Senate Chamber",
@@ -7517,7 +7517,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Statue of Freedom's cast was made partly by whom?",
    "options": [
     "Frederick Douglass, who had given a speech there",
@@ -7563,7 +7563,7 @@
     "capitol-rotunda",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How did the Civil War affect the Washington Monument?",
    "options": [
     "It was completed in time for Lincoln's inauguration",
@@ -7720,7 +7720,7 @@
     "frederick-douglass-house",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who led the Freedmen's Bureau as commissioner?",
    "options": [
     "General Ulysses Grant",
@@ -7878,7 +7878,7 @@
     "house-floor",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Civil Rights Act of 1866 declared what?",
    "options": [
     "Segregation in public places was legal",
@@ -7923,7 +7923,7 @@
     "house-floor",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Fourteenth Amendment, ratified in 1868, did what?",
    "options": [
     "Gave women the right to vote nationwide",
@@ -8013,7 +8013,7 @@
     "house-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Reconstruction Acts of 1867 divided most of the former Confederacy into what?",
    "options": [
     "Seven territories",
@@ -8058,7 +8058,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Tenure of Office Act of 1867 limited the president's power to do what?",
    "options": [
     "Veto bills passed by Congress",
@@ -8080,7 +8080,7 @@
     "house-floor",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Andrew Johnson became the first president to be what?",
    "options": [
     "Convicted by the Senate",
@@ -8102,7 +8102,7 @@
     "house-floor",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The immediate trigger for Johnson's impeachment in 1868 was his attempt to do what?",
    "options": [
     "Veto the Fourteenth Amendment",
@@ -8124,7 +8124,7 @@
     "house-floor",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the result of Johnson's Senate impeachment trial?",
    "options": [
     "He was acquitted by one vote",
@@ -8190,7 +8190,7 @@
     "senate-floor",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Radical Republican leader in the House was a driving force behind Johnson's impeachment?",
    "options": [
     "James Blaine",
@@ -8463,7 +8463,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Enforcement Acts of 1870-1871, also called the Ku Klux Klan Acts, did what?",
    "options": [
     "Banned the Democratic Party in Southern states",
@@ -8714,7 +8714,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Panic of 1873 began when what happened?",
    "options": [
     "The bank Jay Cooke and Company failed",
@@ -8894,7 +8894,7 @@
     "white-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the main effect of the Compromise of 1877 on the South?",
    "options": [
     "It restored slavery in the South under new state laws",
@@ -8917,7 +8917,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Southern white Democrats who regained control of state governments after Reconstruction were called what?",
    "options": [
     "Radicals",
@@ -9009,7 +9009,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Frederick Douglass's home in Washington, D.C., is known by what name?",
    "options": [
     "Monticello",
@@ -9147,7 +9147,7 @@
     "national-archives",
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where in the Capitol did Morse send the 1844 telegraph message?",
    "options": [
     "The Capitol Rotunda beneath the dome",
@@ -9331,7 +9331,7 @@
     "national-archives",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Abraham Lincoln was born in which state?",
    "options": [
     "Illinois",
@@ -9377,7 +9377,7 @@
     "white-house",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lincoln served one term in the US House of Representatives from 1847 to 1849 as a member of which party?",
    "options": [
     "The Democratic Party",
@@ -9422,7 +9422,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who served as Lincoln's Secretary of State and negotiated the Alaska purchase under Andrew Johnson?",
    "options": [
     "Salmon P. Chase",
@@ -9491,7 +9491,7 @@
     "lincoln-memorial",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Trent Affair of 1861 nearly brought which nation into the war?",
    "options": [
     "Great Britain",
@@ -9536,7 +9536,7 @@
     "house-floor",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the main way Confederate leaders paid for the war?",
    "options": [
     "Selling western land to settlers",
@@ -9604,7 +9604,7 @@
     "house-floor",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What prompted the Confederate decision to attack Fort Sumter in April 1861?",
    "options": [
     "Lincoln's decision to resupply the fort",
@@ -9968,7 +9968,7 @@
     "white-house",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened at Ford's Theatre after Lincoln's death in 1865?",
    "options": [
     "It reopened as a thriving theater within a year",
@@ -10169,7 +10169,7 @@
     "frederick-douglass-house",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Union Navy hero from South Carolina later served in Congress during Reconstruction?",
    "options": [
     "Booker T. Washington",
@@ -10192,7 +10192,7 @@
     "frederick-douglass-house",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which year did Congress abolish the Freedmen's Bureau?",
    "options": [
     "1872",
@@ -10928,7 +10928,7 @@
     "capitol-rotunda",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Washington Monument was originally planned by a private society to be funded mainly through what?",
    "options": [
     "Public donations",
@@ -11020,7 +11020,7 @@
     "treasury",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How much did the United States agree to pay France for the Louisiana Territory in 1803?",
    "options": [
     "About 5 million dollars",
@@ -11319,7 +11319,7 @@
     "national-archives",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Lincoln issue the preliminary Emancipation Proclamation after Antietam?",
    "options": [
     "September 22, 1862",
@@ -11526,7 +11526,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Lincoln family member died of fever in the White House in 1862?",
    "options": [
     "His wife Mary",

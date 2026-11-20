@@ -158,7 +158,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The name Anacostia comes from the Algonquian-speaking people living along the river when John Smith explored the Potomac in 1608. Who were they?",
    "options": [
     "The Powhatan",
@@ -284,7 +284,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Secretary of State Seward survived a knife attack on April 14, 1865, partly because of what he was wearing?",
    "options": [
     "A metal splint holding his broken jaw",
@@ -366,7 +366,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In November 1864 the three Booth brothers acted together in New York to raise money for a Shakespeare statue in Central Park. Which play did they perform?",
    "options": [
     "Julius Caesar",
@@ -406,7 +406,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Lincoln conspirators were tried, and four were hanged, at the Washington Arsenal. What is that Army post called now?",
    "options": [
     "Fort Myer",
@@ -428,7 +428,7 @@
     "fords-theatre",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lincoln's 1865 funeral train to Springfield largely retraced the route of what earlier journey?",
    "options": [
     "His 1861 trip to Washington as president-elect",
@@ -449,7 +449,7 @@
     "fords-theatre",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In February 1861, which detective arranged for President-elect Lincoln to pass secretly through Baltimore at night to foil a feared assassination plot?",
    "options": [
     "Lafayette Baker",
@@ -596,7 +596,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 65th Infantry Regiment, which fought in Korea and received the Congressional Gold Medal in 2014, was made up mostly of soldiers from where?",
    "options": [
     "Hawaii",
@@ -638,7 +638,7 @@
     "korean-war-memorial",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Boston Red Sox slugger flew 39 combat missions in Korea as a Marine pilot, sometimes as John Glenn's wingman?",
    "options": [
     "Joe DiMaggio",
@@ -721,7 +721,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "U.S. 'special procurement' orders for trucks, uniforms and repairs during the Korean War boosted the recovery of which nearby former enemy nation?",
    "options": [
     "Taiwan",
@@ -1117,7 +1117,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which religious community, led in America by Mother Ann Lee, practiced celibacy, shared property and worshiped with dancing?",
    "options": [
     "The Amish",
@@ -1138,7 +1138,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Mormon founder Joseph Smith was killed by a mob in 1844 while held in a jail in which state?",
    "options": [
     "Missouri",
@@ -1198,7 +1198,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which religious movement did Mary Baker Eddy found in 1879, teaching that prayer could heal illness?",
    "options": [
     "Seventh-day Adventism",
@@ -1367,7 +1367,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1941 the Bonneville Power Administration hired which folk singer to write songs promoting dams on the Columbia River?",
    "options": [
     "Pete Seeger",
@@ -1387,7 +1387,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Columbia professors Raymond Moley, Rexford Tugwell and Adolf Berle were part of FDR's circle of advisers known by what nickname?",
    "options": [
     "The Kitchen Cabinet",
@@ -1450,7 +1450,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which song became Franklin Roosevelt's campaign theme in 1932 and a lasting Democratic anthem?",
    "options": [
     "Brother, Can You Spare a Dime?",
@@ -1555,7 +1555,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Washington's only voyage outside mainland North America, in 1751, took him to which Caribbean island, where he survived smallpox?",
    "options": [
     "Jamaica",
@@ -1616,7 +1616,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1797 Washington started what business at Mount Vernon, which soon became one of the largest of its kind in America?",
    "options": [
     "A tobacco warehouse",
@@ -1637,7 +1637,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the 1760s Washington shifted Mount Vernon's main cash crop from tobacco to what?",
    "options": [
     "Rice",
@@ -1657,7 +1657,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Why was the Washington Monument built a bit east and south of the spot where the White House and Capitol axes cross?",
    "options": [
     "The ground at the planned site was too soft and marshy",
@@ -1803,7 +1803,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Army officer led an 1806-07 expedition into the Southwest during Jefferson's presidency and was arrested by Spanish authorities?",
    "options": [
     "Stephen Long",
@@ -1865,7 +1865,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Jefferson described the growing United States, enlarged by the Louisiana Purchase, with what phrase?",
    "options": [
     "A city upon a hill",
@@ -2069,7 +2069,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which 1945 battle, the last major campaign of the Pacific war, was fought on an island in Japan's Ryukyu chain?",
    "options": [
     "Iwo Jima",
@@ -2090,7 +2090,7 @@
    "stops": [
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which federal agency, created in 1942, coordinated government news, posters and radio messages to build support for the war?",
    "options": [
     "The Committee on Public Information",
@@ -2192,7 +2192,7 @@
     "wwii-memorial",
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Texas-born soldier, among the most decorated Americans of World War II and later a Hollywood actor, is buried at Arlington?",
    "options": [
     "Alvin York",
@@ -2382,7 +2382,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The costly May 1969 assault on Ap Bia Mountain near the Laotian border became known by what nickname?",
    "options": [
     "Pork Chop Hill",
@@ -2526,7 +2526,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which heavyweight boxing champion, who served in the Army during World War II, was buried at Arlington in 1981?",
    "options": [
     "Jack Johnson",
@@ -2548,7 +2548,7 @@
     "arlington-cemetery",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which son of Abraham Lincoln, a former secretary of war, is buried at Arlington rather than in the family tomb in Springfield?",
    "options": [
     "Robert Todd Lincoln",
@@ -2569,7 +2569,7 @@
     "arlington-cemetery",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A memorial cairn at Arlington honors the 270 people killed in 1988 when a terrorist bomb destroyed which airliner over Lockerbie, Scotland?",
    "options": [
     "Pan Am Flight 103",
@@ -2589,7 +2589,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Women in Military Service for America Memorial, dedicated in 1997, stands where?",
    "options": [
     "Beside the Vietnam Veterans Memorial",
@@ -2756,7 +2756,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which city opened the first subway in the United States, in 1897?",
    "options": [
     "New York",
@@ -2880,7 +2880,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Smithsonian Secretary Samuel Langley's Aerodrome plunged into which river in two failed launches in late 1903?",
    "options": [
     "The Hudson River",
@@ -2963,7 +2963,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Wernher von Braun, who later led design of the Saturn V rocket, came to the United States after World War II through which secret program?",
    "options": [
     "Operation Mongoose",
@@ -3004,7 +3004,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1963, who became the first woman to travel into space?",
    "options": [
     "Sally Ride",
@@ -3024,7 +3024,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1992, aboard the space shuttle Endeavour, who became the first African American woman in space?",
    "options": [
     "Sally Ride",
@@ -3168,7 +3168,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1962, federal marshals and troops enforced the enrollment of which Air Force veteran as the first Black student at the University of Mississippi?",
    "options": [
     "Medgar Evers",
@@ -3644,7 +3644,7 @@
     "arlington-cemetery",
     "wwii-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Bandleader Glenn Miller, honored with a memorial headstone at Arlington, disappeared in December 1944 while doing what?",
    "options": [
     "Leading a USO tour in the Pacific",

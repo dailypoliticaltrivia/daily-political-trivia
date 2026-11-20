@@ -11,7 +11,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Etowah, a Mississippian town with tall flat-topped mounds and finely worked copper plates, stands beside a river near Cartersville in which present-day state?",
    "options": [
     "Georgia",
@@ -72,7 +72,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Mississippian peoples, including those at Cahokia, played chunkey. What did players do in this game?",
    "options": [
     "Kicked a rubber ball through a stone ring",
@@ -93,7 +93,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Old Oraibi, a Hopi village on Third Mesa that has been lived in since about the 1100s, is in which present-day state?",
    "options": [
     "Arizona",
@@ -114,7 +114,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Taos Pueblo, a multistory adobe town lived in for about a thousand years, sits at the foot of the Sangre de Cristo Mountains in which present-day state?",
    "options": [
     "Arizona",
@@ -135,7 +135,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Hopi farmers on the dry mesas of northern Arizona raised corn with very little rain. Which method helped them do it?",
    "options": [
     "Flooding fields from stone-lined mountain reservoirs",
@@ -156,7 +156,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Long before Spaniards arrived, Hopi and other Pueblo weavers made kilts, sashes and blankets from which fiber that they grew themselves?",
    "options": [
     "Flax",
@@ -176,7 +176,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Mimbres potters of southwestern New Mexico, working from about 1000 to 1130, are best known for what?",
    "options": [
     "Black-on-white bowls painted with animals and people",
@@ -281,7 +281,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Why did Iroquoian farming towns in the Northeast usually move to a new site every couple of decades?",
    "options": [
     "Spanish slave raiders had found them",
@@ -364,7 +364,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Among the Taino of the Caribbean, what was a cacique?",
    "options": [
     "A carved stone image of a spirit",
@@ -407,7 +407,7 @@
     "capitol-rotunda",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Viceroyalty of Peru, created by Spain in 1542, was governed from which city founded by Francisco Pizarro in 1535?",
    "options": [
     "Quito",
@@ -429,7 +429,7 @@
     "treasury",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Spain's treasure fleets from Veracruz and the Isthmus of Panama gathered at which Caribbean port before sailing home together under naval escort?",
    "options": [
     "Havana",
@@ -450,7 +450,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was the first printing press in the Americas set up, in 1539?",
    "options": [
     "Lima",
@@ -492,7 +492,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which mid-Atlantic island chain, roughly 850 miles west of Portugal, did the Portuguese begin settling in the 1430s?",
    "options": [
     "The Canary Islands",
@@ -535,7 +535,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1492, the same year as Columbus's first voyage, Ferdinand and Isabella ordered which group to convert to Christianity or leave Spain?",
    "options": [
     "Muslims",
@@ -555,7 +555,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1469 marriage of Isabella and Ferdinand joined which two Iberian kingdoms, laying the base for a united Spain?",
    "options": [
     "Leon and Portugal",
@@ -597,7 +597,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "A 1513 world map that survives in part, showing the Atlantic coasts of South America and Africa and said to draw on a Columbus chart, was made by an admiral of which empire?",
    "options": [
     "The Ottoman Empire",
@@ -659,7 +659,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Juan Ponce de Leon named Florida in 1513 partly because he arrived near which Christian holiday season?",
    "options": [
     "Christmas",
@@ -680,7 +680,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where did the name California come from?",
    "options": [
     "An island of women warriors in a Spanish romance novel",
@@ -701,7 +701,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The first recorded smallpox epidemic in the Americas broke out in 1518-1519 on which island before reaching Mexico?",
    "options": [
     "Cuba",
@@ -785,7 +785,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Machu Picchu, high in the Peruvian Andes, is generally thought to have been built as an estate for which Inca ruler?",
    "options": [
     "Atahualpa",
@@ -848,7 +848,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1516 the friar Tomas de Berlanga is credited with bringing which crop from the Canary Islands to Hispaniola?",
    "options": [
     "Bananas",
@@ -888,7 +888,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In a Spanish colonial town, what was the cabildo?",
    "options": [
     "The royal treasury office",
@@ -972,7 +972,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The ball used in the Mesoamerican ballgame was a solid ball made from what?",
    "options": [
     "Leather",
@@ -992,7 +992,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Casa Grande, a four-story building of caliche mud raised near the Gila River in present-day Arizona around 1350, was built by which people?",
    "options": [
     "The Mogollon",
@@ -1055,7 +1055,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Kiliaen van Rensselaer, an Amsterdam merchant, held the most successful patroonship in New Netherland. Where was Rensselaerswyck?",
    "options": [
     "On western Long Island near Brooklyn",
@@ -1076,7 +1076,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "New York's Brooklyn and Harlem take their names from what?",
    "options": [
     "Lenape villages on the sites",
@@ -1139,7 +1139,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Harvard College was named in 1639 for John Harvard, a young minister who did what?",
    "options": [
     "Served as the college's first president",
@@ -1160,7 +1160,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1665 Caleb Cheeshahteaumuck, a Wampanoag from Martha's Vineyard, became the first Native American to do what?",
    "options": [
     "Publish a book in English",
@@ -1366,7 +1366,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Maryland's first colonists arrived in 1634 aboard which two ships?",
    "options": [
     "The Susan Constant and the Discovery",
@@ -1408,7 +1408,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Gulf Coast town served as the capital of French Louisiana from 1702 until 1720?",
    "options": [
     "New Orleans",
@@ -1450,7 +1450,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Spain built the Castillo de San Marcos at St. Augustine, begun in 1672, from coquina. What is coquina?",
    "options": [
     "A volcanic rock shipped from Cuba",
@@ -1471,7 +1471,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Ville-Marie, founded in 1642 by Paul de Chomedey de Maisonneuve and Jeanne Mance as a Catholic mission, grew into which city?",
    "options": [
     "Quebec",
@@ -1618,7 +1618,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Lucy Terry Prince's poem 'Bars Fight,' about a 1746 raid near Deerfield, Massachusetts, is considered what?",
    "options": [
     "The first poem printed in a colonial newspaper",
@@ -1762,7 +1762,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which insect first reached Virginia in a shipment that arrived in 1622, an import that spread across North America ahead of settlers?",
    "options": [
     "The honeybee",
@@ -1802,7 +1802,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "A powerful hurricane in September 1752 flooded which colonial port, driving ships into its streets?",
    "options": [
     "Boston",
@@ -1926,7 +1926,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Washington spent much of his boyhood at Ferry Farm, across the Rappahannock River from which town?",
    "options": [
     "Fredericksburg",
@@ -1947,7 +1947,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1748 the sixteen-year-old George Washington joined a survey of western Virginia lands owned by which proprietor?",
    "options": [
     "William Penn",
@@ -1967,7 +1967,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1752 Lewis Hallam's company of London actors opened its first American season in which colonial capital?",
    "options": [
     "Boston",
@@ -2176,7 +2176,7 @@
     "smithsonian-american-indian",
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In November 1868 George Custer's 7th Cavalry attacked the Cheyenne camp of Black Kettle, who had survived Sand Creek, on which river in present-day Oklahoma?",
    "options": [
     "The Washita",
@@ -2218,7 +2218,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1893, which state became the first where male voters approved women's suffrage in a popular referendum?",
    "options": [
     "Wyoming",
@@ -2341,7 +2341,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "John Philip Sousa, born in Washington, D.C., led which band from 1880 to 1892 before writing 'The Stars and Stripes Forever'?",
    "options": [
     "The U.S. Marine Band",
@@ -2383,7 +2383,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The bicycle craze of the 1890s, set off by the 'safety' bicycle with two equal wheels and a chain drive, had what social effect?",
    "options": [
     "It ended the use of horses in American cities",
@@ -2404,7 +2404,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which showman's touring Wild West exhibition, begun in 1883, featured sharpshooter Annie Oakley and, for one season, Sitting Bull?",
    "options": [
     "P. T. Barnum",
@@ -2425,7 +2425,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Engineer George Ferris built his giant observation wheel, more than 250 feet tall, for which event?",
    "options": [
     "The 1893 World's Columbian Exposition in Chicago",
@@ -2445,7 +2445,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1893, Clara Barton's American Red Cross spent months helping survivors of a hurricane that devastated which area?",
    "options": [
     "The Florida Keys",
@@ -2467,7 +2467,7 @@
     "smithsonian-african-american-history",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Beginning in 1871, the Fisk Jubilee Singers raised money for their Nashville university by doing what?",
    "options": [
     "Selling a best-selling book of slave narratives",
@@ -2488,7 +2488,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Frederick Douglass served for more than twenty years as a trustee of which university in Washington, chartered by Congress in 1867?",
    "options": [
     "Georgetown University",
@@ -2510,7 +2510,7 @@
     "house-floor",
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "George Henry White of North Carolina, elected to the House in 1896, is remembered as what?",
    "options": [
     "The last Black member of Congress for nearly 28 years",
@@ -2532,7 +2532,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Memphis-born educator living in Washington became the first president of the National Association of Colored Women in 1896?",
    "options": [
     "Ida B. Wells",
@@ -2574,7 +2574,7 @@
     "senate-floor",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1876, Secretary of War William Belknap was impeached over bribes tied to what?",
    "options": [
     "Contracts for Navy ironclad ships",
@@ -2635,7 +2635,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Francis Bellamy wrote the original Pledge of Allegiance in 1892 for school celebrations of what?",
    "options": [
     "The 100th anniversary of the Bill of Rights",
@@ -2656,7 +2656,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Katharine Lee Bates wrote the poem 'America the Beautiful' after an 1893 trip to the summit of which mountain?",
    "options": [
     "Mount Washington",
@@ -2781,7 +2781,7 @@
     "korean-war-memorial",
     "senate-floor"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 1882 treaty negotiated by Commodore Robert Shufeldt made the United States the first Western nation to do what?",
    "options": [
     "Open trade with Japan",
@@ -2823,7 +2823,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Congress created the National Zoological Park in Washington in 1889 partly at the urging of William Hornaday, who wanted to save which animal?",
    "options": [
     "The passenger pigeon",
@@ -2885,7 +2885,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 1894 Hinckley fire, which killed more than 400 people, raced through logged-over pine land in which state?",
    "options": [
     "Michigan",
@@ -3010,7 +3010,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "From 1886 to 1918, who managed Yellowstone National Park?",
    "options": [
     "The U.S. Army",
@@ -3110,7 +3110,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1893, during a financial panic, Grover Cleveland secretly had surgery aboard a friend's yacht to remove what?",
    "options": [
     "A bullet lodged near his spine",
@@ -3130,7 +3130,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On May 19, 1780, the sky over New England grew so dark at midday that people lit candles. What do researchers now think caused it?",
    "options": [
     "Ash from a volcano in Iceland",
@@ -3152,7 +3152,7 @@
     "washington-monument",
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "During the winter of 1779-1780, among the harshest of the century, Washington's Continental Army camped near which New Jersey town?",
    "options": [
     "Trenton",
@@ -3279,7 +3279,7 @@
     "white-house",
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1805 Lewis and Clark sent President Jefferson a live animal from Fort Mandan that survived the long trip east. What was it?",
    "options": [
     "A grizzly bear cub",
@@ -3299,7 +3299,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the summer of 1805 Lewis and Clark spent about a month hauling their canoes and supplies around the Great Falls of which river?",
    "options": [
     "The Columbia",
@@ -3383,7 +3383,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Lincoln Memorial, dedicated in 1922, stands on land that was what in the 1870s?",
    "options": [
     "A cemetery for Union soldiers",
@@ -3404,7 +3404,7 @@
     "smithsonian-american-history",
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A fungus first identified at the Bronx Zoo in 1904 went on to kill billions of which tree, once common in eastern forests?",
    "options": [
     "The American elm",
@@ -3445,7 +3445,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which mission's crew took the 1968 'Earthrise' photograph of the earth rising over the moon?",
    "options": [
     "Apollo 11",
@@ -3590,7 +3590,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1774 Thomas Jefferson bought which Virginia landmark, later calling it 'the most sublime of Nature's works'?",
    "options": [
     "Natural Bridge",

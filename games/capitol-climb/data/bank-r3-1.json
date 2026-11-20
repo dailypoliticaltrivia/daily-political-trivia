@@ -78,7 +78,7 @@
     "smithsonian-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "During the 1500s, fishing fleets from France, Portugal, Spain and England crossed the Atlantic each year to catch cod off which region?",
    "options": [
     "The Florida Keys",
@@ -207,7 +207,7 @@
     "smithsonian-american-indian",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Horses brought by the Spanish in the 1500s were in a sense a return. Why?",
    "options": [
     "Native horse species had died out in the Americas long before",
@@ -382,7 +382,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which food did the Ojibwe and other peoples of the western Great Lakes harvest from shallow lakes by canoe?",
    "options": [
     "Wild rice",
@@ -425,7 +425,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The great houses of Chaco Canyon in New Mexico, built by Ancestral Puebloans between about 850 and 1150, were linked to outlying communities by what?",
    "options": [
     "Long, straight engineered roads",
@@ -514,7 +514,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Tree-ring studies published in 1998 found that Jamestown's first years, 1606 to 1612, coincided with what?",
    "options": [
     "The worst drought in about 770 years",
@@ -579,7 +579,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Pennsylvania Dutch who settled in colonial Pennsylvania mostly came from where?",
    "options": [
     "German-speaking lands along the Rhine",
@@ -688,7 +688,7 @@
     "smithsonian-american-indian",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1600s Virginia and New England, a frequent source of conflict between colonists and Native peoples was what?",
    "options": [
     "Disputes over who could fish in the Atlantic",
@@ -754,7 +754,7 @@
     "smithsonian-american-indian",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "European demand for which fashion item drove the North American beaver trade in the 1600s?",
    "options": [
     "Fur-lined capes",
@@ -776,7 +776,7 @@
     "smithsonian-african-american-history",
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Georgia's founders banned slavery in the colony in 1735. In which year did slavery become legal there?",
    "options": [
     "1765",
@@ -906,7 +906,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "William Penn's 1682 plan for Philadelphia was notable for what?",
    "options": [
     "Winding lanes around a central stone fort",
@@ -1038,7 +1038,7 @@
     "washington-monument",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In early 1777, George Washington ordered what for Continental Army recruits who had never had smallpox?",
    "options": [
     "A year of quarantine",
@@ -1060,7 +1060,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A 1793 yellow fever epidemic killed about a tenth of the population of which city, then the nation's capital?",
    "options": [
     "New York City",
@@ -1082,7 +1082,7 @@
     "library-of-congress",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1775, Daniel Boone led axmen to blaze which route through the Cumberland Gap into Kentucky?",
    "options": [
     "The Great Wagon Road",
@@ -1190,7 +1190,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Charles Mason and Jeremiah Dixon surveyed their famous line in the 1760s to settle a boundary dispute between which colonies?",
    "options": [
     "Virginia and North Carolina",
@@ -1364,7 +1364,7 @@
     "smithsonian-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Critics mocked the Erie Canal as a ditch named after which New York governor who championed it?",
    "options": [
     "George Clinton",
@@ -1471,7 +1471,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Most Oregon Trail emigrants of the 1840s aimed for farmland in which valley?",
    "options": [
     "The Shenandoah Valley",
@@ -1577,7 +1577,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 1838 Trail of Death forced which nation from northern Indiana to present-day Kansas?",
    "options": [
     "The Potawatomi",
@@ -1769,7 +1769,7 @@
     "smithsonian-american-history",
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Erie Canal connected the Hudson River at Albany with Lake Erie at which city?",
    "options": [
     "Cleveland",
@@ -1922,7 +1922,7 @@
     "smithsonian-american-history",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Comstock Lode, discovered in 1859, was a huge deposit of silver in what is now which state?",
    "options": [
     "Colorado",
@@ -1987,7 +1987,7 @@
     "lincoln-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which federal department did Lincoln sign into existence in 1862, later calling it the people's department?",
    "options": [
     "The Department of Agriculture",
@@ -2976,7 +2976,7 @@
     "white-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Commerce Secretary directed relief after the 1927 Mississippi flood, raising his profile before the 1928 presidential race?",
    "options": [
     "Calvin Coolidge",
@@ -3039,7 +3039,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After the 1900 hurricane that killed some 6,000 to 12,000 people in Galveston, Texas, how did the city protect itself?",
    "options": [
     "Built a seawall and raised the city's ground level",
@@ -3060,7 +3060,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Most of the destruction from the 1906 San Francisco earthquake was caused by what?",
    "options": [
     "Fires that burned for days afterward",
@@ -3103,7 +3103,7 @@
     "fdr-memorial",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Grand Coulee and Bonneville dams, built during the New Deal, harnessed which river for power and irrigation?",
    "options": [
     "The Tennessee",
@@ -3341,7 +3341,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Indian Relocation Act of 1956 encouraged Native Americans to do what?",
    "options": [
     "Move from reservations to cities for jobs and training",
@@ -3665,7 +3665,7 @@
    "stops": [
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The United States signed the 1997 Kyoto Protocol on greenhouse gases but never did what?",
    "options": [
     "Measure its own emissions",
@@ -3707,7 +3707,7 @@
    "stops": [
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After the 2020 census, which state gained two House seats, the most of any state?",
    "options": [
     "California",
@@ -3770,7 +3770,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 2016, the Standing Rock Sioux led mass protests against which project, fearing it would threaten their water and sacred sites?",
    "options": [
     "The Trans-Alaska oil pipeline",
@@ -3852,7 +3852,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1989 Loma Prieta earthquake struck the San Francisco Bay Area just before a game of which event?",
    "options": [
     "The Rose Bowl",

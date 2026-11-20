@@ -139,7 +139,7 @@
     "smithsonian-american-history",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The three ships that brought the first Jamestown colonists in 1607 were the Godspeed, the Discovery and which larger flagship?",
    "options": [
     "The Susan Constant",
@@ -160,7 +160,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Sea Venture, flagship of a 1609 relief fleet bound for Jamestown, was wrecked on which island group?",
    "options": [
     "The Bahamas",
@@ -181,7 +181,7 @@
     "library-of-congress",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What was the harsh code of rules imposed on Jamestown in 1610-1611 under Thomas Gates and Thomas Dale?",
    "options": [
     "The Fundamental Orders",
@@ -266,7 +266,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which English soldier served as Plymouth Colony's military leader?",
    "options": [
     "John Alden",
@@ -331,7 +331,7 @@
     "national-cathedral",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "John Winthrop sailed to Massachusetts Bay in 1630 aboard which flagship of the Puritan fleet?",
    "options": [
     "The Mayflower",
@@ -352,7 +352,7 @@
     "library-of-congress",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which New England colony was left out of the New England Confederation formed in 1643?",
    "options": [
     "Plymouth",
@@ -373,7 +373,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Connecticut captain led the 1637 attack on the Pequot fort at Mystic?",
    "options": [
     "Myles Standish",
@@ -436,7 +436,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1675 death of which Christian Native interpreter, and the hanging of three Wampanoag men for it, helped start King Philip's War?",
    "options": [
     "Tisquantum",
@@ -479,7 +479,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which enslaved woman in minister Samuel Parris's household was among the first people accused of witchcraft in Salem in 1692?",
    "options": [
     "Bridget Bishop",
@@ -587,7 +587,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which governor led the Dutch takeover of New Sweden in 1655?",
    "options": [
     "Peter Minuit",
@@ -651,7 +651,7 @@
     "national-cathedral",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did William Penn call his plan for a colony founded on Quaker principles?",
    "options": [
     "A holy experiment",
@@ -672,7 +672,7 @@
     "library-of-congress",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to Jacob Leisler after his rebellion in New York ended in 1691?",
    "options": [
     "He became the colony's royal governor",
@@ -735,7 +735,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What turned the Yamasee War in South Carolina's favor in early 1716?",
    "options": [
     "A Spanish fleet arrived to defend Charles Town",
@@ -798,7 +798,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The War of Jenkins' Ear, which began between Britain and Spain in 1739, was named for what?",
    "options": [
     "A British captain's ear, cut off by a Spanish coast guard officer",
@@ -819,7 +819,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Tewa religious leader organized the Pueblo Revolt of 1680?",
    "options": [
     "Tecumseh",
@@ -968,7 +968,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1673, missionary Jacques Marquette and which fur trader traveled down the Mississippi River as far as the Arkansas River?",
    "options": [
     "Robert de La Salle",
@@ -1053,7 +1053,7 @@
     "treasury",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "England's Navigation Act of 1651 was aimed mainly at the shipping trade of which rival?",
    "options": [
     "The Dutch",
@@ -1118,7 +1118,7 @@
     "smithsonian-african-american-history",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1640, a Virginia court sentenced John Punch, a runaway servant of African descent, to what?",
    "options": [
     "Return to Africa on the next ship",
@@ -1139,7 +1139,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Most indentured servants bound for the Chesapeake in the 1600s signed contracts for about how long?",
    "options": [
     "One to two years",
@@ -1220,7 +1220,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "George Whitefield raised money across the colonies for which institution in Georgia?",
    "options": [
     "A college for training ministers",
@@ -1240,7 +1240,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which English founder of the Society of Friends toured the American colonies in 1671-1673?",
    "options": [
     "William Penn",
@@ -1388,7 +1388,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In February 1690, during King William's War, French and Native forces destroyed which New York frontier village?",
    "options": [
     "Deerfield",
@@ -1409,7 +1409,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1704 French and Native raid on Deerfield, Massachusetts, took place during which war?",
    "options": [
     "Queen Anne's War",
@@ -1449,7 +1449,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Pocahontas died in 1617 at the start of a voyage home and was buried in which English town?",
    "options": [
     "Plymouth",
@@ -1491,7 +1491,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Founded in 1635, which is the oldest public school in the United States?",
    "options": [
     "Phillips Academy",
@@ -1533,7 +1533,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1751, Benjamin Franklin and physician Thomas Bond founded which Philadelphia institution?",
    "options": [
     "The Union Fire Company",
@@ -1658,7 +1658,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 1811 German Coast Uprising, the largest slave revolt in U.S. history, took place in which territory?",
    "options": [
     "The Territory of Orleans",
@@ -1785,7 +1785,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who succeeded John Marshall as chief justice of the United States in 1836?",
    "options": [
     "Joseph Story",
@@ -1890,7 +1890,7 @@
     "white-house",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1804, Stephen Decatur led a daring night raid into a Barbary Coast harbor to do what?",
    "options": [
     "Rescue the pasha's imprisoned brother",
@@ -1910,7 +1910,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The USS Constitution earned the nickname 'Old Ironsides' in an 1812 victory over which British frigate?",
    "options": [
     "HMS Guerriere",
@@ -1930,7 +1930,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. commander reported 'We have met the enemy and they are ours' after a battle on Lake Erie in 1813?",
    "options": [
     "Stephen Decatur",
@@ -1951,7 +1951,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Tecumseh was killed in October 1813 at which battle in Upper Canada?",
    "options": [
     "The Battle of Queenston Heights",
@@ -1972,7 +1972,7 @@
     "capitol-rotunda",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1813, American troops burned public buildings at York, the capital of Upper Canada. York is now which city?",
    "options": [
     "Montreal",
@@ -1993,7 +1993,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Thomas Macdonough's September 1814 naval victory stopped a British invasion from Canada on which lake?",
    "options": [
     "Lake Ontario",
@@ -2034,7 +2034,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Barataria Bay privateer and his men helped Andrew Jackson defend New Orleans in 1814-1815?",
    "options": [
     "William Walker",
@@ -2055,7 +2055,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the British burned the White House, President Madison signed the ratified Treaty of Ghent in 1815 in which nearby house?",
    "options": [
     "The Octagon House",
@@ -2178,7 +2178,7 @@
     "capitol-rotunda",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In January 1835, the first known attempt to kill a sitting president failed outside the Capitol. Why?",
    "options": [
     "A guard knocked the gun away just in time",
@@ -2219,7 +2219,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Critics mocked the first vice president to take over after a president's death with what nickname?",
    "options": [
     "The Little Magician",
@@ -2260,7 +2260,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who commanded the Texan defenders of the Alamo in 1836?",
    "options": [
     "William B. Travis",
@@ -2322,7 +2322,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Donner Party was trapped by snow in 1846-1847 in which mountain range?",
    "options": [
     "The Rocky Mountains",
@@ -2343,7 +2343,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1834 and 1836, Lowell mill women staged 'turnouts' to protest what?",
    "options": [
     "A ban on attending church on Sundays",
@@ -2405,7 +2405,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how long was the original Erie Canal when it opened in 1825?",
    "options": [
     "About 363 miles",
@@ -2548,7 +2548,7 @@
    "stops": [
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "William Holmes McGuffey is known for what?",
    "options": [
     "A series of graded school readers",
@@ -2591,7 +2591,7 @@
     "smithsonian-african-american-history",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Ohio college, founded in 1833, was among the first to admit both women and Black students?",
    "options": [
     "Kenyon College",
@@ -2612,7 +2612,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Prudence Crandall was arrested in 1833 for running what in Canterbury, Connecticut?",
    "options": [
     "A station on the Underground Railroad",
@@ -2781,7 +2781,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Elizabeth Cady Stanton and Lucretia Mott met in 1840 at which event, where women delegates were refused seats?",
    "options": [
     "The founding of the Liberty Party in Albany",
@@ -2842,7 +2842,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Followers of William Miller called October 22, 1844, the day the expected Second Coming did not occur, what?",
    "options": [
     "The Day of Doom",
@@ -2863,7 +2863,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1839, Mormons founded which Illinois city, for a time one of the largest in the state?",
    "options": [
     "Kirtland",
@@ -2970,7 +2970,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which U.S. general commanded the troops who rounded up the Cherokee for removal in 1838?",
    "options": [
     "Zachary Taylor",
@@ -2991,7 +2991,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Seminole leader Osceola was seized in 1837 in what way?",
    "options": [
     "In a night raid on his Everglades camp",
@@ -3012,7 +3012,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Black Hawk, whose band's 1832 return across the Mississippi set off the Black Hawk War, was a leader of which people?",
    "options": [
     "The Sauk",
@@ -3097,7 +3097,7 @@
     "smithsonian-american-history",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "James Smithson, whose bequest led Congress to create the Smithsonian Institution in 1846, was a scientist from which country?",
    "options": [
     "France",
@@ -3118,7 +3118,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the Treasury building burned in 1833, which architect designed its replacement?",
    "options": [
     "Benjamin Latrobe",
@@ -3223,7 +3223,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Robert Fulton's Clermont made its famous 1807 voyage up the Hudson River from New York City to which town?",
    "options": [
     "Buffalo",
@@ -3264,7 +3264,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Comstock Lode, discovered in 1859 in present-day Nevada, was a huge deposit of which metal?",
    "options": [
     "Silver",

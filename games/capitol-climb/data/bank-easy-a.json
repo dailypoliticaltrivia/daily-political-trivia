@@ -1,0 +1,3606 @@
+{
+ "bank": "easy-a",
+ "questions": [
+  {
+   "id": "ea-0001",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1492, Christopher Columbus sailed west on a voyage paid for by the rulers of which country?",
+   "options": [
+    "Portugal",
+    "England",
+    "Spain",
+    "France"
+   ],
+   "answer": 2,
+   "explain": "King Ferdinand and Queen Isabella of Spain sponsored Columbus's 1492 voyage across the Atlantic."
+  },
+  {
+   "id": "ea-0002",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What were the names of the three ships Columbus sailed in 1492?",
+   "options": [
+    "Nina, Pinta and Santa Maria",
+    "Mayflower, Speedwell and Fortune",
+    "Susan Constant, Godspeed and Discovery",
+    "Golden Hind, Pelican and Swan"
+   ],
+   "answer": 0,
+   "explain": "Columbus crossed the Atlantic in 1492 with the Nina, the Pinta and the Santa Maria."
+  },
+  {
+   "id": "ea-0003",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "When Columbus sailed west in 1492, which region was he trying to reach?",
+   "options": [
+    "Africa",
+    "South America",
+    "Antarctica",
+    "Asia"
+   ],
+   "answer": 3,
+   "explain": "Columbus hoped to reach the riches of Asia, the 'Indies,' by sailing west, and instead reached the Caribbean."
+  },
+  {
+   "id": "ea-0004",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Americas are named after which Italian explorer?",
+   "options": [
+    "Christopher Columbus",
+    "Amerigo Vespucci",
+    "John Cabot",
+    "Giovanni da Verrazzano"
+   ],
+   "answer": 1,
+   "explain": "A 1507 map used the name 'America' for the new lands, after Amerigo Vespucci, who argued they were a new continent."
+  },
+  {
+   "id": "ea-0005",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Where did Columbus first make landfall in October 1492?",
+   "options": [
+    "The coast of Florida",
+    "An island in the Bahamas",
+    "The coast of Brazil",
+    "An island near Iceland"
+   ],
+   "answer": 1,
+   "explain": "Columbus first landed on an island in the Bahamas that he named San Salvador, then sailed on to Cuba and Hispaniola."
+  },
+  {
+   "id": "ea-0006",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Spanish explorer searched Florida in 1513 and is linked by legend to a Fountain of Youth?",
+   "options": [
+    "Hernan Cortes",
+    "Francisco Pizarro",
+    "Vasco da Gama",
+    "Juan Ponce de Leon"
+   ],
+   "answer": 3,
+   "explain": "Juan Ponce de Leon led the first known Spanish expedition to Florida in 1513; the Fountain of Youth story grew up around him later."
+  },
+  {
+   "id": "ea-0007",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Spanish conquistador conquered the Aztec Empire in Mexico?",
+   "options": [
+    "Hernan Cortes",
+    "Francisco Pizarro",
+    "Hernando de Soto",
+    "Francisco Coronado"
+   ],
+   "answer": 0,
+   "explain": "Hernan Cortes and his allies captured the Aztec capital, Tenochtitlan, in 1521."
+  },
+  {
+   "id": "ea-0008",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Spanish conquistador Francisco Pizarro conquered which empire in South America?",
+   "options": [
+    "The Aztec Empire",
+    "The Maya kingdoms",
+    "The Inca Empire",
+    "The Olmec Empire"
+   ],
+   "answer": 2,
+   "explain": "Pizarro began his conquest of the Inca Empire, centered in the Andes of Peru, in 1532."
+  },
+  {
+   "id": "ea-0009",
+   "period": 1,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Founded by Spain in 1565, which is the oldest continuously settled European-founded city in the continental United States?",
+   "options": [
+    "Jamestown, Virginia",
+    "Plymouth, Massachusetts",
+    "Boston, Massachusetts",
+    "St. Augustine, Florida"
+   ],
+   "answer": 3,
+   "explain": "Spain founded St. Augustine in Florida in 1565, more than 40 years before Jamestown."
+  },
+  {
+   "id": "ea-0010",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "What do historians call the transfer of plants, animals and diseases between the Americas and Europe after 1492?",
+   "options": [
+    "The Triangular Trade",
+    "The Columbian Exchange",
+    "The Middle Passage",
+    "The Silk Road"
+   ],
+   "answer": 1,
+   "explain": "The Columbian Exchange brought corn and potatoes to Europe and horses, cattle and deadly diseases to the Americas."
+  },
+  {
+   "id": "ea-0011",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which disease brought by Europeans caused the most deaths among Native Americans?",
+   "options": [
+    "Polio",
+    "Scurvy",
+    "Smallpox",
+    "Rabies"
+   ],
+   "answer": 2,
+   "explain": "Native Americans had no immunity to smallpox, and epidemics killed a huge share of many Native populations."
+  },
+  {
+   "id": "ea-0012",
+   "period": 1,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Corn, first grown in the Americas, is also known by what name?",
+   "options": [
+    "Maize",
+    "Barley",
+    "Sorghum",
+    "Millet"
+   ],
+   "answer": 0,
+   "explain": "Native peoples in Mexico domesticated maize, or corn, thousands of years ago; it spread worldwide after 1492."
+  },
+  {
+   "id": "ea-0013",
+   "period": 1,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "English settlers on Roanoke Island vanished by 1590. What nickname has the settlement had ever since?",
+   "options": [
+    "The Lost Colony",
+    "The Hidden Colony",
+    "The Silent Fort",
+    "The Forgotten Town"
+   ],
+   "answer": 0,
+   "explain": "When supply ships returned to Roanoke in 1590, the colonists were gone, and their fate remains a mystery."
+  },
+  {
+   "id": "ea-0014",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The name Virginia honored which English monarch, known as the Virgin Queen?",
+   "options": [
+    "Mary I",
+    "Victoria",
+    "Elizabeth I",
+    "Anne"
+   ],
+   "answer": 2,
+   "explain": "Virginia was named in honor of Queen Elizabeth I, the 'Virgin Queen,' who never married."
+  },
+  {
+   "id": "ea-0015",
+   "period": 1,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Norse explorer reached North America around the year 1000, long before Columbus?",
+   "options": [
+    "John Cabot",
+    "Leif Erikson",
+    "Ferdinand Magellan",
+    "Henry Hudson"
+   ],
+   "answer": 1,
+   "explain": "Leif Erikson and other Norse sailors reached Newfoundland around 1000; a Norse site survives at L'Anse aux Meadows."
+  },
+  {
+   "id": "ea-0016",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Whose expedition was the first to sail all the way around the world, from 1519 to 1522?",
+   "options": [
+    "Christopher Columbus's",
+    "Vasco da Gama's",
+    "Henry Hudson's",
+    "Ferdinand Magellan's"
+   ],
+   "answer": 3,
+   "explain": "Magellan died in the Philippines, but his crew completed the first trip around the globe in 1522."
+  },
+  {
+   "id": "ea-0017",
+   "period": 1,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Haudenosaunee, or Iroquois Confederacy, united several Native nations in what is now which state?",
+   "options": [
+    "Florida",
+    "Texas",
+    "New York",
+    "California"
+   ],
+   "answer": 2,
+   "explain": "The Iroquois Confederacy joined the Mohawk, Oneida, Onondaga, Cayuga and Seneca (later the Tuscarora) in present-day New York."
+  },
+  {
+   "id": "ea-0018",
+   "period": 1,
+   "themes": [
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Spain's reasons for exploring the Americas are often summed up in which three words?",
+   "options": [
+    "God, gold and glory",
+    "Land, liberty and law",
+    "Faith, family and freedom",
+    "Trade, timber and towns"
+   ],
+   "answer": 0,
+   "explain": "Spanish explorers sought to spread Christianity, find riches and win fame, often summed up as God, gold and glory."
+  },
+  {
+   "id": "ea-0019",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Jamestown, the first lasting English colony, was founded in what present-day state?",
+   "options": [
+    "Massachusetts",
+    "North Carolina",
+    "Maryland",
+    "Virginia"
+   ],
+   "answer": 3,
+   "explain": "The Virginia Company founded Jamestown in 1607 near the Chesapeake Bay in Virginia."
+  },
+  {
+   "id": "ea-0020",
+   "period": 2,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which daughter of the Powhatan leader is linked to John Smith and later married John Rolfe?",
+   "options": [
+    "Sacagawea",
+    "Pocahontas",
+    "Tituba",
+    "La Malinche"
+   ],
+   "answer": 1,
+   "explain": "Pocahontas married colonist John Rolfe in 1614 and traveled to England, where she died in 1617."
+  },
+  {
+   "id": "ea-0021",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Which cash crop saved the struggling Jamestown colony and made Virginia rich?",
+   "options": [
+    "Cotton",
+    "Tobacco",
+    "Rice",
+    "Indigo"
+   ],
+   "answer": 1,
+   "explain": "John Rolfe began growing a sweet tobacco around 1612, and it became Virginia's main export to England."
+  },
+  {
+   "id": "ea-0022",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "On what ship did the Pilgrims sail to America in 1620?",
+   "options": [
+    "The Santa Maria",
+    "The Half Moon",
+    "The Susan Constant",
+    "The Mayflower"
+   ],
+   "answer": 3,
+   "explain": "The Mayflower carried about 100 Pilgrims and other passengers across the Atlantic in 1620."
+  },
+  {
+   "id": "ea-0023",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Which colony did the Pilgrims found in 1620?",
+   "options": [
+    "Plymouth",
+    "Jamestown",
+    "Massachusetts Bay",
+    "Rhode Island"
+   ],
+   "answer": 0,
+   "explain": "The Pilgrims founded Plymouth Colony in present-day Massachusetts in late 1620."
+  },
+  {
+   "id": "ea-0024",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Plymouth, the colony the Pilgrims founded, is in which present-day state?",
+   "options": [
+    "Virginia",
+    "New York",
+    "Massachusetts",
+    "Maine"
+   ],
+   "answer": 2,
+   "explain": "Plymouth Colony was on Cape Cod Bay; it was merged into Massachusetts in 1691."
+  },
+  {
+   "id": "ea-0025",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Before leaving their ship in 1620, the Pilgrims signed an agreement to govern themselves. What is it called?",
+   "options": [
+    "The Articles of Confederation",
+    "The Magna Carta",
+    "The Fundamental Orders",
+    "The Mayflower Compact"
+   ],
+   "answer": 3,
+   "explain": "The Mayflower Compact, signed in November 1620, was an early example of self-government in the colonies."
+  },
+  {
+   "id": "ea-0026",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which Patuxet man, who spoke English, helped the Pilgrims learn to plant corn?",
+   "options": [
+    "Metacom",
+    "Squanto",
+    "Pocahontas",
+    "Tecumseh"
+   ],
+   "answer": 1,
+   "explain": "Squanto (Tisquantum) had been kidnapped to Europe and learned English, and he helped Plymouth survive in 1621."
+  },
+  {
+   "id": "ea-0027",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Pilgrims and the Wampanoag shared a harvest feast in 1621. That event is remembered today as the first what?",
+   "options": [
+    "Independence Day",
+    "Christmas",
+    "Thanksgiving",
+    "Memorial Day"
+   ],
+   "answer": 2,
+   "explain": "The 1621 harvest feast at Plymouth is remembered as the first Thanksgiving, which became a national holiday in 1863."
+  },
+  {
+   "id": "ea-0028",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "The Pilgrims were Separatists who broke away from which church?",
+   "options": [
+    "The Church of England",
+    "The Catholic Church",
+    "The Lutheran Church",
+    "The Methodist Church"
+   ],
+   "answer": 0,
+   "explain": "The Pilgrims thought the Church of England could not be reformed, so they separated from it and later left England."
+  },
+  {
+   "id": "ea-0029",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which religious group founded the Massachusetts Bay Colony around Boston in 1630?",
+   "options": [
+    "The Puritans",
+    "The Quakers",
+    "The Catholics",
+    "The Mormons"
+   ],
+   "answer": 0,
+   "explain": "Puritans led by John Winthrop founded Massachusetts Bay in 1630, hoping to build a model Christian community."
+  },
+  {
+   "id": "ea-0030",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Puritan leader John Winthrop said the new colony would be like a 'city upon a' what, watched by all?",
+   "options": [
+    "River",
+    "Rock",
+    "Hill",
+    "Mountain"
+   ],
+   "answer": 2,
+   "explain": "Winthrop's 1630 sermon said the colony would be 'as a city upon a hill,' a phrase later presidents quoted."
+  },
+  {
+   "id": "ea-0031",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which religious group, led by William Penn, founded Pennsylvania?",
+   "options": [
+    "The Puritans",
+    "The Quakers",
+    "The Catholics",
+    "The Baptists"
+   ],
+   "answer": 1,
+   "explain": "William Penn, a Quaker, founded Pennsylvania in 1681 as a colony offering religious freedom."
+  },
+  {
+   "id": "ea-0032",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Pennsylvania city, founded by William Penn, has a name meaning 'city of brotherly love'?",
+   "options": [
+    "Pittsburgh",
+    "Harrisburg",
+    "Lancaster",
+    "Philadelphia"
+   ],
+   "answer": 3,
+   "explain": "Penn chose a Greek name for Philadelphia: philos means love and adelphos means brother."
+  },
+  {
+   "id": "ea-0033",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Lord Baltimore founded Maryland in 1634 as a safe home for which religious group?",
+   "options": [
+    "Quakers",
+    "Puritans",
+    "Catholics",
+    "Baptists"
+   ],
+   "answer": 2,
+   "explain": "Maryland was founded as a refuge for English Catholics, and its 1649 Toleration Act protected Christians of many kinds."
+  },
+  {
+   "id": "ea-0034",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Who founded Rhode Island after being banished from Massachusetts for his religious views?",
+   "options": [
+    "Roger Williams",
+    "John Winthrop",
+    "William Penn",
+    "John Smith"
+   ],
+   "answer": 0,
+   "explain": "Roger Williams founded Providence in 1636, and Rhode Island became known for religious freedom."
+  },
+  {
+   "id": "ea-0035",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Before the English took over in 1664, New York City was a Dutch town called what?",
+   "options": [
+    "New Haven",
+    "New Orleans",
+    "New Bern",
+    "New Amsterdam"
+   ],
+   "answer": 3,
+   "explain": "The Dutch founded New Amsterdam on Manhattan Island; the English renamed it New York in 1664."
+  },
+  {
+   "id": "ea-0036",
+   "period": 2,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which was the last of the original 13 colonies to be founded, chartered in 1732?",
+   "options": [
+    "Pennsylvania",
+    "Georgia",
+    "Delaware",
+    "Maryland"
+   ],
+   "answer": 1,
+   "explain": "Georgia was chartered in 1732 and first settled at Savannah in 1733 under James Oglethorpe, as a buffer against Spanish Florida."
+  },
+  {
+   "id": "ea-0037",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "peopling"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "How many British colonies joined together to declare independence in 1776?",
+   "options": [
+    "10",
+    "13",
+    "12",
+    "15"
+   ],
+   "answer": 1,
+   "explain": "The 13 colonies stretched along the Atlantic coast from New Hampshire to Georgia."
+  },
+  {
+   "id": "ea-0038",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "supreme-court",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "In 1692, a series of famous witch trials took place in which Massachusetts town?",
+   "options": [
+    "Boston",
+    "Plymouth",
+    "Concord",
+    "Salem"
+   ],
+   "answer": 3,
+   "explain": "The Salem witch trials of 1692 led to the execution of 20 people accused of witchcraft."
+  },
+  {
+   "id": "ea-0039",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Meeting in 1619, what was the first elected lawmaking assembly in the English colonies?",
+   "options": [
+    "Virginia's House of Burgesses",
+    "The Continental Congress",
+    "The Massachusetts General Court",
+    "The New York Assembly"
+   ],
+   "answer": 0,
+   "explain": "Virginia's House of Burgesses first met at Jamestown in 1619, the start of representative government in English America."
+  },
+  {
+   "id": "ea-0040",
+   "period": 2,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1619, the first recorded Africans in English mainland North America arrived in which colony?",
+   "options": [
+    "Massachusetts",
+    "New York",
+    "Virginia",
+    "Georgia"
+   ],
+   "answer": 2,
+   "explain": "In 1619, about 20 Africans were brought to Point Comfort in Virginia, the first recorded in English mainland North America."
+  },
+  {
+   "id": "ea-0041",
+   "period": 2,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which English captain led Jamestown in 1608 and ruled that colonists who did not work would not eat?",
+   "options": [
+    "John Rolfe",
+    "Miles Standish",
+    "Walter Raleigh",
+    "John Smith"
+   ],
+   "answer": 3,
+   "explain": "Captain John Smith's strict leadership helped Jamestown survive its early years."
+  },
+  {
+   "id": "ea-0042",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of the popular yearly almanac Benjamin Franklin published starting in 1732?",
+   "options": [
+    "The Farmers' Almanac",
+    "Poor Richard's Almanack",
+    "The Federalist",
+    "The Pennsylvania Gazette Annual"
+   ],
+   "answer": 1,
+   "explain": "Poor Richard's Almanack was full of sayings like 'Early to bed and early to rise makes a man healthy, wealthy, and wise.'"
+  },
+  {
+   "id": "ea-0043",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Benjamin Franklin is famous for flying what during a thunderstorm to show that lightning is electricity?",
+   "options": [
+    "A balloon",
+    "A flag",
+    "A kite",
+    "A lantern"
+   ],
+   "answer": 2,
+   "explain": "Franklin's 1752 kite experiment helped show lightning is electrical; he also invented the lightning rod."
+  },
+  {
+   "id": "ea-0044",
+   "period": 2,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Benjamin Franklin's 1754 'Join, or Die' cartoon showed which animal cut into pieces?",
+   "options": [
+    "A snake",
+    "An eagle",
+    "A bear",
+    "A turkey"
+   ],
+   "answer": 0,
+   "explain": "The cartoon showed a snake cut into pieces labeled with colony names to urge the colonies to unite."
+  },
+  {
+   "id": "ea-0045",
+   "period": 2,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "What is the name of the wave of religious revival that swept the colonies in the 1730s and 1740s?",
+   "options": [
+    "The Great Awakening",
+    "The Enlightenment",
+    "The Reformation",
+    "The Renaissance"
+   ],
+   "answer": 0,
+   "explain": "Preachers like Jonathan Edwards and George Whitefield led the Great Awakening, drawing huge crowds."
+  },
+  {
+   "id": "ea-0046",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the southern colonies, large farms that relied on enslaved labor were called what?",
+   "options": [
+    "Ranches",
+    "Missions",
+    "Plantations",
+    "Townships"
+   ],
+   "answer": 2,
+   "explain": "Southern plantations grew crops such as tobacco, rice and indigo using the labor of enslaved Africans."
+  },
+  {
+   "id": "ea-0047",
+   "period": 2,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "With thick forests and good harbors, many New England colonists worked in fishing and which industry?",
+   "options": [
+    "Cotton growing",
+    "Shipbuilding",
+    "Gold mining",
+    "Rice farming"
+   ],
+   "answer": 1,
+   "explain": "New England's forests supplied timber for ships, and its ports became centers of fishing, trade and shipbuilding."
+  },
+  {
+   "id": "ea-0048",
+   "period": 2,
+   "themes": [
+    "culture-ideas",
+    "peopling"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Spanish religious settlements in Texas and California, such as the Alamo, were called what?",
+   "options": [
+    "Plantations",
+    "Townships",
+    "Colleges",
+    "Missions"
+   ],
+   "answer": 3,
+   "explain": "Spanish missions were run by priests who tried to convert Native peoples to Catholicism."
+  },
+  {
+   "id": "ea-0049",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The French and Indian War, which began in 1754, was fought mainly between Britain and which country?",
+   "options": [
+    "Spain",
+    "The Netherlands",
+    "France",
+    "Russia"
+   ],
+   "answer": 2,
+   "explain": "Britain and France fought for control of North America, with Native allies on both sides."
+  },
+  {
+   "id": "ea-0050",
+   "period": 3,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Which young Virginia officer fought in the first clashes of the French and Indian War in 1754?",
+   "options": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Patrick Henry",
+    "Benjamin Franklin"
+   ],
+   "answer": 0,
+   "explain": "Washington, then 22, led Virginia troops in the Ohio Valley, where the war began."
+  },
+  {
+   "id": "ea-0051",
+   "period": 3,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "pentagon",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "What did Britain gain when the French and Indian War ended in 1763?",
+   "options": [
+    "Florida and all of Mexico",
+    "Louisiana and the city of New Orleans",
+    "The Caribbean islands of Haiti and Cuba",
+    "Canada and French land east of the Mississippi"
+   ],
+   "answer": 3,
+   "explain": "The 1763 Treaty of Paris gave Britain Canada and French land east of the Mississippi; Spain gave Britain Florida but kept Cuba."
+  },
+  {
+   "id": "ea-0052",
+   "period": 3,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Proclamation of 1763 banned colonists from settling west of which mountain range?",
+   "options": [
+    "The Rocky Mountains",
+    "The Appalachian Mountains",
+    "The Sierra Nevada",
+    "The Ozark Mountains"
+   ],
+   "answer": 1,
+   "explain": "Britain drew the Proclamation Line along the Appalachians to reduce conflict with Native nations, angering colonists."
+  },
+  {
+   "id": "ea-0053",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "The Stamp Act of 1765 placed a tax on what?",
+   "options": [
+    "Tea shipped from India",
+    "Printed paper, such as newspapers",
+    "Sugar and molasses",
+    "Glass, lead and paint"
+   ],
+   "answer": 1,
+   "explain": "The Stamp Act taxed printed paper like newspapers, legal papers and playing cards, and colonists protested it fiercely."
+  },
+  {
+   "id": "ea-0054",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "What did colonists mean when they protested 'no taxation without representation'?",
+   "options": [
+    "They wanted lower taxes on cotton",
+    "They refused to pay any taxes ever",
+    "They wanted the king to be elected",
+    "They had no members in Parliament"
+   ],
+   "answer": 3,
+   "explain": "Colonists argued that only their own elected assemblies could tax them, since they had no members in Parliament."
+  },
+  {
+   "id": "ea-0055",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the 1770 Boston Massacre, British soldiers fired into what?",
+   "options": [
+    "A crowd of colonists",
+    "A militia training camp",
+    "A ship in the harbor",
+    "A church service"
+   ],
+   "answer": 0,
+   "explain": "On March 5, 1770, soldiers fired into a crowd in Boston, killing five colonists."
+  },
+  {
+   "id": "ea-0056",
+   "period": 3,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which sailor of African and Native American descent was killed in the Boston Massacre?",
+   "options": [
+    "Peter Salem",
+    "Prince Hall",
+    "Crispus Attucks",
+    "Salem Poor"
+   ],
+   "answer": 2,
+   "explain": "Crispus Attucks is often called the first person killed in the American Revolution."
+  },
+  {
+   "id": "ea-0057",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In December 1773, protesters dumped chests of tea into the harbor of which city?",
+   "options": [
+    "New York",
+    "Charleston",
+    "Baltimore",
+    "Boston"
+   ],
+   "answer": 3,
+   "explain": "In the Boston Tea Party, colonists threw 342 chests of British East India Company tea into Boston Harbor."
+  },
+  {
+   "id": "ea-0058",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During the Boston Tea Party, many of the protesters disguised themselves as whom?",
+   "options": [
+    "British soldiers",
+    "Mohawk Indians",
+    "Women shoppers",
+    "French sailors"
+   ],
+   "answer": 1,
+   "explain": "Many Boston Tea Party participants dressed loosely as Mohawk Indians to hide who they were."
+  },
+  {
+   "id": "ea-0059",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "What were the Intolerable Acts of 1774?",
+   "options": [
+    "Laws ending the slave trade",
+    "Laws taxing whiskey",
+    "Laws punishing Massachusetts",
+    "Laws creating the Continental Army"
+   ],
+   "answer": 2,
+   "explain": "After the Boston Tea Party, Parliament closed Boston's port and cut back self-rule in Massachusetts; colonists called these laws intolerable."
+  },
+  {
+   "id": "ea-0060",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Boston patriot helped lead the Sons of Liberty against British taxes?",
+   "options": [
+    "Samuel Adams",
+    "John Jay",
+    "Alexander Hamilton",
+    "James Madison"
+   ],
+   "answer": 0,
+   "explain": "Samuel Adams organized protests in Boston and helped plan the Boston Tea Party."
+  },
+  {
+   "id": "ea-0061",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "On his famous 1775 ride, Paul Revere warned colonists that whose troops were coming?",
+   "options": [
+    "British troops",
+    "French troops",
+    "Spanish troops",
+    "Hessian troops"
+   ],
+   "answer": 0,
+   "explain": "On April 18, 1775, Paul Revere rode to warn that British regulars were marching toward Lexington and Concord."
+  },
+  {
+   "id": "ea-0062",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The signal 'one if by land, two if by sea' was shown with lanterns in which Boston church?",
+   "options": [
+    "Trinity Church",
+    "King's Chapel",
+    "Old North Church",
+    "Old South Church"
+   ],
+   "answer": 2,
+   "explain": "Two lanterns hung in the steeple of the Old North Church signaled the British were crossing by water."
+  },
+  {
+   "id": "ea-0063",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What was Paul Revere's trade?",
+   "options": [
+    "Blacksmith",
+    "Silversmith",
+    "Printer",
+    "Shoemaker"
+   ],
+   "answer": 1,
+   "explain": "Paul Revere was a Boston silversmith and engraver who also made a famous print of the Boston Massacre."
+  },
+  {
+   "id": "ea-0064",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Where were the first battles of the American Revolution fought in April 1775?",
+   "options": [
+    "Saratoga and Trenton",
+    "Yorktown and Camden",
+    "Brandywine and Germantown",
+    "Lexington and Concord"
+   ],
+   "answer": 3,
+   "explain": "Fighting at Lexington and Concord, Massachusetts, on April 19, 1775, began the Revolutionary War."
+  },
+  {
+   "id": "ea-0065",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What were colonial militiamen who could be ready to fight on very short notice called?",
+   "options": [
+    "Redcoats",
+    "Hessians",
+    "Minutemen",
+    "Rangers"
+   ],
+   "answer": 2,
+   "explain": "Minutemen were trained to be ready at a minute's warning, and they fought at Lexington and Concord."
+  },
+  {
+   "id": "ea-0066",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "British soldiers in the Revolution were often called what, because of their uniforms?",
+   "options": [
+    "Redcoats",
+    "Bluecoats",
+    "Greenjackets",
+    "Blackhats"
+   ],
+   "answer": 0,
+   "explain": "British soldiers wore bright red wool coats, so Americans called them redcoats."
+  },
+  {
+   "id": "ea-0067",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "What name was given to the German soldiers Britain hired to fight in the Revolution?",
+   "options": [
+    "Redcoats",
+    "Minutemen",
+    "Loyalists",
+    "Hessians"
+   ],
+   "answer": 3,
+   "explain": "Many of the German soldiers came from Hesse-Kassel, so Americans called them all Hessians."
+  },
+  {
+   "id": "ea-0068",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The 1775 Battle of Bunker Hill was fought just outside which city?",
+   "options": [
+    "New York",
+    "Boston",
+    "Philadelphia",
+    "Charleston, South Carolina"
+   ],
+   "answer": 1,
+   "explain": "The Battle of Bunker Hill, fought mostly on nearby Breed's Hill in June 1775, was part of the siege of Boston."
+  },
+  {
+   "id": "ea-0069",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Who did the Continental Congress choose to command the Continental Army in 1775?",
+   "options": [
+    "Benedict Arnold",
+    "George Washington",
+    "Nathanael Greene",
+    "Horatio Gates"
+   ],
+   "answer": 1,
+   "explain": "Congress named George Washington commander in chief in June 1775, and he led the army for the whole war."
+  },
+  {
+   "id": "ea-0070",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which 1776 pamphlet by Thomas Paine persuaded many colonists to support independence?",
+   "options": [
+    "The Federalist Papers",
+    "Poor Richard's Almanack",
+    "Letters from a Farmer",
+    "Common Sense"
+   ],
+   "answer": 3,
+   "explain": "Common Sense was one of the best-selling pamphlets of its time, read and shared across the colonies, and it argued plainly for independence."
+  },
+  {
+   "id": "ea-0071",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Who was the main author of the Declaration of Independence?",
+   "options": [
+    "Thomas Jefferson",
+    "John Adams",
+    "Benjamin Franklin",
+    "James Madison"
+   ],
+   "answer": 0,
+   "explain": "Thomas Jefferson wrote the first draft in June 1776; Adams, Franklin and Congress made changes."
+  },
+  {
+   "id": "ea-0072",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "On what date did the Continental Congress adopt the Declaration of Independence?",
+   "options": [
+    "July 4, 1787",
+    "September 17, 1787",
+    "July 4, 1776",
+    "April 19, 1775"
+   ],
+   "answer": 2,
+   "explain": "Congress voted for independence on July 2, 1776, and adopted the Declaration's final wording on July 4."
+  },
+  {
+   "id": "ea-0073",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The words 'all men are created equal' come from which founding document?",
+   "options": [
+    "The Constitution",
+    "The Bill of Rights",
+    "The Articles of Confederation",
+    "The Declaration of Independence"
+   ],
+   "answer": 3,
+   "explain": "The Declaration's second paragraph states that all men are created equal and have rights that cannot be taken away."
+  },
+  {
+   "id": "ea-0074",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The Declaration of Independence lists rights to 'Life, Liberty and the pursuit of' what?",
+   "options": [
+    "Property",
+    "Happiness",
+    "Justice",
+    "Prosperity"
+   ],
+   "answer": 1,
+   "explain": "Jefferson wrote that people have unalienable rights to 'Life, Liberty and the pursuit of Happiness.'"
+  },
+  {
+   "id": "ea-0075",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which delegate signed the Declaration of Independence with the largest, best-known signature?",
+   "options": [
+    "Samuel Adams",
+    "Benjamin Franklin",
+    "John Hancock",
+    "Thomas Jefferson"
+   ],
+   "answer": 2,
+   "explain": "John Hancock, president of Congress, signed first and large; 'John Hancock' now means a signature."
+  },
+  {
+   "id": "ea-0076",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Declaration of Independence listed complaints against which British king?",
+   "options": [
+    "George III",
+    "George II",
+    "Henry VIII",
+    "William III"
+   ],
+   "answer": 0,
+   "explain": "King George III ruled Britain throughout the American Revolution."
+  },
+  {
+   "id": "ea-0077",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In which Philadelphia building were the Declaration of Independence and the Constitution signed?",
+   "options": [
+    "Independence Hall",
+    "Faneuil Hall",
+    "Federal Hall",
+    "Carpenters' Hall"
+   ],
+   "answer": 0,
+   "explain": "Independence Hall, then the Pennsylvania State House, hosted the Second Continental Congress and the 1787 Convention."
+  },
+  {
+   "id": "ea-0078",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Liberty Bell is famous for which flaw?",
+   "options": [
+    "A missing clapper",
+    "A dented rim",
+    "A large crack",
+    "A hole in its top"
+   ],
+   "answer": 2,
+   "explain": "The bell cracked, was recast, and later developed the famous crack that left it unable to ring."
+  },
+  {
+   "id": "ea-0079",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "According to a popular legend, who sewed the first American flag?",
+   "options": [
+    "Martha Washington",
+    "Betsy Ross",
+    "Abigail Adams",
+    "Dolley Madison"
+   ],
+   "answer": 1,
+   "explain": "Betsy Ross was a Philadelphia upholsterer; historians have found no proof for the story, but the legend is widely known."
+  },
+  {
+   "id": "ea-0080",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "The first official U.S. flag, adopted in 1777, had how many stars?",
+   "options": [
+    "10",
+    "15",
+    "50",
+    "13"
+   ],
+   "answer": 3,
+   "explain": "The Flag Act of 1777 called for 13 stripes and 13 stars, one for each state."
+  },
+  {
+   "id": "ea-0081",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "On Christmas night 1776, George Washington crossed which river to make a surprise attack on Trenton?",
+   "options": [
+    "The Potomac River",
+    "The Hudson River",
+    "The Delaware River",
+    "The Ohio River"
+   ],
+   "answer": 2,
+   "explain": "Washington crossed the icy Delaware River and defeated Hessian troops at Trenton, New Jersey, on December 26, 1776."
+  },
+  {
+   "id": "ea-0082",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which 1777 battle is called the turning point of the Revolution because it convinced France to join the war?",
+   "options": [
+    "Saratoga",
+    "Bunker Hill",
+    "Trenton",
+    "Long Island"
+   ],
+   "answer": 0,
+   "explain": "The American victory at Saratoga, New York, led France to sign an alliance with the United States in 1778."
+  },
+  {
+   "id": "ea-0083",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Where did Washington's army spend the harsh winter of 1777-1778?",
+   "options": [
+    "Yorktown",
+    "Saratoga",
+    "Lexington",
+    "Valley Forge"
+   ],
+   "answer": 3,
+   "explain": "About 2,000 soldiers died of disease at Valley Forge, Pennsylvania, but the army came out better trained."
+  },
+  {
+   "id": "ea-0084",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "In 1781, the British army under Lord Cornwallis surrendered at which battle?",
+   "options": [
+    "Saratoga",
+    "Yorktown",
+    "Bunker Hill",
+    "Trenton"
+   ],
+   "answer": 1,
+   "explain": "American and French forces trapped Cornwallis at Yorktown, Virginia, and his surrender in 1781 ended major fighting."
+  },
+  {
+   "id": "ea-0085",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which country was America's most important ally in the Revolutionary War?",
+   "options": [
+    "Spain",
+    "France",
+    "The Netherlands",
+    "Russia"
+   ],
+   "answer": 1,
+   "explain": "France sent money, troops and a navy, and its fleet helped trap the British at Yorktown."
+  },
+  {
+   "id": "ea-0086",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which young French nobleman became a major general and a close friend of George Washington?",
+   "options": [
+    "Baron von Steuben",
+    "Tadeusz Kosciuszko",
+    "Casimir Pulaski",
+    "The Marquis de Lafayette"
+   ],
+   "answer": 3,
+   "explain": "Lafayette joined the Continental Army at 19, served at Yorktown and remained a hero to Americans."
+  },
+  {
+   "id": "ea-0087",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which American general became a traitor after plotting to hand West Point to the British?",
+   "options": [
+    "Benedict Arnold",
+    "Horatio Gates",
+    "Nathanael Greene",
+    "Ethan Allen"
+   ],
+   "answer": 0,
+   "explain": "Benedict Arnold's plot was uncovered in 1780, and he fled to the British side."
+  },
+  {
+   "id": "ea-0088",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Virginian declared in 1775, 'Give me liberty, or give me death!'?",
+   "options": [
+    "Samuel Adams",
+    "Nathan Hale",
+    "Patrick Henry",
+    "Thomas Paine"
+   ],
+   "answer": 2,
+   "explain": "Patrick Henry gave the famous speech to the Virginia Convention in March 1775."
+  },
+  {
+   "id": "ea-0089",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "pentagon",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which American spy is remembered for saying he regretted having only one life to lose for his country?",
+   "options": [
+    "Patrick Henry",
+    "John Paul Jones",
+    "Paul Revere",
+    "Nathan Hale"
+   ],
+   "answer": 3,
+   "explain": "Nathan Hale was hanged by the British in 1776 and is reported to have said those famous last words."
+  },
+  {
+   "id": "ea-0090",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which American naval hero is remembered for reportedly replying 'I have not yet begun to fight'?",
+   "options": [
+    "Nathan Hale",
+    "John Paul Jones",
+    "Benedict Arnold",
+    "Ethan Allen"
+   ],
+   "answer": 1,
+   "explain": "John Paul Jones captured the British warship Serapis in 1779 after refusing to surrender."
+  },
+  {
+   "id": "ea-0091",
+   "period": 3,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Who wrote to her husband in 1776 asking Congress to 'remember the ladies'?",
+   "options": [
+    "Martha Washington",
+    "Dolley Madison",
+    "Abigail Adams",
+    "Mercy Otis Warren"
+   ],
+   "answer": 2,
+   "explain": "Abigail Adams wrote to John Adams in March 1776, urging that the new laws protect women."
+  },
+  {
+   "id": "ea-0092",
+   "period": 3,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "During the Revolution, Benjamin Franklin served as America's diplomat in which country?",
+   "options": [
+    "France",
+    "Spain",
+    "Britain",
+    "The Netherlands"
+   ],
+   "answer": 0,
+   "explain": "Franklin lived in Paris from 1776 to 1785 and helped win the French alliance."
+  },
+  {
+   "id": "ea-0093",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Phillis Wheatley, enslaved in Boston, became famous in the 1770s as what?",
+   "options": [
+    "A poet",
+    "A painter",
+    "A printer",
+    "A preacher"
+   ],
+   "answer": 0,
+   "explain": "Phillis Wheatley published a book of poems in 1773, the first by an African American woman."
+  },
+  {
+   "id": "ea-0094",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "What was the first written plan of government for the United States?",
+   "options": [
+    "The Constitution",
+    "The Bill of Rights",
+    "The Articles of Confederation",
+    "The Mayflower Compact"
+   ],
+   "answer": 2,
+   "explain": "The Articles of Confederation, drafted in 1777 and ratified in 1781, created a weak national government."
+  },
+  {
+   "id": "ea-0095",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Under the Articles of Confederation, Congress could NOT do what?",
+   "options": [
+    "Declare war",
+    "Collect taxes",
+    "Make treaties",
+    "Send ambassadors"
+   ],
+   "answer": 1,
+   "explain": "Congress under the Articles could only ask the states for money, which left it short of funds."
+  },
+  {
+   "id": "ea-0096",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In what year was the U.S. Constitution signed?",
+   "options": [
+    "1776",
+    "1781",
+    "1791",
+    "1787"
+   ],
+   "answer": 3,
+   "explain": "Delegates signed the Constitution in Philadelphia on September 17, 1787."
+  },
+  {
+   "id": "ea-0097",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Virginian is called the 'Father of the Constitution'?",
+   "options": [
+    "Thomas Jefferson",
+    "Patrick Henry",
+    "James Madison",
+    "George Mason"
+   ],
+   "answer": 2,
+   "explain": "James Madison drafted the Virginia Plan and took detailed notes at the Convention."
+  },
+  {
+   "id": "ea-0098",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "What is the Bill of Rights?",
+   "options": [
+    "The first ten amendments to the Constitution",
+    "The opening section of the Declaration",
+    "The first article of the Constitution",
+    "The peace treaty that ended the Revolution"
+   ],
+   "answer": 0,
+   "explain": "The Bill of Rights, ratified in 1791, protects freedoms such as speech, religion and trial by jury."
+  },
+  {
+   "id": "ea-0099",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "The Constitution divides the government into legislative, executive and which third branch?",
+   "options": [
+    "Military",
+    "Diplomatic",
+    "Electoral",
+    "Judicial"
+   ],
+   "answer": 3,
+   "explain": "Congress makes laws, the president carries them out, and the courts, the judicial branch, interpret them."
+  },
+  {
+   "id": "ea-0100",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "What is the system in which each branch of government can limit the power of the others called?",
+   "options": [
+    "Popular sovereignty",
+    "Checks and balances",
+    "Manifest destiny",
+    "States' rights"
+   ],
+   "answer": 1,
+   "explain": "For example, the president can veto bills and Congress can override a veto with a two-thirds vote."
+  },
+  {
+   "id": "ea-0101",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "The Preamble of the Constitution begins with which three words?",
+   "options": [
+    "When in the Course",
+    "We the People",
+    "Four score and",
+    "We hold these"
+   ],
+   "answer": 1,
+   "explain": "The Preamble opens 'We the People of the United States,' showing that power comes from the people."
+  },
+  {
+   "id": "ea-0102",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "The Great Compromise of 1787 created a Congress made up of what?",
+   "options": [
+    "One house",
+    "Three houses",
+    "Four houses",
+    "Two houses"
+   ],
+   "answer": 3,
+   "explain": "The Senate gives each state two votes, while the House gives seats by population."
+  },
+  {
+   "id": "ea-0103",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "What decides how many seats each state has in the House of Representatives?",
+   "options": [
+    "Population",
+    "Land area",
+    "Wealth",
+    "Age of statehood"
+   ],
+   "answer": 0,
+   "explain": "House seats are shared out by population and recounted after each ten-year census."
+  },
+  {
+   "id": "ea-0104",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "How many years long is a president's term under the Constitution?",
+   "options": [
+    "Two",
+    "Six",
+    "Four",
+    "Eight"
+   ],
+   "answer": 2,
+   "explain": "Article II sets a four-year term for the president."
+  },
+  {
+   "id": "ea-0105",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "library-of-congress",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which essays by Hamilton, Madison and Jay urged New Yorkers to ratify the Constitution?",
+   "options": [
+    "Common Sense",
+    "The Anti-Federalist Papers",
+    "Poor Richard's Almanack",
+    "The Federalist Papers"
+   ],
+   "answer": 3,
+   "explain": "The 85 Federalist essays were published in 1787 and 1788 under the pen name Publius."
+  },
+  {
+   "id": "ea-0106",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Who were the Anti-Federalists?",
+   "options": [
+    "Supporters of the British king",
+    "Opponents of the new Constitution",
+    "Opponents of independence",
+    "Founders of the Democratic Party"
+   ],
+   "answer": 1,
+   "explain": "Anti-Federalists feared a strong central government, and their demands helped produce the Bill of Rights."
+  },
+  {
+   "id": "ea-0107",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Delaware is nicknamed 'The First State' because it was the first to do what?",
+   "options": [
+    "Declare independence",
+    "Abolish slavery",
+    "Ratify the Constitution",
+    "Join the Union after the Civil War"
+   ],
+   "answer": 2,
+   "explain": "Delaware ratified the Constitution on December 7, 1787, before any other state."
+  },
+  {
+   "id": "ea-0108",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Who was the first president of the United States?",
+   "options": [
+    "George Washington",
+    "John Adams",
+    "Thomas Jefferson",
+    "Benjamin Franklin"
+   ],
+   "answer": 0,
+   "explain": "George Washington served two terms as president, from 1789 to 1797."
+  },
+  {
+   "id": "ea-0109",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "Who was the first vice president of the United States?",
+   "options": [
+    "John Adams",
+    "Thomas Jefferson",
+    "Alexander Hamilton",
+    "Aaron Burr"
+   ],
+   "answer": 0,
+   "explain": "John Adams served as vice president under Washington from 1789 to 1797, then became president."
+  },
+  {
+   "id": "ea-0110",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "washington-monument",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "George Washington was first sworn in as president in 1789 in which city?",
+   "options": [
+    "Philadelphia",
+    "Washington, D.C.",
+    "New York City",
+    "Boston"
+   ],
+   "answer": 2,
+   "explain": "Washington took the oath on the balcony of Federal Hall in New York City on April 30, 1789."
+  },
+  {
+   "id": "ea-0111",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Which founder is often called the 'Father of His Country'?",
+   "options": [
+    "Benjamin Franklin",
+    "George Washington",
+    "John Adams",
+    "Thomas Jefferson"
+   ],
+   "answer": 1,
+   "explain": "Washington led the army to victory, presided over the Constitutional Convention and became the first president."
+  },
+  {
+   "id": "ea-0112",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Who was the first Secretary of the Treasury?",
+   "options": [
+    "Thomas Jefferson",
+    "Albert Gallatin",
+    "John Jay",
+    "Alexander Hamilton"
+   ],
+   "answer": 3,
+   "explain": "Alexander Hamilton set up the nation's finances and created the first Bank of the United States."
+  },
+  {
+   "id": "ea-0113",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "What job did Thomas Jefferson hold in George Washington's first cabinet?",
+   "options": [
+    "Secretary of the Treasury",
+    "Secretary of War",
+    "Secretary of State",
+    "Attorney General"
+   ],
+   "answer": 2,
+   "explain": "Jefferson was the first Secretary of State, from 1790 to 1793."
+  },
+  {
+   "id": "ea-0114",
+   "period": 3,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "washington-monument",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of George Washington's plantation home in Virginia?",
+   "options": [
+    "Mount Vernon",
+    "Monticello",
+    "Montpelier",
+    "The Hermitage"
+   ],
+   "answer": 0,
+   "explain": "Mount Vernon, on the Potomac River, was Washington's home; he is buried there."
+  },
+  {
+   "id": "ea-0115",
+   "period": 3,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of Thomas Jefferson's home in Virginia?",
+   "options": [
+    "Mount Vernon",
+    "Montpelier",
+    "Ashland",
+    "Monticello"
+   ],
+   "answer": 3,
+   "explain": "Jefferson designed Monticello himself; it appears on the back of the nickel."
+  },
+  {
+   "id": "ea-0116",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of George Washington's wife?",
+   "options": [
+    "Abigail",
+    "Martha",
+    "Dolley",
+    "Mary"
+   ],
+   "answer": 1,
+   "explain": "Martha Washington was the first First Lady, though that title came into use later."
+  },
+  {
+   "id": "ea-0117",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was the second president of the United States?",
+   "options": [
+    "Thomas Jefferson",
+    "John Adams",
+    "James Madison",
+    "James Monroe"
+   ],
+   "answer": 1,
+   "explain": "John Adams, a Federalist from Massachusetts, served one term from 1797 to 1801."
+  },
+  {
+   "id": "ea-0118",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was the first president to live in the White House?",
+   "options": [
+    "George Washington",
+    "Thomas Jefferson",
+    "James Madison",
+    "John Adams"
+   ],
+   "answer": 3,
+   "explain": "John Adams moved into the unfinished President's House in November 1800."
+  },
+  {
+   "id": "ea-0119",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In what year did the federal government move to the new capital city of Washington?",
+   "options": [
+    "1800",
+    "1776",
+    "1789",
+    "1812"
+   ],
+   "answer": 0,
+   "explain": "Congress first met in the new Capitol in November 1800."
+  },
+  {
+   "id": "ea-0120",
+   "period": 3,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In the name Washington, D.C., what do the letters 'D.C.' stand for?",
+   "options": [
+    "Department of Congress",
+    "District of Congress",
+    "District of Columbia",
+    "Dominion of Columbia"
+   ],
+   "answer": 2,
+   "explain": "The capital sits in the District of Columbia, a federal district that is not part of any state."
+  },
+  {
+   "id": "ea-0121",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Whose portrait appears on the one-dollar bill?",
+   "options": [
+    "Abraham Lincoln",
+    "Thomas Jefferson",
+    "Alexander Hamilton",
+    "George Washington"
+   ],
+   "answer": 3,
+   "explain": "George Washington has appeared on the front of the $1 bill since 1869."
+  },
+  {
+   "id": "ea-0122",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Which founder, the first Secretary of the Treasury, appears on the $10 bill?",
+   "options": [
+    "Benjamin Franklin",
+    "Alexander Hamilton",
+    "Andrew Jackson",
+    "Thomas Jefferson"
+   ],
+   "answer": 1,
+   "explain": "Alexander Hamilton has been on the $10 bill since 1929."
+  },
+  {
+   "id": "ea-0123",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which founder's portrait appears on the $100 bill?",
+   "options": [
+    "George Washington",
+    "Alexander Hamilton",
+    "Benjamin Franklin",
+    "John Adams"
+   ],
+   "answer": 2,
+   "explain": "Benjamin Franklin, who was never president, has been on the $100 bill since 1914."
+  },
+  {
+   "id": "ea-0124",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Whose portrait appears on the front of the nickel?",
+   "options": [
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "George Washington",
+    "Benjamin Franklin"
+   ],
+   "answer": 0,
+   "explain": "Thomas Jefferson has been on the nickel since 1938, with Monticello on the back."
+  },
+  {
+   "id": "ea-0125",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Whose portrait appears on the front of the quarter?",
+   "options": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "John Adams"
+   ],
+   "answer": 0,
+   "explain": "George Washington has appeared on the quarter since 1932, the 200th anniversary of his birth."
+  },
+  {
+   "id": "ea-0126",
+   "period": 3,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which machine did Eli Whitney invent in 1793?",
+   "options": [
+    "The steamboat",
+    "The telegraph",
+    "The cotton gin",
+    "The mechanical reaper"
+   ],
+   "answer": 2,
+   "explain": "The cotton gin separated seeds from cotton quickly, which made cotton profitable and spread slavery."
+  },
+  {
+   "id": "ea-0127",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Alexander Hamilton led which of the first two political parties?",
+   "options": [
+    "The Democratic-Republicans",
+    "The Federalists",
+    "The Whigs",
+    "The Democrats"
+   ],
+   "answer": 1,
+   "explain": "Hamilton's Federalists favored a strong national government and close ties with Britain."
+  },
+  {
+   "id": "ea-0128",
+   "period": 3,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Thomas Jefferson and James Madison led which early political party?",
+   "options": [
+    "The Federalists",
+    "The Whigs",
+    "The Know-Nothings",
+    "The Democratic-Republicans"
+   ],
+   "answer": 3,
+   "explain": "Jefferson and Madison's Democratic-Republicans favored farmers, states' rights and a smaller federal government."
+  },
+  {
+   "id": "ea-0129",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "national-archives",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "The motto E Pluribus Unum, on the Great Seal since 1782, means what?",
+   "options": [
+    "In God we trust",
+    "Liberty and justice",
+    "Out of many, one",
+    "Strength in unity"
+   ],
+   "answer": 2,
+   "explain": "E Pluribus Unum is Latin for 'out of many, one,' meaning one nation made from many states."
+  },
+  {
+   "id": "ea-0130",
+   "period": 3,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which bird is at the center of the Great Seal of the United States, adopted in 1782?",
+   "options": [
+    "The bald eagle",
+    "The wild turkey",
+    "The golden eagle",
+    "The red-tailed hawk"
+   ],
+   "answer": 0,
+   "explain": "The bald eagle on the Great Seal holds an olive branch and arrows."
+  },
+  {
+   "id": "ea-0131",
+   "period": 3,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 'Don't Tread on Me' Gadsden flag of the Revolution shows which animal?",
+   "options": [
+    "An eagle",
+    "A bear",
+    "A wolf",
+    "A rattlesnake"
+   ],
+   "answer": 3,
+   "explain": "The yellow Gadsden flag, designed by Christopher Gadsden, shows a coiled rattlesnake."
+  },
+  {
+   "id": "ea-0132",
+   "period": 3,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Frontiersman Daniel Boone is famous for leading settlers through the Cumberland Gap into which future state?",
+   "options": [
+    "Ohio",
+    "Kentucky",
+    "Texas",
+    "Oregon"
+   ],
+   "answer": 1,
+   "explain": "In 1775 Daniel Boone blazed the Wilderness Road through the Cumberland Gap into Kentucky."
+  },
+  {
+   "id": "ea-0133",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was the fourth president of the United States?",
+   "options": [
+    "James Monroe",
+    "James Madison",
+    "John Adams",
+    "Thomas Jefferson"
+   ],
+   "answer": 1,
+   "explain": "James Madison served from 1809 to 1817 and led the nation during the War of 1812."
+  },
+  {
+   "id": "ea-0134",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "About how much did the Louisiana Purchase increase the size of the United States?",
+   "options": [
+    "It added about one-tenth",
+    "It added about one-fourth",
+    "It roughly quadrupled it",
+    "It roughly doubled it"
+   ],
+   "answer": 3,
+   "explain": "The purchase added about 828,000 square miles, roughly doubling the size of the country."
+  },
+  {
+   "id": "ea-0135",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which president made the Louisiana Purchase?",
+   "options": [
+    "Thomas Jefferson",
+    "James Madison",
+    "John Adams",
+    "James Monroe"
+   ],
+   "answer": 0,
+   "explain": "Jefferson approved the deal even though he doubted the Constitution clearly allowed it."
+  },
+  {
+   "id": "ea-0136",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which French leader sold the Louisiana Territory to the United States?",
+   "options": [
+    "Louis XVI",
+    "The Marquis de Lafayette",
+    "Napoleon Bonaparte",
+    "Charles de Gaulle"
+   ],
+   "answer": 2,
+   "explain": "Napoleon needed money for war in Europe and gave up on an empire in North America."
+  },
+  {
+   "id": "ea-0137",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Who led the 1804-1806 expedition to explore the Louisiana Purchase?",
+   "options": [
+    "Daniel Boone and Davy Crockett",
+    "Zebulon Pike and John Fremont",
+    "Kit Carson and Jim Bridger",
+    "Meriwether Lewis and William Clark"
+   ],
+   "answer": 3,
+   "explain": "Jefferson sent Lewis and Clark to map the West and find a route to the Pacific."
+  },
+  {
+   "id": "ea-0138",
+   "period": 4,
+   "themes": [
+    "identity",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which Shoshone woman served as an interpreter for the Lewis and Clark expedition?",
+   "options": [
+    "Pocahontas",
+    "Sacagawea",
+    "Tituba",
+    "La Malinche"
+   ],
+   "answer": 1,
+   "explain": "Sacagawea traveled with the expedition with her infant son and helped it trade with the Shoshone for horses."
+  },
+  {
+   "id": "ea-0139",
+   "period": 4,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "jefferson-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which ocean did Lewis and Clark reach in 1805?",
+   "options": [
+    "The Atlantic Ocean",
+    "The Arctic Ocean",
+    "The Pacific Ocean",
+    "The Indian Ocean"
+   ],
+   "answer": 2,
+   "explain": "The expedition reached the Pacific near the mouth of the Columbia River in November 1805."
+  },
+  {
+   "id": "ea-0140",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Who shot and killed Alexander Hamilton in a duel in 1804?",
+   "options": [
+    "Aaron Burr",
+    "Thomas Jefferson",
+    "John Adams",
+    "James Madison"
+   ],
+   "answer": 0,
+   "explain": "Vice President Aaron Burr shot Hamilton in a duel at Weehawken, New Jersey, in July 1804."
+  },
+  {
+   "id": "ea-0141",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "The 1803 Supreme Court case Marbury v. Madison gave courts what power?",
+   "options": [
+    "To strike down unconstitutional laws",
+    "To declare war on other nations",
+    "To choose the president in a tie",
+    "To collect federal taxes"
+   ],
+   "answer": 0,
+   "explain": "Chief Justice John Marshall's ruling established judicial review, the power to void laws that break the Constitution."
+  },
+  {
+   "id": "ea-0142",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Who was president during the War of 1812?",
+   "options": [
+    "Thomas Jefferson",
+    "James Monroe",
+    "James Madison",
+    "Andrew Jackson"
+   ],
+   "answer": 2,
+   "explain": "Congress declared war on Britain in June 1812 at James Madison's request."
+  },
+  {
+   "id": "ea-0143",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The War of 1812 was fought between the United States and which country?",
+   "options": [
+    "France",
+    "Britain",
+    "Spain",
+    "Mexico"
+   ],
+   "answer": 1,
+   "explain": "Americans fought Britain over the seizing of sailors, trade limits and British support for Native resistance."
+  },
+  {
+   "id": "ea-0144",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In August 1814, British troops burned which buildings in Washington?",
+   "options": [
+    "Mount Vernon and Monticello",
+    "Independence Hall and Faneuil Hall",
+    "Fort McHenry and Fort Sumter",
+    "The White House and the Capitol"
+   ],
+   "answer": 3,
+   "explain": "British troops set fire to the President's House, the Capitol and other public buildings on August 24, 1814."
+  },
+  {
+   "id": "ea-0145",
+   "period": 4,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which First Lady saved a portrait of George Washington before the British burned the White House?",
+   "options": [
+    "Abigail Adams",
+    "Martha Washington",
+    "Dolley Madison",
+    "Elizabeth Monroe"
+   ],
+   "answer": 2,
+   "explain": "Dolley Madison made sure a large portrait of Washington was saved before fleeing the city in 1814."
+  },
+  {
+   "id": "ea-0146",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Who wrote the words to 'The Star-Spangled Banner' in 1814?",
+   "options": [
+    "Francis Scott Key",
+    "John Philip Sousa",
+    "Washington Irving",
+    "Noah Webster"
+   ],
+   "answer": 0,
+   "explain": "Francis Scott Key, a lawyer, wrote the poem after watching the bombardment of a fort in Baltimore."
+  },
+  {
+   "id": "ea-0147",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "The British bombardment that inspired 'The Star-Spangled Banner' was aimed at which fort?",
+   "options": [
+    "Fort Sumter",
+    "Fort Ticonderoga",
+    "Fort Knox",
+    "Fort McHenry"
+   ],
+   "answer": 3,
+   "explain": "When the U.S. flag still flew over Fort McHenry after the 1814 attack, Key was inspired to write his poem."
+  },
+  {
+   "id": "ea-0148",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Fort McHenry, whose 1814 defense inspired the national anthem, guards the harbor of which city?",
+   "options": [
+    "Boston",
+    "Baltimore",
+    "New York",
+    "Philadelphia"
+   ],
+   "answer": 1,
+   "explain": "Fort McHenry held off British ships in Baltimore Harbor in September 1814."
+  },
+  {
+   "id": "ea-0149",
+   "period": 4,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Francis Scott Key's 1814 poem became which song, made the national anthem in 1931?",
+   "options": [
+    "America the Beautiful",
+    "The Star-Spangled Banner",
+    "My Country, 'Tis of Thee",
+    "God Bless America"
+   ],
+   "answer": 1,
+   "explain": "The Star-Spangled Banner, sung to an older tune, became the national anthem by law in 1931; its flag is at the American History Museum."
+  },
+  {
+   "id": "ea-0150",
+   "period": 4,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the War of 1812, the warship USS Constitution earned what nickname?",
+   "options": [
+    "Old Glory",
+    "Old Hickory",
+    "Old Faithful",
+    "Old Ironsides"
+   ],
+   "answer": 3,
+   "explain": "British cannonballs seemed to bounce off its thick oak sides, so sailors called it Old Ironsides."
+  },
+  {
+   "id": "ea-0151",
+   "period": 4,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "What was Andrew Jackson's nickname?",
+   "options": [
+    "Old Hickory",
+    "Old Ironsides",
+    "Rough and Ready",
+    "Honest Abe"
+   ],
+   "answer": 0,
+   "explain": "Jackson's soldiers called him Old Hickory because he was as tough as hickory wood."
+  },
+  {
+   "id": "ea-0152",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The Monroe Doctrine of 1823 warned European nations against what?",
+   "options": [
+    "Trading with the United States",
+    "Moving to American cities",
+    "New colonies in the Americas",
+    "Building navies in Europe"
+   ],
+   "answer": 2,
+   "explain": "President James Monroe declared that the Americas were closed to new European colonization."
+  },
+  {
+   "id": "ea-0153",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "The Erie Canal, opened in 1825, linked New York City by water to what?",
+   "options": [
+    "The Gulf of Mexico",
+    "The Chesapeake Bay",
+    "The Pacific Ocean",
+    "The Great Lakes"
+   ],
+   "answer": 3,
+   "explain": "The canal ran from the Hudson River to Lake Erie and made New York City a trade giant."
+  },
+  {
+   "id": "ea-0154",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "John Quincy Adams, the sixth president, was the son of which earlier president?",
+   "options": [
+    "George Washington",
+    "John Adams",
+    "Thomas Jefferson",
+    "James Madison"
+   ],
+   "answer": 1,
+   "explain": "John Quincy Adams served from 1825 to 1829, the first son of a president to become president."
+  },
+  {
+   "id": "ea-0155",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Andrew Jackson's supporters formed which party, still active today?",
+   "options": [
+    "The Republican Party",
+    "The Whig Party",
+    "The Democratic Party",
+    "The Federalist Party"
+   ],
+   "answer": 2,
+   "explain": "The Democratic Party grew out of Jackson's movement in the 1820s and is the oldest active U.S. party."
+  },
+  {
+   "id": "ea-0156",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Andrew Jackson's practice of giving government jobs to loyal supporters was called what?",
+   "options": [
+    "The spoils system",
+    "The merit system",
+    "The New Deal",
+    "The Square Deal"
+   ],
+   "answer": 0,
+   "explain": "The name came from the saying 'to the victor belong the spoils.'"
+  },
+  {
+   "id": "ea-0157",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Indian Removal Act of 1830 forced Native nations to move to land in which direction?",
+   "options": [
+    "West of the Mississippi River",
+    "North into Canada",
+    "South into Mexico",
+    "East of the Appalachians"
+   ],
+   "answer": 0,
+   "explain": "Andrew Jackson signed the act, which led to the forced removal of the Cherokee, Creek, Choctaw, Chickasaw and Seminole."
+  },
+  {
+   "id": "ea-0158",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The Cherokee were forced to move to Indian Territory, in what is now which state?",
+   "options": [
+    "Kansas",
+    "Texas",
+    "Oklahoma",
+    "Nebraska"
+   ],
+   "answer": 2,
+   "explain": "Indian Territory covered much of present-day Oklahoma, which became a state in 1907."
+  },
+  {
+   "id": "ea-0159",
+   "period": 4,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which Shawnee leader tried to unite Native nations against U.S. expansion and died in battle in 1813?",
+   "options": [
+    "Sitting Bull",
+    "Tecumseh",
+    "Geronimo",
+    "Crazy Horse"
+   ],
+   "answer": 1,
+   "explain": "Tecumseh allied with the British in the War of 1812 and was killed at the Battle of the Thames."
+  },
+  {
+   "id": "ea-0160",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "'Remember the Alamo!' was a battle cry in the fight for whose independence?",
+   "options": [
+    "California",
+    "Florida",
+    "Mexico",
+    "Texas"
+   ],
+   "answer": 3,
+   "explain": "Texans shouted 'Remember the Alamo!' when they won independence from Mexico at San Jacinto in 1836."
+  },
+  {
+   "id": "ea-0161",
+   "period": 4,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which general won Texas independence at San Jacinto and became president of the Republic of Texas?",
+   "options": [
+    "Stephen F. Austin",
+    "Davy Crockett",
+    "Sam Houston",
+    "Jim Bowie"
+   ],
+   "answer": 2,
+   "explain": "Sam Houston defeated Santa Anna in 1836; the city of Houston is named for him."
+  },
+  {
+   "id": "ea-0162",
+   "period": 4,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which frontiersman and former Tennessee congressman died defending the Alamo in 1836?",
+   "options": [
+    "Davy Crockett",
+    "Daniel Boone",
+    "Kit Carson",
+    "Sam Houston"
+   ],
+   "answer": 0,
+   "explain": "Davy Crockett served in Congress before joining the Texan fight and dying at the Alamo."
+  },
+  {
+   "id": "ea-0163",
+   "period": 4,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "What was 'Manifest Destiny' in the 1840s?",
+   "options": [
+    "A plan to free all enslaved people at once",
+    "A treaty dividing Oregon with Britain",
+    "A law creating public schools in each state",
+    "The idea the U.S. should spread across the continent"
+   ],
+   "answer": 3,
+   "explain": "Journalist John O'Sullivan coined the phrase in 1845 to argue for westward expansion."
+  },
+  {
+   "id": "ea-0164",
+   "period": 4,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Pioneers heading west on the Oregon Trail in the 1840s mostly traveled in what?",
+   "options": [
+    "Stagecoaches",
+    "Covered wagons",
+    "Railroad cars",
+    "Steamships"
+   ],
+   "answer": 1,
+   "explain": "Families packed covered wagons pulled by oxen for the roughly 2,000-mile trip to Oregon."
+  },
+  {
+   "id": "ea-0165",
+   "period": 4,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which war added California and much of the Southwest to the United States?",
+   "options": [
+    "The War of 1812",
+    "The Mexican-American War",
+    "The Spanish-American War",
+    "The French and Indian War"
+   ],
+   "answer": 1,
+   "explain": "The 1848 Treaty of Guadalupe Hidalgo ended the Mexican-American War and gave the U.S. California and the Southwest."
+  },
+  {
+   "id": "ea-0166",
+   "period": 4,
+   "themes": [
+    "environment-geography",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1848, the discovery of gold at Sutter's Mill set off a gold rush in what is now which state?",
+   "options": [
+    "Alaska",
+    "Colorado",
+    "Nevada",
+    "California"
+   ],
+   "answer": 3,
+   "explain": "News of gold in California drew about 300,000 fortune seekers by the mid-1850s, with the first big wave, the '49ers, in 1849."
+  },
+  {
+   "id": "ea-0167",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Samuel Morse is famous for developing which invention in the 1830s and 1840s?",
+   "options": [
+    "The telegraph",
+    "The telephone",
+    "The cotton gin",
+    "The steamboat"
+   ],
+   "answer": 0,
+   "explain": "Morse sent the message 'What hath God wrought' from Washington to Baltimore in 1844."
+  },
+  {
+   "id": "ea-0168",
+   "period": 4,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Robert Fulton is famous for building which early success in 1807?",
+   "options": [
+    "A telegraph",
+    "A railroad engine",
+    "A steamboat",
+    "A cotton gin"
+   ],
+   "answer": 2,
+   "explain": "Fulton's steamboat, the Clermont, carried passengers up the Hudson River in 1807."
+  },
+  {
+   "id": "ea-0169",
+   "period": 4,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "After escaping slavery in 1838, Frederick Douglass became famous as what?",
+   "options": [
+    "A Union army general",
+    "A Supreme Court justice",
+    "A riverboat captain",
+    "An abolitionist speaker and writer"
+   ],
+   "answer": 3,
+   "explain": "Douglass published his life story in 1845 and became one of the most powerful voices against slavery."
+  },
+  {
+   "id": "ea-0170",
+   "period": 4,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 1,
+   "q": "What was the secret network that helped enslaved people escape to freedom in the North called?",
+   "options": [
+    "The Trail of Tears",
+    "The Underground Railroad",
+    "The Freedom Train",
+    "The Oregon Trail"
+   ],
+   "answer": 1,
+   "explain": "The Underground Railroad was a network of hidden routes and safe houses run by free Black people and white allies."
+  },
+  {
+   "id": "ea-0171",
+   "period": 4,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What is Nat Turner known for doing in 1831?",
+   "options": [
+    "Founding an abolitionist newspaper",
+    "Winning a Supreme Court case",
+    "Leading a revolt of enslaved people",
+    "Escaping to Canada by sea"
+   ],
+   "answer": 2,
+   "explain": "Nat Turner led a revolt in Southampton County, Virginia, in 1831; Southern states then passed harsher slave laws."
+  }
+ ]
+}

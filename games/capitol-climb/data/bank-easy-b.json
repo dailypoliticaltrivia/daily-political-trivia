@@ -1,0 +1,4303 @@
+{
+ "bank": "easy-b",
+ "questions": [
+  {
+   "id": "eb-0001",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was president of the United States during the Civil War?",
+   "options": [
+    "Andrew Johnson",
+    "James Buchanan",
+    "Ulysses S. Grant",
+    "Abraham Lincoln"
+   ],
+   "answer": 3,
+   "explain": "Abraham Lincoln took office in March 1861, just as Southern states were seceding, and led the Union until his death in April 1865."
+  },
+  {
+   "id": "eb-0002",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Who served as president of the Confederate States of America during the Civil War?",
+   "options": [
+    "Robert E. Lee",
+    "John C. Calhoun",
+    "Jefferson Davis",
+    "Stonewall Jackson"
+   ],
+   "answer": 2,
+   "explain": "Jefferson Davis, a former U.S. senator from Mississippi, led the Confederacy from 1861 until its collapse in 1865."
+  },
+  {
+   "id": "eb-0003",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "america-world"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which general commanded the Confederacy's Army of Northern Virginia?",
+   "options": [
+    "George McClellan",
+    "Robert E. Lee",
+    "William T. Sherman",
+    "George Meade"
+   ],
+   "answer": 1,
+   "explain": "Robert E. Lee led the Army of Northern Virginia from 1862 until he surrendered it at Appomattox in April 1865."
+  },
+  {
+   "id": "eb-0004",
+   "period": 5,
+   "themes": [
+    "environment-geography",
+    "politics-power"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Arlington National Cemetery was created during the Civil War on the estate of which Confederate general's family?",
+   "options": [
+    "Jefferson Davis",
+    "Robert E. Lee",
+    "James Longstreet",
+    "J.E.B. Stuart"
+   ],
+   "answer": 1,
+   "explain": "The Union Army took over the Lee family's Arlington estate early in the war and began burying soldiers there in 1864."
+  },
+  {
+   "id": "eb-0005",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Where did Robert E. Lee surrender to Ulysses S. Grant in April 1865?",
+   "options": [
+    "Appomattox Court House, Virginia",
+    "Gettysburg, Pennsylvania",
+    "Fort Sumter, South Carolina",
+    "Richmond, Virginia"
+   ],
+   "answer": 0,
+   "explain": "Lee surrendered at Appomattox Court House on April 9, 1865, which effectively ended the Civil War."
+  },
+  {
+   "id": "eb-0006",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "At which fort in Charleston Harbor were the first shots of the Civil War fired in April 1861?",
+   "options": [
+    "Fort McHenry",
+    "Fort Ticonderoga",
+    "Fort Knox",
+    "Fort Sumter"
+   ],
+   "answer": 3,
+   "explain": "Confederate guns fired on the Union garrison at Fort Sumter on April 12, 1861, and the fort surrendered the next day."
+  },
+  {
+   "id": "eb-0007",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In which year did the Civil War begin?",
+   "options": [
+    "1850",
+    "1865",
+    "1861",
+    "1876"
+   ],
+   "answer": 2,
+   "explain": "Fighting began at Fort Sumter in April 1861, a few weeks after Abraham Lincoln took office."
+  },
+  {
+   "id": "eb-0008",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In which year did the Civil War end?",
+   "options": [
+    "1861",
+    "1870",
+    "1865",
+    "1877"
+   ],
+   "answer": 2,
+   "explain": "Lee surrendered in April 1865 and the last Confederate forces gave up in the weeks that followed."
+  },
+  {
+   "id": "eb-0009",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fords-theatre",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Where was Abraham Lincoln shot on April 14, 1865?",
+   "options": [
+    "The White House",
+    "Ford's Theatre",
+    "The U.S. Capitol",
+    "Willard's Hotel"
+   ],
+   "answer": 1,
+   "explain": "Lincoln was shot while watching the play Our American Cousin at Ford's Theatre in Washington and died the next morning."
+  },
+  {
+   "id": "eb-0010",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fords-theatre"
+   ],
+   "difficulty": 1,
+   "q": "What was John Wilkes Booth's profession?",
+   "options": [
+    "Stage actor",
+    "Army officer",
+    "Newspaper editor",
+    "Riverboat pilot"
+   ],
+   "answer": 0,
+   "explain": "Booth was a well-known actor from a famous theater family, which let him move freely around Ford's Theatre."
+  },
+  {
+   "id": "eb-0011",
+   "period": 5,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which 1863 speech by Abraham Lincoln begins 'Four score and seven years ago'?",
+   "options": [
+    "The Second Inaugural Address",
+    "The House Divided speech",
+    "The Cooper Union address",
+    "The Gettysburg Address"
+   ],
+   "answer": 3,
+   "explain": "Lincoln gave the Gettysburg Address on November 19, 1863. Its words are carved on the south wall of the Lincoln Memorial."
+  },
+  {
+   "id": "eb-0012",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Lincoln gave the Gettysburg Address at the dedication of what?",
+   "options": [
+    "A new state capitol building",
+    "A monument to George Washington",
+    "A railroad station",
+    "A cemetery for Union soldiers"
+   ],
+   "answer": 3,
+   "explain": "The speech dedicated the Soldiers' National Cemetery at Gettysburg, where Union dead from the July 1863 battle were buried."
+  },
+  {
+   "id": "eb-0013",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Lincoln's Gettysburg Address is famous partly for being short. About how long did it take him to deliver?",
+   "options": [
+    "About two hours",
+    "About thirty minutes",
+    "About two minutes",
+    "About one hour"
+   ],
+   "answer": 2,
+   "explain": "The address is under 300 words. Edward Everett, the main speaker that day, talked for about two hours."
+  },
+  {
+   "id": "eb-0014",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "national-archives",
+    "lincoln-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What did the Emancipation Proclamation do?",
+   "options": [
+    "Ended slavery in every state",
+    "Declared enslaved people in Confederate areas free",
+    "Gave Black men the right to vote",
+    "Ended the Civil War"
+   ],
+   "answer": 1,
+   "explain": "The 1863 proclamation freed enslaved people in areas still in rebellion. The 13th Amendment ended slavery everywhere in 1865."
+  },
+  {
+   "id": "eb-0015",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "national-archives",
+    "capitol-rotunda",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment to the Constitution abolished slavery in the United States?",
+   "options": [
+    "The 13th Amendment",
+    "The 14th Amendment",
+    "The 15th Amendment",
+    "The 19th Amendment"
+   ],
+   "answer": 0,
+   "explain": "Congress passed the 13th Amendment in January 1865 and it was ratified that December, ending slavery nationwide."
+  },
+  {
+   "id": "eb-0016",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment made everyone born in the United States a citizen and promised 'equal protection of the laws'?",
+   "options": [
+    "The 14th Amendment",
+    "The 13th Amendment",
+    "The 15th Amendment",
+    "The 16th Amendment"
+   ],
+   "answer": 0,
+   "explain": "Ratified in 1868, the 14th Amendment granted citizenship to formerly enslaved people and is the basis of many civil rights cases."
+  },
+  {
+   "id": "eb-0017",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "national-archives",
+    "house-floor",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment, ratified in 1870, barred denying the vote because of race?",
+   "options": [
+    "The 13th Amendment",
+    "The 14th Amendment",
+    "The 19th Amendment",
+    "The 15th Amendment"
+   ],
+   "answer": 3,
+   "explain": "The 15th Amendment protected Black men's right to vote, though Southern states later used poll taxes and literacy tests to get around it."
+  },
+  {
+   "id": "eb-0018",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which July 1863 battle in Pennsylvania is often called the turning point of the Civil War?",
+   "options": [
+    "Antietam",
+    "Bull Run",
+    "Gettysburg",
+    "Shiloh"
+   ],
+   "answer": 2,
+   "explain": "The Union victory at Gettysburg ended Lee's invasion of the North. It was the deadliest battle of the war."
+  },
+  {
+   "id": "eb-0019",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which Union general led the 1864 'March to the Sea' from Atlanta to Savannah?",
+   "options": [
+    "Ulysses S. Grant",
+    "William T. Sherman",
+    "George Meade",
+    "Philip Sheridan"
+   ],
+   "answer": 1,
+   "explain": "Sherman's army destroyed railroads, crops and supplies across Georgia to break the South's ability to keep fighting."
+  },
+  {
+   "id": "eb-0020",
+   "period": 5,
+   "themes": [
+    "identity",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 1,
+   "q": "What was the Underground Railroad?",
+   "options": [
+    "An early subway line in New York",
+    "A secret network that helped people escape slavery",
+    "A Confederate army supply railroad",
+    "A canal linking the Great Lakes"
+   ],
+   "answer": 1,
+   "explain": "The Underground Railroad was a network of routes and safe houses that helped enslaved people reach free states and Canada."
+  },
+  {
+   "id": "eb-0021",
+   "period": 5,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which woman escaped slavery and then returned to the South many times to guide others to freedom?",
+   "options": [
+    "Harriet Tubman",
+    "Sojourner Truth",
+    "Clara Barton",
+    "Harriet Beecher Stowe"
+   ],
+   "answer": 0,
+   "explain": "Harriet Tubman led dozens of people out of slavery in Maryland and later served the Union Army as a scout and spy."
+  },
+  {
+   "id": "eb-0022",
+   "period": 5,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "frederick-douglass-house",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which famous abolitionist, who escaped slavery and became a great speaker and writer, lived at Cedar Hill in Washington, D.C.?",
+   "options": [
+    "Booker T. Washington",
+    "W.E.B. Du Bois",
+    "Nat Turner",
+    "Frederick Douglass"
+   ],
+   "answer": 3,
+   "explain": "Frederick Douglass bought the Cedar Hill house in Anacostia in 1877 and lived there until his death in 1895."
+  },
+  {
+   "id": "eb-0023",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Who wrote Uncle Tom's Cabin, the 1852 novel that turned many Northerners against slavery?",
+   "options": [
+    "Louisa May Alcott",
+    "Sojourner Truth",
+    "Harriet Beecher Stowe",
+    "Emily Dickinson"
+   ],
+   "answer": 2,
+   "explain": "Uncle Tom's Cabin became the best-selling novel of the 1800s and stirred antislavery feeling across the North."
+  },
+  {
+   "id": "eb-0024",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which political party did Abraham Lincoln belong to when he was elected president?",
+   "options": [
+    "Democratic",
+    "Whig",
+    "Republican",
+    "Federalist"
+   ],
+   "answer": 2,
+   "explain": "Lincoln, a former Whig, won the 1860 election as the candidate of the new Republican Party, founded in 1854 to oppose slavery's spread."
+  },
+  {
+   "id": "eb-0025",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which state did Abraham Lincoln call home when he was elected president?",
+   "options": [
+    "Ohio",
+    "Illinois",
+    "Indiana",
+    "Pennsylvania"
+   ],
+   "answer": 1,
+   "explain": "Lincoln was born in Kentucky and grew up in Indiana, but he built his law and political career in Springfield, Illinois."
+  },
+  {
+   "id": "eb-0026",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which nickname did Abraham Lincoln earn for his reputation for fairness?",
+   "options": [
+    "Honest Abe",
+    "Old Hickory",
+    "Silent Cal",
+    "Old Rough and Ready"
+   ],
+   "answer": 0,
+   "explain": "Lincoln was called Honest Abe from his days as a store clerk and lawyer in Illinois."
+  },
+  {
+   "id": "eb-0027",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During the Civil War, what name was commonly used for the Northern side?",
+   "options": [
+    "The Confederacy",
+    "The Loyalists",
+    "The Patriots",
+    "The Union"
+   ],
+   "answer": 3,
+   "explain": "The Northern states were called the Union; the 11 seceded Southern states formed the Confederacy."
+  },
+  {
+   "id": "eb-0028",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which city was the capital of the Confederacy for most of the Civil War?",
+   "options": [
+    "Atlanta, Georgia",
+    "Charleston, South Carolina",
+    "New Orleans, Louisiana",
+    "Richmond, Virginia"
+   ],
+   "answer": 3,
+   "explain": "The Confederate capital moved from Montgomery, Alabama, to Richmond in 1861. Union troops took Richmond in April 1865."
+  },
+  {
+   "id": "eb-0029",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which state was the first to secede from the Union, in December 1860?",
+   "options": [
+    "Virginia",
+    "Georgia",
+    "South Carolina",
+    "Texas"
+   ],
+   "answer": 2,
+   "explain": "South Carolina seceded on December 20, 1860, weeks after Lincoln's election. Ten more states followed."
+  },
+  {
+   "id": "eb-0030",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which issue was at the heart of the conflict between North and South that led to the Civil War?",
+   "options": [
+    "Immigration from Asia",
+    "Slavery and its spread to the West",
+    "Women's right to vote",
+    "Tariffs on British tea"
+   ],
+   "answer": 1,
+   "explain": "Secession followed Lincoln's election on a platform of keeping slavery out of the western territories."
+  },
+  {
+   "id": "eb-0031",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The 54th Massachusetts Infantry, shown in the movie Glory, was one of the first Union regiments made up of which soldiers?",
+   "options": [
+    "Black soldiers",
+    "Irish immigrants",
+    "Native Americans",
+    "Teenage drummers"
+   ],
+   "answer": 0,
+   "explain": "The 54th Massachusetts became famous for its 1863 assault on Fort Wagner, South Carolina. About 180,000 Black men served in the Union Army."
+  },
+  {
+   "id": "eb-0032",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "How is Abraham Lincoln shown in the giant statue inside the Lincoln Memorial?",
+   "options": [
+    "Seated in a chair",
+    "Standing at a podium",
+    "Riding a horse",
+    "Holding a flag"
+   ],
+   "answer": 0,
+   "explain": "Daniel Chester French's marble statue shows Lincoln seated. The memorial was dedicated in 1922."
+  },
+  {
+   "id": "eb-0033",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "treasury",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Whose portrait appears on both the U.S. penny and the five-dollar bill?",
+   "options": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Alexander Hamilton",
+    "Abraham Lincoln"
+   ],
+   "answer": 3,
+   "explain": "Lincoln's portrait has been on the penny since 1909, the 100th anniversary of his birth, and on the $5 bill since 1914."
+  },
+  {
+   "id": "eb-0034",
+   "period": 6,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which Civil War nurse founded the American Red Cross in 1881?",
+   "options": [
+    "Florence Nightingale",
+    "Dorothea Dix",
+    "Clara Barton",
+    "Susan B. Anthony"
+   ],
+   "answer": 2,
+   "explain": "Clara Barton, called the 'Angel of the Battlefield,' cared for wounded soldiers and later founded the American Red Cross."
+  },
+  {
+   "id": "eb-0035",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "fords-theatre"
+   ],
+   "difficulty": 1,
+   "q": "Who became president after Abraham Lincoln was assassinated?",
+   "options": [
+    "Hannibal Hamlin",
+    "Andrew Johnson",
+    "Ulysses S. Grant",
+    "Rutherford B. Hayes"
+   ],
+   "answer": 1,
+   "explain": "Vice President Andrew Johnson of Tennessee was sworn in on April 15, 1865, the morning Lincoln died."
+  },
+  {
+   "id": "eb-0036",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which president became the first to be impeached by the House, in 1868?",
+   "options": [
+    "Ulysses S. Grant",
+    "Andrew Johnson",
+    "Grover Cleveland",
+    "James Buchanan"
+   ],
+   "answer": 1,
+   "explain": "The House impeached Andrew Johnson in 1868; the Senate fell one vote short of removing him from office."
+  },
+  {
+   "id": "eb-0037",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "What is the period after the Civil War, when the South was brought back into the Union and freedpeople sought equal rights, called?",
+   "options": [
+    "Reconstruction",
+    "The Gilded Age",
+    "The Progressive Era",
+    "The Era of Good Feelings"
+   ],
+   "answer": 0,
+   "explain": "Reconstruction lasted from 1865 to 1877. It brought three amendments and the first Black members of Congress."
+  },
+  {
+   "id": "eb-0038",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which group formed in the South after the Civil War and used violence to terrorize Black Americans and their allies?",
+   "options": [
+    "The Freedmen's Bureau",
+    "The Grange",
+    "The Knights of Labor",
+    "The Ku Klux Klan"
+   ],
+   "answer": 3,
+   "explain": "The Klan was founded in Tennessee in 1865 or 1866. Congress passed the Enforcement Acts of 1870-1871 to fight it."
+  },
+  {
+   "id": "eb-0039",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Thousands of 'forty-niners' rushed to which place after gold was discovered there in 1848?",
+   "options": [
+    "Alaska",
+    "Colorado",
+    "California",
+    "Texas"
+   ],
+   "answer": 2,
+   "explain": "Gold found at Sutter's Mill in January 1848 set off the California Gold Rush, and California became a state in 1850."
+  },
+  {
+   "id": "eb-0040",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What was driven at Promontory Summit, Utah, in 1869 to mark the completion of the first transcontinental railroad?",
+   "options": [
+    "A copper nail",
+    "A silver bell",
+    "A golden spike",
+    "A marble cornerstone"
+   ],
+   "answer": 2,
+   "explain": "On May 10, 1869, a ceremonial golden spike joined the Union Pacific and Central Pacific railroads."
+  },
+  {
+   "id": "eb-0041",
+   "period": 5,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What did the United States gain from Mexico at the end of the Mexican-American War in 1848?",
+   "options": [
+    "Florida and the Gulf Coast",
+    "California and much of the Southwest",
+    "The Oregon Territory",
+    "Alaska and the Aleutians"
+   ],
+   "answer": 1,
+   "explain": "In the Treaty of Guadalupe Hidalgo, Mexico gave up California and land that became Nevada, Utah and parts of other states."
+  },
+  {
+   "id": "eb-0042",
+   "period": 5,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "treasury",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The United States bought Alaska in 1867 from which country, a deal critics called 'Seward's Folly'?",
+   "options": [
+    "Russia",
+    "Great Britain",
+    "Spain",
+    "France"
+   ],
+   "answer": 0,
+   "explain": "Secretary of State William Seward arranged the $7.2 million purchase. Alaska later proved rich in gold, fish and oil."
+  },
+  {
+   "id": "eb-0043",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "supreme-court",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the 1857 Dred Scott decision, what did the Supreme Court rule about Black Americans?",
+   "options": [
+    "They could vote in every state",
+    "They had to be freed at age 21",
+    "They could serve in Congress",
+    "They could not be U.S. citizens"
+   ],
+   "answer": 3,
+   "explain": "The Dred Scott ruling also said Congress could not ban slavery in the territories, deepening the split between North and South."
+  },
+  {
+   "id": "eb-0044",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Abolitionist John Brown led an 1859 raid on a federal arsenal in which Virginia town?",
+   "options": [
+    "Fort Sumter",
+    "Appomattox",
+    "Manassas",
+    "Harpers Ferry"
+   ],
+   "answer": 3,
+   "explain": "John Brown hoped to start a slave uprising. He was captured, tried and hanged, and many Northerners saw him as a martyr."
+  },
+  {
+   "id": "eb-0045",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Confederate general earned the nickname 'Stonewall' at the First Battle of Bull Run?",
+   "options": [
+    "James Longstreet",
+    "J.E.B. Stuart",
+    "Thomas Jackson",
+    "George Pickett"
+   ],
+   "answer": 2,
+   "explain": "Another general pointed to Jackson's brigade standing 'like a stone wall.' Jackson was killed by friendly fire in 1863."
+  },
+  {
+   "id": "eb-0046",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What kind of hat is Abraham Lincoln famous for wearing?",
+   "options": [
+    "A wide cowboy hat",
+    "A tall stovepipe hat",
+    "A three-cornered hat",
+    "A round bowler hat"
+   ],
+   "answer": 1,
+   "explain": "Lincoln's tall stovepipe hat made him look even taller than his 6 feet 4 inches. One he wore is at the Smithsonian."
+  },
+  {
+   "id": "eb-0047",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "senate-floor"
+   ],
+   "difficulty": 1,
+   "q": "In 1858, Lincoln held a famous series of debates with which Illinois senator?",
+   "options": [
+    "Stephen Douglas",
+    "Frederick Douglass",
+    "Henry Clay",
+    "Jefferson Davis"
+   ],
+   "answer": 0,
+   "explain": "Lincoln lost the 1858 Senate race to Stephen Douglas, but the debates made him nationally known."
+  },
+  {
+   "id": "eb-0048",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The first major battle of the Civil War, in July 1861 near Manassas, Virginia, is known by which name?",
+   "options": [
+    "Bull Run",
+    "Antietam",
+    "Fredericksburg",
+    "Chancellorsville"
+   ],
+   "answer": 0,
+   "explain": "The Confederate win at the First Battle of Bull Run showed both sides the war would be long and costly."
+  },
+  {
+   "id": "eb-0049",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which 1862 Maryland battle is known as the bloodiest single day in American history?",
+   "options": [
+    "Gettysburg",
+    "Shiloh",
+    "Vicksburg",
+    "Antietam"
+   ],
+   "answer": 3,
+   "explain": "About 23,000 men were killed, wounded or missing at Antietam on September 17, 1862. Lincoln then issued the preliminary Emancipation Proclamation."
+  },
+  {
+   "id": "eb-0050",
+   "period": 5,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Juneteenth, now a federal holiday, marks the day in 1865 when news of freedom reached enslaved people in which state?",
+   "options": [
+    "Georgia",
+    "Virginia",
+    "Texas",
+    "Mississippi"
+   ],
+   "answer": 2,
+   "explain": "On June 19, 1865, Union general Gordon Granger announced in Galveston that all enslaved people in Texas were free."
+  },
+  {
+   "id": "eb-0051",
+   "period": 5,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which formerly enslaved woman gave the famous 1851 speech known as 'Ain't I a Woman?'",
+   "options": [
+    "Harriet Tubman",
+    "Sojourner Truth",
+    "Phillis Wheatley",
+    "Ida B. Wells"
+   ],
+   "answer": 1,
+   "explain": "Sojourner Truth spoke at a women's rights convention in Akron, Ohio, linking the fight against slavery with women's rights."
+  },
+  {
+   "id": "eb-0052",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "In the Civil War, Union soldiers usually wore blue uniforms. What color did Confederate soldiers usually wear?",
+   "options": [
+    "Red",
+    "Gray",
+    "Green",
+    "Black"
+   ],
+   "answer": 1,
+   "explain": "Confederate uniforms were usually gray or a brownish 'butternut,' which is why the war is called a fight of the blue and the gray."
+  },
+  {
+   "id": "eb-0053",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Abraham Lincoln was famously born in what kind of home?",
+   "options": [
+    "A log cabin",
+    "A plantation house",
+    "A city row house",
+    "A sod house"
+   ],
+   "answer": 0,
+   "explain": "Lincoln was born on February 12, 1809, in a one-room log cabin in Kentucky."
+  },
+  {
+   "id": "eb-0054",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which state was formed during the Civil War when its western counties broke away from Virginia?",
+   "options": [
+    "Kentucky",
+    "Tennessee",
+    "Maryland",
+    "West Virginia"
+   ],
+   "answer": 3,
+   "explain": "Western Virginians opposed secession, and West Virginia joined the Union as a separate state in 1863."
+  },
+  {
+   "id": "eb-0055",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "environment-geography"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Washington, D.C., lay between Virginia and which slave state that stayed in the Union?",
+   "options": [
+    "Delaware",
+    "Kentucky",
+    "Maryland",
+    "Missouri"
+   ],
+   "answer": 2,
+   "explain": "Keeping Maryland in the Union was vital, since losing it would have surrounded the capital with Confederate territory."
+  },
+  {
+   "id": "eb-0056",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Civil War song did Julia Ward Howe write in 1861?",
+   "options": [
+    "The Star-Spangled Banner",
+    "Dixie",
+    "Battle Hymn of the Republic",
+    "When Johnny Comes Marching Home"
+   ],
+   "answer": 2,
+   "explain": "Howe wrote new words to the tune of 'John Brown's Body.' The song became a Union anthem."
+  },
+  {
+   "id": "eb-0057",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which poet mourned Abraham Lincoln in the poem 'O Captain! My Captain!'?",
+   "options": [
+    "Emily Dickinson",
+    "Walt Whitman",
+    "Henry Wadsworth Longfellow",
+    "Edgar Allan Poe"
+   ],
+   "answer": 1,
+   "explain": "Walt Whitman, who had worked in Washington's Civil War hospitals, wrote the poem after Lincoln's assassination in 1865."
+  },
+  {
+   "id": "eb-0058",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which president is often called the 'Great Emancipator'?",
+   "options": [
+    "Abraham Lincoln",
+    "Ulysses S. Grant",
+    "Andrew Johnson",
+    "Rutherford B. Hayes"
+   ],
+   "answer": 0,
+   "explain": "Lincoln earned the title by issuing the Emancipation Proclamation and pushing the 13th Amendment through Congress."
+  },
+  {
+   "id": "eb-0059",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Civil War general later served two terms as the 18th president?",
+   "options": [
+    "William T. Sherman",
+    "George McClellan",
+    "Winfield Scott Hancock",
+    "Ulysses S. Grant"
+   ],
+   "answer": 3,
+   "explain": "Grant was elected president in 1868 and again in 1872. McClellan and Hancock both ran for president and lost."
+  },
+  {
+   "id": "eb-0060",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Ulysses S. Grant's portrait appears on which U.S. bill?",
+   "options": [
+    "The $10 bill",
+    "The $20 bill",
+    "The $100 bill",
+    "The $50 bill"
+   ],
+   "answer": 3,
+   "explain": "Grant has been on the $50 bill since 1913. Hamilton is on the $10, Jackson on the $20 and Franklin on the $100."
+  },
+  {
+   "id": "eb-0061",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Paper money first printed by the federal government during the Civil War got which nickname?",
+   "options": [
+    "Continentals",
+    "Gold eagles",
+    "Greenbacks",
+    "Silver certificates"
+   ],
+   "answer": 2,
+   "explain": "The Legal Tender Act of 1862 created national paper notes printed with green ink on the back, so people called them greenbacks."
+  },
+  {
+   "id": "eb-0062",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "treasury",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "The Secret Service was created in 1865 to do what?",
+   "options": [
+    "Guard the president",
+    "Fight counterfeit money",
+    "Spy on the Confederacy",
+    "Collect income taxes"
+   ],
+   "answer": 1,
+   "explain": "Fake bills were a huge problem after the war. The Secret Service did not formally protect presidents until after 1901."
+  },
+  {
+   "id": "eb-0063",
+   "period": 5,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "In December 1863, during the Civil War, the Statue of Freedom was placed on top of what?",
+   "options": [
+    "The new U.S. Capitol dome",
+    "The Washington Monument",
+    "The White House roof",
+    "The Treasury Building"
+   ],
+   "answer": 0,
+   "explain": "Work on the Capitol's cast-iron dome went on through the war, and the bronze Statue of Freedom was raised to its top in 1863."
+  },
+  {
+   "id": "eb-0064",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "Why is the Washington Monument two slightly different colors?",
+   "options": [
+    "Building stopped for years, then new stone was used",
+    "One side faces the sun more often",
+    "It was damaged by fire in the Civil War",
+    "It was painted two colors on purpose"
+   ],
+   "answer": 0,
+   "explain": "Work stopped in 1854 for lack of money and the Civil War, and resumed in 1879 with stone from a different quarry."
+  },
+  {
+   "id": "eb-0065",
+   "period": 6,
+   "themes": [
+    "culture-ideas",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "When it was finished in 1884, what record did the Washington Monument hold?",
+   "options": [
+    "Oldest monument in the country",
+    "First building with an elevator",
+    "Largest stone statue on Earth",
+    "Tallest structure in the world"
+   ],
+   "answer": 3,
+   "explain": "At about 555 feet the monument was the world's tallest structure until the Eiffel Tower opened in 1889."
+  },
+  {
+   "id": "eb-0066",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "After the Civil War, which promise referred to giving land to freed people?",
+   "options": [
+    "A chicken in every pot",
+    "Fifty-four forty or fight",
+    "Forty acres and a mule",
+    "Free soil, free men"
+   ],
+   "answer": 2,
+   "explain": "General Sherman's 1865 order set aside land for freed families, but President Johnson soon gave most of it back to former owners."
+  },
+  {
+   "id": "eb-0067",
+   "period": 6,
+   "themes": [
+    "identity",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "After the Civil War, many freed people farmed land owned by others in exchange for part of the crop. What was this system called?",
+   "options": [
+    "Homesteading",
+    "Sharecropping",
+    "Indentured servitude",
+    "Ranching"
+   ],
+   "answer": 1,
+   "explain": "Sharecroppers often fell deep into debt to landowners and stores, which kept many families poor for generations."
+  },
+  {
+   "id": "eb-0068",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Laws passed by Southern states right after the Civil War to limit the rights of freed people were called what?",
+   "options": [
+    "Blue laws",
+    "Black Codes",
+    "Corn Laws",
+    "Navigation Acts"
+   ],
+   "answer": 1,
+   "explain": "The Black Codes of 1865-1866 restricted work, travel and property. Congress answered with the Civil Rights Act of 1866 and the 14th Amendment."
+  },
+  {
+   "id": "eb-0069",
+   "period": 5,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "frederick-douglass-house"
+   ],
+   "difficulty": 1,
+   "q": "Howard University in Washington, D.C., founded in 1867, is one of the best-known what?",
+   "options": [
+    "Historically Black universities",
+    "Military academies",
+    "Women's colleges",
+    "Catholic seminaries"
+   ],
+   "answer": 0,
+   "explain": "Howard was named for General Oliver O. Howard, head of the Freedmen's Bureau. Frederick Douglass served on its board."
+  },
+  {
+   "id": "eb-0070",
+   "period": 5,
+   "themes": [
+    "politics-power",
+    "identity"
+   ],
+   "stops": [
+    "senate-floor",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1870, Hiram Revels of Mississippi became the first Black member of which body?",
+   "options": [
+    "The Supreme Court",
+    "The president's cabinet",
+    "The Mississippi Supreme Court",
+    "The U.S. Senate"
+   ],
+   "answer": 3,
+   "explain": "Revels took a Senate seat once held by Jefferson Davis. Joseph Rainey became the first Black House member later in 1870."
+  },
+  {
+   "id": "eb-0071",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which inventor, known as the 'Wizard of Menlo Park,' developed a practical electric light bulb in 1879?",
+   "options": [
+    "Nikola Tesla",
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "George Westinghouse"
+   ],
+   "answer": 2,
+   "explain": "Edison's lab in Menlo Park, New Jersey, produced a long-lasting bulb in 1879 and later full electric power systems."
+  },
+  {
+   "id": "eb-0072",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which machine for recording and playing back sound did Thomas Edison invent in 1877?",
+   "options": [
+    "The telephone",
+    "The radio",
+    "The phonograph",
+    "The telegraph"
+   ],
+   "answer": 2,
+   "explain": "Edison's first phonograph recorded sound on tinfoil. He tested it by reciting 'Mary Had a Little Lamb.'"
+  },
+  {
+   "id": "eb-0073",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Who received the patent for the telephone in 1876?",
+   "options": [
+    "Thomas Edison",
+    "Alexander Graham Bell",
+    "Samuel Morse",
+    "Guglielmo Marconi"
+   ],
+   "answer": 1,
+   "explain": "Bell's first words over the telephone were to his assistant: 'Mr. Watson, come here, I want to see you.'"
+  },
+  {
+   "id": "eb-0074",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Where did the Wright brothers make the first powered airplane flights in December 1903?",
+   "options": [
+    "Kitty Hawk, North Carolina",
+    "Dayton, Ohio",
+    "Cape Canaveral, Florida",
+    "Langley, Virginia"
+   ],
+   "answer": 0,
+   "explain": "They flew near Kitty Hawk on December 17, 1903, because the area had steady winds and soft sand for landings."
+  },
+  {
+   "id": "eb-0075",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which two brothers built the 1903 Flyer, the first successful powered airplane, now displayed at the National Air and Space Museum?",
+   "options": [
+    "John and Horace Dodge",
+    "Charles and Frank Duryea",
+    "Will and Charles Mayo",
+    "Wilbur and Orville Wright"
+   ],
+   "answer": 3,
+   "explain": "Orville piloted the first 12-second flight on December 17, 1903. The Flyer has been at the Smithsonian since 1948."
+  },
+  {
+   "id": "eb-0076",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Before building airplanes, what kind of business did Wilbur and Orville Wright run in Dayton, Ohio?",
+   "options": [
+    "A newspaper",
+    "A car dealership",
+    "A telegraph office",
+    "A bicycle shop"
+   ],
+   "answer": 3,
+   "explain": "Their bicycle shop paid for their flight experiments, and their mechanics helped build the engine for the Flyer."
+  },
+  {
+   "id": "eb-0077",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which car did Henry Ford introduce in 1908 that made automobiles affordable for millions of Americans?",
+   "options": [
+    "The Mustang",
+    "The Corvette",
+    "The Model T",
+    "The Beetle"
+   ],
+   "answer": 2,
+   "explain": "Ford sold about 15 million Model Ts between 1908 and 1927, and its price fell as his factories got faster."
+  },
+  {
+   "id": "eb-0078",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Gilded Age businessman made a fortune in steel and later paid to build thousands of public libraries?",
+   "options": [
+    "John D. Rockefeller",
+    "Andrew Carnegie",
+    "J.P. Morgan",
+    "Cornelius Vanderbilt"
+   ],
+   "answer": 1,
+   "explain": "Andrew Carnegie sold his steel company in 1901 and gave away most of his wealth, funding more than 2,500 libraries."
+  },
+  {
+   "id": "eb-0079",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "John D. Rockefeller became one of the richest Americans through which company?",
+   "options": [
+    "Standard Oil",
+    "U.S. Steel",
+    "Union Pacific",
+    "General Electric"
+   ],
+   "answer": 0,
+   "explain": "At its peak around 1880 Standard Oil controlled about 90 percent of U.S. oil refining. The Supreme Court broke it up in 1911."
+  },
+  {
+   "id": "eb-0080",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Cornelius Vanderbilt built his fortune mainly in which businesses?",
+   "options": [
+    "Steamships and railroads",
+    "Oil and gasoline",
+    "Steel and coal",
+    "Banking and insurance"
+   ],
+   "answer": 0,
+   "explain": "The 'Commodore' made money in steamboats first, then took control of the New York Central Railroad."
+  },
+  {
+   "id": "eb-0081",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which author helped give the 'Gilded Age' its name through an 1873 novel he co-wrote?",
+   "options": [
+    "Herman Melville",
+    "Walt Whitman",
+    "Henry James",
+    "Mark Twain"
+   ],
+   "answer": 3,
+   "explain": "Mark Twain and Charles Dudley Warner wrote The Gilded Age, mocking an era that looked golden but hid greed and corruption."
+  },
+  {
+   "id": "eb-0082",
+   "period": 6,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Who wrote the novels The Adventures of Tom Sawyer and Adventures of Huckleberry Finn?",
+   "options": [
+    "Jack London",
+    "Stephen Crane",
+    "Mark Twain",
+    "Bret Harte"
+   ],
+   "answer": 2,
+   "explain": "Samuel Clemens wrote as Mark Twain. Huckleberry Finn, published in 1884-1885, is often called the great American novel."
+  },
+  {
+   "id": "eb-0083",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which inventor, working with George Westinghouse, championed alternating current (AC) electricity?",
+   "options": [
+    "Thomas Edison",
+    "Nikola Tesla",
+    "Henry Ford",
+    "Alexander Graham Bell"
+   ],
+   "answer": 1,
+   "explain": "Tesla's AC system won out over Edison's direct current and powers most homes today."
+  },
+  {
+   "id": "eb-0084",
+   "period": 5,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which invention did Samuel Morse demonstrate in 1844 with a message sent from the U.S. Capitol to Baltimore?",
+   "options": [
+    "The telephone",
+    "The telegraph",
+    "The radio",
+    "The typewriter"
+   ],
+   "answer": 1,
+   "explain": "Morse's first official message, 'What hath God wrought,' was sent from the Capitol on May 24, 1844."
+  },
+  {
+   "id": "eb-0085",
+   "period": 6,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was the first president to serve two terms that were not back to back?",
+   "options": [
+    "Grover Cleveland",
+    "Benjamin Harrison",
+    "Chester Arthur",
+    "William McKinley"
+   ],
+   "answer": 0,
+   "explain": "Grover Cleveland won in 1884, lost to Benjamin Harrison in 1888 and won again in 1892."
+  },
+  {
+   "id": "eb-0086",
+   "period": 6,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which park, created by Congress in 1872, was the world's first national park?",
+   "options": [
+    "Yosemite",
+    "Grand Canyon",
+    "Glacier",
+    "Yellowstone"
+   ],
+   "answer": 3,
+   "explain": "President Grant signed the law creating Yellowstone, which spreads across parts of Wyoming, Montana and Idaho."
+  },
+  {
+   "id": "eb-0087",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which waterway, opened by the United States in 1914, connected the Atlantic and Pacific oceans?",
+   "options": [
+    "The Suez Canal",
+    "The Erie Canal",
+    "The Panama Canal",
+    "The St. Lawrence Seaway"
+   ],
+   "answer": 2,
+   "explain": "The Panama Canal saved ships a long trip around South America. The U.S. handed it over to Panama in 1999."
+  },
+  {
+   "id": "eb-0088",
+   "period": 6,
+   "themes": [
+    "america-world",
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which country gave the Statue of Liberty to the United States, dedicated in 1886?",
+   "options": [
+    "Great Britain",
+    "Spain",
+    "France",
+    "Italy"
+   ],
+   "answer": 2,
+   "explain": "The statue was a gift from the people of France to honor American independence and the friendship of the two nations."
+  },
+  {
+   "id": "eb-0089",
+   "period": 6,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "union-station"
+   ],
+   "difficulty": 1,
+   "q": "Ellis Island, which opened in 1892, was the main entry station for immigrants arriving in which city?",
+   "options": [
+    "Boston",
+    "New York",
+    "Philadelphia",
+    "Baltimore"
+   ],
+   "answer": 1,
+   "explain": "More than 12 million immigrants passed through Ellis Island in New York Harbor before it closed in 1954."
+  },
+  {
+   "id": "eb-0090",
+   "period": 7,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The immigration station on Angel Island, which processed many arrivals from Asia, was in which bay?",
+   "options": [
+    "San Francisco Bay",
+    "Chesapeake Bay",
+    "Massachusetts Bay",
+    "Tampa Bay"
+   ],
+   "answer": 0,
+   "explain": "Angel Island station opened in 1910. Many Chinese immigrants were held there for weeks or months under the exclusion laws."
+  },
+  {
+   "id": "eb-0091",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Which 1882 law was the first major U.S. law to bar immigrants of a specific nationality?",
+   "options": [
+    "The Homestead Act",
+    "The Dawes Act",
+    "The Pendleton Act",
+    "The Chinese Exclusion Act"
+   ],
+   "answer": 3,
+   "explain": "The Chinese Exclusion Act banned Chinese laborers for ten years. It was renewed and not repealed until 1943."
+  },
+  {
+   "id": "eb-0092",
+   "period": 6,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Many immigrants in cities like New York around 1900 lived in crowded apartment buildings called what?",
+   "options": [
+    "Bungalows",
+    "Haciendas",
+    "Plantations",
+    "Tenements"
+   ],
+   "answer": 3,
+   "explain": "Tenements were often dark and poorly ventilated, and whole families might share one or two rooms."
+  },
+  {
+   "id": "eb-0093",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Labor Day, made a federal holiday in 1894, honors whom?",
+   "options": [
+    "Military veterans",
+    "Family farmers",
+    "American workers",
+    "New immigrants"
+   ],
+   "answer": 2,
+   "explain": "Congress made the first Monday in September a national holiday for workers in 1894, after years of labor parades."
+  },
+  {
+   "id": "eb-0094",
+   "period": 6,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Around 1900, most new immigrants to the United States came from which region?",
+   "options": [
+    "South America",
+    "Southern and Eastern Europe",
+    "West Africa",
+    "Australia"
+   ],
+   "answer": 1,
+   "explain": "Millions of Italians, Poles, Jews from the Russian Empire, Greeks and others arrived between 1890 and 1914."
+  },
+  {
+   "id": "eb-0095",
+   "period": 5,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the late 1840s, a famine caused by a potato blight drove huge numbers of people from which country to the United States?",
+   "options": [
+    "Ireland",
+    "Germany",
+    "Italy",
+    "Poland"
+   ],
+   "answer": 0,
+   "explain": "The Great Famine killed about a million people in Ireland, and well over a million more emigrated, many to American cities."
+  },
+  {
+   "id": "eb-0096",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Thousands of workers from which country did much of the hardest work building the Central Pacific Railroad through the Sierra Nevada?",
+   "options": [
+    "China",
+    "Japan",
+    "Mexico",
+    "Sweden"
+   ],
+   "answer": 0,
+   "explain": "Chinese workers made up most of the Central Pacific's labor force, blasting tunnels through the mountains in brutal conditions."
+  },
+  {
+   "id": "eb-0097",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "At which 1876 battle were George Custer and his troops defeated by Lakota and Cheyenne warriors?",
+   "options": [
+    "Wounded Knee",
+    "Sand Creek",
+    "Tippecanoe",
+    "Little Bighorn"
+   ],
+   "answer": 3,
+   "explain": "Custer and more than 200 soldiers were killed at the Little Bighorn in Montana Territory in June 1876."
+  },
+  {
+   "id": "eb-0098",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Which Lakota leader is famous for uniting his people against U.S. forces at the Battle of the Little Bighorn?",
+   "options": [
+    "Geronimo",
+    "Chief Joseph",
+    "Sitting Bull",
+    "Tecumseh"
+   ],
+   "answer": 2,
+   "explain": "Sitting Bull, a Hunkpapa Lakota holy man, later toured with Buffalo Bill's Wild West and was killed in 1890."
+  },
+  {
+   "id": "eb-0099",
+   "period": 6,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "Geronimo was a famous leader of which Native American people?",
+   "options": [
+    "Lakota",
+    "Apache",
+    "Cherokee",
+    "Iroquois"
+   ],
+   "answer": 1,
+   "explain": "Geronimo resisted U.S. and Mexican forces in the Southwest until he surrendered in 1886."
+  },
+  {
+   "id": "eb-0100",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-indian"
+   ],
+   "difficulty": 1,
+   "q": "The 1890 massacre of Lakota people by U.S. soldiers in South Dakota is known by which name?",
+   "options": [
+    "Little Bighorn",
+    "Wounded Knee",
+    "Fallen Timbers",
+    "Horseshoe Bend"
+   ],
+   "answer": 1,
+   "explain": "More than 250 Lakota men, women and children were killed at Wounded Knee Creek in December 1890."
+  },
+  {
+   "id": "eb-0101",
+   "period": 5,
+   "themes": [
+    "peopling",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "What did the Homestead Act of 1862 offer settlers?",
+   "options": [
+    "160 acres of land if they farmed it for five years",
+    "Free train tickets to the West",
+    "A share of California gold claims",
+    "Cash to build a house in town"
+   ],
+   "answer": 0,
+   "explain": "Over its long life the Homestead Act transferred about 270 million acres, roughly a tenth of all U.S. land, to settlers."
+  },
+  {
+   "id": "eb-0102",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "The rallying cry 'Remember the Maine!' is linked to which war?",
+   "options": [
+    "The War of 1812",
+    "The Mexican-American War",
+    "World War I",
+    "The Spanish-American War"
+   ],
+   "answer": 3,
+   "explain": "The battleship Maine exploded in Havana harbor in February 1898. War with Spain followed that April."
+  },
+  {
+   "id": "eb-0103",
+   "period": 6,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which future president led the 'Rough Riders' cavalry unit in Cuba in 1898?",
+   "options": [
+    "William McKinley",
+    "Woodrow Wilson",
+    "Theodore Roosevelt",
+    "William Howard Taft"
+   ],
+   "answer": 2,
+   "explain": "Roosevelt became a national hero after the charge up the San Juan heights and was elected vice president in 1900."
+  },
+  {
+   "id": "eb-0104",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "white-house",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The teddy bear was named after which president?",
+   "options": [
+    "Grover Cleveland",
+    "William Howard Taft",
+    "Theodore Roosevelt",
+    "Woodrow Wilson"
+   ],
+   "answer": 2,
+   "explain": "After a 1902 hunting trip on which Roosevelt refused to shoot a captured bear, toy makers began selling 'Teddy's bears.'"
+  },
+  {
+   "id": "eb-0105",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which president summed up his foreign policy as 'Speak softly and carry a big stick'?",
+   "options": [
+    "William McKinley",
+    "Theodore Roosevelt",
+    "Calvin Coolidge",
+    "Herbert Hoover"
+   ],
+   "answer": 1,
+   "explain": "Roosevelt meant using diplomacy backed by military power, especially in Latin America."
+  },
+  {
+   "id": "eb-0106",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Theodore Roosevelt became president in 1901 after which president was assassinated?",
+   "options": [
+    "William McKinley",
+    "James Garfield",
+    "Grover Cleveland",
+    "Benjamin Harrison"
+   ],
+   "answer": 0,
+   "explain": "McKinley was shot at the Pan-American Exposition in Buffalo, New York, and died eight days later."
+  },
+  {
+   "id": "eb-0107",
+   "period": 7,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which educator founded the Tuskegee Institute in Alabama in 1881?",
+   "options": [
+    "W.E.B. Du Bois",
+    "Frederick Douglass",
+    "George Washington Carver",
+    "Booker T. Washington"
+   ],
+   "answer": 3,
+   "explain": "Booker T. Washington built Tuskegee from a one-room school into a major college stressing practical training."
+  },
+  {
+   "id": "eb-0108",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Tuskegee scientist became famous for his work with peanuts and sweet potatoes?",
+   "options": [
+    "Booker T. Washington",
+    "Benjamin Banneker",
+    "Charles Drew",
+    "George Washington Carver"
+   ],
+   "answer": 3,
+   "explain": "George Washington Carver developed hundreds of products from peanuts and other crops to help Southern farmers."
+  },
+  {
+   "id": "eb-0109",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "Which civil rights organization was founded in 1909 by W.E.B. Du Bois and others?",
+   "options": [
+    "The SCLC",
+    "SNCC",
+    "The NAACP",
+    "CORE"
+   ],
+   "answer": 2,
+   "explain": "The National Association for the Advancement of Colored People fought segregation and lynching in the courts and the press."
+  },
+  {
+   "id": "eb-0110",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "supreme-court"
+   ],
+   "difficulty": 1,
+   "q": "What were Jim Crow laws?",
+   "options": [
+    "Laws that protected Black voters",
+    "Southern laws that enforced racial segregation",
+    "Laws that banned immigration",
+    "Laws that set up public schools"
+   ],
+   "answer": 1,
+   "explain": "Jim Crow laws segregated schools, trains and other public places across the South from the 1870s into the 1960s."
+  },
+  {
+   "id": "eb-0111",
+   "period": 7,
+   "themes": [
+    "identity",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which Black journalist led a campaign against lynching in the 1890s?",
+   "options": [
+    "Ida B. Wells",
+    "Mary McLeod Bethune",
+    "Zora Neale Hurston",
+    "Rosa Parks"
+   ],
+   "answer": 0,
+   "explain": "Ida B. Wells began her anti-lynching reporting in Memphis in 1892 and later helped found the NAACP."
+  },
+  {
+   "id": "eb-0112",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 1911 Triangle Shirtwaist Factory fire, which killed 146 garment workers, happened in which city?",
+   "options": [
+    "New York",
+    "Chicago",
+    "Boston",
+    "Pittsburgh"
+   ],
+   "answer": 0,
+   "explain": "Locked doors trapped many workers, mostly young immigrant women. The fire led to new safety laws in New York."
+  },
+  {
+   "id": "eb-0113",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment, ratified in 1913, allowed Congress to collect a federal income tax?",
+   "options": [
+    "The 17th Amendment",
+    "The 18th Amendment",
+    "The 14th Amendment",
+    "The 16th Amendment"
+   ],
+   "answer": 3,
+   "explain": "Before the 16th Amendment, the federal government relied mostly on tariffs and excise taxes."
+  },
+  {
+   "id": "eb-0114",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "After the 17th Amendment of 1913, how are U.S. senators chosen?",
+   "options": [
+    "By the state legislatures",
+    "By the president",
+    "Directly by the voters of each state",
+    "By the House of Representatives"
+   ],
+   "answer": 2,
+   "explain": "Before 1913, state legislatures chose senators. The change was a major Progressive Era reform."
+  },
+  {
+   "id": "eb-0115",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The 'unsinkable' Titanic sank in April 1912 after hitting what?",
+   "options": [
+    "A German mine",
+    "An iceberg",
+    "Another ship",
+    "A coral reef"
+   ],
+   "answer": 1,
+   "explain": "More than 1,500 people died when the Titanic sank in the North Atlantic on its first voyage."
+  },
+  {
+   "id": "eb-0116",
+   "period": 6,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which leader of the women's suffrage movement was arrested for voting in the 1872 election?",
+   "options": [
+    "Eleanor Roosevelt",
+    "Susan B. Anthony",
+    "Clara Barton",
+    "Harriet Tubman"
+   ],
+   "answer": 1,
+   "explain": "Susan B. Anthony was fined $100 for voting in Rochester, New York, and refused to pay."
+  },
+  {
+   "id": "eb-0117",
+   "period": 5,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The 1848 meeting in New York that launched the organized women's rights movement is known as what?",
+   "options": [
+    "The Seneca Falls Convention",
+    "The Hartford Convention",
+    "The Constitutional Convention",
+    "The Philadelphia Convention"
+   ],
+   "answer": 0,
+   "explain": "At Seneca Falls, Elizabeth Cady Stanton read a Declaration of Sentiments modeled on the Declaration of Independence."
+  },
+  {
+   "id": "eb-0118",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "national-archives",
+    "capitol-rotunda",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "What did the 19th Amendment, ratified in 1920, guarantee to women?",
+   "options": [
+    "The right to own property",
+    "The right to serve in the army",
+    "The right to sit on juries",
+    "The right to vote"
+   ],
+   "answer": 3,
+   "explain": "The 19th Amendment barred denying the vote on account of sex, ending a struggle of more than 70 years."
+  },
+  {
+   "id": "eb-0119",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "In 1917, suffragists known as the 'Silent Sentinels' held signs outside which building?",
+   "options": [
+    "The U.S. Capitol",
+    "The Treasury Building",
+    "The White House",
+    "The State Department"
+   ],
+   "answer": 2,
+   "explain": "Alice Paul's National Woman's Party picketed the White House to press President Wilson; many were arrested and jailed."
+  },
+  {
+   "id": "eb-0120",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Who became the first woman elected to Congress, in 1916?",
+   "options": [
+    "Frances Perkins",
+    "Eleanor Roosevelt",
+    "Jeannette Rankin",
+    "Shirley Chisholm"
+   ],
+   "answer": 2,
+   "explain": "Jeannette Rankin of Montana won a House seat four years before the 19th Amendment. She voted against entering both world wars."
+  },
+  {
+   "id": "eb-0121",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who became the first woman to serve in a president's cabinet, as Franklin Roosevelt's Secretary of Labor?",
+   "options": [
+    "Eleanor Roosevelt",
+    "Frances Perkins",
+    "Jeannette Rankin",
+    "Amelia Earhart"
+   ],
+   "answer": 1,
+   "explain": "Frances Perkins served from 1933 to 1945 and helped design Social Security and the minimum wage."
+  },
+  {
+   "id": "eb-0122",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "In which year did the United States enter World War I?",
+   "options": [
+    "1917",
+    "1914",
+    "1919",
+    "1941"
+   ],
+   "answer": 0,
+   "explain": "The war began in Europe in 1914. Congress declared war on Germany in April 1917."
+  },
+  {
+   "id": "eb-0123",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "white-house",
+    "national-cathedral"
+   ],
+   "difficulty": 1,
+   "q": "Who was president when the United States fought in World War I?",
+   "options": [
+    "Theodore Roosevelt",
+    "William Howard Taft",
+    "Warren G. Harding",
+    "Woodrow Wilson"
+   ],
+   "answer": 3,
+   "explain": "Woodrow Wilson won reelection in 1916 partly on keeping the country out of war, then asked Congress to declare war in 1917."
+  },
+  {
+   "id": "eb-0124",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which international organization did Woodrow Wilson propose after World War I, though the U.S. Senate refused to join it?",
+   "options": [
+    "The United Nations",
+    "NATO",
+    "The World Bank",
+    "The League of Nations"
+   ],
+   "answer": 3,
+   "explain": "The Senate rejected the Treaty of Versailles, so the United States never joined the League of Nations."
+  },
+  {
+   "id": "eb-0125",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "The 1915 sinking of which British passenger ship by a German submarine killed 128 Americans?",
+   "options": [
+    "The Titanic",
+    "The Maine",
+    "The Lusitania",
+    "The Britannic"
+   ],
+   "answer": 2,
+   "explain": "The Lusitania sinking turned many Americans against Germany two years before the U.S. entered the war."
+  },
+  {
+   "id": "eb-0126",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "November 11, the day fighting in World War I ended in 1918, is now celebrated as which holiday?",
+   "options": [
+    "Memorial Day",
+    "Veterans Day",
+    "Labor Day",
+    "Flag Day"
+   ],
+   "answer": 1,
+   "explain": "It began as Armistice Day and was renamed Veterans Day in 1954 to honor veterans of all wars."
+  },
+  {
+   "id": "eb-0127",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "The Tomb of the Unknown Soldier at Arlington was created in 1921 to honor an unidentified soldier from which war?",
+   "options": [
+    "World War I",
+    "The Civil War",
+    "World War II",
+    "The Spanish-American War"
+   ],
+   "answer": 0,
+   "explain": "An unknown American killed in France was buried at Arlington on November 11, 1921. Unknowns from later wars were added."
+  },
+  {
+   "id": "eb-0128",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "American soldiers in World War I were often given which nickname?",
+   "options": [
+    "Doughboys",
+    "Minutemen",
+    "Rough Riders",
+    "Redcoats"
+   ],
+   "answer": 0,
+   "explain": "The nickname's origin is uncertain, but 'doughboys' was the common name for American infantrymen in World War I."
+  },
+  {
+   "id": "eb-0129",
+   "period": 7,
+   "themes": [
+    "environment-geography",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The deadly flu pandemic that swept the world in 1918, near the end of World War I, is commonly called what?",
+   "options": [
+    "The Asian flu",
+    "The Black Death",
+    "The Hong Kong flu",
+    "The Spanish flu"
+   ],
+   "answer": 3,
+   "explain": "The 1918 flu killed an estimated 50 million people worldwide, including about 675,000 Americans."
+  },
+  {
+   "id": "eb-0130",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon",
+    "arlington-cemetery"
+   ],
+   "difficulty": 1,
+   "q": "Which general commanded the American forces sent to Europe in World War I?",
+   "options": [
+    "Douglas MacArthur",
+    "Dwight D. Eisenhower",
+    "John J. Pershing",
+    "George Patton"
+   ],
+   "answer": 2,
+   "explain": "General John 'Black Jack' Pershing led the American Expeditionary Forces and is buried at Arlington."
+  },
+  {
+   "id": "eb-0131",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The famous 'I Want YOU' recruiting poster of Uncle Sam was first made during which war?",
+   "options": [
+    "The Civil War",
+    "World War I",
+    "The Spanish-American War",
+    "The Korean War"
+   ],
+   "answer": 1,
+   "explain": "James Montgomery Flagg drew the poster in 1917. About four million copies were printed during World War I."
+  },
+  {
+   "id": "eb-0132",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Louis Armstrong and Duke Ellington were stars of which music style that boomed in the 1920s?",
+   "options": [
+    "Rock and roll",
+    "Jazz",
+    "Disco",
+    "Hip hop"
+   ],
+   "answer": 1,
+   "explain": "Jazz grew from Black musical traditions in New Orleans and spread north. The 1920s are often called the Jazz Age."
+  },
+  {
+   "id": "eb-0133",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Young women of the 1920s who wore short skirts and bobbed hair were nicknamed what?",
+   "options": [
+    "Flappers",
+    "Suffragettes",
+    "Beatniks",
+    "Hippies"
+   ],
+   "answer": 0,
+   "explain": "Flappers challenged old ideas about how women should dress and act, and became a symbol of the Roaring Twenties."
+  },
+  {
+   "id": "eb-0134",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Harlem Renaissance, a flowering of Black art, music and writing in the 1920s, was centered in which city?",
+   "options": [
+    "Chicago",
+    "Atlanta",
+    "Detroit",
+    "New York"
+   ],
+   "answer": 3,
+   "explain": "Harlem, a neighborhood in upper Manhattan, drew Black writers, artists and musicians during the Great Migration."
+  },
+  {
+   "id": "eb-0135",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which poet was a leading figure of the Harlem Renaissance?",
+   "options": [
+    "Robert Frost",
+    "Carl Sandburg",
+    "Langston Hughes",
+    "Ezra Pound"
+   ],
+   "answer": 2,
+   "explain": "Langston Hughes wrote poems such as 'The Negro Speaks of Rivers' and 'I, Too,' celebrating Black life."
+  },
+  {
+   "id": "eb-0136",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Who made the first nonstop solo flight across the Atlantic Ocean, in 1927?",
+   "options": [
+    "Amelia Earhart",
+    "Orville Wright",
+    "Charles Lindbergh",
+    "Howard Hughes"
+   ],
+   "answer": 2,
+   "explain": "Lindbergh flew from New York to Paris in about 33 and a half hours in May 1927 and became a world celebrity."
+  },
+  {
+   "id": "eb-0137",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of Charles Lindbergh's plane, now in the National Air and Space Museum?",
+   "options": [
+    "The Enola Gay",
+    "The Spirit of St. Louis",
+    "The Memphis Belle",
+    "The Winnie Mae"
+   ],
+   "answer": 1,
+   "explain": "Lindbergh named the plane for the St. Louis businessmen who paid for it."
+  },
+  {
+   "id": "eb-0138",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "air-and-space"
+   ],
+   "difficulty": 1,
+   "q": "Which pilot became the first woman to fly solo across the Atlantic, in 1932?",
+   "options": [
+    "Amelia Earhart",
+    "Bessie Coleman",
+    "Harriet Quimby",
+    "Jacqueline Cochran"
+   ],
+   "answer": 0,
+   "explain": "Amelia Earhart flew from Newfoundland to Northern Ireland. She disappeared over the Pacific in 1937."
+  },
+  {
+   "id": "eb-0139",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which baseball star hit 60 home runs for the New York Yankees in 1927?",
+   "options": [
+    "Jackie Robinson",
+    "Joe DiMaggio",
+    "Mickey Mantle",
+    "Babe Ruth"
+   ],
+   "answer": 3,
+   "explain": "Babe Ruth's 60 home runs set a single-season record that stood until 1961."
+  },
+  {
+   "id": "eb-0140",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During Prohibition, secret illegal bars were often called what?",
+   "options": [
+    "Soda fountains",
+    "Nickelodeons",
+    "Penny arcades",
+    "Speakeasies"
+   ],
+   "answer": 3,
+   "explain": "Customers had to 'speak easy,' or quietly, about these hidden bars, which often paid off police to stay open."
+  },
+  {
+   "id": "eb-0141",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which Chicago gangster grew rich selling illegal alcohol during Prohibition?",
+   "options": [
+    "Jesse James",
+    "Billy the Kid",
+    "Al Capone",
+    "Butch Cassidy"
+   ],
+   "answer": 2,
+   "explain": "Al Capone was finally convicted in 1931, not for bootlegging but for income tax evasion."
+  },
+  {
+   "id": "eb-0142",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment began Prohibition, the national ban on making and selling alcohol?",
+   "options": [
+    "The 19th Amendment",
+    "The 18th Amendment",
+    "The 21st Amendment",
+    "The 16th Amendment"
+   ],
+   "answer": 1,
+   "explain": "The 18th Amendment was ratified in 1919 and took effect in January 1920."
+  },
+  {
+   "id": "eb-0143",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "national-archives",
+    "house-floor"
+   ],
+   "difficulty": 1,
+   "q": "Which amendment ended Prohibition in 1933?",
+   "options": [
+    "The 21st Amendment",
+    "The 18th Amendment",
+    "The 20th Amendment",
+    "The 22nd Amendment"
+   ],
+   "answer": 0,
+   "explain": "The 21st Amendment repealed the 18th. It is the only amendment that cancels an earlier one."
+  },
+  {
+   "id": "eb-0144",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Released in 1927, which film is known as the first feature-length 'talkie' with spoken dialogue?",
+   "options": [
+    "The Jazz Singer",
+    "Gone with the Wind",
+    "The Wizard of Oz",
+    "Casablanca"
+   ],
+   "answer": 0,
+   "explain": "The Jazz Singer, starring Al Jolson, mixed silent scenes with songs and a few spoken lines, and began the end of the silent film era."
+  },
+  {
+   "id": "eb-0145",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "supreme-court",
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "The 1925 Scopes 'Monkey Trial' in Tennessee was about teaching what in public schools?",
+   "options": [
+    "Prayer",
+    "Foreign languages",
+    "American history",
+    "Evolution"
+   ],
+   "answer": 3,
+   "explain": "Teacher John Scopes was found guilty of teaching evolution in violation of state law, though the verdict was later overturned on a technicality."
+  },
+  {
+   "id": "eb-0146",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which F. Scott Fitzgerald novel of 1925 portrays wealth and wild parties in the Roaring Twenties?",
+   "options": [
+    "The Sun Also Rises",
+    "Main Street",
+    "The Great Gatsby",
+    "Babbitt"
+   ],
+   "answer": 2,
+   "explain": "The Great Gatsby follows the mysterious millionaire Jay Gatsby on Long Island. The other titles are by Hemingway and Sinclair Lewis."
+  },
+  {
+   "id": "eb-0147",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which 1920s president was nicknamed 'Silent Cal' for his quiet manner?",
+   "options": [
+    "Warren G. Harding",
+    "Calvin Coolidge",
+    "Herbert Hoover",
+    "Woodrow Wilson"
+   ],
+   "answer": 1,
+   "explain": "Calvin Coolidge became president when Harding died in 1923 and was known for saying very little."
+  },
+  {
+   "id": "eb-0148",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "senate-floor",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "The Teapot Dome bribery scandal of the 1920s struck which president's administration?",
+   "options": [
+    "Calvin Coolidge",
+    "Warren G. Harding",
+    "Herbert Hoover",
+    "Woodrow Wilson"
+   ],
+   "answer": 1,
+   "explain": "Harding's interior secretary, Albert Fall, took bribes to lease government oil reserves and went to prison."
+  },
+  {
+   "id": "eb-0149",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Mount Rushmore, carved between 1927 and 1941, is in which state?",
+   "options": [
+    "South Dakota",
+    "Wyoming",
+    "Montana",
+    "Colorado"
+   ],
+   "answer": 0,
+   "explain": "Mount Rushmore in the Black Hills shows Washington, Jefferson, Theodore Roosevelt and Lincoln."
+  },
+  {
+   "id": "eb-0150",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Completed in 1931, which New York skyscraper was the world's tallest building for nearly 40 years?",
+   "options": [
+    "The Chrysler Building",
+    "The Woolworth Building",
+    "The Flatiron Building",
+    "The Empire State Building"
+   ],
+   "answer": 3,
+   "explain": "Built in just over a year, the Empire State Building held the title until the World Trade Center passed it around 1970."
+  },
+  {
+   "id": "eb-0151",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "treasury",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The stock market crash of October 29, 1929, which helped start the Great Depression, is often called what?",
+   "options": [
+    "Bloody Sunday",
+    "Super Tuesday",
+    "Black Tuesday",
+    "Patriots' Day"
+   ],
+   "answer": 2,
+   "explain": "On Black Tuesday investors dumped millions of shares, and stock prices kept sliding for nearly three years."
+  },
+  {
+   "id": "eb-0152",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Who was president when the stock market crashed in 1929?",
+   "options": [
+    "Calvin Coolidge",
+    "Franklin D. Roosevelt",
+    "Herbert Hoover",
+    "Warren G. Harding"
+   ],
+   "answer": 2,
+   "explain": "Herbert Hoover took office in March 1929, seven months before the crash, and lost the 1932 election to Roosevelt."
+  },
+  {
+   "id": "eb-0153",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During the Depression, shantytowns built by homeless people were mockingly named after which president?",
+   "options": [
+    "Calvin Coolidge",
+    "Herbert Hoover",
+    "Woodrow Wilson",
+    "Franklin D. Roosevelt"
+   ],
+   "answer": 1,
+   "explain": "People called them Hoovervilles, blaming the president for the hard times. A newspaper used as a blanket was a 'Hoover blanket.'"
+  },
+  {
+   "id": "eb-0154",
+   "period": 7,
+   "themes": [
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The Dust Bowl of the 1930s struck farms mainly in which region?",
+   "options": [
+    "The southern Great Plains",
+    "New England",
+    "The Pacific Northwest",
+    "The Florida peninsula"
+   ],
+   "answer": 0,
+   "explain": "Drought, heat and over-plowing turned parts of Oklahoma, Texas, Kansas, Colorado and New Mexico into blowing dust."
+  },
+  {
+   "id": "eb-0155",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "environment-geography"
+   ],
+   "stops": [
+    "library-of-congress"
+   ],
+   "difficulty": 1,
+   "q": "Which John Steinbeck novel tells of an Oklahoma family fleeing the Dust Bowl for California?",
+   "options": [
+    "The Old Man and the Sea",
+    "The Great Gatsby",
+    "To Kill a Mockingbird",
+    "The Grapes of Wrath"
+   ],
+   "answer": 3,
+   "explain": "The Grapes of Wrath, published in 1939, follows the Joad family and won the Pulitzer Prize."
+  },
+  {
+   "id": "eb-0156",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of Franklin D. Roosevelt's set of programs to fight the Great Depression?",
+   "options": [
+    "The Square Deal",
+    "The Fair Deal",
+    "The Great Society",
+    "The New Deal"
+   ],
+   "answer": 3,
+   "explain": "The Square Deal was Theodore Roosevelt's, the Fair Deal was Truman's and the Great Society was Lyndon Johnson's."
+  },
+  {
+   "id": "eb-0157",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Franklin D. Roosevelt spoke to Americans directly in radio talks known as what?",
+   "options": [
+    "Town hall meetings",
+    "Press briefings",
+    "Fireside chats",
+    "Whistle-stop speeches"
+   ],
+   "answer": 2,
+   "explain": "Roosevelt gave about 30 fireside chats from 1933 to 1944, explaining banking, the New Deal and the war in plain language."
+  },
+  {
+   "id": "eb-0158",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "treasury"
+   ],
+   "difficulty": 1,
+   "q": "Which 1935 New Deal law created federal old-age pensions?",
+   "options": [
+    "The Wagner Act",
+    "The Social Security Act",
+    "The GI Bill",
+    "The Medicare Act"
+   ],
+   "answer": 1,
+   "explain": "The Social Security Act also created unemployment insurance. The first monthly checks went out in 1940."
+  },
+  {
+   "id": "eb-0159",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "How many times was Franklin D. Roosevelt elected president?",
+   "options": [
+    "Four",
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "answer": 0,
+   "explain": "Roosevelt won in 1932, 1936, 1940 and 1944, the only president elected more than twice. He died early in his fourth term."
+  },
+  {
+   "id": "eb-0160",
+   "period": 7,
+   "themes": [
+    "identity"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Franklin D. Roosevelt lost the use of his legs after an illness in 1921. Which disease was he diagnosed with?",
+   "options": [
+    "Polio",
+    "Tuberculosis",
+    "Smallpox",
+    "Scarlet fever"
+   ],
+   "answer": 0,
+   "explain": "Roosevelt was diagnosed with polio at age 39. A statue at the FDR Memorial shows him in his wheelchair."
+  },
+  {
+   "id": "eb-0161",
+   "period": 7,
+   "themes": [
+    "politics-power",
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In his 1933 inaugural address, Franklin Roosevelt said 'the only thing we have to fear is' what?",
+   "options": [
+    "War itself",
+    "Hunger itself",
+    "Doubt itself",
+    "Fear itself"
+   ],
+   "answer": 3,
+   "explain": "Roosevelt spoke at the depth of the Depression, with banks failing and about a quarter of workers unemployed."
+  },
+  {
+   "id": "eb-0162",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which First Lady traveled the country as her husband's 'eyes and ears' during the Depression and World War II?",
+   "options": [
+    "Edith Wilson",
+    "Bess Truman",
+    "Eleanor Roosevelt",
+    "Lou Hoover"
+   ],
+   "answer": 2,
+   "explain": "Eleanor Roosevelt wrote a daily newspaper column and later helped draft the Universal Declaration of Human Rights."
+  },
+  {
+   "id": "eb-0163",
+   "period": 7,
+   "themes": [
+    "culture-ideas"
+   ],
+   "stops": [
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Franklin Roosevelt's Scottish terrier, shown beside him in a statue at the FDR Memorial, was named what?",
+   "options": [
+    "Checkers",
+    "Fala",
+    "Buddy",
+    "Laddie Boy"
+   ],
+   "answer": 1,
+   "explain": "Fala traveled almost everywhere with Roosevelt. Checkers was Nixon's dog and Laddie Boy was Harding's."
+  },
+  {
+   "id": "eb-0164",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "environment-geography"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Hoover Dam, built in the 1930s on the Arizona-Nevada border, holds back which river?",
+   "options": [
+    "The Mississippi River",
+    "The Colorado River",
+    "The Columbia River",
+    "The Missouri River"
+   ],
+   "answer": 1,
+   "explain": "Hoover Dam created Lake Mead and supplies water and power to much of the Southwest."
+  },
+  {
+   "id": "eb-0165",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "capitol-rotunda",
+    "washington-monument"
+   ],
+   "difficulty": 1,
+   "q": "In 1932, thousands of World War I veterans known as the Bonus Army camped in Washington to demand what?",
+   "options": [
+    "Early payment of promised bonuses",
+    "A new war against Japan",
+    "The repeal of Prohibition",
+    "Free land in the West"
+   ],
+   "answer": 0,
+   "explain": "Army troops drove the veterans out of their camps in July 1932, which badly hurt President Hoover's image."
+  },
+  {
+   "id": "eb-0166",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "supreme-court",
+    "capitol-rotunda"
+   ],
+   "difficulty": 1,
+   "q": "Until its own building opened in 1935, where did the Supreme Court usually meet?",
+   "options": [
+    "In the White House",
+    "In the Treasury Building",
+    "In the Library of Congress",
+    "In the U.S. Capitol"
+   ],
+   "answer": 3,
+   "explain": "The Court met in the Capitol from 1801 to 1935, apart from a few years after the 1814 fire, and used the Old Senate Chamber from 1860."
+  },
+  {
+   "id": "eb-0167",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "lincoln-memorial",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In 1939, after being barred from Constitution Hall, which singer gave a famous concert on the steps of the Lincoln Memorial?",
+   "options": [
+    "Billie Holiday",
+    "Ella Fitzgerald",
+    "Marian Anderson",
+    "Bessie Smith"
+   ],
+   "answer": 2,
+   "explain": "About 75,000 people heard Marian Anderson sing on Easter Sunday 1939, with Eleanor Roosevelt's support."
+  },
+  {
+   "id": "eb-0168",
+   "period": 7,
+   "themes": [
+    "culture-ideas",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which American track star won four gold medals at the 1936 Olympics in Nazi Germany?",
+   "options": [
+    "Jim Thorpe",
+    "Carl Lewis",
+    "Jesse Owens",
+    "Jackie Robinson"
+   ],
+   "answer": 2,
+   "explain": "Jesse Owens's wins in Berlin undercut Hitler's claims of racial superiority."
+  },
+  {
+   "id": "eb-0169",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "environment-geography"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Pearl Harbor, the naval base attacked on December 7, 1941, is in which present-day state?",
+   "options": [
+    "California",
+    "Hawaii",
+    "Alaska",
+    "Washington"
+   ],
+   "answer": 1,
+   "explain": "Hawaii was a U.S. territory in 1941 and became the 50th state in 1959."
+  },
+  {
+   "id": "eb-0170",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which country's planes attacked Pearl Harbor in 1941?",
+   "options": [
+    "Japan",
+    "Germany",
+    "Italy",
+    "The Soviet Union"
+   ],
+   "answer": 0,
+   "explain": "The surprise attack sank or damaged 19 U.S. ships and killed about 2,400 Americans."
+  },
+  {
+   "id": "eb-0171",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "politics-power"
+   ],
+   "stops": [
+    "house-floor",
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Franklin Roosevelt called December 7, 1941, 'a date which will live in' what?",
+   "options": [
+    "History",
+    "Glory",
+    "Memory",
+    "Infamy"
+   ],
+   "answer": 3,
+   "explain": "Roosevelt spoke to a joint session of Congress the next day, and Congress declared war on Japan within an hour."
+  },
+  {
+   "id": "eb-0172",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "On D-Day, June 6, 1944, Allied troops landed on beaches in which region of France?",
+   "options": [
+    "Provence",
+    "Brittany",
+    "Alsace",
+    "Normandy"
+   ],
+   "answer": 3,
+   "explain": "More than 150,000 Allied troops crossed the English Channel on D-Day to begin freeing Western Europe."
+  },
+  {
+   "id": "eb-0173",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which American general was supreme commander of the Allied forces on D-Day?",
+   "options": [
+    "Douglas MacArthur",
+    "George Patton",
+    "Dwight D. Eisenhower",
+    "John J. Pershing"
+   ],
+   "answer": 2,
+   "explain": "Dwight Eisenhower planned and led the Normandy invasion and was elected president in 1952."
+  },
+  {
+   "id": "eb-0174",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "In World War II, Germany, Italy and Japan were known by which name?",
+   "options": [
+    "The Allied Powers",
+    "The Axis Powers",
+    "The Central Powers",
+    "The Triple Entente"
+   ],
+   "answer": 1,
+   "explain": "The Allies, including the United States, Britain and the Soviet Union, fought the Axis. The Central Powers fought in World War I."
+  },
+  {
+   "id": "eb-0175",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Who led Nazi Germany during World War II?",
+   "options": [
+    "Adolf Hitler",
+    "Benito Mussolini",
+    "Joseph Stalin",
+    "Kaiser Wilhelm II"
+   ],
+   "answer": 0,
+   "explain": "Adolf Hitler took power in 1933. Mussolini led Italy, Stalin the Soviet Union, and the Kaiser ruled Germany in World War I."
+  },
+  {
+   "id": "eb-0176",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "identity"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "national-archives"
+   ],
+   "difficulty": 1,
+   "q": "What name is given to Nazi Germany's murder of about six million European Jews?",
+   "options": [
+    "The Holocaust",
+    "The Blitz",
+    "The Great Purge",
+    "The Long March"
+   ],
+   "answer": 0,
+   "explain": "The Holocaust also killed millions of others, including Roma, disabled people and Soviet prisoners of war."
+  },
+  {
+   "id": "eb-0177",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-american-history",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which wartime symbol, named in a 1942 song, stood for the millions of women who took factory jobs in World War II?",
+   "options": [
+    "Lady Liberty",
+    "Betty Crocker",
+    "Molly Pitcher",
+    "Rosie the Riveter"
+   ],
+   "answer": 3,
+   "explain": "Rosie came from a 1942 song and a 1943 Norman Rockwell cover. The 'We Can Do It!' poster is now widely linked with her."
+  },
+  {
+   "id": "eb-0178",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "pentagon",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What was the code name of the secret U.S. program that built the first atomic bombs?",
+   "options": [
+    "Operation Overlord",
+    "Project Apollo",
+    "The Manhattan Project",
+    "Operation Torch"
+   ],
+   "answer": 2,
+   "explain": "The Manhattan Project employed about 130,000 people. Overlord was D-Day and Torch was the 1942 North Africa landing."
+  },
+  {
+   "id": "eb-0179",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "arlington-cemetery",
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The famous 1945 photo of Marines raising the flag, later the model for the Marine Corps War Memorial near Arlington, was taken on which island?",
+   "options": [
+    "Okinawa",
+    "Iwo Jima",
+    "Guam",
+    "Midway"
+   ],
+   "answer": 1,
+   "explain": "Joe Rosenthal took the photo on February 23, 1945. The bronze memorial was dedicated in 1954."
+  },
+  {
+   "id": "eb-0180",
+   "period": 7,
+   "themes": [
+    "identity",
+    "politics-power"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During World War II, the U.S. government forced about 120,000 people of what ancestry into camps?",
+   "options": [
+    "German",
+    "Japanese",
+    "Italian",
+    "Chinese"
+   ],
+   "answer": 1,
+   "explain": "Most were American citizens. In 1988 Congress formally apologized and paid survivors $20,000 each."
+  },
+  {
+   "id": "eb-0181",
+   "period": 7,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "air-and-space",
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The Tuskegee Airmen of World War II were famous as the first group of what?",
+   "options": [
+    "Black military pilots",
+    "Women combat pilots",
+    "Navy submarine crews",
+    "Army paratroopers"
+   ],
+   "answer": 0,
+   "explain": "The Tuskegee Airmen trained in Alabama and flew fighter escort missions over Europe with a strong record."
+  },
+  {
+   "id": "eb-0182",
+   "period": 7,
+   "themes": [
+    "identity",
+    "america-world"
+   ],
+   "stops": [
+    "smithsonian-american-indian",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Marine 'code talkers' in the Pacific sent unbreakable messages in the language of which Native American people?",
+   "options": [
+    "Cherokee",
+    "Lakota",
+    "Seminole",
+    "Navajo"
+   ],
+   "answer": 3,
+   "explain": "About 400 Navajo code talkers served. The Japanese never broke their code."
+  },
+  {
+   "id": "eb-0183",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "What did V-E Day in May 1945 celebrate?",
+   "options": [
+    "Japan's surrender, ending the war in Asia",
+    "The landing of Allied troops in France",
+    "Germany's surrender, ending the war in Europe",
+    "The end of the fighting in World War I"
+   ],
+   "answer": 2,
+   "explain": "Germany surrendered on May 7-8, 1945. Japan surrendered in August, and the formal signing was on September 2."
+  },
+  {
+   "id": "eb-0184",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Who was Britain's prime minister for most of World War II?",
+   "options": [
+    "Neville Chamberlain",
+    "Clement Attlee",
+    "Winston Churchill",
+    "David Lloyd George"
+   ],
+   "answer": 2,
+   "explain": "Winston Churchill took office in May 1940 and led Britain until July 1945."
+  },
+  {
+   "id": "eb-0185",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which June 1942 naval battle is considered the turning point of the war in the Pacific?",
+   "options": [
+    "Pearl Harbor",
+    "Midway",
+    "Coral Sea",
+    "Leyte Gulf"
+   ],
+   "answer": 1,
+   "explain": "At Midway, U.S. planes sank four Japanese aircraft carriers, and Japan never regained the upper hand at sea."
+  },
+  {
+   "id": "eb-0186",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "politics-power"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "The GI Bill of 1944 helped returning World War II veterans pay for what?",
+   "options": [
+    "College and home loans",
+    "New cars and trucks",
+    "Farm equipment",
+    "Medical school only"
+   ],
+   "answer": 0,
+   "explain": "Millions of veterans went to college or bought homes with GI Bill help, which fueled postwar growth."
+  },
+  {
+   "id": "eb-0187",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "In which year did World War II end?",
+   "options": [
+    "1944",
+    "1946",
+    "1941",
+    "1945"
+   ],
+   "answer": 3,
+   "explain": "Germany surrendered in May 1945 and Japan in August 1945, after the atomic bombings."
+  },
+  {
+   "id": "eb-0188",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which battleship, sunk at Pearl Harbor with more than 1,100 of its crew, now has a memorial built over it?",
+   "options": [
+    "USS Missouri",
+    "USS Maine",
+    "USS Constitution",
+    "USS Arizona"
+   ],
+   "answer": 3,
+   "explain": "The USS Arizona Memorial opened in 1962. Japan signed its surrender aboard the USS Missouri in 1945."
+  },
+  {
+   "id": "eb-0189",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "The Pentagon, headquarters of the Department of Defense, was built during which war?",
+   "options": [
+    "World War I",
+    "The Korean War",
+    "World War II",
+    "The Vietnam War"
+   ],
+   "answer": 2,
+   "explain": "Construction began on September 11, 1941, and the building was finished in January 1943, in about 16 months."
+  },
+  {
+   "id": "eb-0190",
+   "period": 7,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "national-cathedral",
+    "white-house"
+   ],
+   "difficulty": 1,
+   "q": "Which president, who led the nation in World War I, is buried in Washington National Cathedral?",
+   "options": [
+    "Theodore Roosevelt",
+    "Woodrow Wilson",
+    "Warren G. Harding",
+    "William Howard Taft"
+   ],
+   "answer": 1,
+   "explain": "Woodrow Wilson stayed in Washington after leaving office and was buried at the cathedral in 1924. Taft is at Arlington."
+  },
+  {
+   "id": "eb-0191",
+   "period": 7,
+   "themes": [
+    "peopling",
+    "identity"
+   ],
+   "stops": [
+    "smithsonian-african-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During the Great Migration, millions of Black Americans moved from the rural South to where?",
+   "options": [
+    "Cities in the North and West",
+    "Farms in the Caribbean",
+    "Towns in Mexico",
+    "Ranches in Canada"
+   ],
+   "answer": 0,
+   "explain": "About six million Black Southerners moved between about 1910 and 1970, escaping Jim Crow and seeking jobs."
+  },
+  {
+   "id": "eb-0192",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which country, at war with Germany since 1939, became the main European ally of the United States in World War II?",
+   "options": [
+    "Great Britain",
+    "Spain",
+    "Sweden",
+    "Switzerland"
+   ],
+   "answer": 0,
+   "explain": "Britain declared war on Germany in 1939. Spain, Sweden and Switzerland stayed neutral."
+  },
+  {
+   "id": "eb-0193",
+   "period": 7,
+   "themes": [
+    "america-world",
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "The first atomic bomb used in war was dropped in August 1945 on Japan. Which president decided to use it?",
+   "options": [
+    "Franklin D. Roosevelt",
+    "Dwight D. Eisenhower",
+    "Herbert Hoover",
+    "Harry S. Truman"
+   ],
+   "answer": 3,
+   "explain": "Truman approved the bombings of Hiroshima and Nagasaki. Japan announced its surrender days later."
+  },
+  {
+   "id": "eb-0194",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "fdr-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which leader of the Soviet Union met with Roosevelt and Churchill at Yalta in 1945?",
+   "options": [
+    "Vladimir Lenin",
+    "Nikita Khrushchev",
+    "Joseph Stalin",
+    "Leon Trotsky"
+   ],
+   "answer": 2,
+   "explain": "At the Yalta Conference in February 1945 the 'Big Three' planned for the defeat of Germany and the postwar world."
+  },
+  {
+   "id": "eb-0195",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which general led U.S. forces in the Pacific and famously promised the Philippines 'I shall return'?",
+   "options": [
+    "George Patton",
+    "Douglas MacArthur",
+    "Omar Bradley",
+    "Mark Clark"
+   ],
+   "answer": 1,
+   "explain": "Douglas MacArthur left the Philippines in 1942 and returned in October 1944. He accepted Japan's surrender in 1945."
+  },
+  {
+   "id": "eb-0196",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial"
+   ],
+   "difficulty": 1,
+   "q": "Which country was led by Benito Mussolini during World War II?",
+   "options": [
+    "Spain",
+    "Italy",
+    "Germany",
+    "Hungary"
+   ],
+   "answer": 1,
+   "explain": "Mussolini ruled Italy from 1922. He was overthrown in 1943 and killed by Italian partisans in 1945."
+  },
+  {
+   "id": "eb-0197",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "The war in Europe began in September 1939 when Germany invaded which country?",
+   "options": [
+    "Poland",
+    "France",
+    "Belgium",
+    "Austria"
+   ],
+   "answer": 0,
+   "explain": "Britain and France declared war on Germany two days after the invasion of Poland."
+  },
+  {
+   "id": "eb-0198",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "During World War II, the government issued ration books to limit how much Americans could buy of which items?",
+   "options": [
+    "Books, radios and films",
+    "Bread, milk and eggs only",
+    "Clothes, toys and shoes only",
+    "Sugar, meat and gasoline"
+   ],
+   "answer": 3,
+   "explain": "Rationing kept scarce goods flowing to the military. Coffee, butter and tires were also rationed."
+  },
+  {
+   "id": "eb-0199",
+   "period": 6,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "union-station",
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "In the late 1800s, which form of transportation linked the country together and helped cities like Chicago boom?",
+   "options": [
+    "Airlines",
+    "Interstate highways",
+    "Railroads",
+    "Steamships on canals"
+   ],
+   "answer": 2,
+   "explain": "By 1900 the country had about 190,000 miles of railroad track, more than all of Europe."
+  },
+  {
+   "id": "eb-0200",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology",
+    "culture-ideas"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "Which new entertainment brought news, music and comedy into most American homes in the 1920s and 1930s?",
+   "options": [
+    "Television",
+    "The internet",
+    "Radio",
+    "Cassette tapes"
+   ],
+   "answer": 2,
+   "explain": "Commercial radio began in 1920. By the late 1930s most American households owned a radio."
+  },
+  {
+   "id": "eb-0201",
+   "period": 6,
+   "themes": [
+    "peopling"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What famous New York statue welcomed many immigrants as their ships arrived after 1886?",
+   "options": [
+    "The Charging Bull",
+    "The Statue of Liberty",
+    "The Lincoln statue",
+    "The Statue of Freedom"
+   ],
+   "answer": 1,
+   "explain": "Lady Liberty stands on Liberty Island, near Ellis Island, in New York Harbor."
+  },
+  {
+   "id": "eb-0202",
+   "period": 5,
+   "themes": [
+    "politics-power"
+   ],
+   "stops": [
+    "lincoln-memorial"
+   ],
+   "difficulty": 1,
+   "q": "What was the name of the group of 11 Southern states that left the Union in 1860-1861?",
+   "options": [
+    "The Confederate States of America",
+    "The United Southern Republic",
+    "The Southern Alliance",
+    "The Dixie Federation"
+   ],
+   "answer": 0,
+   "explain": "The Confederacy wrote its own constitution and chose Jefferson Davis as president."
+  },
+  {
+   "id": "eb-0203",
+   "period": 7,
+   "themes": [
+    "america-world"
+   ],
+   "stops": [
+    "wwii-memorial",
+    "pentagon"
+   ],
+   "difficulty": 1,
+   "q": "Which word was used for the countries, including the United States, Britain and the Soviet Union, that fought against Germany in World War II?",
+   "options": [
+    "The Axis",
+    "The Central Powers",
+    "The Entente Cordiale",
+    "The Allies"
+   ],
+   "answer": 3,
+   "explain": "The Allies were led by the 'Big Three': Roosevelt, Churchill and Stalin."
+  },
+  {
+   "id": "eb-0204",
+   "period": 7,
+   "themes": [
+    "work-exchange-technology"
+   ],
+   "stops": [
+    "smithsonian-american-history"
+   ],
+   "difficulty": 1,
+   "q": "What did Henry Ford's moving assembly line, introduced in 1913, mainly make possible?",
+   "options": [
+    "Cars that could run on electricity",
+    "The first cars with radios",
+    "Cars built by robots",
+    "Building cars faster and more cheaply"
+   ],
+   "answer": 3,
+   "explain": "The assembly line cut the time to build a Model T from about 12 hours to about 90 minutes."
+  }
+ ]
+}

@@ -180,7 +180,7 @@
     "korean-war-memorial",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What led China to enter the Korean War in late 1950?",
    "options": [
     "UN forces advanced toward the Yalu River on China's border",
@@ -306,7 +306,7 @@
     "white-house",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "President Truman's Executive Order 9981 in 1948 did what?",
    "options": [
     "Ordered an end to segregation in the armed forces",
@@ -449,7 +449,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The National Aeronautics and Space Administration (NASA) was created in what year?",
    "options": [
     "1947",
@@ -470,7 +470,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Explorer 1, launched on January 31, 1958, was significant as what?",
    "options": [
     "The first American crewed orbital flight",
@@ -617,7 +617,7 @@
     "air-and-space",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the U-2 incident of May 1960?",
    "options": [
     "A Chinese missile shot down an American spy plane over Manchuria",
@@ -826,7 +826,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who became the first American to orbit the Earth, in February 1962?",
    "options": [
     "Alan Shepard",
@@ -950,7 +950,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which aircraft test pilot first flew faster than the speed of sound, in 1947?",
    "options": [
     "Neil Armstrong",
@@ -1120,7 +1120,7 @@
     "smithsonian-american-history",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was redlining?",
    "options": [
     "Setting a maximum interest rate that lenders could charge in minority neighborhoods",
@@ -1206,7 +1206,7 @@
     "senate-floor",
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 22nd Amendment, ratified in 1951, did what?",
    "options": [
     "Limited presidents to two elected terms",
@@ -1881,7 +1881,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was the March on Washington held?",
    "options": [
     "August 28, 1963",
@@ -1966,7 +1966,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "King began the \"I Have a Dream\" speech by invoking which earlier document?",
    "options": [
     "The Articles of Confederation",
@@ -2096,7 +2096,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Poor People's Campaign of 1968 set up a shanty encampment near the Lincoln Memorial called what?",
    "options": [
     "Freedom Village",
@@ -2180,7 +2180,7 @@
    "stops": [
     "national-archives"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which title of the Civil Rights Act of 1964 banned discrimination in hotels, restaurants, and theaters?",
    "options": [
     "Title II",
@@ -2222,7 +2222,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which President signed the Civil Rights Act of 1964 into law?",
    "options": [
     "Lyndon B. Johnson",
@@ -2265,7 +2265,7 @@
     "national-archives",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 24th Amendment, ratified in 1964, did what?",
    "options": [
     "Lowered the voting age to 18 nationwide",
@@ -2286,7 +2286,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the Freedom Summer of 1964?",
    "options": [
     "A national bus tour of Northern cities by civil rights leaders",
@@ -2478,7 +2478,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Loving v. Virginia (1967) struck down laws that banned what?",
    "options": [
     "Public school prayer",
@@ -2625,7 +2625,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was Martin Luther King Jr. assassinated on April 4, 1968?",
    "options": [
     "Atlanta, Georgia",
@@ -2711,7 +2711,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The King Memorial lies between which two memorials, aligned in a line of sight?",
    "options": [
     "The Washington Monument and the Capitol",
@@ -2753,7 +2753,7 @@
    "stops": [
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The National Museum of African American History and Culture opened on the National Mall in what year?",
    "options": [
     "1976",
@@ -2942,7 +2942,7 @@
     "white-house",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president appointed Thurgood Marshall to the Supreme Court in 1967?",
    "options": [
     "John Kennedy",
@@ -3152,7 +3152,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which French defeat in 1954 ended France's attempt to keep control of Vietnam?",
    "options": [
     "Hue Citadel",
@@ -3238,7 +3238,7 @@
     "senate-floor",
     "vietnam-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which senators cast the only two votes against the Gulf of Tonkin Resolution?",
    "options": [
     "William Fulbright and Mike Mansfield",
@@ -3464,7 +3464,7 @@
     "vietnam-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did President Johnson announce on March 31, 1968?",
    "options": [
     "He would send 200,000 more troops",
@@ -3588,7 +3588,7 @@
     "house-floor",
     "senate-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The 26th Amendment, ratified in 1971, did what?",
    "options": [
     "Abolished poll taxes in elections",
@@ -3629,7 +3629,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who leaked the Pentagon Papers to the press in 1971?",
    "options": [
     "Bob Woodward",
@@ -3755,7 +3755,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The fall of Saigon occurred in what month and year?",
    "options": [
     "January 1973",
@@ -3796,7 +3796,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Vietnam Veterans Memorial was dedicated in what year?",
    "options": [
     "1965",
@@ -3816,7 +3816,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Whose design won the 1981 national competition for the Vietnam Veterans Memorial?",
    "options": [
     "Louis Kahn",
@@ -3836,7 +3836,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How are the names on the Vietnam Veterans Memorial arranged?",
    "options": [
     "By date of casualty",
@@ -4020,7 +4020,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Robert McNamara served as Secretary of Defense under which two presidents?",
    "options": [
     "Eisenhower and Kennedy",
@@ -4102,7 +4102,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which strategic arms agreement of 1972 limited American and Soviet missile defenses?",
    "options": [
     "The START Treaty",
@@ -4142,7 +4142,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which policy of the 1970s aimed at easing tensions between the superpowers?",
    "options": [
     "The policy of rollback",
@@ -4182,7 +4182,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Why did the United States boycott the 1980 Moscow Olympics?",
    "options": [
     "Because of Soviet missile deployments in Cuba",
@@ -4222,7 +4222,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date were the American hostages in Iran released?",
    "options": [
     "November 4, 1979",
@@ -4242,7 +4242,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Camp David Accords of 1978 involved which two leaders?",
    "options": [
     "Hafez al-Assad of Syria and Yitzhak Rabin of Israel",
@@ -4262,7 +4262,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Egypt-Israel peace treaty of 1979 was signed where?",
    "options": [
     "At Camp David",
@@ -4303,7 +4303,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Carter's foreign policy was known for emphasizing what?",
    "options": [
     "Rolling back communism",
@@ -4324,7 +4324,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Carter Doctrine of 1980 declared what?",
    "options": [
     "The U.S. would withdraw its forces from Asia and the Middle East",
@@ -4364,7 +4364,7 @@
    "stops": [
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did John F. Kennedy's body lie in state in 1963?",
    "options": [
     "The Capitol Rotunda",
@@ -4384,7 +4384,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which commission investigated the assassination of President Kennedy?",
    "options": [
     "The Kerner Commission",
@@ -4485,7 +4485,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Robert F. Kennedy, assassinated in 1968, is buried where?",
    "options": [
     "Holyhood Cemetery in Brookline",
@@ -4525,7 +4525,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Arlington National Cemetery sits on land that was once owned by which Confederate general's family?",
    "options": [
     "Stonewall Jackson",
@@ -4626,7 +4626,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lyndon Johnson's domestic agenda of the mid-1960s was known by what name?",
    "options": [
     "The New Frontier",
@@ -4769,7 +4769,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Mapp v. Ohio (1961) extended which rule to the states?",
    "options": [
     "The right to a trial by jury in all criminal cases",
@@ -4913,7 +4913,7 @@
     "white-house",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president appointed Warren Burger as Chief Justice in 1969?",
    "options": [
     "Lyndon Johnson",
@@ -4973,7 +4973,7 @@
    "stops": [
     "senate-floor"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Senate committee, led by Sam Ervin, held televised hearings on Watergate in 1973?",
    "options": [
     "The Senate Judiciary Committee on Federal Election Practices",
@@ -5074,7 +5074,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When did Richard Nixon resign the presidency?",
    "options": [
     "January 1973",
@@ -5384,7 +5384,7 @@
     "white-house",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "President Ford's \"WIN\" campaign of 1974 urged Americans to do what?",
    "options": [
     "Win the space race through science education",
@@ -5406,7 +5406,7 @@
     "treasury",
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which industry did the Carter administration and Congress deregulate in 1978?",
    "options": [
     "Banking",
@@ -5448,7 +5448,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "California's Proposition 13 in 1978 is often cited as a sign of what trend?",
    "options": [
     "A new environmental movement",
@@ -5469,7 +5469,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Department of Energy, created in 1977, was established under which president?",
    "options": [
     "Jimmy Carter",
@@ -5491,7 +5491,7 @@
     "white-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which incident in March 1979 raised public fear about nuclear power?",
    "options": [
     "The fire at the Chernobyl reactor in the Soviet Union",
@@ -5682,7 +5682,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "By what vote did the Supreme Court decide Roe v. Wade in 1973?",
    "options": [
     "5 to 4",
@@ -5703,7 +5703,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Roe v. Wade was decided in what year?",
    "options": [
     "1973",
@@ -5931,7 +5931,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Why was Wounded Knee a symbolic site for the 1973 protest?",
    "options": [
     "It was the location of an 1890 massacre of Lakota people",
@@ -6017,7 +6017,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The National Museum of the American Indian opened on the National Mall in what year?",
    "options": [
     "2004",
@@ -6038,7 +6038,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Rachel Carson's 1962 book Silent Spring warned of the dangers of what?",
    "options": [
     "Nuclear fallout from weapons tests",
@@ -6228,7 +6228,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Students for a Democratic Society issued which 1962 statement of New Left ideals?",
    "options": [
     "The Sharon Statement",
@@ -6248,7 +6248,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Free Speech Movement of 1964 began at which university?",
    "options": [
     "Columbia University in New York City",
@@ -6532,7 +6532,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the Intel 4004, introduced in 1971?",
    "options": [
     "The first transistor",
@@ -6680,7 +6680,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which 1970 law created Amtrak?",
    "options": [
     "The Interstate Highway Act of 1956",
@@ -6766,7 +6766,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1981 President Reagan fired striking members of which union?",
    "options": [
     "The United Auto Workers union at Chrysler",
@@ -7014,7 +7014,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Soviet Union formally dissolved in what year?",
    "options": [
     "1985",
@@ -7117,7 +7117,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1983 the United States invaded which Caribbean nation?",
    "options": [
     "Barbados",
@@ -7137,7 +7137,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In December 1989 President George H. W. Bush sent U.S. troops into which country?",
    "options": [
     "Panama",
@@ -7536,7 +7536,7 @@
    "stops": [
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did the 1996 welfare reform law do?",
    "options": [
     "Expanded AFDC benefits and removed work requirements for recipients",
@@ -7578,7 +7578,7 @@
    "stops": [
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Telecommunications Act of 1996 did what?",
    "options": [
     "Created the Federal Communications Commission as a new agency",
@@ -7719,7 +7719,7 @@
     "senate-floor",
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who presides over a presidential impeachment trial in the Senate?",
    "options": [
     "The Speaker of the House of Representatives",
@@ -7739,7 +7739,7 @@
    "stops": [
     "house-floor"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many presidents have been impeached by the House before the end of the 1990s?",
    "options": [
     "One",
@@ -7760,7 +7760,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to the federal budget at the end of the 1990s?",
    "options": [
     "Deficits widened sharply in every year of the decade",
@@ -7801,7 +7801,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The World Wide Web was invented by whom?",
    "options": [
     "Marc Andreessen",
@@ -7821,7 +7821,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the importance of the Mosaic browser in 1993?",
    "options": [
     "It made the web easy for ordinary users",
@@ -8091,7 +8091,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The space shuttle Columbia was lost in what year?",
    "options": [
     "1986",
@@ -8111,7 +8111,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The space shuttle program ended in what year?",
    "options": [
     "1986",
@@ -8504,7 +8504,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When did the Pentagon Memorial, with 184 benches, open to the public?",
    "options": [
     "1985",
@@ -8732,7 +8732,7 @@
    "stops": [
     "arlington-cemetery"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which section of Arlington National Cemetery is known for graves of those killed in Iraq and Afghanistan?",
    "options": [
     "Section 1",
@@ -8877,7 +8877,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When did the last U.S. troops leave Iraq under a 2008 agreement between the two countries?",
    "options": [
     "October 2008",
@@ -8920,7 +8920,7 @@
     "house-floor",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Medicare Modernization Act of 2003 added which benefit?",
    "options": [
     "Dental and vision coverage for seniors",
@@ -9123,7 +9123,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which large investment bank's bankruptcy in September 2008 deepened the financial panic?",
    "options": [
     "Goldman Sachs",
@@ -9186,7 +9186,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did the Dodd-Frank Act of 2010 create?",
    "options": [
     "The Federal Reserve System to supervise the nation's largest banks",
@@ -9206,7 +9206,7 @@
    "stops": [
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At what level did the U.S. unemployment rate peak during the Great Recession?",
    "options": [
     "About 10 percent",
@@ -9391,7 +9391,7 @@
     "white-house",
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Don't Ask, Don't Tell policy was repealed in 2010 by which action?",
    "options": [
     "A ruling by the Supreme Court",
@@ -9473,7 +9473,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Citizens United helped lead to the growth of what kind of organization?",
    "options": [
     "Labor unions",
@@ -9825,7 +9825,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Dobbs case concerned a Mississippi law that did what?",
    "options": [
     "Banned all abortions except to save the life of the mother",
@@ -9845,7 +9845,7 @@
    "stops": [
     "supreme-court"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which justice wrote the majority opinion in Dobbs?",
    "options": [
     "John Roberts",
@@ -9969,7 +9969,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What is the main sculptural feature of the Korean War Veterans Memorial?",
    "options": [
     "A single bronze statue of a general standing guard",
@@ -10030,7 +10030,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which general replaced Douglas MacArthur as commander of UN forces in Korea in 1951?",
    "options": [
     "Matthew Ridgway",
@@ -10133,7 +10133,7 @@
    "stops": [
     "pentagon"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1949 the Soviet Union surprised American leaders by doing what?",
    "options": [
     "Launching its first satellite",
@@ -10153,7 +10153,7 @@
    "stops": [
     "korean-war-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "About how many American service members died in the Korean War?",
    "options": [
     "About 36,000",
@@ -10278,7 +10278,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was the first American in space, in May 1961?",
    "options": [
     "John Glenn",
@@ -10299,7 +10299,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Apollo 8, in December 1968, was the first mission to do what?",
    "options": [
     "Land two astronauts on the lunar surface",
@@ -10320,7 +10320,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When was the last crewed moon landing of the Apollo program?",
    "options": [
     "December 1972",
@@ -10362,7 +10362,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Sputnik 1 was a small satellite that did what after it was launched?",
    "options": [
     "Orbited the Earth and sent out radio beeps",
@@ -10446,7 +10446,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who opened the program at the 1963 March on Washington at the Lincoln Memorial?",
    "options": [
     "Thurgood Marshall",
@@ -10572,7 +10572,7 @@
    "stops": [
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the siege of Khe Sanh in early 1968?",
    "options": [
     "A decisive French defeat that ended colonial rule in 1954",
@@ -10635,7 +10635,7 @@
     "white-house",
     "vietnam-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did President Carter do in 1977 for men who evaded the Vietnam draft?",
    "options": [
     "Prosecuted them in federal courts",
@@ -10759,7 +10759,7 @@
    "stops": [
     "smithsonian-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Cuban refugees arriving in 1980 in the Mariel boatlift numbered about how many?",
    "options": [
     "About 125,000",

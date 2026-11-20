@@ -12,7 +12,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date in 1955 was Rosa Parks arrested in Montgomery, Alabama, for refusing to give up her bus seat to a white passenger?",
    "options": [
     "August 28, 1955",
@@ -138,7 +138,7 @@
     "mlk-memorial",
     "supreme-court"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In which case did a federal district court rule on June 5, 1956, that bus segregation in Montgomery was unconstitutional, a decision the Supreme Court later affirmed?",
    "options": [
     "Plessy v. Ferguson",
@@ -178,7 +178,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where was the founding meeting of the SCLC held in January 1957?",
    "options": [
     "Dexter Avenue Baptist Church in Montgomery",
@@ -241,7 +241,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date in 1963 did Martin Luther King Jr. write his Letter from Birmingham Jail?",
    "options": [
     "April 16, 1963",
@@ -323,7 +323,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1964 King reworked the Letter from Birmingham Jail as a chapter of which book?",
    "options": [
     "Stride Toward Freedom",
@@ -363,7 +363,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The 1963 Birmingham campaign ended with a settlement announced on which date?",
    "options": [
     "May 2, 1963",
@@ -509,7 +509,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which candidate defeated Bull Connor in a Birmingham runoff for mayor, a result that preceded the start of the 1963 campaign?",
    "options": [
     "John Patterson",
@@ -531,7 +531,7 @@
     "mlk-memorial",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which organizer served as deputy director of the 1963 March on Washington and handled much of its planning?",
    "options": [
     "Roy Wilkins",
@@ -553,7 +553,7 @@
     "mlk-memorial",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which labor leader, founder of the Brotherhood of Sleeping Car Porters, was a leading figure behind the 1963 March on Washington?",
    "options": [
     "Walter Reuther",
@@ -638,7 +638,7 @@
     "mlk-memorial",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which was among the stated goals of the 1963 March on Washington?",
    "options": [
     "Reparations for descendants of enslaved people",
@@ -786,7 +786,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "James Reeb, a white minister beaten in Selma on March 9, 1965, who died two days later, belonged to which denomination?",
    "options": [
     "Methodist",
@@ -1233,7 +1233,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In April 1967, King called the Nobel Peace Prize a what when he spoke out against the Vietnam War?",
    "options": [
     "A retirement gift",
@@ -1316,7 +1316,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did King and the SCLC announce the Poor People's Campaign at a press conference in Atlanta?",
    "options": [
     "December 4, 1967",
@@ -1506,7 +1506,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the Memphis mayor who refused to recognize the sanitation workers' union in 1968?",
    "options": [
     "E. H. Crump",
@@ -1738,7 +1738,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "At which seminary did King earn a Bachelor of Divinity in 1951?",
    "options": [
     "Crozer Theological Seminary",
@@ -1800,7 +1800,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Black member of the House of Representatives began introducing the King holiday bill in 1968, shortly after the assassination?",
    "options": [
     "Adam Clayton Powell Jr.",
@@ -1821,7 +1821,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was elected the first chairman of SNCC after its founding at Shaw University in 1960?",
    "options": [
     "John Lewis",
@@ -1924,7 +1924,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did the Freedom Rides begin, with riders leaving Washington, D.C., aboard two buses bound for New Orleans?",
    "options": [
     "December 1, 1955",
@@ -1985,7 +1985,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "After the Freedom Rides, an Interstate Commerce Commission ruling banning segregation in interstate bus facilities took effect on what date?",
    "options": [
     "May 4, 1961",
@@ -2027,7 +2027,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Fannie Lou Hamer was the youngest of how many children of Mississippi sharecroppers?",
    "options": [
     "20",
@@ -2048,7 +2048,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Hamer was beaten in a jail in which Mississippi town in 1963, leaving her with lasting kidney and eye damage?",
    "options": [
     "Philadelphia",
@@ -2175,7 +2175,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "John Lewis was born in 1940 near which Alabama town, where his parents were sharecroppers?",
    "options": [
     "Tuskegee",
@@ -2196,7 +2196,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Nashville minister led the direct action workshops that trained John Lewis and other students before the 1960 sit-ins?",
    "options": [
     "Fred Shuttlesworth",
@@ -2238,7 +2238,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Rosa Parks served as secretary of which organization's Montgomery branch at the time of her arrest?",
    "options": [
     "The Women's Political Council",
@@ -2259,7 +2259,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In the summer of 1955, Rosa Parks attended a workshop at which Tennessee school on implementing the Supreme Court's desegregation decision?",
    "options": [
     "Fisk University",
@@ -2281,7 +2281,7 @@
     "mlk-memorial",
     "smithsonian-african-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After the boycott, Rosa Parks moved to which city to find work, later joining the staff of Representative John Conyers?",
    "options": [
     "Chicago",
@@ -2323,7 +2323,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The King memorial's centerpiece takes its form from which line of his \"I Have a Dream\" speech?",
    "options": [
     "\"Let freedom ring from every mountainside\"",
@@ -2344,7 +2344,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The King memorial design was chosen from about 900 entries. Which San Francisco firm won?",
    "options": [
     "ROMA Design Group",
@@ -2386,7 +2386,7 @@
    "stops": [
     "mlk-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What fraternity, to which King belonged, first proposed building a memorial to him in Washington?",
    "options": [
     "Omega Psi Phi",
@@ -2471,7 +2471,7 @@
     "mlk-memorial",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president was the first to address the NAACP, speaking at the Lincoln Memorial on June 29, 1947?",
    "options": [
     "Franklin D. Roosevelt",
@@ -2536,7 +2536,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At what time did Lincoln die after being shot at Ford's Theatre?",
    "options": [
     "10:15 p.m. on April 14, 1865",
@@ -2579,7 +2579,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who, as Lincoln died at the Petersen House, set up a temporary office in the back parlor to question witnesses and start the manhunt?",
    "options": [
     "Secretary of State William Seward",
@@ -2601,7 +2601,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which line is attributed to Edwin Stanton after Lincoln's death, though witnesses disagreed on one word?",
    "options": [
     "\"The union is saved\"",
@@ -2665,7 +2665,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who photographed the inside of the Petersen House in 1865, taking the only known photographs of the room?",
    "options": [
     "Mathew Brady's studio",
@@ -2687,7 +2687,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where is the bed on which Lincoln died now kept?",
    "options": [
     "The Smithsonian National Museum of American History",
@@ -2708,7 +2708,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who treated Lincoln first in Ford's Theatre, a young Army surgeon who found the wound behind his left ear?",
    "options": [
     "Samuel Mudd",
@@ -2751,7 +2751,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which army officer, a guest in Lincoln's box, was stabbed by Booth as he tried to stop him?",
    "options": [
     "Colonel Ward Hill Lamon",
@@ -2772,7 +2772,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What happened to Booth as he jumped from the presidential box to the stage?",
    "options": [
     "He broke his left leg",
@@ -2793,7 +2793,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Latin phrase did many witnesses recall Booth shouting after he shot Lincoln?",
    "options": [
     "E pluribus unum",
@@ -2856,7 +2856,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which conspirator guided Lewis Powell to Seward's house and fled with Booth, surrendering at the Garrett farm?",
    "options": [
     "David Herold",
@@ -2899,7 +2899,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was Booth shot at the Garrett farm in Virginia after refusing to surrender?",
    "options": [
     "April 15, 1865",
@@ -2920,7 +2920,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Union sergeant shot Booth at the Garrett farm?",
    "options": [
     "Charles Leale",
@@ -2941,7 +2941,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What reward did the government offer for Booth's capture after the assassination?",
    "options": [
     "$5,000",
@@ -2962,7 +2962,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Where was John Surratt, a conspirator who had fled, captured in 1866?",
    "options": [
     "Canada",
@@ -3027,7 +3027,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lincoln's funeral train carried his remains through how many states on its way to Illinois?",
    "options": [
     "Three",
@@ -3048,7 +3048,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which famous general and his wife declined an invitation to attend Our American Cousin with the Lincolns?",
    "options": [
     "William T. Sherman",
@@ -3069,7 +3069,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was Booth's original plan against Lincoln, which failed on March 17, 1865?",
    "options": [
     "To poison him",
@@ -3193,7 +3193,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What happened to Ford's Theatre on June 9, 1893?",
    "options": [
     "A fire destroyed the stage",
@@ -3214,7 +3214,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When did a Lincoln museum open on the first floor of the old Ford's Theatre building?",
    "options": [
     "February 12, 1909",
@@ -3235,7 +3235,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did the restored Ford's Theatre reopen as a working theatre, with a televised celebration led by Helen Hayes?",
    "options": [
     "January 30, 1968",
@@ -3337,7 +3337,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how many people sat in the audience at Ford's Theatre on the night of the assassination, according to NPS estimates?",
    "options": [
     "About 1,700",
@@ -3359,7 +3359,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was Abraham Lincoln born, in a one-room log cabin on February 12, 1809?",
    "options": [
     "Springfield, Illinois",
@@ -3380,7 +3380,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many terms did Lincoln serve in the Illinois state legislature before choosing not to run again?",
    "options": [
     "One",
@@ -3423,7 +3423,7 @@
     "lincoln-memorial",
     "fords-theatre"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many joint debates did Lincoln and Stephen Douglas hold across Illinois in 1858?",
    "options": [
     "Two",
@@ -3446,7 +3446,7 @@
     "fords-theatre",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Homestead Act of 1862, signed by Lincoln, gave a settler how much land after five years of living on it?",
    "options": [
     "160 acres",
@@ -3643,7 +3643,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which architect designed the Lincoln Memorial as a temple modeled on the Parthenon?",
    "options": [
     "John Russell Pope",
@@ -3663,7 +3663,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who carved French's statue of Lincoln from white Georgia marble?",
    "options": [
     "Evelyn Longman",
@@ -3683,7 +3683,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many blocks of Georgia marble make up the Lincoln statue?",
    "options": [
     "4",
@@ -3703,7 +3703,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How tall is the seated statue of Lincoln?",
    "options": [
     "19 feet",
@@ -3723,7 +3723,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many exterior Doric columns does the Lincoln Memorial have, one for each state in the Union when Lincoln died?",
    "options": [
     "13",
@@ -3744,7 +3744,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The exterior of the Lincoln Memorial is built of which kind of marble?",
    "options": [
     "Carrara marble",
@@ -3764,7 +3764,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who painted the two interior murals of the Lincoln Memorial, each 60 feet long?",
    "options": [
     "Jules Guerin",
@@ -3784,7 +3784,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The inscription above Lincoln's statue was written by an art critic. What was his name?",
    "options": [
     "Ernest Bairstow",
@@ -3889,7 +3889,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On which date did construction of the Lincoln Memorial begin with a groundbreaking?",
    "options": [
     "February 12, 1914",
@@ -3930,7 +3930,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year was an engraved marker placed on the Lincoln Memorial steps at the spot where King spoke in 1963?",
    "options": [
     "1964",
@@ -3994,7 +3994,7 @@
     "lincoln-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When was the Lincoln Memorial listed on the National Register of Historic Places?",
    "options": [
     "April 14, 1965",
@@ -4014,7 +4014,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How tall is each of the Lincoln Memorial's exterior Doric columns?",
    "options": [
     "44 feet",
@@ -4034,7 +4034,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What material forms the pedestal under the seated statue of Lincoln in the Lincoln Memorial?",
    "options": [
     "Granite",
@@ -4055,7 +4055,7 @@
    "stops": [
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which student of Daniel Chester French carved the decorations around the speeches inside the Lincoln Memorial?",
    "options": [
     "Anna Hyatt Huntington",
@@ -4076,7 +4076,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which architect designed the Jefferson Memorial, though he died in 1937 before it was built?",
    "options": [
     "Henry Bacon",
@@ -4097,7 +4097,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who laid the cornerstone of the Jefferson Memorial on November 15, 1939, burying 15 volumes of Jefferson's publications inside it?",
    "options": [
     "Woodrow Wilson",
@@ -4117,7 +4117,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which sculptor made the bronze statue of Jefferson in the center of the Jefferson Memorial?",
    "options": [
     "Daniel Chester French",
@@ -4158,7 +4158,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which sculptor created the pediment relief of the Jefferson Memorial showing the five-man drafting committee presenting the Declaration of Independence?",
    "options": [
     "Rudulph Evans",
@@ -4179,7 +4179,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many Ionic columns form the circular colonnade of the Jefferson Memorial?",
    "options": [
     "26",
@@ -4200,7 +4200,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Jefferson Memorial's exterior is built of white marble from which state?",
    "options": [
     "Colorado",
@@ -4285,7 +4285,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "A memorial inscription taken from an 1816 letter to Samuel Kercheval says Jefferson was not an advocate for what?",
    "options": [
     "Frequent changes in laws and constitutions",
@@ -4390,7 +4390,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was Thomas Jefferson born on April 13, 1743?",
    "options": [
     "Shadwell, Virginia",
@@ -4412,7 +4412,7 @@
     "jefferson-memorial",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Jefferson studied law under which Virginia teacher from 1762 to 1767?",
    "options": [
     "Patrick Henry",
@@ -4455,7 +4455,7 @@
     "jefferson-memorial",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which man was NOT one of the five members of the Committee of Five that drafted the Declaration of Independence?",
    "options": [
     "John Adams",
@@ -4475,7 +4475,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Jefferson served as governor of Virginia from June 1779 to when?",
    "options": [
     "January 1776",
@@ -4517,7 +4517,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1785, Jefferson was appointed to represent the United States as minister to which country?",
    "options": [
     "France",
@@ -4539,7 +4539,7 @@
     "white-house",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which post did Jefferson hold under President George Washington, beginning in 1790?",
    "options": [
     "Secretary of the Treasury",
@@ -4582,7 +4582,7 @@
     "jefferson-memorial",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What date does the Louisiana Purchase treaty bear?",
    "options": [
     "July 4, 1776",
@@ -4691,7 +4691,7 @@
     "jefferson-memorial",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After the British burned the Library of Congress during the War of 1812, what did Jefferson do with his personal library?",
    "options": [
     "He sold it to the U.S. government to replace the lost Library of Congress",
@@ -4712,7 +4712,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Jefferson die at Monticello, at age 83?",
    "options": [
     "July 4, 1776",
@@ -4732,7 +4732,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Robert Mills's original design for the Washington Monument had what feature that was never built?",
    "options": [
     "A statue of Washington on a horse atop the obelisk",
@@ -4753,7 +4753,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was the cornerstone of the Washington Monument laid?",
    "options": [
     "July 4, 1848",
@@ -4774,7 +4774,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how high had the Washington Monument risen when donations ran out and work stopped in 1854?",
    "options": [
     "About 15 feet",
@@ -4815,7 +4815,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Army Corps of Engineers officer completed the Washington Monument after Congress took over in 1876?",
    "options": [
     "Gen. Montgomery Meigs",
@@ -4836,7 +4836,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What metal was used for the tip of the Washington Monument, set in place on December 6, 1884?",
    "options": [
     "Gold",
@@ -4857,7 +4857,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was the completed Washington Monument dedicated?",
    "options": [
     "December 6, 1884",
@@ -4878,7 +4878,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did the Washington Monument officially open to the public with a passenger elevator?",
    "options": [
     "October 9, 1888",
@@ -4899,7 +4899,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "For about how many years was the Washington Monument the tallest structure in the world, from 1884 until another landmark opened in 1889?",
    "options": [
     "About fifty years",
@@ -4920,7 +4920,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What was the total cost of building the Washington Monument from 1848 to 1888?",
    "options": [
     "About $1.2 million",
@@ -4940,7 +4940,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How tall is the Washington Monument?",
    "options": [
     "About 1,000 feet",
@@ -4982,7 +4982,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "After earthquake repairs costing about $15 million, when did the Washington Monument reopen to visitors?",
    "options": [
     "May 12, 2014",
@@ -5024,7 +5024,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What happened at the Washington Monument in December 1982?",
    "options": [
     "A man threatened to blow it up in a ten-hour standoff",
@@ -5046,7 +5046,7 @@
     "washington-monument",
     "library-of-congress"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which year was the Washington National Monument Society formed to build the memorial?",
    "options": [
     "1799",
@@ -5067,7 +5067,7 @@
     "washington-monument",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was George Washington born in Virginia?",
    "options": [
     "February 22, 1732",
@@ -5088,7 +5088,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In July 1754, Washington surrendered which fort to a French force, an early event in the French and Indian War?",
    "options": [
     "Fort Duquesne",
@@ -5130,7 +5130,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Washington marry Martha Dandridge Custis?",
    "options": [
     "January 6, 1759",
@@ -5172,7 +5172,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "British forces evacuated Boston on March 17, 1776, after Washington's troops fortified which place?",
    "options": [
     "Bunker Hill",
@@ -5214,7 +5214,7 @@
     "washington-monument",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which role did Washington hold at the 1787 Constitutional Convention?",
    "options": [
     "President of the convention",
@@ -5236,7 +5236,7 @@
     "national-archives",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How was Washington elected president in 1789 and again in 1792?",
    "options": [
     "By the House of Representatives after a tie",
@@ -5258,7 +5258,7 @@
     "white-house",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where did Washington take the oath of office as president on April 30, 1789?",
    "options": [
     "New York City",
@@ -5303,7 +5303,7 @@
     "white-house",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Washington sign the bill creating the First Bank of the United States?",
    "options": [
     "April 30, 1789",
@@ -5324,7 +5324,7 @@
     "washington-monument",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1794 Washington summoned the militias of four states in response to what uprising?",
    "options": [
     "Shays' Rebellion",
@@ -5368,7 +5368,7 @@
    "stops": [
     "washington-monument"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Washington die at Mount Vernon at age 67?",
    "options": [
     "April 30, 1799",
@@ -5411,7 +5411,7 @@
     "washington-monument",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Washington's neutrality policy was issued during which foreign conflict?",
    "options": [
     "The Napoleonic Wars",
@@ -5453,7 +5453,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which landscape architect was selected in 1974 to design the Franklin D. Roosevelt Memorial?",
    "options": [
     "Maya Lin",
@@ -5474,7 +5474,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was the Franklin D. Roosevelt Memorial dedicated by President Bill Clinton?",
    "options": [
     "May 2, 1997",
@@ -5495,7 +5495,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "When did Congress establish the commission that began planning a memorial to Roosevelt?",
    "options": [
     "May 2, 1997",
@@ -5578,7 +5578,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "A quotation at the memorial comes from Roosevelt's 1936 \"I Hate War\" speech in which New York town?",
    "options": [
     "Hyde Park",
@@ -5620,7 +5620,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how large is the FDR Memorial, which sits beside the Tidal Basin?",
    "options": [
     "7.5 acres",
@@ -5662,7 +5662,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "By what margin did Roosevelt win the governorship of New York in 1928?",
    "options": [
     "Over twenty points",
@@ -5683,7 +5683,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Roosevelt ran for vice president in 1920 on a ticket with which presidential candidate?",
    "options": [
     "Al Smith",
@@ -5816,7 +5816,7 @@
     "fdr-memorial",
     "national-archives"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which year did Roosevelt sign the Social Security Act, creating old-age insurance and unemployment programs?",
    "options": [
     "1933",
@@ -5946,7 +5946,7 @@
     "fdr-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What agreement did Roosevelt and Winston Churchill issue in August 1941 to state their war goals?",
    "options": [
     "The Atlantic Charter",
@@ -6012,7 +6012,7 @@
     "fdr-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At which November 1943 conference did Roosevelt, Churchill and Stalin agree on a 1944 invasion of France?",
    "options": [
     "Casablanca",
@@ -6075,7 +6075,7 @@
     "fdr-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which vice president served with Roosevelt from 1933 to 1941?",
    "options": [
     "Henry A. Wallace",
@@ -6096,7 +6096,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "At what age did Roosevelt begin attending Groton School?",
    "options": [
     "8",
@@ -6117,7 +6117,7 @@
    "stops": [
     "fdr-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date in 1905 did Franklin marry Eleanor Roosevelt?",
    "options": [
     "January 30",
@@ -6182,7 +6182,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what state was Frederick Douglass born into slavery around 1818?",
    "options": [
     "Maryland",
@@ -6204,7 +6204,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was Frederick Douglass's birth name?",
    "options": [
     "Frederick Washington Douglass",
@@ -6267,7 +6267,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Douglass escape slavery by train and boat?",
    "options": [
     "July 5, 1852",
@@ -6308,7 +6308,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1841 Douglass was hired as a lecturer by which organization?",
    "options": [
     "The American Colonization Society",
@@ -6329,7 +6329,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the title of Douglass's first autobiography, published in May 1845?",
    "options": [
     "My Bondage and My Freedom",
@@ -6434,7 +6434,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which year did Douglass publish My Bondage and My Freedom, his second autobiography?",
    "options": [
     "1845",
@@ -6564,7 +6564,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1872, a fire at Douglass's home in Rochester led him to move to where?",
    "options": [
     "Boston",
@@ -6586,7 +6586,7 @@
     "frederick-douglass-house",
     "treasury"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1874 Frederick Douglass became president of which bank, whose collapse cost him heavy personal losses?",
    "options": [
     "The Freedman's Savings Bank",
@@ -6607,7 +6607,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1877 Douglass was appointed to which post in the District of Columbia?",
    "options": [
     "Mayor",
@@ -6670,7 +6670,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Whom did Douglass marry in 1884, two years after the death of his first wife?",
    "options": [
     "Helen Pitts",
@@ -6712,7 +6712,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did Frederick Douglass die at Cedar Hill?",
    "options": [
     "September 3, 1838",
@@ -6733,7 +6733,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Where was Frederick Douglass buried?",
    "options": [
     "Mount Hope Cemetery, Rochester, New York",
@@ -6754,7 +6754,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How much did Douglass pay for the Cedar Hill house and about nine acres?",
    "options": [
     "$670",
@@ -6796,7 +6796,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Douglass expanded Cedar Hill from 14 rooms to how many?",
    "options": [
     "21",
@@ -6838,7 +6838,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Congress chartered which group on June 6, 1900, for the sole purpose of preserving the Douglass home?",
    "options": [
     "The Black History Preservation Society",
@@ -6859,7 +6859,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which national women's organization partnered with the Douglass memorial association in 1916 to pay off the loan and restore Frederick Douglass's house?",
    "options": [
     "The Daughters of the American Revolution",
@@ -6900,7 +6900,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what year did the National Park Service open the restored Douglass home to the public?",
    "options": [
     "1972",
@@ -6921,7 +6921,7 @@
     "frederick-douglass-house",
     "smithsonian-american-history"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which gift is on display at Cedar Hill, among objects from the Douglass family?",
    "options": [
     "Abraham Lincoln's cane, sent by Mary Todd Lincoln after his death",
@@ -6942,7 +6942,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Douglass broke with William Lloyd Garrison in May 1851 over what?",
    "options": [
     "Whether to publish a newspaper",
@@ -6984,7 +6984,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1871 Douglass served on a commission investigating the annexation of which Caribbean territory?",
    "options": [
     "Cuba",
@@ -7005,7 +7005,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1872 the Equal Rights Party nominated Douglass for vice president without his consent. Whom did he campaign for?",
    "options": [
     "Horace Greeley",
@@ -7026,7 +7026,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1886 and 1887, Douglass traveled through Europe and which other two countries?",
    "options": [
     "India and China",
@@ -7047,7 +7047,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which religious denomination does Washington National Cathedral belong to?",
    "options": [
     "Roman Catholic",
@@ -7068,7 +7068,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Congress granted a charter for Washington National Cathedral on January 6 of which year?",
    "options": [
     "1893",
@@ -7088,7 +7088,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which Bishop of Washington selected Washington National Cathedral's hilltop site?",
    "options": [
     "Mariann Budde",
@@ -7253,7 +7253,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many bells are in Washington National Cathedral's carillon?",
    "options": [
     "10",
@@ -7317,7 +7317,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which president is buried in the cathedral, the only president buried in Washington, D.C.?",
    "options": [
     "Theodore Roosevelt",
@@ -7441,7 +7441,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was the first African American Bishop of Washington?",
    "options": [
     "John T. Walker",
@@ -7525,7 +7525,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which famous architect's firm designed Washington's Union Station in the Beaux-Arts style?",
    "options": [
     "Frank Lloyd Wright",
@@ -7586,7 +7586,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did the first B&O train arrive at Union Station, marking its opening?",
    "options": [
     "October 27, 1907",
@@ -7607,7 +7607,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Union Station's construction wiped out much of which Washington neighborhood?",
    "options": [
     "Foggy Bottom",
@@ -7649,7 +7649,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How high is the ceiling of the main waiting room at Union Station?",
    "options": [
     "46 feet",
@@ -7710,7 +7710,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did Amtrak take over intercity passenger rail service, including at Union Station?",
    "options": [
     "July 4, 1976",
@@ -7794,7 +7794,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "When did the restored Union Station reopen with a new marketplace of shops and restaurants?",
    "options": [
     "October 27, 1907",
@@ -7877,7 +7877,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which year did Congress create the National Air Museum, the predecessor of today's museum?",
    "options": [
     "1903",
@@ -7897,7 +7897,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which firm's architect Gyo Obata designed the National Air and Space Museum building?",
    "options": [
     "HOK",
@@ -7918,7 +7918,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which Apollo 11 astronaut served as director of the National Air and Space Museum when it opened in 1976?",
    "options": [
     "Neil Armstrong",
@@ -8001,7 +8001,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 2014 the National Air and Space Museum began a renovation of its Milestones of Flight hall funded by a $30 million donation from which company?",
    "options": [
     "Lockheed Martin",
@@ -8062,7 +8062,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "What was the longest flight of the Wrights' first day, flown by Wilbur?",
    "options": [
     "59 seconds, covering 852 feet",
@@ -8103,7 +8103,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How did the Wrights control their aircraft's roll, an idea Wilbur got from twisting a box?",
    "options": [
     "By using ailerons",
@@ -8164,7 +8164,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On September 20, 1904, Wilbur Wright flew the first what at Huffman Prairie near Dayton?",
    "options": [
     "Complete circle",
@@ -8185,7 +8185,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "About how long did Lindbergh's New York to Paris flight take?",
    "options": [
     "About 3.5 hours",
@@ -8206,7 +8206,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Lindbergh's flight was made to win a prize of what amount?",
    "options": [
     "$2,500, the Pulitzer Prize",
@@ -8332,7 +8332,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 1935 Earhart became the first person to fly solo from Hawaii to which place?",
    "options": [
     "Seattle, Washington",
@@ -8353,7 +8353,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Earhart and navigator Fred Noonan disappeared over the Pacific on what date?",
    "options": [
     "July 2, 1937",
@@ -8374,7 +8374,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Earhart helped found and became the first elected president of which organization of women pilots?",
    "options": [
     "The Women Airforce Service Pilots",
@@ -8395,7 +8395,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Earhart's 1928 Friendship flight, in which she flew as a passenger, ended in which country?",
    "options": [
     "France",
@@ -8437,7 +8437,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who commanded the 332nd Fighter Group of the Tuskegee Airmen?",
    "options": [
     "Benjamin O. Davis Jr.",
@@ -8500,7 +8500,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1941, Eleanor Roosevelt took a flight with which Tuskegee instructor, drawing public attention to Black pilots?",
    "options": [
     "Benjamin O. Davis Jr.",
@@ -8585,7 +8585,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "About how much did Sputnik 1 weigh, a 58-centimeter sphere?",
    "options": [
     "8.36 kilograms",
@@ -8606,7 +8606,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What animal rode on Sputnik 2, launched in November 1957?",
    "options": [
     "A chimpanzee named Ham",
@@ -8732,7 +8732,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "About how much lunar material did Apollo 11 bring back?",
    "options": [
     "About 4.75 pounds",
@@ -8753,7 +8753,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what ship's deck was the Apollo 11 crew recovered after splashing down on July 24, 1969?",
    "options": [
     "The USS Enterprise",
@@ -8816,7 +8816,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the name of the first Space Shuttle to fly into orbit, in April 1981?",
    "options": [
     "Columbia",
@@ -8837,7 +8837,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many operational orbiters were built for the Space Shuttle program?",
    "options": [
     "Two",
@@ -8879,7 +8879,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date did the Space Shuttle program's final mission end with the landing of Atlantis?",
    "options": [
     "January 28, 1986",
@@ -8900,7 +8900,7 @@
    "stops": [
     "air-and-space"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How many astronauts died in the two Space Shuttle accidents, Challenger and Columbia?",
    "options": [
     "7",
@@ -8921,7 +8921,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "On what date did the National Museum of the American Indian open on the National Mall?",
    "options": [
     "July 1, 1976",
@@ -8942,7 +8942,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year did Congress create the National Museum of the American Indian as part of the Smithsonian?",
    "options": [
     "1846",
@@ -8982,7 +8982,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The museum's Washington building is clad in which golden stone?",
    "options": [
     "Vermont marble",
@@ -9150,7 +9150,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Which artist designed the National Native American Veterans Memorial at the National Museum of the American Indian?",
    "options": [
     "Douglas Cardinal",
@@ -9171,7 +9171,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year did the in-person dedication of the National Native American Veterans Memorial take place on Veterans Day?",
    "options": [
     "2022",
@@ -9192,7 +9192,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "By 2014 the Smithsonian reported it had repatriated or offered to repatriate the remains of how many individuals?",
    "options": [
     "More than 6,000",
@@ -9362,7 +9362,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "The Second Seminole War lasted from 1835 to what year?",
    "options": [
     "1842",
@@ -9446,7 +9446,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "For how long did the government hold allotted land in trust under the Dawes Act?",
    "options": [
     "5 years",
@@ -9551,7 +9551,7 @@
    "stops": [
     "smithsonian-american-indian"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In the 2009 settlement of Cobell v. Salazar, the government agreed to pay how much over mismanagement of Native trust funds?",
    "options": [
     "$34 million",
@@ -10080,7 +10080,7 @@
    "stops": [
     "union-station"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In what year was Washington's Union Station listed on the National Register of Historic Places?",
    "options": [
     "1969",
@@ -10121,7 +10121,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Before its current multi-year renovation, Washington National Cathedral's Great Organ had about how many pipes?",
    "options": [
     "About 10,650",
@@ -10142,7 +10142,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the name of Douglass's mother, who died when he was about seven?",
    "options": [
     "Harriet Bailey",
@@ -10163,7 +10163,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Which book, discovered at about age 12, helped shape the young Douglass's thinking about freedom and rhetoric?",
    "options": [
     "The Federalist Papers",
@@ -10184,7 +10184,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What did Douglass wear for his September 3, 1838, escape from Baltimore, provided by Anna Murray?",
    "options": [
     "A sailor's uniform",
@@ -10205,7 +10205,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Who was Anna Murray, whom Douglass married on September 15, 1838?",
    "options": [
     "A white abolitionist lecturer",
@@ -10226,7 +10226,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1839, Douglass became what in his church?",
    "options": [
     "A deacon",
@@ -10269,7 +10269,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In which years did Douglass serve as Recorder of Deeds for the District of Columbia?",
    "options": [
     "1881 to 1886",
@@ -10290,7 +10290,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Douglass served as U.S. Minister Resident to Haiti until which year?",
    "options": [
     "1881",
@@ -10332,7 +10332,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Frederick and Anna Douglass's five children included which daughter, who died at age 10?",
    "options": [
     "Rosetta",
@@ -10374,7 +10374,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How much did Thomas Auld sell his rights over Douglass for to Hugh Auld in October 1845?",
    "options": [
     "$1,000",
@@ -10395,7 +10395,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In November 1864 Douglass returned to which state for the first time in 26 years?",
    "options": [
     "Virginia",
@@ -10459,7 +10459,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "At the time of the assassination, where did the Petersens and their children live in the Petersen House?",
    "options": [
     "On the second floor",
@@ -10524,7 +10524,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who later turned the Petersen House into a Lincoln museum?",
    "options": [
     "Louis Schade",
@@ -10608,7 +10608,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What was the date of Richmond's fall to Union forces, just days before Lincoln's assassination?",
    "options": [
     "April 3, 1865",
@@ -10628,7 +10628,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "How many entries did the nationwide competition for the Jefferson Memorial statue draw?",
    "options": [
     "11",
@@ -10649,7 +10649,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Jefferson Memorial's interior floor is built of which stone?",
    "options": [
     "White Vermont marble",
@@ -10671,7 +10671,7 @@
     "jefferson-memorial",
     "white-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "The Jefferson Memorial stands in a straight line with which building?",
    "options": [
     "The White House",
@@ -10713,7 +10713,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In 2007 the Jefferson Memorial ranked fourth in the American Institute of Architects' list of what?",
    "options": [
     "Most Endangered Places",
@@ -10734,7 +10734,7 @@
    "stops": [
     "jefferson-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "What year was the Jefferson Memorial added to the National Register of Historic Places?",
    "options": [
     "1943",
@@ -10757,7 +10757,7 @@
     "lincoln-memorial",
     "capitol-rotunda"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "On what date was Lincoln's state funeral held in Washington?",
    "options": [
     "April 15, 1865",
@@ -10779,7 +10779,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How did Ulysses S. Grant describe Lincoln after his death?",
    "options": [
     "\"The father of the Union\"",
@@ -10822,7 +10822,7 @@
    "stops": [
     "fords-theatre"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In what year did Congress approve funds to restore Ford's Theatre?",
    "options": [
     "1932",
@@ -10844,7 +10844,7 @@
     "fords-theatre",
     "lincoln-memorial"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "How old was Lincoln when he died at the Petersen House?",
    "options": [
     "49",
@@ -10907,7 +10907,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "In 1843 Douglass was attacked by a pro-slavery mob in which state, breaking his hand?",
    "options": [
     "Ohio",
@@ -10928,7 +10928,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "Douglass returned to Boston in April 1847 after how long a tour of Britain and Ireland?",
    "options": [
     "Six weeks",
@@ -10949,7 +10949,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "In September 1851, Douglass helped fugitives escape in what role on the Underground Railroad?",
    "options": [
     "As a train conductor",
@@ -11035,7 +11035,7 @@
    "stops": [
     "frederick-douglass-house"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "q": "According to historian Dickson Preston's research, Douglass was probably born in which month and year?",
    "options": [
     "February 1817",
@@ -11056,7 +11056,7 @@
    "stops": [
     "national-cathedral"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "q": "Who was the second Bishop of Washington, who died in 1923 before the Resurrection Chapel was completed?",
    "options": [
     "Henry Satterlee",
