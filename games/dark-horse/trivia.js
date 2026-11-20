@@ -785,7 +785,7 @@ function renderResults(justFinished){
 function resultsFx(){
   var f = total() / maxScore(), top = total() > maxScore() || f >= 0.7;
   fxc('countUp', document.getElementById('tg-final'), total(), 1000, 0);
-  if (scene()) scene().run(0, total(), {lap: maxScore(), delay: 300, ms: Math.round(2200 + 2600 * Math.min(1, total() / (2 * maxScore())))});
+  if (scene()) scene().run(0, total(), {lap: maxScore(), delay: 300, ms: Math.round(3200 + 3600 * Math.min(1, total() / (2 * maxScore())))});
   fxc('staggerIn', document.querySelectorAll('.tg-qlist>li'), 90);   // the seven answers land one after another under the score
   fxc('slideIn', document.querySelector('.tg-rank'), {delay: 700, dy: 10});
   if (top) setTimeout(function(){ fx('win', {el: document.querySelector('.tg-rank'), intensity: total() > maxScore() ? 1 : 0.8}); }, 900);

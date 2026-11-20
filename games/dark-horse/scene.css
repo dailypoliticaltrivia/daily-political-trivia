@@ -95,11 +95,15 @@
 
 /* the page on top of the course: the game on a frosted panel, room left for the track */
 body.dhs-on{background:transparent}
-body.dhs-on main.page{padding-bottom:calc(var(--dhs-strip,190px) + 28px)}
+/* the page ends above the track: the footer sits on a solid band and is never covered by the strip */
+body.dhs-on,body.dhs-on[data-game-page]{padding-bottom:calc(var(--dhs-strip,190px) + env(safe-area-inset-bottom))}
+body.dhs-on main.page{padding-bottom:var(--s6)}
+body.dhs-on .sitefoot{background:var(--paper);position:relative}
 body.dhs-on .tg{background:color-mix(in srgb,var(--paper) 86%,transparent);-webkit-backdrop-filter:blur(14px) saturate(1.15);backdrop-filter:blur(14px) saturate(1.15);border:1px solid color-mix(in srgb,var(--line-strong) 60%,transparent);border-radius:18px;padding:var(--s5) var(--s5) var(--s5);box-shadow:0 18px 50px -24px rgba(16,24,48,.35)}
 body.dhs-on .tg .tg-top{border-top:0;padding-top:0}
 @media (max-width:759px){
-  body.dhs-on .tg{padding:var(--s3) var(--s3) var(--s4);border-radius:14px;margin-left:-4px;margin-right:-4px}
+  /* phones: a solid panel (a live blur over the moving scene makes scrolling stutter) */
+  body.dhs-on .tg{padding:var(--s3) var(--s3) var(--s4);border-radius:14px;margin-left:-4px;margin-right:-4px;-webkit-backdrop-filter:none;backdrop-filter:none;background:color-mix(in srgb,var(--paper) 96%,transparent)}
   body.dhs-on .tg-clock{background:transparent}
   body.dhs-on .tg .row:has(>#tg-next){background:linear-gradient(to bottom,transparent,color-mix(in srgb,var(--paper) 92%,transparent) 22%);bottom:var(--dhs-strip,110px)}
   /* while typing, the track steps down out of the keyboard's way */
@@ -107,3 +111,16 @@ body.dhs-on .tg .tg-top{border-top:0;padding-top:0}
   .dhs-pop{font-size:15px;padding:4px 9px}
 }
 @media (prefers-reduced-motion:reduce){ .dhs-cloud,.dhs-horse .hb,.dhs-horse .tail-idle .hair{animation:none!important} .dhs-strip{transition:none} }
+
+/* motion effects while galloping (scene.js motion()): speed lines, the streak behind the horse */
+.dhs-speed{position:absolute;left:0;right:0;opacity:0;pointer-events:none}
+.dhs-speed svg{display:block}
+.dhs-speed-back{bottom:var(--dhs-strip,190px);height:42%}
+.dhs-speed-back svg{fill:#fff}
+.dhs-speed-front{inset:0;z-index:2}
+.dhs-speed-front svg{fill:color-mix(in srgb,#fff 80%,var(--dirt1))}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .dhs-speed-back svg{fill:#c9d4ff} }
+:root[data-theme="dark"] .dhs-speed-back svg{fill:#c9d4ff}
+.dhs-trail{position:absolute;opacity:0;pointer-events:none;border-radius:50%;transform-origin:100% 50%;filter:blur(6px);background:linear-gradient(to left,rgba(255,255,255,.75),rgba(255,255,255,0))}
+.dhs-trail.gold{background:linear-gradient(to left,rgba(242,183,5,.9),rgba(242,183,5,0))}
+.dhs-horse{will-change:transform}

@@ -9,7 +9,7 @@
   'use strict';
   if (!document.body || document.body.getAttribute('data-game') !== 'trivia') return;
   var MOTION = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
-  var K = 4;                    // track units per point
+  var K = 6;                    // track units per point
   var STRIP = 190, GROUND = 156; // the front strip's height and the hoof line inside it (units)
   var HS = 1.65;                // horse scale
   var lap = 700, pts = 0, s = 1, vw = 0, horseX = 0, busy = 0;
@@ -130,11 +130,12 @@
     '<pattern id="dhsStripe" width="' + STRIPE_W + '" height="64" patternUnits="userSpaceOnUse"><rect class="turf2" width="' + (STRIPE_W / 2) + '" height="64"/></pattern>' +
     '<pattern id="dhsRail" width="' + RAIL_W + '" height="64" patternUnits="userSpaceOnUse"><rect class="post" x="0" y="34" width="3.2" height="28"/></pattern>' +
     '<pattern id="dhsMarks" width="' + MARK_W + '" height="' + STRIP + '" patternUnits="userSpaceOnUse">' + marks() + '</pattern></defs>' +
-    '<rect class="turf" x="0" y="0" width="100%" height="64"/><rect x="0" y="0" width="100%" height="64" fill="url(#dhsStripe)"/>' +
+    '<rect class="turf" x="0" y="0" width="100%" height="64"/>' +
     '<rect class="dirt" x="0" y="62" width="100%" height="' + (STRIP - 62) + '" fill="url(#dhsDirt)"/>' +
-    '<rect x="0" y="0" width="100%" height="' + STRIP + '" fill="url(#dhsMarks)"/>' +
+    '<g class="mv"><rect x="0" y="0" width="100%" height="62" fill="url(#dhsStripe)"/><rect x="0" y="0" width="100%" height="' + STRIP + '" fill="url(#dhsMarks)"/>' +
+    '<rect x="0" y="0" width="100%" height="64" fill="url(#dhsRail)"/></g>' +
     '<rect class="railshade" x="0" y="62" width="100%" height="5"/>' +
-    '<rect x="0" y="0" width="100%" height="64" fill="url(#dhsRail)"/><rect class="post" x="0" y="34" width="100%" height="3.4"/><rect class="post" x="0" y="45" width="100%" height="2.4"/>' +
+    '<rect class="post" x="0" y="34" width="100%" height="3.4"/><rect class="post" x="0" y="45" width="100%" height="2.4"/>' +
     '<rect class="edge" x="0" y="' + (STRIP - 6) + '" width="100%" height="6"/></svg>';
   var ground = strip.firstChild;
   var PAT = [['dhsStripe', STRIPE_W], ['dhsRail', RAIL_W], ['dhsMarks', MARK_W]].map(function (p) { return [ground.querySelector('#' + p[0]), p[1]]; });
@@ -190,6 +191,10 @@
     horseBox.style.width = r1(hw) + 'px'; horseBox.style.height = r1(hh) + 'px';
     horseBox.style.left = r1(horseX - 66 * HS * s) + 'px';
     horseBox.style.top = r1(GROUND * s - 100 * HS * s) + 'px';
+    if (typeof trail !== 'undefined' && trail) {   // the streak behind the horse while it runs
+      trail.style.left = r1(horseX - 190 * s) + 'px'; trail.style.width = r1(170 * s) + 'px';
+      trail.style.top = r1((GROUND - 62 * HS) * s) + 'px'; trail.style.height = r1(30 * HS * s) + 'px';
+    }
     buildPoles();
     paint(pts);
   }
@@ -215,14 +220,15 @@
     }
     return [u, l, p];
   }
-  function pose(t) {
+  function pose(t, vel) {
+    vel = vel || 0;
     for (var i = 0; i < 4; i++) {
       var a = angles(LEGS[i], t), g = legEls[i].firstChild;
       g.setAttribute('transform', 'rotate(' + r1(a[0]) + ')');
       g.lastChild.setAttribute('transform', 'translate(0 ' + LEGS[i].u + ') rotate(' + r1(a[1]) + ')');
     }
     var w = 2 * Math.PI * t;
-    hb.setAttribute('transform', 'translate(0 ' + r1(-2.6 - 2.6 * Math.sin(w * 2 + .6)) + ') rotate(' + r1(2.2 * Math.sin(w + .8)) + ' 0 -40)');
+    hb.setAttribute('transform', 'translate(0 ' + r1(-2.6 - (2 + 2 * vel) * Math.sin(w * 2 + .6)) + ') rotate(' + r1(3.5 * vel + (1.6 + 1.6 * vel) * Math.sin(w + .8)) + ' 0 -40)');
     neck.setAttribute('transform', 'rotate(' + r1(-3 + 4 * Math.sin(w + 2.2)) + ' 14 -58)');
     tailRun.setAttribute('transform', 'translate(-31.5 -57) rotate(' + r1(5 * Math.sin(w * 2)) + ')');
   }
@@ -237,11 +243,12 @@
 
   /* hoof dust and the points pop-up */
   var dustN = 0;
-  function dust(dx) {
-    if (dustN > 14) return;
+  function dust(dx, vel) {
+    vel = vel || .5;
+    if (dustN > 26) return;
     var d = mk('div', 'dhs-dust', strip); dustN++;
-    d.style.left = r1(horseX + dx * HS * s) + 'px'; d.style.top = r1((GROUND - 6) * s) + 'px';
-    d.style.setProperty('--ds', r1(s * (0.7 + Math.random() * 0.6)));
+    d.style.left = r1(horseX + 56 * s * vel + dx * HS * s) + 'px'; d.style.top = r1((GROUND - 6) * s) + 'px';
+    d.style.setProperty('--ds', r1(s * (0.6 + vel * 0.9 + Math.random() * 0.5)));
     d.addEventListener('animationend', function () { d.remove(); dustN--; });
   }
   function pop(text, big) {
@@ -252,36 +259,95 @@
     e.addEventListener('animationend', function () { e.remove(); });
   }
 
+  /* ---------------------------------------------------------------- motion effects while galloping
+     speed lines (in front of the track and over the lower sky), a sideways blur on the moving ground and trees, a streak behind the
+     horse, the horse surging forward and leaning in, the track bumping under it. All of it follows the run's speed (0 at rest, 1 flat out). */
+  function speedSvg(id) {
+    var l = '', i;
+    for (i = 0; i < 16; i++) {
+      var y = (i * 53 + 17) % 300, len = 70 + (i * 97) % 190, x = (i * 211) % 900, h = 1.4 + (i % 3) * .7;
+      l += '<rect x="' + x + '" y="' + y + '" width="' + len + '" height="' + h + '" rx="' + (h / 2) + '" opacity="' + (.45 + (i % 4) * .15) + '"/>';
+    }
+    return '<svg xmlns="' + NS + '" width="100%" height="100%" focusable="false"><defs><pattern id="' + id + '" width="900" height="300" patternUnits="userSpaceOnUse">' + l + '</pattern></defs>' +
+      '<rect width="100%" height="100%" fill="url(#' + id + ')"/></svg>';
+  }
+  var speedBack = mk('div', 'dhs-speed dhs-speed-back', back), speedFront = mk('div', 'dhs-speed dhs-speed-front', strip);
+  speedBack.innerHTML = speedSvg('dhsSpB'); speedFront.innerHTML = speedSvg('dhsSpF');
+  var SPEED = [speedBack.querySelector('pattern'), speedFront.querySelector('pattern')];
+  var trail = mk('div', 'dhs-trail', strip);
+  strip.insertBefore(trail, horseBox);
+  /* the sideways blur: one filter for the track (ground svg) and one for the tree line */
+  function addBlur(svg, id) {
+    var defs = svg.querySelector('defs');
+    defs.insertAdjacentHTML('beforeend', '<filter id="' + id + '" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="0 0"/></filter>');
+    return defs.querySelector('#' + id + ' feGaussianBlur');
+  }
+  var blurG = addBlur(ground, 'dhsMbG'), blurT = addBlur(L_TREE.svg, 'dhsMbT');
+  var blurTargets = [[ground.querySelector('.mv'), 'dhsMbG', blurG], [L_TREE.svg.querySelector('rect'), 'dhsMbT', blurT], [L_HILL2.svg.querySelector('rect'), 'dhsMbT', null]];
+  var blurOn = false;
+  function motion(vel, cam, k, big) {
+    var a = Math.max(0, (vel - .2) / .8);
+    speedBack.style.opacity = r1(a * .55); speedFront.style.opacity = r1(a * .8);
+    SPEED[0].setAttribute('patternTransform', 'translate(' + r1(-(cam * s * 1.3) % 900) + ' 0)');
+    SPEED[1].setAttribute('patternTransform', 'translate(' + r1(-(cam * s * 2.2) % 900) + ' 0)');
+    var sd = vel > .3 ? (vel - .3) * 10 : 0;
+    if (sd > .25) {
+      blurG.setAttribute('stdDeviation', r1(sd) + ' 0'); blurT.setAttribute('stdDeviation', r1(sd * .6) + ' 0');
+      if (!blurOn) { blurTargets.forEach(function (b) { if (b[0]) b[0].setAttribute('filter', 'url(#' + b[1] + ')'); }); blurOn = true; }
+    } else if (blurOn) { blurTargets.forEach(function (b) { if (b[0]) b[0].removeAttribute('filter'); }); blurOn = false; }
+    var bump = vel > .1 ? (Math.random() - .5) * 2.2 * vel * s : 0;
+    ground.style.transform = bump ? 'translate3d(0,' + r1(bump) + 'px,0)' : '';
+    horseBox.style.transform = 'translate3d(' + r1(56 * s * vel) + 'px,' + r1(-3 * s * vel) + 'px,0)';
+    trail.style.opacity = r1(a * (big ? 1 : .75));
+    trail.style.transform = 'translate3d(' + r1(56 * s * vel) + 'px,0,0) scaleX(' + r1(.4 + a) + ')';
+    trail.classList.toggle('gold', !!big);
+  }
+  function motionOff() {
+    speedBack.style.opacity = 0; speedFront.style.opacity = 0; trail.style.opacity = 0;
+    if (blurOn) { blurTargets.forEach(function (b) { if (b[0]) b[0].removeAttribute('filter'); }); blurOn = false; }
+    ground.style.transform = ''; horseBox.style.transform = '';
+  }
+
   /* ---------------------------------------------------------------- public */
   var token = 0;
   function set(p, lp) {
-    token++; busy = 0; horseBox.classList.remove('run');
+    token++; busy = 0; horseBox.classList.remove('run'); motionOff();
     if (lp && lp !== lap) { lap = lp; buildPoles(); }
     pts = Math.max(0, p || 0); stand(); paint(pts);
   }
+  /* an S-curve with a long flat-out middle: a burst away, a hard run, then pulling up */
+  var RA = .22, RB = .8, RAREA = RA / 2 + (RB - RA) + (1 - RB) / 2;
+  function runEase(k) { return (k < RA ? k * k / (2 * RA) : k <= RB ? RA / 2 + (k - RA) : RAREA - (1 - k) * (1 - k) / (2 * (1 - RB))) / RAREA; }
+  function runVel(k) { return k < .22 ? k / .22 : k > .8 ? (1 - k) / .2 : 1; }
   function run(from, to, o) {
     o = o || {};
     set(from, o.lap);
     var my = token;
     if (!MOTION) { pts = to; paint(pts); pop(o.label, o.big); return; }
     if (to <= from) { setTimeout(function () { if (my === token) balk(); }, o.delay || 0); return; }
-    var ms = o.ms || Math.round(900 + 1800 * Math.min(1, (to - from) / 300));
+    var ms = o.ms || Math.round(1300 + 2600 * Math.min(1, (to - from) / 300));
     setTimeout(function () {
       if (my !== token) return;
-      var slow = +window.__DHS_SLOW || 1, t0 = null, STRIDE = 400 * slow, last = [];   /* __DHS_SLOW: a testing aid (slow motion), never set by the site */
+      var slow = +window.__DHS_SLOW || 1, t0 = null, prev = null, phase = 0, STRIDE = 400 * slow, last = [];   /* __DHS_SLOW: a testing aid (slow motion), never set by the site */
       ms *= slow;
       horseBox.classList.add('run'); busy = 1;
       function step(ts) {
         if (my !== token) return;
-        if (t0 === null) t0 = ts;
-        var el = ts - t0, k = Math.min(1, el / ms), t = el / STRIDE;
-        pts = from + (to - from) * ease(k);
+        if (t0 === null) { t0 = ts; prev = ts; }
+        var el = ts - t0, k = Math.min(1, el / ms), vel = runVel(k), dt = ts - prev; prev = ts;
+        phase += dt / (STRIDE * (1.3 - .55 * vel));   // the legs speed up as the horse gets going
+        pts = from + (to - from) * runEase(k);
         paint(pts);
         if (k < 1) {
-          pose(t % 1);
-          for (var i = 0; i < 4; i++) { var ph = angles(LEGS[i], t % 1)[2]; if (last[i] !== undefined && ph < last[i] && !LEGS[i].far) dust(LEGS[i].x + 4); last[i] = ph; }
+          pose(phase % 1, vel);
+          motion(vel, pts * K, k, o.big);
+          for (var i = 0; i < 4; i++) {
+            var ph = angles(LEGS[i], phase % 1)[2];
+            if (last[i] !== undefined && ph < last[i] && !LEGS[i].far) { dust(LEGS[i].x + 4, vel); if (vel > .7) dust(LEGS[i].x - 6, vel); }
+            last[i] = ph;
+          }
           requestAnimationFrame(step);
-        } else { horseBox.classList.remove('run'); busy = 0; stand(); pop(o.label, o.big); }
+        } else { horseBox.classList.remove('run'); busy = 0; motionOff(); stand(); pop(o.label, o.big); }
       }
       requestAnimationFrame(step);
     }, o.delay || 0);
@@ -304,6 +370,11 @@
 
   stand();
   layout();
-  var rz = 0;
-  window.addEventListener('resize', function () { cancelAnimationFrame(rz); rz = requestAnimationFrame(layout); });
+  /* re-lay out on a real resize only: a phone's address bar sliding in and out while scrolling changes the height a little, and rebuilding then made the scene jump */
+  var rz = 0, lastW = vw, lastH = window.innerHeight;
+  window.addEventListener('resize', function () {
+    var w = document.documentElement.clientWidth || window.innerWidth, h = window.innerHeight;
+    if (w === lastW && Math.abs(h - lastH) < 160) return;
+    lastW = w; lastH = h; cancelAnimationFrame(rz); rz = requestAnimationFrame(layout);
+  });
 })();
