@@ -28,10 +28,11 @@ const stats = {
 fs.writeFileSync(path.join(__dirname, '..', 'assets', 'home-stats.json'), JSON.stringify(stats, null, 1) + '\n');
 
 const items = [
-  [stats.members, 'members of Congress in Congressional Grid'],
-  [stats.darkHorseQuestions, 'questions in Dark Horse'],
+  // easiest game first, the hardest last (the order used across the site)
+  [stats.climbQuestions, 'history questions in Capitol Climb'],
   [stats.caucusPuzzles, 'puzzles in Caucus Sort'],
-  [stats.climbQuestions, 'history questions in Capitol Climb']
+  [stats.darkHorseQuestions, 'questions in Dark Horse'],
+  [stats.members, 'members of Congress in Congressional Grid']
 ];
 const html = '<!-- home-stats:start (written by tools/home-stats.js) -->\n<dl class="nums">' +
   items.map(([n, l]) => '<div><dt>' + fmt(n) + '</dt><dd>' + l + '</dd></div>').join('') +
