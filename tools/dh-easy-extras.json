@@ -1,5 +1,5 @@
 {
- "source": "Supplements for Dark Horse easy questions, 2026-11-16, after an independent completeness check (audit/dh-easy-check/result-A.csv). Acting First Ladies from Wikipedia's 'List of first ladies of the United States'; losing tickets from 'List of United States major party presidential tickets' and the 1796, 1824, 1836, 1860 and 1912 election articles. Second-checked before merge (audit/dh-easy-check/result-C.csv). Added later from audit/dh-easy-check/result-B.csv (reviewed against the cited lists): ranForPresident (easy-0011), womenGovernorsX (easy-0012), primariesX (easy-0019). Second check (result-C.csv): John Eager Howard removed (never formally nominated); Nathan Sanford, Nathaniel Macon, the 1848/1924/1968 third-party tickets and three more hostesses added.",
+ "source": "Supplements for Dark Horse easy questions, 2026-11-16, after an independent completeness check (audit/dh-easy-check/result-A.csv). Acting First Ladies from Wikipedia's 'List of first ladies of the United States'; losing tickets from 'List of United States major party presidential tickets' and the 1796, 1824, 1836, 1860 and 1912 election articles. Second-checked before merge (audit/dh-easy-check/result-C.csv). Added later from audit/dh-easy-check/result-B.csv (reviewed against the cited lists): ranForPresident (easy-0011), womenGovernorsX (easy-0012), primariesX (easy-0019). Second check (result-C.csv): John Eager Howard removed (never formally nominated); Nathan Sanford, Nathaniel Macon, the 1848/1924/1968 third-party tickets and three more hostesses added. Batch 3 check (b3/result-misc.csv): Mary Abigail Fillmore, Abby Kent Means, Mary Johnson Stover, Eliza Monroe Hay and Helen Woodrow Bones added as acting First Ladies.",
  "actingFirstLadies": [
   {
    "name": "Martha Jefferson Randolph",
@@ -96,6 +96,42 @@
    "name": "Martha Johnson Patterson",
    "aliases": [
     "Martha Patterson"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Mary Abigail Fillmore",
+   "aliases": [
+    "Mary Fillmore",
+    "Abby Fillmore"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Abby Kent Means",
+   "aliases": [
+    "Abby Means"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Mary Johnson Stover",
+   "aliases": [
+    "Mary Stover"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Eliza Monroe Hay",
+   "aliases": [
+    "Eliza Hay"
+   ],
+   "weight": 5
+  },
+  {
+   "name": "Helen Woodrow Bones",
+   "aliases": [
+    "Helen Bones"
    ],
    "weight": 5
   }

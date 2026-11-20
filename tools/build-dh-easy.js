@@ -30,9 +30,10 @@ const ABBR = { Alabama: 'AL', Alaska: 'AK', Arizona: 'AZ', Arkansas: 'AR', Calif
 function cities() {
   const rows = JSON.parse(fs.readFileSync(path.join(ROOT, 'audit', 'dh-curated-data', 'us-places-10k.json'), 'utf8')).filter(r => r.pop >= 100000);
   const base = r => PLACE_FIX[r.n] || r.n.replace(/\s*\((balance|part)\)\s*$/i, '').replace(/\s+(city and borough|consolidated government|metropolitan government|unified government|urban county|metro government|municipality|city|town|village|borough|CDP)$/i, '').trim();
-  const seenBS = new Set(); const list = rows.map(r => ({ b: base(r), st: r.st, pop: r.pop, n: r.n })).sort((a, b) => b.pop - a.pop).filter(x => { const k = norm(x.b) + '|' + x.st; if (seenBS.has(k)) return false; seenBS.add(k); return true; }); // New England towns repeat their city
+  const vent = x => { const m = /^(.+?) \((.+)\)$/.exec(x.b); if (m) { x.alt = m[1]; x.b = m[2]; } return x; };
+  const seenBS = new Set(); const list = rows.map(r => vent({ b: base(r), st: r.st, pop: r.pop, n: r.n })).sort((a, b) => b.pop - a.pop).filter(x => { const k = norm(x.b) + '|' + x.st; if (seenBS.has(k)) return false; seenBS.add(k); return true; }); // New England towns repeat their city
   const dup = {}; list.forEach(x => dup[norm(x.b)] = (dup[norm(x.b)] || 0) + 1); const firstOf = new Set();
-  return list.map((x, i) => { const two = dup[norm(x.b)] > 1; const largest = two && !firstOf.has(norm(x.b)); if (two) firstOf.add(norm(x.b)); return { name: two ? `${x.b}, ${x.st}` : x.b, aliases: two ? [`${x.b}, ${ABBR[x.st]}`].concat(largest ? [x.b] : []) : [`${x.b}, ${x.st}`, `${x.b}, ${ABBR[x.st]}`], weight: rankW(0, i, [25, 60, 130, 230]), surname: false, _pop: x.pop, _st: x.st, _full: x.n }; });
+  return list.map((x, i) => { const two = dup[norm(x.b)] > 1; const largest = two && !firstOf.has(norm(x.b)); if (two) firstOf.add(norm(x.b)); return { name: two ? `${x.b}, ${x.st}` : x.b, aliases: (two ? [`${x.b}, ${ABBR[x.st]}`].concat(largest ? [x.b] : []) : [`${x.b}, ${x.st}`, `${x.b}, ${ABBR[x.st]}`]).concat(x.alt ? [x.alt, `${x.alt}, ${x.st}`] : []), _base: x.b, weight: rankW(0, i, [25, 60, 130, 230]), surname: false, _pop: x.pop, _st: x.st, _full: x.n }; });
 }
 
 /* ---- the questions ---- */
@@ -75,13 +76,13 @@ Q.push(
   senQ('sen-wa-or-nv-co', ['WA', 'OR', 'NV', 'CO']), senQ('sen-sc-al-ms-la', ['SC', 'AL', 'MS', 'LA']), senQ('sen-in-mo-ia-ks', ['IN', 'MO', 'IA', 'KS']),
   senQ('sen-ar-ok-ut-nm-id', ['AR', 'OK', 'UT', 'NM', 'ID']), senQ('sen-nh-me-ri-vt', ['NH', 'ME', 'RI', 'VT']), senQ('sen-ne-sd-nd-mt-wy', ['NE', 'SD', 'ND', 'MT', 'WY']), senQ('sen-wv-ak-az-ky', ['WV', 'AK', 'AZ', 'KY']),
   ...['MD', 'VA', 'NC', 'NJ', 'MI', 'TN', 'KY', 'WI', 'MN', 'AZ', 'SC', 'AL', 'LA', 'IN', 'MO', 'WA', 'CO', 'CT', 'DE', 'MS', 'AR', 'AK'].map(sgQ),
-  ppl('pres-ag', ['people-0001', 'people-0061'], 'Name a U.S. president or a U.S. Attorney General', 'Any president and anyone who has served as Attorney General counts.', 'cabinet'),
+  ppl('pres-ag', ['people-0001', 'people-0061'], 'Name a U.S. president or a U.S. Attorney General', 'Any president and anyone who has served as Attorney General counts (acting attorneys general not included).', 'cabinet'),
   ppl('vp-sos', ['people-0030', 'people-0058'], 'Name a U.S. vice president or a U.S. Secretary of State', 'Any vice president and anyone who has served as Secretary of State counts.', 'vice-presidents'),
   ppl('vp-justice', ['people-0030', 'people-0045'], 'Name a U.S. vice president or a Supreme Court justice (past or present)', 'Any vice president and any justice who has served on the U.S. Supreme Court counts.', 'supreme-court'),
   ppl('sos-ag', ['people-0058', 'people-0061'], 'Name a U.S. Secretary of State or a U.S. Attorney General', 'Anyone who has served as Secretary of State or Attorney General counts.', 'cabinet'),
-  ppl('vp-treasury', ['people-0030', 'people-0059'], 'Name a U.S. vice president or a U.S. Secretary of the Treasury', 'Any vice president and anyone who has served as Secretary of the Treasury counts.', 'cabinet'),
+  ppl('vp-treasury', ['people-0030', 'people-0059'], 'Name a U.S. vice president or a U.S. Secretary of the Treasury', 'Any vice president and anyone who has served as Secretary of the Treasury counts (acting secretaries not included).', 'cabinet'),
   ppl('speaker-sos', ['people-0086', 'people-0058'], 'Name a Speaker of the House or a U.S. Secretary of State', 'Anyone who has been Speaker of the U.S. House of Representatives or served as Secretary of State counts.', 'congress-leadership'),
-  ppl('justice-ag', ['people-0045', 'people-0061'], 'Name a Supreme Court justice (past or present) or a U.S. Attorney General', 'Any justice who has served on the U.S. Supreme Court and anyone who has served as Attorney General counts.', 'supreme-court'),
+  ppl('justice-ag', ['people-0045', 'people-0061'], 'Name a Supreme Court justice (past or present) or a U.S. Attorney General', 'Any justice who has served on the U.S. Supreme Court and anyone who has served as Attorney General counts (acting attorneys general not included).', 'supreme-court'),
   ppl('pres-women-senate', ['people-0001', 'people-0317'], 'Name a U.S. president or a woman who has served in the U.S. Senate', 'Any president and any woman who has served as a U.S. senator (appointed senators included) counts.', 'presidents'),
   ppl('fl-women-senate', ['people-0040', '@actingFL', 'people-0317'], 'Name a First Lady or a woman who has served in the U.S. Senate', 'Any First Lady of the United States (acting First Ladies such as Harriet Lane included) and any woman who has served as a U.S. senator (appointed senators included) counts.', 'first-ladies'),
   ppl('sos-defense-ag', ['people-0058', 'people-0060', 'people-0061'], 'Name a U.S. Secretary of State, Secretary of Defense or Attorney General', 'Anyone who has led the State Department or the Defense Department, or served as Attorney General, counts.', 'executive-branch'),
@@ -103,7 +104,7 @@ Q.push(
   { key: 'state-or-city-250k', b: 2, parts: ['@states', '@cities250'], jp: ['@citymin'], cat: 'states', prompt: 'Name a U.S. state or a U.S. city with at least 250,000 residents', note: 'Any of the 50 states, and every incorporated place with 250,000 or more residents in the Census Bureau 2023 estimates, counts.' },
   { key: 'capitals-eu-as-oc', b: 2, parts: ['@capcont:Europe,Asia,Oceania'], jp: ['@majuro'], cat: 'geography', prompt: 'Name the capital city of a country in Europe, Asia or Oceania', note: 'The capital of any UN member country that the UN statistical standard (M49) places in Europe, Asia or Oceania counts (as designated by that country; where a country names more than one, each counts, and seats of government such as The Hague are accepted). Russia, Turkey, Kazakhstan and the Caucasus countries count.' },
   { key: 'capitals-af-am-oc', b: 2, parts: ['@capcont:Africa,Americas,Oceania'], jp: ['@basseterre'], cat: 'geography', prompt: 'Name the capital city of a country in North America, South America, Africa or Oceania', note: 'The capital of any UN member country that the UN statistical standard (M49) places in the Americas (including Central America and the Caribbean), Africa or Oceania counts (as designated by that country; where a country names more than one, each counts, and seats of government such as The Hague are accepted).' },
-  { key: 'europe-africa', b: 2, parts: ['@cont:Europe,Africa'], jp: ['@stp'], cat: 'geography', prompt: 'Name a country in Europe or Africa', note: 'UN member countries that the UN statistical standard (M49) places in Europe or Africa count. Countries that span Europe and Asia (Russia, Turkey, Kazakhstan, Azerbaijan, Georgia, Armenia and Cyprus) count.' },
+  { key: 'europe-africa', b: 2, parts: ['@cont:Europe,Africa'], jp: ['@stp'], cat: 'geography', prompt: 'Name a country in Europe or Africa', note: 'UN member countries that the UN statistical standard (M49) places in Europe or Africa count. Russia, Turkey, Kazakhstan, Azerbaijan and Georgia, which span Europe and Asia, count, and so do Armenia and Cyprus, which are often counted as European.' },
   { key: 'senate-2000s-2010s', b: 2, parts: ['people-0257', 'people-0258'], jp: ['people-0257', 'people-0258'], cat: 'senators', prompt: 'Name someone who served in the U.S. Senate at some point from 2000 through 2019', note: 'Anyone who served in the U.S. Senate at any time during the 2000s or 2010s counts.' },
   { key: 'gov-2000s-2010s', b: 2, parts: ['people2-0047', 'people2-0048'], jp: ['people2-0047', 'people2-0048'], cat: 'governors', prompt: 'Name someone who served as a U.S. state governor at some point from 2000 through 2019', note: 'Anyone who served as governor of a state at any time during the 2000s or 2010s counts.' },
   { key: 'vp-cur-senate', b: 2, parts: ['people-0030', 'people-0333'], jp: ['people-0030', 'people-0333'], cat: 'vice-presidents', prompt: 'Name a U.S. vice president or a current U.S. senator', note: 'Any vice president, and any senator serving in November 2026 (119th Congress), counts.' },
@@ -118,13 +119,28 @@ Q.push(
   { key: 'europe-asia-oceania', b: 2, parts: ['@cont:Europe,Asia,Oceania'], jp: ['@nauru'], cat: 'geography', prompt: 'Name a country in Europe, Asia or Oceania', note: 'UN member countries that the UN statistical standard (M49) places in Europe, Asia or Oceania count; Asia includes the Middle East and the Caucasus. Countries that span two continents, such as Russia, Turkey, Egypt and Kazakhstan, count for both.' },
   { key: 'americas-africa-oceania', b: 2, parts: ['@cont:Americas,Africa,Oceania'], jp: ['@skn'], cat: 'geography', prompt: 'Name a country in North America, South America, Africa or Oceania', note: 'UN member countries that the UN statistical standard (M49) places in the Americas (including Central America and the Caribbean), Africa or Oceania count. Egypt, which spans Africa and Asia, counts.' },
 );
+/* ---- batch 3 (2026-11-17): more unions of checked lists; geography mixes of states and continents ---- */
+const p3 = (key, parts, jp, cat, prompt, note) => ({ key, b: 3, parts, jp, cat, prompt, note });
+Q.push(
+  p3('state-africa', ['@states', '@cont:Africa'], ['@seychelles'], 'geography', 'Name a U.S. state or a country in Africa', 'Any of the 50 states, and any of the 54 UN member countries in Africa, counts.'),
+  p3('eu-am-oc', ['@cont:Europe,Americas,Oceania'], ['@kiribati'], 'geography', 'Name a country in Europe, North or South America, or Oceania', 'UN member countries that the UN statistical standard (M49) places in Europe, the Americas (including Central America and the Caribbean) or Oceania count. Russia, Turkey, Kazakhstan, Azerbaijan and Georgia, which span Europe and Asia, Armenia and Cyprus, which are often counted as European, and Indonesia and Timor-Leste count.'),
+  p3('cities-ca-tx-fl', ['@citiesCTF'], ['@citymin'], 'states', 'Name a city or town in California, Texas or Florida with at least 100,000 residents', 'Every incorporated place in California, Texas or Florida with 100,000 or more residents in the Census Bureau 2023 estimates counts.'),
+  p3('senate-1950s-1960s', ['people-0252', 'people-0253'], ['people-0252', 'people-0253'], 'senators', 'Name someone who served in the U.S. Senate at some point from 1950 through 1969', 'Anyone who served in the U.S. Senate at any time during the 1950s or 1960s (appointed senators included) counts.'),
+  p3('senate-1970s-1980s', ['people-0254', 'people-0255'], ['people-0254', 'people-0255'], 'senators', 'Name someone who served in the U.S. Senate at some point from 1970 through 1989', 'Anyone who served in the U.S. Senate at any time during the 1970s or 1980s (appointed senators included) counts.'),
+  p3('speaker-ag', ['people-0086', 'people-0061'], ['people-0061', 'people-0086'], 'congress-leadership', 'Name a Speaker of the House or a U.S. Attorney General', 'Anyone who has been Speaker of the U.S. House of Representatives or served as Attorney General counts (acting attorneys general not included).'),
+  p3('vp-ag', ['people-0030', 'people-0061'], ['people-0061', 'people-0030'], 'vice-presidents', 'Name a U.S. vice president or a U.S. Attorney General', 'Any vice president and anyone who has served as Attorney General counts (acting attorneys general not included).'),
+  p3('pres-women-gov', ['people-0001', 'people-0098', '@womenGovX'], ['people-0098'], 'presidents', 'Name a U.S. president or a woman who has served as governor of a state', 'Any president, and any woman who has served as a state governor (acting governors included), counts.'),
+  p3('capital-city250', ['civics-0209', '@cities250'], ['@citymin'], 'states', 'Name a U.S. state capital or a U.S. city with at least 250,000 residents', 'Any of the 50 state capitals, and every incorporated place with 250,000 or more residents in the Census Bureau 2023 estimates, counts.'),
+  p3('speaker-treasury', ['people-0086', 'people-0059'], ['people-0059', 'people-0086'], 'congress-leadership', 'Name a Speaker of the House or a U.S. Secretary of the Treasury', 'Anyone who has been Speaker of the U.S. House of Representatives or served as Secretary of the Treasury counts (acting secretaries not included).'),
+  p3('fl-women-gov', ['people-0040', '@actingFL', 'people-0098', '@womenGovX'], ['people-0098', 'people-0040'], 'first-ladies', 'Name a First Lady or a woman who has served as governor of a state', 'Any First Lady of the United States (acting First Ladies such as Harriet Lane included), and any woman who has served as a state governor (acting governors included), counts.'),
+);
 const PRIM = JSON.parse(fs.readFileSync(path.join(__dirname, 'dh-easy-primaries.json'), 'utf8'));
 const primaries = () => { const seen = new Set(); const out = []; for (const list of Object.values(PRIM.cycles)) for (const n of list) if (!seen.has(n)) { seen.add(n); out.push({ name: n, aliases: (PRIM.aliases[n] || []).slice(), weight: 3 }); } return out; };
 const contCountries = regs => { const R = regs.split(','); return countries().filter(a => { const c = C.find(x => x.name === a.name); return R.includes(c.m49) || (c.alsoContinent || []).some(r => R.includes(r)); }); };
 const capCont = regs => { const R = regs.split(','); const out = []; C.slice().sort((a, b) => b.sitelinks - a.sitelinks).forEach((c, i) => { if (R.includes(c.m49) || (c.alsoContinent || []).some(r => R.includes(r))) c.capitals.forEach(k => out.push({ name: k.name, aliases: k.aliases.slice(), weight: rankW(0, i, [40, 90, 140, 175]), surname: false })); }); return out; };
 const EX = JSON.parse(fs.readFileSync(path.join(__dirname, 'dh-easy-extras.json'), 'utf8'));
 const exList = k => () => EX[k].map(a => ({ name: a.name, aliases: a.aliases.slice(), weight: a.weight, surname: false }));
-const SPECIAL = { '@actingFL': exList('actingFirstLadies'), '@losePres': exList('losingPresidential'), '@loseVP': exList('losingVP'), '@foundersX': exList('founders'), '@ranX': exList('ranForPresident'), '@thirdX': exList('thirdPartyTickets'), '@womenGovX': exList('womenGovernorsX'), '@primX': exList('primariesX'), '@cities150': () => cities().filter(c => c._pop >= 150000), '@cities200': () => cities().filter(c => c._pop >= 200000), '@cities250': () => cities().filter(c => c._pop >= 250000), '@primaries': primaries, '@states': states, '@countries': countries, '@natcapitals': natCapitals, '@cities': cities };
+const SPECIAL = { '@actingFL': exList('actingFirstLadies'), '@losePres': exList('losingPresidential'), '@loseVP': exList('losingVP'), '@foundersX': exList('founders'), '@ranX': exList('ranForPresident'), '@thirdX': exList('thirdPartyTickets'), '@womenGovX': exList('womenGovernorsX'), '@primX': exList('primariesX'), '@cities150': () => cities().filter(c => c._pop >= 150000), '@cities200': () => cities().filter(c => c._pop >= 200000), '@cities250': () => cities().filter(c => c._pop >= 250000), '@primaries': primaries, '@states': states, '@countries': countries, '@natcapitals': natCapitals, '@cities': cities, '@citiesCTF': () => cities().filter(c => ['California', 'Texas', 'Florida'].includes(c._st)) };
 const CUSTOM_JP = {
   '@palau': { name: 'Ngerulmud', note: 'Palau’s seat of government since 2006, in Melekeok State on the island of Babeldaob.' },
   '@comoros': { name: 'Comoros', note: 'An island nation in the Indian Ocean between Mozambique and Madagascar, independent from France since 1975.' },
@@ -136,9 +152,13 @@ const CUSTOM_JP = {
   '@lobamba': { name: 'Lobamba', note: 'The royal and legislative capital of Eswatini; Mbabane is the administrative capital.' },
   '@kotte': { name: 'Sri Jayawardenepura Kotte', note: 'Sri Lanka’s legislative capital, home of its Parliament; Colombo is the executive and commercial capital.' },
   '@frankfort': { name: 'Frankfort', note: 'Kentucky’s capital, a city of about 28,000 people on the Kentucky River; Louisville and Lexington are both far larger.' },
+  '@seychelles': { name: 'Seychelles', note: 'Africa’s least populous country, an Indian Ocean archipelago of about 120,000 people.' },
+  '@kiribati': { name: 'Kiribati', note: 'A Pacific nation of 33 atolls and islands, the only country with territory in all four hemispheres.' },
   '@tuvalu': { name: 'Tuvalu', note: 'A Pacific island nation of about 11,000 people, it joined the United Nations in 2000.' },
 };
 
+const NOMERGE = new Set(['john breckinridge']); // distinct people whose full name is another answer's alias
+const NOTE_FIX = { 'James Guthrie': 'Treasury secretary under Franklin Pierce from 1853 to 1857, he later represented Kentucky in the U.S. Senate from 1865 until ill health forced him to resign in 1868.' };
 const existing = []; for (const q of Object.values(SRC)) existing.push({ id: q.id, set: new Set(q.answers.map(a => norm(a.name))) });
 const jac = (a, b) => { let i = 0; for (const x of a) if (b.has(x)) i++; return i / (a.size + b.size - i || 1); };
 const out = [], report = []; const USEDJP = new Set();
@@ -148,12 +168,20 @@ Q.forEach((c, n) => {
   for (const p of c.parts) for (const a of (SPECIAL[p] ? SPECIAL[p]() : p.startsWith('@cont:') ? contCountries(p.slice(6)) : p.startsWith('@capcont:') ? capCont(p.slice(9)) : src(p))) {
     // merge only on full names (the answer's name, or a multi-word alias equal to another answer's name), never on short aliases like a bare surname
     const keys = [a.name, ...(a.aliases || []).filter(x => /\s/.test(x.trim()))].map(norm);
-    let hit = null; for (const k of keys) { const h = by.get(k) || full.get(k); if (h) { hit = h; break; } }
-    if (!hit) { hit = { name: a.name, aliases: [], weight: a.weight || 3, surname: a.surname, _pop: a._pop, _st: a._st, _full: a._full }; by.set(norm(a.name), hit); }
+    let hit = null; if (!NOMERGE.has(norm(a.name))) for (const k of keys) { const h = by.get(k) || full.get(k); if (h) { hit = h; break; } }
+    if (!hit) { hit = { name: a.name, aliases: [], weight: a.weight || 3, surname: a.surname, _pop: a._pop, _st: a._st, _full: a._full, _base: a._base }; by.set(norm(a.name), hit); }
     else hit.weight = Math.min(hit.weight, a.weight || 3);
     for (const al of [a.name, ...(a.aliases || [])]) { const k = norm(al); if (/\s/.test(al.trim()) && !full.has(k)) full.set(k, hit); if (!keyOf.has(k)) { keyOf.set(k, hit); if (k !== norm(hit.name) && !hit.aliases.includes(al)) hit.aliases.push(al); } }
   }
-  const ans = [...by.values()];
+  let ans = [...by.values()];
+  // an alias that is exactly another answer's name belongs to that answer only
+  const names = new Set(ans.map(a => norm(a.name))); for (const a of ans) a.aliases = a.aliases.filter(al => norm(al) === norm(a.name) || !names.has(norm(al)) || !NOMERGE.has(norm(al)));
+  if (c.b >= 3) { // batch 3: a state capital and the same city from the Census list are one answer; a city's bare name is accepted when no other answer in the question shares it
+    const city = new Map(); for (const a of ans) if (a._base) for (const al of [a.name, ...a.aliases]) city.set(norm(al), a); const bc = {}; for (const a of ans) if (a._base) (bc[norm(a._base)] = bc[norm(a._base)] || []).push(a); for (const k in bc) if (bc[k].length === 1 && !city.has(k)) city.set(k, bc[k][0]);
+    ans = ans.filter(a => { if (a._base) return true; const y = city.get(norm(a.name)); if (!y) return true; y.weight = Math.min(y.weight, a.weight); return false; });
+    const cnt = {}; for (const a of ans) if (a._base) cnt[norm(a._base)] = (cnt[norm(a._base)] || 0) + 1;
+    for (const a of ans) if (a._base && cnt[norm(a._base)] === 1 && !a.aliases.some(x => norm(x) === norm(a._base)) && norm(a.name) !== norm(a._base)) a.aliases.push(a._base);
+  }
   const ghw = ans.find(a => a.name === 'George H. W. Bush'); if (ghw && !keyOf.has(norm('George Bush'))) ghw.aliases.push('George Bush');
   // Dark Horse answer
   let jp = null;
@@ -163,13 +191,14 @@ Q.forEach((c, n) => {
     if (j === '@city') { const cands = ans.filter(a => a._pop && a._pop < 110000).sort((a, b) => a.name.localeCompare(b.name)); const x = cands[Math.floor(cands.length / 2)]; if (x) { jp = x; x.note = `A city of about ${Math.round(x._pop / 1000)},000 people in ${x._st} (Census Bureau 2023 estimate).`; } break; }
     if (CUSTOM_JP[j]) { const x = ans.find(a => norm(a.name) === norm(CUSTOM_JP[j].name)); if (x) { jp = x; x.note = CUSTOM_JP[j].note; } break; }
     const sj = (SRC[j].answers || []).find(a => a.jackpot); if (!sj) continue;
-    const x = ans.find(a => norm(a.name) === norm(sj.name)); if (x && x.weight >= 3) { if (c.b === 2 && USEDJP.has(norm(x.name))) continue; jp = x; x.note = sj.note; break; }
+    const x = ans.find(a => norm(a.name) === norm(sj.name)); if (x && x.weight >= 3) { if (c.b >= 2 && USEDJP.has(norm(x.name))) continue; jp = x; x.note = sj.note; break; }
   }
-  if (!jp && c.b === 2) { // every source jackpot already used in batch 2: take another rare answer that already has a checked jackpot note in some bank
+  if (!jp && c.b >= 2) { // every source jackpot already used in batch 2: take another rare answer that already has a checked jackpot note in some bank
     const cands = ans.filter(a => a.weight >= 4 && JPNOTE.has(norm(a.name)) && !USEDJP.has(norm(a.name))).sort((a, b) => a.name.localeCompare(b.name));
     const x = cands[Math.floor(cands.length / 2)]; if (x) { jp = x; x.note = JPNOTE.get(norm(x.name)); }
   }
-  if (jp) { jp.weight = 5; jp.jackpot = true; if (c.b === 2) USEDJP.add(norm(jp.name)); }
+  if (jp && NOTE_FIX[jp.name]) jp.note = NOTE_FIX[jp.name];
+  if (jp) { jp.weight = 5; jp.jackpot = true; if (c.b >= 2) USEDJP.add(norm(jp.name)); }
   const answers = ans.map(a => { const o = { name: a.name }; if (a.aliases.length) o.aliases = a.aliases; o.weight = a.weight; if (a.surname === false) o.surname = false; if (a.jackpot) { o.jackpot = true; o.note = a.note; } return o; });
   const id = 'easy-' + String(n + 1).padStart(4, '0');
   const set = new Set(answers.map(a => norm(a.name)));
@@ -184,4 +213,4 @@ console.log(report.join('\n'));
 const bad = report.filter(r => / overlap 0\.(8[1-9]|9)/.test(r) || /JP: NONE/.test(r) || /^\S+ \S+\s+(\d{1,2}|[0-9]{1,2}) /.test(r));
 if (bad.length) console.log('PROBLEMS:\n' + bad.join('\n'));
 const strip = q => { const o = Object.assign({}, q); delete o._b; delete o._key; delete o._noteasy; return o; };
-if (!DRY) for (const b of [1, 2]) { const qs = out.filter(q => q._b === b && (b === 1 || !q._noteasy) && !DROP.has(q._key)).map(strip); fs.writeFileSync(path.join(DATA, `bank-easy-${b}.json`), JSON.stringify({ bank: 'easy-' + b, questions: qs })); console.log(`wrote bank-easy-${b}.json`, qs.length); }
+if (!DRY) for (const b of [1, 2, 3]) { const qs = out.filter(q => q._b === b && (b === 1 || !q._noteasy) && !DROP.has(q._key)).map(strip); fs.writeFileSync(path.join(DATA, `bank-easy-${b}.json`), JSON.stringify({ bank: 'easy-' + b, questions: qs })); console.log(`wrote bank-easy-${b}.json`, qs.length); }

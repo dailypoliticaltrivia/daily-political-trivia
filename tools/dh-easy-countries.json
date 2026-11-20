@@ -1,5 +1,5 @@
 {
- "source": "Wikidata members of the United Nations (P463=Q1065) with sovereign-state class, capitals P36; Taiwan removed (not a UN member); names and capitals corrected by hand; independently checked against un.org; capitals updated after independent check 2026-11-16 (audit/dh-easy-data-check.csv): Malabo removed (Equatorial Guinea moved its capital to Ciudad de la Paz by Decree-Law 1/2026), Comayagüela and Cetinje added as constitutional capitals; m49 = UN M49 continent (Asia includes the Middle East and the Caucasus; Cyprus and Turkey are Asia in M49), alsoContinent = transcontinental countries also accepted for the other continent; lenient aliases: Malabo (Equatorial Guinea), and seats of government The Hague, Putrajaya, Cotonou, Dar es Salaam and Abidjan are accepted for their country’s capital",
+ "source": "Wikidata members of the United Nations (P463=Q1065) with sovereign-state class, capitals P36; Taiwan removed (not a UN member); names and capitals corrected by hand; independently checked against un.org; capitals updated after independent check 2026-11-16 (audit/dh-easy-data-check.csv): Malabo removed (Equatorial Guinea moved its capital to Ciudad de la Paz by Decree-Law 1/2026), Comayagüela and Cetinje added as constitutional capitals; m49 = UN M49 continent (Asia includes the Middle East and the Caucasus; Cyprus and Turkey are Asia in M49), alsoContinent = transcontinental countries also accepted for the other continent; lenient aliases: Malabo (Equatorial Guinea), and seats of government The Hague, Putrajaya, Cotonou, Dar es Salaam and Abidjan are accepted for their country’s capital; sitelinks for Denmark and Netherlands set to 400 by hand (2026-11-17): the original counts came from the constituent-country items and ranked both as the least-known countries",
  "count": 193,
  "countries": [
   {
@@ -689,7 +689,7 @@
   {
    "name": "Denmark",
    "q": "Q756617",
-   "sitelinks": 56,
+   "sitelinks": 400,
    "aliases": [],
    "capitals": [
     {
@@ -1802,7 +1802,7 @@
   {
    "name": "Netherlands",
    "q": "Q29999",
-   "sitelinks": 108,
+   "sitelinks": 400,
    "aliases": [
     "Holland",
     "The Netherlands"
